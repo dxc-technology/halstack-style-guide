@@ -10,9 +10,8 @@ These elements that reinforce to the user the necesity to interact are called CT
 
 ##### *Appereance*
 
-Into DXC Design System you will find several buttons with different shades, colors and sizes, each of them carefully designed following best practices to fit in every application that you want to build or integrate with this system.
+Into DXC Design System you will find several buttons with different shades, colors and sizes, each of them carefully designed following best practices to fit in every application that you want to build or integrate with this system.  
 
-<br />
 ###### Modes
 
 We can identify four different modes that imply some visual changes according to color, border or shadow attributes.
