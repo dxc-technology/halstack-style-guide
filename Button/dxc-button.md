@@ -5,11 +5,13 @@
 Buttons are basic interface elements that initialize an action or function when the user interacts with them. The appearance of the button should suggest the user to take an action that leads to different scenarios.
 
 These elements that reinforce to the user the necesity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
-<br />
+<br>
+
 ##### *Appereance*
 
 Into DXC Design System you will find several buttons with different shades, colors and sizes, each of them carefully designed following best practices to fit in every application that you want to build or integrate with this system.
-<br />
+<br>
+
 ###### Modes
 
 We can identify four different modes that imply some visual changes according to color, border or shadow attributes.
@@ -19,6 +21,7 @@ Modes: __basic__, __outlined__, __raised__, __flat__.
 <img src="images/button_modes.svg" alt="Button modes example">
 </div>
 <br>
+
 ###### States
 
 The states are the different behaviours of the button component based in the interaction of the user.
@@ -30,6 +33,7 @@ States: __default__, __disabled__, __hover__, __clicked__ and __animation__.
 <img src="images/button_states.svg" alt="Button states example">
 </div>
 <br>
+
 ##### *Design Specifications*
 
 To define the button design specifications, several properties were identified and assigned unmutable values ​​that makes the component recognizable along applications, independently of the customizable styles given.
@@ -54,7 +58,8 @@ With the default theme, the components will get black as a primary color for the
 <img src="images/button_specs.svg" style="width: 60%">
 
 </div>
-<br />
+<br>
+
 ###### Icon Usage
 
 It is not limited the content of a button, like so you can place icons inside of a button to reinforce the action accordingly to the icon meaning.
@@ -70,7 +75,8 @@ Also, another point to consider is that the icon can goes before or after the te
 <img src="images/button_icon.svg" alt="Button with icon examples">
 </div>
 
-<br />
+<br>
+
 ###### User Interface Design Consideration
 
 Here, you can find more considerations in the using of buttons:
