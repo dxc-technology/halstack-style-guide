@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="589.5" height="137" viewBox="0 0 589.5 137">
+  <defs>
+    <filter id="Box" x="0" y="0" width="155.359" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_973" x="488" y="35.5" width="23.085" height="29.498" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Box-2" x="204" y="85" width="160" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Box-3" x="405" y="85" width="142.83" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_423" data-name="Group 423" transform="translate(-254.5 -1934)">
+    <g id="Buttons_Text_Enabled" data-name="Buttons / Text / Enabled" transform="translate(259 1937)">
+      <g transform="matrix(1, 0, 0, 1, -4.5, -3)" filter="url(#Box)">
+        <rect id="Box-4" data-name="Box" width="146.359" height="43" rx="4" transform="translate(4.5 3)" fill="#ffed00"/>
+      </g>
+    </g>
+    <g id="Group_412" data-name="Group 412" transform="translate(0)">
+      <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(289 1964)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">BUTTON</tspan></text>
+      <path id="user-solid" d="M6.919,7.907A3.953,3.953,0,1,0,2.965,3.953,3.953,3.953,0,0,0,6.919,7.907ZM9.686,8.9H9.17a5.377,5.377,0,0,1-4.5,0H4.151A4.152,4.152,0,0,0,0,13.046v1.285a1.483,1.483,0,0,0,1.483,1.483H12.354a1.483,1.483,0,0,0,1.483-1.483V13.046A4.152,4.152,0,0,0,9.686,8.9Z" transform="translate(361 1951)"/>
+    </g>
+    <g id="Box-5" data-name="Box" transform="translate(463 1937)" fill="none" stroke="#000" stroke-width="2">
+      <rect width="142.8" height="43" rx="4" stroke="none"/>
+      <rect x="1" y="1" width="140.8" height="41" rx="3" fill="none"/>
+    </g>
+    <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-2" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(493 1964)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">SEARCH</tspan></text>
+    <path id="search-solid" d="M15.6,13.672l-3.079-3.079a.741.741,0,0,0-.525-.216h-.5a6.421,6.421,0,1,0-1.112,1.112v.5a.741.741,0,0,0,.216.525L13.672,15.6a.738.738,0,0,0,1.047,0l.874-.874A.745.745,0,0,0,15.6,13.672Zm-9.172-3.3a3.953,3.953,0,1,1,3.953-3.953A3.951,3.951,0,0,1,6.424,10.377Z" transform="translate(559.979 1951)"/>
+    <g id="Buttons_Text_Enabled-2" data-name="Buttons / Text / Enabled" transform="translate(664 1937)">
+      <g id="Box-6" data-name="Box" fill="none" stroke="#ffed00" stroke-width="2">
+        <rect width="180" height="43" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="178" height="41" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_414" data-name="Group 414" transform="translate(31 1241)">
+      <g transform="matrix(1, 0, 0, 1, 223.5, 693)" filter="url(#Path_973)">
+        <path id="Path_973-2" data-name="Path 973" d="M13.646-3.063a1.524,1.524,0,0,0-.477-.321,1.493,1.493,0,0,0-.584-.118h-.062V-4.28l.755-1.064A3.925,3.925,0,0,0,14-7.627V-12.5c0-.1-.007-.173-.009-.266,0-.122-.006-.236-.011-.35-.1-2.34-.774-2.805-2.109-2.873a2.053,2.053,0,0,0-2.139-1.071,2.136,2.136,0,0,0-1.448-.907.49.49,0,0,0-.2-.045H8.078V-19a1.951,1.951,0,0,0-1.9-2,2.091,2.091,0,0,0-2.064,2v5.761l-.672-.817a2.031,2.031,0,0,0-1.454-.623h0a2.039,2.039,0,0,0-1.455.623A1.872,1.872,0,0,0,.5-11.478L1.829-9.565A11.084,11.084,0,0,1,3.181-6.929c.153.467.909,2.589,2.166,3.058v.393A1.481,1.481,0,0,0,5-3.384a1.511,1.511,0,0,0-.66.543A1.493,1.493,0,0,0,4.084-2a1.493,1.493,0,0,0,.256.839A1.511,1.511,0,0,0,5-.62,1.5,1.5,0,0,0,5.584-.5h7a1.493,1.493,0,0,0,.584-.118,1.524,1.524,0,0,0,.477-.321A1.5,1.5,0,0,0,14.085-2,1.5,1.5,0,0,0,13.646-3.063Z" transform="translate(492.5 60)" fill-rule="evenodd"/>
+      </g>
+      <path id="Path_975" data-name="Path 975" d="M11.522-4.44V-3.5H6.347V-4.28a.5.5,0,0,0-.5-.5c-.619,0-1.389-1.469-1.718-2.473a12.117,12.117,0,0,0-1.479-2.884l-1.38-1.976a.9.9,0,0,1-.026-1.244,1.048,1.048,0,0,1,.744-.325h0a1.027,1.027,0,0,1,.712.291l1.527,1.862a.5.5,0,0,0,.555.153.5.5,0,0,0,.332-.471V-19a1.1,1.1,0,0,1,1.064-1,.944.944,0,0,1,.9,1v2.042c0,.012.006.022.007.034V-13.5a.5.5,0,0,0,.5.5.5.5,0,0,0,.5-.5V-17a1.157,1.157,0,0,1,.885.6v2.9a.5.5,0,0,0,.5.5.5.5,0,0,0,.5-.5v-2.568a.991.991,0,0,1,1.058.643V-13.5a.5.5,0,0,0,.5.5.5.5,0,0,0,.5-.5v-1.481c.755.064.976.406.976,2.481v4.876a2.928,2.928,0,0,1-.542,1.7L11.614-4.73A.509.509,0,0,0,11.522-4.44ZM12.585-2.5a.5.5,0,0,1,.5.5.5.5,0,0,1-.5.5h-7a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5h7Z" transform="translate(716 753)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+    <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-3" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(694 1964)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">BACK HOME</tspan></text>
+    <g id="baseline-home-24px" transform="translate(795 1949)">
+      <path id="Path_2049" data-name="Path 2049" d="M8.333,16.458v-4.75H11.5v4.75h3.958V10.125h2.375L9.917,3,2,10.125H4.375v6.333Z" transform="translate(-0.417 -0.625)"/>
+      <path id="Path_2050" data-name="Path 2050" d="M0,0H19V19H0Z" fill="none"/>
+    </g>
+    <g id="Buttons_Text_Enabled-3" data-name="Buttons / Text / Enabled" transform="translate(259 2022)">
+      <rect id="Box-7" data-name="Box" width="146.359" height="43" rx="4" fill="none"/>
+    </g>
+    <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-4" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(316.979 2049)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">RETURN</tspan></text>
+    <g id="baseline-keyboard_backspace-24px" transform="translate(288 2034)">
+      <path id="Path_2051" data-name="Path 2051" d="M0,0H19V19H0Z" fill="none"/>
+      <path id="Path_2052" data-name="Path 2052" d="M17.25,9.958H6.032L8.866,7.116,7.75,6,3,10.75,7.75,15.5l1.116-1.116L6.032,11.542H17.25Z" transform="translate(-0.625 -1.25)"/>
+    </g>
+    <g id="Group_420" data-name="Group 420">
+      <g id="Buttons_Text_Enabled-4" data-name="Buttons / Text / Enabled" transform="translate(463 2022)">
+        <g transform="matrix(1, 0, 0, 1, -208.5, -88)" filter="url(#Box-2)">
+          <rect id="Box-8" data-name="Box" width="151" height="43" rx="4" transform="translate(208.5 88)"/>
+        </g>
+      </g>
+      <path id="Intersection_25" data-name="Intersection 25" d="M5.656,43A39.269,39.269,0,0,1,7.224,0H72.037A39.268,39.268,0,0,1,73.6,43Z" transform="translate(504 2022)" fill="#666"/>
+      <g id="Group_419" data-name="Group 419" transform="translate(18)">
+        <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-5" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(504 2049)" fill="#ffed00" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">BUTTON</tspan></text>
+        <g id="baseline-list-24px" transform="translate(475 2034)">
+          <path id="Path_2053" data-name="Path 2053" d="M3,11.75H4.583V10.167H3Zm0,3.167H4.583V13.333H3ZM3,8.583H4.583V7H3ZM6.167,11.75H17.25V10.167H6.167Zm0,3.167H17.25V13.333H6.167ZM6.167,7V8.583H17.25V7Z" transform="translate(-0.625 -1.458)" fill="#ffed00"/>
+          <path id="Path_2054" data-name="Path 2054" d="M0,0H19V19H0Z" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_422" data-name="Group 422">
+      <g transform="matrix(1, 0, 0, 1, 254.5, 1934)" filter="url(#Box-3)">
+        <path id="Box-9" data-name="Box" d="M4.388,0H129.442c2.423,0,4.388,1.674,4.388,3.739V39.261c0,2.065-1.965,3.739-4.388,3.739H4.388C1.965,43,0,41.326,0,39.261V3.739C0,1.674,1.965,0,4.388,0Z" transform="translate(409.5 88)" fill="#d9d9d9"/>
+      </g>
+      <g id="Group_421" data-name="Group 421" transform="translate(-3.2)">
+        <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-6" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(723 2049)" fill="#666" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">SHARE</tspan></text>
+        <path id="instagram-brands" d="M7.835,35.677a4.054,4.054,0,1,0,4.054,4.054A4.048,4.048,0,0,0,7.835,35.677Zm0,6.69a2.636,2.636,0,1,1,2.636-2.636,2.641,2.641,0,0,1-2.636,2.636ZM13,35.512a.946.946,0,1,1-.946-.946A.944.944,0,0,1,13,35.512Zm2.685.96a4.68,4.68,0,0,0-1.277-3.313A4.711,4.711,0,0,0,11.1,31.881c-1.306-.074-5.219-.074-6.525,0a4.7,4.7,0,0,0-3.313,1.274A4.7,4.7,0,0,0-.019,36.468c-.074,1.306-.074,5.219,0,6.525a4.68,4.68,0,0,0,1.277,3.313,4.717,4.717,0,0,0,3.313,1.277c1.306.074,5.219.074,6.525,0a4.68,4.68,0,0,0,3.313-1.277,4.711,4.711,0,0,0,1.277-3.313C15.761,41.687,15.761,37.777,15.687,36.471ZM14,44.393a2.669,2.669,0,0,1-1.5,1.5c-1.041.413-3.511.318-4.661.318A17.564,17.564,0,0,1,3.174,45.9a2.669,2.669,0,0,1-1.5-1.5c-.413-1.041-.318-3.511-.318-4.661a17.564,17.564,0,0,1,.318-4.661,2.669,2.669,0,0,1,1.5-1.5c1.041-.413,3.511-.318,4.661-.318a17.564,17.564,0,0,1,4.661.318,2.669,2.669,0,0,1,1.5,1.5c.413,1.041.318,3.511.318,4.661S14.413,43.356,14,44.393Z" transform="translate(697.275 2004.175)" fill="#666"/>
+      </g>
+    </g>
+  </g>
+</svg>
