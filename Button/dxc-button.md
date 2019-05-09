@@ -18,7 +18,7 @@ We can identify four different modes that imply some visual changes according to
 Modes: __basic__, __outlined__, __raised__, __flat__.
 <br>
 <div style="display: flex; justify-content: center;">
-<img src="images/button_modes.svg" alt="Button modes example">
+<img src="images/button_modes.png" alt="Button modes example">
 </div>
 <br>
 
@@ -30,7 +30,7 @@ For the desktop version, we contemplate five different states by which can pass.
 States: __default__, __disabled__, __hover__, __clicked__ and __animation__.  
 <br>
 <div style="display: flex; justify-content: center;">
-<img src="images/button_states.svg" alt="Button states example">
+<img src="images/button_states.png" alt="Button states example">
 </div>
 <br>
 
@@ -56,7 +56,7 @@ To keep the consistency through the design system, the font used is *Open Sans*,
 | Font weight| `Regular` |
 | Capitalization | `Uppercase` |
 
-<img src="images/button_specs.svg" style="width: 60%">
+<img src="images/button_specs.png" style="width: 60%">
 
 </div>
 <br>
@@ -74,7 +74,7 @@ Also, another point to consider is that the icon can go before or after the text
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="images/button_icon.svg" alt="Button with icon examples">
+<img src="images/button_icon.png" alt="Button with icon examples">
 </div>
 <br>
 <br>
