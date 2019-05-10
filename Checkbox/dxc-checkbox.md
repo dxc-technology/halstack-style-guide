@@ -53,14 +53,17 @@ Stacked should be chosen when the checkbox is related and have a group label to 
 Linear
 The text should have a margin of 15 pixels based on its position. If the text is after the checkbox, it should define the margin on the right side. Otherwise, if the label of the checkbox is before the box, the margin has to go on the left side.
 
+<br>
 <div> <img src="images/checkbox_linear.png"/> </div>
 
 Stacked
 The spacing between stacked checkboxes should be 20 pixels that is determining by the top/bottom margin of the checkboxes itself.
 
+<br>
 <div> <img src="images/checkbox_stacked.png"/> </div>
 
 The last property that the checkbox can get is the required attribute that would represent once the checkbox has a paring label, indicating that the selection of that input must be done, in another case the user couldn't proceed in the application flow. 
 The representation of a required checkbox is an asterisk right before the checkbox label.
 
+<br>
  <div> <img src="images/checkbox_required.png"/> </div>
