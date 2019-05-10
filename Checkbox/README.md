@@ -7,7 +7,7 @@ Checkboxes are inputs that offer to the user the possibility to select one or mo
 
 Two main states can be defined in the checkbox component from this design system, it could be marked as selected or unselected whether if you want to include the item or not in the action that is going to take place. Another third state is considered as indeterminate that cannot be classified into selected or unselected.
 
-The using of checkbox would be reasonable to proceed with the setting configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
+The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
 <br>
 
 ##### *Appereance*
@@ -17,7 +17,7 @@ A checkbox has a toggle mode so every checkbox component in the application rema
 
 ###### Modes
 
-As it is pointing in the description, the checkbox is a boolean component that can get three defined modes, selected when the option wants to be added or included or unselected when the option should not be included.
+As it is pointing in the description, the checkbox is a component that can get three defined modes, selected when the option wants to be added or included or unselected when the option should not be included.
 Modes: __selected__, __unselected__ or __indeterminate__.
 <br>
 <div> <img src="images/checkbox_modes.png"/></div>
@@ -62,8 +62,8 @@ The spacing between stacked checkboxes should be 20 pixels that is determining b
 <br>
 <div> <img src="images/checkbox_stacked.png"/> </div>
 
-The last property that the checkbox can get is the required attribute that would represent once the checkbox has a paring label, indicating that the selection of that input must be done, in another case the user couldn't proceed in the application flow. 
-The representation of a required checkbox is an asterisk right before the checkbox label.
+The last property that the checkbox can get is the required attribute that would represent once the checkbox has a paring label, indicating that the selection of that input must be done, in another case the user wouldn't proceed with the application flow. 
+The representation of a required checkbox is a colored asterisk right before the checkbox label.
 
 <br>
  <div> <img src="images/checkbox_required.png"/> </div>
