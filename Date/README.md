@@ -30,3 +30,21 @@ Eleven different states are defined in the life cycle of the component: __normal
 
 ##### *Design Specifications*
 
+The specifications for dates are similar to the ones used with the input text component. In the case that the field will be read-only, the look and feel will be the same for both components.
+
+The text within the input should always be align right. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 12 pixels.
+
+The thickness of the border should be 1 pixel but in the case that the input will be selected, the width would change to 2 pixels with an animation between the two states inherit from angular material default behaviour.
+
+
+| Property           | Value|
+|--------------------|------:|
+| Margin             | `10px`|
+| Height             | `34px`|
+| Min widht          | `230px` |
+| Border thickness   | `1px/2px` |
+| Font size (with text)| `16px` |
+| Font weight        | `Regular` |
+| Icon size       | `18x18(px)` |
+| Distance between text and underline | `12px` |
+
