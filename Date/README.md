@@ -94,3 +94,5 @@ The majority of the specifications are the same as in Angular Material datepicke
 | Font size          | `13px` |
 
 <div> <img src="images/date_picker_specs.png"/> </div>
+<div> <img src="images/date_picker_specs_2.png"/> </div>
+<div> <img src="images/date_picker_specs_3.png"/> </div>

@@ -65,10 +65,10 @@ To keep the consistency through the design system, the font used is *Open Sans*,
 
 It is not limited the content of a button like so the user can place icons inside of a button to reinforce the action accordingly to the meaning.
 
-Both resources, [Material Icons](https://material.io/tools/icons) and [Fontawesome Icons](https://fontawesome.com/icons) can be used in the DXC Design System, so it is apt to the user to choose between one of the two options.
-By default, fontawesome icons have a bold weight because it is the library freemium option. 
+<!-- Both resources, [Material Icons](https://material.io/tools/icons) and [Fontawesome Icons](https://fontawesome.com/icons) --> 
+Any icon can be used in the DXC Design System, so it is apt to the user to choose between one of the options multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
-Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following 
+Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
 
 <span style="color: red">*</span>Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 <br>
