@@ -3,9 +3,17 @@
 
 #### Overview
 
-A date input is a user interface element where the user can type or select a date in a predefined format. The date format depends on an ISO definition for each country and the preference of use within the application. It is a good practice to give to the user some type of hint about the date format and in many cases, there is a second way to select the date with a date picker control.
+A date input is a user interface element where the user can type or select a date in a predefined format. The date format depends on an ISO definition for each country and the preference of use within the application.
 
+The format of the date may vary depending on language, region, country or customer. i.e.
+
+- The default format for the United States is mm/dd/yyyy
+- The default format for Australia, Europe, Africa, So America and much of Asia is dd/mm/yyyy
+- The default format in China is yyyy/mm/dd
+
+It is a good practice to give to the user some type of hint about the date format and in many cases, there is a second way to select the date with a date picker control.
 In this component both options will be available to the user, so if the user gets stuck typing the correct format of the data it has an additional option with graphic representation that is easily used.
+
 It is common to find a date picker in these scenarios: date of birth, date range or as an input to filter based on some criteria.
 
 If the state of the input is empty, it should give a hint in the placeholder about the format required. Also, as the design system is based in some of the Angular Material guidelines, that format would be visible in case that the input component is selected or filled.
@@ -27,6 +35,18 @@ Eleven different states are defined in the life cycle of the component: __normal
 <br>
 
 <div> <img src="images/date_states.png"/> </div>
+
+###### Calendar Pop-up
+
+The calendar pop-up displays the different views of days, months and years.
+By default, the view of the calendar will be the current month with all of its days and it will appear right below the input.
+
+The user can navigate through the calendar to select the desire date.
+
+###### *Design Interactions*
+
+Different feedback and outcomes happen when the calendar pop-up is used. To see more information please, open the xd file linked with the date component in this respository.
+
 
 ##### *Design Specifications*
 
@@ -58,3 +78,19 @@ These sizes are including small padding as a touchable safe area so the size of 
 | Distance between text and underline | `12px` |
 <br>
 <div> <img src="images/date_specs.png"/> </div>
+
+###### *Calendar Pop-up Specifications*
+
+The majority of the specifications are the same as in Angular Material datepicker component. In the table below is pointed all the relevant information.
+
+| Property           | Value|
+|--------------------|------:|
+| Padding            | `20px`|
+| Height (default)   | `354px`|
+| Widht (default)    | `296px` |
+| Circle size        | `28x28(px)` |
+| Circle thickness   | `1px` |
+| Font weight        | `Regular` |
+| Font size          | `13px` |
+
+<div> <img src="images/date_picker_specs.png"/> </div>
