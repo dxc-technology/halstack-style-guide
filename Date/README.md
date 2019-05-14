@@ -58,5 +58,3 @@ These sizes are including small padding as a touchable safe area so the size of 
 | Distance between text and underline | `12px` |
 <br>
 <div> <img src="images/date_specs.png"/> </div>
-<br>
-<div> <img src="images/date_specs2.png"/> </div>
