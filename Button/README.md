@@ -36,10 +36,13 @@ States: __default__, __disabled__, __hover__, __clicked__ and __animation__.
 
 ##### *Design Specifications*
 
-To define the button design specifications, several properties were identified and assigned immutable values ​​that make the component recognizable along with applications, independently of the customizable styles given.
+To define the button design specifications, several properties were identified and assigned immutable values ​​that make the component recognizable along applications, independently of the customizable styles given.
 
-With the default theme, the components will get *black* as a primary color for the text and *yellow* as an accent color for the background. 
+With the default theme, the components will get *black* as a primary color for the text and *yellow* as an accent color for the background.
 To keep the consistency through the design system, the font used is *Open Sans*, which includes all the font variations: Light *(200)*, Regular *(400)*, Semibold *(600)*, Bold *(700)* and Extrabold *(800)*.
+
+Using button ripple is a good practice of including interaction effects. By default it is implemented because it helps to generate feedback from a flat design, communicating the final user what action is taking place.
+Sometimes the purpose should be different, so there is the possibility to inactive this feature.
 
 <div style="display: flex; align-items: center;"> 
 
@@ -47,6 +50,7 @@ To keep the consistency through the design system, the font used is *Open Sans*,
 |--------------------|------:|
 | Margin            | `15px` |
 | Padding right/left | `30px` |
+| Padding top/bottom | `12px` |
 | Border Radius | `4px` |
 | Border thickness| `2px` |
 | Min. height| `43px` |
@@ -65,8 +69,8 @@ To keep the consistency through the design system, the font used is *Open Sans*,
 
 It is not limited the content of a button like so the user can place icons inside of a button to reinforce the action accordingly to the meaning.
 
-<!-- Both resources, [Material Icons](https://material.io/tools/icons) and [Fontawesome Icons](https://fontawesome.com/icons) --> 
-Any icon can be used in the DXC Design System, so it is apt to the user to choose between one of the options multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
+<!-- Both resources, [Material Icons](https://material.io/tools/icons) and [Fontawesome Icons](https://fontawesome.com/icons) -->
+Any icon can be used in the DXC Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
 Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
 

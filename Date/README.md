@@ -36,6 +36,14 @@ Eleven different states are defined in the life cycle of the component: __normal
 
 <div> <img src="images/date_states.png"/> </div>
 
+###### Configurations
+
+Same input can have different configurations regarding the float label of the field.
+
+-   Transition (default): The label makes a transition once it is focused
+-   Float: The label should always float
+-   Static: There is no transition at all
+
 ###### Calendar Pop-up
 
 The calendar pop-up displays the different views of days, months and years.
