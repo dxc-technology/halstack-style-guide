@@ -22,6 +22,8 @@ Modes: __basic__, __outlined__, __raised__, __flat__.
 </div>
 <br>
 
+For taking into consideration, the main background colors for the application would be white or black, so the use of any button with such colors is a great option. In case that the user wants to customize color or contrast, it is recommended follow best practices and check the accessibility in any case.
+
 ###### States
 
 The states are the different behaviors of the button component based on the interaction of the user.
