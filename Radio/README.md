@@ -36,7 +36,7 @@ Five different states are defined in the life cycle of the component: __enabled_
 Radio button specifications are similar to the checkbox component since the usage of both are quite alike.
 The outlined shape has 24 by 24 pixels. In case the radio is selected, the inner shape has a size of 12 by 12 pixels.
 
-The radio button must always be pared with text, being able to place the text after the radio button, with exception of the RTL(Right-to-Left) websites where the text has to be placed at the right side of the radio button.
+The radio button must always be pared with text, being able to place the text before or after the radio button.
 
 | Property           | Value|
 |--------------------|------:|
