@@ -31,6 +31,24 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 <div> <img src="images/radio_states.png"/> </div>
 
+<br>
+
+##### *Theming*
+
+###### Light theme
+
+The text used with a radio button should goes in black color when the light theme is used. The radio button itself should have his border and inner circle in black to match the design proposal.
+
+The reference to that design it is displayed in the section below, States.
+
+###### Dark theme
+
+With the dark theme, the text must go in a white color because it is setting the background color to black. This is to keep a good color contrast and get a good accesibility.
+
+The radio button in this case will have the border in white and in case is selected, the inner circle will be yellow dxc.
+
+<div> <img src="images/radio_dark.png"/> </div>
+
 ##### *Design Specifications*
 
 Radio button specifications are similar to the checkbox component since the usage of both are quite alike.
