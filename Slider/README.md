@@ -3,11 +3,11 @@
 
 #### Overview
 
-Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore several options swiftly.
+Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore the multiple options swiftly.
 
 ##### *Appereance*
 
-The appearance of the component is not a big deal, it is represented most of the time with a line where are mapped all the values that can be selected. Apart from that, it is needed a control to move it side by side to pick the desired value.
+The appearance of the component is not that complex, it is represented most of the time with a line where are mapped all the values that can be selected. Apart from that, it is needed a control to move it side by side to pick a specific value fron the range.
 
 
 ###### Modes
@@ -35,7 +35,7 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 ###### Dark theme
 
-In the dark theme, the majority of the colors are inverted, getting a good contrast between black and white. In some details, the design team decides to use the official yellow to highlight interactions.
+In the dark theme, the majority of the colors are inverted, getting a good contrast between black and white. In some details, the design team decided to use the official dxc yellow to highlight interactions and component elements.
 
 <div> <img src="images/slider_dark.png"/></div>
 
@@ -72,3 +72,5 @@ The design specifications for slider are defining in the table below.
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
 <div> <img src="images/slider_special.png"/></div>
+<br>
+<div> <img src="images/slider_special_dark.png"/></div>
