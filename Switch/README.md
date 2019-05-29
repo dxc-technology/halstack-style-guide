@@ -67,6 +67,7 @@ Schematics examples for the switch toggle component with all the variations.
 <div> <img src="images/switch_specs.png"/></div>
 <div> <img src="images/switch_specs2.png"/></div>
 <br>
+
 ###### User Interface Design Considerations
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc).
