@@ -1,5 +1,5 @@
 
-## DXC Toggle Switch Visual Guidelines
+## DXC Switch Toggle Visual Guidelines
 
 #### Overview
 
