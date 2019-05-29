@@ -14,6 +14,7 @@ With the use of switch toggle, it is not needed a submit button to do the approp
 
 The appearance of the component should provide good visual feedback, making clear when the switch is on or off. To make a difference between states colors, shadows and fill properties can be used.
 <br>
+
 ###### Modes
 
 Two main modes are represented within the component.
@@ -21,12 +22,14 @@ Two main modes are represented within the component.
 Modes: __on__ and __off__.
 <div> <img src="images/switch_modes.png"/></div>
 <br>
+
 ###### States
 
 Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
 
 <div> <img src="images/switch_states.png"/></div>
 <br>
+
 ##### *Theming*
 
 Colors used for the design in each theme mode.
