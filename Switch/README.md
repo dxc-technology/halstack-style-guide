@@ -13,23 +13,25 @@ With the use of switch toggle, it is not needed a submit button to do the approp
 ##### *Appereance*
 
 The appearance of the component should provide good visual feedback, making clear when the switch is on or off. To make a difference between states colors, shadows and fill properties can be used.
-
+<br>
 ###### Modes
 
 Two main modes are represented within the component.
 
 Modes: __on__ and __off__.
 <div> <img src="images/switch_modes.png"/></div>
-
+<br>
 ###### States
 
-<div> <img src="images/switch_states.png"/></div>
+Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
 
+<div> <img src="images/switch_states.png"/></div>
+<br>
 ##### *Theming*
 
 Colors used for the design in each theme mode.
 
-###### Dark theme
+###### Light theme
 
 Black: #000000
 Dark grey: #666666
@@ -58,7 +60,7 @@ Disabled opacity: 0.7
 
 <div> <img src="images/switch_specs.png"/></div>
 <div> <img src="images/switch_specs2.png"/></div>
-
+<br>
 ###### User Interface Design Considerations
 
 - Toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc) or minimal in number (3 or 4 maximum) of choices where only one selection is required.
