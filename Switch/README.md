@@ -58,6 +58,8 @@ Disabled opacity: 0.7
 
 ##### *Design Specifications*
 
+Schematics examples for the switch toggle component with all the variations.
+
 <div> <img src="images/switch_specs.png"/></div>
 <div> <img src="images/switch_specs2.png"/></div>
 <br>
