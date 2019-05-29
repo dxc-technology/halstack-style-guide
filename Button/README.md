@@ -37,12 +37,12 @@ Colors used for the design in each theme mode.
 
 ###### Light theme
 
-Black; #000000
-Yellow: #FFED00
-Disable opacity: 0.5
-Animation ripple (basic and raised): #666666
-Animation ripple (outlined and flat): #EEEEEE
-Hover flat type: #E5E5E5
+Black; #000000  
+Yellow: #FFED00  
+Disable opacity: 0.5  
+Animation ripple (basic and raised): #666666  
+Animation ripple (outlined and flat): #EEEEEE  
+Hover flat type: #E5E5E5  
 
 <br>
 <div style="display: flex; justify-content: center;">
@@ -52,16 +52,16 @@ Hover flat type: #E5E5E5
 
 ###### Dark theme
 
-Black; #000000
-Yellow: #FFED00
-White: #FFFFFF
-Hover (basic and raised): #212121
-Hover (flat): #E5E5E5
-Animation ripple (outlined and flat): #171717
-Disabled opacity: 0.5
-Disable (raised): #D9D9D9
-Disable (flat): #666666
-Clicked (flat): #FFFFFF 
+Black; #000000  
+Yellow: #FFED00  
+White: #FFFFFF  
+Hover (basic and raised): #212121  
+Hover (flat): #E5E5E5  
+Animation ripple (outlined and flat): #171717  
+Disabled opacity: 0.5  
+Disable (raised): #D9D9D9  
+Disable (flat): #666666  
+Clicked (flat): #FFFFFF  
 
 <br>
 <div style="display: flex; justify-content: center;">
