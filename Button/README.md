@@ -30,9 +30,42 @@ The states are the different behaviors of the button component based on the inte
 For the desktop version, we contemplate five different states by which can pass.
 
 States: __default__, __disabled__, __hover__, __clicked__ and __animation__.  
+
+##### *Theming*
+
+Colors used for the design in each theme mode.
+
+###### Light theme
+
+Black; #000000
+Yellow: #FFED00
+Disable opacity: 0.5
+Animation ripple (basic and raised): #666666
+Animation ripple (outlined and flat): #EEEEEE
+Hover flat type: #E5E5E5
+
 <br>
 <div style="display: flex; justify-content: center;">
 <img src="images/button_states.png" alt="Button states example">
+</div>
+<br>
+
+###### Dark theme
+
+Black; #000000
+Yellow: #FFED00
+White: #FFFFFF
+Hover (basic and raised): #212121
+Hover (flat): #E5E5E5
+Animation ripple (outlined and flat): #171717
+Disabled opacity: 0.5
+Disable (raised): #D9D9D9
+Disable (flat): #666666
+Clicked (flat): #FFFFFF 
+
+<br>
+<div style="display: flex; justify-content: center;">
+<img src="images/button_states_dark.png" alt="Button states example">
 </div>
 <br>
 
