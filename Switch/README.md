@@ -36,26 +36,27 @@ Colors used for the design in each theme mode.
 
 ###### Light theme
 
-Black: #000000
-Dark grey: #666666
-White: #FFFFFF
-Light grey: #666666 opacity 0.4
-Focus ripple: #666666 opacity 0.1
-Press ripple: #666666 opacity 0.25
-Disable opacity checked: 0.4
-Disable opacity unchecked: 0.7
+Black: #000000  
+Dark grey: #666666  
+White: #FFFFFF  
+Light grey: #666666 opacity 0.4  
+Focus ripple: #666666 opacity 0.1  
+Press ripple: #666666 opacity 0.25  
+Disable opacity checked: 0.4  
+Disable opacity unchecked: 0.7  
 
 ###### Dark theme
 
-Yellow: #FFED00
-Dark grey: #666666
-White: #FFFFFF
-Dark grey unchecked: #666666 opacity 0.4
-Focus ripple checked: #FFFFFF opacity 0.1
-Focus ripple unchecked: #FFED00 opacity 0.1
-Press ripple checked: #FFFFFF opacity 0.25
-Press ripple unchecked: #FFED00 opacity 0.25
-Disabled opacity: 0.7
+Yellow: #FFED00  
+Dark grey: #666666  
+White: #FFFFFF  
+Dark grey unchecked: #666666 opacity 0.4  
+Focus ripple checked: #FFFFFF opacity 0.1  
+Focus ripple unchecked: #FFED00 opacity 0.1  
+Press ripple checked: #FFFFFF opacity 0.25  
+Press ripple unchecked: #FFED00 opacity 0.25  
+Disabled opacity: 0.7  
+
 
 <div> <img src="images/switch_dark.png"/></div>
 
@@ -68,6 +69,5 @@ Schematics examples for the switch toggle component with all the variations.
 <br>
 ###### User Interface Design Considerations
 
-- Toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc) or minimal in number (3 or 4 maximum) of choices where only one selection is required.
-- If toggle buttons are part of a group, the layout should suggest to the user that every toggle belongs to the group.
+- Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc).
 - Try to present your lists vertically, with one choice per line. 
