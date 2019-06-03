@@ -32,13 +32,13 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ###### Light theme
 
-Black: #000000
-Yellow: #FFED00
-White: #FFFFFF
-Border and disabled: #666666
-Focus ripple: #666666, opacity 0.1
-Pressed ripple: #666666, opacity 0.25
-Outlined opacity disabled: 0.5
+Black: #000000  
+Yellow: #FFED00  
+White: #FFFFFF  
+Border and disabled: #666666  
+Focus ripple: #666666, opacity 0.1  
+Pressed ripple: #666666, opacity 0.25  
+Outlined opacity disabled: 0.5  
 
 <div> <img src="images/checkbox_states_light.png"/> </div>
 
