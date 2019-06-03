@@ -26,8 +26,27 @@ Modes: __selected__, __unselected__ or __indeterminate__.
 
 Five different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__ and __pressed__.
 <br>
-
 <div> <img src="images/checkbox_states.png"/> </div>
+
+##### *Theming*
+
+###### Light theme
+
+Black: #000000
+Yellow: #FFED00
+White: #FFFFFF
+Border and disabled: #666666
+Focus ripple: #666666, opacity 0.1
+Pressed ripple: #666666, opacity 0.25
+Outlined opacity disabled: 0.5
+
+<div> <img src="images/checkbox_states_light.png"/> </div>
+
+###### Dark theme
+
+Same colors used in light theme except for the white color for the border of the checkbox unchecked and the ripple that intead of using dark grey as base color, in this case is using white.
+
+<div> <img src="images/checkbox_states_dark.png"/> </div>
 
 ##### *Design Specifications*
 
