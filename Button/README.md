@@ -37,7 +37,7 @@ Colors used for the design in each theme mode.
 
 ###### Light theme
 
-Black; #000000  
+Black: #000000  
 Yellow: #FFED00  
 Disable opacity: 0.5  
 Animation ripple (basic and raised): #666666  
