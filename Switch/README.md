@@ -27,9 +27,6 @@ Modes: __on__ and __off__.
 
 Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
 
-<div> <img src="images/switch_states.png"/></div>
-<br>
-
 ##### *Theming*
 
 Colors used for the design in each theme mode.
@@ -45,6 +42,10 @@ Press ripple: #666666 opacity 0.25
 Disable opacity checked: 0.4  
 Disable opacity unchecked: 0.7  
 
+<br>
+<div> <img src="images/switch_states.png"/></div>
+<br>
+
 ###### Dark theme
 
 Yellow: #FFED00  
@@ -57,8 +58,9 @@ Press ripple checked: #FFFFFF opacity 0.25
 Press ripple unchecked: #FFED00 opacity 0.25  
 Disabled opacity: 0.7  
 
-
+<br>
 <div> <img src="images/switch_dark.png"/></div>
+<br>
 
 ##### *Design Specifications*
 
