@@ -48,6 +48,22 @@ Disabled opacity (outlined): 0.5
 
 ##### *Design Specifications*
 
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `15px` |
+| Padding right/left (item)| `30px` |
+| Padding top/bottom (item)| `12px` |
+| Border Radius | `4px` |
+| Border thickness| `2px` |
+| Min. height| `43px` |
+| Font size| `14px` |
+| Font weight| `Regular` |
+
+<br>
+<div> <img src="images/toggle_specs.png"/></div>
+
+###### User Interface Design Considerations
+
 Toggles should be used in place of radio buttons whenever the options are
 - Minimal in number, i.e. 3 or 4 maximum choices where only one seelction is required
 - Opposites of each other
