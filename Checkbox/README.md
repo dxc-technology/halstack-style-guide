@@ -50,7 +50,7 @@ Same colors used in light theme except for the white color for the border of the
 
 ##### *Design Specifications*
 
-Specifications for checkbox are simple. The size of the checkbox should display a box 24 x 24 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
+Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
 
 - Checkbox only
 - Checkbox with text at his right
