@@ -67,9 +67,9 @@ Disabled: #757575
 
 ###### Required fields
 
-Required fields are a variation in the normal behavior of the input fields. This indicated to the user that the input is required so it can't be skipped if the intention is to go forward in the application.
+Required fields are a variation in the normal behavior of the input fields. This indicates to the user that the input is required so it can't be skipped if the intention is to go forward in the application.
 
-A red asterisks before the input label must indicate that the text input is a required field, with this visual clue the application is letting the user the mandatory field.
+A red asterisks before the input label must indicate that the text input is a required field, with this visual clue the application is telling the user the mandatory field.
 
 Here are the different representations of a required field:
 
