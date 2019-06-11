@@ -64,6 +64,17 @@ Disabled opacity: 0.7
 
 ##### *Design Specifications*
 
+| Property           | Value|
+|--------------------|------:|
+| Margin right/left  | `15px`|
+| Margin top/bottom  | `10px`|
+| Switch bar         | `44px` |
+| Text margin no switch side | `15px` |
+| Focused ripple       | `42 x 42px` |
+| Font size (with text)| `16px` |
+| Font weight        | `Regular` |
+| Switch button shape| `y:1, blur:3` | 
+
 Schematics examples for the switch toggle component with all the variations.
 
 <div> <img src="images/switch_specs.png"/></div>
