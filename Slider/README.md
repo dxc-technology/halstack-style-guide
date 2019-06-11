@@ -46,7 +46,7 @@ The design specifications for slider are defining in the table below.
 
 | Property           | Value|
 |--------------------|------:|
-| Margin right/left  | `15px`|
+| Margin             | `15px`|
 | Slider line thickness   | `1px` |
 | Default knob       | `14 x 14px` |
 | Selected knob       | `18 x 18px` |
