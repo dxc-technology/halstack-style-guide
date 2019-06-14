@@ -12,7 +12,7 @@ Dropdowns have the same look as select components, the difference is that while 
 
 From header menus to executing different actions, dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
 
-As it is widely used, an arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but currently hidden.
+As it is widely used, an arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
 
 By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
 
@@ -36,10 +36,10 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 ###### Light theme
 
-Black: #000000
-White: #FFFFFF
-Dark grey (selected item): #666666
-Light grey (hovered item): #d9d9d9
+Black: #000000  
+White: #FFFFFF  
+Dark grey (selected item): #666666  
+Light grey (hovered item): #d9d9d9  
 
 
 
@@ -48,10 +48,10 @@ Light grey (hovered item): #d9d9d9
 
 ###### Dark theme
 
-Black: #000000
-White: #FFFFFF
-Dark grey (selected item): #666666
-Light grey (hovered item): #d9d9d9
+Black: #000000  
+White: #FFFFFF  
+Dark grey (selected item): #666666  
+Light grey (hovered item): #d9d9d9  
 
 <div> <img src="images/dropdown_dark1.png"/></div>
 <div> <img src="images/dropdown_dark2.png"/></div>
