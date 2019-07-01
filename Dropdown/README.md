@@ -81,6 +81,13 @@ Light grey (hovered item): #d9d9d9
 
 <div> <img src="images/dropdown_specs.png"/></div>
 
+###### Icon Usage
+
+It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
+
+<div> <img src="images/dropdown_iconusage.png"/></div>
+<div> <img src="images/dropdown_iconspecs.png"/></div>
+
 ###### User Interface Design Considerations
 
 - Consider the number of options (binary decisions or a few items) to decide to implement one component that represent in a better way the data, i.e. radio button or switch toggle.
