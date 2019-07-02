@@ -17,12 +17,12 @@ pipeline {
             }
           }
         }
-        stage ('Zipping Catalog Artifact') {
+        stage ('Zipping Components Folder') {
             steps {
                sh '''
-                    rm -rf catalog.zip
+                    rm -rf components.zip
                 '''
-                zip zipFile: 'catalog.zip', archive: false, dir: './catalog'
+                zip zipFile: 'components.zip', archive: false, dir: './components'
             }
         }
         stage('Deploy to S3 Bucket') {
