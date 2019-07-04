@@ -211,6 +211,10 @@ Specifications for responsive menu
 
 <div> <img src="images/header_responsive_specs.png"/></div>
 
+###### Use of the custom area
+
+<div> <img src="images/header_custom.png"/></div>
+
 ###### User Interface Design Considerations
 - Try to avoid to place items inside the custom area, the header has already all the element necessaries for navigability, use it only in exceptional cases.
 - The only way that the header's height should increase is when the company logo needs to be more large to be visible, in other cases the height must be 64 pixels.
