@@ -1,18 +1,18 @@
-## DXC Button Visual Guidelines
+# DXC Button Visual Guidelines
 
-#### Overview
+## Overview
 
 Buttons are basic interface elements that initialize an action or function when the user interacts with them. The appearance of the button should suggest the user takes an action that leads to different scenarios.
 
 These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
 <br>
 
-##### *Appereance*
+### *Appereance*
 
 Into DXC Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
 <br>
 
-###### Modes
+#### Modes
 
 We can identify four different modes that imply some visual changes according to color, border or shadow attributes.
 Modes: __basic__, __outlined__, __raised__, __flat__.
@@ -24,18 +24,18 @@ Modes: __basic__, __outlined__, __raised__, __flat__.
 
 For taking into consideration, the main background colors for the application would be white or black, so the use of any button with such colors is a great option. In case that the user wants to customize color or contrast, it is recommended follow best practices and check the accessibility in any case.
 
-###### States
+#### States
 
 The states are the different behaviors of the button component based on the interaction of the user.
 For the desktop version, we contemplate five different states by which can pass.
 
 States: __default__, __disabled__, __hover__, __clicked__ and __animation__.  
 
-##### *Theming*
+### *Theming*
 
 Colors used for the design in each theme mode.
 
-###### Light theme
+#### Light theme
 
 Black: #000000  
 Yellow: #FFED00  
@@ -50,7 +50,7 @@ Hover flat type: #E5E5E5
 </div>
 <br>
 
-###### Dark theme
+#### Dark theme
 
 Black; #000000  
 Yellow: #FFED00  
@@ -69,7 +69,7 @@ Clicked (flat): #FFFFFF
 </div>
 <br>
 
-##### *Design Specifications*
+### *Design Specifications*
 
 To define the button design specifications, several properties were identified and assigned immutable values ​​that make the component recognizable along applications, independently of the customizable styles given.
 
@@ -100,7 +100,7 @@ Sometimes the purpose should be different, so there is the possibility to inacti
 </div>
 <br>
 
-###### Icon Usage
+#### Icon Usage
 
 It is not limited the content of a button like so the user can place icons inside of a button to reinforce the action accordingly to the meaning.
 
@@ -122,7 +122,7 @@ A button with an icon and no text is also allowed in the design system.
 <br>
 <br>
 
-###### User Interface Design Considerations
+#### User Interface Design Considerations
 
 Here, you can find more considerations in the using of buttons:
 
