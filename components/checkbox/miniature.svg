@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199.997" height="22" viewBox="0 0 199.997 22">
+  <g id="Group_835" data-name="Group 835" transform="translate(-477.803 -1273)">
+    <g id="Checkbox_Enabled" data-name="Checkbox Enabled" transform="translate(477.803 1274.242)">
+      <rect id="Rectangle_620" data-name="Rectangle 620" width="16.714" height="12.714" transform="translate(1.801 3.158)"/>
+      <g id="Selection_Control_Checkbox_On_Enabled" data-name="Selection Control / Checkbox / On / Enabled">
+        <path id="Selection_Control_Checkbox_On_Enabled-2" data-name="Selection Control / Checkbox / On / Enabled" d="M23.778-681H8.222A2.222,2.222,0,0,0,6-678.778v15.556A2.222,2.222,0,0,0,8.222-661H23.778A2.222,2.222,0,0,0,26-663.222v-15.556A2.222,2.222,0,0,0,23.778-681Zm-10,15.556L8.222-671l1.567-1.567,3.989,3.978,8.433-8.433,1.567,1.578Z" transform="translate(-6 681)" fill="#ffed00"/>
+      </g>
+    </g>
+    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(512.8 1290)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">A beautiful checkbox</tspan></text>
+  </g>
+</svg>

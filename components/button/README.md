@@ -16,11 +16,8 @@ Into DXC Design System you will find several buttons with different shades, colo
 
 We can identify four different modes that imply some visual changes according to color, border or shadow attributes.
 Modes: __basic__, __outlined__, __raised__, __flat__.
-<br>
-<div style="display: flex; justify-content: center;">
-<img src="images/button_modes.png" alt="Button modes example">
-</div>
-<br>
+
+![Button modes example](images/button_modes.png)
 
 For taking into consideration, the main background colors for the application would be white or black, so the use of any button with such colors is a great option. In case that the user wants to customize color or contrast, it is recommended follow best practices and check the accessibility in any case.
 
@@ -44,11 +41,7 @@ Animation ripple (basic and raised): #666666
 Animation ripple (outlined and flat): #EEEEEE  
 Hover flat type: #E5E5E5  
 
-<br>
-<div style="display: flex; justify-content: center;">
-<img src="images/button_states.png" alt="Button states example">
-</div>
-<br>
+![Button states light theme](images/button_states.png)
 
 ### Dark theme
 
@@ -63,11 +56,7 @@ Disable (raised): #D9D9D9
 Disable (flat): #666666  
 Clicked (flat): #FFFFFF  
 
-<br>
-<div style="display: flex; justify-content: center;">
-<img src="images/button_states_dark.png" alt="Button states example">
-</div>
-<br>
+![Button states dark theme](images/button_states_dark.png)
 
 ## Design Specifications
 
@@ -78,8 +67,6 @@ To keep the consistency through the design system, the font used is *Open Sans*,
 
 Using button ripple is a good practice of including interaction effects. By default it is implemented because it helps to generate feedback from a flat design, communicating the final user what action is taking place.
 Sometimes the purpose should be different, so there is the possibility to inactive this feature.
-
-<div style="display: flex; align-items: center;"> 
 
 | Property           | Value|
 |--------------------|------:|
@@ -95,10 +82,7 @@ Sometimes the purpose should be different, so there is the possibility to inacti
 | Font weight| `Regular` |
 | Capitalization | `Uppercase` |
 
-<img src="images/button_specs.png" style="width: 60%">
-
-</div>
-<br>
+![Button specification](images/button_specs.png)
 
 ### Icon Usage
 
@@ -110,17 +94,11 @@ Any icon can be used in the DXC Design System, so it is apt to the user to choos
 Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
 
 <span style="color: red">*</span>Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
-<br>
 
-<div style="display: flex; justify-content: center;">
-<img src="images/button_icon.png" alt="Button with icon examples">
-</div>
-<br>
-<br>
+![Button with icon examples](images/button_icon.png)
+
 A button with an icon and no text is also allowed in the design system.
 
-<br>
-<br>
 
 ### User Interface Design Considerations
 

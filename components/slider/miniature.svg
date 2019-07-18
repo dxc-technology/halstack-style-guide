@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244.906" height="102.314" viewBox="0 0 244.906 102.314">
+  <g id="Group_868" data-name="Group 868" transform="translate(-445.619 -1353.539)">
+    <g id="Group_578" data-name="Group 578" transform="translate(62.619 930.068)">
+      <g id="Group_524" data-name="Group 524" transform="translate(383 443)">
+        <rect id="Surface" width="244.906" height="82.785" transform="translate(0)" fill="none"/>
+        <rect id="Rectangle_587" data-name="Rectangle 587" width="244.906" height="1.316" rx="0.658" transform="translate(0 40.984)" fill="#ffed00"/>
+        <rect id="Rectangle_589" data-name="Rectangle 589" width="106.931" height="1.316" rx="0.658" transform="translate(0 40.984)"/>
+        <circle id="Knob" cx="9.21" cy="9.21" r="9.21" transform="translate(97.987 32.044)"/>
+      </g>
+    </g>
+    <g id="Group_546" data-name="Group 546" transform="translate(364.539 463.409)">
+      <path id="Rectangle_794" data-name="Rectangle 794" d="M15.583,0h0A15.583,15.583,0,0,1,31.167,15.583V29.608a1.558,1.558,0,0,1-1.558,1.558H15.583A15.583,15.583,0,0,1,0,15.583v0A15.583,15.583,0,0,1,15.583,0Z" transform="translate(188.461 890.13) rotate(45)"/>
+      <text id="_60" data-name="60" transform="translate(181.021 916.206)" fill="#ffed00" font-size="12" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.033em"><tspan x="0" y="0">60</tspan></text>
+    </g>
+  </g>
+</svg>

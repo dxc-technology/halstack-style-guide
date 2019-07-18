@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="234" height="133" viewBox="0 0 234 133">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_960" data-name="Rectangle 960" width="234" height="133" transform="translate(1224 1555)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Shadow_08dp" x="-15" y="9.959" width="241.824" height="292" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-1224 -1555)" clip-path="url(#clip-path)">
+    <g id="Group_324" data-name="Group 324" transform="translate(196 1197)">
+      <line id="Line_100" data-name="Line 100" x2="233" transform="translate(1028.5 409.4)" fill="none" stroke="#000" stroke-width="2"/>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1029 371.4)" font-size="12" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Postal Code</tspan></text>
+      <g id="Icon_Arrow_Drop_Down_Filled" data-name="Icon / Arrow Drop Down / Filled" transform="translate(1255.174 397.514) rotate(180)">
+        <rect id="Box" width="22.114" height="22.114" transform="translate(0)" fill="none"/>
+        <path id="Icon_Arrow_Drop_Down" data-name="Icon / Arrow Drop Down" d="M111-20l4.607,4.607L120.214-20Z" transform="translate(-104.55 29.214)" fill="#212121" opacity="0.995"/>
+      </g>
+      <g id="Shadow_08dp-2" data-name="Shadow / 08dp" transform="translate(280 -269.041)">
+        <g transform="matrix(1, 0, 0, 1, 748, 627.04)" filter="url(#Shadow_08dp)">
+          <rect id="Shadow_08dp-3" data-name="Shadow / 08dp" width="211.824" height="262" rx="2" transform="translate(0 16.96)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Body1_Open_Sans_Regular" data-name="Body1 / Open Sans / Regular" transform="translate(1048 420)">
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">France</tspan></text>
+      </g>
+      <g id="Body1_Open_Sans_Regular-2" data-name="Body1 / Open Sans / Regular" transform="translate(1048 462)">
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_3" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">England</tspan></text>
+      </g>
+      <g id="Body1_Open_Sans_Regular-3" data-name="Body1 / Open Sans / Regular" transform="translate(1048 504)">
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_4" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Norway</tspan></text>
+      </g>
+      <g id="Body1_Open_Sans_Regular-4" data-name="Body1 / Open Sans / Regular" transform="translate(1048 546)">
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_5" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Germany</tspan></text>
+      </g>
+      <g id="Body1_Open_Sans_Regular-5" data-name="Body1 / Open Sans / Regular" transform="translate(1048 588)">
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_6" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Finland</tspan></text>
+      </g>
+      <rect id="Rectangle_652" data-name="Rectangle 652" width="212" height="42" transform="translate(1028 375)" fill="#ffed00"/>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_7" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1048 402)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Spain</tspan></text>
+    </g>
+  </g>
+</svg>

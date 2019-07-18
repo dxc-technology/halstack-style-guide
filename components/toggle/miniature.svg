@@ -1,0 +1,10 @@
+<svg id="Component_28_1" data-name="Component 28 – 1" xmlns="http://www.w3.org/2000/svg" width="244" height="43" viewBox="0 0 244 43">
+  <g id="Buttons_Text_Enabled" data-name="Buttons / Text / Enabled">
+    <path id="Box" d="M4,0H122a0,0,0,0,1,0,0V43a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#ffed00"/>
+  </g>
+  <g id="Buttons_Text_Enabled-2" data-name="Buttons / Text / Enabled" transform="translate(122)">
+    <path id="Box-2" data-name="Box" d="M0,0H118a4,4,0,0,1,4,4V39a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#f6f6f6"/>
+  </g>
+  <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(41 27)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">WEST</tspan></text>
+  <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left-2" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(165 27)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="0" y="0">EAST</tspan></text>
+</svg>
