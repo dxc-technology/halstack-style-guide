@@ -33,6 +33,12 @@ In case that the user of the design systems wanted to add other components in th
 
 For now, the footer will be the same for the light and dark mode so there is no need to control this aspect for now. 
 
+Colors:
+
+Black: #000000  
+Yellow: #FFED00  
+White: #FFFFFF  
+
 ## Design Specifications
 
 | Property           | Value|
@@ -61,6 +67,7 @@ In the case that the user wants to add elements that aren't text with a link, th
 In example, some representation are shown above:
 ![Footer with button and label as custom content](images/footer_custom_1.png)
 ![Footer with a map as custom content](images/footer_custom_2.png)
+![Complete footer with a custom content](images/footer_custom_3.png)
 
 ### User Interface Design Considerations
 
