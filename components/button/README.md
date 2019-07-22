@@ -5,12 +5,10 @@
 Buttons are basic interface elements that initialize an action or function when the user interacts with them. The appearance of the button should suggest the user takes an action that leads to different scenarios.
 
 These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
-<br>
 
 ## Appereance
 
 Into DXC Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
-<br>
 
 ### Modes
 
@@ -93,7 +91,7 @@ Any icon can be used in the DXC Design System, so it is apt to the user to choos
 
 Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
 
-<span style="color: red">*</span>Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
+*Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 
 ![Button with icon examples](images/button_icon.png)
 
