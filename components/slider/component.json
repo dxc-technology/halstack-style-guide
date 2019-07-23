@@ -1,4 +1,7 @@
 {
   "name": "Slider",
-  "docFile": "README.md"
+  "docFile": "README.md",
+  "reactStory": "form-components-slider--component",
+  "angularStory": "form-components-slider--types"
+
 }

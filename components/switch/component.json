@@ -1,4 +1,5 @@
 {
   "name": "Switch",
-  "docFile": "README.md"
+  "docFile": "README.md",
+  "reactStory": "form-components-switch--component"
 }

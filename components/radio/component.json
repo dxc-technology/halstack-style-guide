@@ -1,4 +1,6 @@
 {
   "name": "Radio",
-  "docFile": "README.md"
+  "docFile": "README.md",
+  "reactStory": "form-components-radio--component",
+  "angularStory": "form-components-radio--types"
 }

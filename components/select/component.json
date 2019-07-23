@@ -1,4 +1,6 @@
 {
   "name": "Select",
-  "docFile": "README.md"
+  "docFile": "README.md",
+  "reactStory": "form-components-select--component",
+  "angularStory": "form-components-select--types"
 }
