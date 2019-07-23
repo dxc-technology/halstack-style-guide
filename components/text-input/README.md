@@ -1,32 +1,31 @@
+# DXC Text Input Visual Guidelines
 
-## DXC Text Input Visual Guidelines
-
-#### Overview
+## Overview
 
 Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers. 
 Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
 
-##### *Appearance*
+## Appearance
 
 The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written. 
 Other elements like assistive text, prefix or suffix icons or error handlers can be complementing the input field making the basic structure more informative.
 
-###### Modes
+### Modes
 
 Five different modes can be identify using text input component: __basic__, __basic with assistive text__, __basic with prefix__, __basic with suffix__ and __basic with prefix and suffix__.
 <div> <img src="images/input_modes.png"/></div>
 
-###### States
+### States
 
 The states for text input are: __normal__, __focused__, __value entered__, __disabled__ and __icon pressed__.
 
 <div> <img src="images/input_states.png"/></div>
 
-##### *Theming*
+## Theming
 
 
 
-###### Light theme
+### Light theme
 
 Black: #000000 (text, underline and icons)  
 Red error: #D0011B  
@@ -35,7 +34,7 @@ Disabled: #D9D9D9
 
 <div> <img src="images/input_light.png"/></div>
 
-###### Dark theme
+### Dark theme
 
 White: #FFFFFF  
 Yellow DXC: #FFED00  
@@ -44,7 +43,11 @@ Disabled: #757575
 
 <div> <img src="images/input_dark.png"/></div>
 
-##### *Design Specifications*
+## Text Area
+
+
+
+## Design Specifications
 
 | Property           | Value|
 |--------------------|------:|

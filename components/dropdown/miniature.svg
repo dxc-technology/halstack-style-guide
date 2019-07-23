@@ -4,7 +4,7 @@
       <rect width="218.211" height="50" rx="2" stroke="none"/>
       <rect x="1" y="1" width="216.211" height="48" rx="1" fill="none"/>
     </g>
-    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(133 453)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Dropdown</tspan></text>
+    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(133 453)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">Dropdown</tspan></text>
     <g id="Icon_Arrow_Drop_Down_Filled" data-name="Icon / Arrow Drop Down / Filled" transform="translate(299.111 437.644)">
       <rect id="Box" width="22.114" height="22.114" transform="translate(0)" fill="none"/>
       <path id="Icon_Arrow_Drop_Down" data-name="Icon / Arrow Drop Down" d="M111-20l4.607,4.607L120.214-20Z" transform="translate(-104.55 29.214)" fill="#212121" opacity="0.995"/>

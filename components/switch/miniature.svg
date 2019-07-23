@@ -15,6 +15,6 @@
         <circle id="Ellipse_48-2" data-name="Ellipse 48" cx="13" cy="13" r="13" transform="translate(18.78 3.5)" fill="#ffed00"/>
       </g>
     </g>
-    <text id="Turn_on" data-name="Turn on" transform="translate(1388 1391)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.033em"><tspan x="2.089" y="17">Turn on</tspan></text>
+    <text id="Turn_on" data-name="Turn on" transform="translate(1388 1391)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.033em"><tspan x="4.147" y="14">Turn on</tspan></text>
   </g>
 </svg>

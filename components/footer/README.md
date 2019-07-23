@@ -12,11 +12,11 @@ This area can contain a variety of things depending on the application and two a
 
 ### Modes
 
-A couple of modes are defined in function of the neccesities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright and social media links.
+A couple of modes are defined in function of the necessities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright, and social media links.
 
-Other option is to use the complemented footer, with more information and links to other important resources.
+Another option is to use the complemented footer, with more information and links to other important resources.
 
-In both designs there is a custom area to fill with custom content.
+In both designs, there is a custom area to fill with custom content.
 
 ![Footer structure example](images/footer_structure.png)
 ![Footer modes example](images/footer_modes.png)
@@ -61,10 +61,10 @@ The content of the footer should be adapt to the space available depending on th
 
 ## Footer Content
 
-By default the footer component only includes links to other resources or elements within and without (external links) the application.
+By default, the footer component only includes links to other resources or elements within and without (external links) the application.
 In the case that the user wants to add elements that aren't text with a link, the custom area is the correct place to put that.
 
-In example, some representation are shown above:
+A representation is shown above:
 ![Footer with button and label as custom content](images/footer_custom_1.png)
 ![Footer with a map as custom content](images/footer_custom_2.png)
 ![Complete footer with a custom content](images/footer_custom_3.png)

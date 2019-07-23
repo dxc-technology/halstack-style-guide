@@ -1,19 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="145" height="49" viewBox="0 0 145 49">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #ffed00;
-      }
-
-      .cls-2 {
-        font-size: 16px;
-        font-family: OpenSans-Regular, Open Sans;
-        letter-spacing: 0.02em;
-      }
-    </style>
-  </defs>
   <g id="Group_867" data-name="Group 867" transform="translate(-478 -778)">
-    <rect id="Rectangle_81" data-name="Rectangle 81" class="cls-1" width="145" height="49" rx="4" transform="translate(478 778)"/>
-    <text id="Click_here_" data-name="Click here!" class="cls-2" transform="translate(511 809)"><tspan x="0" y="0">Click here!</tspan></text>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="145" height="49" rx="4" transform="translate(478 778)" fill="#ffed00"/>
+    <text id="Click_here_" data-name="Click here!" transform="translate(511 809)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.02em"><tspan x="0" y="0">Click here!</tspan></text>
   </g>
 </svg>

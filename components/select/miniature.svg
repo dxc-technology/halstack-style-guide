@@ -14,7 +14,7 @@
   <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-1224 -1555)" clip-path="url(#clip-path)">
     <g id="Group_324" data-name="Group 324" transform="translate(196 1197)">
       <line id="Line_100" data-name="Line 100" x2="233" transform="translate(1028.5 409.4)" fill="none" stroke="#000" stroke-width="2"/>
-      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1029 371.4)" font-size="12" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Postal Code</tspan></text>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1029 371.4)" font-size="12" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">Postal Code</tspan></text>
       <g id="Icon_Arrow_Drop_Down_Filled" data-name="Icon / Arrow Drop Down / Filled" transform="translate(1255.174 397.514) rotate(180)">
         <rect id="Box" width="22.114" height="22.114" transform="translate(0)" fill="none"/>
         <path id="Icon_Arrow_Drop_Down" data-name="Icon / Arrow Drop Down" d="M111-20l4.607,4.607L120.214-20Z" transform="translate(-104.55 29.214)" fill="#212121" opacity="0.995"/>
@@ -25,10 +25,10 @@
         </g>
       </g>
       <g id="Body1_Open_Sans_Regular" data-name="Body1 / Open Sans / Regular" transform="translate(1048 420)">
-        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">France</tspan></text>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">France</tspan></text>
       </g>
       <g id="Body1_Open_Sans_Regular-2" data-name="Body1 / Open Sans / Regular" transform="translate(1048 462)">
-        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_3" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">England</tspan></text>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_3" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">England</tspan></text>
       </g>
       <g id="Body1_Open_Sans_Regular-3" data-name="Body1 / Open Sans / Regular" transform="translate(1048 504)">
         <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_4" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Norway</tspan></text>
@@ -40,7 +40,7 @@
         <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_6" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(0 17)" fill="#666" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Finland</tspan></text>
       </g>
       <rect id="Rectangle_652" data-name="Rectangle 652" width="212" height="42" transform="translate(1028 375)" fill="#ffed00"/>
-      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_7" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1048 402)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Spain</tspan></text>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_7" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1048 402)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">Spain</tspan></text>
     </g>
   </g>
 </svg>
