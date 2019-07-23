@@ -46,14 +46,14 @@ Disabled: #757575
 
 ## Text Area
 
-The text area is a variation inside the text input component. Basically, the functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 
-When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpouse.
+The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 
+When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
 
-It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resaizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
+It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
 
-The text area can have the following features: Label, assistive text, min and max width, reasizable call to action and scrollbar.
+The text area can have the following features: Label, assistive text, min and max-width, resizable call to action and scrollbar.
 
-The aspects that textarea is not including respecting text input are:
+The aspects that text area is not including respecting text input are:
 - Prefix and suffix
 - Max height fixed
 
