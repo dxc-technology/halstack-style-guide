@@ -13,13 +13,14 @@ Other elements like assistive text, prefix or suffix icons or error handlers can
 ### Modes
 
 Five different modes can be identify using text input component: __basic__, __basic with assistive text__, __basic with prefix__, __basic with suffix__ and __basic with prefix and suffix__.
-<div> <img src="images/input_modes.png"/></div>
+
+![Input modes example](images/input_modes.png)
 
 ### States
 
 The states for text input are: __normal__, __focused__, __value entered__, __disabled__ and __icon pressed__.
 
-<div> <img src="images/input_states.png"/></div>
+![Input states example](images/input_states.png)
 
 ## Theming
 
@@ -32,7 +33,7 @@ Red error: #D0011B
 Icon ripple: #000000, opacity 0.25 
 Disabled: #D9D9D9
 
-<div> <img src="images/input_light.png"/></div>
+![Input light theme example](images/input_light.png)
 
 ### Dark theme
 
@@ -41,11 +42,22 @@ Yellow DXC: #FFED00
 Red error: #FF6161  
 Disabled: #757575
 
-<div> <img src="images/input_dark.png"/></div>
+![Input dark theme example](images/input_dark.png)
 
 ## Text Area
 
+The text area is a variation inside the text input component. Basically, the functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 
+When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpouse.
 
+It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resaizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
+
+The text area can have the following features: Label, assistive text, min and max width, reasizable call to action and scrollbar.
+
+The aspects that textarea is not including respecting text input are:
+- Prefix and suffix
+- Max height fixed
+
+![Textarea example](images/input_textarea.png)
 
 ## Design Specifications
 
@@ -66,7 +78,8 @@ Disabled: #757575
 | Distance between text and underline (animated) | `6px` |
 | Assistive text margin top | `6px` |
 
-<div> <img src="images/input_specs.png"/></div>
+![Specifications for input component](images/input_specs.png)
+![Specifications for textarea component](images/textarea_specs.png)
 
 ###### Required fields
 
@@ -76,7 +89,7 @@ A red asterisks before the input label must indicate that the text input is a re
 
 Here are the different representations of a required field:
 
-<div> <img src="images/input_required.png"/></div>
+![Type required in input texts](images/input_required.png)
 
 The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
 
