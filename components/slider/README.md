@@ -1,16 +1,15 @@
+# DXC Slider Visual Guidelines
 
-## DXC Slider Visual Guidelines
-
-#### Overview
+## Overview
 
 Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore the multiple options swiftly.
 
-##### *Appereance*
+## Appereance
 
 The appearance of the component is not that complex, it is represented most of the time with a line where are mapped all the values that can be selected. Apart from that, it is needed a control to move it side by side to pick a specific value fron the range.
 
 
-###### Modes
+### Modes
 
 Three modes are available for a slider control.
 - A discrete mode, that only can get the value marked along the slider
@@ -19,28 +18,27 @@ Three modes are available for a slider control.
 
 Modes: __discrete__, __continuos__ or __range__.
 
-<div> <img src="images/slider_modes.png"/></div>
+![Slider modes](images/slider_modes.png)
 
-###### States
+### States
 
 Seven different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__, __pressed__, __dragged__ and __lock ups__.
-<br >
-<div> <img src="images/slider_states_discrete.png"/></div>
-<br >
-<div> <img src="images/slider_states_cont.png"/></div>
-<br >
-<div> <img src="images/slider_states_range.png"/></div>
 
-##### *Theming*
+![Slider mode discrete](images/slider_states_discrete.png)
 
-###### Dark theme
+![Slider mode continious](images/slider_states_cont.png)
+
+![Slider mode range](images/slider_states_range.png)
+
+## Theming
+
+### Dark theme
 
 In the dark theme, the majority of the colors are inverted, getting a good contrast between black and white. In some details, the design team decided to use the official dxc yellow to highlight interactions and component elements.
 
-<div> <img src="images/slider_dark.png"/></div>
+![Slider dark theme mode](images/slider_dark.png)
 
-
-##### *Design Specifications*
+## Design Specifications
 
 The design specifications for slider are defining in the table below.
 
@@ -61,9 +59,9 @@ The design specifications for slider are defining in the table below.
 | Font weight        | `Regular` |
 | Knob shape        | `y:3, blur:3` |
 
-<div> <img src="images/slider_specs.png"/></div>
+![Slider specifications](images/slider_specs.png)
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Visualize the output of the slider as feedback to the user of the current state.
 - As more information can give it to the user, the easier the selection will be. 
@@ -71,6 +69,6 @@ The design specifications for slider are defining in the table below.
 
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-<div> <img src="images/slider_special.png"/></div>
-<br>
-<div> <img src="images/slider_special_dark.png"/></div>
+![Slider variation for special cases](images/slider_special.png)
+
+![Slider variation for special cases - dark mode](images/slider_special_dark.png)

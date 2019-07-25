@@ -1,10 +1,10 @@
-## DXC Table Visual Guidelines
+# DXC Table Visual Guidelines
 
-#### Overview
+## Overview
 
 Data table is a component with a high rate of usage within the applications. It allows to show the user a big amount of information in a simple and simplified way. All the information contained in the table has a grid structure, defining columns and tables to place the data and allows users to scan, analazy, compare and filter that information.
 
-##### *Appearance*
+## Appearance
 
 It is difficult to see a design variation of a table regarding the standards definition, because it is the best way to show the data.
 Every line of the table represents a register that can be modified, deleted or searchable. The different properties of the register are displayed separated with enough space in the grid representation. 
@@ -18,50 +18,49 @@ This component into the DXC design system is formed by three main parts:
 
 Here is an example of each section:
 
-<div> <img src="images/table_appereance.png"/></div>
+![Table modes](images/table_appereance.png)
 
-###### Modes
+## Modes
 
 One mode is defined for the table component, with slightly variations based on the configuration. 
 
 Modes: __basic__.
 
-<div> <img src="images/table_mode.png"/></div>
+![Table modes](images/table_mode.png)
 
-###### States
+## States
 
 Some other components defined in the design system are used in the table component as the checkbox or dropdown. For concrete specifications about states, please, consider to see the documentation of each component.
 
 States of the table are defined as follow:
 
     Normal State
-<div> <img src="images/table_mode_normal.png"/></div>
+![Table Normal State](images/table_mode_normal.png)
 
     Hover State
-<div> <img src="images/table_mode_hover.png"/></div>
+![Table hover state](images/table_mode_hover.png)
 
     Multiselect selection State
-<div> <img src="images/table_mode_multiselection.png"/></div>
+![Table multiselect state](images/table_mode_multiselection.png)
 
     Dropdown configuration State
-<div> <img src="images/table_mode_dropdown.png"/></div>
+![Table dropdown configuration state](images/table_mode_dropdown.png)
 
     Inline filtering State
-<div> <img src="images/table_mode_inline.png"/></div>
+![Table inline filtering variation](images/table_mode_inline.png)
 
 
+## Theming
 
-##### *Theming*
+### Light theme
 
-###### Light theme
+![Table light mode](images/table_light.png)
 
-<div> <img src="images/table_light.png"/></div>
+### Dark theme
 
-###### Dark theme
+![Table dark mode](images/table_dark.png)
 
-<div> <img src="images/table_dark.png"/></div>
-
-##### *Design Specifications*
+## Design Specifications
 
 Design specifications for table header:
 
@@ -104,13 +103,12 @@ Filter specifications
 | Filter tag width | `Adapt content` |
 | Font size | `14px` |
 
+![Table specifications](images/table_specs_header.png)
 
-<div> <img src="images/table_specs_header.png"/></div>
-
-###### Responsive version for mobile and tablet
+## Responsive version for mobile and tablet
 (To Do)
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Pagination strips should be used on desktop/laptop and tablet devices, but not on mobile phones.
 - The pagination strip should be right aligned below the bottom row of the table. 

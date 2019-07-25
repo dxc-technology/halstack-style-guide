@@ -1,7 +1,6 @@
+# DXC Switch Toggle Visual Guidelines
 
-## DXC Switch Toggle Visual Guidelines
-
-#### Overview
+## Overview
 
 Switch toggles are elements that can get two simple states, each of them has an impact on the system and it can be switched on or off, there are no more options.
 If the switch toggle is on one state, the action to change it will modify to value of the element to the contrary.
@@ -10,28 +9,27 @@ The main difference to using a switch toggle instead of other components with a 
 
 With the use of switch toggle, it is not needed a submit button to do the appropriate action, because the action takes place at the moment that the switch is turned on or off.
 
-##### *Appereance*
+## Appereance
 
 The appearance of the component should provide good visual feedback, making clear when the switch is on or off. To make a difference between states colors, shadows and fill properties can be used.
-<br>
 
-###### Modes
+## Modes
 
 Two main modes are represented within the component.
 
 Modes: __on__ and __off__.
-<div> <img src="images/switch_modes.png"/></div>
-<br>
 
-###### States
+![Switch modes](images/switch_modes.png)
+
+## States
 
 Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
 
-##### *Theming*
+## Theming
 
 Colors used for the design in each theme mode.
 
-###### Light theme
+### Light theme
 
 Black: #000000  
 Dark grey: #666666  
@@ -42,11 +40,9 @@ Press ripple: #666666 opacity 0.25
 Disable opacity checked: 0.4  
 Disable opacity unchecked: 0.7  
 
-<br>
-<div> <img src="images/switch_states.png"/></div>
-<br>
+![Switch states](images/switch_states.png)
 
-###### Dark theme
+### Dark theme
 
 Yellow: #FFED00  
 Dark grey: #666666  
@@ -58,11 +54,9 @@ Press ripple checked: #FFFFFF opacity 0.25
 Press ripple unchecked: #FFED00 opacity 0.25  
 Disabled opacity: 0.7  
 
-<br>
-<div> <img src="images/switch_dark.png"/></div>
-<br>
+![Switch dark mode](images/switch_dark.png)
 
-##### *Design Specifications*
+## Design Specifications
 
 | Property           | Value|
 |--------------------|------:|
@@ -77,11 +71,11 @@ Disabled opacity: 0.7
 
 Schematics examples for the switch toggle component with all the variations.
 
-<div> <img src="images/switch_specs.png"/></div>
-<div> <img src="images/switch_specs2.png"/></div>
-<br>
+![Switch specifications](images/switch_specs.png)
 
-###### User Interface Design Considerations
+![Switch specifications](images/switch_specs2.png)
+
+## User Interface Design Considerations
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc).
 - Try to present your lists vertically, with one choice per line. 

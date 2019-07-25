@@ -1,7 +1,6 @@
+# DXC Radio Button Visual Guidelines
 
-## DXC Radio Button Visual Guidelines
-
-#### Overview
+##Overview
 
 Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from a list of options.
 Clicking a non-selected radio button will deselect whatever other button was previously selected in the list.
@@ -14,42 +13,38 @@ By default, one option of the radio group must be pre-selected. Select the safes
 
 There can be an special case that it shouldn't be a pre-selected option from the start, so it is also contemplated here.
 
-##### *Appereance*
+## Appereance
 
-###### Modes
+### Modes
 
 Selected mode must be used when the user select an option or by default the value of the radio button is selected. For the rest of the cases, the mode that the component should get is unselected. A radio button that is selected can be unselected by the user that should be able to touch or click either the ratio button or the associated text to deselect the option, this is the same way to select an unselected radio.
 
 Modes: __selected__ or __unselected__.
-<div> <img src="images/radio_modes.png"/></div>
+![Radio button modes](images/radio_modes.png)
 
-###### States
+### States
 
 Five different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__ and __pressed__.
 
-<br>
+![Radio button states](images/radio_states.png)
 
-<div> <img src="images/radio_states.png"/> </div>
+## Theming
 
-<br>
-
-##### *Theming*
-
-###### Light theme
+### Light theme
 
 The text used with a radio button should goes in black color when the light theme is used. The radio button itself should have his border and inner circle in black to match the design proposal.
 
 The reference to that design it is displayed in the section below, States.
 
-###### Dark theme
+### Dark theme
 
 With the dark theme, the text must go in a white color because it is setting the background color to black. This is to keep a good color contrast and get a good accesibility.
 
 The radio button in this case will have the border in white and in case is selected, the inner circle will be yellow dxc.
 
-<div> <img src="images/radio_dark.png"/> </div>
+![Radio button dark theme](images/radio_dark.png)
 
-##### *Design Specifications*
+## Design Specifications
 
 Radio button specifications are similar to the checkbox component since the usage of both are quite alike.
 The outlined shape has 24 by 24 pixels. In case the radio is selected, the inner shape has a size of 12 by 12 pixels.
@@ -64,8 +59,7 @@ The radio button must always be pared with text, being able to place the text be
 | Font size (with text)| `16px` |
 | Font weight        | `Regular` |
 
-
-<div> <img src="images/radio_specs.png"/> </div>
+![Radio button specifications](images/radio_specs.png)
 
 Radio buttons may be displayed in a linear fashion or vertically stacked.
 
@@ -75,18 +69,16 @@ Multiple radio buttons may be displayed horizontally across the page while keepi
 
 In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
 
-<br>
-<div> <img src="images/radio_linear.png"/> </div>
-<br>
+![Radio button linear layout](images/radio_linear.png)
 
 *Stacked*
 
 Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read. 
 With this option, try to make one choice per line. Also, avoid nesting whenever is possible, all options should be keep at same level to not generate confusion.
 
-<div> <img src="images/radio_stacked.png"/> </div>
+![Radio button stacked layout](images/radio_stacked.png)
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Unless a selection is mandatory, a user should be able to re-click a radio button to deselect.
 - Single radio buttons should not be used.

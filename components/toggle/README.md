@@ -1,30 +1,30 @@
+# DXC Toggle Visual Guidelines
 
-## DXC Toggle Visual Guidelines
-
-#### Overview
+## Overview
 
 Toggle buttons can be used to put together related options that share a common attribute modification.
 It allows the user to switch from one selected option to another in the same control, having one option selected at a time. Also, there can be another variation that allows selecting multiple options from the current toggle group.
 
 
-##### *Appereance*
+## Appereance
 
 The appearance of the toggle looks like button component, because it is based on the same specifications to keeping consistency along with the application, but in this case are offered fewer visual modes.
 
-###### Modes
+## Modes
 
 Two modes are presented: __basic__ and __outlined__.
-<div> <img src="images/toggle_modes.png"/></div>
 
-###### States
+![Toggle modes](images/toggle_modes.png)
+
+## States
 
 Different states are defined in the life cycle of the component:
 __Normal__, __selected__, __unselected__, __disabled__ and __clicked__.
 
 
-##### *Theming*
+## Theming
 
-###### Light theme
+### Light theme
 
 Yellow: #FEDD00  
 Black: #000000  
@@ -33,20 +33,20 @@ Disabled opacity (default): 0.5
 Grey selected option (outlined): #EEEEEE  
 Grey unselected option (outlined): #FFFFFF  
 Disabled opacity (outlined): 0.25  
-<br>
-<div> <img src="images/toggle_light.png"/></div>
 
-###### Dark theme
+![Toggle light theme](images/toggle_light.png)
+
+### Dark theme
 
 Same colors are using for the default mode in the dark theme. New colors for the outline mode are defined as follow:
 
 Grey selected option (outlined): #EEEEEE  
 Hover grey unselected: #666666  
 Disabled opacity (outlined): 0.5  
-<br>
-<div> <img src="images/toggle_dark.png"/></div>
 
-##### *Design Specifications*
+![Toggle dark theme](images/toggle_dark.png)
+
+## Design Specifications
 
 | Property           | Value|
 |--------------------|------:|
@@ -59,10 +59,9 @@ Disabled opacity (outlined): 0.5
 | Font size| `14px` |
 | Font weight| `Regular` |
 
-<br>
-<div> <img src="images/toggle_specs.png"/></div>
+![Toggle specifications](images/toggle_specs.png)
 
-###### Icon Usage
+## Icon Usage
 
 Inside the toggle button, it is possible to use icons to represent recognizable actions.
 The specifications for icon usage differs a little bit in relation to text usage.
@@ -72,7 +71,7 @@ The ideal padding for each option is 10 pixels for top and bottom and 12 pixels 
 
 The behavior in regard to colors and interactions are the same that for the previous.
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 Toggles should be used in place of radio buttons whenever the options are
 - Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required

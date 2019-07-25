@@ -1,12 +1,11 @@
+# DXC Select Visual Guidelines
 
-## DXC Select Visual Guidelines
-
-#### Overview
+## Overview
 
 A select component is a right choice to preventing users from entering errors in input data because the options are predefined, also they conserve screen space and it is possible to show several options in a reduced space.
 The main use of select components is inside a form fill, letting the user select an option from the list as an input.
 
-##### *Appearance*
+## Appearance
 
 Select is widely recognizable, despite the options are not shown at the first instance, an icon with a down arrow indicates that clicking in the field the list will be visible.
 In the input, the placeholder has defined the attribute that will get the value and when the dropdown is shown, it will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling. 
@@ -15,20 +14,21 @@ In case that an option is selected when the dropdown turns visible, it should be
 
 Multiple option selection will get an appearance with a checkbox that indicates the elements from the list that are selected or not.
 
-###### Modes
+### Modes
 
 There is only one mode for the select component: __basic__.
 It looks similar to the other inputs from the design system but in this case, it will always indicate with an arrow icon that there is a list with options that allow the user to selecting one or more options.
-<div> <img src="images/select_modes.png"/></div>
 
-###### States
+![Select modes](images/select_modes.png)
+
+## States
 
 Seven states are defined for select component based on the interactions that the user can reproduce. The states are: __normal__, __select with focus__, __select clicked__, __select clicked and option selected__, __select with clicked option and hovered option__, __select animation on click__ and __select input with value__.
 
 
-##### *Theming*
+## Theming
 
-###### Light theme
+### Light theme
 
 Black: #000000  
 Dark grey: #666666  
@@ -40,24 +40,24 @@ Checkbox unchecked border: #666666
 
 *For the rest of the checkbox state, please consult the MD of that component.
 
-<div> <img src="images/select_light.png"/></div>
+![Select light theme](images/select_light.png)
 
-###### Dark theme
+### Dark theme
 
 Color for the dark theme is the same that ones used in the light theme, with the difference that the input must be white caused for the dark background.
 
-<div> <img src="images/select_dark.png"/></div>
+![Select dark theme](images/select_dark.png)
 
-##### *Multiple selection*
+## Multiple selection
 
 Using the select component there is the option to use an alternative to take multiple selections. This allows the user to select more than one option from the list.
 To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
 
-<div> <img src="images/select_multi.png"/></div>
+![Select multiple option](images/select_multi.png)
 
-<div> <img src="images/select_multi_dark.png"/></div>
+![Select multiple option in dark theme](images/select_multi_dark.png)
 
-##### *Design Specifications*
+## Design Specifications
 
 | Property for single| Value|
 |--------------------|------:|
@@ -87,9 +87,9 @@ To indicate which items are selected and which not, the design for multiple sele
 | Font weight   | `Regular`|
 | Icon margin bottom | `20px`|
 
-<div> <img src="images/select_spec.png"/></div>
+![Select specifications](images/select_spec.png)
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 Singles selection dropdown
 
