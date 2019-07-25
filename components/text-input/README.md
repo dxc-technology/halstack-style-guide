@@ -81,7 +81,7 @@ The aspects that text area is not including respecting text input are:
 ![Specifications for input component](images/input_specs.png)
 ![Specifications for textarea component](images/textarea_specs.png)
 
-###### Required fields
+### Required fields
 
 Required fields are a variation in the normal behavior of the input fields. This indicates to the user that the input is required so it can't be skipped if the intention is to go forward in the application.
 
@@ -94,7 +94,7 @@ Here are the different representations of a required field:
 The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
 
 
-###### User Interface Design Considerations
+### User Interface Design Considerations
 
 - Input fields should allow users to enter any combination of letters, numbers, or symbols unless otherwise restricted or stipulated by requirements
 - Avoid breaking up a number with distinct sections into separate input field (i.e. phone numbers, area codes, SSN, dates, etc) to facilitate screen reader accessibility requirements
