@@ -1,12 +1,12 @@
-## DXC Dropdown Visual Guidelines
+# DXC Dropdown Visual Guidelines
 
-#### Overview
+## Overview
 
 The use of dropdowns has its advantages but it depends on the screen support. Dropdowns are a standard widget, so the users know how to interact with them. The options available in a dropdown component are static, so this prevents from erroneous data entered by the user since it only shows a range of correct values for that input.
 
 A dropdown in mobile is more unusable than a dropdown in a web application, regarding screen spacing, size of elements and scannability in the number of options to display.
 
-##### *Appearance*
+## Appearance
 
 Dropdowns have the same look as select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios. 
 
@@ -22,41 +22,43 @@ Once an option is selected by the user, the main container has to reflect the op
 
 If there is a special case when the dropdown couldn't be displayed below the selector because it is hiding important information reducing discoverability and scanability in the website then consider to use other options to display the information or customize the position of the pop up to fitting the necessities of the application.
 
-###### Modes
+### Modes
 
 Two modes are defined for each theme.
-<div> <img src="images/dropdown_modes.png"/></div>
 
-###### States
+![Dropdown modes](images/dropdown_modes.png)
+
+### States
 
 Six different states for the dropdown elememts: __default__, __dropdown displayed__, __option hovered__, __option selected__, __submenu displayed__ and __option selected (no dropdown)__.
-<div> <img src="images/dropdown_states.png"/></div>
 
-##### *Theming*
+![Dropdown modes](images/dropdown_states.png)
 
-###### Light theme
+### Theming
 
-Black: #000000  
-White: #FFFFFF  
-Dark grey (selected item): #666666  
-Light grey (hovered item): #d9d9d9  
-
-
-
-<div> <img src="images/dropdown_light1.png"/></div>
-<div> <img src="images/dropdown_light2.png"/></div>
-
-###### Dark theme
+### Light theme
 
 Black: #000000  
 White: #FFFFFF  
 Dark grey (selected item): #666666  
 Light grey (hovered item): #d9d9d9  
 
-<div> <img src="images/dropdown_dark1.png"/></div>
-<div> <img src="images/dropdown_dark2.png"/></div>
+![Dropdown light theme primary](images/dropdown_light1.png)
 
-##### *Design Specifications*
+![Dropdown light theme secondary](images/dropdown_light2.png)
+
+### Dark theme
+
+Black: #000000  
+White: #FFFFFF  
+Dark grey (selected item): #666666  
+Light grey (hovered item): #d9d9d9  
+
+![Dropdown light theme primary](images/dropdown_dark1.png)
+
+![Dropdown light theme secondary](images/dropdown_dark2.png)
+
+## Design Specifications
 
 | Property for dropdown (hidden)  | Value |
 |--------------------|------:|
@@ -79,16 +81,16 @@ Light grey (hovered item): #d9d9d9
 | Options padding  left/right | `20px`|
 | Last option padding bottom | `20px`|
 
-<div> <img src="images/dropdown_specs.png"/></div>
+![Dropdown specifications](images/dropdown_specs.png)
 
-###### Icon Usage
+## Icon Usage
 
 It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
 
-<div> <img src="images/dropdown_iconusage.png"/></div>
-<div> <img src="images/dropdown_iconspecs.png"/></div>
+![Icon usage](images/dropdown_iconusage.png)
+![Icon specifications](images/dropdown_iconspecs.png)
 
-###### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Consider the number of options (binary decisions or a few items) to decide to implement one component that represent in a better way the data, i.e. radio button or switch toggle.
 - For a large number of well specified options, consider to use an autocomplete field to filter the amount of options while typing.
