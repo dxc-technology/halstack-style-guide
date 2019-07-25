@@ -21,7 +21,7 @@ There are two modes for each theme, so it can be called as __primary__ and __sec
 
 ### States
 
-The only state that is controlled in the card component is the hover. As it is needed a visual feedback to give the user a notion of which card is involve in the action, the rest of the states are directly dependent on the components defined inside of the card.
+The only state that is controlled in the card component is the hover. As it is needed visual feedback to give the user a notion of which card is involve in the action, the rest of the states are directly dependent on the components defined inside of the card.
 
 ![Card states](images/card_states.png)
 
@@ -49,6 +49,69 @@ Hover shadow opacity secondary: #FFED00 for border color
 
 ## Design Specifications
 
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `20px` |
+| Padding           | `30px` |
+| Border Radius | `4px` |
+| Border thickness| `2px` |
+| Min. height| `160px` |
+| Min. width | `400px` |
+| Max. width | `100%` |
+| Image      | `80x80px` |
+| Space title-subtitle   | `4px` |
+| Space main info to paragraph  | `14px` |
 
+![Card specifications](images/card_specs_1.png)
+
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `20px` |
+| Padding top/right/bottom  | `20px` |
+| Border Radius | `4px` |
+| Border thickness| `2px` |
+| Min. height| `154px` |
+| Min. width | `370px` |
+| Max. width | `100%` |
+| Image      | `154x126px` |
+| Space photo - content | `24px` |
+| Space title to paragraph  | `10px` |
+
+![Card specifications](images/card_specs_2.png)
+
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `20px` |
+| Padding           | `20px` |
+| Border Radius | `4px` |
+| Border thickness| `2px` |
+| Min. height| `374px` |
+| Min. width | `400px` |
+| Max. width | `100%` |
+| Image      | `400x120px` |
+| Space title-subtitle   | `4px` |
+| Space main info to paragraph  | `20px` |
+| Space paragraph to actions  | `20px` |
+
+![Card specifications](images/card_specs_3.png)
+
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `20px` |
+| Padding           | `20px` |
+| Border Radius | `4px` |
+| Border thickness| `2px` |
+| Min. height| `200px` |
+| Min. width | `400px` |
+| Max. width | `100%` |
+| Image      | `120x120px` |
+| Space title-subtitle   | `4px` |
+| Space main info to paragraph  | `20px` |
+| Space actions to photo  | `20px` |
+
+![Card specifications](images/card_specs_4.png)
 
 ### User Interface Design Considerations
+
+- Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
+- If a collection want be create, won't use different card styles, use the same to keep consistency
