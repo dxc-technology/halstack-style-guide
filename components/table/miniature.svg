@@ -1,6 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="179" height="93" viewBox="0 0 179 93">
-  <g id="Group_871" data-name="Group 871" transform="translate(-1298 -756)">
-    <rect id="Rectangle_979" data-name="Rectangle 979" width="179" height="93" transform="translate(1298 756)" fill="#e2e2e2" opacity="0.5"/>
-    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1336 808)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">Coming soon!</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="150" viewBox="0 0 274 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1278" data-name="Rectángulo 1278" width="274" height="150" transform="translate(568 2402)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_19" data-name="Enmascarar grupo 19" transform="translate(-568 -2402)" clip-path="url(#clip-path)">
+    <g id="Grupo_1450" data-name="Grupo 1450" transform="translate(473 1685)">
+      <path id="Rectángulo_1274" data-name="Rectángulo 1274" d="M4,0H1233a4,4,0,0,1,4,4V60a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(95 765)"/>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(142 802)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Name</tspan></text>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-2" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(339 802)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">DOB</tspan></text>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-3" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(523 802)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Gender</tspan></text>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-4" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(694 802)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">ID</tspan></text>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-5" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(814 802)" fill="#fff" font-size="20" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Email</tspan></text>
+      <path id="Trazado_2267" data-name="Trazado 2267" d="M10.994,5.21l2.475,2.475,1.1-1.1L10.994,3,7.41,6.584l1.109,1.1Zm0,9.635L8.519,12.37l-1.1,1.1,3.576,3.584,3.584-3.584-1.109-1.1Z" transform="translate(199.006 784.973)" fill="#fff"/>
+      <path id="Trazado_2268" data-name="Trazado 2268" d="M10.994,5.21l2.475,2.475,1.1-1.1L10.994,3,7.41,6.584l1.109,1.1Zm0,9.635L8.519,12.37l-1.1,1.1,3.576,3.584,3.584-3.584-1.109-1.1Z" transform="translate(383.006 784.973)" fill="#fff"/>
+      <path id="Trazado_2269" data-name="Trazado 2269" d="M10.994,5.21l2.475,2.475,1.1-1.1L10.994,3,7.41,6.584l1.109,1.1Zm0,9.635L8.519,12.37l-1.1,1.1,3.576,3.584,3.584-3.584-1.109-1.1Z" transform="translate(594.006 784.973)" fill="#fff"/>
+      <path id="Trazado_2270" data-name="Trazado 2270" d="M10.994,5.21l2.475,2.475,1.1-1.1L10.994,3,7.41,6.584l1.109,1.1Zm0,9.635L8.519,12.37l-1.1,1.1,3.576,3.584,3.584-3.584-1.109-1.1Z" transform="translate(714.006 784.973)" fill="#fff"/>
+      <path id="Trazado_2271" data-name="Trazado 2271" d="M10.994,5.21l2.475,2.475,1.1-1.1L10.994,3,7.41,6.584l1.109,1.1Zm0,9.635L8.519,12.37l-1.1,1.1,3.576,3.584,3.584-3.584-1.109-1.1Z" transform="translate(866.006 784.973)" fill="#fff"/>
+      <g id="Grupo_1439" data-name="Grupo 1439" transform="translate(95 825)">
+        <rect id="Rectángulo_1261" data-name="Rectángulo 1261" width="1237" height="47.755" transform="translate(0 0)" fill="#fff"/>
+        <path id="Trazado_1015" data-name="Trazado 1015" d="M6.033,19.531A2.072,2.072,0,0,0,8.1,21.6h8.266a2.072,2.072,0,0,0,2.066-2.066V7.133H6.033Zm13.431-15.5H15.848L14.815,3H9.649L8.616,4.033H5V6.1H19.465Z" transform="translate(183 13.477)"/>
+        <path id="Trazado_1016" data-name="Trazado 1016" d="M0,0H24.8V24.8H0Z" transform="translate(240.613 13.377)" fill="none"/>
+        <g id="Grupo_1418" data-name="Grupo 1418" transform="translate(18 14.377)">
+          <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-6" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(0 17)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Selected items</tspan></text>
+          <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-7" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(121 17)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">(</tspan><tspan y="0" font-family="OpenSans-Bold, Open Sans" font-weight="700">3</tspan><tspan y="0">)</tspan></text>
+        </g>
+      </g>
+      <g id="Grupo_1451" data-name="Grupo 1451" transform="translate(95 717)">
+        <rect id="Rectángulo_1261-2" data-name="Rectángulo 1261" width="1237" height="47.755" transform="translate(0 0)" fill="#eee"/>
+        <path id="Trazado_1016-2" data-name="Trazado 1016" d="M0,0H24.8V24.8H0Z" transform="translate(240.613 13.377)" fill="none"/>
+      </g>
+      <g id="Grupo_1440" data-name="Grupo 1440" transform="translate(1200.3 836)">
+        <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-8" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(0 17)" font-size="16" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Añadir Item</tspan></text>
+        <g id="Grupo_1427" data-name="Grupo 1427" transform="translate(99 5)">
+          <circle id="Elipse_270" data-name="Elipse 270" cx="6.089" cy="6.089" r="6.089" fill="#ffed00"/>
+          <g id="Grupo_1425" data-name="Grupo 1425" transform="translate(2.18 2.375)">
+            <line id="Línea_639" data-name="Línea 639" x2="7.819" transform="translate(0 3.714)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Línea_640" data-name="Línea 640" y2="7.428" transform="translate(3.909)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_1443" data-name="Grupo 1443" transform="translate(-5 -46)">
+        <path id="Trazado_2273" data-name="Trazado 2273" d="M10,18h4V16H10ZM3,6V8H21V6Zm3,7H18V11H6Z" transform="translate(1287 821)" fill="#fff"/>
+        <path id="_Text_H6_Selected_On_Surface_High_Emphasis_Left-9" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" d="M2.174,0h-1V-8.566H5.953v.885H2.174v3.135H5.725v.885H2.174Zm5.2,0V-8.566h1V0Zm3.348,0V-8.566h1V-.9H15.5V0Zm8.868,0h-1V-7.682H15.88v-.885H22.3v.885H19.589Zm8.78,0H23.594V-8.566h4.775v.885H24.59v2.76H28.14v.879H24.59V-.891h3.779Zm2.9-3.562V0h-1V-8.566h2.35a3.7,3.7,0,0,1,2.329.6A2.188,2.188,0,0,1,35.7-6.146a2.275,2.275,0,0,1-1.723,2.3L36.3,0H35.127L33.053-3.562Zm0-.855h1.365a2.358,2.358,0,0,0,1.547-.419,1.559,1.559,0,0,0,.492-1.257,1.43,1.43,0,0,0-.5-1.225,2.714,2.714,0,0,0-1.608-.375H31.266Z" transform="translate(1280 855.566)" fill="#fff"/>
+      </g>
+      <rect id="Rectángulo_1276" data-name="Rectángulo 1276" width="132" height="30" rx="15" transform="translate(129 726)" fill="#fff"/>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(141 746)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Clara Briggs</tspan></text>
+      <g id="Grupo_1452" data-name="Grupo 1452" transform="translate(229.294 742.089) rotate(-45)">
+        <circle id="Elipse_270-2" data-name="Elipse 270" cx="9.26" cy="9.26" r="9.26" fill="#ffed00"/>
+        <g id="Grupo_1425-2" data-name="Grupo 1425" transform="translate(3.315 3.612)">
+          <line id="Línea_639-2" data-name="Línea 639" x2="11.891" transform="translate(0 5.648)" fill="none" stroke="#000" stroke-width="1"/>
+          <line id="Línea_640-2" data-name="Línea 640" y2="11.296" transform="translate(5.946)" fill="none" stroke="#000" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Grupo_1454" data-name="Grupo 1454">
+        <rect id="Rectángulo_1277" data-name="Rectángulo 1277" width="128" height="30" rx="15" transform="translate(276 726)" fill="#fff"/>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(288 746)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">16/02/1999</tspan></text>
+        <g id="Grupo_1453" data-name="Grupo 1453" transform="translate(372.433 742.089) rotate(-45)">
+          <circle id="Elipse_270-3" data-name="Elipse 270" cx="9.162" cy="9.162" r="9.162" fill="#ffed00"/>
+          <g id="Grupo_1425-3" data-name="Grupo 1425" transform="translate(3.279 3.574)">
+            <line id="Línea_639-3" data-name="Línea 639" x2="11.765" transform="translate(0 5.588)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Línea_640-3" data-name="Línea 640" y2="11.176" transform="translate(5.882)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_1455" data-name="Grupo 1455" transform="translate(143)">
+        <rect id="Rectángulo_1277-2" data-name="Rectángulo 1277" width="144.904" height="30" rx="15" transform="translate(276 726)" fill="#fff"/>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_3" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(288 746)" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">asd@asd.com</tspan></text>
+        <g id="Grupo_1453-2" data-name="Grupo 1453" transform="translate(389.337 742.089) rotate(-45)">
+          <circle id="Elipse_270-4" data-name="Elipse 270" cx="9.162" cy="9.162" r="9.162" transform="translate(0 0)" fill="#ffed00"/>
+          <g id="Grupo_1425-4" data-name="Grupo 1425" transform="translate(3.279 3.574)">
+            <line id="Línea_639-4" data-name="Línea 639" x2="11.765" transform="translate(0 5.588)" fill="none" stroke="#000" stroke-width="1"/>
+            <line id="Línea_640-4" data-name="Línea 640" y2="11.176" transform="translate(5.882 0)" fill="none" stroke="#000" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_4" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1176 746)" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0.031em"><tspan x="0" y="0">CLEAR ALL FILTERS</tspan></text>
+    </g>
   </g>
 </svg>

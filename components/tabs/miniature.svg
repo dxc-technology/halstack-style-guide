@@ -1,6 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="179" height="93" viewBox="0 0 179 93">
-  <g id="Group_871" data-name="Group 871" transform="translate(-1298 -756)">
-    <rect id="Rectangle_979" data-name="Rectangle 979" width="179" height="93" transform="translate(1298 756)" fill="#e2e2e2" opacity="0.5"/>
-    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1336 808)" font-size="16" font-family="ArialMT, Arial" letter-spacing="0.031em"><tspan x="0" y="0">Coming soon!</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="150" viewBox="0 0 274 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_985" data-name="Rectángulo 985" width="274" height="150" transform="translate(1337 2838)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_18" data-name="Enmascarar grupo 18" transform="translate(-1337 -2838)" clip-path="url(#clip-path)">
+    <g id="Grupo_1216" data-name="Grupo 1216" transform="translate(1263 2223.772)">
+      <rect id="Box" width="200.025" height="84.011" transform="translate(284.658 668.347)" fill="#d9d9d9" opacity="0.5"/>
+      <rect id="Box-2" data-name="Box" width="200.025" height="84.011" transform="translate(484.31 668.347)" fill="#d9d9d9" opacity="0.5"/>
+      <rect id="Box-3" data-name="Box" width="200.025" height="84.455" transform="translate(85 668.347)"/>
+      <rect id="Selected" width="200.025" height="2.222" transform="translate(85 750.333)" fill="#ffed00"/>
+      <g id="Grupo_1200" data-name="Grupo 1200" transform="translate(158.342 683.596)">
+        <text id="TAB_1" data-name="TAB 1" transform="translate(26 46.127)" fill="#fff" font-size="17" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-25.686" y="0">TAB 1</tspan></text>
+        <path id="Icon_Favorite" data-name="Icon / Favorite" d="M367.335-1390.53l-1.934-1.76c-6.868-6.227-11.4-10.334-11.4-15.375a7.263,7.263,0,0,1,7.334-7.334,7.987,7.987,0,0,1,6,2.787,7.987,7.987,0,0,1,6-2.787,7.263,7.263,0,0,1,7.334,7.334c0,5.041-4.534,9.148-11.4,15.389Z" transform="translate(-340.665 1415)" fill="#ffed00"/>
+      </g>
+      <g id="Grupo_1214" data-name="Grupo 1214" transform="translate(358.367 683.596)">
+        <text id="TAB_2" data-name="TAB 2" transform="translate(26 46.127)" fill="#666" font-size="17" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em" opacity="0.8"><tspan x="-25.686" y="0">TAB 2</tspan></text>
+        <path id="Icon_Favorite-2" data-name="Icon / Favorite" d="M367.335-1390.53l-1.934-1.76c-6.868-6.227-11.4-10.334-11.4-15.375a7.263,7.263,0,0,1,7.334-7.334,7.987,7.987,0,0,1,6,2.787,7.987,7.987,0,0,1,6-2.787,7.263,7.263,0,0,1,7.334,7.334c0,5.041-4.534,9.148-11.4,15.389Z" transform="translate(-340.665 1415)" fill="#666" opacity="0.8"/>
+      </g>
+      <g id="Grupo_1215" data-name="Grupo 1215" transform="translate(557.28 683.596)">
+        <text id="TAB_3" data-name="TAB 3" transform="translate(26 46.127)" fill="#666" font-size="17" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em" opacity="0.8"><tspan x="-25.686" y="0">TAB 3</tspan></text>
+        <path id="Icon_Favorite-3" data-name="Icon / Favorite" d="M367.335-1390.53l-1.934-1.76c-6.868-6.227-11.4-10.334-11.4-15.375a7.263,7.263,0,0,1,7.334-7.334,7.987,7.987,0,0,1,6,2.787,7.987,7.987,0,0,1,6-2.787,7.263,7.263,0,0,1,7.334,7.334c0,5.041-4.534,9.148-11.4,15.389Z" transform="translate(-340.665 1415)" fill="#666" opacity="0.8"/>
+      </g>
+    </g>
   </g>
 </svg>
