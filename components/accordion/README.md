@@ -6,7 +6,9 @@ Accordions are an open source design feature that can show/hide alternate groups
 
 ## Appereance
 
+An accordion trigger is always paired with a label that describes the content that can be found inside the accordion and an arrow that indicates that clicking there some action will take place.
 
+The concept of an accordion is not more than a container of information, so the content inside the accordion will rely on the responsibility of the implementation. It can contain other components, images, tables and every custom feature that can be supported inside the element container.
 
 ### Modes
 
@@ -68,7 +70,44 @@ Border color: #FFFFFF
 
 ## Design Specifications
 
+Accordion specifications with the content hidden
+
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `1px` |
+| Padding right/left | `30px` |
+| Padding top/bottom | `20px` |
+| Border Radius | `4px` |
+| Border thickness (outside)| `2px` |
+| Separator | `1px` |
+| Min. height| `72px` |
+| Min. width| `280px` |
+| Max. width| `100%` |
+| Font size| `16px` |
+| Font weight| `Regular` |
+
+
+Specifications for the content within the accordion
+
+| Property           | Value|
+|--------------------|------:|
+| Margin            | `1px` |
+| Padding           | `30px` |
+| Height            | `According to the content` |
+| Widht             | `The same as the trigger` |
+
 ![Accordion states example](images/accordion_specs.png)
+
+
+## Responsive version
+
+The modes, states an actions for a responsive version are the same that the ones used in the desktop version. The only difference is the size of the accordion that will fit the device in which this will be displayed.
+The minimum width of the component (280px) fits well in small devices.
+
+The hover action isn't allowed on touchable screens, so it will be replaced by the tap action.
+
+![Accordion responsive version](images/accordion_responsive_version.png)
+![Accordion responsive version (other approach)](images/accordion_responsive_version_2.png)
 
 ### User Interface Design Considerations
 
