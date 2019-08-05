@@ -36,7 +36,7 @@ This is just an example to see the type of combinations that can have place in t
 
 _Separator_: In some cases it would be good to have a separator between the title and the content, depending on the content inside the container, so there is an option to incluide it making it clear the part of the dialog header and the dialog content.
 
-![Definition of the mode with a separator](images/dialog_mode_inputs.png)
+![Definition of the mode with a separator](images/dialog_mode_separator.png)
 
 _Header with icons_: It could be useful include icons within the header to indicate the related information that will be trated into the dialog. Also it can be an assitive visual clue to the description.
 
