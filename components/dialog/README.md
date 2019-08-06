@@ -7,6 +7,7 @@ A modal dialog is a message box or child window that requires user interaction b
 ## Appereance
 
 The dialog appearance is widely recognizable by the users, as it appears in the center of the screen, above the content of the applications as a call to the user to interact or put the focus in the content shown inside that box.
+This dialog disables the main content until the user explicitly interacts with the modal dialog, so it requirs immediate attention by the user.
 
 ### Modes
 
