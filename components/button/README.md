@@ -37,21 +37,21 @@ Yellow: #FFED00
 Disable opacity: 0.5  
 Animation ripple (basic and raised): #666666  
 Animation ripple (outlined and flat): #EEEEEE  
-Hover flat type: #E5E5E5  
+Hover flat type: #D9D9D9  
 
 ![Button states light theme](images/button_states.png)
 
 ### Dark theme
 
-Black; #000000  
+Black: #000000  
 Yellow: #FFED00  
 White: #FFFFFF  
 Hover (basic and raised): #212121  
-Hover (flat): #E5E5E5  
-Animation ripple (outlined and flat): #171717  
+Hover (flat): #D9D9D9  
+Animation ripple (outlined and flat): #666666 
 Disabled opacity: 0.5  
-Disable (raised): #D9D9D9  
-Disable (flat): #666666  
+Disable (outlined): #666666 
+Disable (flat): #666666 back, #D9D9D9 text 
 Clicked (flat): #FFFFFF  
 
 ![Button states dark theme](images/button_states_dark.png)
@@ -86,7 +86,6 @@ Sometimes the purpose should be different, so there is the possibility to inacti
 
 It is not limited the content of a button like so the user can place icons inside of a button to reinforce the action accordingly to the meaning.
 
-<!-- Both resources, [Material Icons](https://material.io/tools/icons) and [Fontawesome Icons](https://fontawesome.com/icons) -->
 Any icon can be used in the DXC Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
 Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
