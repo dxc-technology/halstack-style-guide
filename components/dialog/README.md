@@ -84,18 +84,16 @@ Specifications for desktop and tablet (landscape mode)
 | Sparator space bottom | `20px` |
 | 'X' icon size | `20x20px` |
 | Margin top/rigth | `24px/24px` |
-| Title icon space | `16px` |
-
-
+| Title icon space | `16px` |  
+  
 Specifications for tablet (portrait mode)
 
 | Property           | Value|
 |--------------------|------:|
 | Min. width | `600px` |
 | Max. width | `80%` |
-| Title font size | `24px` |
-
-
+| Title font size | `24px` |  
+  
 Specifications for phone
 
 | Property           | Value|
