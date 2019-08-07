@@ -78,6 +78,10 @@ With this option, try to make one choice per line. Also, avoid nesting whenever 
 
 ![Radio button stacked layout](images/radio_stacked.png)
 
+*Use with text*
+
+![Radio with text in different scenarios](images/radio_text.png)
+
 ## User Interface Design Considerations
 
 - Unless a selection is mandatory, a user should be able to re-click a radio button to deselect.
