@@ -66,12 +66,14 @@ Checkbox may be either linear or stacked, the first case should be used when the
 
 Stacked should be chosen when the checkbox is related and have a group label to enhance readability and show association.
 
-*Linear*
+*Linear*  
+
 The text should have a margin of 15 pixels based on its position. If the text is after the checkbox, it should define the margin on the right side. Otherwise, if the label of the checkbox is before the box, the margin has to go on the left side.
 
 ![Checkbox design specifications for linear display](images/checkbox_linear.png)
 
-*Stacked*
+*Stacked*  
+
 The spacing between stacked checkboxes should be 20 pixels that is determining by the top/bottom margin of the checkboxes itself.
 
 ![Checkbox design specifications for stacked display](images/checkbox_stacked.png)

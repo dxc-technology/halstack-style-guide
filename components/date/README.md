@@ -24,23 +24,15 @@ The date input should lead the user to interact with it to select a date and giv
 ### Modes
 
 There are three modes for the date input with slightly changes that follows the design of the rest inputs. A thin line under the input container with description and labeling, and some animations that activate when the user interacts with the component.
-Modes: __basic__, __basic with custom icon__ and __basic with custom format__.
+Modes: __basic__ and __basic with custom icon__.
 
 ![Date modes](images/date_modes.png)
 
 ### States
 
-Eleven different states are defined in the life cycle of the component: __normal__, __icon pressed__, __input pressed__, __partially disabled__, __completely disabled__, __selected__, __entered__ and __disabled pop up__.
+Eight different states are defined in the life cycle of the component: __normal__, __icon pressed__, __input disabled__, __completely disabled__, __entered__, __selected__, __focused__ and __disabled pop up__.
 
 ![Date states](images/date_states.png)
-
-### Configurations
-
-Same input can have different configurations regarding the float label of the field.
-
--   Transition (default): The label makes a transition once it is focused
--   Float: The label should always float
--   Static: There is no transition at all
 
 ### Calendar Pop-up
 
@@ -58,7 +50,7 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 
 The specifications for dates are similar to the ones used with the input text component. In the case that the field will be read-only, the look and feel will be the same for both components.
 
-The text within the input should always aligns right. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 12 pixels.
+The text within the input should always aligns right. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
 
 In the case that the input is selected or the user is typing inside and the hint is positioned on the top, the measures are 6 pixels between the main text and the underline decoration and 6 pixels between the top hint respect the main text. As this will take more space, the height of the component will be changed from 34 pixels to 51 pixels.
 Another variation could be to having an auxiliary text below the underlined item so it will take 74 pixels for the height.
@@ -81,9 +73,17 @@ These sizes are including small padding as a touchable safe area so the size of 
 | Font size (with text)| `16px` |
 | Font weight        | `Regular` |
 | Icon size       | `18x18(px)` |
-| Distance between text and underline | `12px` |
+| Distance between text and underline | `7px` |
 
 ![Date specifications](images/date_specs.png)
+
+### Additional modes
+
+For the datepicker as for the input component are additional modes apart from the normal ones. __Required__, __error__ and __assistive text__ are another options to display within the component.
+
+The different modes and states can be combined between them to handle the flow of the component.
+
+![Additonal modes for datepicker](images/date_additionals.png)
 
 ### Calendar Pop-up Specifications
 

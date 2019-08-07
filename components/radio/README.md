@@ -1,8 +1,8 @@
 # DXC Radio Button Visual Guidelines
 
-##Overview
+## Overview
 
-Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from a list of options.
+Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from the list.
 Clicking a non-selected radio button will deselect whatever other button was previously selected in the list.
 
 It is recommended to use radio buttons only for settings, in a logical order based on some criteria and not taking the alphabetical sorting because it depends on the language and the order could be seen altered.
@@ -47,7 +47,7 @@ The radio button in this case will have the border in white and in case is selec
 ## Design Specifications
 
 Radio button specifications are similar to the checkbox component since the usage of both are quite alike.
-The outlined shape has 24 by 24 pixels. In case the radio is selected, the inner shape has a size of 12 by 12 pixels.
+The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner shape has a size of 10 by 10 pixels.
 
 The radio button must always be pared with text, being able to place the text before or after the radio button.
 
@@ -65,7 +65,7 @@ Radio buttons may be displayed in a linear fashion or vertically stacked.
 
 *Linear*
 
-Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize sometime a vertical position could be better.
+Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize, sometime a vertical position could be better.
 
 In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
 
