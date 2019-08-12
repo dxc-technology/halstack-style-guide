@@ -78,6 +78,10 @@ The spacing between stacked checkboxes should be 20 pixels that is determining b
 
 ![Checkbox design specifications for stacked display](images/checkbox_stacked.png)
 
+*Use with text*
+
+![Checkbox design preview pairing with text](images/checkbox_combination.png)
+
 The last property that the checkbox can get is the required attribute that would represent once the checkbox has a paring label, indicating that the selection of that input must be done, in another case the user wouldn't proceed with the application flow. 
 The representation of a required checkbox is a colored asterisk right before the checkbox label.
 

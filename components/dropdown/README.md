@@ -26,6 +26,8 @@ If there is a special case when the dropdown couldn't be displayed below the sel
 
 Two modes are defined for each theme.
 
+Modes: __basic__ and __outlined__.
+
 ![Dropdown modes](images/dropdown_modes.png)
 
 ### States
