@@ -42,8 +42,10 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 Black: #000000  
 White: #FFFFFF  
-Dark grey (selected item): #666666  
-Light grey (hovered item): #d9d9d9  
+Outlined option grey (selected item): #D9D9D9 
+Outlined option grey (hovered item): #EEEEEE  
+Fill option grey (selected item): #666666  
+Fill option grey (hovered item): #EEEEEE  
 
 ![Dropdown light theme primary](images/dropdown_light1.png)
 
@@ -53,8 +55,10 @@ Light grey (hovered item): #d9d9d9
 
 Black: #000000  
 White: #FFFFFF  
-Dark grey (selected item): #666666  
-Light grey (hovered item): #d9d9d9  
+Outlined option grey (selected item): #666666  
+Outlined option grey (hovered item): #EEEEEE  
+Fill option grey (selected item): #D9D9D9  
+Fill option grey (hovered item): #EEEEEE  
 
 ![Dropdown light theme primary](images/dropdown_dark1.png)
 
