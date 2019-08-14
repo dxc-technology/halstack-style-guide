@@ -33,9 +33,13 @@ Modes: __condensed__, __multiline__ and __alert dialog__.
 
 In the condensed version, the message is short and concise, avoiding word that plead, belittle or intimidate the user. It is only one line with some information about the actions that took place and the reason of the alert.
 
+In this mode the notification should appears in the up right corner of the screen, appearing with an animation from the right side and staying visible for 10 seconds or instead with the click of the user after it dissapears.
+
 ![Alert mode for the condensed version](images/alert_mode_condensed.png)
 
-If the message type wants to be displayed in multiple lines because the user needs more information to understand the reason of the alerts and there is an explanaition of how to avoid it, this mode is recommendable. 
+If the message type wants to be displayed in multiple lines because the user needs more information to understand the reason of the alerts and there is an explanaition of how to avoid it, this mode is recommendable.
+
+The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous mode is for this case that the user must interact with the alert message to close it. 
 
 ![Alert mode for the multiple lines with more information](images/alert_mode_multi.png)
 
