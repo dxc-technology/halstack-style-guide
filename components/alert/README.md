@@ -6,7 +6,7 @@ All web-based product applications are expected to incorporate the same design,d
 
 ## Appereance
 
-The appereance of the alert is condicioned based on the type of alert that the applications wants to show to the user and the type of mode that is choosen for represent it. Startint with the type of alert in the DXC Design System are defined the following categories:
+The appereance of the alert is condicioned based on the type of alert that the applications wants to show to the user and the type of mode that is choosen for represent it. Starting with the type of alert in the DXC Design System are defined the following categories:
 
 *Information*
 
