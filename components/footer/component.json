@@ -1,4 +1,5 @@
 {
     "name": "Footer",
-    "docFile": "README.md"
+    "docFile": "README.md",
+    "reactStory": "form-components-footer--component"
   }
