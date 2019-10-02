@@ -4,20 +4,18 @@
 
 Loading spinner is a waiting indicator in the user interface to communicate your users that something is going on with the application and it will take a while. One of the problems that spinners have is that they don't indicate how much time the operation is going to take, for that reason the design system is including different resources to manage this consuming time for the app of taking resources.
 
-Another mode instead of the circular one is proposed in this style guide, the linear type. With this mode the user can have a better estimation of the time but anyway it is a undetermine type so the user even doesn't have feedback about the time. One rule to follow with this component if the process is going to take more than 10 seconds, it is recommendable that some features like a counter or some value be linked to the component to make clear to the user the time that is going to take the processing of the information.
+One rule to follow with this component if the process is going to take more than 10 seconds, it is recommendable that some features like a counter or some value be linked to the component to make clear to the user the time that is going to take the processing of the information.
 
 ## Appearance
 
 The appearance of the component is widely recognized through applications.
-In the circular variation, the style is a circle with a border that is spinning forever, changing the color from yellow to white in every turn.
+In the circular version, the style is a circle with a border that is spinning forever, changing the color from yellow to white in every turn.
 
-With the other approach, the linear type the concept is the same but instead of circular, the progression of the bar is in a flat and linear way.
-
-Both modes are undetermined, that means that they don't have logic or stepper process.
+One of the spinner mode is undeterminated, that means that they don't have logic or stepper process.
 
 ### Modes
 
-A couple of modes are defined for the spinner component, based on the visual representation the spinner can be __circular__ or __linear__.
+There is only one mode in the spinner component, based on the visual reprsentation the spinner has the characteristic to be __circular__.
 
 ![Spinner modes, circular and linear](images/spinner_modes.png)
 
@@ -28,13 +26,13 @@ As it is auto-management, for now, states are not contemplated.
 
 ## Theming
 
-There is no difference between the light and dark theme because the visual appereance will keep the same either is a light or a dark look.
+There is no difference between the light and dark theme unless the overlay is not included because the visual appereance will keep the same either is a light or a dark look.
 
 An overlay separets the main application from the spinner component, making a layer to show that some action is in process. The overlay is the same used for dialog and alert components, making focus on the action that is taking place in that concrete moment.
 
-It is another possibility to use the spinner within other component, for example, when the user clicks in a button, or the application has to do an action that will take some time, the spinner can be displayed without the overlay for those specific scenarios.
+It is another possibility to use the spinner within other component, for example, when the user clicks in a button, or the application has to do an action that will take some time, the spinner can be displayed without the overlay for those specific scenarios, so the color specifications will change accordingly.
 
-The color used in this component are:
+The colors used in this component are:
 
 Yellow: #FFED00  
 White: #FFFFFF  
