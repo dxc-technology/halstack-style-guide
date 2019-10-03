@@ -17,7 +17,7 @@ One of the spinner mode is undeterminated, that means that they don't have logic
 
 There is only one mode in the spinner component, based on the visual reprsentation the spinner has the characteristic to be __circular__.
 
-![Spinner modes, circular and linear](images/spinner_modes.png)
+![Spinner circular mode](images/spinner_modes.png)
 
 ### States
 
@@ -68,7 +68,7 @@ Linear type
 | Font weight        | `Regular` |
 | Space text and bar | `8px` |
 
-![Spinner specifications for circular and linear modes](images/spinner_specs.png)
+![Spinner specifications for circular mode](images/spinner_specs.png)
 
 Overlay
 
