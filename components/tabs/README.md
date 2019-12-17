@@ -2,12 +2,12 @@
 
 ## Overview
 
-Tabs allow to organize all the information in different groups which are related between them and are represented in the same level of hierarchy. The user are able to interact accros the sections to switch from one set of contento to another, making the transition easily from one peer to the other.
+Tabs allow to organize all the information in different groups which are related between them and are represented in the same level of hierarchy. The user are able to interact across the sections to switch from one set of content to another, making the transition easily from one peer to the other.
 This approach is an easy way to help the users find different types of content with a clear organization.
 
 ## Appereance
 
-Each tab should have a distinct content respective the other tabs of the group, including a clear description of the section so users can understand the content inside it. The organization have to follow some criteria in terms of importance, structured process or logic.
+Each tab will be paired with content, including a clear description of the section so users can understand the content inside it. The organization have to follow some criteria in terms of importance, structured process or logic.
 
 The tabs appereance is flat and linear, they are displayed one after another, with the using of an underline for separating the control element from the content of each tab. Only one tab can be selected at each time which is highlighted from the rest to give a visual clue about the state of the application.
 
