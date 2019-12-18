@@ -1,6 +1,6 @@
 {
-    "name": "Header",
+    "name": "Layout",
     "docFile": "README.md",
-    "reactStory": "form-components-header--component",
-    "angularStory": "form-components-header--types"
+    "reactStory": "form-components-layout--component",
+    "angularStory": "form-components-layout--types"
   }
