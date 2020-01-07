@@ -2,11 +2,11 @@
 
 ## Overview
 
-Tag represent resources and global terms identify and linked with a text section to provide to the user more context and information regarding a topic. It usually appears in the top or bottom of the section and multiple tags can be concatenated to generate a serie of resources displayed with a visual hierarchy that calls the user's attention.
+The Tag represents resources and global terms to identify and linked with a text section to provide the user with more context and information regarding a topic. It usually appears in the top or bottom of the section and multiple tags can be concatenated to generate a series of resources displayed with a visual hierarchy that calls the user's attention.
 
 ## Appearance
 
-The tag appearance is similar to the button one (in raised mode) which gives a hint of the interactivity of the component, with a shadow that foregrounded the component calling the user attention. In some cases there will be a link to a resource completing the information displayed on the page, in others there will be a simple representation of information but it will give to the user a overview resume of the content of the section/area that wants to be represented. 
+The tag appearance is similar to the button one (in raised mode) which gives a hint of the interactivity of the component, with a shadow that foregrounded the component calling the user's attention. In some cases there will be a link to a resource completing the information displayed on the page, in others there will be a simple representation of information but it will give to the user an overview resume of the content of the section/area that wants to be represented. 
 
 By default, the tag can include a label or/and an icon to represent the term and what is behind it. 
 
