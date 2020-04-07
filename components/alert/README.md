@@ -18,11 +18,11 @@ Success messages should be used to assure user that a system calculation or data
 
 *Warning*
 
-Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended or there may be inadequate or incompatible system data that needs to be corrected before continuing. These messages should provide the user with both the problem and the solution needed to continue. When alert validation warnings appear, the corresponding field will display with a red border.
+Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended or there may be inadequate or incompatible system data that needs to be corrected before continuing. These messages should provide the user with both the problem and the solution needed to continue.
 
 *Error*
 
-Error messages convey a critical system problem that requires user and/or technical intervention to correct. Error messages should contain a solution to the problem or information on how to proceed if technical assistance is required.
+Error messages convey a critical system problem that requires user and/or technical intervention to correct. Error messages should contain a solution to the problem or information on how to proceed if technical assistance is required. When error validation appears, the corresponding field associated with the error will display with a red indicator.
 
 
 ### Modes
@@ -73,12 +73,21 @@ Success green background: #DBF1C4
 
 ## Design Specifications
 
+The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application. 
+
+Widths for alert component: __fill content__, __fit parent__, __small__, __medium__ and __large__.
+
+*Fill parent* - It is used when the width will be adapted to the content of the alert itself.
+*Fit parent* - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
+*Small* - A small width for ocassions when the message is short, also applicable in mobile.
+*Medium* - It is the average size, this option will fit well in a high percetange of the applications.
+*Large* - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
+
 | Property           | Value|
 |--------------------|------:|
 | Padding right/left | `12px/16px`|
 | Padding top/bottom | `14px`|
-| Min width          | `590px` |
-| Max width          | `810px` |
+| Width              | `Predefined sizes` |
 | Height             | `48px` |
 | Border Radius      | `4px` |
 | Font size          | `12px` |
@@ -93,8 +102,7 @@ Success green background: #DBF1C4
 |--------------------|------:|
 | Padding right/left | `12px`|
 | Padding top/bottom | `14px/20px`|
-| Min width          | `348px` |
-| Max width          | `590px` |
+| Width              | `Predefined sizes` |
 | Min. height        | `92px` |
 | Border Radius      | `4px` |
 | Font size          | `12px` |
@@ -108,8 +116,7 @@ Success green background: #DBF1C4
 |--------------------|------:|
 | Padding right/left | `16px/24px`|
 | Padding top/bottom | `20px`|
-| Min width          | `470px` |
-| Max width          | `80%` |
+| Width              | `Predefined sizes` |
 | Min. height        | `220px` |
 | Border Radius      | `4px` |
 | Font size          | `16px and 14px` |

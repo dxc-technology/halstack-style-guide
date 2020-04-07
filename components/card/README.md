@@ -12,10 +12,11 @@ The structure of the card can be seen as blocks, each block is optional to be di
 Even a card is defined as a unit by itself, it is common to represent cards in a set, with a grid structure in which each card has different information but from the same field. 
 
 
-
 ### Modes
 
-There are two modes for each theme, so it can be called as __primary__ and __secondary__ modes.
+There are three modes, so it can be called as __light__, __medium__ and __dark__ modes.
+
+In conmbination with these modes it can be added a variation to have the box outlined. With the property __outlined__ a border in the card will be rendered instead of the shadow. 
 
 ![Card modes](images/card_modes.png)
 
@@ -52,64 +53,20 @@ Hover shadow opacity secondary: #FFED00 for border color
 | Property           | Value|
 |--------------------|------:|
 | Margin            | `20px` |
-| Padding           | `30px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `160px` |
-| Min. width | `400px` |
-| Max. width | `100%` |
-| Image      | `80x80px` |
-| Space title-subtitle   | `4px` |
-| Space main info to paragraph  | `14px` |
-
-![Card specifications](images/card_specs_1.png)
-
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `20px` |
-| Padding top/right/bottom  | `20px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `154px` |
-| Min. width | `370px` |
-| Max. width | `100%` |
-| Image      | `154x126px` |
-| Space photo - content | `24px` |
-| Space title to paragraph  | `10px` |
-
-![Card specifications](images/card_specs_2.png)
-
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `20px` |
 | Padding           | `20px` |
 | Border Radius | `4px` |
 | Border thickness| `2px` |
-| Min. height| `374px` |
+| Min. height| `220px` |
 | Min. width | `400px` |
 | Max. width | `100%` |
-| Image      | `400x120px` |
-| Space title-subtitle   | `4px` |
-| Space main info to paragraph  | `20px` |
-| Space paragraph to actions  | `20px` |
-
-![Card specifications](images/card_specs_3.png)
-
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `20px` |
-| Padding           | `20px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `200px` |
-| Min. width | `400px` |
-| Max. width | `100%` |
-| Image      | `120x120px` |
+| Image max. width   | `140px` |
 | Space title-subtitle   | `4px` |
 | Space main info to paragraph  | `20px` |
 | Space actions to photo  | `20px` |
 
-![Card specifications](images/card_specs_4.png)
+
+![Card specifications](images/card_specs_2.png)
+
 
 ### User Interface Design Considerations
 

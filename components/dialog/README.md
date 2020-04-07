@@ -7,7 +7,7 @@ A modal dialog is a message box or child window that requires user interaction b
 ## Appereance
 
 The dialog appearance is widely recognizable by the users, as it appears in the center of the screen, above the content of the applications as a call to the user to interact or put the focus in the content shown inside that box.
-This dialog disables the main content until the user explicitly interacts with the modal dialog, so it requirs immediate attention by the user.
+This dialog disables the main content until the user explicitly interacts with the modal dialog, so it requires immediate attention by the user.
 
 ### Modes
 
@@ -131,6 +131,16 @@ For that, the design system takes some considerations for the use of dialog comp
 ![Dialog design for phone](images/dialog_phone.png)
 
 ![Dialog design allowing multiple lines in the header](images/dialog_phone_multiple.png)
+
+### Combining with other UI elements
+
+There are some elements that require some guidance to use it on the dialog component, based on the nature of the component or the behavior that it has in the ecosystem. Due to resource loading or prompting messages for the user, special guides are defined to incorporate these scenarios.
+
+For the case that the application has a modal opened and it needs to load data from the server, we can represent this situation to the user in several ways. 
+- One option can be to stick to the default implementation of the spinner component and use it in the overlay mode, overlapping the loading element to the rest of the interface components and make it clear that the application is getting some resources from the APIs.
+- Another approach, to avoid render an overlay on top of another overlay is to integrate the loading indicator into the modal window. This can be done placing the spinner near the title of the dialog, on the right side and the small variations of the component. Using this way we make explicit to the user that the applications are working on something without the need to distract the attention from the dialog.
+
+Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog. 
 
 ### User Interface Design Considerations
 

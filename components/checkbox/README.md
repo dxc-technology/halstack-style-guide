@@ -4,7 +4,7 @@
 
 Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.
 
-Two main states can be defined in the checkbox component from this design system, it could be marked as selected or unselected whether if you want to include the item or not in the action that is going to take place. Another third state is considered as indeterminate that cannot be classified into selected or unselected.
+Two main states can be defined in the checkbox component from this design system, it could be marked as selected or unselected whether if you want to include the item or not in the action that is going to take place.
 
 The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
 
@@ -14,8 +14,8 @@ A checkbox has a toggle mode so every checkbox component in the application rema
 
 ### Modes
 
-As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included, or unselected when the option should not be included. There is a third mode that is indeterminate whether the value is not true neither false.
-Modes: __selected__, __unselected__ or __indeterminate__.
+As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included or unselected when the option should not be included. These options are mapping accordingly with the boolean values true and false.
+Modes: __selected__ or __unselected__.
 
 ![Checkbox modes](images/checkbox_modes.png)
 
