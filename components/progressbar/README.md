@@ -12,7 +12,7 @@ The appearance of the progress bar is recognized by the user as a long bar that 
 
 ### Modes
 
-There are two modes for the progress bar components, depend on the track progress.
+There are two modes for the progress bar components, depend on the tracking progress.
 One mode is a determinate state that goes from 0 to 100% in a linear progression.
 The other one is indeterminate, so it hasn't defined limits for the duration, there is no number indicator to estimate the remaining time.
 

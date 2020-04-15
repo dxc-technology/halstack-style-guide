@@ -9,19 +9,20 @@ One rule to follow with this component if the process is going to take more than
 ## Appearance
 
 The appearance of the component is widely recognized through applications.
-In the circular version, the style is a circle with a border that is spinning forever, changing the color from yellow to white in every turn.
+In the circular version, the style is a circle with a border that is spinning forever, until the processing is done.
 
-One of the spinner mode is undeterminated, that means that they don't have logic or stepper process.
+The spinner has an undeterminated state, that means that they don't have logic or stepper process.
 
 ### Modes
 
-There is only one mode in the spinner component, based on the visual reprsentation the spinner has the characteristic to be __circular__.
+There are three different modes for the spinner component due to the size or the position: __default__, __tiny__ and __overlay__.
+The tiny mode has never a label associated, while the default and overlay values can have a paired label.
 
 ![Spinner circular mode](images/spinner_modes.png)
 
 ### States
 
-States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main interface. 
+States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window. 
 As it is auto-management, for now, states are not contemplated.
 
 ## Theming
@@ -30,7 +31,7 @@ There is no difference between the light and dark theme unless the overlay is no
 
 An overlay separets the main application from the spinner component, making a layer to show that some action is in process. The overlay is the same used for dialog and alert components, making focus on the action that is taking place in that concrete moment.
 
-It is another possibility to use the spinner within other component, for example, when the user clicks in a button, or the application has to do an action that will take some time, the spinner can be displayed without the overlay for those specific scenarios, so the color specifications will change accordingly.
+It is another possibility to use the spinner within other component, for example, when the user clicks in a button, or the application has to do an action that will take some time, the spinner can be displayed without the overlay for those specific scenarios, so the color specifications will change accordingly and the favorite variant will be the tiny one.
 
 The colors used in this component are:
 
@@ -82,5 +83,5 @@ Overlay
 ### User Interface Design Considerations
 
 - Use the spinner component in a process between more than 1 second and less than 10 seconds
-- In case that the process will be slower than 10 seconds, a progress indicator and a handler to interrupt the process will be attached to the element
+- In case that the process will be lower than 10 seconds, a progress indicator and a handler to interrupt the process will be attached to the element
 - The text of the action it is not mandatory but recommendable

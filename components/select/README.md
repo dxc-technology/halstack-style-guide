@@ -91,7 +91,7 @@ To indicate which items are selected and which not, the design for multiple sele
 
 ## User Interface Design Considerations
 
-Singles selection dropdown
+Single selection dropdown
 
 - A dropdown field should allow the user to select one option from a list
 - Dropdown fields should always display a label, different from any name in the option list

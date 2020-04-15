@@ -50,7 +50,7 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 
 The specifications for dates are similar to the ones used with the input text component. In the case that the field will be read-only, the look and feel will be the same for both components.
 
-The text within the input should always aligns right. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
+The text within the input should always aligns left. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
 
 In the case that the input is selected or the user is typing inside and the hint is positioned on the top, the measures are 6 pixels between the main text and the underline decoration and 6 pixels between the top hint respect the main text. As this will take more space, the height of the component will be changed from 34 pixels to 51 pixels.
 Another variation could be to having an auxiliary text below the underlined item so it will take 74 pixels for the height.

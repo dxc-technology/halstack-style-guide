@@ -8,7 +8,7 @@ A dropdown in mobile is more unusable than a dropdown in a web application, rega
 
 ## Appearance
 
-Dropdowns have the same look as select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios. 
+Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios. 
 
 From header menus to executing different actions, dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
 

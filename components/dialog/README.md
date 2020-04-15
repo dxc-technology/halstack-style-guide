@@ -140,7 +140,11 @@ For the case that the application has a modal opened and it needs to load data f
 - One option can be to stick to the default implementation of the spinner component and use it in the overlay mode, overlapping the loading element to the rest of the interface components and make it clear that the application is getting some resources from the APIs.
 - Another approach, to avoid render an overlay on top of another overlay is to integrate the loading indicator into the modal window. This can be done placing the spinner near the title of the dialog, on the right side and the small variations of the component. Using this way we make explicit to the user that the applications are working on something without the need to distract the attention from the dialog.
 
-Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog. 
+Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
+
+If the application needs to render some type of alert regarding information or prompting an error to the user, the behaviour of the component varies from the definition that is taken in a normal scenario.
+
+In the case that there is an error with an input field, the action to take is the one mentioned in the component's guidelines, highligthing the field to make remarkable for the user that the specific input is wrong. Then, the alert message should be placed in the right upper corner of the screen to not modify the content of the dialog and avoid the scrolling when new content is added. The alert should remain till the error is corrected or the user interacts with it to close it.
 
 ### User Interface Design Considerations
 

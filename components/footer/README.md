@@ -69,9 +69,15 @@ A representation is shown above:
 ![Footer with a map as custom content](images/footer_custom_2.png)
 ![Complete footer with a custom content](images/footer_custom_3.png)
 
+## Responsive version for mobile and tablet
+
+The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen. 
+
+On the mobile version, first we have the logo, the links and the separator line that will extendt all the width of the container. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
+At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
+
 ### User Interface Design Considerations
 
-- Footers will only be displayed on desktop/laptops and landscape tablet devices, not on mobile devices.
 - The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
 - The footer frame should span the entire screen width.
 - The footer frame should display the copyright information at the right margin.

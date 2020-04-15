@@ -16,7 +16,7 @@ The component has two different modes depending on the context of the use of the
 
 In the default mode, in the normal state, the link only has a different color to indicate and distinguish it as a link from the rest of the content. 
 
-The underline mode stands out the link by the underline symbol rather than the color of the text.
+The underline mode stands out the link by the underline symbol rather than the color of the text. On this state, if the link has icon, it will be also underlined to indicate that is part of the link component.
 
 Modes: __default__ and __underline__.
 
@@ -26,7 +26,7 @@ Modes: __default__ and __underline__.
 
 The states are the same for both modes, starting in the normal state where the user didn't interact with the element, following by the hover state. In this state is common the use of the pointer cursor as an indicator of the navigation once clicking in the object. 
 
-Also, in the default state, an underline style will appear once the user hovers the link with the cursor. For the underline mode, the difference will indicate changing the color of the item.
+Also, in the default state, an underline style will appear once the user hovers the link with the cursor. For the underline mode, the difference will indicate changing the color of the item. In the case that the link already has some color, the only change on hover will be the cursor.
 
 If the user decides to click on the link, then it will pass to another state defined as a visited state. For both possibilities, this status will be represented with a purple color to indicate to the user that the link was already visited in a previous interaction.
 
@@ -64,7 +64,7 @@ The only change is regarding the theming is the use of color to accomplish with 
 
 An icon can be used either in the normal or underlined mode to represent more graphical the purpose of the link, placing the icon before or after the link that is representing.
 
-The safe space between the icon and the label has to be 10 pixels and the size of the icon matches the 16px of the font size.
+The safe space between the icon and the label has to be 6 pixels and the size of the icon matches the 16px of the font size.
 
 ![Icon usage with link component](images/link_icon.png)
 
