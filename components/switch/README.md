@@ -13,6 +13,8 @@ With the use of switch toggle, it is not needed a submit button to do the approp
 
 The appearance of the component should provide good visual feedback, making clear when the switch is on or off. To make a difference between states colors, shadows and fill properties can be used.
 
+A label can be linked with the component to indicate what action will perform when the change occurs. It should be descriptive and clear about what the component is doing or affecting.
+
 ## Modes
 
 Two main modes are represented within the component.
@@ -77,5 +79,5 @@ Schematics examples for the switch toggle component with all the variations.
 
 ## User Interface Design Considerations
 
-- Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, male/female, etc).
+- Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
 - Try to present your lists vertically, with one choice per line. 

@@ -24,7 +24,7 @@ Modes: __filled__, __underlined__.
 
 ## States
 
-As in other component, different states can be defined which each interaction.
+As in other component, different states can be defined with each interaction.
 States: __normal__, __focus__, __hover__, __pressed__, and __disabled__.
 
 ![Tabs basic state](images/tabs_states_basic.png)

@@ -66,7 +66,7 @@ Disabled opacity (outlined): 0.5
 Inside the toggle button, it is possible to use icons to represent recognizable actions.
 The specifications for icon usage differs a little bit in relation to text usage.
 
-The size of the icons should be 24 by 24 pixels, it must be centered respecting to the box that contains it vertically and horizontally. 
+The size of the icons should be 20 by 20 pixels, it must be centered respecting to the box that contains it vertically and horizontally. 
 The ideal padding for each option is 10 pixels for top and bottom and 12 pixels to right and left sides.
 
 The behavior in regard to colors and interactions are the same that for the previous.

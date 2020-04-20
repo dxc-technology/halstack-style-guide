@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tag represents resources and global terms to identify and linked with a text section to provide the user with more context and information regarding a topic. It usually appears in the top or bottom of the section and multiple tags can be concatenated to generate a series of resources displayed with a visual hierarchy that calls the user's attention.
+The Tag represents resources and global terms to identify and linked with a text section to provide to the user more context and information regarding a topic. It usually appears in the top or bottom of the section and multiple tags can be concatenated to generate a series of resources displayed with a visual hierarchy that calls the user's attention.
 
 ## Appearance
 
@@ -22,7 +22,7 @@ Also, this component is static, which means that there is only one difference be
 
 ## Theming
 
-Here, we have two theme options, light and dark as with other components, but it doesn't change any of the tag visual approaches from one to another. Only the background color will be affected by the chosen option. 
+Here, we have two theme options, light and dark like on other components, but it doesn't change any of the tag visual approaches from one to another. Only the background color will be affected by the chosen option. 
 
 ![Theming for the tag component](images/tag_theme.png)
 
