@@ -26,7 +26,7 @@ Here is an example of the content distribution:
 
 ### Modes
 
-Following the convention of the modes that can be fount in a component, two main modes are defined for the header.
+Following the convention of the modes that can be found in a component, two main modes are defined for the header.
 Modes: __basic__ and __underlined__.
 
 ![Header modes](images/header_modes.png)
