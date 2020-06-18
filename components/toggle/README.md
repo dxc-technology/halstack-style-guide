@@ -1,5 +1,3 @@
-# DXC Toggle Visual Guidelines
-
 ## Overview
 
 Toggle buttons can be used to put together related options that share a common attribute modification.

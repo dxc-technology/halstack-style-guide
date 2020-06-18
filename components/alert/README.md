@@ -1,5 +1,3 @@
-# DXC Alert Visual Guidelines
-
 ## Overview
 
 All web-based product applications are expected to incorporate the same design,display and transition standards for message type. Mobile apps will follow guidelines specific to those devices.

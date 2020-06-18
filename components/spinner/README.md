@@ -1,5 +1,3 @@
-# DXC Spinner Visual Guidelines
-
 ## Overview
 
 Loading spinner is a waiting indicator in the user interface to communicate your users that something is going on with the application and it will take a while. One of the problems that spinners have is that they don't indicate how much time the operation is going to take, for that reason the design system is including different resources to manage this consuming time for the app of taking resources.

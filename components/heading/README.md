@@ -1,5 +1,3 @@
-# DXC Heading Visual Guidelines
-
 A key part of a design system is the typography. The text is used almost in every component, so it is important to choose the correct font family that will fit into the overall design to create a delightful experience and makes the user perceives typography as another element that gets the essence of the system.
 
 ## Overview

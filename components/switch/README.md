@@ -1,5 +1,3 @@
-# DXC Switch Toggle Visual Guidelines
-
 ## Overview
 
 Switch toggles are elements that can get two simple states, each of them has an impact on the system and it can be switched on or off, there are no more options.

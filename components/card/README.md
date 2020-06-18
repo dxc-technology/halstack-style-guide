@@ -1,5 +1,3 @@
-# DXC Card Visual Guidelines
-
 ## Overview
 
 Cards are a container of information, actions and data with a hierarchy to make easy scanning the content. 

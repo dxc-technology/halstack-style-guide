@@ -1,5 +1,3 @@
-# DXC Select Visual Guidelines
-
 ## Overview
 
 A select component is a right choice to preventing users from entering errors in input data because the options are predefined, also they conserve screen space and it is possible to show several options in a reduced space.

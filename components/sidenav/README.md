@@ -1,5 +1,3 @@
-# DXC Sidenav Visual Guidelines
-
 ## Overview
 
 The sidenav component is part of the layout of the application and it makes easier to divide the main screen into two different areas. The main area will have all the content and the sidenav as a secondary element as an index, including links to different resources on the web page.

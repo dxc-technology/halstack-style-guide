@@ -1,5 +1,3 @@
-# DXC Wizard Visual Guidelines
-
 ## Overview
 
 Wizard represents a stepped workflow as a form of linear and mandatory progression through a defined process with several bullet points where the user need to interact with the content of each one during the workflow.

@@ -1,5 +1,3 @@
-# DXC Date Visual Guidelines
-
 ## Overview
 
 A date input is a user interface element where the user can type or select a date in a predefined format. The date format depends on an ISO definition for each country and the preference of use within the application.

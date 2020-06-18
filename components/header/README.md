@@ -1,5 +1,3 @@
-# DXC Header Visual Guidelines
-
 The header is an important component in the interface, it is the area dedicated for the navigation across the application, the first element that the user sees when he accesses to the web page and a known place where information relative to core information, sign in or search can be found. 
 
 

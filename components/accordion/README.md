@@ -1,5 +1,3 @@
-# DXC Accordion Visual Guidelines
-
 ## Overview
 
 Accordions are components that can show/hide alternate groups of data within separate panels. Each panel is a container component that displays a group of related data in horizontal or vertical stacks. Each has its own titled bar tab that, when clicked, opens the content of the panel. Accordions visually control the amount of relevant data per panel as well as the amount of data displayed in the viewport, reducing the demand for excessive vertical scrolling

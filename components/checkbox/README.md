@@ -1,5 +1,3 @@
-# DXC Checkbox Visual Guidelines
-
 ## Overview
 
 Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.

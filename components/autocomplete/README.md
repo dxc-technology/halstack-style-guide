@@ -1,5 +1,3 @@
-# DXC Autocomplete Visual Guidelines
-
 ## Overview
 
 The autocomplete component, also known as predictive search is an input field that suggests different options to the user based on his input. It is used mainly in e-commerce sites to help with the product search but also it fits in several other scenarios like addresses, countries, or color lists.  

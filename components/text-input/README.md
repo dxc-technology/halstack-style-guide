@@ -1,5 +1,3 @@
-# DXC Text Input Visual Guidelines
-
 ## Overview
 
 Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers. 

@@ -1,5 +1,3 @@
-# DXC Tabs Visual Guidelines
-
 ## Overview
 
 Tabs allow to organize all the information in different groups which are related between them and are represented in the same level of hierarchy. The user are able to interact across the sections to switch from one set of content to another, making the transition easily from one peer to the other.

@@ -1,5 +1,3 @@
-# DXC Footer Visual Guidelines
-
 ## Overview
 
 Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application, it is a key element to the overall experience.

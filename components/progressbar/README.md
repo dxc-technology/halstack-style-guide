@@ -1,5 +1,3 @@
-# DXC Progress Bar Visual Guidelines
-
 ## Overview
 
 Progress indicators offer visibility of system status to the user, giving feedback to indicate that the application is taking some time to processing data. The main aim of these components is to reduce the user's uncertainty about offering something to look at while the user is waiting for the end. 

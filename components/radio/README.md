@@ -1,5 +1,3 @@
-# DXC Radio Button Visual Guidelines
-
 ## Overview
 
 Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from the list.
