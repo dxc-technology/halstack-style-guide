@@ -11,7 +11,7 @@ Into DXC Design System you will find several buttons with different shades, colo
 ### Modes
 
 We can identify four different modes that imply some visual changes according to color, border or shadow attributes.
-Modes: __basic__, __outlined__, __raised__, __flat__.
+Modes: __primary__, __secondary__, __text button__.
 
 ![Button modes example](images/button_modes.png)
 
@@ -20,39 +20,47 @@ For taking into consideration, the main background colors for the application wo
 ### States
 
 The states are the different behaviors of the button component based on the interaction of the user.
-For the desktop version, we contemplate five different states by which can pass.
+For the desktop version, we contemplate four different states by which can pass.
 
-States: __default__, __disabled__, __hover__, __clicked__ and __animation__.  
+States: __default__, __disabled__, __hover__ and __focus__.  
 
-## Theming
+## Theming and tokens
 
-Colors used for the design in each theme mode.
+Primary button
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:| 
+| backgroundColor      | `true` | `yellow`|
+| textColor      | `true` | `black`  |
+| disabledOpacity | `false`     | `0.34 opacity`  |
+| hoverBackgroundColor | `true`     | `black`  |
+| hoverTextColor | `true`     | `yellow`  |
 
-Black: #000000  
-Yellow: #FFED00  
-Disable opacity: 0.5  
-Animation ripple (basic and raised): #666666  
-Animation ripple (outlined and flat): #EEEEEE  
-Hover flat type: #D9D9D9  
+Secondary button
 
-![Button states light theme](images/button_states.png)
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor      | `false` | `transparent` |
+| outlinedColor      | `true` | `yellow`  |
+| textColor | `true`     | `black`  |
+| disabledOpacity | `false`     | `0.34 opacity`  |
+| hoverOutlinedColor | `true`     | `black`  |
+| hoverTextColor | `true`     | `black`  |
 
-### Dark theme
+Text button
 
-Black: #000000  
-Yellow: #FFED00  
-White: #FFFFFF  
-Hover (basic and raised): #212121  
-Hover (flat): #D9D9D9  
-Animation ripple (outlined and flat): #666666 
-Disabled opacity: 0.5  
-Disable (outlined): #666666 
-Disable (flat): #666666 back, #D9D9D9 text 
-Clicked (flat): #FFFFFF  
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor      | `false` | `transparent` |
+| textColor | `true`     | `black`  |
+| disabledOpacity | `false`     | `0.34 opacity`  |
+| hoverBackgroundColor | `true`     | `#D9D9D9`  |
+| hoverTextColor | `true`     | `black`  |
 
-![Button states dark theme](images/button_states_dark.png)
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/af07084e-1cfb-4663-be72-6f6345da9646/
 
 ## Design Specifications
 
@@ -102,6 +110,6 @@ Here, you can find more considerations in the using of buttons:
 - In instances where buttons are vertically stacked, buttons should be the same length.
 - Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
 - Text or images on a button should always be centered.
-- There must be 30 pixels of space between horizontally displayed buttons.
+- There must be 24 pixels of space between horizontally displayed buttons.
 - Upper case text should be used on all buttons.
 - Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
