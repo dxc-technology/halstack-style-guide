@@ -43,6 +43,27 @@ The user can navigate through the calendar to select the desire date.
 
 Different feedback and outcomes happen when the calendar pop-up is used. To see more information please, open the xd file linked with the date component in this respository.
 
+## Theming and tokens
+
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| textColor      | `false` | `black` |
+| labelColor | `false`     | `black`  |
+| placeholderColor | `false`     | `#D9D9D9`  |
+| underlinedColor | `false`     | `black`  |
+| assistiveTextColor | `false`     | `black`  |
+| pickerBackgroundColor | `false`     | `white`  |
+| pickerTextColor | `false`     | `black`  |
+| pickerActualDate | `false`     | `#EEEEEE`  |
+| pickerSelectedDateBackgroundColor | `true`     | `black`  |
+| pickerSelectedDateColor | `true`     | `yellow`  |
+| pickerHoverDateBackgroundColor | `false`     | `0.34 opacity`  |
+| pickerHoverDateTextColor | `false`     | `black`  |
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7965bd24-3ef3-427d-92de-0d2aac880402/specs/
+
 
 ### Design Specifications
 

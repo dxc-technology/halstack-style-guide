@@ -28,13 +28,21 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 ![Slider mode range](images/slider_states_range.png)
 
-## Theming
+## Theming and tokens
 
-### Dark theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| thumbBackgroundColor      | `true` | `black` |
+| dotsBackgroundColor | `true`     | `black`  |
+| trackline | `true`     | `black`  |
+| disabledthumbBacgroundColor | `false`     | `0.34 opacity`  |
+| disableddotsBackgroundColor | `false`     | `0.34 opacity`  |
+| disabledTrackLine | `false`     | `0.34 opacity`  |
+| disabledtotalLine | `false`     | `0.34 opacity`  |
 
-In the dark theme, the majority of the colors are inverted, getting a good contrast between black and white. In some details, the design team decided to use the official dxc yellow to highlight interactions and component elements.
+## DXC Technology theme
 
-![Slider dark theme mode](images/slider_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/specs/
 
 ## Design Specifications
 

@@ -25,36 +25,20 @@ Modes: __on__ and __off__.
 
 Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
 
-## Theming
+## Theming and tokens
 
-Colors used for the design in each theme mode.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| checkedTrackBackgroundColor      | `true` | `#D9D9D9` |
+| checkedthumbBackgroundColor | `false`     | `black`  |
+| uncheckedthumbBackgroundColor | `false`     | `white`  |
+| uncheckedtrackBackgroundColor | `false`     | `#D9D9D9`  |
+| disabledThumbBackgroundColor | `false`     | `0.34 opacity`  |
+| disabledTrackBackgroundColor | `false`     | `0.34 opacity`  |
 
-### Light theme
+## DXC Technology theme
 
-Black: #000000  
-Dark grey: #666666  
-White: #FFFFFF  
-Light grey: #666666 opacity 0.4  
-Focus ripple: #666666 opacity 0.1  
-Press ripple: #666666 opacity 0.25  
-Disable opacity checked: 0.4  
-Disable opacity unchecked: 0.7  
-
-![Switch states](images/switch_states.png)
-
-### Dark theme
-
-Yellow: #FFED00  
-Dark grey: #666666  
-White: #FFFFFF  
-Dark grey unchecked: #666666 opacity 0.4  
-Focus ripple checked: #FFFFFF opacity 0.1  
-Focus ripple unchecked: #FFED00 opacity 0.1  
-Press ripple checked: #FFFFFF opacity 0.25  
-Press ripple unchecked: #FFED00 opacity 0.25  
-Disabled opacity: 0.7  
-
-![Switch dark mode](images/switch_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/c3026d48-f954-4978-91e4-05d323ee078c/specs/
 
 ## Design Specifications
 

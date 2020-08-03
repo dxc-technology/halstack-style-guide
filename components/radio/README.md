@@ -26,21 +26,21 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ![Radio button states](images/radio_states.png)
 
-## Theming
+## Theming and tokens
 
-### Light theme
+There is a relation between the background color of the component and the border in the case that the checkbox is unselected. The color will be the same for both scenarios.
 
-The text used with a radio button should goes in black color when the light theme is used. The radio button itself should have his border and inner circle in black to match the design proposal.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:| 
+| dotColor      | `true` | `black`|
+| borderColor   | `true` | `black`  |
+| disableDotColor    | `false` | `0.34 opacity`  |
+| disabledBorderColor  | `false`| `0.34 opacity`  |
+| text      | `false`| `computed`  |
 
-The reference to that design it is displayed in the section below, States.
+## DXC Technology theme
 
-### Dark theme
-
-With the dark theme, the text must go in a white color because it is setting the background color to black. This is to keep a good color contrast and get a good accesibility.
-
-The radio button in this case will have the border in white and in case is selected, the inner circle will be yellow dxc.
-
-![Radio button dark theme](images/radio_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/578ce690-701e-4daa-869d-70b55ea4f68e/specs/
 
 ## Design Specifications
 

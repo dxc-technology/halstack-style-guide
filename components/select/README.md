@@ -24,27 +24,23 @@ It looks similar to the other inputs from the design system but in this case, it
 Seven states are defined for select component based on the interactions that the user can reproduce. The states are: __normal__, __select with focus__, __select clicked__, __select clicked and option selected__, __select with clicked option and hovered option__, __select animation on click__ and __select input with value__.
 
 
-## Theming
+## Theming and tokens
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:| 
+| selectedValueColor | `false` | `black`|
+| labelColor   | `false` | `black`  |
+| underlinedColor    | `false` | `black`  |
+| assistiveTextColor      | `false`| `black`  |
+| optionTextColor | `false` | `black`  |
+| hoverOptionTextColor    | `false`| `black`  |
+| selectedOptionBackgroundColor   | `true`| `#666666`  |
+| selectedOptionTextColor      | `false`| `black`  |
+| hoverOptionBackgroundColor   | `false`| `0.34 opacity`  |
 
-Black: #000000  
-Dark grey: #666666  
-Dropdown shadow: y:8, blur:10  
-Item selected: background-color: #D9D9D9 , color: black  
-Item hovered: background-color: #EEEEEE, color: dark grey  
-Checkbox checked: #FEDD00 + #000000  
-Checkbox unchecked border: #666666  
+## DXC Technology theme
 
-*For the rest of the checkbox state, please consult the MD of that component.
-
-![Select light theme](images/select_light.png)
-
-### Dark theme
-
-Color for the dark theme is the same that ones used in the light theme, with the difference that the input must be white caused for the dark background.
-
-![Select dark theme](images/select_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/specs/
 
 ## Multiple selection
 

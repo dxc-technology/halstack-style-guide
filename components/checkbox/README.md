@@ -23,25 +23,22 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ![Checkbox states](images/checkbox_states.png)
 
-## Theming
+## Theming and tokens
 
-### Light theme
+There is a relation between the background color of the component and the border in the case that the checkbox is unselected. The color will be the same for both scenarios.
 
-Black: #000000  
-Yellow: #FFED00  
-White: #FFFFFF  
-Border and disabled: #666666  
-Focus ripple: #666666, opacity 0.1  
-Pressed ripple: #666666, opacity 0.25  
-Outlined opacity disabled: 0.5  
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:| 
+| backgroundColor| `true` | `yellow`|
+| borderColor   | `true` | `yellow`  |
+| checkColor    | `true` | `black`  |
+| disabled      | `false`| `0.34 opacity`  |
+| disabledCheckColor | `false` | `0.34 opacity`  |
+| disabled      | `false`| `computed`  |
 
-![Checkbox for light theme](images/checkbox_states_light.png)
+## DXC Technology theme
 
-### Dark theme
-
-Same colors used in light theme except for the white color for the border of the checkbox unchecked and the ripple that intead of using dark grey as base color, in this case is using white.
-
-![Checkbox for dark theme](images/checkbox_states_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/specs/
 
 ## Design Specifications
 

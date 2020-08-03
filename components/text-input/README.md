@@ -20,27 +20,23 @@ The states for text input are: __normal__, __focused__, __value entered__, __dis
 
 ![Input states example](images/input_states.png)
 
-## Theming
+## Theming and tokens
 
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| textColor     | `false` | `black` |
+| labelColor    | `false`     | `black`  |
+| placeholderColor | `false`     | `#EEEEEE`  |
+| underlinedColor | `false`     | `black`  |
+| assistiveTextColor | `false`     | `black`  |
+| disabledTextColor | `false`     | `0.34 opacity`  |
+| disabledLabelColor | `false`     | `0.34 opacity`  |
+| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
+| disabledAssistiveTextColor | `false`     | `0.34 opacity`  |
 
+## DXC Technology theme
 
-### Light theme
-
-Black: #000000 (text, underline and icons)  
-Red error: #D0011B  
-Icon ripple: #000000, opacity 0.25 
-Disabled: #D9D9D9
-
-![Input light theme example](images/input_light.png)
-
-### Dark theme
-
-White: #FFFFFF  
-Yellow DXC: #FFED00  
-Red error: #FF6161  
-Disabled: #757575
-
-![Input dark theme example](images/input_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/specs/
 
 ## Text Area
 

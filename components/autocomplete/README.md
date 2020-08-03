@@ -28,19 +28,27 @@ States: __normal__, __focused__ (all the suggestions are shown), __value entered
 If the mode is asynchronous, there are a few states more to indicate communication with the APIs.
 States: __searching__, __no results__ and __action error__.
 
-## Theming
+## Theming and tokens
 
-The theming is exactly the same used in the input and select components.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| textColor      | `false` | `black` |
+| labelColor | `false`     | `black`  |
+| placeholderColor | `false`     | `#D9D9D9`  |
+| underlinedColor | `false`     | `black`  |
+| assistiveTextColor | `false`     | `black`  |
+| selectedOptionBackgroundColor | `true`     | `#666666`  |
+| hoverOptionBakcgroundColor | `false`     | `0.34 opacity`  |
+| hoverOptionColor | `false`     | `black`  |
+| disabledTextColor | `false`     | `0.34 opacity`  |
+| disabledLabelColor | `false`     | `0.34 opacity`  |
+| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
+| disabledAssistiveTextColor | `false`     | `0.34 opacity`  |
+| optionText | `false`     | `black`  |
 
-### Light theme
+## DXC Technology theme
 
-For the light theme, the component will use black as the primary color, to highlight and pass the accesibility standards on a light background.
-
-### Dark theme
-
-The dark theme will be the oppossite of the light one, using white as a primary color for the component and having a dark background.
-
-![Autocomplete dark theme](images/autocomplete_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/736b626a-87bb-42f4-8871-64701de74177/specs/
 
 ## Design Specifications
 
