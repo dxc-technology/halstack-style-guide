@@ -31,27 +31,25 @@ States: __normal__, __focus__, __hover__, __pressed__, and __disabled__.
 
 ![Tabs state disabled](images/tabs_disabled.png)
 
-## Theming
+## Theming and tokens
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| selectedBackgroundColor      | `true` | `black` |
+| selectedUnderlinedColor | `true` | `yellow/black`  |
+| selectedColor | `true`        | `white/black`  |
+| backgroundColor | `false`     | `0.34 opacity`  |
+| underlinedColor | `false`     | `transparent/#D9D9D9`  |
+| textColor     | `true`        | `black` |
+| disabledBacgroundColor | `false` | `#EEEEEE`  |
+| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
+| disabledTextColor | `false`     | `0.34 opacity`  |
 
-Black: #000000  
-Yellow: #FFED00  
-White: #FFFFFF  
-Dark grey (filled): #666666, opacity 0.8  
-Light grey (filled/underlined): #D9D9D9, opacity 0.5  
+## DXC Technology theme
 
 ![Tabs light theme](images/tabs_light_theme.png)
 
-### Dark theme
-
-Black: #000000  
-Yellow: #FFED00  
-White: #FFFFFF  
-Dark grey (filled): #666666, opacity 0.8  
-Light grey (filled/underlined): #D9D9D9, opacity 0.5  
-
-![Tabs light theme](images/tabs_dark_theme.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/87d86792-74b6-4cc0-8806-e5b5302af2f8/specs/
 
 ## Design Specifications
 

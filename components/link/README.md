@@ -30,18 +30,20 @@ If the user decides to click on the link, then it will pass to another state def
 
 ![States of the link for both modes](images/link_states.png)
  
-## Theming
+## Theming and tokens
 
-The only change is regarding the theming is the use of color to accomplish with the accessibility standards for people with disabilities. So the color blue and purple will change the intensity to adopt the W3C standards.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| textColor      | `false` | `#006BF6` |
+| visitedtextColor | `false`     | `#8800F6`  |
+| underlinedColor | `false`     | `#006BF6`  |
+| visitedUnderlinedColor | `false`     | `#8800F6`  |
+| disabledColor | `false`     | `#A5A5A5`  |
+| disabledUnderlinedColor | `false`     | `#A5A5A5`  |
 
-| Color              | Value|
-|--------------------|------:|
-| Blue (light theme) | `#006BF6`|
-| Blue (dark theme)  | `#4797FF` |
-| Purple (light theme) | `#8800F6` |
-| Purple (dark theme)  | `#C175FF` |
+## DXC Technology theme
 
-![Color for black theme](images/link_theme.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/specs/
 
 ## Design Specifications
 

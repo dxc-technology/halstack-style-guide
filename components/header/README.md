@@ -1,4 +1,4 @@
-The header is an important component in the interface, it is the area dedicated for the navigation across the application, the first element that the user sees when he accesses to the web page and a known place where information relative to core information, sign in or search can be found. 
+The header is an important component in the interface, it is the area dedicated for the navigation across the application, the first element that the user sees when he accesses to the web page and a known place where information relative to core information, sign in or search can be found.
 
 
 ## Overview
@@ -54,34 +54,23 @@ In any case, in this document, it will be shown the main states that the compone
 ![Header hover state](images/header_services_dropdown_state.png)
 
 
-## Theming
+## Theming and tokens
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor | `true` | `black` |
+| underlinedColor | `true`     | `black`  |
+| textColor     | `true`     | `computed`  |
+| backgroundColorMenu | `true`     | `#D9D9D9`  |
+| textColorMenu | `true`     | `computed`  |
 
-Black: #000000  
-White: #FFFFFF  
-Dark grey (hovered select): #666666  
-Light grey (hovered item): #d9d9d9  
-Yellow: #FFED00  
-Basic mode - Header element hover: #666666, opacity 0.5  
-Basic mode - Dropdown element hover: #EEEEEE  
-Basic mode - Dropdown element selected: #FFFFFF  
-Basic mode - Dropdown element not selected: #FFFFFF, opacity 0.5  
-Underline mode - Header element hover: #D9D9D9  
-Underline mode - Dropdown element selected: #000000, bold  
-Underline mode - Dropdown element not selected: #000000, regular  
-
+## DXC Technology theme
 
 ![Header light modes](images/header_modes_light.png)
 ![Header hover dropdown](images/header_settings_dropdown_state.png)
 ![Header hover dropdown](images/header_modes_light_dropdown.png)
 
-### Dark theme
-
-The dark theme is using the same color palette as the light theme, the only different is that many colors are inverted in that theme.
-
-![Header dark modes](images/header_modes_dark.png)
-![Header dark modes with dropdown](images/header_modes_dark_dropdown.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7965bd24-3ef3-427d-92de-0d2aac880402/specs/
 
 ## Design Specifications
 
