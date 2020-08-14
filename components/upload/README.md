@@ -11,11 +11,14 @@ Once the file is displayed there, some characteristics are rendered:
 - The size or other information of the file
 - An icon representing the actual status of the file (in progress, done, error) 
 
-When all the files are well loaded and the user wants to upload the files to the server, the only action to be performed is the click on the upload button. If the action goes right, an alert message with a success status will be displayed, in other cases, an error will pop up indicating the reason.
+When all the files are loaded and the user wants to upload the files to the server, the only action to be performed is the click on the upload button. If the action goes right, an alert message with a success status will be displayed, in other cases, an error will pop up indicating the reason.
 
 ### Modes
 
-There is only one mode for this component specification, in the following section is introduced.
+There are two different modes for the upload component, one of them is used to upload a single file thus the representation of the component is much simple and takes less space in the screen compared with the multi file upload version, which is used to select several files in a row. 
+
+Modes for the component: __single__ and __multiple__.
+
 
 ### States
 
@@ -43,13 +46,19 @@ There is only one mode for this component specification, in the following sectio
 
 ![Upload after cliclinkg the upload button with an alert reporting the state](images/upload_alert.png)
 
-## Theming
+## Theming and tokens
 
-The same look is using for both themes light and dark.
+Cannot be possible to configure or customize any parameter of the component to apply a theming.
 
 ## Design Specifications
 
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the next adobe cloud link: https://xd.adobe.com/spec/95f3b9b7-89dd-49bf-4732-8f6c2459f9df-e3c2/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/Upload
+Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the next adobe cloud link.
+
+Multifile version: https://xd.adobe.com/spec/95f3b9b7-89dd-49bf-4732-8f6c2459f9df-e3c2/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/Upload
+
+Single version: https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/f67eb530-b374-4d13-a1d8-ba4c1fba2e74/specs/
+
+
 
 ### Responsive design
 
@@ -57,6 +66,7 @@ Since this component has many specifications to be detailed here, the best way t
 
 ### User Interface Design Considerations
 
+- Use the specific mode based on the application requirements
 - Add some explanation text in the case that it is needed to clarify the information to the user
 - By default, the drag and drop appearance is handled by the browser, in case it wants to be customized is the responsibility of the developer
 - If the upload process fails, please show an error message avoiding technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY') that won't be understood by the user of the application
