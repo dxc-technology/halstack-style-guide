@@ -31,7 +31,17 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ## Theming
 
-There are not any changes regarding the theme, the component is the same for light mode and dark mode.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor | `true`     | `#F8F8F8`  |
+| arrowContainerColor | `true`     | `#D9D9D9`  |
+| arrowColor | `true`     | `black`  |
+| arrowContainerOpacity | `false`     | `0.80 opacity`  |
+
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/e52a6751-d2c1-41e4-84de-7647275db267/
 
 ## Design Specifications
 

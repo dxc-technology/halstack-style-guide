@@ -28,15 +28,14 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ## Theming and tokens
 
-There is a relation between the background color of the component and the border in the case that the checkbox is unselected. The color will be the same for both scenarios.
-
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
 | dotColor      | `true` | `black`|
 | borderColor   | `true` | `black`  |
-| disableDotColor    | `false` | `0.34 opacity`  |
-| disabledBorderColor  | `false`| `0.34 opacity`  |
-| text      | `false`| `computed`  |
+| disabled  | `false`| `0.34 opacity`  |
+| text      | `false`| `black/inherit`  |
+
+*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
 
 ## DXC Technology theme
 

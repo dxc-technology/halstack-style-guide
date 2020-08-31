@@ -29,10 +29,8 @@ The states for text input are: __normal__, __focused__, __value entered__, __dis
 | placeholderColor | `false`     | `#EEEEEE`  |
 | underlinedColor | `false`     | `black`  |
 | assistiveTextColor | `false`     | `black`  |
-| disabledTextColor | `false`     | `0.34 opacity`  |
-| disabledLabelColor | `false`     | `0.34 opacity`  |
-| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
-| disabledAssistiveTextColor | `false`     | `0.34 opacity`  |
+| disabled | `false`     | `0.34 opacity`  |
+| error | `false`     | `#D0011B`  |
 
 ## DXC Technology theme
 

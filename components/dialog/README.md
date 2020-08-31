@@ -54,12 +54,15 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 
 ## Theming
 
-As it was mentioned before, there isn't a specific implementation for each theme, it is the same for the different themes in this design system.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| overlay       | `false`     | `black 0.80 opacity`  |
+| backgroundColor       | `false`     | `white`  |
 
-Using of colors:
-_White_: #FFFFFF
-_Black_: #000000
-_Box shadow_: #000000, 0.2 opacity, Y=1, B=3
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/
 
 ## Design Specifications
 

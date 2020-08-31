@@ -25,21 +25,18 @@ As it is auto-management, for now, states are not contemplated.
 
 ## Theming
 
-There is no difference between the light and dark theme unless the overlay is not included because the visual appereance will keep the same either is a light or a dark look.
-
-An overlay separets the main application from the spinner component, making a layer to show that some action is in process. The overlay is the same used for dialog and alert components, making focus on the action that is taking place in that concrete moment.
-
-It is another possibility to use the spinner within other component, for example, when the user clicks in a button, or the application has to do an action that will take some time, the spinner can be displayed without the overlay for those specific scenarios, so the color specifications will change accordingly and the favorite variant will be the tiny one.
-
-The colors used in this component are:
-
-Yellow: #FFED00  
-White: #FFFFFF  
-Black: #000000  
-
-![Spinner colors and display](images/spinner_theme.png)
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| trackLine       | `true`     | `yellow`  |
+| totalCircle      | `true`     | `white`  |
+| textColor       | `false`     | `black/inherit`  |
+| overlay       | `false`     | `black 0.80 opacity`  |
 
 *In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/
 
 ## Design Specifications
 

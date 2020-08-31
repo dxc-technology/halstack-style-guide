@@ -24,27 +24,17 @@ The only state that is controlled in the card component is the hover. As it is n
 
 ![Card states](images/card_states.png)
 
-## Theming
+## Theming and tokens
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor    | `false` | `white` |
 
-White: #FFFFFF  
-Black: #000000  
-Shadow opacity: 0.16 B-6  
-Hover shadow opacity: 0.40 B-10
+As the Card component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 
-![Card modes for light theme](images/card_mode_light.png)
+## DXC Technology theme
 
-### Dark theme
-
-White: #FFFFFF  
-Black: #000000  
-Yellow: #FFED00  
-Shadow opacity: 0.16 B-6 #FFFFFF  
-Hover shadow opacity primary: 0.16 B-6 #D9D9D9  
-Hover shadow opacity secondary: #FFED00 for border color
-
-![Card modes for dark theme](images/card_mode_dark.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/
 
 ## Design Specifications
 

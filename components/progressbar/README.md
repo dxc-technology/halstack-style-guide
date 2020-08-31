@@ -34,17 +34,18 @@ These states corresponding with the progress of the process in the application.
 
 ## Theming
 
-Both themes (light and dark) have a similar look with colors when the component is using the overlay option.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| trackLine       | `true`     | `yellow`  |
+| totalLine       | `true`     | `black`  |
+| textColor       | `true`     | `black/inherit`  |
+| totalLineOpacity       | `false`     | `0.34 opacity`  |
+| overlay       | `false`     | `black 0.80 opacity`  |
 
-Colors
-Text color (with overlay): #FFFFFF  
-Text color (no overlay): light - #000000 / dark - #FFFFFF
-Actual progress indicator color: #FFED00
-Progress bar color (light): #FFFFFF, opacity 0.3
-Progress bar color (dark): #000000, opacity 0.3
-Overlay color: #000000, opacity 0.7
 
-![Theaming for progress bar component](images/progressbar_themes.png)
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/
 
 ## Design Specifications
 

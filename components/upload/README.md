@@ -50,6 +50,10 @@ Modes for the component: __single__ and __multiple__.
 
 Cannot be possible to configure or customize any parameter of the component to apply a theming.
 
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/
+
 ## Design Specifications
 
 Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the next adobe cloud link.

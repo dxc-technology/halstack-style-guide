@@ -29,12 +29,11 @@ Five different states are defined in the life cycle of the component: __normal__
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| checkedTrackBackgroundColor      | `true` | `#D9D9D9` |
-| checkedthumbBackgroundColor | `false`     | `black`  |
+| checkedTrackBackgroundColor      | `true` | `#666666` |
+| checkedthumbBackgroundColor | `false`     | `white`  |
 | uncheckedthumbBackgroundColor | `false`     | `white`  |
 | uncheckedtrackBackgroundColor | `false`     | `#D9D9D9`  |
-| disabledThumbBackgroundColor | `false`     | `0.34 opacity`  |
-| disabledTrackBackgroundColor | `false`     | `0.34 opacity`  |
+| disabled | `false`     | `0.34 opacity`  |
 
 ## DXC Technology theme
 

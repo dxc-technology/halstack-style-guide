@@ -32,19 +32,14 @@ States: __searching__, __no results__ and __action error__.
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| textColor      | `false` | `black` |
-| labelColor | `false`     | `black`  |
-| placeholderColor | `false`     | `#D9D9D9`  |
-| underlinedColor | `false`     | `black`  |
-| assistiveTextColor | `false`     | `black`  |
-| selectedOptionBackgroundColor | `true`     | `#666666`  |
+| selectedOptionBackgroundColor | `true`     | `#D9D9D9`  |
 | hoverOptionBakcgroundColor | `false`     | `0.34 opacity`  |
 | hoverOptionColor | `false`     | `black`  |
-| disabledTextColor | `false`     | `0.34 opacity`  |
-| disabledLabelColor | `false`     | `0.34 opacity`  |
-| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
-| disabledAssistiveTextColor | `false`     | `0.34 opacity`  |
+| disabled | `false`     | `0.34 opacity`  |
 | optionText | `false`     | `black`  |
+| error | `false`     | `D0011B`  |
+
+The other attributes of the autocomplete component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
 ## DXC Technology theme
 

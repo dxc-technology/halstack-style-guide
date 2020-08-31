@@ -37,6 +37,7 @@ Seven states are defined for select component based on the interactions that the
 | selectedOptionBackgroundColor   | `true`| `#666666`  |
 | selectedOptionTextColor      | `false`| `black`  |
 | hoverOptionBackgroundColor   | `false`| `0.34 opacity`  |
+| error         | `false`| `D0011B`  |
 
 ## DXC Technology theme
 

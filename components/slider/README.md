@@ -32,13 +32,13 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| thumbBackgroundColor      | `true` | `black` |
-| dotsBackgroundColor | `true`     | `black`  |
-| trackline | `true`     | `black`  |
-| disabledthumbBacgroundColor | `false`     | `0.34 opacity`  |
-| disableddotsBackgroundColor | `false`     | `0.34 opacity`  |
-| disabledTrackLine | `false`     | `0.34 opacity`  |
-| disabledtotalLine | `false`     | `0.34 opacity`  |
+| *thumbBackgroundColor      | `true` | `black` |
+| *dotsBackgroundColor | `true`     | `black`  |
+| *trackline | `true`     | `black`  |
+| totalline | `false`     | `0.34 opacity`  |
+| disabled | `false`     | `0.34 opacity`  |
+
+*Once the value for the color is set, it will apply to all the tokens with the same color.
 
 ## DXC Technology theme
 

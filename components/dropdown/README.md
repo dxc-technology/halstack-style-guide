@@ -36,31 +36,21 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 ### Theming
 
-### Light theme
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor       | `true`     | `white`  |
+| dropdownBackgroundColor       | `false`     | `white`  |
+| textColor       | `true`     | `black`  |
+| dropdownTextColor       | `false`     | `black`  |
+| hoverBackgroundOption       | `false`     | `0.34 opacity`  |
+| hoverBackgroundColor       | `true`     | `0.80 opacity`  |
+| disabled       | `true`     | `0.34 opacity`  |
 
-Black: #000000  
-White: #FFFFFF  
-Outlined option grey (selected item): #D9D9D9 
-Outlined option grey (hovered item): #EEEEEE  
-Fill option grey (selected item): #666666  
-Fill option grey (hovered item): #EEEEEE  
+The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 
-![Dropdown light theme primary](images/dropdown_light1.png)
+## DXC Technology theme
 
-![Dropdown light theme secondary](images/dropdown_light2.png)
-
-### Dark theme
-
-Black: #000000  
-White: #FFFFFF  
-Outlined option grey (selected item): #666666  
-Outlined option grey (hovered item): #EEEEEE  
-Fill option grey (selected item): #D9D9D9  
-Fill option grey (hovered item): #EEEEEE  
-
-![Dropdown light theme primary](images/dropdown_dark1.png)
-
-![Dropdown light theme secondary](images/dropdown_dark2.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/
 
 ## Design Specifications
 

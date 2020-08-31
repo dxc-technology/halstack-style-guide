@@ -60,9 +60,11 @@ In any case, in this document, it will be shown the main states that the compone
 | ------------- |:-------------:| -------------:|
 | backgroundColor | `true` | `black` |
 | underlinedColor | `true`     | `black`  |
-| textColor     | `true`     | `computed`  |
+| textColor     | `true`     | `white`  |
 | backgroundColorMenu | `true`     | `#D9D9D9`  |
-| textColorMenu | `true`     | `computed`  |
+| textColorMenu | `true`     | `black`  |
+| hamburguerColor | `true`     | `white`  |
+| overlay | `false`     | `black 0.70 opacity`  |
 
 ## DXC Technology theme
 

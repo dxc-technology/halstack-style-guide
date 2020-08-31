@@ -41,9 +41,7 @@ States: __normal__, __focus__, __hover__, __pressed__, and __disabled__.
 | backgroundColor | `false`     | `0.34 opacity`  |
 | underlinedColor | `false`     | `transparent/#D9D9D9`  |
 | textColor     | `true`        | `black` |
-| disabledBacgroundColor | `false` | `#EEEEEE`  |
-| disabledUnderlinedColor | `false`     | `0.34 opacity`  |
-| disabledTextColor | `false`     | `0.34 opacity`  |
+| disabled | `false` | `0.34 opacity`  |
 
 ## DXC Technology theme
 

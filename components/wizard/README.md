@@ -46,11 +46,19 @@ For that case, a validation mark can be represented in every step once the user 
 
 ## Theming
 
-As in many of the other components into the design system, the wizard elements is presented in both theming combinations for ligth and dark theme.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| selectedBackgroundColor    | `true` | `yellow` |
+| selectedText    | `true` | `black` |
+| borderColor    | `true` | `black` |
+| textColor    | `false` | `black/inherit` |
+| lineColor    | `false` | `#D9D9D9` |
+| disabledBackground    | `false` | `#EEEEEE` |
+| disabledText   | `false` | `0.34 opacity` |
 
-![States of the wizard in the different interactions](images/wizard_light_theme.png)
+## DXC Technology theme
 
-![States of the wizard in the different interactions](images/wizard_dark_theme.png)
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/
 
 ## Design Specifications
 

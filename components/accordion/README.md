@@ -22,6 +22,21 @@ States: __normal__, __hover__, __disabled__, __open__.
 
 ## Theming
 
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| backgroundColor | `false`     | `white`  |
+| textColor | `false`     | `#666666`  |
+| hoverTextColor | `false`     | `black`  |
+| arrowColor | `true`     | `#666666`  |
+| hoverBackgroundColor | `false`     | `0.34 opacity`  |
+| disabled | `false`     | `0.34 opacity`  |
+
+The hover background color for the trigger of the accordion is calculated from the color defined for the arrow icon.
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a39d0282-0329-434e-a69c-8b32644f92cc/
+
 ### Light theme
 
 Default mode for light theme

@@ -35,11 +35,12 @@ If the user decides to click on the link, then it will pass to another state def
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | textColor      | `false` | `#006BF6` |
-| visitedtextColor | `false`     | `#8800F6`  |
+| visitedTextColor | `false`     | `#8800F6`  |
 | underlinedColor | `false`     | `#006BF6`  |
 | visitedUnderlinedColor | `false`     | `#8800F6`  |
 | disabledColor | `false`     | `#A5A5A5`  |
 | disabledUnderlinedColor | `false`     | `#A5A5A5`  |
+| hoverTextColor | `false`     | `#006BF6`  |
 
 ## DXC Technology theme
 

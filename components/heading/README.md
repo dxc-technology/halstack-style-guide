@@ -24,9 +24,11 @@ Apart from that, many of the design system components are making use of headings
 
 ## Theming
 
-It is important to support all the components in the dark theme available in this design system, for that we just made a little tweak changing the color of the headings from black to white, so in the case that the background of the application will be dark (according to the dark mode), the elements will be fully visible into the interface.
+An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific theaming for this component.
 
-![Variations of the heading](images/dark.png)
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a81232d7-eb9e-4bff-945f-d021ee5ebf53/
 
 ## Design Specifications
 

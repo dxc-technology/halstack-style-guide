@@ -30,10 +30,10 @@ Primary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
-| backgroundColor      | `true` | `yellow`|
+| *backgroundColor      | `true` | `yellow`|
 | textColor      | `true` | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `black`  |
+| *hoverBackgroundColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `yellow`  |
 
 Secondary button
@@ -41,21 +41,24 @@ Secondary button
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | backgroundColor      | `false` | `transparent` |
-| outlinedColor      | `true` | `yellow`  |
+| *outlinedColor      | `true` | `yellow`  |
 | textColor | `true`     | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverOutlinedColor | `true`     | `black`  |
+| *hoverOutlinedColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `black`  |
 
 Text button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| backgroundColor      | `false` | `transparent` |
+| *backgroundColor      | `false` | `transparent` |
 | textColor | `true`     | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `#D9D9D9`  |
+| *hoverBackgroundColor | `true`     | `#D9D9D9`  |
 | hoverTextColor | `true`     | `black`  |
+
+
+*The values for the _backgroundColor_/_outlinedColor_ and the _hoverBackgroundColor_/_hoverOutlinedColor_ are the same for all the modes, meaning that applying a value to the variable will affect to all of them that are themable.
 
 
 ## DXC Technology theme

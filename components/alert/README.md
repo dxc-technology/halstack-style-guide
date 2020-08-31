@@ -55,19 +55,15 @@ The both actions that alert will get are the one that for some reason appears in
 
 ## Theming
 
-Same look and feel are used for the light and dark theme, the only difference is the background of the applications. Even the overlay in the alert dialog is the same for both themes.
+| Tokens        | Themable      | Default value |
+| ------------- |:-------------:| -------------:|
+| overlay       | `false`     | `black 0.80 opacity`  |
 
-Color
-White: #FFFFFF  
-Black: #000000  
-Information blue icon: #4A90E2  
-Information blue background: #CEE0F5  
-Warning yellow icon: #FFD806  
-Warning yellow background: #FCF2BD  
-Error red icon: #EE2222  
-Error red background: #F9CFCF  
-Success green icon: #7ED321  
-Success green background: #DBF1C4  
+The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.
+
+## DXC Technology theme
+
+https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/
 
 ## Design Specifications
 

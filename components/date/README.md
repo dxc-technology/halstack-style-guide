@@ -47,11 +47,6 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| textColor      | `false` | `black` |
-| labelColor | `false`     | `black`  |
-| placeholderColor | `false`     | `#D9D9D9`  |
-| underlinedColor | `false`     | `black`  |
-| assistiveTextColor | `false`     | `black`  |
 | pickerBackgroundColor | `false`     | `white`  |
 | pickerTextColor | `false`     | `black`  |
 | pickerActualDate | `false`     | `#EEEEEE`  |
@@ -59,6 +54,8 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 | pickerSelectedDateColor | `true`     | `yellow`  |
 | pickerHoverDateBackgroundColor | `false`     | `0.34 opacity`  |
 | pickerHoverDateTextColor | `false`     | `black`  |
+
+The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
 ## DXC Technology theme
 
