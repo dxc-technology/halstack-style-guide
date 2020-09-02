@@ -15,6 +15,8 @@ Modes: __primary__, __secondary__, __text button__.
 
 ![Button modes example](images/button_modes.png)
 
+*the DXC default theme is applied in the image component.
+
 For taking into consideration, the main background colors for the application would be white or black, so the use of any button with such colors is a great option. In case that the user wants to customize color or contrast, it is recommended follow best practices and check the accessibility in any case.
 
 ### States
@@ -22,47 +24,49 @@ For taking into consideration, the main background colors for the application wo
 The states are the different behaviors of the button component based on the interaction of the user.
 For the desktop version, we contemplate four different states by which can pass.
 
-States: __default__, __disabled__, __hover__ and __focus__.  
+States: __default__, __disabled__, __hover__, __active__ and __focus__.  
+
+![Button state example](images/button_states.png)
 
 ## Theming and tokens
 
-Primary button
+##### Primary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
-| *backgroundColor      | `true` | `yellow`|
+| backgroundColor      | `true` | `yellow`|
 | textColor      | `true` | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| *hoverBackgroundColor | `true`     | `black`  |
+| hoverBackgroundColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `yellow`  |
 
-Secondary button
+##### Secondary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | backgroundColor      | `false` | `transparent` |
-| *outlinedColor      | `true` | `yellow`  |
+| outlinedColor      | `true` | `yellow`  |
 | textColor | `true`     | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| *hoverOutlinedColor | `true`     | `black`  |
+| hoverOutlinedColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `black`  |
 
-Text button
+##### Text button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| *backgroundColor      | `false` | `transparent` |
+| backgroundColor      | `false` | `transparent` |
 | textColor | `true`     | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| *hoverBackgroundColor | `true`     | `#D9D9D9`  |
+| hoverBackgroundColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `black`  |
-
-
-*The values for the _backgroundColor_/_outlinedColor_ and the _hoverBackgroundColor_/_hoverOutlinedColor_ are the same for all the modes, meaning that applying a value to the variable will affect to all of them that are themable.
-
 
 ## DXC Technology theme
 
+
+
+
+More details in the link below:
 https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/af07084e-1cfb-4663-be72-6f6345da9646/
 
 ## Design Specifications
