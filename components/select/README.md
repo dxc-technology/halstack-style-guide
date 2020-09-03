@@ -23,6 +23,7 @@ It looks similar to the other inputs from the design system but in this case, it
 
 Seven states are defined for select component based on the interactions that the user can reproduce. The states are: __normal__, __select with focus__, __select clicked__, __select clicked and option selected__, __select with clicked option and hovered option__, __select animation on click__ and __select input with value__.
 
+![Select states](images/select_states.png)
 
 ## Theming and tokens
 
@@ -50,7 +51,6 @@ To indicate which items are selected and which not, the design for multiple sele
 
 ![Select multiple option](images/select_multi.png)
 
-![Select multiple option in dark theme](images/select_multi_dark.png)
 
 ## Design Specifications
 

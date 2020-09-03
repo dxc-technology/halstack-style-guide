@@ -15,8 +15,6 @@ Modes: __primary__, __secondary__, __text button__.
 
 ![Button modes example](images/button_modes.png)
 
-*the DXC default theme is applied in the image component.
-
 For taking into consideration, the main background colors for the application would be white or black, so the use of any button with such colors is a great option. In case that the user wants to customize color or contrast, it is recommended follow best practices and check the accessibility in any case.
 
 ### States
@@ -30,7 +28,7 @@ States: __default__, __disabled__, __hover__, __active__ and __focus__.
 
 ## Theming and tokens
 
-##### Primary button
+#### Primary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
@@ -40,7 +38,7 @@ States: __default__, __disabled__, __hover__, __active__ and __focus__.
 | hoverBackgroundColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `yellow`  |
 
-##### Secondary button
+#### Secondary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
@@ -51,7 +49,7 @@ States: __default__, __disabled__, __hover__, __active__ and __focus__.
 | hoverOutlinedColor | `true`     | `black`  |
 | hoverTextColor | `true`     | `black`  |
 
-##### Text button
+#### Text button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
@@ -62,7 +60,6 @@ States: __default__, __disabled__, __hover__, __active__ and __focus__.
 | hoverTextColor | `true`     | `black`  |
 
 ## DXC Technology theme
-
 
 
 
