@@ -16,7 +16,7 @@ Five different modes can be identify using text input component: __basic__, __ba
 
 ### States
 
-The states for text input are: __normal__, __focused__, __value entered__, __disabled__ and __icon pressed__.
+The states for text input are: __normal__, __focused__, __selected__, __value entered__ and __disabled__.
 
 ![Input states example](images/input_states.png)
 
@@ -71,7 +71,6 @@ The aspects that text area is not including respecting text input are:
 | Assistive text margin top | `6px` |
 
 ![Specifications for input component](images/input_specs.png)
-![Specifications for textarea component](images/textarea_specs.png)
 
 ### Required fields
 

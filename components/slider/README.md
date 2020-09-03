@@ -12,21 +12,18 @@ The appearance of the component is not that complex, it is represented most of t
 Three modes are available for a slider control.
 - A discrete mode, that only can get the value marked along the slider
 - A continuous mode, that can take every value mapped into slider from the beginning to the end.
-- A range mode implicitly can be discrete or continuous and is used to select a range that will include all the values inside the range itself.
 
-Modes: __discrete__, __continuos__ or __range__.
+Modes: __discrete__ or __continuos__.
 
 ![Slider modes](images/slider_modes.png)
 
 ### States
 
-Seven different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__, __pressed__, __dragged__ and __lock ups__.
+Seven different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__ and __dragged__.
 
 ![Slider mode discrete](images/slider_states_discrete.png)
 
 ![Slider mode continious](images/slider_states_cont.png)
-
-![Slider mode range](images/slider_states_range.png)
 
 ## Theming and tokens
 
@@ -76,5 +73,3 @@ The design specifications for slider are defining in the table below.
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
 ![Slider variation for special cases](images/slider_special.png)
-
-![Slider variation for special cases - dark mode](images/slider_special_dark.png)

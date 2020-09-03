@@ -23,7 +23,9 @@ Modes: __on__ and __off__.
 
 ## States
 
-Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__, __focused__ and __pressed__.
+Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__ and __focused__.
+
+![Switch modes](images/switch_states.png)
 
 ## Theming and tokens
 
@@ -56,7 +58,19 @@ Schematics examples for the switch toggle component with all the variations.
 
 ![Switch specifications](images/switch_specs.png)
 
-![Switch specifications](images/switch_specs2.png)
+In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
+
+*Linear*  
+
+The text should have a margin of 15 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
+
+![Switch linear structure](images/switch_linear.png)
+
+*Stacked*  
+
+The spacing between stacked switches should be 20 pixels that is determining by the top/bottom margin of the switch component itself.
+
+![Switch stacked structure](images/switch_stacked.png)
 
 ## User Interface Design Considerations
 
