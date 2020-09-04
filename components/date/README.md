@@ -21,14 +21,14 @@ The date input should lead the user to interact with it to select a date and giv
 
 ### Modes
 
-There are three modes for the date input with slightly changes that follows the design of the rest inputs. A thin line under the input container with description and labeling, and some animations that activate when the user interacts with the component.
-Modes: __basic__ and __basic with custom icon__.
+There is only one mode to represent the date that follows the design of the rest inputs. A thin line under the input container with description and labeling, and some animations that activate when the user interacts with the component.
+Modes: __basic__.
 
 ![Date modes](images/date_modes.png)
 
 ### States
 
-Eight different states are defined in the life cycle of the component: __normal__, __icon pressed__, __input disabled__, __completely disabled__, __entered__, __selected__, __focused__ and __disabled pop up__.
+Six different states are defined in the life cycle of the component: __normal__, __disabled__, __entered__, __selected__, __focused__ and __datepicker focused__.
 
 ![Date states](images/date_states.png)
 
@@ -38,6 +38,8 @@ The calendar pop-up displays the different views of days, months and years.
 By default, the view of the calendar will be the current month with all of its days and it will appear right below the input.
 
 The user can navigate through the calendar to select the desire date.
+
+![Views of the datepicker](images/date_datepicker.png)
 
 ### Design Interactions
 
@@ -116,7 +118,3 @@ The majority of the specifications are the same as in Angular Material datepicke
 | Font size          | `13px` |
 
 ![Date specifications for picker](images/date_picker_specs.png)
-
-![Date specifications for picker](images/date_picker_specs_2.png)
-
-![Date specifications for picker](images/date_picker_specs_3.png)

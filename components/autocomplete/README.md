@@ -16,17 +16,21 @@ Modes available: __synchronous__ and __asynchronous__.
 
 The main difference is the control of the information flow within the component because in the asynchronous case, the component needs to handle different scenarios with the fetching of information or errors.
 
-![Autocomplete modes (synchronous)](images/autocomplete_modes.png)
+![Autocomplete modes (synchronous)](images/autocomplete_mode_sync.png)
 
-![Autocomplete modes (asynchronous)](images/autocomplete_modes_2.png)
+![Autocomplete modes (asynchronous)](images/autocomplete_mode_async.png)
 
 ### States
 
 Starting with the synchronous mode, five different states can be defined.
 States: __normal__, __focused__ (all the suggestions are shown), __value entered__ (the suggestions get filtered by the input), __value selected__ and __disabled__.
 
+![Autocomplete states (synchronous)](images/autocomplete_states_sync.png)
+
 If the mode is asynchronous, there are a few states more to indicate communication with the APIs.
 States: __searching__, __no results__ and __action error__.
+
+![Autocomplete states (asynchronous)](images/autocomplete_states_async.png)
 
 ## Theming and tokens
 
