@@ -14,22 +14,18 @@ In case that there are more tabs that don't fit in the screen an indicator shoul
 
 ## Modes
 
-Basically, there are two main modes in the tabs representation
+There are no explicit modes for the tab component, but using the configuration of it, the user can set different aesthetics for the component.
 
-Modes: __filled__, __underlined__.
+It can be filled or underlined depending on the configuration parameters, make them flexible to fit at any scenario.
 
 ![Tabs modes](images/tabs_modes.png)
 
 ## States
 
 As in other component, different states can be defined with each interaction.
-States: __normal__, __focus__, __hover__, __pressed__, and __disabled__.
+States: __normal__, __focus__, __hover__ and __disabled__.
 
-![Tabs basic state](images/tabs_states_basic.png)
-
-![Tabs state using icons](images/tabs_states_icon.png)
-
-![Tabs state disabled](images/tabs_disabled.png)
+![Tabs basic state](images/tabs_states.png)
 
 ## Theming and tokens
 
@@ -40,14 +36,8 @@ States: __normal__, __focus__, __hover__, __pressed__, and __disabled__.
 | selectedColor | `true`        | `white/black`  |
 | backgroundColor | `false`     | `0.34 opacity`  |
 | underlinedColor | `false`     | `transparent/#D9D9D9`  |
-| textColor     | `true`        | `black` |
+| textColor     | `true`        | `0.64 opacity` |
 | disabled | `false` | `0.34 opacity`  |
-
-## DXC Technology theme
-
-![Tabs light theme](images/tabs_light_theme.png)
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/87d86792-74b6-4cc0-8806-e5b5302af2f8/specs/
 
 ## Design Specifications
 

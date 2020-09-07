@@ -35,10 +35,6 @@ In case that the user of the design systems wanted to add other components in th
 | textColor      | `true` | `white`  |
 | lineColor | `true`     | `yellow`  |
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/3c920e77-d15a-4856-81c4-d9389af085b0/specs/
-
 ## Design Specifications
 
 | Property           | Value|

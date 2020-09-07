@@ -10,7 +10,7 @@ There are a variety of types of links, but the most used are hyperlinks, text bu
 
 ### Modes
 
-The component has two different modes depending on the context of the use of the link element, regarding if the text link is part of a text or if it is an independent entity itself.
+The component has two different modes depending on the context of use of the link element, regarding if the text link is part of a text or if it is an independent entity itself.
 
 In the default mode, in the normal state, the link only has a different color to indicate and distinguish it as a link from the rest of the content. 
 
@@ -41,10 +41,6 @@ If the user decides to click on the link, then it will pass to another state def
 | disabledColor | `false`     | `#A5A5A5`  |
 | disabledUnderlinedColor | `false`     | `#A5A5A5`  |
 | hoverTextColor | `false`     | `#006BF6`  |
-
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/specs/
 
 ## Design Specifications
 

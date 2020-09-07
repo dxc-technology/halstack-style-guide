@@ -66,14 +66,6 @@ In any case, in this document, it will be shown the main states that the compone
 | hamburguerColor | `true`     | `white`  |
 | overlay | `false`     | `black 0.70 opacity`  |
 
-## DXC Technology theme
-
-![Header light modes](images/header_modes_light.png)
-![Header hover dropdown](images/header_settings_dropdown_state.png)
-![Header hover dropdown](images/header_modes_light_dropdown.png)
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7965bd24-3ef3-427d-92de-0d2aac880402/specs/
-
 ## Design Specifications
 
 Design specifications for main structure:
