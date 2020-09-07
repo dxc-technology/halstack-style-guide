@@ -27,10 +27,6 @@ Also, this component is static, which means that there is only one difference be
 As the Tag component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 The only way to customize the visuals of the tag component is using his own props for a specific background area.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/9ee5fa2b-f1b0-4c24-b5b4-e2656c45a730/
-
 ## Design Specifications
 
 | Property           | Value|

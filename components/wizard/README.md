@@ -1,9 +1,8 @@
 ## Overview
 
-Wizard represents a stepped workflow as a form of linear and mandatory progression through a defined process with several bullet points where the user need to interact with the content of each one during the workflow.
+Wizard represents a stepped workflow as a form of linear and mandatory progression through a defined process with several bullet points where the user need to interact with the content of each step during the workflow.
 
 ## Appereance
-
 
 
 ### Modes
@@ -55,10 +54,6 @@ For that case, a validation mark can be represented in every step once the user 
 | lineColor    | `false` | `#D9D9D9` |
 | disabledBackground    | `false` | `#EEEEEE` |
 | disabledText   | `false` | `0.34 opacity` |
-
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/
 
 ## Design Specifications
 
