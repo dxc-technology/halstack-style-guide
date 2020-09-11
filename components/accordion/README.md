@@ -10,7 +10,7 @@ The concept of an accordion is not more than a container of information, so the 
 
 ### Modes
 
-There are two different modes for each theme, one is the __default__ for the theme and the other is the __alternative__ option.
+There is only one mode available for the accordion component which works in all the possible scenarios.
 
 ![Accordion modes example](images/accordion_modes.png)
 
@@ -33,53 +33,6 @@ States: __normal__, __hover__, __disabled__, __open__.
 
 The hover background color for the trigger of the accordion is calculated from the color defined for the arrow icon.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a39d0282-0329-434e-a69c-8b32644f92cc/
-
-### Light theme
-
-Default mode for light theme
-
-White: #FFFFFF     
-Black: #000000   
-Box shadow opacity: 0.15  
-Hover color: #D9D9D9  
-Disabled color: #FFFFFF, opacity 0.65  
-![Accordion states example](images/accordion_lighttheme_default.png)
-
-Alternative mode for light theme
-
-White: #FFFFFF     
-Black: #000000   
-Box shadow opacity: 0.15  
-Hover color: #212121  
-Disabled color: #000000, opacity 0.30 
-
-![Accordion states example](images/accordion_lighttheme_alternative.png)
-
-### Dark theme
-
-Default mode for dark theme
-
-White: #FFFFFF     
-Black: #000000   
-Box shadow: #FFFFFF, opacity 0.15  
-Hover color: #D9D9D9  
-Disabled color: #FFFFFF, opacity 0.65  
-
-![Accordion states example](images/accordion_darktheme_default.png)
-
-Alternative mode for dark theme
-
-White: #FFFFFF     
-Black: #000000   
-Box shadow opacity: 0.15  
-Hover color: #212121  
-Disabled color: #000000, opacity 0.30 
-Border color: #FFFFFF  
-
-![Accordion states example](images/accordion_darktheme_alternative.png)
 
 ## Design Specifications
 
@@ -119,8 +72,8 @@ The minimum width of the component (280px) fits well in small devices.
 
 The hover action isn't allowed on touchable screens, so it will be replaced by the tap action.
 
-![Accordion responsive version](images/accordion_responsive_version.png)
-![Accordion responsive version (other approach)](images/accordion_responsive_version_2.png)
+![Accordion responsive version](images/accordion_responsive.png)
+
 
 ### User Interface Design Considerations
 
