@@ -71,3 +71,7 @@ The safe space between the icon and the label has to be 6 pixels and the size of
 - Distinguish the visited and unvisited for navigation links
 - Clearly explain where the link will take you to
 - Front-load the most relevant keyword
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/

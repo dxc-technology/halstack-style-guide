@@ -73,3 +73,7 @@ Some properties regarding width vary, the details are indicated in the table bel
 - Use the sidenav element to improve the discoverability of the application, making the navigation links accessible to the users.
 - Keep in mind the type of the devices that you are developing for, and handle the behavior in a way that doesn't block or reduce the available space of the main area in the application
 - Try to follow and order for the sidenav content and make use of hierarchy to differentiate between a title and a link
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/e52a6751-d2c1-41e4-84de-7647275db267/

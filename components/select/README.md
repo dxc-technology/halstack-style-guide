@@ -40,10 +40,6 @@ Seven states are defined for select component based on the interactions that the
 | hoverOptionBackgroundColor   | `false`| `0.34 opacity`  |
 | error         | `false`| `D0011B`  |
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/specs/
-
 ## Multiple selection
 
 Using the select component there is the option to use an alternative to take multiple selections. This allows the user to select more than one option from the list.
@@ -99,4 +95,8 @@ Multiple selection dropdown
 - If more than one option is applicable, a multi-selection box should be used
 - If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity
 - Multi-select fields should feature checkboxes for each singles option in the dropdown list, to allow selection on all types of devices. If a 'Select All' option is warranted, it should be placed first in the list
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/
 

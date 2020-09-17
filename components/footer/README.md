@@ -77,3 +77,7 @@ At this stage, the custom content and the disposition is responsability of the u
 - The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
 - The footer frame should span the entire screen width.
 - The footer frame should display the copyright information at the right margin.
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/3c920e77-d15a-4856-81c4-d9389af085b0/

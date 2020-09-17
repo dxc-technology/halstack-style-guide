@@ -64,11 +64,6 @@ States of the table are defined as follow:
 | bodyBackgroundColor       | `false`     | `white`  |
 | bodyTextColor       | `false`     | `black`  |
 
-
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/64333c08-0b79-4652-be10-f55646433e73/
-
 ## Design Specifications
 
 Design specifications for table header:
@@ -136,3 +131,7 @@ With this approach the table also has a paginator and every row could have their
     ▪ Specific page number access
     ▪ Next rotation
     ▪ Last rotation in table
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/64333c08-0b79-4652-be10-f55646433e73/

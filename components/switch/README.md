@@ -37,10 +37,6 @@ Five different states are defined in the life cycle of the component: __normal__
 | uncheckedtrackBackgroundColor | `false`     | `#D9D9D9`  |
 | disabled | `false`     | `0.34 opacity`  |
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/c3026d48-f954-4978-91e4-05d323ee078c/specs/
-
 ## Design Specifications
 
 | Property           | Value|
@@ -76,3 +72,7 @@ The spacing between stacked switches should be 20 pixels that is determining by 
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
 - Try to present your lists vertically, with one choice per line. 
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/c3026d48-f954-4978-91e4-05d323ee078c/

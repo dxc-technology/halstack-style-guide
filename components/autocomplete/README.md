@@ -45,10 +45,6 @@ States: __searching__, __no results__ and __action error__.
 
 The other attributes of the autocomplete component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/736b626a-87bb-42f4-8871-64701de74177/specs/
-
 ## Design Specifications
 
 The specifications of the component are mix with the ones from the input field and the select component. If you are interested in see the details, you can check each component page to get more information.
@@ -58,3 +54,7 @@ The specifications of the component are mix with the ones from the input field a
 - Consider using this component when the information to fill is complex or large and you want to assist the user with suggestions to make the process easiest and quicker.
 - If the options are a few it would be better to use a select component
 - Make sure that the error coming from the API is understandable for the user
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a39d0282-0329-434e-a69c-8b32644f92cc

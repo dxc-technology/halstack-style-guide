@@ -42,11 +42,6 @@ These states corresponding with the progress of the process in the application.
 | totalLineOpacity       | `false`     | `0.34 opacity`  |
 | overlay       | `false`     | `black 0.80 opacity`  |
 
-
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/
-
 ## Design Specifications
 
 | Property           | Value|
@@ -73,3 +68,7 @@ Overlay
 - Do not use this type of component in actions that will take less than 1 minute to the system
 - Use the determinate type if it is possible, the user can have an estimation on how it is gonna take
 - Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/

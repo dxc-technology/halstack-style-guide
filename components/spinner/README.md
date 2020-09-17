@@ -34,10 +34,6 @@ As it is auto-management, for now, states are not contemplated.
 
 *In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/
-
 ## Design Specifications
 
 Circular type
@@ -80,3 +76,7 @@ Overlay
 - Use the spinner component in a process between more than 1 second and less than 10 seconds
 - In case that the process will be lower than 10 seconds, a progress indicator and a handler to interrupt the process will be attached to the element
 - The text of the action it is not mandatory but recommendable
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/

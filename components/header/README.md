@@ -197,3 +197,7 @@ Specifications for responsive menu
 - Try to avoid to place items inside the custom area, the header has already all the element necessaries for navigability, use it only in exceptional cases.
 - The only way that the header's height should increase is when the company logo needs to be more large to be visible, in other cases the height must be 64 pixels.
 - If the hierarchy of the menu will contain many items, please consider taking the hamburguer approach for mobile and tablet version in the desktop interface.
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/448bb58a-bcfc-4aac-b265-42376a27a591/

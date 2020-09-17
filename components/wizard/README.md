@@ -57,9 +57,13 @@ For that case, a validation mark can be represented in every step once the user 
 
 ## Design Specifications
 
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the next adobe cloud link: https://xd.adobe.com/spec/95f3b9b7-89dd-49bf-4732-8f6c2459f9df-e3c2/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/Wizard
+Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the link to adobe cloud that are in the Links and references section.
 
 ### User Interface Design Considerations
 
 - The horizontal/vertical line should not extend to the left of the first circle or to the right of the last circle
 - Do not overwhelmed the component with too many steps, it won't be a good idea for the user workflow neither for the display of the information
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/

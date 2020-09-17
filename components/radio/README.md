@@ -37,10 +37,6 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 *There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/578ce690-701e-4daa-869d-70b55ea4f68e/specs/
-
 ## Design Specifications
 
 Radio button specifications are similar to the checkbox component since the usage of both are quite alike.
@@ -87,3 +83,6 @@ With this option, try to make one choice per line. Also, avoid nesting whenever 
 - Use radio buttons on wizard pages to make alternatives clear to the user.
 - If the question that the user needs to responde is as easier as yes/no, it is recommended to use checkbox instead of radio button.
 
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/578ce690-701e-4daa-869d-70b55ea4f68e/

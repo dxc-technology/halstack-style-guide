@@ -19,10 +19,6 @@ The only state that the design system specifies for the chip component is the ho
 | textColor      | `true` | `black`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3
-
 ## Design Specifications
 
 | Property      | Value      | 
@@ -44,3 +40,7 @@ https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/6809a
 - Do not use chips instead of buttons they have a total different aim in the UI
 - Make clear and simple the content of the label
 - Use chips to make tasks easier for the user
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3/

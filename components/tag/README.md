@@ -58,3 +58,7 @@ As it is mentioned in this document, the background color of the icon area can c
 - Make consistent use of the component accross the application
 - Be responsible of the use of background color and icons
 - If there are multiple tags, make sure to space them properly
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/9ee5fa2b-f1b0-4c24-b5b4-e2656c45a730/

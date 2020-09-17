@@ -26,10 +26,6 @@ Apart from that, many of the design system components are making use of headings
 
 An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific theaming for this component.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a81232d7-eb9e-4bff-945f-d021ee5ebf53/
-
 ## Design Specifications
 
 In this section are defined the 5 variations for the heading for desktop.
@@ -77,3 +73,6 @@ Specifications for tablet version (screen size between 480 pixels and 768 pixels
 - Identify where you need to use a heading and make use of them selecting the correct level
 - If there is any other size/weight that helps you to establish and remark the hierarchy in your application, feel free to adopt it, but make sure that it is not breaking the harmony 
 
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a81232d7-eb9e-4bff-945f-d021ee5ebf53/

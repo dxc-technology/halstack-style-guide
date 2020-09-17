@@ -61,10 +61,6 @@ The both actions that alert will get are the one that for some reason appears in
 
 The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/
-
 ## Design Specifications
 
 The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application. 
@@ -132,3 +128,7 @@ Widths for alert component: __fill content__, __fit parent__, __small__, __mediu
 - Non-entry of a non-required entry field should never generate an edit message or warning message, nor deny user forward movement.
 - If possible, dialog messages must always display in full without any scroll bar.
 - Dialog messages will retract only when the user closes the dialog or completes through interaction.
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/

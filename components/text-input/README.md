@@ -32,10 +32,6 @@ The states for text input are: __normal__, __focused__, __selected__, __value en
 | disabled | `false`     | `0.34 opacity`  |
 | error | `false`     | `#D0011B`  |
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/specs/
-
 ## Text Area
 
 The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 
@@ -93,3 +89,7 @@ The specifications for the required input follows the same guide that a normal i
 - User text areas, rather than a single-line input box for paragraph text and comments
 - Input fields are more restrictive for mobile users to make sure the type of input field is warranted
 - Only show error validation messages after the user has left the field
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/

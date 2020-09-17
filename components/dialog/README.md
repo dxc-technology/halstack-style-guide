@@ -60,10 +60,6 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 | backgroundColor       | `false`     | `white`  |
 
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/
-
 ## Design Specifications
 
 Specifications for desktop and tablet (landscape mode)
@@ -156,3 +152,8 @@ In the case that there is an error with an input field, the action to take is th
 - Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
 - Informational modals are merely assistive and should display only read-only data
 - Interactive modals require a user response, either to a procedural option or to further define data on the underlying page with additional entry
+
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/

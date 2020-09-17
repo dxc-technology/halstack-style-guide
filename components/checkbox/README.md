@@ -35,10 +35,6 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 *There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the checkbox is unselected. The color will be the same for both scenarios.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/specs/
-
 ## Design Specifications
 
 Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
@@ -80,3 +76,8 @@ The last property that the checkbox can get is the required attribute that would
 The representation of a required checkbox is a colored asterisk right before the checkbox label.
 
  ![Checkbox design required field](images/checkbox_required.png)
+
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/

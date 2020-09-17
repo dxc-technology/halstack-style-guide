@@ -59,10 +59,6 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 
 The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7965bd24-3ef3-427d-92de-0d2aac880402/specs/
-
 
 ### Design Specifications
 
@@ -118,3 +114,7 @@ The majority of the specifications are the same as in Angular Material datepicke
 | Font size          | `13px` |
 
 ![Date specifications for picker](images/date_picker_specs.png)
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7965bd24-3ef3-427d-92de-0d2aac880402/

@@ -37,10 +37,6 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 *Once the value for the color is set, it will apply to all the tokens with the same color.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/specs/
-
 ## Design Specifications
 
 The design specifications for slider are defining in the table below.
@@ -73,3 +69,7 @@ The design specifications for slider are defining in the table below.
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
 ![Slider variation for special cases](images/slider_special.png)
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/

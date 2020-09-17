@@ -32,10 +32,6 @@ The only state that is controlled in the card component is the hover. As it is n
 
 As the Card component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/
-
 ## Design Specifications
 
 | Property           | Value|
@@ -60,3 +56,7 @@ https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/cca4b
 
 - Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
 - If a collection want be create, won't use different card styles, use the same to keep consistency
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/

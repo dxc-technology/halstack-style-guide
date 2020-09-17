@@ -95,3 +95,7 @@ Also, the labeling of each tag could varies, including icons, label or a combina
 - Tabs should look and behave like tabs.
 - The active tab includes a background color to indicate focus. This may vary depending on color theme of the design.
 - Center the text vertically and horizontally on the tabs.
+
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/87d86792-74b6-4cc0-8806-e5b5302af2f8/

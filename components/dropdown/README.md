@@ -48,10 +48,6 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 
-## DXC Technology theme
-
-https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/
-
 ## Design Specifications
 
 | Property for dropdown (hidden)  | Value |
@@ -90,4 +86,7 @@ It is allowed the use of icons within the dropdown component. There are several 
 - For a large number of well specified options, consider to use an autocomplete field to filter the amount of options while typing.
 - Consider the input, might be that a text input would fit better than a dropdown.
 
+## Links and references
+
+- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/
 
