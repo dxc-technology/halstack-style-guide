@@ -20,8 +20,6 @@ Modes: __determinate__, __indeterminated__, and __simplified__.
 
 ![Alert mode for normal progress bar](images/progressbar_mode.png)
 
-![Simplified mode for the progress bar](images/progressbar_simplified.png)
-
 ### States
 
 Three different states can be defined, but in this case, they are not related to the interaction of the user. 

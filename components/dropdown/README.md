@@ -22,9 +22,7 @@ If there is a special case when the dropdown couldn't be displayed below the sel
 
 ### Modes
 
-Two modes are defined for each theme.
-
-Modes: __basic__ and __outlined__.
+There is a __default__ mode for the dropdown component.
 
 ![Dropdown modes](images/dropdown_modes.png)
 
@@ -78,7 +76,6 @@ The dropdown itself cannot be configured, the component only allows the configur
 It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
 
 ![Icon usage](images/dropdown_iconusage.png)
-![Icon specifications](images/dropdown_iconspecs.png)
 
 ## User Interface Design Considerations
 

@@ -48,18 +48,6 @@ Circular type
 | Font weight        | `Regular` |
 
 
-Linear type
-
-| Property           | Value|
-|--------------------|------:|
-| Min. Width         | `685px`|
-| Max. Width         | `80%`|
-| Height             | `9px` |
-| Border radius      | `50%` |
-| Font size          | `12px` |
-| Font weight        | `Regular` |
-| Space text and bar | `8px` |
-
 ![Spinner specifications for circular mode](images/spinner_specs.png)
 
 Overlay
