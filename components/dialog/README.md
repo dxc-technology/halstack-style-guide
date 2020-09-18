@@ -122,12 +122,8 @@ To accomplish a responsive version of the dialog in different devices, it was de
 
 For that, the design system takes some considerations for the use of dialog component in tablet, phone and the variations of multiline content.
 
-
-![Dialog design for tablet](images/dialog_tablet_portrait.png)
-
 ![Dialog design for phone](images/dialog_phone.png)
 
-![Dialog design allowing multiple lines in the header](images/dialog_phone_multiple.png)
 
 ### Combining with other UI elements
 

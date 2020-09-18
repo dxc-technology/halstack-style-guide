@@ -59,7 +59,7 @@ The both actions that alert will get are the one that for some reason appears in
 | ------------- |:-------------:| -------------:|
 | overlay       | `false`     | `black 0.80 opacity`  |
 
-The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.
+The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.    
 
 ## Design Specifications
 
