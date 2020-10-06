@@ -1,2 +1,2 @@
-# style-guide
-Diaas Style Guide. Contains Xd, md and scss files 
+# Diaas Style Guide site 
+site: https://developer.dxc.com/design/principles
