@@ -58,6 +58,8 @@ In any case, in this document, it will be shown the main states that the compone
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
+| logo          | `true`        | `DXC Technology(white)` |
+| logoResponsive| `true`        | `DXC Technology(black)` |
 | backgroundColor | `true` | `black` |
 | underlinedColor | `true`     | `black`  |
 | textColor     | `true`     | `white`  |
