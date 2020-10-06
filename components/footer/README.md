@@ -30,7 +30,8 @@ In case that the user of the design systems wanted to add other components in th
 ## Theming and tokens
 
 | Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
+| ------------- |:-------------:| -------------:|
+| logo          | `true`        | `DXC Technology(white)` |
 | backgroundColor      | `true` | `black`|
 | textColor      | `true` | `white`  |
 | lineColor | `true`     | `yellow`  |
