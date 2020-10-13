@@ -29,16 +29,16 @@ Seven states are defined for select component based on the interactions that the
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
-| selectedValueColor | `false` | `black`|
-| labelColor   | `false` | `black`  |
-| underlinedColor    | `false` | `black`  |
-| assistiveTextColor      | `false`| `black`  |
-| optionTextColor | `false` | `black`  |
-| hoverOptionTextColor    | `false`| `black`  |
+| selectedValueColor | `false` | `#000000`|
+| labelColor   | `false` | `#000000`  |
+| underlinedColor    | `false` | `#000000`  |
+| assistiveTextColor      | `false`| `#000000`  |
+| optionTextColor | `false` | `#000000`  |
+| hoverOptionTextColor    | `false`| `#000000`  |
 | selectedOptionBackgroundColor   | `true`| `#666666`  |
-| selectedOptionTextColor      | `false`| `black`  |
+| selectedOptionTextColor      | `false`| `#000000`  |
 | hoverOptionBackgroundColor   | `false`| `0.34 opacity`  |
-| error         | `false`| `D0011B`  |
+| error         | `false`| `#D0011B`  |
 
 ## Multiple selection
 
