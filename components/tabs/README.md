@@ -31,9 +31,9 @@ States: __normal__, __focus__, __hover__ and __disabled__.
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| selectedBackgroundColor      | `true` | `black` |
-| selectedUnderlinedColor | `true` | `yellow/black`  |
-| selectedColor | `true`        | `white/black`  |
+| selectedBackgroundColor      | `true` | `#6F2C91` |
+| selectedUnderlinedColor | `true` | `#6F2C91/#000000`  |
+| selectedColor | `true`        | `#FFFFFF/#000000`  |
 | backgroundColor | `false`     | `0.34 opacity`  |
 | underlinedColor | `false`     | `transparent/#D9D9D9`  |
 | textColor     | `true`        | `0.64 opacity` |

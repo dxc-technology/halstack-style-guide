@@ -32,7 +32,7 @@ In case that a previous step was visited before to jump to a new one, another lo
 When the steps are disabled, there will be an intermediate state representation with a grey scale.
 
 
-States: __default__, __selected__, and __disabled__.
+States: __selected__, __default__ and __disabled__.
 
 ![States of the wizard in the different interactions](images/wizard_states.png)
 
@@ -47,10 +47,10 @@ For that case, a validation mark can be represented in every step once the user 
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| selectedBackgroundColor    | `true` | `yellow` |
-| selectedText    | `true` | `black` |
-| borderColor    | `true` | `black` |
-| textColor    | `false` | `black/inherit` |
+| selectedBackgroundColor    | `true` | `#6F2C91` |
+| selectedText    | `true` | `#000000` |
+| borderColor    | `true` | `#000000` |
+| textColor    | `false` | `#000000/inherit` |
 | lineColor    | `false` | `#D9D9D9` |
 | disabledBackground    | `false` | `#EEEEEE` |
 | disabledText   | `false` | `0.34 opacity` |
