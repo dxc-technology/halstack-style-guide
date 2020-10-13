@@ -34,11 +34,11 @@ These states corresponding with the progress of the process in the application.
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| trackLine       | `true`     | `yellow`  |
-| totalLine       | `true`     | `black`  |
-| textColor       | `true`     | `black/inherit`  |
+| trackLine       | `true`     | `#6F2C91`  |
+| totalLine       | `true`     | `#000000`  |
+| textColor       | `true`     | `#000000/inherit`  |
 | totalLineOpacity       | `false`     | `0.34 opacity`  |
-| overlay       | `false`     | `black 0.80 opacity`  |
+| overlay       | `false`     | `#000000 0.80 opacity`  |
 
 ## Design Specifications
 

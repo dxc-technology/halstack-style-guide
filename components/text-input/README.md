@@ -24,11 +24,11 @@ The states for text input are: __normal__, __focused__, __selected__, __value en
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| textColor     | `false` | `black` |
-| labelColor    | `false`     | `black`  |
+| textColor     | `false` | `#000000` |
+| labelColor    | `false`     | `#000000`  |
 | placeholderColor | `false`     | `#EEEEEE`  |
-| underlinedColor | `false`     | `black`  |
-| assistiveTextColor | `false`     | `black`  |
+| underlinedColor | `false`     | `#000000`  |
+| assistiveTextColor | `false`     | `#000000`  |
 | disabled | `false`     | `0.34 opacity`  |
 | error | `false`     | `#D0011B`  |
 

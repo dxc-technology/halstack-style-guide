@@ -52,11 +52,7 @@ Cannot be possible to configure or customize any parameter of the component to a
 
 ## Design Specifications
 
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the next adobe cloud link.
-
-Multifile version: https://xd.adobe.com/spec/95f3b9b7-89dd-49bf-4732-8f6c2459f9df-e3c2/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/Upload
-
-Single version: https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/f67eb530-b374-4d13-a1d8-ba4c1fba2e74/specs/
+Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the adobe cloud link in the Links and references section.
 
 ### Responsive design
 

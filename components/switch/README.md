@@ -32,8 +32,8 @@ Five different states are defined in the life cycle of the component: __normal__
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | checkedTrackBackgroundColor      | `true` | `#666666` |
-| checkedthumbBackgroundColor | `false`     | `white`  |
-| uncheckedthumbBackgroundColor | `false`     | `white`  |
+| checkedthumbBackgroundColor | `false`     | `#FFFFFF`  |
+| uncheckedthumbBackgroundColor | `false`     | `#FFFFFF`  |
 | uncheckedtrackBackgroundColor | `false`     | `#D9D9D9`  |
 | disabled | `false`     | `0.34 opacity`  |
 

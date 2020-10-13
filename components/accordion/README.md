@@ -26,9 +26,9 @@ States: __normal__, __hover__, __disabled__, __open__.
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| backgroundColor | `false`     | `white`  |
+| backgroundColor | `false`     | `#FFFFFF`  |
 | textColor | `false`     | `#666666`  |
-| hoverTextColor | `false`     | `black`  |
+| hoverTextColor | `false`     | `#000000`  |
 | arrowColor | `true`     | `#666666`  |
 | hoverBackgroundColor | `false`     | `0.34 opacity`  |
 | disabled | `false`     | `0.34 opacity`  |

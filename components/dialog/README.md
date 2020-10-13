@@ -56,8 +56,8 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| overlay       | `false`     | `black 0.80 opacity`  |
-| backgroundColor       | `false`     | `white`  |
+| overlay       | `false`     | `#000000 0.80 opacity`  |
+| backgroundColor       | `false`     | `#FFFFFF`  |
 
 
 ## Design Specifications

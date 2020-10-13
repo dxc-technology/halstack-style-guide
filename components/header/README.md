@@ -47,11 +47,6 @@ In any case, in this document, it will be shown the main states that the compone
     Login options
 ![Header hover state](images/header_account_dropdown_state.png)
 
-    Settings with user logged
-![Header hover state](images/header_settings_dropdown_state.png)
-
-    Services with user logged
-![Header hover state](images/header_services_dropdown_state.png)
 
 
 ## Theming and tokens
@@ -60,13 +55,13 @@ In any case, in this document, it will be shown the main states that the compone
 | ------------- |:-------------:| -------------:|
 | logo          | `true`        | `DXC Technology(white)` |
 | logoResponsive| `true`        | `DXC Technology(black)` |
-| backgroundColor | `true` | `black` |
-| underlinedColor | `true`     | `black`  |
-| textColor     | `true`     | `white`  |
+| backgroundColor | `true` | `#000000` |
+| underlinedColor | `true`     | `#000000`  |
+| textColor     | `true`     | `#FFFFFF`  |
 | backgroundColorMenu | `true`     | `#D9D9D9`  |
-| textColorMenu | `true`     | `black`  |
-| hamburguerColor | `true`     | `white`  |
-| overlay | `false`     | `black 0.70 opacity`  |
+| textColorMenu | `true`     | `#000000`  |
+| hamburguerColor | `true`     | `#FFFFFF`  |
+| overlay | `false`     | `#000000 0.70 opacity`  |
 
 ## Design Specifications
 
@@ -85,15 +80,6 @@ Design specifications for main structure:
 
 ![Header specifications](images/header_design_specifications.png)
 
-Design specifications for items:
-
-| Property           | Value|
-|--------------------|------:|
-| Icon size | `22x22px` |
-| Distance between flag icon and caret | `12px` |
-| Distance between account icon and username | `10px` |
-
-![Header specifications for items](images/header_design_specs_basic.png)
 
 Design specifications for items:
 
@@ -109,7 +95,8 @@ Design specifications for items:
 | Distance between icons with sublabels | `40px` |
 | Distance between icons with sublabels to underline | `10px` |
 
-![Header specifications for underlined option](images/header_specs_underlined.png)
+![Header specifications for items](images/header_design_specs_basic.png)
+
 
 ## Icon usage and types of dropdown elements
 

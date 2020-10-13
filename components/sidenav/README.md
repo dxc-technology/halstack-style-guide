@@ -35,7 +35,7 @@ The main difference in the static mode is that the arrow is removed from the com
 | ------------- |:-------------:| -------------:|
 | backgroundColor | `true`     | `#F8F8F8`  |
 | arrowContainerColor | `true`     | `#D9D9D9`  |
-| arrowColor | `true`     | `black`  |
+| arrowColor | `true`     | `#000000`  |
 | arrowContainerOpacity | `false`     | `0.80 opacity`  |
 
 

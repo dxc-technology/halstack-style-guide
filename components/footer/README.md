@@ -32,9 +32,9 @@ In case that the user of the design systems wanted to add other components in th
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | logo          | `true`        | `DXC Technology(white)` |
-| backgroundColor      | `true` | `black`|
-| textColor      | `true` | `white`  |
-| lineColor | `true`     | `yellow`  |
+| backgroundColor      | `true` | `#000000`|
+| textColor      | `true` | `#000000`  |
+| lineColor | `true`     | `#0067B3`  |
 
 ## Design Specifications
 
@@ -63,8 +63,6 @@ In the case that the user wants to add elements that aren't text with a link, th
 
 A representation is shown above:
 ![Footer with button and label as custom content](images/footer_custom_1.png)
-![Footer with a map as custom content](images/footer_custom_2.png)
-![Complete footer with a custom content](images/footer_custom_3.png)
 
 ## Responsive version for mobile and tablet
 

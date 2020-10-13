@@ -52,7 +52,7 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 | pickerBackgroundColor | `false`     | `#FFFFFF`  |
 | pickerTextColor | `false`     | `#000000`  |
 | pickerActualDate | `false`     | `#EEEEEE`  |
-| pickerSelectedDateBackgroundColor | `true`     | `black`  |
+| pickerSelectedDateBackgroundColor | `true`     | `#000000`  |
 | pickerSelectedDateColor | `true`     | `#6F2C91`  |
 | pickerHoverDateBackgroundColor | `false`     | `0.34 opacity`  |
 | pickerHoverDateTextColor | `false`     | `#000000`  |

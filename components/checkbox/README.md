@@ -19,7 +19,7 @@ Modes: __selected__ or __unselected__.
 
 ### States
 
-Five different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__ and __pressed__.
+Five different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__ and __focused__.
 
 ![Checkbox states](images/checkbox_states.png)
 

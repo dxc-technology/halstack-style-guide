@@ -36,10 +36,10 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| backgroundColor       | `true`     | `white`  |
-| dropdownBackgroundColor       | `false`     | `white`  |
-| textColor       | `true`     | `black`  |
-| dropdownTextColor       | `false`     | `black`  |
+| backgroundColor       | `true`     | `#FFFFFF`  |
+| dropdownBackgroundColor       | `false`     | `#FFFFFF`  |
+| textColor       | `true`     | `#000000`  |
+| dropdownTextColor       | `false`     | `#000000`  |
 | hoverBackgroundOption       | `false`     | `0.34 opacity`  |
 | hoverBackgroundColor       | `true`     | `0.80 opacity`  |
 | disabled       | `true`     | `0.34 opacity`  |

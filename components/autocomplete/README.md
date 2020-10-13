@@ -38,10 +38,10 @@ States: __searching__, __no results__ and __action error__.
 | ------------- |:-------------:| -------------:|
 | selectedOptionBackgroundColor | `true`     | `#D9D9D9`  |
 | hoverOptionBakcgroundColor | `false`     | `0.34 opacity`  |
-| hoverOptionColor | `false`     | `black`  |
+| hoverOptionColor | `false`     | `#000000`  |
 | disabled | `false`     | `0.34 opacity`  |
-| optionText | `false`     | `black`  |
-| error | `false`     | `D0011B`  |
+| optionText | `false`     | `#000000`  |
+| error | `false`     | `#D0011B`  |
 
 The other attributes of the autocomplete component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 

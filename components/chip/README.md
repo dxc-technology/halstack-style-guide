@@ -20,7 +20,7 @@ The only state that the design system specifies for the chip component is the ho
 | ------------- |:-------------:| -------------:| 
 | backgroundColor      | `true` | `#EEEEEE`|
 | outlinedColor      | `true` | `-`|
-| textColor      | `true` | `black`  |
+| textColor      | `true` | `#000000`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
 
 ## Design Specifications

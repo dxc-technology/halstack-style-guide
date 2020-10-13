@@ -56,13 +56,13 @@ States of the table are defined as follow:
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| headerBackgroundColor       | `true`     | `black`  |
-| headerTextColor      | `true`     | `white/inherit`  |
+| headerBackgroundColor       | `true`     | `#000000`  |
+| headerTextColor      | `true`     | `#FFFFFF/inherit`  |
 | separatorColor       | `false`     | `#D9D9D9`  |
 | paginatorBackgroundColor       | `true`     | `#EEEEEE`  |
-| paginatorTextColor       | `true`     | `black`  |
-| bodyBackgroundColor       | `false`     | `white`  |
-| bodyTextColor       | `false`     | `black`  |
+| paginatorTextColor       | `true`     | `#000000`  |
+| bodyBackgroundColor       | `false`     | `#FFFFFF`  |
+| bodyTextColor       | `false`     | `#000000`  |
 
 ## Design Specifications
 
