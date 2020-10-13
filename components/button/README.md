@@ -38,32 +38,32 @@ These are the tokens that are defined for the component:
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:| 
-| backgroundColor      | `true` | `yellow`|
-| textColor      | `true` | `black`  |
+| backgroundColor      | `true` | `#6F2C91`|
+| textColor      | `true` | `#FFFFFF`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `black`  |
-| hoverTextColor | `true`     | `yellow`  |
+| hoverBackgroundColor | `true`     | `#000000`  |
+| hoverTextColor | `true`     | `#FFFFFF`  |
 
 #### Secondary button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | backgroundColor      | `false` | `transparent` |
-| outlinedColor      | `true` | `yellow`  |
-| textColor | `true`     | `black`  |
+| outlinedColor      | `true` | `#6F2C91`  |
+| textColor | `true`     | `#000000`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverOutlinedColor | `true`     | `black`  |
-| hoverTextColor | `true`     | `black`  |
+| hoverOutlinedColor | `true`     | `#000000`  |
+| hoverTextColor | `true`     | `#000000`  |
 
 #### Text button
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
 | backgroundColor      | `false` | `transparent` |
-| textColor | `true`     | `black`  |
+| textColor | `true`     | `#6F2C91`  |
 | disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `black`  |
-| hoverTextColor | `true`     | `black`  |
+| hoverBackgroundColor | `true`     | `#000000`  |
+| hoverTextColor | `true`     | `#000000`  |
 
 ## Design Specifications
 
