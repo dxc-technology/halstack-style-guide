@@ -49,13 +49,13 @@ Different feedback and outcomes happen when the calendar pop-up is used. To see 
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| pickerBackgroundColor | `false`     | `white`  |
-| pickerTextColor | `false`     | `black`  |
+| pickerBackgroundColor | `false`     | `#FFFFFF`  |
+| pickerTextColor | `false`     | `#000000`  |
 | pickerActualDate | `false`     | `#EEEEEE`  |
 | pickerSelectedDateBackgroundColor | `true`     | `black`  |
-| pickerSelectedDateColor | `true`     | `yellow`  |
+| pickerSelectedDateColor | `true`     | `#6F2C91`  |
 | pickerHoverDateBackgroundColor | `false`     | `0.34 opacity`  |
-| pickerHoverDateTextColor | `false`     | `black`  |
+| pickerHoverDateTextColor | `false`     | `#000000`  |
 
 The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
