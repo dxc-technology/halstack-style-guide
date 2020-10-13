@@ -29,9 +29,9 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 | Tokens        | Themable      | Default value |
 | ------------- |:-------------:| -------------:|
-| *thumbBackgroundColor      | `true` | `black` |
-| *dotsBackgroundColor | `true`     | `black`  |
-| *trackline | `true`     | `black`  |
+| *thumbBackgroundColor      | `true` | `#0067B3` |
+| *dotsBackgroundColor | `true`     | `#0067B3`  |
+| *trackline | `true`     | `#0067B3`  |
 | totalline | `false`     | `0.34 opacity`  |
 | disabled | `false`     | `0.34 opacity`  |
 
