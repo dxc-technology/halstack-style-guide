@@ -30,27 +30,7 @@ Modes: **basic**.
 
 Some other components defined in the design system are used in the table component as the checkbox or dropdown. For concrete specifications about states, please, consider to see the documentation of each component.
 
-States of the table are defined as follow:
-
-    Normal State
-
-![Table Normal State](images/table_mode_normal.png)
-
-    Hover State
-
-![Table hover state](images/table_mode_hover.png)
-
-    Multiselect selection State
-
-![Table multiselect state](images/table_mode_multiselection.png)
-
-    Dropdown configuration State
-
-![Table dropdown configuration state](images/table_mode_dropdown.png)
-
-    Inline filtering State
-
-![Table inline filtering variation](images/table_mode_inline.png)
+Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
 
 ## Theming
 
@@ -108,7 +88,7 @@ Filter specifications
 | Filter tag width       | `Adapt content` |
 | Font size              |          `14px` |
 
-![Table specifications](images/table_specs_header.png)
+![Table specifications](images/table_specs.png)
 
 ## Responsive version for mobile and tablet
 

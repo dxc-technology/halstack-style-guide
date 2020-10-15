@@ -64,8 +64,6 @@ The representation of the component for mobile and tablet can follow the same vi
 
 Also, the labeling of each tag could varies, including icons, label or a combination of them. Another visual clue for a better feedback is included in this case, using a rounded circle to indicates which tab is selected apart from color intensity and highlight elements.
 
-![Tabs design for mobile (part 1)](images/tabs_mode_1.png)
-![Tabs design for mobile (part 2)](images/tabs_mode_2.png)
 
 | Property           | Value|
 |--------------------|------:|
@@ -80,12 +78,6 @@ Also, the labeling of each tag could varies, including icons, label or a combina
 | Distance dot to bottom | `4px` |
 | Space icon/text | `8px` |
 | Space text/bottom | `12px` |
-
-![Tabs design specification mobile (part 1)](images/tabs_specs_mobile.png)
-
-![Tabs design specification mobile (part 2)](images/tabs_specs_mobile_2.png)
-
-![Tabs design specification mobile (part 3)](images/tabs_specs_mobile_3.png)
 
 
 ## User Interface Design Considerations

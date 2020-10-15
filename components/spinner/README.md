@@ -17,6 +17,7 @@ There are three different modes for the spinner component due to the size or the
 The tiny mode has never a label associated, while the default and overlay values can have a paired label.
 
 ![Spinner circular mode](images/spinner_modes.png)
+![Spinner tiny mode](images/spinner_mode_tiny.png)
 
 ### States
 
