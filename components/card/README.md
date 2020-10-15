@@ -12,9 +12,7 @@ Even a card is defined as a unit by itself, it is common to represent cards in a
 
 ### Modes
 
-There are three modes, so it can be called as __light__, __medium__ and __dark__ modes.
-
-In conmbination with these modes it can be added a variation to have the box outlined. With the property __outlined__ a border in the card will be rendered instead of the shadow. 
+The card component doesn't have modes, instead the component has many ways of configuration with images, custom containers and background colors to adapt it to the needs of the UI.
 
 ![Card modes](images/card_modes.png)
 
@@ -49,7 +47,7 @@ As the Card component is using the Box to be build, the values for the backgroun
 | Space actions to photo  | `20px` |
 
 
-![Card specifications](images/card_specs_2.png)
+![Card specifications](images/card_specs.png)
 
 
 ### User Interface Design Considerations
