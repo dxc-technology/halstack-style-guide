@@ -79,6 +79,14 @@ Also, the labeling of each tag could varies, including icons, label or a combina
 | Space icon/text | `8px` |
 | Space text/bottom | `12px` |
 
+## Tabbed section
+
+An alternative use of the tab component when all the information is rendered in a single page application and the content is divided into different sections is to use a functional variation that instead of having one section mapped with one step, there is only one section linked with several tabs as anchor points.
+
+Interacting with the tabs makes the content scrolls to the point that is associated with that specific tab, while the tabs keep fixed at the top of the interface, making it easy to transfer from one point of the section to another.
+
+This version of the component is very useful when there is a lot of information on a single page, or even when there are different areas of information related to the same topic.
+
 
 ## User Interface Design Considerations
 
