@@ -62,6 +62,8 @@ In any case, in this document, it will be shown the main states that the compone
 | textColorMenu | `true`     | `#000000`  |
 | hamburguerColor | `true`     | `#FFFFFF`  |
 | overlay | `false`     | `#000000 0.70 opacity`  |
+| subheaderBgColor | `true`     | `#000000`  |
+| subheaderColor | `true`     | `#FFFFFF`  |
 
 ## Design Specifications
 
@@ -70,7 +72,7 @@ Design specifications for main structure:
 | Property           | Value|
 |--------------------|------:|
 | Padding right | `60px` |
-| Padding left | `20px` |
+| Padding left | `36px` |
 | Padding top/bottom | `15px` |
 | Height | `64px` |
 | Min. width| `1024px` |
@@ -96,6 +98,30 @@ Design specifications for items:
 | Distance between icons with sublabels to underline | `10px` |
 
 ![Header specifications for items](images/header_design_specs_basic.png)
+
+
+## Subheader
+
+A slight variation in the standard header is the addition of a
+subheader component that can work as a place to indicate the title of the application or page, allocate breadcrumbs or position the 'go back' action in case the user already navigates within the applications to return to the previous screen.
+
+It is an alternative to show actions or information which are relevant to the user because it needs to appear at the top of the screen to be easily accessible and fit in the hierarchy of the page layout.
+
+Some attributes of the section can be customized, like the background color of the area or the text color of the content inside it. This customization can be done through the tokens associated with the header component.
+
+![Subheader specification for the header](images/header_subheader.png)
+
+Design specification of the subheader:
+
+| Property           | Value|
+|--------------------|------:|
+| Height | `64px` |
+| Width | `same as header` |
+| Padding left | `36px` |
+| Padding right | `36px` |
+| Padding top/bottom | `16px` |
+| Font size | `20px` |
+| Font weight | `regular` |
 
 
 ## Icon usage and types of dropdown elements
