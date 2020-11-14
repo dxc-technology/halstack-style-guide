@@ -1,10 +1,10 @@
 ## Overview
 
-All web-based product applications are expected to incorporate the same design,display and transition standards for message type. Mobile apps will follow guidelines specific to those devices.
+All web-based product applications are expected to feature the same design and transition standards for message types. Mobile apps will follow guidelines specific to those devices.
 
 ## Appereance
 
-The appereance of the alert is condicioned based on the type of alert that the applications wants to show to the user and the type of mode that is choosen for represent it. Starting with the type of alert in the DXC Design System are defined the following categories:
+The appearance of the alert is conditioned based on the type of alert that the applications wants to show to the user and the type of mode that is chosen to represent it. Starting with the type of alert, in Halstack Design System we have defined the following categories:
 
 *Information*
 
