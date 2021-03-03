@@ -15,7 +15,7 @@
 
 ## 📐 UI-Kit
 
-Download [here](https://github.com/dxc-technology/halstack-style-guide/raw/Release-2.1/ui-kit/UI%20Kit-Halstack_v2.1.1-beta.xd) our latest UI kit for Adobe XD
+Download [here](https://github.com/dxc-technology/halstack-style-guide/raw/release-2.1/ui-kit/UI%20Kit-Halstack_v2.1.1-beta.xd) our latest UI kit for Adobe XD
 
 ## :books: Documentation
 
