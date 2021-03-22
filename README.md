@@ -8,10 +8,10 @@
   Halstack Design System
 </h1>
 
-> Halstack Design System is a set of visual principles, guidelines, 
-> and tools aimed at helping designers and developers to build visually 
-> consistent and compelling API-driven User Experiences that adhere 
-> to our unique branded visual identity. 
+Halstack Design System is a set of visual principles, guidelines, 
+and tools aimed at helping designers and developers to build visually 
+consistent and compelling API-driven User Experiences that adhere 
+to our unique branded visual identity. 
 
 ## 📐 UI-Kit
 
