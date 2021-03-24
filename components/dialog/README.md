@@ -54,10 +54,12 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| overlay       | `false`     | `#000000 0.80 opacity`  |
-| backgroundColor       | `false`     | `#FFFFFF`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| overlayColor       | `#000000 0.80 opacity`  |
+| backgroundColor       | `#FFFFFF`  |
+| scrollBarThumbColor       | `#666666`  |
+| scrollBarTrackColor       | `#D9D9D9`  |
 
 
 ## Design Specifications

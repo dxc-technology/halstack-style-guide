@@ -51,19 +51,19 @@ In any case, in this document, it will be shown the main states that the compone
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
+| Tokens        | Default value |
 | ------------- |:-------------:| -------------:|
-| logo          | `true`        | `DXC Technology` |
-| logoResponsive| `true`        | `DXC Technology` |
-| backgroundColor | `true` | `#000000` |
-| underlinedColor | `true`     | `#000000`  |
-| textColor     | `true`     | `#FFFFFF`  |
-| backgroundColorMenu | `true`     | `#D9D9D9`  |
-| textColorMenu | `true`     | `#000000`  |
-| hamburguerColor | `true`     | `#FFFFFF`  |
-| overlay | `false`     | `#000000 0.70 opacity`  |
-| subheaderBgColor | `true`     | `#000000`  |
-| subheaderColor | `true`     | `#FFFFFF`  |
+| backgroundColor | `#ffffff` |
+| underlinedColor | `#000000`  |
+| fontColor     | `#000000`  |
+| backgroundColorMenu | `#ffffff`  |
+| fontColorMenu | `#000000`  |
+| hamburguerColor | `#000000`  |
+| hoverHamburguerColor | `#dbdbdb`  |
+| overlayColor | `#565656`  |
+| focusColor | `#005FCC`  |
+| logo          | `DXC Technology` |
+| logoResponsive| `DXC Technology` |
 
 ## Design Specifications
 

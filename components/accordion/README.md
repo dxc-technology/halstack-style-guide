@@ -24,14 +24,14 @@ States: __normal__, __hover__, __disabled__, __open__.
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor | `false`     | `#FFFFFF`  |
-| textColor | `false`     | `#666666`  |
-| hoverTextColor | `false`     | `#000000`  |
-| arrowColor | `true`     | `#666666`  |
-| hoverBackgroundColor | `false`     | `0.34 opacity`  |
-| disabled | `false`     | `0.34 opacity`  |
+| Tokens        | Default value |
+| ------------- |:-------------:| 
+| backgroundColor |  `#FFFFFF`  |
+| arrowColor |  `#666666`  |
+| hoverTextColor |  `#000000`  |
+| arrowColor |  `#666666`  |
+| hoverBackgroundColor |  `0.34 opacity`  |
+| disabled |  `0.34 opacity`  |
 
 The hover background color for the trigger of the accordion is calculated from the color defined for the arrow icon.
 

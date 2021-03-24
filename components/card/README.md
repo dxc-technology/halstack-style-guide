@@ -24,9 +24,9 @@ The only state that is controlled in the card component is the hover. As it is n
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor    | `false` | `#FFFFFF` |
+| Tokens        |  Default value |
+| ------------- | -------------:|
+| backgroundColor    | `#FFFFFF` |
 
 As the Card component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 

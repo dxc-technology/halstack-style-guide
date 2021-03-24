@@ -55,9 +55,14 @@ The both actions that alert will get are the one that for some reason appears in
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| overlay       | `false`     | `black 0.80 opacity`  |
+| Tokens        |  Default value |
+| ------------- | -------------:|
+| overlayColor       |  `black 0.80 opacity`  |
+| infoColor       |  `#CEE0F5`  |
+| confirmColor       |  `#DBF1C4`  |
+| warningColor       |  `#FCF2BD`  |
+| errorColor       |  `#F9CFCF`  |
+| focusColor       |  `#005FCC`  |
 
 The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.    
 

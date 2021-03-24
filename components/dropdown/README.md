@@ -34,15 +34,17 @@ Six different states for the dropdown elememts: __default__, __dropdown displaye
 
 ### Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor       | `true`     | `#FFFFFF`  |
-| dropdownBackgroundColor       | `false`     | `#FFFFFF`  |
-| textColor       | `true`     | `#000000`  |
-| dropdownTextColor       | `false`     | `#000000`  |
-| hoverBackgroundOption       | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor       | `true`     | `0.80 opacity`  |
-| disabled       | `true`     | `0.34 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| backgroundColor       | `#FFFFFF`  |
+| fontColor       |  `#000000`  |
+| dropdownBackgroundColor       |  `#FFFFFF`  |
+| dropdownFontColor       |  `#000000`  |
+| hoverBackgroundOption       | `#ffffff`  |
+| hoverBackgroundColor       | `#ffffff`  |
+| scrollBarThumbColor       | `#666666`  |
+| scrollBarTrackColor       | `#D9D9D9`  |
+| focusColor | `#005FCC`  |
 
 The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 

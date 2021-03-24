@@ -31,12 +31,11 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor | `true`     | `#F8F8F8`  |
-| arrowContainerColor | `true`     | `#D9D9D9`  |
-| arrowColor | `true`     | `#000000`  |
-| arrowContainerOpacity | `false`     | `0.80 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| backgroundColor | `#F8F8F8`  |
+| arrowContainerColor | `#D9D9D9`  |
+| arrowColor | `#000000`  |
 
 
 ## Design Specifications
