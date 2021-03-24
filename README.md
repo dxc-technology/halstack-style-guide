@@ -18,18 +18,23 @@ We have our components available for the following technologies:
 - [Angular](https://github.com/dxc-technology/halstack-angular)
 - [React](https://github.com/dxc-technology/halstack-react)
 
+## Getting started
+
+- The UI-Kit requires having the latest version of XD installed.
+- Download the latest version of the Halstack UI-Kit from [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/ui-kit).
+- Use the components and core visual styles to build out your design.
 
 ## UI-Kit
 
 We are currently working in an Adobe Creative Cloud (CC) public library. Until it is finished download the file and use it as a sticker sheet.
 
-Download [here](https://github.com/dxc-technology/halstack-style-guide/raw/release-2.1/ui-kit/UI%20Kit-Halstack_v2.1.1-beta.xd) our latest UI kit for Adobe XD
+The font family used in Halstack UI-Kit is Open Sans. This font is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) and free to download from [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom).
 
-The font family used in Halstack UI-Kit is Open Sans. This font is licensed under the [Apache License, Version 2.0.](http://www.apache.org/licenses/LICENSE-2.0) and free to download from [here](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom)
+Previous releases of the Halstack UI-Kit can be found [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/previous-releases)
 
 ## Documentation
 
-- See our documentation site [here](https://developer.dxc.com/design/principles) for full how-to docs and guidelines
+- See our [documentation site](https://developer.dxc.com/design/principles) for full how-to docs and guidelines
 - [Contributing](CONTRIBUTING.md): Guidelines for making contributions
   to this repo.
 
@@ -39,4 +44,4 @@ The font family used in Halstack UI-Kit is Open Sans. This font is licensed unde
 
 We're looking for contributors to help us find bugs, design new features,
 or help us improve the project documentation. If you're interested, definitely
-check out our [Contributing Guide](CONTRIBUTING.md)
+check out our [Contributing Guide](CONTRIBUTING.md).
