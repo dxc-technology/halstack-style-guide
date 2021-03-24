@@ -13,6 +13,11 @@ and tools aimed at helping designers and developers to build visually
 consistent and compelling API-driven User Experiences that adhere 
 to our unique branded visual identity. 
 
+We have our components available for the following technologies:
+
+- [Angular](https://github.com/dxc-technology/halstack-angular)
+- [React](https://github.com/dxc-technology/halstack-react)
+
 ## 📐 UI-Kit
 
 Download [here](https://github.com/dxc-technology/halstack-style-guide/raw/release-2.1/ui-kit/UI%20Kit-Halstack_v2.1.1-beta.xd) our latest UI kit for Adobe XD
