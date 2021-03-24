@@ -32,13 +32,12 @@ These states corresponding with the progress of the process in the application.
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| trackLine       | `true`     | `#6F2C91`  |
-| totalLine       | `true`     | `#000000`  |
-| textColor       | `true`     | `#000000/inherit`  |
-| totalLineOpacity       | `false`     | `0.34 opacity`  |
-| overlay       | `false`     | `#000000 0.80 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| trackLine       | `#6F2C91`  |
+| totalLine       | `#cecece`  |
+| fontColor       | `inherit`  |
+| overlayColor       | `#000000 0.80 opacity`  |
 
 ## Design Specifications
 

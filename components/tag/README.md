@@ -20,9 +20,9 @@ Also, this component is static, which means that there is only one difference be
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor    | `false` | `#FFFFFF` |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| backgroundColor    | `#FFFFFF` |
 
 As the Tag component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 The only way to customize the visuals of the tag component is using his own props for a specific background area.

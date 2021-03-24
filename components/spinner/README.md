@@ -26,12 +26,12 @@ As it is auto-management, for now, states are not contemplated.
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| trackLine       | `true`     | `yellow`  |
-| totalCircle      | `true`     | `white`  |
-| textColor       | `false`     | `black/inherit`  |
-| overlay       | `false`     | `black 0.80 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| trackCircleColor       | `#6f2c91`  |
+| totalCircleColor      | `#ffffff`  |
+| fontColor       | `inherit`  |
+| overlayColor       | `#000000`  |
 
 *In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
 

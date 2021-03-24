@@ -27,15 +27,17 @@ Seven different states are defined in the life cycle of the component: __enabled
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| *thumbBackgroundColor      | `true` | `#0067B3` |
-| *dotsBackgroundColor | `true`     | `#0067B3`  |
-| *trackline | `true`     | `#0067B3`  |
-| totalline | `false`     | `0.34 opacity`  |
-| disabled | `false`     | `0.34 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| thumbBackgroundColor      | `#0067B3` |
+| dotsBackgroundColor | `#0067B3`  |
+| trackline | `#0067B3`  |
+| totalline | `#b1cee6`  |
+| disabledThumbBackgroundColor | `#b1cee6`  |
+| disabledDotsBackgroundColor | `#b1cee6`  |
+| disabledTrackLine | `#b1cee6`  |
+| focusColor | `#005FCC`  |
 
-*Once the value for the color is set, it will apply to all the tokens with the same color.
 
 ## Design Specifications
 

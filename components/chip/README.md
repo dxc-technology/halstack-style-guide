@@ -16,12 +16,13 @@ The only state that the design system specifies for the chip component is the ho
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| backgroundColor      | `true` | `#EEEEEE`|
-| outlinedColor      | `true` | `-`|
-| textColor      | `true` | `#000000`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:| 
+| backgroundColor      | `#EEEEEE`|
+| outlinedColor      | `-`|
+| fontColor      | `#000000`  |
+| disabledBackgroundColor | `#f9f9f9`  |
+| disabledFontColor | `#b1b1b1`  |
 
 ## Design Specifications
 

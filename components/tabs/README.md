@@ -29,15 +29,15 @@ States: __normal__, __focus__, __hover__ and __disabled__.
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| selectedBackgroundColor      | `true` | `#6F2C91` |
-| selectedUnderlinedColor | `true` | `#6F2C91/#000000`  |
-| selectedColor | `true`        | `#FFFFFF/#000000`  |
-| backgroundColor | `false`     | `0.34 opacity`  |
-| underlinedColor | `false`     | `transparent/#D9D9D9`  |
-| textColor     | `true`        | `0.64 opacity` |
-| disabled | `false` | `0.34 opacity`  |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| selectedBackgroundColor      | `#6F2C91` |
+| selectedUnderlinedColor | `#6F2C91/#000000`  |
+| selectedColor | `#FFFFFF/#000000`  |
+| backgroundColor | `0.34 opacity`  |
+| underlinedColor | `transparent/#D9D9D9`  |
+| textColor     | `0.64 opacity` |
+| disabled | `0.34 opacity`  |
 
 ## Design Specifications
 

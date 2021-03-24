@@ -36,34 +36,43 @@ These are the tokens that are defined for the component:
 
 #### Primary button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| backgroundColor      | `true` | `#6F2C91`|
-| textColor      | `true` | `#FFFFFF`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#FFFFFF`  |
+| Tokens        |  Default value |
+| ------------- | -------------:| 
+| primaryBackgroundColor      |  `#6F2C91`|
+| primaryFontColor      |  `#FFFFFF`  |
+| primaryHoverBackgroundColor |  `#000000`  |
+| primaryHoverFontColor |  `#FFFFFF`  |
+ |primaryActiveBackgroundColor | `#676767`   |
+| disabledPrimaryBackgroundColor |  `#d0bddb`  |
+| disabledPrimaryFontColor |  `#ffffff`  |
+| focusColor |  `#005FCC`  |
 
 #### Secondary button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor      | `false` | `transparent` |
-| outlinedColor      | `true` | `#6F2C91`  |
-| textColor | `true`     | `#000000`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverOutlinedColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#000000`  |
+| Tokens        |  Default value |
+| ------------- | -------------:|
+| secondaryOutlinedColor      |  `#6F2C91`  |
+| secondaryBackgroundColor      |  `transparent`  |
+| secondaryFontColor |  `#000000`  |
+| hoverOutlinedColor |  `#000000`  |
+| secondaryHoverFontColor |  `#000000`  |
+| secondaryHoverBackgroundColor |  `#eeeeee`  |
+| secondaryActiveBackgroundColor |  `#dbdbdb`  |
+| disabledSecondaryOutlinedColor |  `#d0bddb`  |
+| disabledSecondaryFontColor |  `#b1b1b1`  |
+| focusColor |  `#005FCC`  |
 
 #### Text button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor      | `false` | `transparent` |
-| textColor | `true`     | `#6F2C91`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#000000`  |
+| Tokens        |  Default value |
+| ------------- | -------------:|
+| textBackgroundColor      |  `transparent`  |
+| textFontColor |  `#6F2C91`  |
+| textHoverBackgroundColor |  `#000000`  |
+| textHoverFontColor |  `#FFFFFF`  |
+| textActiveBackgroundColor      |  `#676767`  |
+| disabledTextFontColor |  `#d0bddb`  |
+| focusColor |  `#005FCC`  |
 
 ## Design Specifications
 

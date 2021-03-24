@@ -22,16 +22,12 @@ The states for text input are: __normal__, __focused__, __selected__, __value en
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| textColor     | `false` | `#000000` |
-| labelColor    | `false`     | `#000000`  |
-| placeholderColor | `false`     | `#EEEEEE`  |
-| underlinedColor | `false`     | `#000000`  |
-| assistiveTextColor | `false`     | `#000000`  |
-| disabled | `false`     | `0.34 opacity`  |
-| error | `false`     | `#D0011B`  |
-
+| Tokens        |  Default value |
+| ------------- | -------------:|
+| fontColor     |  `#000000` |
+| disabledFontColor | `#b1b1b1`  |
+| placeholderColor | `#D9D9D9`  |
+| error | `#D0011B`  |
 ## Text Area
 
 The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 

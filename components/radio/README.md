@@ -28,12 +28,13 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
+| Tokens        | Default value |
 | ------------- |:-------------:| -------------:| 
-| dotColor      | `true` | `#000000`|
-| borderColor   | `true` | `#000000`  |
-| disabled  | `false`| `0.34 opacity`  |
-| text      | `false`| `#000000/inherit`  |
+| color      | `#000000`|
+| disabledColor      | `#b1b1b1`|
+| fontColor      | `inherit`  |
+| disabledFontColor      | `#b1b1b1`  |
+| focusColor   | `#005FCC`  |
 
 *There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
 

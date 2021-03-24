@@ -25,13 +25,17 @@ Five different states are defined in the life cycle of the component: __enabled_
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| *backgroundColor| `true` | `#0067B3`|
-| *borderColor   | `true` | `#0067B3`  |
-| checkColor    | `true` | `#FFFFFF`  |
-| disabled      | `false`| `0.34 opacity`  |
-| text      | `false`| `#000000/inherit`  |
+| Tokens        | Default value |
+| ------------- | -------------:| 
+| backgroundColorChecked| `#0067b3`|
+| borderColor   | `#0067b3`  |
+| checkColor    | `#FFFFFF`  |
+| fontColor      | `black/inherit`  |
+| disabledBackgroundColorChecked      | `#b1cee6`  |
+| disabledBorderColor      | `#b1cee6`  |
+| disabledCheckColor      | `#FFFFFF`  |
+| disabledFontColor      | `#b1b1b1`  |
+| focusColor      | `#005FCC`  |
 
 *There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the checkbox is unselected. The color will be the same for both scenarios.
 

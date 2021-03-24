@@ -34,15 +34,15 @@ Some of the states that can be found in the table are the ones related to the so
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
+| Tokens        | Default value |
 | ------------- |:-------------:| -------------:|
-| headerBackgroundColor       | `true`     | `#000000`  |
-| headerTextColor      | `true`     | `#FFFFFF/inherit`  |
-| separatorColor       | `false`     | `#D9D9D9`  |
-| paginatorBackgroundColor       | `true`     | `#EEEEEE`  |
-| paginatorTextColor       | `true`     | `#000000`  |
-| bodyBackgroundColor       | `false`     | `#FFFFFF`  |
-| bodyTextColor       | `false`     | `#000000`  |
+| headerBackgroundColor       | `#6f2c91`  |
+| headerFontColor      | `#FFFFFF`  |
+| separatorColor       | `#D9D9D9`  |
+| bodyBackgroundColor       | `#FFFFFF`  |
+| bodyFontColor       | `#000000`  |
+| scrollBarThumbColor |  `#666666`  |
+| scrollBarTrackColor |  `#F8F8F8`  |
 
 ## Design Specifications
 

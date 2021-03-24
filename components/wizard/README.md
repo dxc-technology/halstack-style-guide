@@ -45,15 +45,15 @@ For that case, a validation mark can be represented in every step once the user 
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| selectedBackgroundColor    | `true` | `#6F2C91` |
-| selectedText    | `true` | `#000000` |
-| borderColor    | `true` | `#000000` |
-| textColor    | `false` | `#000000/inherit` |
-| lineColor    | `false` | `#D9D9D9` |
-| disabledBackground    | `false` | `#EEEEEE` |
-| disabledText   | `false` | `0.34 opacity` |
+| Tokens        | Default value |
+| ------------- | -------------:|
+| selectedBackgroundColor    | `#6F2C91` |
+| selectedFont    | `#000000` |
+| borderColor    | `#000000` |
+| fontColor    | `inherit` |
+| lineColor    | `#D9D9D9` |
+| disabledBackground    | `#D9D9D9` |
+| disabledFont    | `#666666` |
 
 ## Design Specifications
 

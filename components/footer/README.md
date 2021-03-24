@@ -29,13 +29,12 @@ In case that the user of the design systems wanted to add other components in th
 
 ## Theming and tokens
 
-| Tokens        | Themable      | Default value |
+| Tokens        | Default value |
 | ------------- |:-------------:| -------------:|
-| logo          | `true`        | `DXC Technology(white)` |
-| backgroundColor      | `true` | `#000000`|
-| textColor      | `true` | `#000000`  |
-| lineColor | `true`     | `#0067B3`  |
-
+| backgroundColor      | `#000000`|
+| fontColor      | `#000000`  |
+| lineColor | `#0067B3`  |
+| logo          | `DXC Technology(white)` |
 ## Design Specifications
 
 | Property           | Value|
