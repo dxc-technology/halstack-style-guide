@@ -32,7 +32,7 @@ States: **searching**, **no results** and **action error**.
 
 ![Autocomplete states (asynchronous)](images/autocomplete_states_async.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                        | Default value |
 | ----------------------------- | ------------: |

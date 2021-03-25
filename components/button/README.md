@@ -28,7 +28,7 @@ States: **default**, **disabled**, **hover**, **active** and **focus**.
 
 ![Button state example](images/button_states.png)
 
-## Theming and tokens
+## Design tokens
 
 For every component, the design system offers a series of properties to customize the look and feel of the component and adapt it to the company branding or to an specific style guide.
 

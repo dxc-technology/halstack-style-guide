@@ -28,7 +28,7 @@ In case that the user of the design systems wanted to add other components in th
 
 ![Footer modes example](images/footer_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens          |  Default value   |
 | --------------- | :--------------: |

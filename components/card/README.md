@@ -21,7 +21,7 @@ The only state that is controlled in the card component is the hover. As it is n
 
 ![Card states](images/card_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens          | Default value |
 | --------------- | ------------: |

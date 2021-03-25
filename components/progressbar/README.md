@@ -30,7 +30,7 @@ Three different states can be defined, but in this case, they are not related to
 
 These states corresponding with the progress of the process in the application.
 
-## Theming
+## Design tokens
 
 | Tokens       | Default value |
 | ------------ | ------------: |

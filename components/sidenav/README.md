@@ -28,7 +28,7 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ![Sidenav states](images/sidenav_states.png)
 
-## Theming
+## Design tokens
 
 | Tokens              | Default value |
 | ------------------- | ------------: |

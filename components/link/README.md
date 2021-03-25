@@ -29,8 +29,7 @@ Also, in the default state, an underline style will appear once the user hovers 
 If the user decides to click on the link, then it will pass to another state defined as a visited state. For both possibilities, this status will be represented with a purple color to indicate to the user that the link was already visited in a previous interaction.
 
 ![States of the link for both modes](images/link_states.png)
-
-## Theming and tokens
+## Design tokens
 
 | Tokens                            | Default value |
 | --------------------------------- | :-----------: |

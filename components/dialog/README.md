@@ -51,7 +51,7 @@ A property that is inherited to the modal is the 'X' handler to close it or clic
 
 Clicking on the X icon or outside the box will trigger an action to close the modal properly.
 
-## Theming
+## Design tokens
 
 | Tokens              | Default value |
 | ------------------- | ------------: |

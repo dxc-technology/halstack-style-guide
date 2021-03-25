@@ -32,7 +32,7 @@ Six different states for the dropdown elememts: **default**, **dropdown displaye
 
 ![Dropdown modes](images/dropdown_states.png)
 
-### Theming
+### Design tokens
 
 | Tokens                  | Default value |
 | ----------------------- | ------------: |

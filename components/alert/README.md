@@ -52,7 +52,7 @@ Actually the alert component doesn't have states, only the action that is perfor
 
 The both actions that alert will get are the one that for some reason appears in the screen and the one that for overtime or by an action of the user the message dissapears from the interface.
 
-## Theming
+## Design tokens
 
 | Tokens       | Default value |
 | ------------ | ------------: |

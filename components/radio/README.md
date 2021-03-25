@@ -26,7 +26,7 @@ Five different states are defined in the life cycle of the component: **enabled*
 
 ![Radio button states](images/radio_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens            | Default value |
 | ----------------- | :-----------: |
