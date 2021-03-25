@@ -27,7 +27,7 @@ Five different states are defined in the life cycle of the component: **normal**
 
 ![Switch modes](images/switch_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                                | Default value |
 | ------------------------------------- | ------------: |

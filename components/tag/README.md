@@ -18,7 +18,7 @@ There are no predefined modes for this component. The user has the option to cus
 
 Also, this component is static, which means that there is only one difference between the default and hover state, changing the cursor from the default to the pointer cursor. The tag is merely a link to other resource or a place to display some information, so it is not intended that the flow of the component consider all the different states.
 
-## Theming
+## Design tokens
 
 | Tokens          | Default value |
 | --------------- | ------------: |

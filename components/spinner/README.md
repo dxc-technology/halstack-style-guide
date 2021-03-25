@@ -24,7 +24,7 @@ The tiny mode has never a label associated, while the default and overlay values
 States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window.
 As it is auto-management, for now, states are not contemplated.
 
-## Theming
+## Design tokens
 
 | Tokens           |          Default value |
 | ---------------- | ---------------------: |

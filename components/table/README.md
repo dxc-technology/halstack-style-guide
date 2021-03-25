@@ -32,7 +32,7 @@ Some other components defined in the design system are used in the table compone
 
 Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
 
-## Theming
+## Design tokens
 
 | Tokens                | Default value |
 | --------------------- | :-----------: |

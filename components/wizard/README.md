@@ -41,7 +41,7 @@ For that case, a validation mark can be represented in every step once the user 
 
 ![States of the wizard in the different interactions](images/wizard_validation.png)
 
-## Theming
+## Design tokens
 
 | Tokens                  | Default value |
 | ----------------------- | ------------: |

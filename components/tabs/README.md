@@ -27,7 +27,7 @@ States: **normal**, **focus**, **hover** and **disabled**.
 
 ![Tabs basic state](images/tabs_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                 | Default value |
 | ---------------------- | ------------: |

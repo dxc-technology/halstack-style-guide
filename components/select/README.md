@@ -25,7 +25,7 @@ Seven states are defined for select component based on the interactions that the
 
 ![Select states](images/select_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                        | Default value |
 | ----------------------------- | ------------: |

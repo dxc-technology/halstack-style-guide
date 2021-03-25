@@ -23,7 +23,7 @@ Five different states are defined in the life cycle of the component: **enabled*
 
 ![Checkbox states](images/checkbox_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                         |   Default value |
 | ------------------------------ | --------------: |

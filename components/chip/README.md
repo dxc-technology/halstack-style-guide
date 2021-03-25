@@ -14,7 +14,7 @@ The only state that the design system specifies for the chip component is the ho
 
 ![Chip states](images/chip_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                  | Default value |
 | ----------------------- | ------------: |

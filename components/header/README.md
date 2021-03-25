@@ -50,7 +50,7 @@ In any case, in this document, it will be shown the main states that the compone
 
 ![Header hover state](images/header_account_dropdown_state.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens               |  Default value   |
 | -------------------- | :--------------: |

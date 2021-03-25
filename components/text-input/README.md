@@ -20,7 +20,7 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 
 ![Input states example](images/input_states.png)
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                        | Default value |
 | ----------------------------- | ------------: |

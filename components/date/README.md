@@ -45,7 +45,7 @@ The user can navigate through the calendar to select the desire date.
 
 Different feedback and outcomes happen when the calendar pop-up is used. To see more information please, open the xd file linked with the date component in this respository.
 
-## Theming and tokens
+## Design tokens
 
 | Tokens                            | Default value |
 | --------------------------------- | ------------: |
