@@ -1,6 +1,6 @@
 ## Overview
 
-Progress indicators offer visibility of system status to the user, giving feedback to indicate that the application is taking some time to processing data. The main aim of these components is to reduce the user's uncertainty about offering something to look at while the user is waiting for the end. 
+Progress indicators offer visibility of system status to the user, giving feedback to indicate that the application is taking some time to processing data. The main aim of these components is to reduce the user's uncertainty about offering something to look at while the user is waiting for the end.
 
 A progress bar should be used in any scenario that will take more than 1 second in performing the action, for anything that takes less than that time, it will be distracting for the user.
 
@@ -16,13 +16,13 @@ The other one is indeterminate, so it hasn't defined limits for the duration, th
 
 A third mode can be added based on the context of use. The simplified version of the progress bar has been thought to use on responsive versions of the component, making the interface more clear with a minimalistic component. It also can contain information about the progress or a label to indicate the action.
 
-Modes: __determinate__, __indeterminated__, and __simplified__.
+Modes: **determinate**, **indeterminated**, and **simplified**.
 
 ![Alert mode for normal progress bar](images/progressbar_mode.png)
 
 ### States
 
-Three different states can be defined, but in this case, they are not related to the interaction of the user. 
+Three different states can be defined, but in this case, they are not related to the interaction of the user.
 
 - The progress bar is empty
 - The progress bar is in process
@@ -32,31 +32,31 @@ These states corresponding with the progress of the process in the application.
 
 ## Theming
 
-| Tokens        | Default value |
-| ------------- | -------------:|
-| trackLine       | `#6F2C91`  |
-| totalLine       | `#cecece`  |
-| fontColor       | `inherit`  |
-| overlayColor       | `#000000 0.80 opacity`  |
+| Tokens       | Default value |
+| ------------ | ------------: |
+| trackLine    |     `#6F2C91` |
+| totalLine    |     `#CECECE` |
+| fontColor    |     `inherit` |
+| overlayColor |     `#000000` |
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Min. width         | `685px`|
-| Max. width         | `80%`|
-| Height             | `9px`|
-| Spacing text with bar | `8px`|
-| Font size          | `12px`|
+| Property              |   Value |
+| --------------------- | ------: |
+| Min. width            | `685px` |
+| Max. width            |   `80%` |
+| Height                |   `9px` |
+| Spacing text with bar |   `8px` |
+| Font size             |  `12px` |
 
 ![Specifications for progress bar component](images/progressbar_specs.png)
 
 Overlay
 
-| Property           | Value|
-|--------------------|------:|
-| Max. Width         | `100vw`|
-| Max. Height        | `100vh`|
+| Property    |   Value |
+| ----------- | ------: |
+| Max. Width  | `100vw` |
+| Max. Height | `100vh` |
 
 ![Theaming for progress bar component](images/progressbar_overlay.png)
 

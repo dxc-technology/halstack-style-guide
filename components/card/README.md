@@ -1,14 +1,13 @@
 ## Overview
 
-Cards are a container of information, actions and data with a hierarchy to make easy scanning the content. 
+Cards are a container of information, actions and data with a hierarchy to make easy scanning the content.
 A card can be defined as a unit, so it has all the information within it, making the component useful to show images, text, and interactive elements.
 
 The structure of the card can be seen as blocks, each block is optional to be displayed but the overall element should make a cohesive design, even if it includes text, images or other elements.
 
 ## Appearance
 
-Even a card is defined as a unit by itself, it is common to represent cards in a set, with a grid structure in which each card has different information but from the same field. 
-
+Even a card is defined as a unit by itself, it is common to represent cards in a set, with a grid structure in which each card has different information but from the same field.
 
 ### Modes
 
@@ -24,31 +23,29 @@ The only state that is controlled in the card component is the hover. As it is n
 
 ## Theming and tokens
 
-| Tokens        |  Default value |
-| ------------- | -------------:|
-| backgroundColor    | `#FFFFFF` |
+| Tokens          | Default value |
+| --------------- | ------------: |
+| backgroundColor |     `#FFFFFF` |
 
 As the Card component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `20px` |
-| Padding           | `20px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `220px` |
-| Min. width | `400px` |
-| Max. width | `100%` |
-| Image max. width   | `140px` |
-| Space title-subtitle   | `4px` |
-| Space main info to paragraph  | `20px` |
-| Space actions to photo  | `20px` |
-
+| Property                     |   Value |
+| ---------------------------- | ------: |
+| Margin                       |  `20px` |
+| Padding                      |  `20px` |
+| Border Radius                |   `4px` |
+| Border thickness             |   `2px` |
+| Min. height                  | `220px` |
+| Min. width                   | `400px` |
+| Max. width                   |  `100%` |
+| Image max. width             | `140px` |
+| Space title-subtitle         |   `4px` |
+| Space main info to paragraph |  `20px` |
+| Space actions to photo       |  `20px` |
 
 ![Card specifications](images/card_specs.png)
-
 
 ### User Interface Design Considerations
 

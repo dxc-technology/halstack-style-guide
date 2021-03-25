@@ -9,7 +9,7 @@ Each tab will be paired with content, including a clear description of the secti
 
 The tabs appereance is flat and linear, they are displayed one after another, with the using of an underline for separating the control element from the content of each tab. Only one tab can be selected at each time which is highlighted from the rest to give a visual clue about the state of the application.
 
-The representation could include labels, icons or both of them. 
+The representation could include labels, icons or both of them.
 In case that there are more tabs that don't fit in the screen an indicator should be used to shows the user that information.
 
 ## Modes
@@ -23,38 +23,41 @@ It can be filled or underlined depending on the configuration parameters, make t
 ## States
 
 As in other component, different states can be defined with each interaction.
-States: __normal__, __focus__, __hover__ and __disabled__.
+States: **normal**, **focus**, **hover** and **disabled**.
 
 ![Tabs basic state](images/tabs_states.png)
 
 ## Theming and tokens
 
-| Tokens        | Default value |
-| ------------- | -------------:|
-| selectedBackgroundColor      | `#6F2C91` |
-| selectedUnderlinedColor | `#6F2C91/#000000`  |
-| selectedColor | `#FFFFFF/#000000`  |
-| backgroundColor | `0.34 opacity`  |
-| underlinedColor | `transparent/#D9D9D9`  |
-| textColor     | `0.64 opacity` |
-| disabled | `0.34 opacity`  |
+| Tokens                 | Default value |
+| ---------------------- | ------------: |
+| selectedFontColor      |     `#6F2C91` |
+| selectedIconColor      |     `#6F2C91` |
+| selectedUnderlineColor |     `#6F2C91` |
+| backgroundColor        |     `#FFFFFF` |
+| fontColor              |     `#666666` |
+| disabledFontColor      |     `#BFBFBF` |
+| focusOutline           |     `#6F2C91` |
+| divider                |     `#BFBFBF` |
+| hoverBackgroundColor   |     `#F5EBF9` |
+| pressedBackgroundColor |     `#EAD8F3` |
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin top/bottom  | `15px`|
-| Max width         | `180px` |
-| Selected underline | `2px` |
-| Label bottom space | `20px` |
-| No selected underline| `1.5px` |
-| Unselected label bottom space | `20.5px` |
-| Min height| `64px` |
-| Min space between tab labels| `132px` |
-| Icon size | `22x22px` |
-| Min height (icon + text) | `76px` |
-| Space icon with label | `8px` |
-| Space text with underline | `14px` |
+| Property                      |     Value |
+| ----------------------------- | --------: |
+| Margin top/bottom             |    `15px` |
+| Max width                     |   `180px` |
+| Selected underline            |     `2px` |
+| Label bottom space            |    `20px` |
+| No selected underline         |   `1.5px` |
+| Unselected label bottom space |  `20.5px` |
+| Min height                    |    `64px` |
+| Min space between tab labels  |   `132px` |
+| Icon size                     | `22x22px` |
+| Min height (icon + text)      |    `76px` |
+| Space icon with label         |     `8px` |
+| Space text with underline     |    `14px` |
 
 ![Tabs specs](images/tabs_specs.png)
 
@@ -64,20 +67,19 @@ The representation of the component for mobile and tablet can follow the same vi
 
 Also, the labeling of each tag could varies, including icons, label or a combination of them. Another visual clue for a better feedback is included in this case, using a rounded circle to indicates which tab is selected apart from color intensity and highlight elements.
 
-
-| Property           | Value|
-|--------------------|------:|
-| Margin top/right/left no text | `15px`|
-| Margin with text | `12px`|
-| Max width | `According to the device` |
-| Min height | `64px` |
-| Icon size | `22x22px` |
-| Distance between dot and icon | `6px` |
-| Dot size | `6x6px` |
-| Distance between elements | `It varies based on the number of items` |
-| Distance dot to bottom | `4px` |
-| Space icon/text | `8px` |
-| Space text/bottom | `12px` |
+| Property                      |                                    Value |
+| ----------------------------- | ---------------------------------------: |
+| Margin top/right/left no text |                                   `15px` |
+| Margin with text              |                                   `12px` |
+| Max width                     |                `According to the device` |
+| Min height                    |                                   `64px` |
+| Icon size                     |                                `22x22px` |
+| Distance between dot and icon |                                    `6px` |
+| Dot size                      |                                  `6x6px` |
+| Distance between elements     | `It varies based on the number of items` |
+| Distance dot to bottom        |                                    `4px` |
+| Space icon/text               |                                    `8px` |
+| Space text/bottom             |                                   `12px` |
 
 ## Tabbed section
 
@@ -86,7 +88,6 @@ An alternative use of the tab component when all the information is rendered in 
 Interacting with the tabs makes the content scrolls to the point that is associated with that specific tab, while the tabs keep fixed at the top of the interface, making it easy to transfer from one point of the section to another.
 
 This version of the component is very useful when there is a lot of information on a single page, or even when there are different areas of information related to the same topic.
-
 
 ## User Interface Design Considerations
 

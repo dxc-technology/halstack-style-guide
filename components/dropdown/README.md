@@ -6,7 +6,7 @@ A dropdown in mobile is more unusable than a dropdown in a web application, rega
 
 ## Appearance
 
-Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios. 
+Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios.
 
 From header menus to executing different actions, dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
 
@@ -22,54 +22,54 @@ If there is a special case when the dropdown couldn't be displayed below the sel
 
 ### Modes
 
-There is a __default__ mode for the dropdown component.
+There is a **default** mode for the dropdown component.
 
 ![Dropdown modes](images/dropdown_modes.png)
 
 ### States
 
-Six different states for the dropdown elememts: __default__, __dropdown displayed__, __option hovered__, __option selected__, __submenu displayed__ and __option selected (no dropdown)__.
+Six different states for the dropdown elememts: **default**, **dropdown displayed**, **option hovered**, **option selected**, **submenu displayed** and **option selected (no dropdown)**.
 
 ![Dropdown modes](images/dropdown_states.png)
 
 ### Theming
 
-| Tokens        | Default value |
-| ------------- | -------------:|
-| backgroundColor       | `#FFFFFF`  |
-| fontColor       |  `#000000`  |
-| dropdownBackgroundColor       |  `#FFFFFF`  |
-| dropdownFontColor       |  `#000000`  |
-| hoverBackgroundOption       | `#ffffff`  |
-| hoverBackgroundColor       | `#ffffff`  |
-| scrollBarThumbColor       | `#666666`  |
-| scrollBarTrackColor       | `#D9D9D9`  |
-| focusColor | `#005FCC`  |
+| Tokens                  | Default value |
+| ----------------------- | ------------: |
+| backgroundColor         |     `#FFFFFF` |
+| fontColor               |     `#000000` |
+| dropdownBackgroundColor |     `#FFFFFF` |
+| dropdownFontColor       |     `#000000` |
+| hoverBackgroundOption   |     `#FFFFFF` |
+| hoverBackgroundColor    |     `#FFFFFF` |
+| scrollBarThumbColor     |     `#666666` |
+| scrollBarTrackColor     |     `#D9D9D9` |
+| focusColor              |     `#005FCC` |
 
 The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 
 ## Design Specifications
 
-| Property for dropdown (hidden)  | Value |
-|--------------------|------:|
-| Margin   | `15px`|
-| Min width   | `230px`|
-| Min height   | `46px`|
-| Border radius | `2px`|
-| Line thickness  | `2px`|
-| Padding left/right  | `18px/13px`|
-| Padding top/bottom  | `10px/10px`|
-| Font weight   | `Regular`|
-| Icon size | `20px x 20px`|
+| Property for dropdown (hidden) |         Value |
+| ------------------------------ | ------------: |
+| Margin                         |        `15px` |
+| Min width                      |       `230px` |
+| Min height                     |        `46px` |
+| Border radius                  |         `2px` |
+| Line thickness                 |         `2px` |
+| Padding left/right             |   `18px/13px` |
+| Padding top/bottom             |   `10px/10px` |
+| Font weight                    |     `Regular` |
+| Icon size                      | `20px x 20px` |
 
-| Property for dropdown (shown)  | Value |
-|--------------------|------:|
-| Margin   | `15px`|
-| Border top   | `2px`|
-| Border radius bottom  | `2px`|
-| Options padding  top/bottom | `10px`|
-| Options padding  left/right | `20px`|
-| Last option padding bottom | `20px`|
+| Property for dropdown (shown) |  Value |
+| ----------------------------- | -----: |
+| Margin                        | `15px` |
+| Border top                    |  `2px` |
+| Border radius bottom          |  `2px` |
+| Options padding top/bottom    | `10px` |
+| Options padding left/right    | `20px` |
+| Last option padding bottom    | `20px` |
 
 ![Dropdown specifications](images/dropdown_specs.png)
 
@@ -88,4 +88,3 @@ It is allowed the use of icons within the dropdown component. There are several 
 ## Links and references
 
 - https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/
-

@@ -6,28 +6,27 @@ All web-based product applications are expected to feature the same design and t
 
 The appearance of the alert is conditioned based on the type of alert that the applications wants to show to the user and the type of mode that is chosen to represent it. Starting with the type of alert, in Halstack Design System we have defined the following categories:
 
-*Information*
+_Information_
 
-Informational messages are used exclusively to assist the user with directional or explanatory text about a complex or seldom used process. 
+Informational messages are used exclusively to assist the user with directional or explanatory text about a complex or seldom used process.
 
-*Confirmation*
+_Confirmation_
 
 Success messages should be used to assure user that a system calculation or data submission was completed correctly. This type of message should only be used in situations where confirmation is necessary, i.e. final submission of an application. It should not be used to notify the user of every function successfully performed by the system. These only disrupt user workflow and should be evident without continual verification.
 
-*Warning*
+_Warning_
 
 Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended or there may be inadequate or incompatible system data that needs to be corrected before continuing. These messages should provide the user with both the problem and the solution needed to continue.
 
-*Error*
+_Error_
 
 Error messages convey a critical system problem that requires user and/or technical intervention to correct. Error messages should contain a solution to the problem or information on how to proceed if technical assistance is required. When error validation appears, the corresponding field associated with the error will display with a red indicator.
-
 
 ### Modes
 
 There are three different modes for the alert component, each of them should be used according to the information that want to be given to the user, defined in the application level.
 
-Modes: __condensed__, __multiline__ and __alert dialog__.
+Modes: **condensed**, **multiline** and **alert dialog**.
 
 In the condensed version, the message is short and concise, avoiding word that plead, belittle or intimidate the user. It is only one line with some information about the actions that took place and the reason of the alert.
 
@@ -37,11 +36,11 @@ In this mode the notification should appears in the up right corner of the scree
 
 If the message type wants to be displayed in multiple lines because the user needs more information to understand the reason of the alerts and there is an explanaition of how to avoid it, this mode is recommendable.
 
-The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous mode is for this case that the user must interact with the alert message to close it. 
+The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous mode is for this case that the user must interact with the alert message to close it.
 
 ![Alert mode for the multiple lines with more information](images/alert_mode_multi.png)
 
-For the case that the user needs to take action in the message with a decision, the last mode should be used, which is a visual approach similar to the dialog component where the alert message is overlaid the application content to get the attencion and the focus of the user, who needs to select an action before to continue with the workflow of the page. 
+For the case that the user needs to take action in the message with a decision, the last mode should be used, which is a visual approach similar to the dialog component where the alert message is overlaid the application content to get the attencion and the focus of the user, who needs to select an action before to continue with the workflow of the page.
 
 In the scenario that the alert dialog doesn't have actionable items like buttons or other input elements, the message must be enough important only to displays text, because this is breaking the user flow in the applications.
 
@@ -55,72 +54,72 @@ The both actions that alert will get are the one that for some reason appears in
 
 ## Theming
 
-| Tokens        |  Default value |
-| ------------- | -------------:|
-| overlayColor       |  `black 0.80 opacity`  |
-| infoColor       |  `#CEE0F5`  |
-| confirmColor       |  `#DBF1C4`  |
-| warningColor       |  `#FCF2BD`  |
-| errorColor       |  `#F9CFCF`  |
-| focusColor       |  `#005FCC`  |
+| Tokens       | Default value |
+| ------------ | ------------: |
+| overlayColor |     `#000000` |
+| infoColor    |     `#CEE0F5` |
+| confirmColor |     `#DBF1C4` |
+| warningColor |     `#FCF2BD` |
+| errorColor   |     `#F9CFCF` |
+| focusColor   |     `#005FCC` |
 
-The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.    
+The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.
 
 ## Design Specifications
 
-The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application. 
+The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application.
 
-Widths for alert component: __fill content__, __fit parent__, __small__, __medium__ and __large__.
+Widths for alert component: **fill content**, **fit parent**, **small**, **medium** and **large**.
 
-*Fill parent* - It is used when the width will be adapted to the content of the alert itself.
-*Fit parent* - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
-*Small* - A small width for ocassions when the message is short, also applicable in mobile.
-*Medium* - It is the average size, this option will fit well in a high percetange of the applications.
-*Large* - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
+_Fill parent_ - It is used when the width will be adapted to the content of the alert itself.
+_Fit parent_ - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
+_Small_ - A small width for ocassions when the message is short, also applicable in mobile.
+_Medium_ - It is the average size, this option will fit well in a high percetange of the applications.
+_Large_ - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
 
-| Property           | Value|
-|--------------------|------:|
-| Padding right/left | `12px/16px`|
-| Padding top/bottom | `14px`|
-| Width              | `Predefined sizes` |
-| Height             | `48px` |
-| Border Radius      | `4px` |
-| Font size          | `12px` |
-| Font weight        | `Regular/Bold` |
-| Space between text and '-' | `10px` |
-| Icon area width    | `41px` |
-| Icon size          | `20x20px` |
+| Property                   |              Value |
+| -------------------------- | -----------------: |
+| Padding right/left         |        `12px/16px` |
+| Padding top/bottom         |             `14px` |
+| Width                      | `Predefined sizes` |
+| Height                     |             `48px` |
+| Border Radius              |              `4px` |
+| Font size                  |             `12px` |
+| Font weight                |     `Regular/Bold` |
+| Space between text and '-' |             `10px` |
+| Icon area width            |             `41px` |
+| Icon size                  |          `20x20px` |
 
 ![Specifications for the condensed mode](images/alert_specs_condensed.png)
 
-| Property           | Value|
-|--------------------|------:|
-| Padding right/left | `12px`|
-| Padding top/bottom | `14px/20px`|
-| Width              | `Predefined sizes` |
-| Min. height        | `92px` |
-| Border Radius      | `4px` |
-| Font size          | `12px` |
-| Font weight        | `Regular/Bold` |
-| Space between text and icon | `12px` |
-| Icon size          | `20x20px` |
+| Property                    |              Value |
+| --------------------------- | -----------------: |
+| Padding right/left          |             `12px` |
+| Padding top/bottom          |        `14px/20px` |
+| Width                       | `Predefined sizes` |
+| Min. height                 |             `92px` |
+| Border Radius               |              `4px` |
+| Font size                   |             `12px` |
+| Font weight                 |     `Regular/Bold` |
+| Space between text and icon |             `12px` |
+| Icon size                   |          `20x20px` |
 
 ![Specifications for the multiple mode](images/alert_specs_multi.png)
 
-| Property           | Value|
-|--------------------|------:|
-| Padding right/left | `16px/24px`|
-| Padding top/bottom | `20px`|
-| Width              | `Predefined sizes` |
-| Min. height        | `220px` |
-| Border Radius      | `4px` |
-| Font size          | `16px and 14px` |
-| Font weight        | `Bold and Regular` |
-| Space between text and icon | `16px` |
-| Space between title and description | `20px` |
-| Space between description and actions | `20px` |
-| Icon size          | `20x20px` |
-| Overlay size       | `100vw by 100vh` |
+| Property                              |              Value |
+| ------------------------------------- | -----------------: |
+| Padding right/left                    |        `16px/24px` |
+| Padding top/bottom                    |             `20px` |
+| Width                                 | `Predefined sizes` |
+| Min. height                           |            `220px` |
+| Border Radius                         |              `4px` |
+| Font size                             |    `16px and 14px` |
+| Font weight                           | `Bold and Regular` |
+| Space between text and icon           |             `16px` |
+| Space between title and description   |             `20px` |
+| Space between description and actions |             `20px` |
+| Icon size                             |          `20x20px` |
+| Overlay size                          |   `100vw by 100vh` |
 
 ![Specifications for the alert dialog](images/alert_specs_dialog.png)
 

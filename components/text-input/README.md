@@ -1,36 +1,41 @@
 ## Overview
 
-Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers. 
+Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers.
 Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
 
 ## Appearance
 
-The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written. 
+The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written.
 Other elements like assistive text, prefix or suffix icons or error handlers can be complementing the input field making the basic structure more informative.
 
 ### Modes
 
-Five different modes can be identify using text input component: __basic__, __basic with assistive text__, __basic with prefix__, __basic with suffix__ and __basic with prefix and suffix__.
+Five different modes can be identify using text input component: **basic**, **basic with assistive text**, **basic with prefix**, **basic with suffix** and **basic with prefix and suffix**.
 
 ![Input modes example](images/input_modes.png)
 
 ### States
 
-The states for text input are: __normal__, __focused__, __selected__, __value entered__ and __disabled__.
+The states for text input are: **normal**, **focused**, **selected**, **value entered** and **disabled**.
 
 ![Input states example](images/input_states.png)
 
 ## Theming and tokens
 
-| Tokens        |  Default value |
-| ------------- | -------------:|
-| fontColor     |  `#000000` |
-| disabledFontColor | `#b1b1b1`  |
-| placeholderColor | `#D9D9D9`  |
-| error | `#D0011B`  |
+| Tokens                        | Default value |
+| ----------------------------- | ------------: |
+| fontColor                     |     `#000000` |
+| disabledFontColor             |     `#b1b1b1` |
+| placeholderColor              |     `#D9D9D9` |
+| error                         |     `#D0011B` |
+| selectedOptionBackgroundColor |     `#F2F2F2` |
+| hoverOptionColor              |     `#000000` |
+| scrollBarThumbColor           |     `#666666` |
+| scrollBarTrackColor           |     `#D9D9D9` |
+
 ## Text Area
 
-The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment. 
+The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment.
 When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
 
 It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
@@ -38,6 +43,7 @@ It allows multiple lines, adapting the text to the space available and in the ca
 The text area can have the following features: Label, assistive text, min and max-width, resizable call to action and scrollbar.
 
 The aspects that text area is not including respecting text input are:
+
 - Prefix and suffix
 - Max height fixed
 
@@ -45,22 +51,22 @@ The aspects that text area is not including respecting text input are:
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin             | `15px`|
-| Height (min)       | `34px`|
-| Height (max)       | `74px`|
-| Widht (min)        | `230px` |
-| Widht (max)        | `100%` |
-| Border thickness   | `1px/2px` |
-| Font size (with text) | `16px` |
-| Font size smaller text | `12px` |
-| Font weight        | `Regular` |
-| Icon size       | `18x18(px)` |
-| Distance between text and underline | `12px` |
-| Icon margin right side | `6px` |
-| Distance between text and underline (animated) | `6px` |
-| Assistive text margin top | `6px` |
+| Property                                       |       Value |
+| ---------------------------------------------- | ----------: |
+| Margin                                         |      `15px` |
+| Height (min)                                   |      `34px` |
+| Height (max)                                   |      `74px` |
+| Widht (min)                                    |     `230px` |
+| Widht (max)                                    |      `100%` |
+| Border thickness                               |   `1px/2px` |
+| Font size (with text)                          |      `16px` |
+| Font size smaller text                         |      `12px` |
+| Font weight                                    |   `Regular` |
+| Icon size                                      | `18x18(px)` |
+| Distance between text and underline            |      `12px` |
+| Icon margin right side                         |       `6px` |
+| Distance between text and underline (animated) |       `6px` |
+| Assistive text margin top                      |       `6px` |
 
 ![Specifications for input component](images/input_specs.png)
 
@@ -75,7 +81,6 @@ Here are the different representations of a required field:
 ![Type required in input texts](images/input_required.png)
 
 The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
-
 
 ### User Interface Design Considerations
 

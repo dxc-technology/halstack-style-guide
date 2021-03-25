@@ -16,30 +16,29 @@ The only state that the design system specifies for the chip component is the ho
 
 ## Theming and tokens
 
-| Tokens        | Default value |
-| ------------- | -------------:| 
-| backgroundColor      | `#EEEEEE`|
-| outlinedColor      | `-`|
-| fontColor      | `#000000`  |
-| disabledBackgroundColor | `#f9f9f9`  |
-| disabledFontColor | `#b1b1b1`  |
+| Tokens                  | Default value |
+| ----------------------- | ------------: |
+| backgroundColor         |     `#EEEEEE` |
+| outlinedColor           |           `-` |
+| fontColor               |     `#000000` |
+| disabledBackgroundColor |     `#F9F9F9` |
+| disabledFontColor       |     `#B1B1B1` |
 
 ## Design Specifications
 
-| Property      | Value      | 
-| ------------- |:-------------:|
-| Padding       | `20px 10px` |
-| Width         | `fit-content` |
-| Background Color | `#EEEEEE` |
-| Color         | `black` |
-| Disabled      | `0.34 opacity` |
-| Border Radius | `50%` |
-| Border Width  | `1px` |
-| Space between text and icon  | `10px` |
-| Icon          | `24px 24px` |
+| Property                    |     Value      |
+| --------------------------- | :------------: |
+| Padding                     |  `20px 10px`   |
+| Width                       | `fit-content`  |
+| Background Color            |   `#EEEEEE`    |
+| Color                       |    `black`     |
+| Disabled                    | `0.34 opacity` |
+| Border Radius               |     `50%`      |
+| Border Width                |     `1px`      |
+| Space between text and icon |     `10px`     |
+| Icon                        |  `24px 24px`   |
 
 ![Chip states](images/chip_specs.png)
-
 
 ### User Interface Design Considerations
 

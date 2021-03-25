@@ -5,6 +5,7 @@ Footers are a secondary element in a web page because they usually appear at the
 ## Appereance
 
 This area can contain a variety of things depending on the application and two approaches are followed to use a footer element.
+
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
@@ -29,27 +30,28 @@ In case that the user of the design systems wanted to add other components in th
 
 ## Theming and tokens
 
-| Tokens        | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor      | `#000000`|
-| fontColor      | `#000000`  |
-| lineColor | `#0067B3`  |
-| logo          | `DXC Technology(white)` |
+| Tokens          |  Default value   |
+| --------------- | :--------------: |
+| backgroundColor |    `#000000`     |
+| fontColor       |    `#FFFFFF`     |
+| lineColor       |    `#0067B3`     |
+| logo            | `DXC Technology` |
+
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin left/top/bottom | `20px` |
-| Margin right | `60px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height short version| `120px` |
-| Min. height large version| `240px` |
-| Width| `100%` |
-| Font size (copyright, terms)| `12px` |
-| Font size (links)| `14px` |
-| Font size (section title)| `16px` |
-| Icon size | `20x20px` |
+| Property                     |     Value |
+| ---------------------------- | --------: |
+| Margin left/top/bottom       |    `20px` |
+| Margin right                 |    `60px` |
+| Border Radius                |     `4px` |
+| Border thickness             |     `2px` |
+| Min. height short version    |   `120px` |
+| Min. height large version    |   `240px` |
+| Width                        |    `100%` |
+| Font size (copyright, terms) |    `12px` |
+| Font size (links)            |    `14px` |
+| Font size (section title)    |    `16px` |
+| Icon size                    | `20x20px` |
 
 ![Footer modes example](images/footer_specs.png)
 
@@ -65,7 +67,7 @@ A representation is shown above:
 
 ## Responsive version for mobile and tablet
 
-The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen. 
+The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen.
 
 On the mobile version, first we have the logo, the links and the separator line that will extendt all the width of the container. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
 At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
