@@ -34,15 +34,15 @@ Some of the states that can be found in the table are the ones related to the so
 
 ## Theming
 
-| Tokens        | Default value |
-| ------------- |:-------------:| -------------:|
-| headerBackgroundColor       | `#6f2c91`  |
-| headerFontColor      | `#FFFFFF`  |
-| separatorColor       | `#D9D9D9`  |
-| bodyBackgroundColor       | `#FFFFFF`  |
-| bodyFontColor       | `#000000`  |
-| scrollBarThumbColor |  `#666666`  |
-| scrollBarTrackColor |  `#F8F8F8`  |
+| Tokens                | Default value |
+| --------------------- | :-----------: |
+| headerBackgroundColor |   `#6F2C91`   |
+| headerFontColor       |   `#FFFFFF`   |
+| separatorColor        |   `#D9D9D9`   |
+| bodyBackgroundColor   |   `#FFFFFF`   |
+| bodyFontColor         |   `#000000`   |
+| scrollBarThumbColor   |   `#666666`   |
+| scrollBarTrackColor   |   `#D9D9D9`   |
 
 ## Design Specifications
 

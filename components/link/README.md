@@ -1,6 +1,6 @@
 ## Overview
 
-Nowadays, links are the most presented element in every web site, as they define the way of navigation across the page. They are resources that allow the user to navigate to a new page or section in the current web site, keeping the workflow of the page without losing the reference of the starting point. 
+Nowadays, links are the most presented element in every web site, as they define the way of navigation across the page. They are resources that allow the user to navigate to a new page or section in the current web site, keeping the workflow of the page without losing the reference of the starting point.
 
 ## Appearance
 
@@ -12,48 +12,48 @@ There are a variety of types of links, but the most used are hyperlinks, text bu
 
 The component has two different modes depending on the context of use of the link element, regarding if the text link is part of a text or if it is an independent entity itself.
 
-In the default mode, in the normal state, the link only has a different color to indicate and distinguish it as a link from the rest of the content. 
+In the default mode, in the normal state, the link only has a different color to indicate and distinguish it as a link from the rest of the content.
 
 The underline mode stands out the link by the underline symbol rather than the color of the text. On this state, if the link has icon, it will be also underlined to indicate that is part of the link component.
 
-Modes: __default__ and __underline__.
+Modes: **default** and **underline**.
 
 ![Modes of the link component](images/link_modes.png)
 
 ### States
 
-The states are the same for both modes, starting in the normal state where the user didn't interact with the element, following by the hover state. In this state is common the use of the pointer cursor as an indicator of the navigation once clicking in the object. 
+The states are the same for both modes, starting in the normal state where the user didn't interact with the element, following by the hover state. In this state is common the use of the pointer cursor as an indicator of the navigation once clicking in the object.
 
 Also, in the default state, an underline style will appear once the user hovers the link with the cursor. For the underline mode, the difference will indicate changing the color of the item. In the case that the link already has some color, the only change on hover will be the cursor.
 
 If the user decides to click on the link, then it will pass to another state defined as a visited state. For both possibilities, this status will be represented with a purple color to indicate to the user that the link was already visited in a previous interaction.
 
 ![States of the link for both modes](images/link_states.png)
- 
+
 ## Theming and tokens
 
-| Tokens        | Default value |
-| ------------- |:-------------:| -------------:|
-| fontColor      | `#005FCC` |
-| visitedFontColor | `#8800F6`  |
-| underlinedBackgroundColor | `#005FCC`  |
-| visitedUnderlinedBackgroundColor | `#8800F6`  |
-| disabledColor | `#D9D9D9`  |
-| disabledUnderlinedBackgroundColor | `#F8F8F8`  |
-| hoverFontColor | `#006BF6`  |
+| Tokens                            | Default value |
+| --------------------------------- | :-----------: |
+| fontColor                         |   `#005FCC`   |
+| visitedFontColor                  |   `#8800F6`   |
+| underlinedBackgroundColor         |   `#005FCC`   |
+| visitedUnderlinedBackgroundColor  |   `#8800F6`   |
+| disabledColor                     |   `#D9D9D9`   |
+| disabledUnderlinedBackgroundColor |   `#D9D9D9`   |
+| hoverFontColor                    |   `#006BF6`   |
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Recommended Margin | `10px`|
-| Min width          | `0` |
-| Max width          | `100%` |
-| Font size          | `16px` |
-| Font weight        | `Regular` |
-| Space between text and icon | `10px` |
-| Icon size          | `16x16px` |
-| Underline height   | `1px` |
+| Property                    |     Value |
+| --------------------------- | --------: |
+| Recommended Margin          |    `10px` |
+| Min width                   |       `0` |
+| Max width                   |    `100%` |
+| Font size                   |    `16px` |
+| Font weight                 | `Regular` |
+| Space between text and icon |    `10px` |
+| Icon size                   | `16x16px` |
+| Underline height            |     `1px` |
 
 ![Design specifications for link component](images/link_specifications.png)
 

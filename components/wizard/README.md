@@ -4,15 +4,14 @@ Wizard represents a stepped workflow as a form of linear and mandatory progressi
 
 ## Appereance
 
-
 ### Modes
 
-The basic modes defined for this component are two based on the display of the information. 
+The basic modes defined for this component are two based on the display of the information.
 An horizontal mode where the stepper element will be at the top of the container followed in the y-axis by the content of each step and at the bottom of the container the actionable elements will be displayed.
 
 Another approach but less used is the vertical variation that will show the stepper in a vertical direction at the far left of the screen, next to the content of each step. Again, at the bottom of the component there will be room for the buttons to navigate between the steps.
 
-Modes: __horizontal__ and __vertical__.
+Modes: **horizontal** and **vertical**.
 
 Keeping talk about the modes, there is another distinction to mention in this part that is related with the content of the steps.
 Regarding the content of the step it can be formed by different information:
@@ -26,13 +25,12 @@ Regarding the content of the step it can be formed by different information:
 
 ### States
 
-The several states of the wizard component are based on the actual and the previous status of the different steps that are conformed within the component. 
-If the step is selected it will have a visual cue that will indicate that the user is in that specific step in that moment (normally represented with a yellow color). 
+The several states of the wizard component are based on the actual and the previous status of the different steps that are conformed within the component.
+If the step is selected it will have a visual cue that will indicate that the user is in that specific step in that moment (normally represented with a yellow color).
 In case that a previous step was visited before to jump to a new one, another look will represent that state (an outlined representation of the step).
 When the steps are disabled, there will be an intermediate state representation with a grey scale.
 
-
-States: __selected__, __default__ and __disabled__.
+States: **selected**, **default** and **disabled**.
 
 ![States of the wizard in the different interactions](images/wizard_states.png)
 
@@ -45,15 +43,15 @@ For that case, a validation mark can be represented in every step once the user 
 
 ## Theming
 
-| Tokens        | Default value |
-| ------------- | -------------:|
-| selectedBackgroundColor    | `#6F2C91` |
-| selectedFont    | `#000000` |
-| borderColor    | `#000000` |
-| fontColor    | `inherit` |
-| lineColor    | `#D9D9D9` |
-| disabledBackground    | `#D9D9D9` |
-| disabledFont    | `#666666` |
+| Tokens                  | Default value |
+| ----------------------- | ------------: |
+| selectedBackgroundColor |     `#6F2C91` |
+| selectedFont            |     `#FFFFFF` |
+| borderColor             |     `#000000` |
+| fontColor               |     `inherit` |
+| lineColor               |     `#D9D9D9` |
+| disabledBackground      |     `#D9D9D9` |
+| disabledFont            |     `#666666` |
 
 ## Design Specifications
 
