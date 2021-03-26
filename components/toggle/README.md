@@ -74,3 +74,7 @@ The behavior in regard to colors and interactions are the same that for the prev
 Toggles should be used in place of radio buttons whenever the options are
 - Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required
 - Opposites of each other
+
+
+## Links and references
+https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/badbf3be-4d04-4189-a99d-43e37ed4afc9/variables/

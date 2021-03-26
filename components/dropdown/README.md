@@ -85,5 +85,5 @@ It is allowed the use of icons within the dropdown component. There are several 
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/variables/
 

@@ -49,4 +49,4 @@ The only state that the design system specifies for the chip component is the ho
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3/variables/

@@ -74,4 +74,4 @@ The safe space between the icon and the label has to be 6 pixels and the size of
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/variables/

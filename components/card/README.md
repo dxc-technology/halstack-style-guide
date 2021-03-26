@@ -57,4 +57,4 @@ As the Card component is using the Box to be build, the values for the backgroun
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/variables/

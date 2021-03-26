@@ -83,4 +83,4 @@ At this stage, the custom content and the disposition is responsability of the u
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/3c920e77-d15a-4856-81c4-d9389af085b0/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/3c920e77-d15a-4856-81c4-d9389af085b0/variables/

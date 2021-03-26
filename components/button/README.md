@@ -118,4 +118,4 @@ Here, you can find more considerations in the using of buttons:
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/af07084e-1cfb-4663-be72-6f6345da9646/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/84bacd8b-f5aa-4369-9fe3-c2cd53165c90/variables/

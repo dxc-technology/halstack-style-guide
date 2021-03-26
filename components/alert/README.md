@@ -131,4 +131,4 @@ Widths for alert component: __fill content__, __fit parent__, __small__, __mediu
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/variables/
