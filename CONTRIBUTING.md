@@ -32,11 +32,6 @@ Feedback via issues are the primary way of communicating with the platform engin
 2. You have explored all the alternatives by reading the pertinent documentation resources at Assure Platform's [DocHub](https://github.dxc.com/pages/DIaaS/doc-hub/) and [Knowledge Library](https://dxcportal.sharepoint.com/sites/digitalInsurancePlatformEngineeringKnowledgeShareLibrary/SitePages/Home.aspx)
 3. You are in the right repository. Assure Digital Platform is a large solution built up from multiple components. If you need further information about the platform's repository structure [please read this documentation](https://github.dxc.com/DIaaS/diaas-platform) first
 
-## Who can contribute?
-
-- Design: Design contributions can vary from visual assets, UX interactions, motion design, XD kit bug fixes and more.
-- Content: Our documentation is just as important as our design and code assets. Whether it's updating our current docs, or adding new patterns, anyone can contribute to our guidelines content.
-
 ### Creating the Issue
 
 Just go to the Issues section of this repostory and click on the **New Issue** button. Make sure you select the appropriate template to submit your issue. We have prepared a few templates for you to give us feedback with regards new features, bug reports, support requests and general questions.
