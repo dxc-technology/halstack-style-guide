@@ -13,7 +13,7 @@ The spinner has an undeterminated state, that means that they don't have logic o
 
 ### Modes
 
-There are three different modes for the spinner component due to the size or the position: __default__, __tiny__ and __overlay__.
+There are three different modes for the spinner component due to the size or the position: **default**, **tiny** and **overlay**.
 The tiny mode has never a label associated, while the default and overlay values can have a paired label.
 
 ![Spinner circular mode](images/spinner_modes.png)
@@ -21,42 +21,41 @@ The tiny mode has never a label associated, while the default and overlay values
 
 ### States
 
-States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window. 
+States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window.
 As it is auto-management, for now, states are not contemplated.
 
-## Theming
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| trackLine       | `true`     | `yellow`  |
-| totalCircle      | `true`     | `white`  |
-| textColor       | `false`     | `black/inherit`  |
-| overlay       | `false`     | `black 0.80 opacity`  |
+| Tokens           |          Default value |
+| ---------------- | ---------------------: |
+| trackCircleColor |              `#6F2C91` |
+| totalCircleColor |              `#FFFFFF` |
+| fontColor        |              `inherit` |
+| overlayColor     | `#000000 0.80 opacity` |
 
-*In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
+\*In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
 
 ## Design Specifications
 
 Circular type
 
-| Property           | Value|
-|--------------------|------:|
-| Width              | `140px`|
-| height             | `140px`|
-| Border width       | `9px` |
-| Radio              | `51.5px` |
-| Font size          | `12px` |
-| Font weight        | `Regular` |
-
+| Property     |     Value |
+| ------------ | --------: |
+| Width        |   `140px` |
+| height       |   `140px` |
+| Border width |     `9px` |
+| Radio        |  `51.5px` |
+| Font size    |    `12px` |
+| Font weight  | `Regular` |
 
 ![Spinner specifications for circular mode](images/spinner_specs.png)
 
 Overlay
 
-| Property           | Value|
-|--------------------|------:|
-| Max. Width         | `100vw`|
-| Max. Height        | `100vh`|
+| Property    |   Value |
+| ----------- | ------: |
+| Max. Width  | `100vw` |
+| Max. Height | `100vh` |
 
 ![Spinner specifications for the overlay](images/spinner_overlay.png)
 
@@ -69,3 +68,4 @@ Overlay
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/variables/
+

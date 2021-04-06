@@ -5,7 +5,7 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 
 It is recommended to use radio buttons only for settings, in a logical order based on some criteria and not taking the alphabetical sorting because it depends on the language and the order could be seen altered.
 
-To offer a good usability in the application the key part in the radio component is the labeling, it should be concise and clearly differentiated with respect to other options. 
+To offer a good usability in the application the key part in the radio component is the labeling, it should be concise and clearly differentiated with respect to other options.
 
 By default, one option of the radio group must be pre-selected. Select the safest or convinient option, the one that affect the minimum to the application status and if the users need to refreain to from choosing an item, always should be presented a neutral option in that context.
 
@@ -17,25 +17,26 @@ There can be an special case that it shouldn't be a pre-selected option from the
 
 Selected mode must be used when the user select an option or by default the value of the radio button is selected. For the rest of the cases, the mode that the component should get is unselected. A radio button that is selected can be unselected by the user that should be able to touch or click either the ratio button or the associated text to deselect the option, this is the same way to select an unselected radio.
 
-Modes: __selected__ or __unselected__.
+Modes: **selected** or **unselected**.
 ![Radio button modes](images/radio_modes.png)
 
 ### States
 
-Five different states are defined in the life cycle of the component: __enabled__, __disabled__, __hovered__, __focused__ and __pressed__.
+Five different states are defined in the life cycle of the component: **enabled**, **disabled**, **hovered**, **focused** and **pressed**.
 
 ![Radio button states](images/radio_states.png)
 
-## Theming and tokens
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| dotColor      | `true` | `#000000`|
-| borderColor   | `true` | `#000000`  |
-| disabled  | `false`| `0.34 opacity`  |
-| text      | `false`| `#000000/inherit`  |
+| Tokens            | Default value |
+| ----------------- | :-----------: |
+| color             |   `#000000`   |
+| disabledColor     |   `#B1B1B1`   |
+| fontColor         |   `inherit`   |
+| disabledFontColor |   `#B1B1B1`   |
+| focusColor        |   `#005FCC`   |
 
-*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
+\*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
 
 ## Design Specifications
 
@@ -44,19 +45,19 @@ The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner
 
 The radio button must always be pared with text, being able to place the text before or after the radio button.
 
-| Property           | Value|
-|--------------------|------:|
-| Margin right/left  | `15px`|
-| Margin top/bottom  | `10px`|
-| Border thickness   | `2px` |
-| Font size (with text)| `16px` |
-| Font weight        | `Regular` |
+| Property              |     Value |
+| --------------------- | --------: |
+| Margin right/left     |    `15px` |
+| Margin top/bottom     |    `10px` |
+| Border thickness      |     `2px` |
+| Font size (with text) |    `16px` |
+| Font weight           | `Regular` |
 
 ![Radio button specifications](images/radio_specs.png)
 
 Radio buttons may be displayed in a linear fashion or vertically stacked.
 
-*Linear*
+_Linear_
 
 Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize, sometime a vertical position could be better.
 
@@ -64,14 +65,14 @@ In any case, in the specification it is specified the ideal distance between com
 
 ![Radio button linear layout](images/radio_linear.png)
 
-*Stacked*
+_Stacked_
 
-Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read. 
+Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read.
 With this option, try to make one choice per line. Also, avoid nesting whenever is possible, all options should be keep at same level to not generate confusion.
 
 ![Radio button stacked layout](images/radio_stacked.png)
 
-*Use with text*
+_Use with text_
 
 ![Radio with text in different scenarios](images/radio_text.png)
 

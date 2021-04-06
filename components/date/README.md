@@ -22,13 +22,13 @@ The date input should lead the user to interact with it to select a date and giv
 ### Modes
 
 There is only one mode to represent the date that follows the design of the rest inputs. A thin line under the input container with description and labeling, and some animations that activate when the user interacts with the component.
-Modes: __basic__.
+Modes: **basic**.
 
 ![Date modes](images/date_modes.png)
 
 ### States
 
-Six different states are defined in the life cycle of the component: __normal__, __disabled__, __entered__, __selected__, __focused__ and __datepicker focused__.
+Six different states are defined in the life cycle of the component: **normal**, **disabled**, **entered**, **selected**, **focused** and **datepicker focused**.
 
 ![Date states](images/date_states.png)
 
@@ -45,20 +45,22 @@ The user can navigate through the calendar to select the desire date.
 
 Different feedback and outcomes happen when the calendar pop-up is used. To see more information please, open the xd file linked with the date component in this respository.
 
-## Theming and tokens
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| pickerBackgroundColor | `false`     | `#FFFFFF`  |
-| pickerTextColor | `false`     | `#000000`  |
-| pickerActualDate | `false`     | `#EEEEEE`  |
-| pickerSelectedDateBackgroundColor | `true`     | `#000000`  |
-| pickerSelectedDateColor | `true`     | `#6F2C91`  |
-| pickerHoverDateBackgroundColor | `false`     | `0.34 opacity`  |
-| pickerHoverDateTextColor | `false`     | `#000000`  |
+| Tokens                            | Default value |
+| --------------------------------- | ------------: |
+| pickerSelectedDateBackgroundColor |     `#6F2C91` |
+| pickerSelectedDateColor           |     `#FFFFFF` |
+| pickerBackgroundColor             |     `#FFFFFF` |
+| pickerFontColor                   |     `#000000` |
+| pickerActualDate                  |     `#D9D9D9` |
+| pickerHoverDateBackgroundColor    |     `#D0BDDB` |
+| pickerHoverDateFontColor          |     `#000000` |
+| scrollBarThumbColor               |     `#666666` |
+| scrollBarTrackColor               |     `#D9D9D9` |
+| focusColor                        |     `#005FCC` |
 
 The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
-
 
 ### Design Specifications
 
@@ -76,24 +78,24 @@ The thickness of the border should be 1 pixel but in case that the input will be
 Smaller touch points decrease the ease of use of the interface because it is costly for the user to hit the target. To prevent that, the size defined for the date picker icon is 20 pixels by 20 pixels for the desktop version and 44 pixels by 44 pixels for mobile and tablet versions of the application.
 These sizes are including small padding as a touchable safe area so the size of the icon in both cases will be 2 pixels less in wide and tall.
 
-| Property           | Value|
-|--------------------|------:|
-| Margin             | `10px`|
-| Height (default)   | `34px`|
-| Height (selected)  | `51px`|
-| Height (selected + auxiliar text)  | `74px`|
-| Min widht          | `230px` |
-| Border thickness   | `1px/2px` |
-| Font size (with text)| `16px` |
-| Font weight        | `Regular` |
-| Icon size       | `18x18(px)` |
-| Distance between text and underline | `7px` |
+| Property                            |       Value |
+| ----------------------------------- | ----------: |
+| Margin                              |      `10px` |
+| Height (default)                    |      `34px` |
+| Height (selected)                   |      `51px` |
+| Height (selected + auxiliar text)   |      `74px` |
+| Min widht                           |     `230px` |
+| Border thickness                    |   `1px/2px` |
+| Font size (with text)               |      `16px` |
+| Font weight                         |   `Regular` |
+| Icon size                           | `18x18(px)` |
+| Distance between text and underline |       `7px` |
 
 ![Date specifications](images/date_specs.png)
 
 ### Additional modes
 
-For the datepicker as for the input component are additional modes apart from the normal ones. __Required__, __error__ and __assistive text__ are another options to display within the component.
+For the datepicker as for the input component are additional modes apart from the normal ones. **Required**, **error** and **assistive text** are another options to display within the component.
 
 The different modes and states can be combined between them to handle the flow of the component.
 
@@ -103,18 +105,19 @@ The different modes and states can be combined between them to handle the flow o
 
 The majority of the specifications are the same as in Angular Material datepicker component. In the table below is pointed all the relevant information.
 
-| Property           | Value|
-|--------------------|------:|
-| Padding            | `20px`|
-| Height (default)   | `354px`|
-| Widht (default)    | `296px` |
-| Circle size        | `28x28(px)` |
-| Circle thickness   | `1px` |
-| Font weight        | `Regular` |
-| Font size          | `13px` |
+| Property         |       Value |
+| ---------------- | ----------: |
+| Padding          |      `20px` |
+| Height (default) |     `354px` |
+| Widht (default)  |     `296px` |
+| Circle size      | `28x28(px)` |
+| Circle thickness |       `1px` |
+| Font weight      |   `Regular` |
+| Font size        |      `13px` |
 
 ![Date specifications for picker](images/date_picker_specs.png)
 
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7965bd24-3ef3-427d-92de-0d2aac880402/variables/
+

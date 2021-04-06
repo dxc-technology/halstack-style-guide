@@ -6,7 +6,7 @@ The main use of select components is inside a form fill, letting the user select
 ## Appearance
 
 Select is widely recognizable, despite the options are not shown at the first instance, an icon with a down arrow indicates that clicking in the field the list will be visible.
-In the input, the placeholder has defined the attribute that will get the value and when the dropdown is shown, it will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling. 
+In the input, the placeholder has defined the attribute that will get the value and when the dropdown is shown, it will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling.
 
 In case that an option is selected when the dropdown turns visible, it should be at the top of the dropdown whenever this would be possible.
 
@@ -14,31 +14,29 @@ Multiple option selection will get an appearance with a checkbox that indicates 
 
 ### Modes
 
-There is only one mode for the select component: __basic__.
+There is only one mode for the select component: **basic**.
 It looks similar to the other inputs from the design system but in this case, it will always indicate with an arrow icon that there is a list with options that allow the user to selecting one or more options.
 
 ![Select modes](images/select_modes.png)
 
 ## States
 
-Seven states are defined for select component based on the interactions that the user can reproduce. The states are: __normal__, __select with focus__, __select clicked__, __select clicked and option selected__, __select with clicked option and hovered option__, __select animation on click__ and __select input with value__.
+Seven states are defined for select component based on the interactions that the user can reproduce. The states are: **normal**, **select with focus**, **select clicked**, **select clicked and option selected**, **select with clicked option and hovered option**, **select animation on click** and **select input with value**.
 
 ![Select states](images/select_states.png)
 
-## Theming and tokens
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| selectedValueColor | `false` | `#000000`|
-| labelColor   | `false` | `#000000`  |
-| underlinedColor    | `false` | `#000000`  |
-| assistiveTextColor      | `false`| `#000000`  |
-| optionTextColor | `false` | `#000000`  |
-| hoverOptionTextColor    | `false`| `#000000`  |
-| selectedOptionBackgroundColor   | `true`| `#666666`  |
-| selectedOptionTextColor      | `false`| `#000000`  |
-| hoverOptionBackgroundColor   | `false`| `0.34 opacity`  |
-| error         | `false`| `#D0011B`  |
+| Tokens                        | Default value |
+| ----------------------------- | ------------: |
+| selectedOptionBackgroundColor |     `#D9D9D9` |
+| color                         |     `#000000` |
+| hoveredOptionBackgroundColor  |     `#F2F2F2` |
+| error                         |     `#D0011B` |
+| scrollBarThumbColor           |     `#666666` |
+| scrollBarTrackColor           |     `#D9D9D9` |
+| disabledColor                 |     `#B1B1B1` |
+| focusColor                    |     `#005FCC` |
 
 ## Multiple selection
 
@@ -47,36 +45,34 @@ To indicate which items are selected and which not, the design for multiple sele
 
 ![Select multiple option](images/select_multi.png)
 
-
 ## Design Specifications
 
-| Property for single| Value|
-|--------------------|------:|
-| Padding dropdown   | `20px 10px 20px 20px`|
-| Height (default)   | `auto - adapted to the content`|
-| Item padding top/bottom   | `10px`|
-| Font size  | `16px`|
-| Font weight   | `Regular`|
+| Property for single     |                           Value |
+| ----------------------- | ------------------------------: |
+| Padding dropdown        |           `20px 10px 20px 20px` |
+| Height (default)        | `auto - adapted to the content` |
+| Item padding top/bottom |                          `10px` |
+| Font size               |                          `16px` |
+| Font weight             |                       `Regular` |
 
+| Property for multiple   |                 Value |
+| ----------------------- | --------------------: |
+| Padding dropdown        | `10px 15px 20px 15px` |
+| Space chckbox/text      |                `15px` |
+| Item padding top/bottom |                `10px` |
+| Font size               |                `16px` |
+| Font weight             |             `Regular` |
+| Checkbox size           |         `20px x 20px` |
 
-| Property for multiple   | Value|
-|--------------------|------:|
-| Padding dropdown   | `10px 15px 20px 15px`|
-| Space chckbox/text   | `15px`|
-| Item padding top/bottom   | `10px`|
-| Font size  | `16px`|
-| Font weight   | `Regular`|
-| Checkbox size   | `20px x 20px`|
-
-| Property for input   | Value|
-|--------------------|------:|
-| Margin   | `15px`|
-| Space text/underline   | `12px`|
-| Underline thickness   | `1px`|
-| Underline thickness focus  | `2px`|
-| Font size  | `16px`|
-| Font weight   | `Regular`|
-| Icon margin bottom | `20px`|
+| Property for input        |     Value |
+| ------------------------- | --------: |
+| Margin                    |    `15px` |
+| Space text/underline      |    `12px` |
+| Underline thickness       |     `1px` |
+| Underline thickness focus |     `2px` |
+| Font size                 |    `16px` |
+| Font weight               | `Regular` |
+| Icon margin bottom        |    `20px` |
 
 ![Select specifications](images/select_spec.png)
 

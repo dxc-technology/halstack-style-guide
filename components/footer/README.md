@@ -5,6 +5,7 @@ Footers are a secondary element in a web page because they usually appear at the
 ## Appereance
 
 This area can contain a variety of things depending on the application and two approaches are followed to use a footer element.
+
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
@@ -27,30 +28,30 @@ In case that the user of the design systems wanted to add other components in th
 
 ![Footer modes example](images/footer_states.png)
 
-## Theming and tokens
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| logo          | `true`        | `DXC Technology(white)` |
-| backgroundColor      | `true` | `#000000`|
-| textColor      | `true` | `#000000`  |
-| lineColor | `true`     | `#0067B3`  |
+| Tokens          |  Default value   |
+| --------------- | :--------------: |
+| backgroundColor |    `#000000`     |
+| fontColor       |    `#FFFFFF`     |
+| lineColor       |    `#0067B3`     |
+| logo            | `DXC Technology` |
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin left/top/bottom | `20px` |
-| Margin right | `60px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height short version| `120px` |
-| Min. height large version| `240px` |
-| Width| `100%` |
-| Font size (copyright, terms)| `12px` |
-| Font size (links)| `14px` |
-| Font size (section title)| `16px` |
-| Icon size | `20x20px` |
+| Property                     |     Value |
+| ---------------------------- | --------: |
+| Margin left/top/bottom       |    `20px` |
+| Margin right                 |    `60px` |
+| Border Radius                |     `4px` |
+| Border thickness             |     `2px` |
+| Min. height short version    |   `120px` |
+| Min. height large version    |   `240px` |
+| Width                        |    `100%` |
+| Font size (copyright, terms) |    `12px` |
+| Font size (links)            |    `14px` |
+| Font size (section title)    |    `16px` |
+| Icon size                    | `20x20px` |
 
 ![Footer modes example](images/footer_specs.png)
 
@@ -66,7 +67,7 @@ A representation is shown above:
 
 ## Responsive version for mobile and tablet
 
-The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen. 
+The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen.
 
 Regarding his behavior, the footer must be pushed down always so it is not visible by default after page load, even when the content is smaller than the device screen size. This includes the splash screen, which must push the footer down. Of course, if the content is larger than the device screen size, the footer will be pushed down anyway 
 
@@ -84,3 +85,4 @@ At this stage, the custom content and the disposition is responsability of the u
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/3c920e77-d15a-4856-81c4-d9389af085b0/variables/
+

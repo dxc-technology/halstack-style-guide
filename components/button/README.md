@@ -13,7 +13,7 @@ The examples below are using and applying the DXC Technology theme by default.
 ### Modes
 
 We can identify three different modes that imply some visual changes according to color, border or opacity attributes.
-Modes: __primary__, __secondary__, __text button__.
+Modes: **primary**, **secondary**, **text button**.
 
 ![Button modes example](images/button_modes.png)
 
@@ -24,11 +24,11 @@ For taking into consideration, the main background colors for the application wo
 The states are the different behaviors of the button component based on the interaction of the user.
 For the desktop version, we contemplate five different states by which can pass.
 
-States: __default__, __disabled__, __hover__, __active__ and __focus__.  
+States: **default**, **disabled**, **hover**, **active** and **focus**.
 
 ![Button state example](images/button_states.png)
 
-## Theming and tokens
+## Design tokens
 
 For every component, the design system offers a series of properties to customize the look and feel of the component and adapt it to the company branding or to an specific style guide.
 
@@ -36,57 +36,66 @@ These are the tokens that are defined for the component:
 
 #### Primary button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:| 
-| backgroundColor      | `true` | `#6F2C91`|
-| textColor      | `true` | `#FFFFFF`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#FFFFFF`  |
+| Tokens                         | Default value |
+| ------------------------------ | ------------: |
+| primaryBackgroundColor         |     `#6F2C91` |
+| primaryFontColor               |     `#FFFFFF` |
+| primaryHoverBackgroundColor    |     `#000000` |
+| primaryHoverFontColor          |     `#FFFFFF` |
+| primaryActiveBackgroundColor   |     `#676767` |
+| disabledPrimaryBackgroundColor |     `#D0BDDB` |
+| disabledPrimaryFontColor       |     `#FFFFFF` |
+| focusColor                     |     `#005FCC` |
 
 #### Secondary button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor      | `false` | `transparent` |
-| outlinedColor      | `true` | `#6F2C91`  |
-| textColor | `true`     | `#000000`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverOutlinedColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#000000`  |
+| Tokens                         | Default value |
+| ------------------------------ | ------------: |
+| secondaryOutlinedColor         |     `#6F2C91` |
+| secondaryBackgroundColor       | `transparent` |
+| secondaryFontColor             |     `#000000` |
+| hoverOutlinedColor             |     `#000000` |
+| secondaryHoverFontColor        |     `#000000` |
+| secondaryHoverBackgroundColor  |     `#EEEEEE` |
+| secondaryActiveBackgroundColor |     `#DBDBDB` |
+| disabledSecondaryOutlinedColor |     `#D0BDDB` |
+| disabledSecondaryFontColor     |     `#B1B1B1` |
+| focusColor                     |     `#005FCC` |
 
 #### Text button
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor      | `false` | `transparent` |
-| textColor | `true`     | `#6F2C91`  |
-| disabledOpacity | `false`     | `0.34 opacity`  |
-| hoverBackgroundColor | `true`     | `#000000`  |
-| hoverTextColor | `true`     | `#000000`  |
+| Tokens                    | Default value |
+| ------------------------- | ------------: |
+| textBackgroundColor       | `transparent` |
+| textFontColor             |     `#6F2C91` |
+| textHoverBackgroundColor  |     `#000000` |
+| textHoverFontColor        |     `#FFFFFF` |
+| textActiveBackgroundColor |     `#676767` |
+| disabledTextFontColor     |     `#D0BDDB` |
+| focusColor                |     `#005FCC` |
 
 ## Design Specifications
 
 To define the button design specifications, several properties were identified and assigned immutable values ​​that make the component recognizable along applications, independently of the customizable styles given.
 
-With the default theme, the components will get *black*, *yellow* and *white* as main colors.
-To keep the consistency through the design system, the font used is *Open Sans*, which includes all the font variations: Light *(200)*, Regular *(400)*, Semibold *(600)*, Bold *(700)* and Extrabold *(800)*.
+With the default theme, the components will get _black_, _yellow_ and _white_ as main colors.
+To keep the consistency through the design system, the font used is _Open Sans_, which includes all the font variations: Light _(200)_, Regular _(400)_, Semibold _(600)_, Bold _(700)_ and Extrabold _(800)_.
 
 By default the button implements feedback to communicate to the final user what action is taking place according to the laws of good user experience.
 
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `15px` |
-| Padding right/left | `30px` |
-| Padding top/bottom | `12px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `43px` |
-| Min. width| `122px` |
-| Max. width| `420px` |
-| Font size| `14px` |
-| Font weight| `Regular` |
-| Capitalization | `Uppercase` |
+| Property           |       Value |
+| ------------------ | ----------: |
+| Margin             |      `15px` |
+| Padding right/left |      `30px` |
+| Padding top/bottom |      `12px` |
+| Border Radius      |       `4px` |
+| Border thickness   |       `2px` |
+| Min. height        |      `43px` |
+| Min. width         |     `122px` |
+| Max. width         |     `420px` |
+| Font size          |      `14px` |
+| Font weight        |   `Regular` |
+| Capitalization     | `Uppercase` |
 
 ![Button specification](images/button_specs.png)
 
@@ -98,12 +107,11 @@ Any icon can be used in the DXC Design System, so it is apt to the user to choos
 
 Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
 
-*Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
+\*Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 
 ![Button with icon examples](images/button_icon.png)
 
 A button with an icon and no text is also allowed in the design system.
-
 
 ## User Interface Design Considerations
 

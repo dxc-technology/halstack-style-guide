@@ -32,17 +32,17 @@ Some other components defined in the design system are used in the table compone
 
 Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
 
-## Theming
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| headerBackgroundColor       | `true`     | `#000000`  |
-| headerTextColor      | `true`     | `#FFFFFF/inherit`  |
-| separatorColor       | `false`     | `#D9D9D9`  |
-| paginatorBackgroundColor       | `true`     | `#EEEEEE`  |
-| paginatorTextColor       | `true`     | `#000000`  |
-| bodyBackgroundColor       | `false`     | `#FFFFFF`  |
-| bodyTextColor       | `false`     | `#000000`  |
+| Tokens                | Default value |
+| --------------------- | :-----------: |
+| headerBackgroundColor |   `#6F2C91`   |
+| headerFontColor       |   `#FFFFFF`   |
+| separatorColor        |   `#D9D9D9`   |
+| bodyBackgroundColor   |   `#FFFFFF`   |
+| bodyFontColor         |   `#000000`   |
+| scrollBarThumbColor   |   `#666666`   |
+| scrollBarTrackColor   |   `#D9D9D9`   |
 
 ## Design Specifications
 

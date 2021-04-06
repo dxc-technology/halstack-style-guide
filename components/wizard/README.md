@@ -4,15 +4,14 @@ Wizard represents a stepped workflow as a form of linear and mandatory progressi
 
 ## Appereance
 
-
 ### Modes
 
-The basic modes defined for this component are two based on the display of the information. 
+The basic modes defined for this component are two based on the display of the information.
 An horizontal mode where the stepper element will be at the top of the container followed in the y-axis by the content of each step and at the bottom of the container the actionable elements will be displayed.
 
 Another approach but less used is the vertical variation that will show the stepper in a vertical direction at the far left of the screen, next to the content of each step. Again, at the bottom of the component there will be room for the buttons to navigate between the steps.
 
-Modes: __horizontal__ and __vertical__.
+Modes: **horizontal** and **vertical**.
 
 Keeping talk about the modes, there is another distinction to mention in this part that is related with the content of the steps.
 Regarding the content of the step it can be formed by different information:
@@ -26,13 +25,12 @@ Regarding the content of the step it can be formed by different information:
 
 ### States
 
-The several states of the wizard component are based on the actual and the previous status of the different steps that are conformed within the component. 
-If the step is selected it will have a visual cue that will indicate that the user is in that specific step in that moment (normally represented with a yellow color). 
+The several states of the wizard component are based on the actual and the previous status of the different steps that are conformed within the component.
+If the step is selected it will have a visual cue that will indicate that the user is in that specific step in that moment (normally represented with a yellow color).
 In case that a previous step was visited before to jump to a new one, another look will represent that state (an outlined representation of the step).
 When the steps are disabled, there will be an intermediate state representation with a grey scale.
 
-
-States: __selected__, __default__ and __disabled__.
+States: **selected**, **default** and **disabled**.
 
 ![States of the wizard in the different interactions](images/wizard_states.png)
 
@@ -43,17 +41,17 @@ For that case, a validation mark can be represented in every step once the user 
 
 ![States of the wizard in the different interactions](images/wizard_validation.png)
 
-## Theming
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| selectedBackgroundColor    | `true` | `#6F2C91` |
-| selectedText    | `true` | `#000000` |
-| borderColor    | `true` | `#000000` |
-| textColor    | `false` | `#000000/inherit` |
-| lineColor    | `false` | `#D9D9D9` |
-| disabledBackground    | `false` | `#EEEEEE` |
-| disabledText   | `false` | `0.34 opacity` |
+| Tokens                  | Default value |
+| ----------------------- | ------------: |
+| selectedBackgroundColor |     `#6F2C91` |
+| selectedFont            |     `#FFFFFF` |
+| borderColor             |     `#000000` |
+| fontColor               |     `inherit` |
+| lineColor               |     `#D9D9D9` |
+| disabledBackground      |     `#D9D9D9` |
+| disabledFont            |     `#666666` |
 
 ## Design Specifications
 
@@ -67,3 +65,4 @@ Since this component has many specifications to be detailed here, the best way t
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/variables/
+

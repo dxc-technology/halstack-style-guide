@@ -1,6 +1,6 @@
 ## Overview
 
-Accordions are components that can show/hide alternate groups of data within separate panels. Each panel is a container component that displays a group of related data in horizontal or vertical stacks. 
+Accordions are components that can show/hide alternate groups of data within separate panels. Each panel is a container component that displays a group of related data in horizontal or vertical stacks.
 
 Each component has its titled bar tab that, when clicked, opens the content of the panel. Accordions visually control the amount of relevant data per panel as well as the amount of data displayed in the viewport, reducing the demand for excessive vertical scrolling.
 
@@ -19,53 +19,50 @@ There is only one mode available for the accordion component which works in all 
 ### States
 
 The accordion component can get four different states based on user interaction.
-States: __normal__, __hover__, __disabled__, __open__.
+States: **normal**, **hover**, **disabled**, **open**.
 ![Accordion states example](images/accordion_states.png)
 
 ## Theming
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| backgroundColor | `false`     | `#FFFFFF`  |
-| textColor | `false`     | `#666666`  |
-| hoverTextColor | `false`     | `#000000`  |
-| arrowColor | `true`     | `#666666`  |
-| hoverBackgroundColor | `false`     | `0.34 opacity`  |
-| disabled | `false`     | `0.34 opacity`  |
+| Tokens               | Default value |
+| -------------------- | :-----------: |
+| backgroundColor      |   `#FFFFFF`   |
+| fontColor            |   `#666666`   |
+| arrowColor           |   `#6F2C91`   |
+| hoverBackgroundColor |   `#F5EBF9`   |
+| disabledFontColor    |   `#BFBFBF`   |
+| focusOutline         |   `#6F2C91`   |
 
 The hover background color for the trigger of the accordion is calculated from the color defined for the arrow icon.
-
 
 ## Design Specifications
 
 Accordion specifications with the content hidden.
 
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `1px` |
-| Padding right/left | `30px` |
-| Padding top/bottom | `20px` |
-| Border Radius | `4px` |
-| Border thickness (outside)| `2px` |
-| Separator | `1px` |
-| Min. height| `72px` |
-| Min. width| `280px` |
-| Max. width| `100%` |
-| Font size| `16px` |
-| Font weight| `Regular` |
-
+| Property                   |     Value |
+| -------------------------- | --------: |
+| Margin                     |     `1px` |
+| Padding right/left         |    `30px` |
+| Padding top/bottom         |    `20px` |
+| Border Radius              |     `4px` |
+| Border thickness (outside) |     `2px` |
+| Separator                  |     `1px` |
+| Min. height                |    `72px` |
+| Min. width                 |   `280px` |
+| Max. width                 |    `100%` |
+| Font size                  |    `16px` |
+| Font weight                | `Regular` |
 
 Specifications for the content within the accordion.
 
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `1px` |
-| Padding           | `30px` |
-| Height            | `According to the content` |
-| Widht             | `The same as the trigger` |
+| Property |                      Value |
+| -------- | -------------------------: |
+| Margin   |                      `1px` |
+| Padding  |                     `30px` |
+| Height   | `According to the content` |
+| Widht    |  `The same as the trigger` |
 
 ![Accordion states example](images/accordion_specs.png)
-
 
 ## Responsive version
 
@@ -75,7 +72,6 @@ The minimum width of the component (280px) fits well in small devices.
 The hover action isn't allowed on touchable screens, so it will be replaced by the tap action.
 
 ![Accordion responsive version](images/accordion_responsive.png)
-
 
 ### User Interface Design Considerations
 

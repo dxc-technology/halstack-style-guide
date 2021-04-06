@@ -22,9 +22,9 @@ There are several scenarios where the use of heading is just right when we are t
 
 Apart from that, many of the design system components are making use of headings in their implementation (e.g., card, dialog, sidenav and so on). 
 
-## Theming
+## Design tokens
 
-An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific theaming for this component.
+An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific tokens for this component.
 
 ## Design Specifications
 

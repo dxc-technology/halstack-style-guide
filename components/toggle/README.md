@@ -20,7 +20,7 @@ Different states are defined in the life cycle of the component:
 __Normal__, __selected__, __unselected__, __disabled__ and __clicked__.
 
 
-## Theming
+## Design tokens
 
 ### Light theme
 

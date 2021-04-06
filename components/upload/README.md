@@ -46,7 +46,7 @@ Modes for the component: __single__ and __multiple__.
 
 ![Upload after cliclinkg the upload button with an alert reporting the state](images/upload_alert.png)
 
-## Theming and tokens
+## Design tokens
 
 Cannot be possible to configure or customize any parameter of the component to apply a theming.
 

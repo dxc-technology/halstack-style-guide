@@ -17,38 +17,42 @@ A label can be linked with the component to indicate what action will perform wh
 
 Two main modes are represented within the component.
 
-Modes: __on__ and __off__.
+Modes: **on** and **off**.
 
 ![Switch modes](images/switch_modes.png)
 
 ## States
 
-Five different states are defined in the life cycle of the component: __normal__, __disabled__, __hovered__ and __focused__.
+Five different states are defined in the life cycle of the component: **normal**, **disabled**, **hovered** and **focused**.
 
 ![Switch modes](images/switch_states.png)
 
-## Theming and tokens
+## Design tokens
 
-| Tokens        | Themable      | Default value |
-| ------------- |:-------------:| -------------:|
-| checkedTrackBackgroundColor      | `true` | `#666666` |
-| checkedthumbBackgroundColor | `false`     | `#FFFFFF`  |
-| uncheckedthumbBackgroundColor | `false`     | `#FFFFFF`  |
-| uncheckedtrackBackgroundColor | `false`     | `#D9D9D9`  |
-| disabled | `false`     | `0.34 opacity`  |
+| Tokens                                | Default value |
+| ------------------------------------- | ------------: |
+| checkedTrackBackgroundColor           |     `#6F2C91` |
+| disabledCheckedTrackBackgroundColor   |     `#D0BDDB` |
+| checkedthumbBackgroundColor           |     `#FFFFFF` |
+| uncheckedThumbBackgroundColor         |     `#FFFFFF` |
+| uncheckedTrackBackgroundColor         |     `#D9D9D9` |
+| disabledUncheckedTrackBackgroundColor |     `#F2F2F2` |
+| fontColor                             |     `#000000` |
+| disabledFontColor                     |     `#B1B1B1` |
+| focusColor                            |     `#005FCC` |
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin right/left  | `15px`|
-| Margin top/bottom  | `10px`|
-| Switch bar         | `44px` |
-| Text margin no switch side | `15px` |
-| Focused ripple       | `42 x 42px` |
-| Font size (with text)| `16px` |
-| Font weight        | `Regular` |
-| Switch button shape| `y:1, blur:3` | 
+| Property                   |         Value |
+| -------------------------- | ------------: |
+| Margin right/left          |        `15px` |
+| Margin top/bottom          |        `10px` |
+| Switch bar                 |        `44px` |
+| Text margin no switch side |        `15px` |
+| Focused ripple             |   `42 x 42px` |
+| Font size (with text)      |        `16px` |
+| Font weight                |     `Regular` |
+| Switch button shape        | `y:1, blur:3` |
 
 Schematics examples for the switch toggle component with all the variations.
 
@@ -56,13 +60,13 @@ Schematics examples for the switch toggle component with all the variations.
 
 In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
 
-*Linear*  
+_Linear_
 
 The text should have a margin of 15 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
 
 ![Switch linear structure](images/switch_linear.png)
 
-*Stacked*  
+_Stacked_
 
 The spacing between stacked switches should be 20 pixels that is determining by the top/bottom margin of the switch component itself.
 
@@ -71,8 +75,9 @@ The spacing between stacked switches should be 20 pixels that is determining by 
 ## User Interface Design Considerations
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
-- Try to present your lists vertically, with one choice per line. 
+- Try to present your lists vertically, with one choice per line.
 
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/c3026d48-f954-4978-91e4-05d323ee078c/variables/
+
