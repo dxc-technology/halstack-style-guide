@@ -28,9 +28,18 @@ We have our components available for the following technologies:
 
 We are currently working in an Adobe Creative Cloud (CC) public library. Until it is finished download the file and use it as a sticker sheet.
 
+**UI-Kit best practices**
+
+Open the UI-Kit XD document and [publish the library](https://www.adobe.com/products/xd/learn/design-systems/cloud-libraries/best-practices-creative-cloud-libraries.html) in order to reuse our colors, characther styles and components through all your design files.
+
+**Font family**
+
 The font family used in Halstack UI-Kit is Open Sans. This font is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) and free to download from [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom).
 
+**Previous releases**
+
 Previous releases of the Halstack UI-Kit can be found [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/previous-releases)
+
 
 ## Documentation
 
