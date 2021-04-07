@@ -79,7 +79,7 @@ At this stage, the custom content and the disposition is responsability of the u
 - The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
 - The footer frame should span the entire screen width.
 - The footer frame should display the copyright information at the right margin.
-- We recommend to upload a smaller logo than the header. If the company has a minimal logo in their branding, they should use it. If not, just a smaller version of the main logo.
+- We recommend uploading either an alternate version or a smaller brand image than the used in the header. If the company has an alternate version of the logo, isotype, imagotype or isologo available, we encourage to use it. In the opposite case a smaller version of the main brand image can be used.
 
 
 ## Links and references
