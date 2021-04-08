@@ -21,7 +21,7 @@ We have our components available for the following technologies:
 ## Getting started
 
 - The UI-Kit requires having the latest version of XD installed.
-- Download the latest version of the Halstack UI-Kit from [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/ui-kit).
+- Download the latest version of the Halstack UI-Kit from [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit).
 - Use the components and core visual styles to build out your design.
 
 ## UI-Kit
