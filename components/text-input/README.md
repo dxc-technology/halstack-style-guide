@@ -93,4 +93,5 @@ The specifications for the required input follows the same guide that a normal i
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/variables/
+

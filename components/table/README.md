@@ -114,4 +114,4 @@ With this approach the table also has a paginator and every row could have their
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/64333c08-0b79-4652-be10-f55646433e73/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/64333c08-0b79-4652-be10-f55646433e73/variables/

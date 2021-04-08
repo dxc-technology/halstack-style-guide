@@ -1,6 +1,6 @@
 ## Overview
 
-Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application, it is a key element to the overall experience.
+Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application and be part of it (consumer or back-office) as it is a key layout element to the overall experience. Is a choice of the designer to either leave the footer visible by default or push it down, depending on the use case.
 
 ## Appereance
 
@@ -69,6 +69,8 @@ A representation is shown above:
 
 The same content in the footer will be displayed for the responsive versions and the only modification will be the width of it. With less space available to display the content, some of the items will be relocated to fit well in the screen.
 
+Regarding his behavior, the footer must be pushed down always so it is not visible by default after page load, even when the content is smaller than the device screen size. This includes the splash screen, which must push the footer down. Of course, if the content is larger than the device screen size, the footer will be pushed down anyway 
+
 On the mobile version, first we have the logo, the links and the separator line that will extendt all the width of the container. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
 At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
 
@@ -77,7 +79,10 @@ At this stage, the custom content and the disposition is responsability of the u
 - The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
 - The footer frame should span the entire screen width.
 - The footer frame should display the copyright information at the right margin.
+- We recommend uploading either an alternate version or a smaller brand image than the used in the header. If the company has an alternate version of the logo, isotype, imagotype or isologo available, we encourage to use it. In the opposite case a smaller version of the main brand image can be used.
+
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/3c920e77-d15a-4856-81c4-d9389af085b0/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/3c920e77-d15a-4856-81c4-d9389af085b0/variables/
+

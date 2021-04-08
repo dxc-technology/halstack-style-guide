@@ -59,4 +59,5 @@ The specifications of the component are mix with the ones from the input field a
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a39d0282-0329-434e-a69c-8b32644f92cc
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/736b626a-87bb-42f4-8871-64701de74177/variables/
+

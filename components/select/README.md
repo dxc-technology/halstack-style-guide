@@ -94,4 +94,5 @@ Multiple selection dropdown
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/variables/
+

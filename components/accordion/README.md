@@ -80,4 +80,4 @@ The hover action isn't allowed on touchable screens, so it will be replaced by t
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a39d0282-0329-434e-a69c-8b32644f92cc
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/a39d0282-0329-434e-a69c-8b32644f92cc/variables/

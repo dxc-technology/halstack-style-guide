@@ -151,4 +151,5 @@ In the case that there is an error with an input field, the action to take is th
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/variables/
+

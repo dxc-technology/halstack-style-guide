@@ -75,4 +75,4 @@ Specifications for tablet version (screen size between 480 pixels and 768 pixels
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/a81232d7-eb9e-4bff-945f-d021ee5ebf53/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/variables/

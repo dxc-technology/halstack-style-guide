@@ -99,4 +99,5 @@ This version of the component is very useful when there is a lot of information 
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/87d86792-74b6-4cc0-8806-e5b5302af2f8/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/87d86792-74b6-4cc0-8806-e5b5302af2f8/variables/
+

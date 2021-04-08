@@ -79,4 +79,5 @@ The spacing between stacked switches should be 20 pixels that is determining by 
 
 ## Links and references
 
-- https://xd.adobe.com/view/afb409f4-884d-4236-6cf2-4766bee75b52-d985/screen/c3026d48-f954-4978-91e4-05d323ee078c/
+- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/c3026d48-f954-4978-91e4-05d323ee078c/variables/
+
