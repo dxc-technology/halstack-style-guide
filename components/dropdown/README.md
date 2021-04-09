@@ -50,26 +50,65 @@ The dropdown itself cannot be configured, the component only allows the configur
 
 ## Design Specifications
 
-| Property for dropdown (hidden) |         Value |
-| ------------------------------ | ------------: |
-| Margin                         |        `15px` |
-| Min width                      |       `230px` |
-| Min height                     |        `46px` |
-| Border radius                  |         `2px` |
-| Line thickness                 |         `2px` |
-| Padding left/right             |   `18px/13px` |
-| Padding top/bottom             |   `10px/10px` |
-| Font weight                    |     `Regular` |
-| Icon size                      | `20px x 20px` |
+**Width**
 
-| Property for dropdown (shown) |  Value |
-| ----------------------------- | -----: |
-| Margin                        | `15px` |
-| Border top                    |  `2px` |
-| Border radius bottom          |  `2px` |
+width | Value
+-- | --
+`small` | 60px
+`medium` | 240px
+`large` | 480px
+`fitContent` | -
+`fillParent` | -
+
+**Margin**
+
+margin | Value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` | 24px
+`medium` | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+**Padding**
+
+Default dropdown `padding` values
+
+| Padding left/right             |   `20px/15px` |
+-- | --
+| Padding top/bottom             |   `10px/10px` |
+
+Dropdown displayed list elements `padding` values
+
 | Options padding top/bottom    | `10px` |
+-- | --
 | Options padding left/right    | `20px` |
 | Last option padding bottom    | `20px` |
+
+**Border-radius**
+
+Default dropdown & displayed list options container `border-radius` value
+
+Border radius                  |         `2px` |
+-- | --
+
+**Font-weight**
+
+Dropdown label & list options `font-weight` value
+
+Font weight                    |     `Regular` |
+-- | --
+
+**Icon-size**
+
+Default dropdown & displayed `icon-size` value
+
+Icon size                      | `20px x 20px` |
+-- | --
+
+
 
 ![Dropdown specifications](images/dropdown_specs.png)
 
