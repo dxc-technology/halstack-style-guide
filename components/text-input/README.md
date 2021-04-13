@@ -66,7 +66,6 @@ The aspects that text area is not including respecting text input are:
 | Distance between text and underline            |      `12px` |
 | Icon margin right side                         |       `6px` |
 | Distance between text and underline (animated) |       `6px` |
-| Assistive text margin top                      |       `6px` |
 
 ![Specifications for input component](images/input_specs.png)
 
@@ -81,6 +80,31 @@ Here are the different representations of a required field:
 ![Type required in input texts](images/input_required.png)
 
 The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
+
+### Helper text
+
+Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
+
+**Usage**
+
+Do:
+
+* Keep helper text as short and specific as possible.
+* Only use helper text when truly necessary to avoid overloading the user.
+* Should give an example or an explanation of the field
+
+Don’t:
+
+* Helper text should not run longer than the input area.
+
+**Specs**
+
+| Property | Element | Token | Value |
+| :---         |     :---     |          :--- |         :--- |
+| `margin-top`  | `input-helper-text`    |     | 6px 
+| `font-size`  | `input-helper-text`    |  `Hal-Caption`   | 12px 
+| `font-family`  | `input-helper-text`    |  `font-family-sans`   | Open Sans 
+| `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
 
 ### User Interface Design Considerations
 
