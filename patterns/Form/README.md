@@ -90,6 +90,7 @@ Use a primary button for the main action, a secondary button for secondary actio
 | Right-aligned | Multistep forms/wizards when the primary action implies a navigation step forward | 
 | Center-aligned | All forms that are presented in dialogs | 
 
+
 ## Disabling vs hiding fields
 
 The user goal when interacting with a form should be taken into account when deciding whether a field needs to be disabled or hidden from the interface.
@@ -110,6 +111,10 @@ Hide a field if a user doesn’t need disclosure or access to an item.
 * Hiding fields allows for progressive disclosure. 
 
 For example, as the user enters data in a form or makes a selection, more fields may be displayed or hidden, but the user only has to focus on the necessary fields to complete a task.
+
+## Helping users 
+
+Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text. More information can be found in the [helper text section](components/text-input/README.md) of the `text-input` component.
 
 ## Layout
 
