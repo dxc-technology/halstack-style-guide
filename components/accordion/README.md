@@ -1,83 +1,76 @@
-## Overview
+# Overview
 
-Accordions are components that can show/hide alternate groups of data within separate panels. Each panel is a container component that displays a group of related data in horizontal or vertical stacks.
+Accordions are used to group similar content and hide or show it depending on user needs or preferences. Accordions give users more granular control over the interface and help digest content in stages, rather than all at once.
 
-Each component has its titled bar tab that, when clicked, opens the content of the panel. Accordions visually control the amount of relevant data per panel as well as the amount of data displayed in the viewport, reducing the demand for excessive vertical scrolling.
+![image](https://user-images.githubusercontent.com/44420072/114667152-6a5ceb00-9cff-11eb-8d7a-bbe98463d0b9.png)
 
-## Appereance
 
-An accordion trigger is always paired with a label that describes the content that can be found inside the accordion and an arrow that indicates that clicking there some action will take place.
+# Usage
 
-The concept of an accordion is not more than a container of information, so the content inside the accordion will rely on the responsibility of the implementation. It can contain other components, images, tables, and every custom feature that can be supported inside the element container.
+The accordion component delivers large amounts of content in a small space through progressive disclosure.
 
-### Modes
+## Do’s
 
-There is only one mode available for the accordion component which works in all the possible scenarios.
+* Displaying and grouping additional information.
+* To shorten pages and reduce scrolling when content is not crucial to read in full.
+* Adding granular control over the information on a given page.
 
-![Accordion modes example](images/accordion_modes.png)
+## Dont’s
 
-### States
+* When most of the content on the page is needed to answer user questions.
+* To display a list of clickable options, dropdown should be used instead.
+* Displaying critical system information or a primary action to be taken on the page. (for example, alerts, confirmation or cancellation buttons).
 
-The accordion component can get four different states based on user interaction.
-States: **normal**, **hover**, **disabled**, **open**.
-![Accordion states example](images/accordion_states.png)
+# States
 
-## Theming
+The accordion header can get four different states based on user interaction. States: enabled, hover, focus and disabled
 
-| Tokens               | Default value |
-| -------------------- | :-----------: |
-| backgroundColor      |   `#FFFFFF`   |
-| fontColor            |   `#666666`   |
-| arrowColor           |   `#6F2C91`   |
-| hoverBackgroundColor |   `#F5EBF9`   |
-| disabledFontColor    |   `#BFBFBF`   |
-| focusOutline         |   `#6F2C91`   |
+![image](https://user-images.githubusercontent.com/44420072/114667271-90828b00-9cff-11eb-971a-b3aa87544300.png)
 
-The hover background color for the trigger of the accordion is calculated from the color defined for the arrow icon.
 
-## Design Specifications
+# Formatting
 
-Accordion specifications with the content hidden.
+## Anatomy
 
-| Property                   |     Value |
-| -------------------------- | --------: |
-| Margin                     |     `1px` |
-| Padding right/left         |    `30px` |
-| Padding top/bottom         |    `20px` |
-| Border Radius              |     `4px` |
-| Border thickness (outside) |     `2px` |
-| Separator                  |     `1px` |
-| Min. height                |    `72px` |
-| Min. width                 |   `280px` |
-| Max. width                 |    `100%` |
-| Font size                  |    `16px` |
-| Font weight                | `Regular` |
+![image](https://user-images.githubusercontent.com/44420072/114667360-af811d00-9cff-11eb-91cf-96c8483d036b.png)
 
-Specifications for the content within the accordion.
+1. Header
+2. Active icon (Optional)
+3. Active text label 
+4. Additional information
+5. Caret icon for Expand/collapse
+6. Expanded panel
 
-| Property |                      Value |
-| -------- | -------------------------: |
-| Margin   |                      `1px` |
-| Padding  |                     `30px` |
-| Height   | `According to the content` |
-| Widht    |  `The same as the trigger` |
+## Placement and alignment
 
-![Accordion states example](images/accordion_specs.png)
+**Placement**
 
-## Responsive version
+Accordions can be placed with main page content or placed inside of a container such as a side panel or tile.
 
-The modes, states, and actions for a responsive version are the same that the ones used in the desktop version. The only difference is the size of the accordion that will fit the device in which this will be displayed.
-The minimum width of the component (280px) fits well in small devices.
+![image](https://user-images.githubusercontent.com/44420072/114667774-30401900-9d00-11eb-90fe-9dec668bfe04.png)
 
-The hover action isn't allowed on touchable screens, so it will be replaced by the tap action.
+**Alignment**
 
-![Accordion responsive version](images/accordion_responsive.png)
+By default the chevron icon is placed on the end side of the header. This allows for the title on the start side to align with other type elements in the layout.
 
-### User Interface Design Considerations
+![image](https://user-images.githubusercontent.com/44420072/114667928-6087b780-9d00-11eb-8ef9-537093e41503.png)
 
-- Consider using accordions to decrease scroll, placing information inside of each section following the guidelines detailed in the design system for each component
-- Make a cohesive relation between accordions, establishing a hierarchy, a series of steps or topics related in the same group of accordions
+## Behavior and interaction
 
-## Links and references
+The accordion component has two main states: collapsed and expanded. The chevron icon at the end of the accordion indicates which state the accordion is in. Accordions begin by default in the collapsed state with all content panels closed. Starting in a collapsed state gives the user a high level overview of the available information.
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/a39d0282-0329-434e-a69c-8b32644f92cc/variables/
+* Trigger collapsed and expanded states when clicking on either the header or icon.
+* Use icons and animation to easily reflect collapsed and expanded states.
+* Use a chevron icon to indicate the expand/collapse behavior.
+     * When the panel expands, the chevron icon rotates 180 degrees counterclockwise.
+     * When the panel collapses, the chevron icon rotates 180 degrees clockwise.
+
+![image](https://user-images.githubusercontent.com/44420072/114668145-ab093400-9d00-11eb-9d98-9873cfdb5c55.png)
+
+_Examples of collapsed vs expanded accordions._
+
+![image](https://user-images.githubusercontent.com/44420072/114668488-1a7f2380-9d01-11eb-8983-4f31ca9e8b4b.png)
+
+_**Do**: Trigger collapsed and expanded states when clicking on either 
+the header or icon. / **Don't**: Leave the header without caret or use a button to trigger 
+the expand/collapse action._
