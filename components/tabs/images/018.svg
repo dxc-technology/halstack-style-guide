@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1147" height="366" viewBox="0 0 1147 366">
+  <defs>
+    <filter id="Rectangle_2215" x="151" y="105" width="546" height="261" filterUnits="userSpaceOnUse">
+      <feOffset dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2216" x="694" y="105" width="299" height="261" filterUnits="userSpaceOnUse">
+      <feOffset dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4104" data-name="Group 4104" transform="translate(-386 -7079)">
+    <g id="Group_3997" data-name="Group 3997" transform="translate(-2)">
+      <g id="Group_3590" data-name="Group 3590" transform="translate(388 7079)">
+        <rect id="Rectangle_1842" data-name="Rectangle 1842" width="1147" height="360" fill="#fafafa"/>
+      </g>
+      <rect id="Rectangle_2213" data-name="Rectangle 2213" width="872" height="332" transform="translate(524 7107)" fill="#ccc"/>
+      <rect id="Rectangle_2214" data-name="Rectangle 2214" width="872" height="22" transform="translate(524 7107)" fill="#6f2c91"/>
+      <g id="Group_3592" data-name="Group 3592" transform="translate(388 7080)">
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="9" cy="9" r="9" transform="translate(11 17)" fill="#fff"/>
+        <rect id="Rectangle_1837" data-name="Rectangle 1837" width="1146" height="6" fill="#d0011b"/>
+        <g id="cancel-24px" transform="translate(8 14)">
+          <path id="Path_985" data-name="Path 985" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_986" data-name="Path 986" d="M12,2A10,10,0,1,0,22,12,9.991,9.991,0,0,0,12,2Zm5,13.59L15.59,17,12,13.41,8.41,17,7,15.59,10.59,12,7,8.41,8.41,7,12,10.59,15.59,7,17,8.41,13.41,12l1.013,1.013Z" fill="#d0011b"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 388, 7079)" filter="url(#Rectangle_2215)">
+        <rect id="Rectangle_2215-2" data-name="Rectangle 2215" width="528" height="243" transform="translate(160 117)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 388, 7079)" filter="url(#Rectangle_2216)">
+        <rect id="Rectangle_2216-2" data-name="Rectangle 2216" width="281" height="243" transform="translate(703 117)" fill="#fff"/>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48" transform="translate(524 7129)">
+        <rect id="Tabs-container" width="872" height="48" fill="#fff"/>
+        <line id="Divider" x1="872" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab3" transform="translate(172)">
+          <rect id="Tab-container" width="176" height="48" transform="translate(352)" fill="none"/>
+          <text id="Label" transform="translate(440 30.49)" fill="#5c5c5c" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 3</tspan></text>
+        </g>
+        <g id="Tab2" transform="translate(172)">
+          <rect id="Tab-container-2" data-name="Tab-container" width="176" height="48" transform="translate(176)" fill="none"/>
+          <text id="Label-2" data-name="Label" transform="translate(264.117 30)" fill="#5c5c5c" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 2</tspan></text>
+        </g>
+        <g id="Tab1" transform="translate(172)">
+          <rect id="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <rect id="Tab-container-3" data-name="Tab-container" width="176" height="48" fill="none"/>
+          <text id="Label-3" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <rect id="Rectangle_2217" data-name="Rectangle 2217" width="296" height="16" transform="translate(578 7281)" fill="#f2f2f2"/>
+      <rect id="Rectangle_2218" data-name="Rectangle 2218" width="258" height="16" transform="translate(578 7306)" fill="#f2f2f2"/>
+      <rect id="Rectangle_2220" data-name="Rectangle 2220" width="221" height="16" transform="translate(617 7423)" fill="#f2f2f2"/>
+      <g id="Rectangle_2221" data-name="Rectangle 2221" transform="translate(578 7346)" fill="none" stroke="#f2f2f2" stroke-width="1">
+        <path d="M8,0H498a0,0,0,0,1,0,0V53a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" stroke="none"/>
+        <path d="M8,.5H497a.5.5,0,0,1,.5.5V52a.5.5,0,0,1-.5.5H8A7.5,7.5,0,0,1,.5,45V8A7.5,7.5,0,0,1,8,.5Z" fill="none"/>
+      </g>
+      <g id="Ellipse_443" data-name="Ellipse 443" transform="translate(578 7423)" fill="#fff" stroke="#bfbfbf" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_444" data-name="Ellipse 444" cx="5" cy="5" r="5" transform="translate(581 7426)" fill="#bfbfbf"/>
+      <text id="_Text_H6_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / H6 / Selected / On Surface / High Emphasis / Left" transform="translate(578 7251)" fill="#bfbfbf" font-size="20" font-family="OpenSans, Open Sans" letter-spacing="0.013em"><tspan x="0" y="0">Panel affected by tabs</tspan></text>
+      <rect id="Rectangle_2222" data-name="Rectangle 2222" width="145" height="24" transform="translate(1115 7236)" fill="#d9d9d9"/>
+      <rect id="Rectangle_2223" data-name="Rectangle 2223" width="233" height="16" transform="translate(1115 7279)" fill="#f2f2f2"/>
+      <rect id="Rectangle_2224" data-name="Rectangle 2224" width="176" height="16" transform="translate(1115 7304)" fill="#f2f2f2"/>
+      <rect id="Rectangle_2225" data-name="Rectangle 2225" width="204" height="16" transform="translate(1115 7377)" fill="#f2f2f2"/>
+    </g>
+  </g>
+</svg>

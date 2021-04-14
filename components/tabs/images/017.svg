@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1149" height="195" viewBox="0 0 1149 195">
+  <g id="Group_4103" data-name="Group 4103" transform="translate(-386 -6505)">
+    <g id="Group_3996" data-name="Group 3996">
+      <g id="Group_3638" data-name="Group 3638" transform="translate(-184 4086)">
+        <rect id="Rectangle_1842" data-name="Rectangle 1842" width="1149" height="195" transform="translate(570 2419)" fill="#fafafa" opacity="0.521"/>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48" transform="translate(529 6579)">
+        <rect id="Tabs-container" width="528" height="48" fill="#fff"/>
+        <line id="Divider" x1="528" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab3">
+          <rect id="Tab-container" width="176" height="48" transform="translate(352)" fill="none"/>
+          <text id="Label" transform="translate(440 30.49)" fill="#5c5c5c" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 3</tspan></text>
+        </g>
+        <g id="Tab2">
+          <rect id="Tab-container-2" data-name="Tab-container" width="176" height="48" transform="translate(176)" fill="none"/>
+          <text id="Label-2" data-name="Label" transform="translate(264.117 30)" fill="#5c5c5c" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 2</tspan></text>
+        </g>
+        <g id="Tab1">
+          <rect id="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <rect id="Tab-container-3" data-name="Tab-container" width="176" height="48" fill="none"/>
+          <text id="Label-3" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+        <g id="Scroll-icon" transform="translate(492 12)">
+          <path id="Path_2857" data-name="Path 2857" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2858" data-name="Path 2858" d="M8.59,16.59,13.17,12,8.59,7.41,10,6l6,6-6,6Z" fill="#666"/>
+        </g>
+      </g>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1119 6609)" fill="#0095ff" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.031em"><tspan x="0" y="0">Open Sans Semibold 16px</tspan></text>
+      <line id="Line_1443" data-name="Line 1443" x2="740" transform="translate(589.5 6614.5)" fill="none" stroke="#1682ff" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>
