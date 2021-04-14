@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562" height="355" viewBox="0 0 562 355">
+  <defs>
+    <filter id="Shadow_04dp" x="86" y="100" width="390" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Shadow_04dp-2" x="86" y="180" width="390" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4123" data-name="Group 4123" transform="translate(-973 -4526)">
+    <g id="Group_3575" data-name="Group 3575" transform="translate(973 4526)">
+      <rect id="Rectangle_1842" data-name="Rectangle 1842" width="562" height="355" fill="#fafafa" opacity="0.521"/>
+    </g>
+    <circle id="Ellipse_432" data-name="Ellipse 432" cx="9" cy="9" r="9" transform="translate(984 4543)" fill="#fff"/>
+    <rect id="Rectangle_1951" data-name="Rectangle 1951" width="561.51" height="6" transform="translate(973 4526)" fill="#d0011b"/>
+    <g id="cancel-24px" transform="translate(981 4540)">
+      <path id="Path_985" data-name="Path 985" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_986" data-name="Path 986" d="M12,2A10,10,0,1,0,22,12,9.991,9.991,0,0,0,12,2Zm5,13.59L15.59,17,12,13.41,8.41,17,7,15.59,10.59,12,7,8.41,8.41,7,12,10.59,15.59,7,17,8.41,13.41,12l1.013,1.013Z" fill="#d0011b"/>
+    </g>
+    <g id="Group_3705" data-name="Group 3705" transform="translate(271 -3814)">
+      <g id="Group_3701" data-name="Group 3701" transform="translate(803.042 8449)">
+        <g id="Shadow_04dp-3" data-name="Shadow / 04dp" transform="translate(-0.042)">
+          <g transform="matrix(1, 0, 0, 1, -101, -109)" filter="url(#Shadow_04dp)">
+            <rect id="Shadow_04dp-4" data-name="Shadow / 04dp" width="360" height="48" rx="4" transform="translate(101 109)" fill="#fff"/>
+          </g>
+        </g>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(23.958 30)" fill="#666" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+      </g>
+      <g id="Group_3702" data-name="Group 3702" transform="translate(803.042 8529)">
+        <g id="Shadow_04dp-5" data-name="Shadow / 04dp" transform="translate(-0.042)">
+          <g transform="matrix(1, 0, 0, 1, -101, -189)" filter="url(#Shadow_04dp-2)">
+            <rect id="Shadow_04dp-6" data-name="Shadow / 04dp" width="360" height="48" rx="4" transform="translate(101 189)" fill="#fff"/>
+          </g>
+        </g>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(23.958 30)" fill="#666" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+      </g>
+      <rect id="Box" width="99" height="32" rx="4" transform="translate(1052 8537)" fill="#6f2c91"/>
+      <text id="_Text_Button_Selected_On_Surface_High_Emphasis_Left" data-name="✱ / Text / Button / Selected / On Surface / High Emphasis / Left" transform="translate(1079 8556)" fill="#fff" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="0" y="0">BUTTON</tspan></text>
+    </g>
+  </g>
+</svg>
