@@ -12,28 +12,38 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 
 ## Color Tokens
 
-## Core tokens
- 
-| Token                       | Description                                  | Name                | Value (HEX)  | Value (hsl)      | 
-| :---                        | :---                                         | :---                | :---         | :---             |       
-| `ui-background-01`          | _Default page background_                    | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
-| `ui-background-02`          | _Alternate page background_                  | `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
-| `interactive-01`            | _Primary interactive color; Primary buttons_ | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
-| `interactive-02`            | _Secondary interactive color_                | `Hal-Blue-S-30`     | #0067b3      | (205, 100%, 35%) |
-| `danger-01`                 | _Danger button variant_                      | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |  
-| `container-background-01`   | _Background color on light containers_       | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
-| `container-background-02`   | _Background color on dark containers_         | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
-| `text-01`                   | _Primary text_                               | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
-| `text-02`                   | _Secondary text_                             | `Hal-Grey-S-40`     | #666666      | (0, 0%, 40%)     |
-| `text-03`                   | _Text on dark backgrounds_                   | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
-| `text-error`                | _Error messages_                             | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
-| `link-01`                   | _Primary link color_                         | `H-Blue-L-50`       | #0095ff      | (205, 100%, 50%) |
-| `icon-01`                   | _Icon color on light background_             | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
-| `icon-02`                   | _Icon color on dark background_              | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
-| `feedback-error`            | _Error_                                      | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
-| `feedback-success`          | _Success_                                    | `Hal-Green-S-39`    | #24a148      | (137, 63%, 39%)  |
-| `feedback-warning`          | _Warning_                                    | `Hal-Yellow-S-57`   | #f7cf2b      | (48, 93%, 57%)   |
-| `feedback-info`             | _Info_                                       | `H-Blue-L-50`       | #0095ff      | (205, 100%, 50%) |
-| `overlay`                   | _Background overlay_                         | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
-                  
 
+| Token                       | Description                                   | Name                | Value (HEX)  | Value (hsl)      | 
+| :---                        | :---                                          | :---                | :---         | :---             |       
+| `ui-background-01`          | _Default page background_                     | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
+| `ui-background-02`          | _Alternate page background_                   | `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
+| `interactive-01`            | _Primary interactive color_                   | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
+| `interactive-02`            | _Secondary interactive color_                 | `Hal-Blue-S-30`     | #0067b3      | (205, 100%, 35%) |
+| `danger-01`                 | _Danger button variant_                       | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |  
+| `container-background-01`   | _Background color on light containers_        | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
+| `container-background-02`   | _Background color on dark containers_         | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
+| `text-01`                   | _Primary text_                                | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
+| `text-02`                   | _Secondary text_                              | `Hal-Grey-S-40`     | #666666      | (0, 0%, 40%)     |
+| `text-03`                   | _Text on dark backgrounds_                    | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
+| `text-error`                | _Error messages_                              | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
+| `link-01`                   | _Primary link color_                          | `H-Blue-L-50`       | #0095ff      | (205, 100%, 50%) |
+| `icon-01`                   | _Icon color on light background_              | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
+| `icon-02`                   | _Icon color on dark background_               | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
+| `feedback-error`            | _Error_                                       | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
+| `feedback-success`          | _Success_                                     | `Hal-Green-S-39`    | #24a148      | (137, 63%, 39%)  |
+| `feedback-warning`          | _Warning_                                     | `Hal-Yellow-S-57`   | #f7cf2b      | (48, 93%, 57%)   |
+| `feedback-info`             | _Info_                                        | `H-Blue-L-50`       | #0095ff      | (205, 100%, 50%) |
+| `overlay`                   | _Background overlay_                          | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
+| `focus-01`                  | _Primary focus underline/outline_             | `Hal-Purple-S-37`   | #6f2c91      | (0, 0%, 0%)      |
+| `focus-02`                  | _Secondary focus underline/outline_           | `Hal-Blue-S-30`     | #0067b3      | (205, 100%, 35%) |
+| `hover-01`                  | _Primary hover color_                         | `Hal-Purple-L-95`   | #f5ebf9      | (283, 54%, 95%)  |
+| `hover-02`                  | _Secondary hover color_                       | `Hal-Purple-D-30`   | #5a2475      | (280, 53%, 30%)  |
+| `hover-background-01`       | _Background hover color on light containers_  | `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
+| `hover-danger`              | _Danger hover color_                          | `Hal-Red-D-30`      | #980115      | (352, 99%, 30%)  |
+| `pressed-01`                | _Pressed primary color_                       | `Hal-Purple-L-95`   | #f5ebf9      | (283, 54%, 95%)  |
+| `pressed-02`                | _Pressed secondary color_                     | `Hal-Purple-D-20`   | #3c184e      | (280, 53%, 20%)  |
+| `pressed-background-01`     | _Background pressed color on light containers_| `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
+| `pressed-danger`            | _Danger pressed color_                        | `Hal-Red-D-20`      | #65010e      | (352, 99%, 20%)  |
+| `disabled-01`               | _Background disabled color_                   | `Hal-Grey-L-95`     | #f2f2f2      | (0, 0%, 95%)     |
+| `disabled-02`               | _Text disabeld color_                         | `Hal-Grey-L-75`     | #bfbfbf      | (0, 0%, 75%)     |
+| `link-visited`              | _Visited link color_                          | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
