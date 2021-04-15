@@ -38,6 +38,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `focus-02`                  | _Secondary focus underline/outline_           | `Hal-Blue-S-30`     | #0067b3      | (205, 100%, 35%) |
 | `hover-01`                  | _Primary hover color_                         | `Hal-Purple-L-95`   | #f5ebf9      | (283, 54%, 95%)  |
 | `hover-02`                  | _Secondary hover color_                       | `Hal-Purple-D-30`   | #5a2475      | (280, 53%, 30%)  |
+| `hover-03`                  | _Tertiary hover color_                        | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
 | `hover-background-01`       | _Background hover color on light containers_  | `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
 | `hover-danger`              | _Danger hover color_                          | `Hal-Red-D-30`      | #980115      | (352, 99%, 30%)  |
 | `pressed-01`                | _Pressed primary color_                       | `Hal-Purple-L-95`   | #f5ebf9      | (283, 54%, 95%)  |
