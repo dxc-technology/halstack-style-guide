@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="278" viewBox="0 0 562 278">
+  <g id="Group_4099" data-name="Group 4099" transform="translate(-973 -5588)">
+    <g id="Group_1270" data-name="Group 1270" transform="translate(973 5588)">
+      <path id="Path_1018" data-name="Path 1018" d="M0,0H561.953V278H0Z" transform="translate(0.047)" fill="#fafafa"/>
+      <rect id="Rectangle_1849" data-name="Rectangle 1849" width="562" height="6" fill="#d0011b"/>
+      <g id="cancel-24px" transform="translate(8.047 14)">
+        <path id="Path_985" data-name="Path 985" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_986" data-name="Path 986" d="M12,2A10,10,0,1,0,22,12,9.991,9.991,0,0,0,12,2Zm5,13.59L15.59,17,12,13.41,8.41,17,7,15.59,10.59,12,7,8.41,8.41,7,12,10.59,15.59,7,17,8.41,13.41,12Z" fill="#d0011b"/>
+      </g>
+    </g>
+    <path id="Path_2921" data-name="Path 2921" d="M0,0H415.02V208.393H0Z" transform="translate(1089.5 5657.607)" fill="#fff"/>
+    <path id="Path_2922" data-name="Path 2922" d="M0,0H86V208.393H0Z" transform="translate(1003.5 5657.607)" fill="#ccc"/>
+    <rect id="Rectangle_2193" data-name="Rectangle 2193" width="501" height="18" transform="translate(1003.48 5657.818)" fill="#6f2c91"/>
+    <g id="Group_3930" data-name="Group 3930" transform="translate(558.5)">
+      <rect id="Rectangle_2189" data-name="Rectangle 2189" width="43" height="12" transform="translate(545.5 5687.818)" fill="#ccc"/>
+      <rect id="Rectangle_2195" data-name="Rectangle 2195" width="43" height="12" transform="translate(545.51 5735.728)" fill="#ccc"/>
+      <rect id="Rectangle_2194" data-name="Rectangle 2194" width="43" height="12" transform="translate(545.5 5712.273)" fill="#ccc"/>
+      <line id="Line_1550" data-name="Line 1550" x1="72.02" transform="translate(531 5730)" fill="none" stroke="#d9d9d9" stroke-width="0.5"/>
+      <line id="Line_1551" data-name="Line 1551" x1="72.02" transform="translate(531 5753.456)" fill="none" stroke="#d9d9d9" stroke-width="0.5"/>
+      <line id="Line_1548" data-name="Line 1548" x2="72" transform="translate(531 5705.545)" fill="none" stroke="#6f2c91" stroke-width="2"/>
+    </g>
+    <rect id="Rectangle_2196" data-name="Rectangle 2196" width="145" height="24" transform="translate(1180 5688)" fill="#bfbfbf"/>
+    <rect id="Rectangle_2205" data-name="Rectangle 2205" width="148" height="10" transform="translate(1180 5741.182)" fill="#f2f2f2"/>
+    <rect id="Rectangle_2207" data-name="Rectangle 2207" width="87" height="10" transform="translate(1180 5773.182)" fill="#f2f2f2"/>
+    <rect id="Rectangle_2206" data-name="Rectangle 2206" width="168" height="10" transform="translate(1180 5757.182)" fill="#f2f2f2"/>
+    <rect id="Rectangle_2204" data-name="Rectangle 2204" width="242" height="11" transform="translate(1180 5724.182)" fill="#f2f2f2"/>
+  </g>
+</svg>

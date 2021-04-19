@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="364" height="278" viewBox="0 0 364 278">
+  <g id="Group_4102" data-name="Group 4102" transform="translate(-1167 -6023)">
+    <g id="Group_1234" data-name="Group 1234" transform="translate(1166.667 6023)">
+      <rect id="Rectangle_1828" data-name="Rectangle 1828" width="364" height="278" transform="translate(0.333)" fill="#fafafa"/>
+      <rect id="Rectangle_1837" data-name="Rectangle 1837" width="364" height="6" transform="translate(0.333)" fill="#f38f20"/>
+      <g id="error-24px" transform="translate(7.333 14)">
+        <path id="Path_2870" data-name="Path 2870" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_2871" data-name="Path 2871" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,15H11V15h2Zm0-4H11V7h2Z" fill="#f38f20"/>
+      </g>
+    </g>
+    <g id="Group_3803" data-name="Group 3803" transform="translate(830 3023)">
+      <rect id="Rectangle_1889" data-name="Rectangle 1889" width="176" height="72" transform="translate(431 3111)" fill="#fff"/>
+      <text id="List_of_the_things_I_li_" data-name="List of the 
+things I li…" transform="translate(519 3154)" fill="#6f2c91" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-42.264" y="0">List of the </tspan><tspan x="-43.16" y="19">things I li…</tspan></text>
+      <rect id="Rectangle_1888" data-name="Rectangle 1888" width="176" height="2" transform="translate(431 3181)" fill="#6f2c91"/>
+      <g id="favorite-24px" transform="translate(507 3115)">
+        <path id="Path_2854" data-name="Path 2854" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_2855" data-name="Path 2855" d="M12,21.35l-1.45-1.32C5.4,15.36,2,12.28,2,8.5A5.447,5.447,0,0,1,7.5,3,5.988,5.988,0,0,1,12,5.09,5.988,5.988,0,0,1,16.5,3,5.447,5.447,0,0,1,22,8.5c0,3.78-3.4,6.86-8.55,11.54Z" fill="#6f2c91"/>
+      </g>
+    </g>
+  </g>
+</svg>

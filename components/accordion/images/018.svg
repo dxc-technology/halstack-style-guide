@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1149" height="85" viewBox="0 0 1149 85">
+  <defs>
+    <filter id="Shadow_04dp" x="63" y="7" width="998" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4130" data-name="Group 4130" transform="translate(-386 -7131)">
+    <g id="Group_3662" data-name="Group 3662" transform="translate(-184 4712)">
+      <rect id="Rectangle_1842" data-name="Rectangle 1842" width="1149" height="82" transform="translate(570 2419)" fill="#fafafa" opacity="0.521"/>
+    </g>
+    <g id="Group_3661" data-name="Group 3661" transform="translate(349 3621)">
+      <g id="Shadow_04dp-2" data-name="Shadow / 04dp" transform="translate(115 3526)">
+        <g transform="matrix(1, 0, 0, 1, -78, -16)" filter="url(#Shadow_04dp)">
+          <rect id="Shadow_04dp-3" data-name="Shadow / 04dp" width="968" height="48" rx="4" transform="translate(78 16)" fill="#fff"/>
+        </g>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(740 30)" fill="#666" font-size="16" font-family="OpenSans-LightItalic, Open Sans" font-weight="300" font-style="italic" letter-spacing="0.031em"><tspan x="0" y="0">Additional information</tspan></text>
+      </g>
+      <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(147 3556)" fill="#666" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">This is the first accordion</tspan></text>
+      <g id="expand_more-24px" transform="translate(1043 3538)">
+        <path id="Path_2872" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_2873" data-name="Path 2873" d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" fill="#6f2c91"/>
+      </g>
+    </g>
+  </g>
+</svg>
