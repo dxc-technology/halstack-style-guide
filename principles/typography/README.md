@@ -65,6 +65,14 @@ Make sure you include all the different typographic variants in order to enhance
 | `type-initial`              | _Preserve default value_                      | `text-transform`    | initial      | 
 | `type-uppercase`            | _Transform text to uppercase_                 | `text-transform`    | uppercase    |
 
+### Text decoration
+
+| Token                       | Description                                   | Property            | Value        | 
+| :---                        | :---                                          | :---                | :---         | 
+| `type-no-line`              | _Unset all present decorations_               | `text-decoration`   | none         | 
+| `type-underline`            | _Underline the text_                          | `text-decoration`   | underline    | 
+| `type-line-through`         | _Put a strikethrough the text_                | `text-decoration`   | line-through |
+
 ## Type styles
 
 ## Headings
