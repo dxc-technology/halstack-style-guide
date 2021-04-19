@@ -1,3 +1,4 @@
+
 ## Overview
 
 A form is a group of related input controls that allows users to provide data or configure options. Forms can be simple or complex, and may be presented as dedicated pages, side panels, or dialogs depending on the use case and the situation.
@@ -23,7 +24,7 @@ Depending on the use case, Forms may be presented as dedicated pages or dialogs.
 
 ![image](https://user-images.githubusercontent.com/44420072/114583960-6d65c600-9c82-11eb-8626-71d4199f48ec.png)
 
-**Page form**
+### Page form
 
 For more complex, lengthier or multistep requests for user input.
 
@@ -82,13 +83,26 @@ Use a primary button for the main action, a secondary button for secondary actio
 | :---         |     :--- |
 | [Button](components/text-input/README.md) | Initialize an action or function when the user interacts with them | 
 
-**Alignment**
+### Alignment
 
 | Type | Description | 
 | :---         |     :--- |
 | Left-aligned | Non-dialog, in-page forms | 
 | Right-aligned | Multistep forms/wizards when the primary action implies a navigation step forward | 
 | Center-aligned | All forms that are presented in dialogs | 
+
+## Form validation
+
+Validation should be shown inline and can happen in real-time or on form submission. Real-time validation should confirm correct content or assist a user to input the correct information to prevent them from attempting to submit the form with possibly incorrect information. The validation should appear when the user has clicked away from the text field and always be visible and not placed in a tooltip.
+
+When present, the validation message is placed directly below the input replacing the [helper text](#helping-users) until the error is fixed.
+
+### Errors
+
+An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. 
+
+![image](https://user-images.githubusercontent.com/44420072/115281949-e1541280-a149-11eb-9d0f-d87f5353042e.png)
+
 
 
 ## Disabling vs hiding fields
@@ -118,17 +132,17 @@ Helper text can be used as additional instructions to the user when filling in t
 
 ## Layout
 
-**Form headings**
+### Form headings
 
-| Token | Description | 
-| :---         |     :--- |
-| `Hal-Headings-H3` | Form title | 
-| `Hal-Headings-H4` | Form section title | 
+| Token             | Description            | 
+| :---              | :---                   |
+| `Hal-Headings-H3` | Form title             | 
+| `Hal-Headings-H4` | Form section title     | 
 | `Hal-Headings-H5` | Form sub-section title | 
 
-**Spacing**
+### Spacing
 
-Every part of a UI should be intentional including the empty space between elements. The amount of space between items creates relationships and hierarchy. In Halstack we create hierarchy through our spacing scale. Use the component scale to create hierarchy between: text inputs, data inputs, sections, form buttons.
+Every part of a UI should be intentional including the empty space between elements. The amount of space between items creates relationships and hierarchy. In Halstack we create hierarchy through our spacing scale. Use the component scale to create hierarchy between text inputs, data inputs, sections and form buttons.
 
 | Element | Description | 
 | :---         |     :--- |
@@ -145,7 +159,7 @@ Every part of a UI should be intentional including the empty space between eleme
 * Associate input error messaging with the input it corresponds to. [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
 * Make sure that error, warning, and success states are not visually communicated by just color. [SC 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) 
 
-**Related content**
+### Related content
 
-[W3C Guidance for creating forms that meet WCAG](https://www.w3.org/WAI/tutorials/forms/instructions/)
+* [W3C Guidance for creating forms that meet WCAG](https://www.w3.org/WAI/tutorials/forms/instructions/)
 
