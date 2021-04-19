@@ -23,7 +23,8 @@ Make sure you include all the different typographic variants in order to enhance
 | :---                        | :---                                          | :---                | :---         |  
 | `type-light`                | _Set font weight as light (300)_              | `font-weight`       | 300          | 
 | `type-regular`              | _Set font weight as regular (400)_            | `font-weight`       | 400          | 
-| `type-semibold`             | _Set font weight as semibold( 600)_           | `font-weight`       | 600          | 
+| `type-semibold`             | _Set font weight as semibold (600)_           | `font-weight`       | 600          | 
+| `type-bold`                 | _Set font weight as bold (700)_               | `font-weight`       | 700          | 
 
 
 ### Scale
@@ -46,17 +47,16 @@ Make sure you include all the different typographic variants in order to enhance
 | `type-italic`               | _Set font style as italic_                    | `font-style`        | italic       | 
 | `type-normal`               | _Set font style as normal_                    | `font-style`        | normal       | 
 
-### line height
+### Letter spacing
 
-| Token                       | Description                                   | Property            | Value        | 
+| Token                       | Description                                   | Property            | Value(em)    | 
 | :---                        | :---                                          | :---                | :---         | 
-| `type-spacing-01`           | _Set letter spacing as normal_                | `letter-spacing`    | normal       | 
-| `type-spacing-02`           | _Set letter spacing as 0.1_                   | `letter-spacing`    | 0.1          | 
-| `type-spacing-03`           | _Set letter spacing as 0.15_                  | `letter-spacing`    | 0.15         | 
-| `type-spacing-04`           | _Set letter spacing as 0.25_                  | `letter-spacing`    | 0.25         | 
-| `type-spacing-05`           | _Set letter spacing as 0.4_                   | `letter-spacing`    | 0.4          |
-| `type-spacing-06`           | _Set letter spacing as 0.5_                   | `letter-spacing`    | 0.5          |
-| `type-spacing-07`           | _Set letter spacing as 0.2_                   | `letter-spacing`    | 2            | 
+| `type-spacing-tight-02`     | _Set letter spacing as -0.05_                 | `letter-spacing`    | -0.05        | 
+| `type-spacing-tight-01`     | _Set letter spacing as -0.025_                | `letter-spacing`    | -0.025       | 
+| `type-spacing-normal`       | _Set letter spacing as 0_                     | `letter-spacing`    | 0            | 
+| `type-spacing-wide-01`      | _Set letter spacing as 0.025_                 | `letter-spacing`    | 0.025        |
+| `type-spacing-wide-02`      | _Set letter spacing as 0.05_                  | `letter-spacing`    | 0.05         |
+| `type-spacing-wide-03`      | _Set letter spacing as 0.1_                   | `letter-spacing`    | 0.1          | 
 
 ### Capitalization
 
