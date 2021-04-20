@@ -99,7 +99,7 @@ headings-h1: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
-  line-height:      type-leading-compact-02;  
+  line-height:      type-leading-compact-01;  
 }
 ```
 
@@ -127,7 +127,7 @@ headings-h3: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
-  line-height:      type-leading-compact-01; 
+  line-height:      type-leading-normal; 
 }
 ```
 
