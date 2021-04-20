@@ -98,7 +98,7 @@ headings-h1: {
   font-size:        type-scale-08; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-compact-01;  
 }
 ```
@@ -112,7 +112,7 @@ headings-h2: {
   font-size:        type-scale-07; 
   font-style:       type-normal;
   text-transform:   initial; 
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-compact-01;  
 }
 ```
@@ -126,7 +126,7 @@ headings-h3: {
   font-size:        type-scale-06; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal; 
 }
 ```
@@ -140,7 +140,7 @@ headings-h4: {
   font-size:        type-scale-05; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal; 
 }
 ```
@@ -154,7 +154,7 @@ headings-h5: {
   font-size:        type-scale-04; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal; 
 }
 ```
@@ -170,7 +170,7 @@ body-01: {
   font-size:        type-scale-03; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal; 
 }
 ```
@@ -183,7 +183,7 @@ body-02: {
   font-size:        type-scale-03; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal; 
 }
 ```
@@ -196,7 +196,7 @@ body-03: {
   font-size:        type-scale-02; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal;
 }
 ```
@@ -210,7 +210,7 @@ body-04: {
   font-size:        type-scale-02; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal;
 }
 ```
@@ -226,7 +226,7 @@ caption: {
   font-size:        type-scale-01; 
   font-style:       type-italic;
   text-transform:   initial;
-  letter-spacing:   type-spacing-01;
+  letter-spacing:   type-spacing-normal;
   line-height:      type-leading-normal;
 }
 ```
@@ -240,7 +240,7 @@ overline: {
   font-size:        type-scale-02; 
   font-style:       type-normal;
   text-transform:   uppercase;
-  letter-spacing:   type-spacing-07;
+  letter-spacing:   type-spacing-wide-02;
   line-height:      type-leading-normal;
 }
 ```
