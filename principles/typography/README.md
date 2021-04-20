@@ -29,16 +29,16 @@ Make sure you include all the different typographic variants in order to enhance
 
 ### Scale
 
-| Token                       | Description                                   | Property            | Value(px)    | 
+| Token                       | Description                                   | Property            | Value(rem)   | 
 | :---                        | :---                                          | :---                | :---         |  
-| `type-scale-01`             | _Set the font size as 12px_                   | `font-size`         | 12           |       
-| `type-scale-02`             | _Set the font size as 14px_                   | `font-size`         | 14           | 
-| `type-scale-03`             | _Set the font size as 16px_                   | `font-size`         | 16           | 
-| `type-scale-04`             | _Set the font size as 20px_                   | `font-size`         | 20           | 
-| `type-scale-05`             | _Set the font size as 24px_                   | `font-size`         | 24           | 
-| `type-scale-06`             | _Set the font size as 34px_                   | `font-size`         | 34           | 
-| `type-scale-07`             | _Set the font size as 48px_                   | `font-size`         | 48           | 
-| `type-scale-08`             | _Set the font size as 60px_                   | `font-size`         | 60           | 
+| `type-scale-01`             | _Set the font size as 12px_                   | `font-size`         | 0.75         |       
+| `type-scale-02`             | _Set the font size as 14px_                   | `font-size`         | 0.875        | 
+| `type-scale-03`             | _Set the font size as 16px_                   | `font-size`         | 1            | 
+| `type-scale-04`             | _Set the font size as 20px_                   | `font-size`         | 1.25         | 
+| `type-scale-05`             | _Set the font size as 24px_                   | `font-size`         | 1.5          | 
+| `type-scale-06`             | _Set the font size as 32px_                   | `font-size`         | 2            | 
+| `type-scale-07`             | _Set the font size as 48px_                   | `font-size`         | 3            | 
+| `type-scale-08`             | _Set the font size as 60px_                   | `font-size`         | 3.75         | 
 
 ### Style
 
@@ -51,12 +51,24 @@ Make sure you include all the different typographic variants in order to enhance
 
 | Token                       | Description                                   | Property            | Value(em)    | 
 | :---                        | :---                                          | :---                | :---         | 
-| `type-spacing-tight-02`     | _Set letter spacing as -0.05_                 | `letter-spacing`    | -0.05        | 
-| `type-spacing-tight-01`     | _Set letter spacing as -0.025_                | `letter-spacing`    | -0.025       | 
-| `type-spacing-normal`       | _Set letter spacing as 0_                     | `letter-spacing`    | 0            | 
-| `type-spacing-wide-01`      | _Set letter spacing as 0.025_                 | `letter-spacing`    | 0.025        |
-| `type-spacing-wide-02`      | _Set letter spacing as 0.05_                  | `letter-spacing`    | 0.05         |
-| `type-spacing-wide-03`      | _Set letter spacing as 0.1_                   | `letter-spacing`    | 0.1          | 
+| `type-spacing-tight-02`     | _Set letter spacing as -0.05em_               | `letter-spacing`    | -0.05        | 
+| `type-spacing-tight-01`     | _Set letter spacing as -0.025em_              | `letter-spacing`    | -0.025       | 
+| `type-spacing-normal`       | _Set letter spacing as 0em_                   | `letter-spacing`    | 0            | 
+| `type-spacing-wide-01`      | _Set letter spacing as 0.025em_               | `letter-spacing`    | 0.025        |
+| `type-spacing-wide-02`      | _Set letter spacing as 0.05em_                | `letter-spacing`    | 0.05         |
+| `type-spacing-wide-03`      | _Set letter spacing as 0.1em_                 | `letter-spacing`    | 0.1          | 
+
+### Leading
+
+| Token                       | Description                                   | Property            | Value(em)    | 
+| :---                        | :---                                          | :---                | :---         | 
+| `type-leading-compact-03`   | _Set line height as 1em_                      | `line-height`       | 1            | 
+| `type-leading-compact-02`   | _Set line height as 1.25em_                   | `line-height`       | 1.25         |
+| `type-leading-compact-01`   | _Set line height as 1.365em_                  | `line-height`       | 1.365        |
+| `type-leading-normal`       | _Set line height as 1.5em_                    | `line-height`       | 1.5          |
+| `type-leading-loose-01`     | _Set line height as 1.75em_                   | `line-height`       | 1.75         |
+| `type-leading-loose-02`     | _Set line height as 2em_                      | `line-height`       | 2            |
+ 
 
 ### Capitalization
 
@@ -87,6 +99,7 @@ headings-h1: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-compact-02;  
 }
 ```
 
@@ -100,6 +113,7 @@ headings-h2: {
   font-style:       type-normal;
   text-transform:   initial; 
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-compact-01;  
 }
 ```
 
@@ -113,6 +127,7 @@ headings-h3: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-compact-01; 
 }
 ```
 
@@ -126,6 +141,7 @@ headings-h4: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal; 
 }
 ```
 
@@ -139,6 +155,7 @@ headings-h5: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal; 
 }
 ```
 
@@ -154,6 +171,7 @@ body-01: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal; 
 }
 ```
 **`body-02`**
@@ -166,6 +184,7 @@ body-02: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal; 
 }
 ```
 **`body-03`**
@@ -178,6 +197,7 @@ body-03: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal;
 }
 ```
 
@@ -191,6 +211,7 @@ body-04: {
   font-style:       type-normal;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal;
 }
 ```
 
@@ -206,6 +227,7 @@ caption: {
   font-style:       type-italic;
   text-transform:   initial;
   letter-spacing:   type-spacing-01;
+  line-height:      type-leading-normal;
 }
 ```
 
@@ -219,5 +241,6 @@ overline: {
   font-style:       type-normal;
   text-transform:   uppercase;
   letter-spacing:   type-spacing-07;
+  line-height:      type-leading-normal;
 }
 ```
