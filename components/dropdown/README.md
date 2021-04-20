@@ -105,9 +105,10 @@ Font weight                    |     `Regular` |
 
 Default dropdown & displayed `icon-size` value
 
-Icon size                      | `20px x 20px` |
+Icon size                      | value |
 -- | --
-
+Caret                          | `24x24px` |
+Custom icon                    | `20x20px` |
 
 
 ![Dropdown specifications](images/dropdown_specs.png)
