@@ -102,8 +102,8 @@ Don’t:
 | Property | Element | Token | Value |
 | :---         |     :---     |          :--- |         :--- |
 | `margin-top`  | `input-helper-text`    |     | 6px 
-| `font-size`  | `input-helper-text`    |  `Hal-Caption`   | 12px 
-| `font-family`  | `input-helper-text`    |  `font-family-sans`   | Open Sans 
+| `font-size`  | `input-helper-text`    |  `type-scale-01`   | 12px 
+| `font-family`  | `input-helper-text`    |  `type-sans`   | Open Sans 
 | `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
 
 ### User Interface Design Considerations
