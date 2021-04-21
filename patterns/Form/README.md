@@ -101,9 +101,18 @@ When present, the validation message is placed directly below the input replacin
 
 An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. 
 
-![image](https://user-images.githubusercontent.com/44420072/115281949-e1541280-a149-11eb-9d0f-d87f5353042e.png)
+![image](https://user-images.githubusercontent.com/44420072/115582483-4d10b980-a2c9-11eb-9dff-5766aac00ded.png)
 
-_**Left**: text-input Error message prompting the user there is an icorrect value _
+
+_**Left**: `text-input` error message prompting the user there is an icorrect value._
+
+_**Right**: Alert component showing an error after submitting._
+
+#### User errors to handle
+
+* Incorrectly formatting data
+* Leaving a mandatory field blank
+* Leaving a mandatory field incomplete
 
 ## Disabling vs hiding fields
 
