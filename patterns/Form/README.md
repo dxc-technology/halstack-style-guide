@@ -103,7 +103,7 @@ An error indicates content that can’t be submitted or was found to be invalid 
 
 ![image](https://user-images.githubusercontent.com/44420072/115281949-e1541280-a149-11eb-9d0f-d87f5353042e.png)
 
-
+_**Left**: text-input Error message prompting the user there is an icorrect value _
 
 ## Disabling vs hiding fields
 
@@ -136,19 +136,19 @@ Helper text can be used as additional instructions to the user when filling in t
 
 | Token             | Description            | 
 | :---              | :---                   |
-| `Hal-Headings-H3` | Form title             | 
-| `Hal-Headings-H4` | Form section title     | 
-| `Hal-Headings-H5` | Form sub-section title | 
+| `headings-h3`     | Form title             | 
+| `headings-h4`     | Form section title     | 
+| `headings-h5`     | Form sub-section title | 
 
 ### Spacing
 
 Every part of a UI should be intentional including the empty space between elements. The amount of space between items creates relationships and hierarchy. In Halstack we create hierarchy through our spacing scale. Use the component scale to create hierarchy between text inputs, data inputs, sections and form buttons.
 
-| Element | Description | 
-| :---         |     :--- |
-| Individual inputs | Individual input fields default to a maximum of 73px height. We recommend a 32px spacer between input fields. In modals, 24px or 16px can be used between inputs. | 
-| Sections | If vertical spacing between individual inputs is 24px consider a 32px spacer before the first input and between sections. If this spacing 32px, consider the use of 40px. | 
-| Buttons | We recommend a 48px spacer between the last input and the button or button group | 
+| Element             | Description                                         | Full page            |  Modal               |
+| :---                | :---                                                | :---                 | :---                 |
+| Individual inputs   | Spacing between inputs                              | 32px / `spacing-07`  | 24px / `spacing-06`  |
+| Sections            | Spacing between sections                            | 40px / `spacing-08`  | 32px / `spacing-07`  |
+| Buttons             | Spacing between last form element and buttons       | 48px / `spacing-09`  | 48px / `spacing-09`  |
 
 ## Accesibility
 
