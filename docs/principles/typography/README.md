@@ -6,18 +6,23 @@
 Our selected typography helps in structuring our user's experience based on the visual impact that it has on the user interface content. 
 It defines what is the first noticeable piece of information or data based on the font shape, size, color, 
 or type and it highlights some pieces of text over the rest. Some typographic elements used in Halstack Design System include headers, 
-body, taglines, captions, and labels. Our design system leverages Open Sans font and all its variants that cover all the needs and requirements mentioned above. 
+body, taglines, captions, and labels.
+
 Make sure you include all the different typographic variants in order to enhance the application's content structure, including the Heading component which defines different levels of page and section titles
 
-## Core tokens
 
-### Family
+
+## Font family
+
+For our sans-serif `font-family`, we use the humanist typeface Open Sans, designed by Steve Matteson and licensed under the [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 | Token                       | Description                                   | Property            | Value                        | 
 | :---                        | :---                                          | :---                | :---                         |  
 | `type-sans`                 | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif;     | 
 
-### Weight
+## Weight
+
+In order to add contrast between typographic elements in the UI, Halstack uses four different and well balanced `font-weight` values.
 
 | Token                       | Description                                   | Property            | Value        | 
 | :---                        | :---                                          | :---                | :---         |  
@@ -27,13 +32,17 @@ Make sure you include all the different typographic variants in order to enhance
 | `type-bold`                 | _Set font weight as bold (700)_               | `font-weight`       | 700          | 
 
 
-### Scale
+## Scale
 
+As we approached the foundational elements with simplification and standardization in mind, the typographic scale is one of the most important elements to create hierarchy. Our type scale provides eight relative values based on a root font size of 16px, making it scalable and accesible. 
+
+### Base
 
 | Token                       | Description                                   | Property            | Value(px)   | 
 | :---                        | :---                                          | :---                | :---        |  
 | `type-scale-root`           | _Set the root font size_                      | `font-size`         | 16          |
 
+### Type scale
 
 | Token                       | Description                                   | Property            | Value(rem)   | 
 | :---                        | :---                                          | :---                | :---         |  
@@ -46,6 +55,8 @@ Make sure you include all the different typographic variants in order to enhance
 | `type-scale-07`             | _Set the font size as 48px_                   | `font-size`         | 3            | 
 | `type-scale-08`             | _Set the font size as 60px_                   | `font-size`         | 3.75         | 
 
+## Formatting
+
 ### Style
 
 | Token                       | Description                                   | Property            | Value        | 
@@ -55,16 +66,20 @@ Make sure you include all the different typographic variants in order to enhance
 
 ### Letter spacing
 
+We calibrate our `letter-spacing` at large scales to provide a better legibility and readability of our text.
+
 | Token                       | Description                                   | Property            | Value(em)    | 
 | :---                        | :---                                          | :---                | :---         | 
-| `type-spacing-tight-02`     | _Set letter spacing as -0.05em_               | `letter-spacing`    | -0.05        | 
-| `type-spacing-tight-01`     | _Set letter spacing as -0.025em_              | `letter-spacing`    | -0.025       | 
+| `type-spacing-tight-02`     | _Set letter spacing as -0.025em_              | `letter-spacing`    | -0.025       |
+| `type-spacing-tight-01`     | _Set letter spacing as -0.0125em_             | `letter-spacing`    | -0.0125      |
 | `type-spacing-normal`       | _Set letter spacing as 0em_                   | `letter-spacing`    | 0            | 
 | `type-spacing-wide-01`      | _Set letter spacing as 0.025em_               | `letter-spacing`    | 0.025        |
 | `type-spacing-wide-02`      | _Set letter spacing as 0.05em_                | `letter-spacing`    | 0.05         |
 | `type-spacing-wide-03`      | _Set letter spacing as 0.1em_                 | `letter-spacing`    | 0.1          | 
 
 ### Leading
+
+We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (1rem) returns a value of 24px (1.5rem), which is the main reference measurement for the vertical organization.
 
 | Token                       | Description                                   | Property            | Value(em)    | 
 | :---                        | :---                                          | :---                | :---         | 
@@ -104,7 +119,7 @@ headings-h1: {
   font-size:        type-scale-08; 
   font-style:       type-normal;
   text-transform:   initial;
-  letter-spacing:   type-spacing-normal;
+  letter-spacing:   type-spacing-tight-01;
   line-height:      type-leading-compact-01;  
 }
 ```
