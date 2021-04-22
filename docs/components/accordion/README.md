@@ -120,8 +120,11 @@ Extra information label can be shown at the end of the accordion header when nee
 * Icons and images can not be used.
 * Only add extra information when there is plenty space in the accordion header, in mobile devices is not displayed.
 * Try always to use a descriptive header so is no necessity to add extra information.
+* Additional information content will be truncated 48px before reaching the accordion title. Title display has priority when space is limited.
 
 ![image](https://user-images.githubusercontent.com/44420072/114675724-dbed6700-9d08-11eb-8f23-6ebc66375214.png)
+
+
 
 ### Typography
 
