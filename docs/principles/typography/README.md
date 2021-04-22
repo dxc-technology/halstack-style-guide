@@ -29,6 +29,12 @@ Make sure you include all the different typographic variants in order to enhance
 
 ### Scale
 
+
+| Token                       | Description                                   | Property            | Value(px)   | 
+| :---                        | :---                                          | :---                | :---        |  
+| `type-scale-root`           | _Set the root font size_                      | `font-size`         | 16          |
+
+
 | Token                       | Description                                   | Property            | Value(rem)   | 
 | :---                        | :---                                          | :---                | :---         |  
 | `type-scale-01`             | _Set the font size as 12px_                   | `font-size`         | 0.75         |       
