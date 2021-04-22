@@ -20,7 +20,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | :---                | :---         | :---             |
 | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
 | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
-| `H-Grey-L-95`       | #f2f2f2      | (0, 0%, 95%)     |
+| `Hal-Grey-L-95`     | #f2f2f2      | (0, 0%, 95%)     |
 | `Hal-Grey-L-75`     | #bfbfbf      | (0, 0%, 75%)     |
 | `Hal-Grey-L-60`     | #999999      | (0, 0%, 60%)     |
 | `Hal-Grey-S-40`     | #666666      | (0, 0%, 40%)     |
@@ -41,7 +41,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
-| `H-Blue-L-50`       | #0095ff      | (205, 100%, 50%) |
+| `Hal-Blue-L-50`     | #0095ff      | (205, 100%, 50%) |
 | `Hal-Blue-S-35`     | #0067b3      | (205, 100%, 35%) |
 | `Hal-Blue-D-20`     | #003c66      | (205, 100%, 20%) |
 
@@ -71,7 +71,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | Token                       | Description                                   | Name                | 
 | :---                        | :---                                          | :---                |  
 | `ui-background-01`          | _Default page background_                     | `Hal-White`         | 
-| `ui-background-02`          | _Alternate page background_                   | `H-Grey-L-95`       | 
+| `ui-background-02`          | _Alternate page background_                   | `Hal-Grey-L-95`     | 
 | `interactive-01`            | _Primary interactive color_                   | `Hal-Purple-S-37`   | 
 | `interactive-02`            | _Secondary interactive color_                 | `Hal-Blue-S-30`     | 
 | `danger-01`                 | _Danger button variant_                       | `Hal-Red-S-41`      | 
@@ -90,7 +90,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `feedback-error`            | _Error_                                       | `Hal-Red-S-41`      | 
 | `feedback-success`          | _Success_                                     | `Hal-Green-S-39`    | 
 | `feedback-warning`          | _Warning_                                     | `Hal-Yellow-S-57`   | 
-| `feedback-info`             | _Info_                                        | `H-Blue-L-50`       | 
+| `feedback-info`             | _Info_                                        | `Hal-Blue-L-50`     | 
 | `ui-overlay`                | _Background overlay_                          | `Hal-Black`         | 
 | `ui-line`                   | _dividers; underline_                         | `Hal-Grey-L-75`     | 
 | `focus-01`                  | _Primary focus underline/outline_             | `Hal-Purple-S-37`   | 
@@ -98,7 +98,7 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `hover-01`                  | _Hover primary on light color_                | `Hal-Purple-L-95`   | 
 | `hover-02`                  | _Hover primary on dark color_                 | `Hal-Purple-D-30`   | 
 | `hover-03`                  | _Tertiary hover color_                        | `Hal-Black`         | 
-| `hover-background`          | _Background hover color on light containers_  | `H-Grey-L-95`       | 
+| `hover-background`          | _Background hover color on light containers_  | `Hal-Grey-L-95`     | 
 | `hover-background-selected` | _hover on selected background color_          | `Hal-Grey-L-60`     | 
 | `hover-danger`              | _Danger hover color_                          | `Hal-Red-D-30`      | 
 | `pressed-01`                | _Pressed primary on light color_              | `Hal-Purple-L-95`   | 
