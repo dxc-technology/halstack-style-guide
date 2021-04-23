@@ -1,6 +1,8 @@
 # Color
 
-![image](https://user-images.githubusercontent.com/44420072/115865329-74d25f80-a438-11eb-9554-498a3e995741.png)
+![image](https://user-images.githubusercontent.com/44420072/115871552-ff1ec180-a440-11eb-8cee-f5d31b7eaace.png)
+
+_Base Halstack core colors_
 
 **The color palette is an essential asset as a communication resource of our design system.**
 
@@ -12,6 +14,10 @@ Halstack color palette brings a unified consistency and helps in guiding the use
 Halstack uses tokens to manage color. Appart from a multi-purpose greyscale family, purple and blue are the core color families used in our set of components. Additional families as red, green and yellow help as feedback role-based color palettes and must not be used outside this context.
 
 ### Core color tokens
+
+![image](https://user-images.githubusercontent.com/44420072/115865329-74d25f80-a438-11eb-9554-498a3e995741.png)
+
+_Core color families and lightness values_
 
 #### Greyscale
 
