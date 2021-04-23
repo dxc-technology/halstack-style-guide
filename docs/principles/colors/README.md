@@ -35,12 +35,15 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `Hal-Purple-L-90`   | #ead8f3      | (280, 53%, 90%)  |
 | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
 | `Hal-Purple-D-30`   | #5a2475      | (280, 53%, 30%)  |
+| `Hal-Purple-D-20`   | #3c184e      | (280, 53%, 20%)  |
 
 
 #### Blue
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Blue-L-95`     | #e6f4ff      | (205, 100%, 95%) |
+| `Hal-Blue-L-80`     | #99d5ff      | (205, 100%, 80%) |
 | `Hal-Blue-L-50`     | #0095ff      | (205, 100%, 50%) |
 | `Hal-Blue-S-35`     | #0067b3      | (205, 100%, 35%) |
 | `Hal-Blue-D-20`     | #003c66      | (205, 100%, 20%) |
@@ -49,20 +52,33 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Red-L-95`      | #ffe6e9      | (352, 99%, 95%)  |
+| `Hal-Red-L-80`      | #fe9aa7      | (352, 99%, 80%)  |
 | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
 | `Hal-Red-D-30`      | #980115      | (352, 99%, 30%)  |
+| `Hal-Red-D-20`      | #65010e      | (352, 99%, 20%)  |
 
 #### Green
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Green-L-95`    | #eafaef      | (137, 63%, 95%)  |
+| `Hal-Green-L-80`    | #acecbe      | (137, 63%, 80%)  |
 | `Hal-Green-S-39`    | #24a148      | (137, 63%, 39%)  |
+| `Hal-Green-D-30`    | #1c7d38      | (137, 63%, 30%)  |
+| `Hal-Green-D-20`    | #135325      | (137, 63%, 20%)  |
+
 
 #### Yellow
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Yellow-L-95`   | #fef9e6      | (48, 93%, 95%)   |
+| `Hal-Yellow-L-80`   | #fbe89d      | (48, 93%, 80%)   |
 | `Hal-Yellow-S-57`   | #f7cf2b      | (48, 93%, 57%)   |
+| `Hal-Yellow-D-40`   | #c59f07      | (48, 93%, 40%)   |
+| `Hal-Yellow-D-30`   | #947705      | (48, 93%, 30%)   |
+
 
 
 
