@@ -23,7 +23,6 @@ _Core color families and lightness values_
 
 | Name                | Value (HEX)  | Value (hsl)      | 
 | :---                | :---         | :---             |
-| `Hal-Black`         | #000000      | (0, 0%, 0%)      |
 | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
 | `Hal-Grey-L-95`     | #f2f2f2      | (0, 0%, 95%)     |
 | `Hal-Grey-L-75`     | #bfbfbf      | (0, 0%, 75%)     |
