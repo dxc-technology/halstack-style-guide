@@ -1,24 +1,28 @@
-# Colors
+# Color
 
-![Screen Shot 2021-04-15 at 12 50 25](https://user-images.githubusercontent.com/44420072/114857941-27774200-9de9-11eb-9884-5a006e1378e6.png)
+![image](https://user-images.githubusercontent.com/44420072/115871552-ff1ec180-a440-11eb-8cee-f5d31b7eaace.png)
 
+_Base Halstack core colors_
 
+**The color palette is an essential asset as a communication resource of our design system.**
 
-Color is a key design element that helps in guiding the user's perception order. For example, strong colors (e.g. DXC Purple) must be used in Call to Actions (CTAs) or highly interactive components, while other lighter colors (e.g. DXC Light Grey) are assigned to elements with lower relevance in the visual interface. When UI components follow a well defined hierarchy and they are aligned with good design practices, they contribute to create a compelling, effective, and usable digital product. Every detail counts.
+Halstack color palette brings a unified consistency and helps in guiding the user's perception order. Our color palette is based in the [HSL model](https://en.wikipedia.org/wiki/HSL_and_HSV#:~:text=The%20HSL%20representation%20models%20the,paint%20corresponds%20to%20a%20high%20%22) and the light (L) and dark (D) varianst are calculated changing the lightness value of the standard (S) DXC palette colors.
 
-Also, there are other colors beyond DXC's default palette allowed in Halstack Design System. These are standard red, green, blue, and amber colors used in our User Feedback components such as error messages, alerts, and information boxes. However, these colors must not be used outside this context in other components.
-
-Finally, Halstack Design System caters for some calculated variations of the primary palette (e.g. tints and shades) to be applied into the secondary modes of some UI components. This is because we believe that these calculated variations don't alter the proposed visual language and the overall visual attributes of the components.
 
 ## Color Tokens
 
-### Color palette
+Halstack uses tokens to manage color. Appart from a multi-purpose greyscale family, purple and blue are the core color families used in our set of components. Additional families as red, green and yellow help as feedback role-based color palettes and must not be used outside this context.
+
+### Core color tokens
+
+![image](https://user-images.githubusercontent.com/44420072/115865329-74d25f80-a438-11eb-9554-498a3e995741.png)
+
+_Core color families and lightness values_
 
 #### Greyscale
 
 | Name                | Value (HEX)  | Value (hsl)      | 
 | :---                | :---         | :---             |
-| `Hal-Black`         | #000000      | (0, 0%, 0%)      |
 | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
 | `Hal-Grey-L-95`     | #f2f2f2      | (0, 0%, 95%)     |
 | `Hal-Grey-L-75`     | #bfbfbf      | (0, 0%, 75%)     |
@@ -27,7 +31,11 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `Hal-Black`         | #000000      | (0, 0%, 0%)      |
 
 
+
 #### Purple
+
+The core Purple family serves as the primary action color.
+
 
 | Name                | Value (HEX)  | Value (hsl)      | 
 | :---                | :---         | :---             |
@@ -35,38 +43,62 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `Hal-Purple-L-90`   | #ead8f3      | (280, 53%, 90%)  |
 | `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
 | `Hal-Purple-D-30`   | #5a2475      | (280, 53%, 30%)  |
+| `Hal-Purple-D-20`   | #3c184e      | (280, 53%, 20%)  |
 
 
 #### Blue
 
+The core Blue family serves as the accent color.
+
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Blue-L-95`     | #e6f4ff      | (205, 100%, 95%) |
+| `Hal-Blue-L-80`     | #99d5ff      | (205, 100%, 80%) |
 | `Hal-Blue-L-50`     | #0095ff      | (205, 100%, 50%) |
 | `Hal-Blue-S-35`     | #0067b3      | (205, 100%, 35%) |
 | `Hal-Blue-D-20`     | #003c66      | (205, 100%, 20%) |
+
+
 
 #### Red
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Red-L-95`      | #ffe6e9      | (352, 99%, 95%)  |
+| `Hal-Red-L-80`      | #fe9aa7      | (352, 99%, 80%)  |
 | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
 | `Hal-Red-D-30`      | #980115      | (352, 99%, 30%)  |
+| `Hal-Red-D-20`      | #65010e      | (352, 99%, 20%)  |
 
 #### Green
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Green-L-95`    | #eafaef      | (137, 63%, 95%)  |
+| `Hal-Green-L-80`    | #acecbe      | (137, 63%, 80%)  |
 | `Hal-Green-S-39`    | #24a148      | (137, 63%, 39%)  |
+| `Hal-Green-D-30`    | #1c7d38      | (137, 63%, 30%)  |
+| `Hal-Green-D-20`    | #135325      | (137, 63%, 20%)  |
+
 
 #### Yellow
 
 | Name                | Value (HEX)  | Value (hsl)      |
 | :---                | :---         | :---             |
+| `Hal-Yellow-L-95`   | #fef9e6      | (48, 93%, 95%)   |
+| `Hal-Yellow-L-80`   | #fbe89d      | (48, 93%, 80%)   |
 | `Hal-Yellow-S-57`   | #f7cf2b      | (48, 93%, 57%)   |
+| `Hal-Yellow-D-40`   | #c59f07      | (48, 93%, 40%)   |
+| `Hal-Yellow-D-30`   | #947705      | (48, 93%, 30%)   |
 
 
 
-### Color usage
+
+### Color usage tokens
+
+The color-usage tokens are a role-based and specify the core tokens that serve those roles in the UI. We use the core families mostly for enabled states, for other states (e.g. hover, pressed, disabled) or purpose every light or dark family variant is used. 
+
+
 
 | Token                       | Description                                   | Name                | 
 | :---                        | :---                                          | :---                |  
@@ -109,3 +141,12 @@ Finally, Halstack Design System caters for some calculated variations of the pri
 | `disabled-01`               | _Background disabled color_                   | `Hal-Grey-L-95`     | 
 | `disabled-02`               | _Text disabeld color_                         | `Hal-Grey-L-75`     | 
 | `link-visited`              | _Visited link color_                          | `Hal-Purple-S-37`   | 
+
+## Data visualization colors
+
+> To do section
+
+
+## Accesibility
+
+> To do section
