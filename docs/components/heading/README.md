@@ -26,17 +26,24 @@ Apart from that, many of the design system components are making use of headings
 
 An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific tokens for this component.
 
+### Hal-Headings-H1
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 60px / 3.75rem            | `type-scale-08`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    | 81.9px / -0.0125em          | `type-spacing-tight-01`          | 
+| `line-height`       | -12.5px / 1.365em          | `type-leading-compact-01`          | 
+
+
 ## Design Specifications
 
 In this section are defined the 5 variations for the heading for desktop.
 
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `60px, light`|
-| Heading second level | `48px, regular` |
-| Heading thrid level | `34px, regular` |
-| Heading fourth level | `24px, regular` |
-| Heading fifth level | `20px, regular` |
+
 
 
 ## Responsive version for mobile and tablet
@@ -66,6 +73,8 @@ Specifications for tablet version (screen size between 480 pixels and 768 pixels
 | Heading fifth level | `20px, regular` |
 
 ![Variations of the heading](images/heading_tablet.png)
+
+
 
 
 ## User Interface Design Considerations
