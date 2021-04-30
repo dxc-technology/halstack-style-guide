@@ -2,9 +2,24 @@ A key part of a design system is the typography. The text is used almost in ever
 
 ## Overview
 
-Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization).
+Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization). The implementation will rely on the use of HTML tags.
 
-The implementation will rely on the use of HTML tags, but there is a meaningful point to consider here because, in some occasions, the component can't make an exact match between either concept, what might be the larges heading (H1) in one part of the application may be the second largest heading in other pages, avoiding this a mutual correlation for every scenario.
+
+## Usage
+
+Navigating through the `Headings-H1` and `Headings-H3` give a user an overview of a page and how its content is structured. The `Headings-H4` and `Headings-H5` elements provide a quick understanding of the details in each section.
+
+### Do's
+
+* Use `Heading` components from `H1` to `H5` when creating content hierarchy in the page. 
+* Use headings for page headings and for specific sections of content.
+* Use purposeful words to summarize the content that follows.
+
+### Dont's
+
+* Do not style text to give the visual appearance of headings.
+* Avoid "stacking" headings without any body content in between.
+
 
 ## Appearance
 
@@ -86,19 +101,17 @@ An inherit color from the definition of the application is received, so the comp
 
 
 
+## Accesibility
 
-## Responsive version for mobile and tablet
+* Heading components should be in order. That means an `Headings-H1` is followed by an `Headings-H2`, an `Headings-H2` is followed by a `Headings-H2` or `Headings-H3` and so on.
+* Keep heading tags consistent. Inconsistently implementing headings can create confusion and frustration for users using assistive technologies.
+* Headings are not interactive elements and therefore have no keyboard or pointer interaction.
 
-The system is adaptable based on the devices, and that's why the component is handling the responsive typography through a set of breakpoints to fit mobile and tablet designs. As the space available on the screen can be very different, the sizes of the headings tend to modify the sizes, make them increase or decrease across the devices.
+### WCAG 2.1 Related Success Criterion
 
->TO DO SECTION
+* SC 1.3.1 - [Info and relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
+* SC 2.4.6 - [Headings and labels](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
 
-
-
-## User Interface Design Considerations
-
-- Identify where you need to use a heading and make use of them selecting the correct level
-- If there is any other size/weight that helps you to establish and remark the hierarchy in your application, feel free to adopt it, but make sure that it is not breaking the harmony 
 
 ## Links and references
 
