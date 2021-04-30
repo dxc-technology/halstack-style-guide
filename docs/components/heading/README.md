@@ -8,13 +8,7 @@ The implementation will rely on the use of HTML tags, but there is a meaningful 
 
 ## Appearance
 
-The font family chosen for the design system is Open Sans, a humanistic sans serif typeface that was optimized for web and mobile interfaces designed by Steve Matterson. It can be found in the Google Fonts catalog and it is under Apache License.
-
-The typeface has 5 different weights, from light to extra-bold but in our design system, we mainly use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios.
-
-Headings made use of a combination of light and regular weights, to improve the readability and consistent with other elements.
-
-The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
+The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios. The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
 
 ![Variations of the heading](images/heading.png)
 
@@ -24,24 +18,71 @@ Apart from that, many of the design system components are making use of headings
 
 ## Design tokens
 
-An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific tokens for this component.
+### Color
 
-### Hal-Headings-H1
+An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific color tokens for this component.
+
+### Typography
+
+#### Hal-Headings-H1
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
 | `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
 | `font-weight`       | 400                       | `type-regular`          | 
 | `font-size`         | 60px / 3.75rem            | `type-scale-08`         | 
+| `font-style`        | regular                   | `type-normal`          | 
+| `text-transform`    | initial                   |           | 
+| `letter-spacing`    | -12.5px / -0.0125em      | `type-spacing-tight-01`          | 
+| `line-height`       |  81.9px/  1.365em       | `type-leading-compact-01`          |
+
+#### Hal-Headings-H2
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 48px / 3rem            | `type-scale-07`         | 
 | `font-style`        | regular                     | `type-normal`          | 
 | `text-transform`    | initial             |           | 
-| `letter-spacing`    | 81.9px / -0.0125em          | `type-spacing-tight-01`          | 
-| `line-height`       | -12.5px / 1.365em          | `type-leading-compact-01`          | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 65.52px / 1.365em          | `type-leading-compact-01`          | 
 
+#### Hal-Headings-H3
 
-## Design Specifications
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 32px / 2rem            | `type-scale-06`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 48px / 1.5em          | `type-leading-normal`          | 
 
-In this section are defined the 5 variations for the heading for desktop.
+#### Hal-Headings-H4
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 24px / 1.5rem            | `type-scale-05`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 36px / 1.5em          | `type-leading-normal`          | 
+
+#### Hal-Headings-H5
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 20px / 1.25rem            | `type-scale-04`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 30px / 1.5em          | `type-leading-normal`          | 
 
 
 
@@ -50,30 +91,7 @@ In this section are defined the 5 variations for the heading for desktop.
 
 The system is adaptable based on the devices, and that's why the component is handling the responsive typography through a set of breakpoints to fit mobile and tablet designs. As the space available on the screen can be very different, the sizes of the headings tend to modify the sizes, make them increase or decrease across the devices.
 
-Specifications for mobile version (size less to 480 pixels)
-
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `40px, light`|
-| Heading second level | `36px, regular` |
-| Heading thrid level | `39px, regular` |
-| Heading fourth level | `22px, regular` |
-| Heading fifth level | `18px, regular` |
-
-![Variations of the heading](images/heading_phone.png)
-
-Specifications for tablet version (screen size between 480 pixels and 768 pixels)
-
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `42px, light`|
-| Heading second level | `38px, regular` |
-| Heading thrid level | `31px, regular` |
-| Heading fourth level | `22px, regular` |
-| Heading fifth level | `20px, regular` |
-
-![Variations of the heading](images/heading_tablet.png)
-
+>TO DO SECTION
 
 
 
