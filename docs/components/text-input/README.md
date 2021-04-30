@@ -26,7 +26,6 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 | ----------------------------- | ------------: |
 | fontColor                     |     `#000000` |
 | disabledFontColor             |     `#b1b1b1` |
-| placeholderColor              |     `#D9D9D9` |
 | error                         |     `#D0011B` |
 | selectedOptionBackgroundColor |     `#F2F2F2` |
 | hoverOptionColor              |     `#000000` |
@@ -102,8 +101,8 @@ Don’t:
 | Property | Element | Token | Value |
 | :---         |     :---     |          :--- |         :--- |
 | `margin-top`  | `input-helper-text`    |     | 6px 
-| `font-size`  | `input-helper-text`    |  `Hal-Caption`   | 12px 
-| `font-family`  | `input-helper-text`    |  `font-family-sans`   | Open Sans 
+| `font-size`  | `input-helper-text`    |  `type-scale-01`   | 12px 
+| `font-family`  | `input-helper-text`    |  `type-sans`   | Open Sans 
 | `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
 
 ### User Interface Design Considerations
