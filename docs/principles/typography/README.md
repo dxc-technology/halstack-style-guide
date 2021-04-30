@@ -115,7 +115,7 @@ We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (
 ```
 headings-h1: {
   font-family:      type-sans;
-  font-weight:      type-regular;
+  font-weight:      type-light;
   font-size:        type-scale-08; 
   font-style:       type-normal;
   text-transform:   initial;
