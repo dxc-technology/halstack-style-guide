@@ -26,7 +26,6 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 | ----------------------------- | ------------: |
 | fontColor                     |     `#000000` |
 | disabledFontColor             |     `#b1b1b1` |
-| placeholderColor              |     `#D9D9D9` |
 | error                         |     `#D0011B` |
 | selectedOptionBackgroundColor |     `#F2F2F2` |
 | hoverOptionColor              |     `#000000` |
