@@ -29,7 +29,7 @@ An inherit color from the definition of the application is received, so the comp
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
 | `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 400                       | `type-regular`          | 
+| `font-weight`       | 300                       | `type-light`          | 
 | `font-size`         | 60px / 3.75rem            | `type-scale-08`         | 
 | `font-style`        | regular                   | `type-normal`          | 
 | `text-transform`    | initial                   |           | 
