@@ -2,19 +2,28 @@ A key part of a design system is the typography. The text is used almost in ever
 
 ## Overview
 
-Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization).
+Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization). The implementation will rely on the use of HTML tags.
 
-The implementation will rely on the use of HTML tags, but there is a meaningful point to consider here because, in some occasions, the component can't make an exact match between either concept, what might be the larges heading (H1) in one part of the application may be the second largest heading in other pages, avoiding this a mutual correlation for every scenario.
+
+## Usage
+
+Navigating through the `Headings-H1` and `Headings-H3` give a user an overview of a page and how its content is structured. The `Headings-H4` and `Headings-H5` elements provide a quick understanding of the details in each section.
+
+### Do's
+
+* Use `Heading` components from `H1` to `H5` when creating content hierarchy in the page. 
+* Use headings for page headings and for specific sections of content.
+* Use purposeful words to summarize the content that follows.
+
+### Dont's
+
+* Do not style text to give the visual appearance of headings.
+* Avoid "stacking" headings without any body content in between.
+
 
 ## Appearance
 
-The font family chosen for the design system is Open Sans, a humanistic sans serif typeface that was optimized for web and mobile interfaces designed by Steve Matterson. It can be found in the Google Fonts catalog and it is under Apache License.
-
-The typeface has 5 different weights, from light to extra-bold but in our design system, we mainly use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios.
-
-Headings made use of a combination of light and regular weights, to improve the readability and consistent with other elements.
-
-The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
+The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios. The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
 
 ![Variations of the heading](images/heading.png)
 
@@ -24,54 +33,85 @@ Apart from that, many of the design system components are making use of headings
 
 ## Design tokens
 
-An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific tokens for this component.
+### Color
 
-## Design Specifications
+An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific color tokens for this component.
 
-In this section are defined the 5 variations for the heading for desktop.
+### Typography
 
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `60px, light`|
-| Heading second level | `48px, regular` |
-| Heading thrid level | `34px, regular` |
-| Heading fourth level | `24px, regular` |
-| Heading fifth level | `20px, regular` |
+#### Hal-Headings-H1
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 300                       | `type-light`          | 
+| `font-size`         | 60px / 3.75rem            | `type-scale-08`         | 
+| `font-style`        | regular                   | `type-normal`          | 
+| `text-transform`    | initial                   |           | 
+| `letter-spacing`    | -12.5px / -0.0125em      | `type-spacing-tight-01`          | 
+| `line-height`       |  81.9px/  1.365em       | `type-leading-compact-01`          |
+
+#### Hal-Headings-H2
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 48px / 3rem            | `type-scale-07`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 65.52px / 1.365em          | `type-leading-compact-01`          | 
+
+#### Hal-Headings-H3
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 32px / 2rem            | `type-scale-06`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 48px / 1.5em          | `type-leading-normal`          | 
+
+#### Hal-Headings-H4
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 24px / 1.5rem            | `type-scale-05`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 36px / 1.5em          | `type-leading-normal`          | 
+
+#### Hal-Headings-H5
+
+| Property            | Value                     | Token        | 
+| :---                | :---                      | :---         |  
+| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
+| `font-weight`       | 400                       | `type-regular`          | 
+| `font-size`         | 20px / 1.25rem            | `type-scale-04`         | 
+| `font-style`        | regular                     | `type-normal`          | 
+| `text-transform`    | initial             |           | 
+| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
+| `line-height`       | 30px / 1.5em          | `type-leading-normal`          | 
 
 
-## Responsive version for mobile and tablet
 
-The system is adaptable based on the devices, and that's why the component is handling the responsive typography through a set of breakpoints to fit mobile and tablet designs. As the space available on the screen can be very different, the sizes of the headings tend to modify the sizes, make them increase or decrease across the devices.
+## Accesibility
 
-Specifications for mobile version (size less to 480 pixels)
+* Heading components should be in order. That means an `Headings-H1` is followed by an `Headings-H2`, an `Headings-H2` is followed by a `Headings-H2` or `Headings-H3` and so on.
+* Keep heading tags consistent. Inconsistently implementing headings can create confusion and frustration for users using assistive technologies.
+* Headings are not interactive elements and therefore have no keyboard or pointer interaction.
 
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `40px, light`|
-| Heading second level | `36px, regular` |
-| Heading thrid level | `39px, regular` |
-| Heading fourth level | `22px, regular` |
-| Heading fifth level | `18px, regular` |
+### WCAG 2.1 Related Success Criterion
 
-![Variations of the heading](images/heading_phone.png)
+* SC 1.3.1 - [Info and relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
+* SC 2.4.6 - [Headings and labels](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
 
-Specifications for tablet version (screen size between 480 pixels and 768 pixels)
-
-| Level              | Value|
-|--------------------|------:|
-| Heading first level | `42px, light`|
-| Heading second level | `38px, regular` |
-| Heading thrid level | `31px, regular` |
-| Heading fourth level | `22px, regular` |
-| Heading fifth level | `20px, regular` |
-
-![Variations of the heading](images/heading_tablet.png)
-
-
-## User Interface Design Considerations
-
-- Identify where you need to use a heading and make use of them selecting the correct level
-- If there is any other size/weight that helps you to establish and remark the hierarchy in your application, feel free to adopt it, but make sure that it is not breaking the harmony 
 
 ## Links and references
 

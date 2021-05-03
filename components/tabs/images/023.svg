@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1148" height="220" viewBox="0 0 1148 220">
+  <g id="Group_4108" data-name="Group 4108" transform="translate(-386 -9435)">
+    <g id="Group_4001" data-name="Group 4001">
+      <rect id="Rectangle_2209" data-name="Rectangle 2209" width="1148" height="220" transform="translate(386 9435)" fill="#fafafa" opacity="0.521"/>
+      <g id="Tabs-scrollable-mobile-48" transform="translate(700 9496)">
+        <rect id="Tabs-container" width="360" height="48" fill="#fff"/>
+        <line id="Divider" x1="360" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab3">
+          <rect id="Rectangle_1991" data-name="Rectangle 1991" width="91" height="48" transform="translate(269)" fill="none"/>
+          <text id="Tab_3" data-name="Tab 3" transform="translate(324.666 30.49)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 3</tspan></text>
+        </g>
+        <g id="Tab2">
+          <rect id="Rectangle_1990" data-name="Rectangle 1990" width="111" height="48" transform="translate(159)" fill="none"/>
+          <text id="Tab_2" data-name="Tab 2" transform="translate(214 30.49)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 2</tspan></text>
+        </g>
+        <g id="Tab1">
+          <rect id="Rectangle_1989" data-name="Rectangle 1989" width="111" height="48" transform="translate(48)" fill="none"/>
+          <rect id="Active-indicator" width="110.667" height="2" transform="translate(48 46)" fill="#6f2c91"/>
+          <text id="Tab_1" data-name="Tab 1" transform="translate(103.334 30.49)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <line id="Line_1441" data-name="Line 1441" x1="102.395" transform="translate(700 9598.068) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <line id="Line_1442" data-name="Line 1442" x1="102.395" transform="translate(748 9598.068) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <g id="Group_3797" data-name="Group 3797" transform="translate(696 9602.068) rotate(-90)">
+        <line id="Line_1260" data-name="Line 1260" y1="9" x2="9" transform="translate(0)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1261" data-name="Line 1261" y1="9" x2="9" transform="translate(0 48.768)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1262" data-name="Line 1262" y2="49.768" transform="translate(5 4)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      </g>
+      <text id="_48px" data-name="48px" transform="translate(725 9623.865)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">48px</tspan></text>
+    </g>
+  </g>
+</svg>

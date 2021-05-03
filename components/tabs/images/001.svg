@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1149" height="362" viewBox="0 0 1149 362">
+  <g id="Group_3987" data-name="Group 3987" transform="translate(-386 -301)">
+    <rect id="Rectangle_1981" data-name="Rectangle 1981" width="1149" height="362" rx="4" transform="translate(386 301)" fill="#fafafa"/>
+    <g id="Tabs-Fixed-iconTop-72" transform="translate(696 446)">
+      <path id="Tabs-container" d="M0,0H528V72H0Z" fill="#fff"/>
+      <line id="Divider" x1="528" transform="translate(0 71.5)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+      <g id="Tab3">
+        <rect id="Rectangle_1983" data-name="Rectangle 1983" width="176" height="72" transform="translate(352)" fill="none"/>
+        <text id="Label-3" transform="translate(440 57)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 3</tspan></text>
+        <g id="queue_music-24px" transform="translate(428 8)">
+          <path id="Path_2883" data-name="Path 2883" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2884" data-name="Path 2884" d="M15,6H3V8H15Zm0,4H3v2H15ZM3,16h8V14H3ZM17,6v8.18A3,3,0,1,0,19,17V8h3V6Z" fill="#666"/>
+        </g>
+        <g id="queue_music-24px-2" data-name="queue_music-24px" transform="translate(428 8)">
+          <path id="Path_2883-2" data-name="Path 2883" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2884-2" data-name="Path 2884" d="M15,6H3V8H15Zm0,4H3v2H15ZM3,16h8V14H3ZM17,6v8.18A3,3,0,1,0,19,17V8h3V6Z" fill="#666"/>
+        </g>
+      </g>
+      <g id="Tab2">
+        <rect id="Rectangle_1982" data-name="Rectangle 1982" width="176" height="72" transform="translate(176)" fill="none"/>
+        <text id="Label-2" transform="translate(264 57)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 2</tspan></text>
+        <g id="turned_in-24px" transform="translate(252 8)">
+          <path id="Path_2881" data-name="Path 2881" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2882" data-name="Path 2882" d="M17,3H7A2,2,0,0,0,5.01,5L5,21l7-3,7,3V5A2.006,2.006,0,0,0,17,3Z" fill="#666"/>
+        </g>
+      </g>
+      <g id="Tab1">
+        <rect id="Tab-container" width="176" height="72" fill="none"/>
+        <rect id="Active-indicator" width="176" height="2" transform="translate(0 70)" fill="#6f2c91"/>
+        <text id="Label-1" transform="translate(88 57)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        <g id="favorite-24px" transform="translate(76 8)">
+          <path id="Path_2854" data-name="Path 2854" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2855" data-name="Path 2855" d="M12,21.35l-1.45-1.32C5.4,15.36,2,12.28,2,8.5A5.447,5.447,0,0,1,7.5,3,5.988,5.988,0,0,1,12,5.09,5.988,5.988,0,0,1,16.5,3,5.447,5.447,0,0,1,22,8.5c0,3.78-3.4,6.86-8.55,11.54Z" fill="#6f2c91"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

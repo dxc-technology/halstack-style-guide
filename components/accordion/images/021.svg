@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1148" height="253" viewBox="0 0 1148 253">
+  <defs>
+    <filter id="Shadow_04dp" x="12.364" y="98" width="998" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4133" data-name="Group 4133" transform="translate(-386 -8276)">
+    <rect id="Rectangle_2209" data-name="Rectangle 2209" width="1148" height="253" transform="translate(386 8276)" fill="#fafafa" opacity="0.521"/>
+    <g transform="matrix(1, 0, 0, 1, 386, 8276)" filter="url(#Shadow_04dp)">
+      <rect id="Shadow_04dp-2" data-name="Shadow / 04dp" width="968" height="48" rx="4" transform="translate(27.36 107)" fill="#fff"/>
+    </g>
+    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(1153.364 8413)" fill="#666" font-size="16" font-family="OpenSans-LightItalic, Open Sans" font-weight="300" font-style="italic" letter-spacing="0.031em"><tspan x="0" y="0">Additional information</tspan></text>
+    <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(445.364 8413)" fill="#666" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0.031em"><tspan x="0" y="0">This is the first accordion</tspan></text>
+    <g id="expand_more-24px" transform="translate(1341.364 8395)">
+      <path id="Path_2872" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_2873" data-name="Path 2873" d="M16.59,8.59,12,13.17,7.41,8.59,6,10l6,6,6-6Z" fill="#6f2c91"/>
+    </g>
+    <line id="Line_1350" data-name="Line 1350" x1="1052" transform="translate(414.864 8384)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1351" data-name="Line 1351" x1="1052" transform="translate(414.864 8432)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1348" data-name="Line 1348" y1="97.303" transform="translate(1341.364 8359.115)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1344" data-name="Line 1344" y1="72.918" transform="translate(445.114 8383.5)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1346" data-name="Line 1346" y1="97.303" transform="translate(1365.364 8359.115)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1347" data-name="Line 1347" y1="72.418" transform="translate(1381.364 8384)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1349" data-name="Line 1349" y1="72.418" transform="translate(1317.364 8384)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <line id="Line_1345" data-name="Line 1345" y1="72.418" transform="translate(413.114 8384)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+    <text id="_48px" data-name="48px" transform="translate(1503.864 8411)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">48px</tspan></text>
+    <text id="_24px" data-name="24px" transform="translate(1331.364 8484)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">24px</tspan></text>
+    <text id="_32px" data-name="32px" transform="translate(429.114 8484)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">32px</tspan></text>
+    <text id="_24px-2" data-name="24px" transform="translate(1353.364 8345)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">24px</tspan></text>
+    <text id="_16px" data-name="16px" transform="translate(1374.364 8484)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">16px</tspan></text>
+    <g id="Group_3656" data-name="Group 3656" transform="translate(1344.769 8453.907) rotate(90)">
+      <line id="Line_1260" data-name="Line 1260" y1="6" x2="6" transform="translate(-0.489)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1261" data-name="Line 1261" y1="5.511" x2="5.511" transform="translate(0 21.895)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1262" data-name="Line 1262" y2="22.507" transform="translate(3.062 2.449)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+    </g>
+    <g id="Group_3654" data-name="Group 3654" transform="translate(448.519 8453.907) rotate(90)">
+      <line id="Line_1260-2" data-name="Line 1260" y1="6" x2="6" transform="translate(-0.489)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1261-2" data-name="Line 1261" y1="5.511" x2="5.511" transform="translate(0 32.8)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1262-2" data-name="Line 1262" y2="33.412" transform="translate(3.062 2.449)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+    </g>
+    <g id="Group_3655" data-name="Group 3655" transform="translate(1384.769 8453.907) rotate(90)">
+      <line id="Line_1260-3" data-name="Line 1260" y1="6" x2="6" transform="translate(-0.489)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1261-3" data-name="Line 1261" y1="5.511" x2="5.511" transform="translate(0 16.858)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1262-3" data-name="Line 1262" y2="17.471" transform="translate(3.062 2.449)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+    </g>
+    <g id="Group_3658" data-name="Group 3658" transform="translate(1368.364 8357.071) rotate(90)">
+      <line id="Line_1260-4" data-name="Line 1260" y1="6" x2="6" transform="translate(-0.489)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1261-4" data-name="Line 1261" y1="5.511" x2="5.511" transform="translate(0 25.453)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1262-4" data-name="Line 1262" y2="26.065" transform="translate(3.062 2.449)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+    </g>
+    <g id="Group_3657" data-name="Group 3657" transform="translate(1464.353 8379.307)">
+      <line id="Line_1260-5" data-name="Line 1260" y1="6" x2="6" transform="translate(-0.489)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1261-5" data-name="Line 1261" y1="5.511" x2="5.511" transform="translate(0 47.183)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      <line id="Line_1262-5" data-name="Line 1262" y2="47.795" transform="translate(3.062 2.449)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+    </g>
+    <text id="_4px" data-name="4px" transform="translate(413.364 8363.963)" fill="#d0011b" font-size="12" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-11.32" y="0">4px</tspan></text>
+    <path id="Path_2929" data-name="Path 2929" d="M634.3,9416.531v3.5s-3.692,0-5.568,1.9-1.938,5.68-1.938,5.68h-3.757" transform="translate(-221.297 -1043.606)" fill="none" stroke="#d0011b" stroke-width="0.8"/>
+    <path id="Path_2931" data-name="Path 2931" d="M634.3,9416.531v3.5s-3.692,0-5.568,1.9-1.938,5.68-1.938,5.68h-3.757" transform="translate(-9014.696 9066.206) rotate(-90)" fill="none" stroke="#d0011b" stroke-width="0.8"/>
+    <path id="Path_2930" data-name="Path 2930" d="M634.3,9416.531v3.5s-3.692,0-5.568,1.9-1.938,5.68-1.938,5.68h-3.757" transform="translate(10808.969 7749.638) rotate(90)" fill="none" stroke="#d0011b" stroke-width="0.8"/>
+    <path id="Path_2932" data-name="Path 2932" d="M634.3,9416.531v3.5s-3.692,0-5.568,1.9-1.938,5.68-1.938,5.68h-3.757" transform="translate(2015.569 17859.273) rotate(180)" fill="none" stroke="#d0011b" stroke-width="0.8"/>
+  </g>
+</svg>

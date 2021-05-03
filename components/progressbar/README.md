@@ -43,7 +43,7 @@ These states corresponding with the progress of the process in the application.
 
 | Property              |   Value |
 | --------------------- | ------: |
-| Min. width            | `685px` |
+| Min. width            | `100px` |
 | Max. width            |   `80%` |
 | Height                |   `9px` |
 | Spacing text with bar |   `8px` |
