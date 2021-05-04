@@ -28,7 +28,9 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ![Sidenav states](images/sidenav_states.png)
 
-## Design tokens
+## Design specs
+
+### Color
 
 | Tokens              | Default value |
 | ------------------- | ------------: |
@@ -36,15 +38,58 @@ The main difference in the static mode is that the arrow is removed from the com
 | arrowContainerColor |     `#D9D9D9` |
 | arrowColor          |     `#000000` |
 
-## Design Specifications
+
+### Container
+
+#### Width and height
 
 | Property for sidenav |                           Value |
-| -------------------- | ------------------------------: |
+| -------------------- | :------------------------------ |
 | Width                |                         `300px` |
 | Height (default)     | `auto - adapted to the content` |
-| Padding              |                          `48px` |
+
+#### Padding
+
+Padding can be set through the following values: (xxsmall', 'xsmall', 'small', 'medium', 'large', 'xlarge', 'xxlarge') and independently for `top`, `right`, `bottom`, `left`.
+
+| property             | Value(px) |
+| -------------------- | :------   |
+| `xxsmall`            | 6         |
+| 'xsmall'             | 16        |
+| 'small'              | 24        |
+| 'medium'             | 36        |
+| 'large'              | 48        |
+| 'xlarge'             | 64        |
+| 'xxlarge'            | 100       |
+
+
+### sidenav-arrow
+
+| Property for sidenav |                           Value |
+| -------------------- | :------------------------------ |
 | Arrow display        |          `true (default value)` |
 | Arrow distance       |                           `50%` |
+
+
+### Content
+
+#### Padding
+
+Element | value
+-- | --
+```sidenav-title``` | 15px 0px 15px 0px
+```sidenav-section-title``` | 15px 0px 15px 0px
+```sidenav-links``` | 6px 18px 6px 18px
+
+#### Typography
+
+Element | value |  token
+-- | -- | -- |
+```sidenav-title```  |  24px  | ```Hal-Headings-H4```
+```sidenav-section-title``` | 12px  |```Hal-Overline```
+```sidenav-link``` |  14px |```Hal-Body-02-Regular```
+```sidenav-link-active``` |14px  |```Hal-Body-02-Semibold```
+
 
 ## Responsive version for mobile and tablet
 
