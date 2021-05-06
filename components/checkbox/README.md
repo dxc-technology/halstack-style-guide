@@ -47,14 +47,35 @@ Specifications for checkbox are simple. The size of the checkbox should display 
 - Checkbox with text at his right
 - Checkbox with text at his left
 
+
+
+### Margin
+
+Margin can be set through the following values: (xxsmall', 'xsmall', 'small', 'medium', 'large', 'xlarge', 'xxlarge') and independently for `top`, `right`, `bottom`, `left`.
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+### Typography
+
 | Property              |     Value |
-| --------------------- | --------: |
-| Margin right/left     |    `15px` |
-| Margin top/bottom     |    `10px` |
-| Border Radius         |     `4px` |
-| Border thickness      |     `2px` |
+| :--------------------- | :-------- |
 | Font size (with text) |    `16px` |
 | Font weight           | `Regular` |
+
+### Border
+
+| Property              |     Value |
+| --------------------- | --------: |
+| Border Radius         |     `4px` |
+| Border thickness      |     `2px` |
 
 Checkbox may be either linear or stacked, the first case should be used when the checkboxes are independent of a category and they will be displayed horizontally, where device allows.
 
