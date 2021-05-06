@@ -32,11 +32,13 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ### Color
 
-| Tokens              | Default value |
-| ------------------- | ------------: |
-| `backgroundColor`     |     #F8F8F8 |
-| `arrowContainerColor` |     #D9D9D9 |
-| `arrowColor`          |     #000000 |
+#### Design tokens
+
+| Element               | Color token          | hex           | hsl           |
+| :-------------------  | :------------        | :------------ | :------------ |
+| `backgroundColor`     |  `ui-background-02`  | #f2f2f2       | (0, 0%, 95%)  |
+| `arrowContainerColor` |   -                  | #D9D9D9CC     | -             |
+| `arrowColor`          |  `icon-02`           | #000000       | (0, 0%, 0%)   |
 
 
 ### Container
