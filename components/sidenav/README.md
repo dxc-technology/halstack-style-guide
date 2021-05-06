@@ -32,11 +32,13 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ### Color
 
-| Tokens              | Default value |
-| ------------------- | ------------: |
-| backgroundColor     |     `#F8F8F8` |
-| arrowContainerColor |     `#D9D9D9` |
-| arrowColor          |     `#000000` |
+#### Design tokens
+
+| Element               | Color token          | hex           | hsl           |
+| :-------------------  | :------------        | :------------ | :------------ |
+| `backgroundColor`     |  `ui-background-02`  | #f2f2f2       | (0, 0%, 95%)  |
+| `arrowContainerColor` |   -                  | #D9D9D9CC     | -             |
+| `arrowColor`          |  `icon-02`           | #000000       | (0, 0%, 0%)   |
 
 
 ### Container
@@ -45,8 +47,8 @@ The main difference in the static mode is that the arrow is removed from the com
 
 | Property for sidenav |                           Value |
 | -------------------- | :------------------------------ |
-| Width                |                         `300px` |
-| Height (default)     | `auto - adapted to the content` |
+| `width`                |                         300px |
+| `height` _(default)_     | auto - adapted to the content |
 
 #### Padding
 
@@ -55,20 +57,20 @@ Padding can be set through the following values: (xxsmall', 'xsmall', 'small', '
 | property             | Value(px) |
 | -------------------- | :------   |
 | `xxsmall`            | 6         |
-| 'xsmall'             | 16        |
-| 'small'              | 24        |
-| 'medium'             | 36        |
-| 'large'              | 48        |
-| 'xlarge'             | 64        |
-| 'xxlarge'            | 100       |
+| `xsmall`             | 16        |
+| `small`              | 24        |
+| `medium` _(default)_   | 36        |
+| `large`              | 48        |
+| `xlarge`             | 64        |
+| `xxlarge`            | 100       |
 
 
 ### sidenav-arrow
 
 | Property for sidenav |                           Value |
 | -------------------- | :------------------------------ |
-| Arrow display        |          `true (default value)` |
-| Arrow distance       |                           `50%` |
+| Arrow display        |          true (default value) |
+| Arrow distance       |                           50% |
 
 
 ### Content
@@ -102,11 +104,11 @@ Some properties regarding width vary, the details are indicated in the table bel
 
 | Property for sidenav |                           Value |
 | -------------------- | ------------------------------: |
-| Width                |                           `60%` |
-| Height (default)     | `auto - adapted to the content` |
-| Padding              |                          `36px` |
-| Arrow display        |     `true (it cannot be false)` |
-| Arrow distance       |                           `50%` |
+| `width`                |                           60% |
+| `height`     | auto - adapted to the content |
+| `padding`              |                    `medium` / 36px _(default)_ |
+| Arrow display        |     true (it cannot be false) |
+| Arrow distance       |                           50% |
 
 ![Sidenav responsive](images/sidenav_responsive.png)
 
