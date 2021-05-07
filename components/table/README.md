@@ -50,7 +50,6 @@ Design specifications for table header:
 
 | Property                           |       Value |
 | ---------------------------------- | ----------: |
-| Min. Height                        |      `60px` |
 | Max. width                         |      `100%` |
 | Padding right                      |      `40px` |
 | Padding left                       |      `20px` |
