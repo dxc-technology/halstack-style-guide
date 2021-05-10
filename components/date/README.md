@@ -68,30 +68,66 @@ The specifications for dates are similar to the ones used with the input text co
 
 The text within the input should always aligns left. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
 
-In the case that the input is selected or the user is typing inside and the hint is positioned on the top, the measures are 6 pixels between the main text and the underline decoration and 6 pixels between the top hint respect the main text. As this will take more space, the height of the component will be changed from 34 pixels to 51 pixels.
-Another variation could be to having an auxiliary text below the underlined item so it will take 74 pixels for the height.
+In the case that the input is selected or the user is typing inside and the hint is positioned on the top, the measures are 7 pixels between the main text and the underline decoration and 6 pixels between the top hint respect the main text. As this will take more space, the height of the component will be changed from 32 pixels to 48 pixels. Another variation could be to having an auxiliary text below the underlined item so it will take 73 pixels for the height.
 
-The font for the hint at the top and the auxiliary text must be 12 pixels.
+The font for the label at the top and the auxiliary text must be 12 pixels.
 
 The thickness of the border should be 1 pixel but in case that the input will be selected, the width would change to 2 pixels with animation between the two states inherit from Angular Material default behavior.
 
 Smaller touch points decrease the ease of use of the interface because it is costly for the user to hit the target. To prevent that, the size defined for the date picker icon is 20 pixels by 20 pixels for the desktop version and 44 pixels by 44 pixels for mobile and tablet versions of the application.
 These sizes are including small padding as a touchable safe area so the size of the icon in both cases will be 2 pixels less in wide and tall.
 
+#### Height
+
 | Property                            |       Value |
 | ----------------------------------- | ----------: |
-| Margin                              |      `10px` |
-| Height (default)                    |      `34px` |
-| Height (selected)                   |      `51px` |
-| Height (selected + auxiliar text)   |      `74px` |
-| Min widht                           |     `230px` |
-| Border thickness                    |   `1px/2px` |
-| Font size (with text)               |      `16px` |
-| Font weight                         |   `Regular` |
-| Icon size                           | `18x18(px)` |
-| Distance between text and underline |       `7px` |
+| Height (default)                    |      `32px` |
+| Height (selected)                   |      `48px` |
+| Height (selected + auxiliar text)   |      `73px` |
 
-![Date specifications](images/date_specs.png)
+
+#### Width
+
+| Property         |  value            | 
+| :---                |     :---             |   
+| `medium`_(default)_    |  240px           | 
+| `large`          |  480px           |  
+| `fillParent`    |  -                   | 
+
+
+#### Margin
+
+Different values can be applied to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+margin | Value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` | 24px
+`medium` | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+
+#### Typography
+
+| Property                            |       Value |
+| ----------------------------------- | ----------: |
+| Font size default                   |      `16px` |
+| Font size label                     |      `12px` |
+| Font size placeholder               |      `16px` |
+| Font size assistive text/error message                     |      `12px` |
+| Font weight                         |   `Regular` |
+
+#### Other specs
+
+| Property                            |       Value |
+| ----------------------------------- | ----------: |
+| Border thickness                    |   `1px/2px` |
+| Icon size                           | `20x20(px)` |
+| Distance between text and underline |       `7px` |
 
 ### Additional modes
 
