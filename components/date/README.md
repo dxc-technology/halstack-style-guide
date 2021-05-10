@@ -64,6 +64,8 @@ The other attributes of the date component are inherited from the input componen
 
 ### Design Specifications
 
+![date-picker specifications](images/date_specs.png)
+
 The specifications for dates are similar to the ones used with the input text component. In the case that the field will be read-only, the look and feel will be the same for both components.
 
 The text within the input should always aligns left. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
