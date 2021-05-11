@@ -57,10 +57,9 @@ Design specifications for table header:
 | Action bar Min. height             |      `48px` |
 | Padding right                      |      `40px` |
 | Padding left                       |      `20px` |
-| Padding top/bottom                 |      `12px` |
-| Distance items and icon operations |      `20px` |
+| Padding top/bottom                 |      `16px` |
 | Icon size                          |   `14x14px` |
-| Distance add item and icon         |      `10px` |
+| Distance add item and icon         |       `8px` |
 | Font size                          |      `14px` |
 
 
