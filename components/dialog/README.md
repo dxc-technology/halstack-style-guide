@@ -62,7 +62,7 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 
 ## Design Specifications
 
-Specifications for desktop and tablet (landscape mode)
+### Specifications for desktop and tablet (landscape mode)
 
 | Property               |               Value |
 | ---------------------- | ------------------: |
@@ -81,7 +81,7 @@ Specifications for desktop and tablet (landscape mode)
 | Margin                 |              `32px` |
 | Title icon space       |              `16px` |
 
-### Padding
+#### Padding
 
 padding | value
 -- | --
@@ -96,7 +96,7 @@ padding | value
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
-Specifications for tablet (portrait mode)
+### Specifications for tablet (portrait mode)
 
 | Property        |   Value |
 | --------------- | ------: |
@@ -104,13 +104,12 @@ Specifications for tablet (portrait mode)
 | Max. width      |   `80%` |
 | Title font size |  `24px` |
 
-Specifications for phone
+### Specifications for phone
 
 | Property           |   Value |
 | ------------------ | ------: |
-| Padding top        |  `40px` |
-| Padding left/rigth |  `20px` |
-| Padding bottom     |  `30px` |
+| Padding top/bottom |  `36px` |
+| Padding left/rigth |  `24px` |
 | Min. width         | `346px` |
 | Max. width         |   `80%` |
 | Title font size    |  `20px` |
