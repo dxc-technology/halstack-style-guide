@@ -66,13 +66,11 @@ Specifications for desktop and tablet (landscape mode)
 
 | Property               |               Value |
 | ---------------------- | ------------------: |
-| Padding left/top/rigth |              `40px` |
-| Padding bottom         |              `30px` |
 | Border Radius          |               `4px` |
 | Min. height            | `Depending content` |
 | Min. width             |             `800px` |
 | Max. width             |               `80%` |
-| Title font size        |              `34px` |
+| Title font size        |              `32px` |
 | Body font size         |              `16px` |
 | Font weight            |           `Regular` |
 | Space between items    |              `30px` |
@@ -80,8 +78,23 @@ Specifications for desktop and tablet (landscape mode)
 | Sparator space top     |              `10px` |
 | Sparator space bottom  |              `20px` |
 | 'X' icon size          |           `20x20px` |
-| Margin top/rigth       |         `24px/24px` |
+| Margin                 |              `32px` |
 | Title icon space       |              `16px` |
+
+### Padding
+
+padding | value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` | 24px
+`medium` default | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
 
 Specifications for tablet (portrait mode)
 
