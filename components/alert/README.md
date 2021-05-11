@@ -40,11 +40,6 @@ The position to be displayed is the same that the condensed one, in the up right
 
 ![Alert mode for the multiple lines with more information](images/alert_mode_multi.png)
 
-For the case that the user needs to take action in the message with a decision, the last mode should be used, which is a visual approach similar to the dialog component where the alert message is overlaid the application content to get the attencion and the focus of the user, who needs to select an action before to continue with the workflow of the page.
-
-In the scenario that the alert dialog doesn't have actionable items like buttons or other input elements, the message must be enough important only to displays text, because this is breaking the user flow in the applications.
-
-![Alert mode for the dialog version with actionable items](images/alert_mode_dialog.png)
 
 ### States
 
@@ -103,7 +98,7 @@ _Large_ - A largest option to make the alert more visible in the screen and expl
 | Space between text and icon |             `12px` |
 | Icon size                   |          `24x24px` |
 
-
+![alert specifications](images/alert_specs.png)
 
 
 ### User Interface Design Considerations
