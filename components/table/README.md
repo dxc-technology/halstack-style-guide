@@ -53,29 +53,15 @@ Design specifications for table header:
 | Max. width                         |      `100%` |
 | Padding right                      |      `40px` |
 | Padding left                       |      `20px` |
-| Padding top/bottom                 |      `15px` |
 | Space col. name and sort icon      |       `8px` |
 | Action bar Min. height             |      `48px` |
 | Padding right                      |      `40px` |
 | Padding left                       |      `20px` |
-| Padding top/bottom                 | `14px/12px` |
-| Distance items and icon operations |      `20px` |
-| Icon size                          | `14px 18px` |
-| Distance add item and icon         |      `10px` |
-| Font size                          |      `20px` |
+| Padding top/bottom                 |      `16px` |
+| Icon size                          |   `14x14px` |
+| Distance add item and icon         |       `8px` |
+| Font size                          |      `14px` |
 
-Dropdown specifications
-
-| Property                          |       Value |
-| --------------------------------- | ----------: |
-| Padding right/left                |      `20px` |
-| Padding top/bottom                | `12px 20px` |
-| Distance between inputs           |      `60px` |
-| Distance between buttons and form |      `60px` |
-| Distance between title and form   |      `30px` |
-| Font size title                   |      `20px` |
-
-\*Input, dropdown, and button specifications are defined in each component
 
 Filter specifications
 
