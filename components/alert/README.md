@@ -57,10 +57,14 @@ The both actions that alert will get are the one that for some reason appears in
 | Tokens       | Default value |
 | ------------ | ------------: |
 | overlayColor |     `#000000` |
-| infoColor    |     `#CEE0F5` |
-| confirmColor |     `#DBF1C4` |
-| warningColor |     `#FCF2BD` |
-| errorColor   |     `#F9CFCF` |
+| infoColor    |     `#0C5BA7` |
+| infoBackgroundColor    |     `#E3F2FE` |
+| successColor |     `#239642` |
+| successBackgroundColor |     `#E7F9ED` |
+| warningColor |     `#F5CA38` |
+| warningBackgroundColor |     `#FEF8E3` |
+| errorColor   |     `#C81722` |
+| errorBackgroundColor   |     `#FFE3E6` |
 | focusColor   |     `#005FCC` |
 
 The alert component should use generic colors that are recognizable by the users independent of the application and the context and that is the reason why we don't allow to configure the theme for the alerts.
@@ -79,49 +83,28 @@ _Large_ - A largest option to make the alert more visible in the screen and expl
 
 | Property                   |              Value |
 | -------------------------- | -----------------: |
-| Padding right/left         |        `12px/16px` |
-| Padding top/bottom         |             `14px` |
+| Padding right/left         |        `12px/12px` |
 | Width                      | `Predefined sizes` |
 | Height                     |             `48px` |
 | Border Radius              |              `4px` |
 | Font size                  |             `12px` |
 | Font weight                |     `Regular/Bold` |
-| Space between text and '-' |             `10px` |
-| Icon area width            |             `41px` |
-| Icon size                  |          `20x20px` |
+| Space between text and '-' |              `8px` |
+| Icon size                  |          `24x24px` |
 
-![Specifications for the condensed mode](images/alert_specs_condensed.png)
 
 | Property                    |              Value |
 | --------------------------- | -----------------: |
 | Padding right/left          |             `12px` |
-| Padding top/bottom          |        `14px/20px` |
 | Width                       | `Predefined sizes` |
-| Min. height                 |             `92px` |
 | Border Radius               |              `4px` |
 | Font size                   |             `12px` |
 | Font weight                 |     `Regular/Bold` |
 | Space between text and icon |             `12px` |
-| Icon size                   |          `20x20px` |
+| Icon size                   |          `24x24px` |
 
-![Specifications for the multiple mode](images/alert_specs_multi.png)
 
-| Property                              |              Value |
-| ------------------------------------- | -----------------: |
-| Padding right/left                    |        `16px/24px` |
-| Padding top/bottom                    |             `20px` |
-| Width                                 | `Predefined sizes` |
-| Min. height                           |            `220px` |
-| Border Radius                         |              `4px` |
-| Font size                             |    `16px and 14px` |
-| Font weight                           | `Bold and Regular` |
-| Space between text and icon           |             `16px` |
-| Space between title and description   |             `20px` |
-| Space between description and actions |             `20px` |
-| Icon size                             |          `20x20px` |
-| Overlay size                          |   `100vw by 100vh` |
 
-![Specifications for the alert dialog](images/alert_specs_dialog.png)
 
 ### User Interface Design Considerations
 
