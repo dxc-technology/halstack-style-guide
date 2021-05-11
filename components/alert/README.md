@@ -77,15 +77,29 @@ The both actions that alert will get are the one that for some reason appears in
 
 ## Design Specifications
 
+
+
+### Component width
+
 The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application.
 
 Widths for alert component: **fill content**, **fit parent**, **small**, **medium** and **large**.
 
-_Fill parent_ - It is used when the width will be adapted to the content of the alert itself.
-_Fit parent_ - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
-_Small_ - A small width for ocassions when the message is short, also applicable in mobile.
-_Medium_ - It is the average size, this option will fit well in a high percetange of the applications.
-_Large_ - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
+
+| Property         |  value            | 
+| :---                |     :---             |   
+| `small`          |  280px           |  
+| `medium`     |  480px           | 
+| `large`          |  820px           |  
+| `fillParent`    |  -                   | 
+| `fitContent`  |  -                   | 
+
+
+* _Fill parent_ - It is used when the width will be adapted to the content of the alert itself.
+* _Fit parent_ - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
+* _Small_ - A small width for ocassions when the message is short, also applicable in mobile.
+* _Medium_ - It is the average size, this option will fit well in a high percetange of the applications.
+* _Large_ - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
 
 ### Condensed
 
