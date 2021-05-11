@@ -61,7 +61,7 @@ Design specifications for table header:
 | Distance items and icon operations |      `20px` |
 | Icon size                          |   `14x14px` |
 | Distance add item and icon         |      `10px` |
-| Font size                          |      `16px` |
+| Font size                          |      `14px` |
 
 
 Filter specifications
