@@ -43,7 +43,25 @@ Five different states are defined in the life cycle of the component: **normal**
 
 ## Design Specifications
 
-### Sizes
+Schematics examples for the switch toggle component with all the variations.
+
+![Switch specifications](images/switch_specs.png)
+
+In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
+
+### Linear
+
+The text should have a margin of 16 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
+
+![Switch linear structure](images/switch_linear.png)
+
+### Stacked
+
+The spacing between stacked switches should be 24 pixels that is determining by the top/bottom margin of the switch component itself.
+
+![Switch stacked structure](images/switch_stacked.png)
+
+#### Sizes
 
 | Property                   |         Value |
 | -------------------------- | ------------: |
@@ -51,7 +69,7 @@ Five different states are defined in the life cycle of the component: **normal**
 | Focused ripple             |       42x42px |
 | Toggle button              |       24x24px |
 
-### Margin
+#### Margin
 
 margin | value
 -- | --
@@ -66,36 +84,20 @@ margin | value
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
-### Typography
+#### Typography
 
 | Property                   |         Value |
 | -------------------------- | ------------: |
 | Font size (with text)      |        `16px` |
 | Font weight                |     `Regular` |
 
-### Spacing
+#### Spacing
 
 | Property                   |         Value |
 | -------------------------- | ------------: |
 | Spacing between label and toggle |        `12px` |
 
-Schematics examples for the switch toggle component with all the variations.
 
-![Switch specifications](images/switch_specs.png)
-
-In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
-
-_Linear_
-
-The text should have a margin of 15 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
-
-![Switch linear structure](images/switch_linear.png)
-
-_Stacked_
-
-The spacing between stacked switches should be 20 pixels that is determining by the top/bottom margin of the switch component itself.
-
-![Switch stacked structure](images/switch_stacked.png)
 
 ## User Interface Design Considerations
 
