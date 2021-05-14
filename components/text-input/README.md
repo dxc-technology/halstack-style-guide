@@ -10,13 +10,13 @@ Other elements like assistive text, prefix or suffix icons or error handlers can
 
 ### Modes
 
-Five different modes can be identify using text input component: **basic**, **basic with assistive text**, **basic with prefix**, **basic with suffix** and **basic with prefix and suffix**.
+Four different modes can be identify using text input component: **default**, **default with preffix**, **default with suffix** and **default with preffix and suffix**.
 
 ![Input modes example](images/input_modes.png)
 
 ### States
 
-The states for text input are: **normal**, **focused**, **selected**, **value entered** and **disabled**.
+The states for text input are: **normal**, **focused**, **invalid** and **disabled**.
 
 ![Input states example](images/input_states.png)
 
@@ -37,9 +37,9 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment.
 When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
 
-It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
+It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. 
 
-The text area can have the following features: Label, assistive text, min and max-width, resizable call to action and scrollbar.
+The text area can have the following features: Label, assistive text and scrollbar.
 
 The aspects that text area is not including respecting text input are:
 
@@ -97,7 +97,7 @@ And also apply different values to each side of the component:
 | Input value `padding-top`                      |      6px |
 | Input value `padding-bottom`                   |      7px |
 | Distance between preffix and value             |     12px |
-| Distance between suffix and value              |      8px |
+| Distance between suffix and value              |     12px |
 
 ### Other
 
