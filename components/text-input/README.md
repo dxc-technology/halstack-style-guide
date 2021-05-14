@@ -50,21 +50,62 @@ The aspects that text area is not including respecting text input are:
 
 ## Design Specifications
 
+### Width
+
+width | value
+-- | --
+```small``` | 60px
+```medium``` (_default_) | 240px
+```large``` | 480px
+```fitContent``` | -
+```fillParent``` | -
+
+## Height
+
+| Property                                       |       Value |
+| ---------------------------------------------- | ---------- |
+| `min-height`                                   |      32px |
+| `max-height`                                   |      73px |
+
+### Margin
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Typography
+
+| Property                                       |     Value |
+| ---------------------------------------------- | --------- |
+| `font-size` (_default_)                        |      16px |
+| `font-size` (_label_)                          |      12px |
+| `font-weight`                                  |   Regular |
+
+### Spacing
+
+| Property                                       |     Value |
+| ---------------------------------------------- | --------- |
+| Input value `padding-top`                      |      6px |
+| Input value `padding-bottom`                   |      7px |
+| Distance between preffix and value             |     12px |
+| Distance between suffix and value              |      8px |
+
+### Other
+
 | Property                                       |       Value |
 | ---------------------------------------------- | ----------: |
-| Margin                                         |      `15px` |
-| Height (min)                                   |      `34px` |
-| Height (max)                                   |      `74px` |
-| Widht (min)                                    |     `230px` |
-| Widht (max)                                    |      `100%` |
-| Border thickness                               |   `1px/2px` |
-| Font size (with text)                          |      `16px` |
-| Font size smaller text                         |      `12px` |
-| Font weight                                    |   `Regular` |
-| Icon size                                      | `18x18(px)` |
-| Distance between text and underline            |      `12px` |
-| Icon margin right side                         |       `6px` |
-| Distance between text and underline (animated) |       `6px` |
+| Border thickness                               |     1px/2px |
+| Icon size                                      |   20x20(px) |
+
 
 ![Specifications for input component](images/input_specs.png)
 
