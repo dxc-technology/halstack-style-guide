@@ -42,6 +42,9 @@ __Enabled__, __Hover__, __selected__ and __disabled__.
 
 ## Design Specifications
 
+![Toggle specifications](images/toggle_specs.png)
+
+
 ### Size
 
 | Property           | Value|
@@ -71,7 +74,7 @@ Padding | value
 | `padding` right/left (item)| 30px |
 | `padding` top/bottom (item)| 12px |
 
-![Toggle specifications](images/toggle_specs.png)
+
 
 ### Border
 
