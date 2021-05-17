@@ -10,13 +10,13 @@ Other elements like assistive text, prefix or suffix icons or error handlers can
 
 ### Modes
 
-Five different modes can be identify using text input component: **basic**, **basic with assistive text**, **basic with prefix**, **basic with suffix** and **basic with prefix and suffix**.
+Four different modes can be identify using text input component: **default**, **default with preffix**, **default with suffix** and **default with preffix and suffix**.
 
 ![Input modes example](images/input_modes.png)
 
 ### States
 
-The states for text input are: **normal**, **focused**, **selected**, **value entered** and **disabled**.
+The states for text input are: **normal**, **focused**, **invalid** and **disabled**.
 
 ![Input states example](images/input_states.png)
 
@@ -25,7 +25,7 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 | Tokens                        | Default value |
 | ----------------------------- | ------------: |
 | fontColor                     |     `#000000` |
-| disabledFontColor             |     `#b1b1b1` |
+| disabledFontColor             |     `#B1B1B1` |
 | error                         |     `#D0011B` |
 | selectedOptionBackgroundColor |     `#F2F2F2` |
 | hoverOptionColor              |     `#000000` |
@@ -37,9 +37,9 @@ The states for text input are: **normal**, **focused**, **selected**, **value en
 The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment.
 When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
 
-It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. Also, the content area is resizable (based on the frame that is contained) so the user has the chance to increase/decrease the total area.
+It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. 
 
-The text area can have the following features: Label, assistive text, min and max-width, resizable call to action and scrollbar.
+The text area can have the following features: Label, assistive text and scrollbar.
 
 The aspects that text area is not including respecting text input are:
 
@@ -50,21 +50,62 @@ The aspects that text area is not including respecting text input are:
 
 ## Design Specifications
 
+### Width
+
+width | value
+-- | --
+```small``` | 60px
+```medium``` (_default_) | 240px
+```large``` | 480px
+```fitContent``` | -
+```fillParent``` | -
+
+## Height
+
+| Property                                       |       Value |
+| ---------------------------------------------- | ---------- |
+| `min-height`                                   |      32px |
+| `max-height`                                   |      73px |
+
+### Margin
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Typography
+
+| Property                                       |     Value |
+| ---------------------------------------------- | --------- |
+| `font-size` (_default_)                        |      16px |
+| `font-size` (_label_)                          |      12px |
+| `font-weight`                                  |   Regular |
+
+### Spacing
+
+| Property                                       |     Value |
+| ---------------------------------------------- | --------- |
+| Input value `padding-top`                      |      6px |
+| Input value `padding-bottom`                   |      7px |
+| Distance between preffix and value             |     12px |
+| Distance between suffix and value              |     12px |
+
+### Other
+
 | Property                                       |       Value |
 | ---------------------------------------------- | ----------: |
-| Margin                                         |      `15px` |
-| Height (min)                                   |      `34px` |
-| Height (max)                                   |      `74px` |
-| Widht (min)                                    |     `230px` |
-| Widht (max)                                    |      `100%` |
-| Border thickness                               |   `1px/2px` |
-| Font size (with text)                          |      `16px` |
-| Font size smaller text                         |      `12px` |
-| Font weight                                    |   `Regular` |
-| Icon size                                      | `18x18(px)` |
-| Distance between text and underline            |      `12px` |
-| Icon margin right side                         |       `6px` |
-| Distance between text and underline (animated) |       `6px` |
+| Border thickness                               |     1px/2px |
+| Icon size                                      |   20x20(px) |
+
 
 ![Specifications for input component](images/input_specs.png)
 

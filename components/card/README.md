@@ -31,16 +31,59 @@ As the Card component is using the Box to be build, the values for the backgroun
 
 ## Design Specifications
 
+### Margin
+
+Margin properties can be applied independently to `top`, `right`, `bottom` and `left` sides of the card container.
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+
+### Padding
+
+Padding properties can be applied independently to `top`, `right`, `bottom` and `left` sides of the card container.
+
+
+padding | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+
+### Border
+
 | Property                     |   Value |
-| ---------------------------- | ------: |
-| Margin                       |  `20px` |
-| Padding                      |  `20px` |
+| ---------------------------- | ------ |
 | Border Radius                |   `4px` |
 | Border thickness             |   `2px` |
+
+
+### Size
+
+| Property                     |   Value |
+| ---------------------------- | ------ |
 | Min. height                  | `220px` |
 | Min. width                   | `400px` |
 | Max. width                   |  `100%` |
 | Image max. width             | `140px` |
+
+
+### Spacing
+
+| Property                     |   Value |
+| ---------------------------- | ------ |
 | Space title-subtitle         |   `4px` |
 | Space main info to paragraph |  `20px` |
 | Space actions to photo       |  `20px` |
