@@ -6,61 +6,49 @@ There are different ways to organise the content on the webpage to facilitate th
 
 Just as the name indicates the content in the webpage can be grouped using the Box Component, which is a simple wrapper component used to organise the layout within the box container.
 
-The Box component can be Decorated by using its pre-set CSS properties like margins, padding, borders, shadows, background colors etc. and organise the layout design consisting of interactive / non-interactive components like icons, labels, paragraphs and buttons etc as described in the design specifications. Based on the interaction CSS Animation can be performed as required.
+The Box has properties like margins, padding, borders, shadows, background colors etc. and organise the layout design consisting of interactive / non-interactive components like icons, labels, paragraphs and buttons etc as described in the design specifications.
 
-# States
+# Modes
 
-## Default:
-Only light grey/white background can be used with no shadow.
+## No-shadow:
+Can be used as a container, there's no visual appearance of the box in the UI, just works as a simple <div>
 
-## Mouse Over:
-On mouse over the box container can show a very light grey background and a light shadow to indicate the component is in focus.
+## Shadow depth 1:
+Regular visualization of the box, the container can be used to create a clear distinction between different sections of the UI.
 
-## On Mouse Click (Focus):
-When the group is in focus the 1px outline can be applied with the primary colour with a darker shadow.
+## Shadow depth 2:
+Basically the same as the previous on but with a deeper shadow.
 
 # Design specifications
 
-The Box component serves as a wrapper component, a user interface framework that provides pre-defined and customizable React components for faster and easy web development
-There could be two types of styling and adjusting properties that can be used with the container.
-Fluid: The Fluid container wraps the content in it with maxWidth value which is provided as a prop, and this value will be the default value of the container.
-For ex
-maxWidth value defines the width of the screen that we are targeting.
-•	xl: 1920px(extra large)
-•	lg: 1280px(large)
-•	md: 960px(medium)
-•	sm: 600px(small)
-•	xs: 0px(extra small)
+The Box component serves as a wrapper component, there could be two types of styling and adjusting properties that can be used with the container.
 
-Fixed: If you prefer to design for a fixed set of sizes instead of trying to accommodate a fully fluid viewport, you can set the fixed property. The max-width matches the min-width of the current breakpoint.
+## Size
 
-## Checkboxes
-Checkboxes allow the user to select one or more options from a set. 
-It is usually best to present checkboxes in a vertical list. More than one column is acceptable as well if the list is long enough that it might require scrolling or if comparison of terms might be necessary. 
+In the cases of fillParent and fillContent the box is going to behave as a fluid container occupying the parent leaves for its children or adapting its size to the children it the box has. 
 
-## List boxes
-List boxes, like checkboxes, allow users to select a multiple items at a time,but are more compact and can support a longer list of options if needed. 
+Instead of using a fluid approach, you can set a fixed size. Choosing between small medium and large properties.
 
-## Message Boxes
-A message box is a small window that provides information to users and requires them to take an action before they can move forward.
+| property | value |
+| -----| -------|
+| small | 48px |
+| medium | 240px |
+| large | 480px |
+| fillParent | - |
+| fillContent | - |
 
-## Modal Window (pop-up)
-A modal window requires users to interact with it in some way before they can return to the system.
+## Margin
 
+## Padding
+
+# Content
+
+Any type of content can be place inside the box component.
 
 
 # User interface considerations
 
-BoxHeader Component
-The BoxHeader component takes care of instantiating a Searchbox component with preconfigured options and a placeholder. Optionally, this component can also display a Remove context check box. You should normally place this component at the top of your box.
 
-Resize
-Triggers a resize of the box so that it occupies the full page height and width. This is automatically called whenever the page is resized.
-Enable Infinite Scroll
-Specifies whether the component should automatically load more results when the user has reached the bottom of the result list.
-
-Box Popup Component
-Since the Box Component is designed to be included in the Salesforce console sidebar with a limited amount of space, it might be useful to add sections that can be hidden or shown when the user clicks on them. This component is only a container inside of which you can drop any other content or components.
-
-* Organise the group layout with the information presented clearly by applying the styles in the box container
-* If required, the same group can be replicated using styles multiple iterations
+* Organise the group layout with the information presented clearly by applying the styles in the box container.
+* Box can be reused accros the UI, avoid using different shadow depths in the same page.
+* Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
