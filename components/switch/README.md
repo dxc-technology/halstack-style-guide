@@ -31,28 +31,17 @@ Five different states are defined in the life cycle of the component: **normal**
 
 | Tokens                                | Default value |
 | ------------------------------------- | ------------: |
-| checkedTrackBackgroundColor           |     `#6F2C91` |
-| disabledCheckedTrackBackgroundColor   |     `#D0BDDB` |
-| checkedthumbBackgroundColor           |     `#FFFFFF` |
-| uncheckedThumbBackgroundColor         |     `#FFFFFF` |
-| uncheckedTrackBackgroundColor         |     `#D9D9D9` |
-| disabledUncheckedTrackBackgroundColor |     `#F2F2F2` |
-| fontColor                             |     `#000000` |
-| disabledFontColor                     |     `#B1B1B1` |
-| focusColor                            |     `#005FCC` |
+| `checkedTrackBackgroundColor`           |     #6F2C91 |
+| `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
+| `checkedthumbBackgroundColor`           |     #FFFFFF |
+| `uncheckedThumbBackgroundColor`         |     #FFFFFF |
+| `uncheckedTrackBackgroundColor`         |     #D9D9D9 |
+| `disabledUncheckedTrackBackgroundColor` |     #D9D9D9 + 0.12 opacity |
+| `fontColor`                             |     #000000 |
+| `disabledFontColor`                     |     #000000 + 0.12 opacity |
+| `focusColor`                            |     #005FCC |
 
 ## Design Specifications
-
-| Property                   |         Value |
-| -------------------------- | ------------: |
-| Margin right/left          |        `15px` |
-| Margin top/bottom          |        `10px` |
-| Switch bar                 |        `44px` |
-| Text margin no switch side |        `15px` |
-| Focused ripple             |   `42 x 42px` |
-| Font size (with text)      |        `16px` |
-| Font weight                |     `Regular` |
-| Switch button shape        | `y:1, blur:3` |
 
 Schematics examples for the switch toggle component with all the variations.
 
@@ -60,17 +49,55 @@ Schematics examples for the switch toggle component with all the variations.
 
 In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
 
-_Linear_
+### Linear
 
-The text should have a margin of 15 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
+The text should have a margin of 16 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
 
 ![Switch linear structure](images/switch_linear.png)
 
-_Stacked_
+### Stacked
 
-The spacing between stacked switches should be 20 pixels that is determining by the top/bottom margin of the switch component itself.
+The spacing between stacked switches should be 24 pixels that is determining by the top/bottom margin of the switch component itself.
 
 ![Switch stacked structure](images/switch_stacked.png)
+
+#### Sizes
+
+| Property                   |         Value |
+| -------------------------- | ------------: |
+| Toggle bar                 |          36px |
+| Focused ripple             |       42x42px |
+| Toggle button              |       24x24px |
+
+#### Margin
+
+margin | value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` | 24px
+`medium` default | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
+
+#### Typography
+
+| Property                   |         Value |
+| -------------------------- | ------------: |
+| Font size (with text)      |        `16px` |
+| Font weight                |     `Regular` |
+
+#### Spacing
+
+| Property                   |         Value |
+| -------------------------- | ------------: |
+| Spacing between label and toggle |        `12px` |
+
+
 
 ## User Interface Design Considerations
 

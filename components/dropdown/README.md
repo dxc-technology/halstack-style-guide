@@ -105,9 +105,10 @@ Font weight                    |     `Regular` |
 
 Default dropdown & displayed `icon-size` value
 
-Icon size                      | `20px x 20px` |
+Icon size                      | value |
 -- | --
-
+Caret                          | `24x24px` |
+Custom icon                    | `20x20px` |
 
 
 ![Dropdown specifications](images/dropdown_specs.png)
@@ -116,7 +117,7 @@ Icon size                      | `20px x 20px` |
 
 It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
 
-![Icon usage](images/dropdown_iconusage.png)
+![Icon usage](images/dropdown_icon_usage.png)
 
 ## User Interface Design Considerations
 

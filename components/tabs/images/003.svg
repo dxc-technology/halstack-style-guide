@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1154" height="374" viewBox="0 0 1154 374">
+  <g id="Group_4091" data-name="Group 4091" transform="translate(-386 -2006)">
+    <rect id="Rectangle_2075" data-name="Rectangle 2075" width="1154" height="374" transform="translate(386 2006)" fill="#fafafa"/>
+    <g id="Tabs-Fixed-iconTop-72" transform="translate(696 2152)">
+      <path id="Tabs-container" d="M0,0H528V72H0Z" fill="#fff"/>
+      <line id="Divider" x1="528" transform="translate(0 71.5)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+      <g id="Tab3">
+        <rect id="Rectangle_1983" data-name="Rectangle 1983" width="176" height="72" transform="translate(352)" fill="none"/>
+        <text id="Label-3" transform="translate(440 57)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 3</tspan></text>
+        <g id="queue_music-24px" transform="translate(428 8)">
+          <path id="Path_2883" data-name="Path 2883" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2884" data-name="Path 2884" d="M15,6H3V8H15Zm0,4H3v2H15ZM3,16h8V14H3ZM17,6v8.18A3,3,0,1,0,19,17V8h3V6Z" fill="#666"/>
+        </g>
+        <g id="queue_music-24px-2" data-name="queue_music-24px" transform="translate(428 8)">
+          <path id="Path_2883-2" data-name="Path 2883" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2884-2" data-name="Path 2884" d="M15,6H3V8H15Zm0,4H3v2H15ZM3,16h8V14H3ZM17,6v8.18A3,3,0,1,0,19,17V8h3V6Z" fill="#666"/>
+        </g>
+      </g>
+      <g id="Tab2">
+        <rect id="Rectangle_1982" data-name="Rectangle 1982" width="176" height="72" transform="translate(176)" fill="none"/>
+        <text id="Label-2" transform="translate(264 57)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 2</tspan></text>
+        <g id="turned_in-24px" transform="translate(252 8)">
+          <path id="Path_2881" data-name="Path 2881" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2882" data-name="Path 2882" d="M17,3H7A2,2,0,0,0,5.01,5L5,21l7-3,7,3V5A2.006,2.006,0,0,0,17,3Z" fill="#666"/>
+        </g>
+      </g>
+      <g id="Tab1">
+        <rect id="Tab-container" width="176" height="72" fill="none"/>
+        <rect id="Active-indicator" width="176" height="2" transform="translate(0 70)" fill="#6f2c91"/>
+        <text id="Label-1" transform="translate(88 57)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        <g id="favorite-24px" transform="translate(76 8)">
+          <path id="Path_2854" data-name="Path 2854" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2855" data-name="Path 2855" d="M12,21.35l-1.45-1.32C5.4,15.36,2,12.28,2,8.5A5.447,5.447,0,0,1,7.5,3,5.988,5.988,0,0,1,12,5.09,5.988,5.988,0,0,1,16.5,3,5.447,5.447,0,0,1,22,8.5c0,3.78-3.4,6.86-8.55,11.54Z" fill="#6f2c91"/>
+        </g>
+      </g>
+    </g>
+    <line id="Line_9" data-name="Line 9" x1="152" transform="translate(1163.5 2170.5)" fill="none" stroke="#0067b3" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" x1="110.125" transform="translate(820.75 2094.75) rotate(90)" fill="none" stroke="#0067b3" stroke-width="1"/>
+    <line id="Line_1482" data-name="Line 1482" y1="43" transform="translate(1132.5 2240)" fill="none" stroke="#0067b3" stroke-width="1"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="13.5" cy="13.5" r="13.5" transform="translate(1315 2157)" fill="#0067b3"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="13.5" cy="13.5" r="13.5" transform="translate(834.25 2071.25) rotate(90)" fill="#0067b3"/>
+    <circle id="Ellipse_433" data-name="Ellipse 433" cx="13.5" cy="13.5" r="13.5" transform="translate(1119 2272.5)" fill="#0067b3"/>
+    <g id="Group_1282" data-name="Group 1282" transform="translate(-50 -770.5)">
+      <path id="Path_2895" data-name="Path 2895" d="M101,0H0" transform="translate(633 2958.5)" fill="#0067b3" stroke="#0067b3" stroke-width="1"/>
+      <path id="Path_2894" data-name="Path 2894" d="M13.5,0A13.5,13.5,0,1,1,0,13.5,13.5,13.5,0,0,1,13.5,0Z" transform="translate(609 2945)" fill="#0067b3"/>
+      <text id="_1" data-name="1" transform="translate(618 2964)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g id="Group_3800" data-name="Group 3800" transform="translate(118.25 -8.5)">
+      <line id="Line_4" data-name="Line 4" y1="62.25" transform="translate(669.75 2103.25)" fill="none" stroke="#0067b3" stroke-width="1"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="13.5" cy="13.5" r="13.5" transform="translate(683.25 2079.75) rotate(90)" fill="#0067b3"/>
+      <text id="_2" data-name="2" transform="translate(665.75 2099.25)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <text id="_5" data-name="5" transform="translate(1324 2176)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">5</tspan></text>
+    <text id="_3" data-name="3" transform="translate(816.75 2090.75)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">3</tspan></text>
+    <g id="Group_3804" data-name="Group 3804" transform="translate(0 4)">
+      <line id="Line_10" data-name="Line 10" x1="145.5" transform="translate(1174 2201.5)" fill="none" stroke="#0067b3" stroke-width="1"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="13.5" cy="13.5" r="13.5" transform="translate(1315 2188)" fill="#0067b3"/>
+      <text id="_6" data-name="6" transform="translate(1324 2207)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <g id="Group_3840" data-name="Group 3840" transform="translate(0 17.5)">
+      <line id="Line_5" data-name="Line 5" y1="35" transform="translate(774.5 2238.5)" fill="none" stroke="#0067b3" stroke-width="1"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="13.5" cy="13.5" r="13.5" transform="translate(761 2265.5)" fill="#0067b3"/>
+      <text id="_4" data-name="4" transform="translate(770 2284.5)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <text id="_8" data-name="8" transform="translate(1128 2291.5)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">8</tspan></text>
+    <line id="Line_1329" data-name="Line 1329" y2="71" transform="translate(684 2153)" fill="none" stroke="#005fcc" stroke-width="1"/>
+    <g id="Group_3839" data-name="Group 3839" transform="translate(0 20)">
+      <line id="Line_8" data-name="Line 8" y1="37" transform="translate(963.5 2236.5)" fill="none" stroke="#0067b3" stroke-width="1"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="13.5" cy="13.5" r="13.5" transform="translate(950 2263)" fill="#0067b3"/>
+      <text id="_7" data-name="7" transform="translate(959 2282)" fill="#fff" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">7</tspan></text>
+      <line id="Line_1444" data-name="Line 1444" x2="176" transform="translate(872 2236)" fill="none" stroke="#005fcc" stroke-width="1"/>
+    </g>
+    <path id="Path_2892" data-name="Path 2892" d="M0,0H176" transform="translate(1048.5 2223.5)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+    <line id="Line_1484" data-name="Line 1484" x2="528" transform="translate(696 2240)" fill="none" stroke="#005fcc" stroke-width="1"/>
+  </g>
+</svg>
