@@ -10,7 +10,7 @@ There are different ways to organise the content on the webpage to facilitate th
 
 Just as the name indicates the content in the webpage can be grouped using the Box Component, which is a simple wrapper component used to organise the layout within the box container.
 
-The Box has properties like margins, padding, borders, shadows, background colors etc. and organise the layout design consisting of interactive / non-interactive components like icons, labels, paragraphs and buttons etc as described in the design specifications.
+The Box has properties like margins, padding, borders, shadows, background colors etc. and organise the layout design serving as a container for interactive / non-interactive components like icons, labels, paragraphs and buttons etc.
 
 ### Modes
 
@@ -25,7 +25,7 @@ Basically the same as the previous on but with a deeper shadow.
 
 ## Design specifications
 
-The Box component serves as a wrapper component, there could be two types of styling and adjusting properties that can be used with the container.
+The Box component serves as a wrapper component, all the properties are related to its size itself, `margin` and `padding`.
 
 ### Size
 
