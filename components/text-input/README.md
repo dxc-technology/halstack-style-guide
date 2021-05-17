@@ -25,7 +25,7 @@ The states for text input are: **normal**, **focused**, **invalid** and **disabl
 | Tokens                        | Default value |
 | ----------------------------- | ------------: |
 | fontColor                     |     `#000000` |
-| disabledFontColor             |     `#999999` |
+| disabledFontColor             |     `#B1B1B1` |
 | error                         |     `#D0011B` |
 | selectedOptionBackgroundColor |     `#F2F2F2` |
 | hoverOptionColor              |     `#000000` |
