@@ -27,7 +27,7 @@ Basically the same as the previous on but with a deeper shadow.
 
 The Box component serves as a wrapper component, all the properties are related to its size itself, `margin` and `padding`.
 
-### Size
+### Width
 
 In the cases of `fillParent` and `fillContent` the box is going to behave as a fluid container occupying the space the parent leaves for its children or adapting its size to the children it the box has. Instead of using a fluid approach, you can set a fixed size, choosing between `small`, `medium` and `large` properties.
 
