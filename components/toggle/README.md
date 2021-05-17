@@ -4,60 +4,91 @@ Toggle buttons can be used to put together related options that share a common a
 It allows the user to switch from one selected option to another in the same control, having one option selected at a time. Also, there can be another variation that allows selecting multiple options from the current toggle group.
 
 
-## Appereance
+## Appearance
 
 The appearance of the toggle looks like button component, because it is based on the same specifications to keeping consistency along with the application, but in this case are offered fewer visual modes.
 
+![Toggle appearance](images/toggle_appearance.png)
+
 ## Modes
 
-Two modes are presented: __basic__ and __outlined__.
-
-![Toggle modes](images/toggle_modes.png)
+The selection of the toggle group can be mutually exclusive or multiple. Depending on the context a user may need to select more than one option at once.
 
 ## States
 
 Different states are defined in the life cycle of the component:
-__Normal__, __selected__, __unselected__, __disabled__ and __clicked__.
+__Enabled__, __Hover__, __selected__ and __disabled__.
 
+![Toggle states](images/toggle_states.png)
 
 ## Design tokens
 
-### Light theme
+| Token          | Value|
+|--------------------|------|
+| `selectedBackgroundColor` |  #6F2C91 |
+| `selectedBackgroundHoverColor` | #000000 |
+| `selectedFontColor` | #FFFFFF |
+| `selectedHoverFontColor` | #FFFFFF |
+| `unselectedBackgroundColor` | #D9D9D9 |
+| `unselectedBackgroundHoverColor` | #EEEEEE |
+| `unselectedFontColor` | #000000 |
+| `unselectedHoverFontColor` | #000000 |
+| `disabledSelectedBackgroundColor` | #D0BDDB |
+| `disabledSelectedFontColor` | #FFFFFF |
+| `disabledUnselectedBackgroundColor` | #F2F2F2 |
+| `disabledUnselectedFontColor` | #B1B1B1 |
 
-Yellow: #FEDD00  
-Black: #000000  
-Grey unselected option (default): #F6F6F6  
-Disabled opacity (default): 0.5  
-Grey selected option (outlined): #EEEEEE  
-Grey unselected option (outlined): #FFFFFF  
-Disabled opacity (outlined): 0.25  
 
-![Toggle light theme](images/toggle_light.png)
-
-### Dark theme
-
-Same colors are using for the default mode in the dark theme. New colors for the outline mode are defined as follow:
-
-Grey selected option (outlined): #EEEEEE  
-Hover grey unselected: #666666  
-Disabled opacity (outlined): 0.5  
-
-![Toggle dark theme](images/toggle_dark.png)
 
 ## Design Specifications
 
-| Property           | Value|
-|--------------------|------:|
-| Margin            | `15px` |
-| Padding right/left (item)| `30px` |
-| Padding top/bottom (item)| `12px` |
-| Border Radius | `4px` |
-| Border thickness| `2px` |
-| Min. height| `43px` |
-| Font size| `14px` |
-| Font weight| `Regular` |
-
 ![Toggle specifications](images/toggle_specs.png)
+
+
+### Size
+
+| Property           | Value|
+|--------------------|------|
+| Min. height| `43px` |
+
+### Margin
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+
+### Padding
+
+Padding | value
+-- | --
+| `padding` right/left (item)| 30px |
+| `padding` top/bottom (item)| 12px |
+
+
+
+### Border
+
+| Property           | Value|
+|--------------------|------|
+| `border-radius` | 4px |
+| `border-thickness`| 2px |
+
+### Typography
+
+| Property           | Value|
+|--------------------|------|
+| `font-size`| 14px |
+| `font-weight`| Regular |
 
 ## Icon Usage
 
