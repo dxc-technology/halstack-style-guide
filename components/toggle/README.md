@@ -17,24 +17,33 @@ The selection of the toggle group can be mutually exclusive or multiple. Dependi
 ## States
 
 Different states are defined in the life cycle of the component:
-__Normal__, __selected__, __unselected__, __disabled__ and __clicked__.
+__Enabled__, __Hover__, __selected__ and __disabled__.
 
 ![Toggle states](images/toggle_states.png)
 
 ## Design tokens
 
 | Token          | Value|
-|--------------------|------:|
-| Padding right/left (item)| `30px` |
-| Padding top/bottom (item)| `12px` |
-| Border Radius | `4px` |
-| Min. height| `43px` |
-| Font size | `14px` |
-| Font weight| `Regular` |
+|--------------------|------|
+| `selectedBackgroundColor` |  #6F2C91 |
+| `selectedBackgroundHoverColor` | #000000 |
+| `selectedFontColor` | #FFFFFF |
+| `selectedHoverFontColor` | #FFFFFF |
+| `unselectedBackgroundColor` | #D9D9D9 |
+| `unselectedBackgroundHoverColor` | #EEEEEE |
+| `unselectedFontColor` | #000000 |
+| `unselectedHoverFontColor` | #000000 |
+| `disabledSelectedBackgroundColor` | #D0BDDB |
+| `disabledSelectedFontColor` | #FFFFFF |
+| `disabledUnselectedBackgroundColor` | #F2F2F2 |
+| `disabledUnselectedFontColor` | #B1B1B1 |
 
 
 
 ## Design Specifications
+
+![Toggle specifications](images/toggle_specs.png)
+
 
 ### Size
 
@@ -65,7 +74,7 @@ Padding | value
 | `padding` right/left (item)| 30px |
 | `padding` top/bottom (item)| 12px |
 
-![Toggle specifications](images/toggle_specs.png)
+
 
 ### Border
 
