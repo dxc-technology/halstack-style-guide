@@ -17,7 +17,7 @@ The selection of the toggle group can be mutually exclusive or multiple. Dependi
 ## States
 
 Different states are defined in the life cycle of the component:
-__Normal__, __selected__, __unselected__, __disabled__ and __clicked__.
+__Enabled__, __Hover__, __selected__ and __disabled__.
 
 ![Toggle states](images/toggle_states.png)
 
