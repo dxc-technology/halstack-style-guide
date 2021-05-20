@@ -1,5 +1,5 @@
 
-![Screen Shot 2021-04-16 at 11 12 12](https://user-images.githubusercontent.com/44420072/115002049-99f92800-9ea4-11eb-982f-fff2155212eb.png)
+![Typographyu overview](images/typography_overview.png)
 
 ## Typography hierarchy
 Our selected typography helps in structuring our user's experience based on the visual impact that it has on the user interface content. 
