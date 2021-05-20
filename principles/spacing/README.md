@@ -1,7 +1,7 @@
 
 In the search of consistent alignment between the elements we provide a spacing scale based on a root values of 8px and 4px. The numbers 4 and 8 are easily multiplied, they provide flexible and consistent, yet distinct enough, steps between them.
 
-![image](https://user-images.githubusercontent.com/44420072/114699087-20383180-9d20-11eb-83ee-a61f8928b971.png)
+![Spacing_overview](images/spacing_overview.png)
 
 The spacing scale can be applied to  `margin`  or  `padding`  properties, as well as to both vertical and horizontal edges. 
 The token takes the place of the values normally assigned to this properties.
@@ -12,7 +12,7 @@ The token takes the place of the values normally assigned to this properties.
 
 Althouhg the fixed spacing scale is most commonly used for vertical spacing, it can also be applied for horizontal spacing, especially in the case of spacing inside components.
 
-![image](https://user-images.githubusercontent.com/44420072/114699243-52499380-9d20-11eb-90ab-d4f463be7d4d.png)
+![Spacing methods](images/spacing_types.png)
 
 _**Left**: Horizontal: Used for smaller, more refined spacing needs, inside components._
 
@@ -50,7 +50,7 @@ The core spacing scale is used to create space relationships for detail-level de
 
 Most components across Halstack can adopt our component spacing tokens as `margin` or `padding` in every direction in order to create white space between components.
 
-![image](https://user-images.githubusercontent.com/44420072/115279749-64279e00-a147-11eb-9661-78416f49a83a.png)
+![Padding properties](images/spacing_padding.png)
 
 _Usage of the `medium` token for `left` `right` `bottom` and `top` `padding` properties._
 
