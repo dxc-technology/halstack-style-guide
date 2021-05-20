@@ -1,4 +1,3 @@
-# Color
 
 ![image](https://user-images.githubusercontent.com/44420072/115871552-ff1ec180-a440-11eb-8cee-f5d31b7eaace.png)
 

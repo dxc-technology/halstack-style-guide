@@ -1,6 +1,4 @@
 {
   "name": "Button",
-  "docFile": "README.md",
-  "reactStory": "form-components-button--types",
-  "angularStory": "form-components-button--types"
+  "docFile": "README.md"
 }
