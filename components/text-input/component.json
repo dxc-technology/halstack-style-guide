@@ -1,6 +1,4 @@
 {
   "name": "Input",
-  "docFile": "README.md",
-  "reactStory": "form-components-text--component",
-  "angularStory": "form-components-input-text--types"
+  "docFile": "README.md"
 }

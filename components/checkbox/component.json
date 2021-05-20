@@ -1,6 +1,4 @@
 {
   "name": "Checkbox",
-  "docFile": "README.md",
-  "reactStory": "form-components-checkbox--component",
-  "angularStory": "form-components-checkbox--types"
+  "docFile": "README.md"
 }

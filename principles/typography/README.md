@@ -1,4 +1,3 @@
-# Typography
 
 ![Screen Shot 2021-04-16 at 11 12 12](https://user-images.githubusercontent.com/44420072/115002049-99f92800-9ea4-11eb-982f-fff2155212eb.png)
 
