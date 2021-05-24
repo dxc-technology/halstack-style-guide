@@ -12,6 +12,7 @@ Some of the most used elements in the header are: brand identity elements, links
 
 * **Content**:
 
+   * **Application name**: If the application has a specific name, can be placed here.
    * **Primary navigation**: The links and dropdowns with a navigational purpose should be placed here.
    * **Site options**: Language selector, settings, or other any option that applies globally should be placed here. 
    * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
@@ -40,11 +41,8 @@ Modes: **basic** and **underlined**.
 | backgroundColorMenu  |    `#FFFFFF`     |
 | fontColorMenu        |    `#000000`     |
 | hamburguerColor      |    `#000000`     |
-| hoverHamburguerColor |    `#DBDBBD`     |
 | overlayColor         |    `#565656`     |
 | focusColor           |    `#005FCC`     |
-| logo                 | `DXC Technology` |
-| logoResponsive       | `DXC Technology` |
 
 ## Design Specifications
 
@@ -52,64 +50,52 @@ Design specifications for main structure:
 
 | Property                                 |    Value |
 | ---------------------------------------- | -------: |
-| Padding right                            |   `60px` |
-| Padding left                             |   `36px` |
-| Padding top/bottom                       |   `15px` |
+| Padding right                            |   `36px` |
+| Padding left                             |   `20px` |
 | Height                                   |   `64px` |
 | Min. width                               | `1024px` |
-| Distance between icons                   |   `20px` |
-| Distance between icons and links         |   `40px` |
-| Distance between language and navigation |  `150px` |
+
+
+### Margin
+
+The margin only applies to the bottom of the header component.
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+### Padding
+
+The padding only applies to the content area.
+
+padding | value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` | 24px
+`medium` | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+Different values can be applied to each side of the component:
+`top` `bottom` `left` `right`
+
 
 ![Header specifications](images/header_design_specifications.png)
 
-Design specifications for items:
-
-| Property                                           |      Value |
-| -------------------------------------------------- | ---------: |
-| Logo size                                          | `181x32px` |
-| Line thickness                                     |      `2px` |
-| Link font size                                     |     `14px` |
-| Link font weight                                   |     `bold` |
-| Space between icon and sublabel                    |      `8px` |
-| Sublabel font size                                 |     `10px` |
-| Sublabel font weight                               |     `bold` |
-| Distance between icons with sublabels              |     `40px` |
-| Distance between icons with sublabels to underline |     `10px` |
-
-![Header specifications for items](images/header_design_specs_basic.png)
 
 
 
-## Icon usage and types of dropdown elements
+## Content
 
-As it was mentioned previously, in the navigation part can coexist, links that will jump to the page that is linked and dropdowns, which are elements that have more information hidden.
-
-For the first type, there is only one type of representation, that is only the text of the link as a label.
-
-![Header links](images/header_links.png)
-
-As is represented in the image, in this case, the header has 3 links to different pages into the website that will navigate when the user clicks on one of the links. This is the only representation that the design system is contemplating to represent links in the header.
-
-The second type of elements that can be included are the dropdowns. In this case, there are 3 different combinations to represent a dropdown trigger.
-
-- Icon only
-  ![Using only icons in header](images/header_icon_only.png)
-
-With this choice, only the icon is displayed, once the mouse is hovering it, the dropdown will be displayed.
-
-- Icon with sublabel
-  ![Using icons with sublabels](images/header_icon_sublabel.png)
-
-In this case, the icon is accompanied by a sublabel that describes which element/category is describing the icon representation.
-Relative to the account item, if the user logs in, then the sublabel will replace the 'login' value by the name of the user.
-
-- Text with caret
-  ![Using text with caret](images/header_text_caret.png)
-
-The third option is the use of text paired with a caret icon to represent that more information are available under it.
-
-As can be seen in the images, the 3 different approaches can be combined, using the corresponding schematics for each one and always taking care of the elements surrounding.
+Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
 
 ## Responsive version for mobile and tablet
 
@@ -120,55 +106,14 @@ The design for smaller devices tries to keep the consistency respect to the othe
 ![Header version for mobile](images/header_mobile.png)
 ![Header responsive menu](images/header_responsive_menu.png)
 
-Specifications
 
-Specifications for tablet
 
-| Property      |      Value |
-| ------------- | ---------: |
-| Logo size     | `181x32px` |
-| Padding right |     `40px` |
-| Padding left  |     `20px` |
-| Max width     |    `768px` |
-
-Specifications for mobile
-
-| Property                                      |      Value |
-| --------------------------------------------- | ---------: |
-| Logo size                                     | `150x26px` |
-| Padding                                       |     `20px` |
-| Max width                                     |    `425px` |
-| Min height                                    |     `64px` |
-| Distance between hamburguer and login (425px) |     `40px` |
-| Distance between icons with sublabels         |     `20px` |
-| Distance between icons                        |     `20px` |
-
-Specifications for responsive menu
-
-| Property                            |     Value |
-| ----------------------------------- | --------: |
-| Logo variation                      | `45x32px` |
-| Padding                             |    `20px` |
-| Width                               |   `100vw` |
-| Height                              |   `100vh` |
-| Distance first item menu to logo    |    `52px` |
-| Distance between menu items         |    `20px` |
-| Distance between subitems           |    `20px` |
-| Distance between subitems to parent |    `15px` |
-| Close icon margin top               |    `24px` |
-| Distance between languages options  |    `15px` |
-
-![Header specifications for responsive version](images/header_responsive_specs.png)
-
-## Use of the custom area
-
-![Header usage of custom area](images/header_custom.png)
 
 ## User Interface Design Considerations
 
-- Try to avoid to place items inside the custom area, the header has already all the element necessaries for navigability, use it only in exceptional cases.
-- The only way that the header's height should increase is when the company logo needs to be more large to be visible, in other cases the height must be 64 pixels.
-- If the hierarchy of the menu will contain many items, please consider taking the hamburguer approach for mobile and tablet version in the desktop interface.
+- Try to avoid to place a large number of items inside the content area.
+- Avoid increasing the header height.
+
 
 ## Links and references
 
