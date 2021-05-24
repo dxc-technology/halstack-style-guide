@@ -5,50 +5,30 @@ The header is an important component in the interface, it is the area dedicated 
 A variety of headers can be presented over the internet, with many differences between them, position (vertical/horizontal), size, color and so on.
 Some of the most used elements in the header are: brand identity elements, links to basic categories, links to social networks, basic contact, sign in and login options, search field or switch for languages.
 
-## Appearance
+## Anatomy
 
-The header of the design system should be concise and clearly structured. Each item has its own space designated and the main areas are the following ones: Company logo, custom area, language, navigation, and account.
 
-- Custom logo: In this area should be placed the company logo, it will go on the left side of the header, respecting the specifications that are defined in the below sections.
-- Custom area: This area should be used to place items that want to be displayed in the application header and they are not offered by default. The center region will be the container of the custom content.
-- Language: The language selector can be configured to appears in the header. It will offer the user a way to change the language of the whole application using a custom component already defined.
-- Navigation: The links and dropdowns with a navigational purpose should be placed on the right side of the header. There are several ways to represent a dropdown element in the menu that will be explained later on.
-- Account: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
+* **Brand**: In this area should be placed the company logo, it will go on the left side of the header.
 
-\*All the items should be easily configurable, i.e. If the application has only one language, the language selection must not be displayed on the header.
+* **Content**:
+
+   * **Primary navigation**: The links and dropdowns with a navigational purpose should be placed here.
+   * **Site options**: Language selector, settings, or other any option that applies globally should be placed here. 
+   * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
 
 Here is an example of the content distribution:
 
 ![Header distribution](images/header_distribution.png)
 
-### Modes
+## Modes
 
 Following the convention of the modes that can be found in a component, two main modes are defined for the header.
 Modes: **basic** and **underlined**.
 
 ![Header modes](images/header_modes.png)
 
-### States
 
-The states of the component menu are just a few, as the component implements other components from the design system, the states and modes are inheriting from those components, so in case that the developer needs more information, please check the dropdown and select components.
 
-In any case, in this document, it will be shown the main states that the component can go through.
-
-    Normal state
-
-![Header normal state](images/header_normal_state.png)
-
-    Hover state
-
-![Header hover state](images/header_hover_state.png)
-
-    Language selection
-
-![Header language selection](images/header_language_dropdown_state.png)
-
-    Login options
-
-![Header hover state](images/header_account_dropdown_state.png)
 
 ## Design tokens
 
@@ -99,28 +79,7 @@ Design specifications for items:
 
 ![Header specifications for items](images/header_design_specs_basic.png)
 
-## Subheader
 
-A slight variation in the standard header is the addition of a
-subheader component that can work as a place to indicate the title of the application or page, allocate breadcrumbs or position the 'go back' action in case the user already navigates within the applications to return to the previous screen.
-
-It is an alternative to show actions or information which are relevant to the user because it needs to appear at the top of the screen to be easily accessible and fit in the hierarchy of the page layout.
-
-Some attributes of the section can be customized, like the background color of the area or the text color of the content inside it. This customization can be done through the tokens associated with the header component.
-
-![Subheader specification for the header](images/header_subheader.png)
-
-Design specification of the subheader:
-
-| Property           |            Value |
-| ------------------ | ---------------: |
-| Height             |           `64px` |
-| Width              | `same as header` |
-| Padding left       |           `36px` |
-| Padding right      |           `36px` |
-| Padding top/bottom |           `16px` |
-| Font size          |           `20px` |
-| Font weight        |        `regular` |
 
 ## Icon usage and types of dropdown elements
 
