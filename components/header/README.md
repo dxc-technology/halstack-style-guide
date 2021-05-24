@@ -46,14 +46,16 @@ Modes: **basic** and **underlined**.
 
 ## Design Specifications
 
+![Header specifications](images/header_design_specifications.png)
+
 Design specifications for main structure:
+
+### Size
 
 | Property                                 |    Value |
 | ---------------------------------------- | -------: |
-| Padding right                            |   `36px` |
-| Padding left                             |   `20px` |
 | Height                                   |   `64px` |
-| Min. width                               | `1024px` |
+
 
 
 ### Margin
@@ -72,7 +74,7 @@ margin | value
 
 ### Padding
 
-The padding only applies to the content area.
+The variable padding only applies to the content area, the `padding-left` applied to the brand area is fixed (20px)
 
 padding | value
 -- | --
@@ -88,11 +90,6 @@ Different values can be applied to each side of the component:
 `top` `bottom` `left` `right`
 
 
-![Header specifications](images/header_design_specifications.png)
-
-
-
-
 ## Content
 
 Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
@@ -102,10 +99,7 @@ Any component or custom content can be placed in the content area of the header 
 Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device.
 The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
 
-![Header version for tablet](images/header_tablet.png)
-![Header version for mobile](images/header_mobile.png)
-![Header responsive menu](images/header_responsive_menu.png)
-
+![Header version responsive](images/header_mobile.png)
 
 
 
