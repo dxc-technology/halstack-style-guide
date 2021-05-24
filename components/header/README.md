@@ -2,8 +2,7 @@ The header is an important component in the interface, it is the area dedicated 
 
 ## Overview
 
-A variety of headers can be presented over the internet, with many differences between them, position (vertical/horizontal), size, color and so on.
-Some of the most used elements in the header are: brand identity elements, links to basic categories, links to social networks, basic contact, sign in and login options, search field or switch for languages.
+Headers help users understand what the content of the page is about. They appear at the top of a page, above the main content.
 
 ## Anatomy
 
@@ -33,16 +32,16 @@ Modes: **basic** and **underlined**.
 
 ## Design tokens
 
-| Tokens               |  Default value   |
-| -------------------- | :--------------: |
-| backgroundColor      |    `#FFFFFF`     |
-| underlinedColor      |    `#000000`     |
-| fontColor            |    `#000000`     |
-| backgroundColorMenu  |    `#FFFFFF`     |
-| fontColorMenu        |    `#000000`     |
-| hamburguerColor      |    `#000000`     |
-| overlayColor         |    `#565656`     |
-| focusColor           |    `#005FCC`     |
+| Tokens                 |  Default value |
+| --------------------   | :------------: |
+| `backgroundColor`      |    #FFFFFF     |
+| `underlinedColor`      |    #000000     |
+| `fontColor`            |    #000000     |
+| `backgroundColorMenu`  |    #FFFFFF     |
+| `fontColorMenu`        |    #000000     |
+| `hamburguerColor`      |    #000000     |
+| `overlayColor`         |    #565656     |
+| `focusColor`           |    #005FCC     |
 
 ## Design Specifications
 
@@ -54,13 +53,13 @@ Design specifications for main structure:
 
 | Property                                 |    Value |
 | ---------------------------------------- | -------: |
-| Height                                   |   `64px` |
-
+| `height`                                 |   64px   |
+| `width`                                  |   100%   |
 
 
 ### Margin
 
-The margin only applies to the bottom of the header component.
+The margin only applies to the `margin-bottom` of the header component.
 
 margin | value
 -- | --
@@ -92,14 +91,22 @@ Different values can be applied to each side of the component:
 
 ## Content
 
-Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
+* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
+* Halstack components placed as a children should follow their respective guidelines.
+* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
+
 
 ## Responsive version for mobile and tablet
 
 Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device.
-The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
 
 ![Header version responsive](images/header_mobile.png)
+
+The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
+
+![Header menu responsive](images/header_responsive_menu.png)
+
+
 
 
 
