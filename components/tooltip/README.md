@@ -66,9 +66,28 @@ They are dismissed when the pointer is moved out from the trigger or pressing  k
 ## Specs 
 ## Accesibility
 
-https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html
+### WCAG 2.1
 
-https://www.w3.org/TR/wai-aria-practices-1.1/#tooltip
+**Understanding WCAG 2.2** - [SC: 1.4.13 Content on Hover or Focus](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html) 
+
+* "A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus."
+* "If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing."
+* "The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid."
+
+
+### WAI-ARIA 1.2
+
+**Accessible Rich Internet Applications (WAI-ARIA) 1.2** - [5.3.3 Document Structure Roles / Role: Tooltip](https://www.w3.org/TR/wai-aria-1.2/#tooltip)
+
+* "The tooltip typically becomes visible in response to a mouse hover, or after the owning element receives keyboard focus."
+* "Authors should display the tooltip after a short delay (from 1 to 5 seconds)"
+* "Authors should ensure that elements with the role tooltip are referenced through the use of `aria-describedby` before or at the time the tooltip is displayed."
+
+**WAI-ARIA Authoring Practices 1.2** - [3.25 Tooltip Widget](https://www.w3.org/TR/wai-aria-practices-1.2/#tooltip)
+
+* "`Escape`: Dismisses the Tooltip."
+* "Focus stays on the triggering element while the tooltip is displayed."
+* "If the tooltip is invoked when the trigger element receives focus, then it is dismissed when it no longer has focus (onBlur). If the tooltip is invoked with mouseIn, then it is dismissed with on mouseOut."
 
 ## Design tokens
 ## Links & resources
