@@ -1,29 +1,119 @@
 ## Overview
 
-A select component is a right choice to preventing users from entering errors in input data because the options are predefined, also they conserve screen space and it is possible to show several options in a reduced space.
-The main use of select components is inside a form fill, letting the user select an option from the list as an input.
+A select component is a right choice to preventing errors with predefined options, also they reduce the vertical space by showing several options in a reduced space. Selects are used in forms, letting the user select an option instead using an input.
 
 ## Appearance
 
-Select is widely recognizable, despite the options are not shown at the first instance, an icon with a down arrow indicates that clicking in the field the list will be visible.
-In the input, the placeholder has defined the attribute that will get the value and when the dropdown is shown, it will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling.
+Select is widely recognizable, despite the options are not shown at the first instance, an icon with a down arrow indicates that clicking in the field the list will be visible. In the input, the placeholder defines the attribute that will get the value. 
 
-In case that an option is selected when the dropdown turns visible, it should be at the top of the dropdown whenever this would be possible.
+* The options list will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling.
+* In case that an option is selected when the dropdown turns visible, it should be at the top of the dropdown whenever this would be possible.
+* Multiple option selection will get an appearance with a checkbox that indicates the elements from the list that are selected or not.
 
-Multiple option selection will get an appearance with a checkbox that indicates the elements from the list that are selected or not.
-
-### Modes
-
-There is only one mode for the select component: **basic**.
-It looks similar to the other inputs from the design system but in this case, it will always indicate with an arrow icon that there is a list with options that allow the user to selecting one or more options.
-
-![Select modes](images/select_modes.png)
 
 ## States
 
-Seven states are defined for select component based on the interactions that the user can reproduce. The states are: **normal**, **select with focus**, **select clicked**, **select clicked and option selected**, **select with clicked option and hovered option**, **select animation on click** and **select input with value**.
+### Select input
+
+States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **focus** and **disabled**:
 
 ![Select states](images/select_states.png)
+
+### Options list
+
+The options have two states: **hover** and **selected**:
+
+![Option list states](images/select_option_states.png)
+
+
+
+## Multiple selection
+
+Allows the user to select more than one option from the list. To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
+
+![Select multiple option](images/select_multi.png)
+
+## Design Specifications
+
+### General
+
+#### Size
+
+The component `width` can adopt the following values:
+
+width | value
+-- | --
+```small``` | 60px
+```medium``` | 240px
+```large``` | 480px
+```fillParent``` | -
+
+#### Margin
+
+Select `margin` can use the values:
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+These values can be applied independently to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Select input
+
+Select input specifications are the same as the [text-input](https://developer.dxc.com/design/components/text-input)
+
+### Options list
+
+#### Single select
+
+| Property for single     |                           Value |
+| ----------------------- | ------------------------------: |
+| List item padding       |           6px 16px |
+| Height (default)        | auto - adapted to the content |
+| Font size               |                          16px |
+| Font weight             |                       Regular |
+| Icon size               |                    20px x 20px|
+| Spacing between icon and label | 12px  |
+
+
+#### Multi-select
+
+| Property for multiple   |                 Value |
+| ----------------------- | --------------------: |
+| List item padding       |             6px 16px |
+| Font size               |                16px |
+| Font weight             |             Regular |
+| Checkbox size           |         20px x 20px |
+| Icon size               |                    20px x 20px|
+| Spacing between checkbox and label | 12px  |
+| Spacing between icon and label | 12px  |
+
+
+![Select specifications](images/select_spec.png)
+
+## User Interface Design Considerations
+
+### Single select
+
+- A dropdown element should allow the user to select one option from a list.
+- The select component should always display a label, different from any name in the option list.
+- If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
+- A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
+- Use progressive disclosure between linked select components.
+
+### Multi-select
+
+- If more than one option is applicable, a multi-selection box should be used.
+- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity.
+- Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
+
 
 ## Design tokens
 
@@ -38,59 +128,6 @@ Seven states are defined for select component based on the interactions that the
 | disabledColor                 |     `#B1B1B1` |
 | focusColor                    |     `#005FCC` |
 
-## Multiple selection
-
-Using the select component there is the option to use an alternative to take multiple selections. This allows the user to select more than one option from the list.
-To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
-
-![Select multiple option](images/select_multi.png)
-
-## Design Specifications
-
-| Property for single     |                           Value |
-| ----------------------- | ------------------------------: |
-| Padding dropdown        |           `20px 10px 20px 20px` |
-| Height (default)        | `auto - adapted to the content` |
-| Item padding top/bottom |                          `10px` |
-| Font size               |                          `16px` |
-| Font weight             |                       `Regular` |
-
-| Property for multiple   |                 Value |
-| ----------------------- | --------------------: |
-| Padding dropdown        | `10px 15px 20px 15px` |
-| Space chckbox/text      |                `15px` |
-| Item padding top/bottom |                `10px` |
-| Font size               |                `16px` |
-| Font weight             |             `Regular` |
-| Checkbox size           |         `20px x 20px` |
-
-| Property for input        |     Value |
-| ------------------------- | --------: |
-| Margin                    |    `15px` |
-| Space text/underline      |    `12px` |
-| Underline thickness       |     `1px` |
-| Underline thickness focus |     `2px` |
-| Font size                 |    `16px` |
-| Font weight               | `Regular` |
-| Icon margin bottom        |    `20px` |
-
-![Select specifications](images/select_spec.png)
-
-## User Interface Design Considerations
-
-Single selection dropdown
-
-- A dropdown field should allow the user to select one option from a list
-- Dropdown fields should always display a label, different from any name in the option list
-- If options list is extensive, consider letting user begin typing entry that will suggest possible options
-- A default choice should display whenever a specific option will be selected by the user. It should be the first selectable item in the list
-- If selection an option in one dropdown field filters options for the next field, subsequent fields should be disabled until the initial selection is complete
-
-Multiple selection dropdown
-
-- If more than one option is applicable, a multi-selection box should be used
-- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity
-- Multi-select fields should feature checkboxes for each singles option in the dropdown list, to allow selection on all types of devices. If a 'Select All' option is warranted, it should be placed first in the list
 
 ## Links and references
 
