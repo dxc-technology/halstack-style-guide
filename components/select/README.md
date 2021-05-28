@@ -119,6 +119,8 @@ Select input specifications are the same as the [text-input](https://developer.d
 * A required empty select should show an error message when submitted.
 * Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
 
+![Helper text](images/select_helper_text.png)
+
 ## Design tokens
 
 | Tokens                        | Default value |
