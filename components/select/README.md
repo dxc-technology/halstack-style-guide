@@ -15,7 +15,7 @@ Select is widely recognizable, despite the options are not shown at the first in
 
 ### Select input
 
-States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **focus** and **disabled**:
+States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **focus**, **error** and **disabled**:
 
 ![Select states](images/select_states.png)
 
@@ -74,24 +74,24 @@ Select input specifications are the same as the [text-input](https://developer.d
 #### Single select
 
 | Property for single     |                           Value |
-| ----------------------- | ------------------------------: |
-| List item padding       |           6px 16px |
-| Height (default)        | auto - adapted to the content |
-| Font size               |                          16px |
-| Font weight             |                       Regular |
-| Icon size               |                    20px x 20px|
+| ----------------------- | ------------------------------ |
+| List item `padding-left`      |            16px |
+| `height`                  |     36px |
+| `font-size`               |                          16px |
+| `font-weight`             |                       Regular |
+| Icon size               |                    20 x 20px|
 | Spacing between icon and label | 12px  |
 
 
 #### Multi-select
 
 | Property for multiple   |                 Value |
-| ----------------------- | --------------------: |
-| List item padding       |             6px 16px |
-| Font size               |                16px |
-| Font weight             |             Regular |
-| Checkbox size           |         20px x 20px |
-| Icon size               |                    20px x 20px|
+| ----------------------- | -------------------- |
+| List item `padding-left`      |            16px |
+| `height`                  |     48px |
+| `font-size`               |                          16px |
+| `font-weight`             |                       Regular |
+| Icon size               |                    20 x 20px|
 | Spacing between checkbox and label | 12px  |
 | Spacing between icon and label | 12px  |
 
@@ -114,6 +114,12 @@ Select input specifications are the same as the [text-input](https://developer.d
 - If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity.
 - Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
 
+## Required and error
+
+* A required empty select should show an error message when submitted.
+* Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
+
+![Helper text](images/select_helper_text.png)
 
 ## Design tokens
 
