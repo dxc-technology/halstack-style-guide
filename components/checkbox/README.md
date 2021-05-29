@@ -21,9 +21,24 @@ The following states are defined in the life cycle of the component: **enabled**
 
 ![Checkbox states](images/checkbox_states.png)
 
-## Design tokens
 
-| Tokens                         |   Default value |
+
+
+
+## Design Specifications
+
+Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
+
+- Checkbox only
+- Checkbox with left-positioned label
+- Checkbox with right-positioned label
+
+
+![Checkbox specs](images/checkbox_specs.png)
+
+### Color
+
+| Component Tokens               |   Default value |
 | ------------------------------ | --------------: |
 | backgroundColorChecked         |       `#0067B3` |
 | borderColor                    |       `#0067B3` |
@@ -37,18 +52,10 @@ The following states are defined in the life cycle of the component: **enabled**
 
 \*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the checkbox is unselected. The color will be the same for both scenarios.
 
-## Design Specifications
-
-Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
-
-- Checkbox only
-- Checkbox with left-positioned label
-- Checkbox with right-positioned label
-
 
 ### Margin
 
-Margin can be set through the following values: (xxsmall', 'xsmall', 'small', 'medium', 'large', 'xlarge', 'xxlarge') and independently for `top`, `right`, `bottom`, `left`.
+Margin can be set independently for `top`, `right`, `bottom`, `left`.
 
 margin | value
 -- | --
@@ -62,17 +69,19 @@ margin | value
 
 ### Typography
 
-| Property              |     Value |
-| :--------------------- | :-------- |
-| Font size (with text) |    `16px` |
-| Font weight           | `Regular` |
+| Property              | Element       | Value     |   Token          |
+| --------------------- | -----------   | --------  | ---------        |
+| `font-size`           | label         | 16px      | `type-scale-03`  |
+| `font-weight`         | label         | 400       | `type-regular`   |
 
 ### Border
 
-| Property              |     Value |
-| --------------------- | --------: |
-| Border Radius         |     `4px` |
-| Border thickness      |     `2px` |
+| Property              | Element       | Value     |   Token          |
+| --------------------- | -----------   | --------  | ---------        |
+| `border-radius`       | checkbox      | 2px       | `rounded-small`  |
+| `border-radius`       | focus outline | 4px       | `rounded-medium` |
+| `border-width`        | checkbox      | 2px       | -                |
+| `border-width`        | focus outline | 1px       | -                |
 
 
 ## Stack
@@ -83,7 +92,7 @@ Checkbox may be either vertically or horizontally stacked.
 
 ### Vertical stacking
 
-Checkboxes are independent of a category and they will be displayed horizontally, where device allows. The vertical spacing between stacked checkboxes should be 24px.
+Checkboxes are independent of a category and they will be displayed horizontally, where device allows. The vertical spacing between stacked checkboxes should be 16px.
 
 ### Horizontal stacking
 
