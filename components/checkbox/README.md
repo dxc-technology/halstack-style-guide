@@ -81,7 +81,7 @@ margin | value
 | `border-radius`       | checkbox      | 2px       | `rounded-small`  |
 | `border-radius`       | focus outline | 4px       | `rounded-medium` |
 | `border-width`        | checkbox      | 2px       | -                |
-| `border-width`        | focus outline | 1px       | -                |
+| `border-width`        | focus outline | 2px       | -                |
 
 
 ## Stack
