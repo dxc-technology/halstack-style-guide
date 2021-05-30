@@ -106,6 +106,31 @@ The representation of a required checkbox is a colored asterisk right before the
 
 ![Checkbox design required field](images/checkbox_required.png)
 
+## Accessibility
+
+### WCAG 2.2
+
+**Understanding WCAG 2.2** - [SC 1.3.1; Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+
+* "In a form, the labels for each checkbox can be programmatically determined by assistive technology."
+
+**Understanding WCAG 2.2** - [SC 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
+
+* "For all user interface components the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies."
+
+### WAI-ARIA 1.2
+
+**WAI-ARIA Authoring Practices 1.2** - [3.7 Checkbox](https://www.w3.org/TR/wai-aria-practices-1.2/#checkbox)
+
+* "When the checkbox has focus, pressing the Space key changes the state of the checkbox"
+* "The checkbox has role checkbox"
+* "The checkbox has an accessible label provided by one of the following:
+  * Visible text content contained within the element with role checkbox.
+  * A visible label referenced by the value of aria-labelledby set on the element with role checkbox.
+aria-label set on the element with role checkbox.
+When checked, the checkbox element has state aria-checked set to true.
+When not checked, it has state aria-checked set to false.
+
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/variables/
