@@ -13,7 +13,7 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 
 ### Modes
 
-Selected mode must be used when the user select an option or by default the value of the radio button is selected. For the rest of the cases, the mode that the component should get is unselected. A radio button that is selected can be unselected by the user that should be able to touch or click either the ratio button or the associated text to deselect the option, this is the same way to select an unselected radio.
+Selected mode must be used when the user select an option or by default the value of the radio button is selected. For the rest of the cases, the mode that the component should get is unselected.
 
 Modes: **selected** or **unselected**.
 ![Radio button modes](images/radio_modes.png)
@@ -107,7 +107,6 @@ In any case, in the specification it is specified the ideal distance between com
 
 - Unless a selection is mandatory, a user should be able to re-click a radio button to deselect.
 - Single radio buttons should not be used.
-- Use animations and visual feedback to improve the user experience.
 - Use radio buttons on wizard pages to make alternatives clear to the user.
 - If the question that the user needs to responde is as easier as yes/no, it is recommended to use checkbox instead of radio button.
 
