@@ -21,7 +21,7 @@ States are defined for select component based on the interactions that the user 
 
 ### Options list
 
-The options have two states: **hover** and **selected**:
+The options have two states: **enabled**, **hover**, **focus** and **selected**:
 
 ![Option list states](images/select_option_states.png)
 
@@ -81,6 +81,7 @@ Select input specifications are the same as the [text-input](https://developer.d
 | `font-weight`             |                       Regular |
 | Icon size               |                    20 x 20px|
 | Spacing between icon and label | 12px  |
+| Focus outline `border-width` |  2px |
 
 
 #### Multi-select
@@ -94,9 +95,34 @@ Select input specifications are the same as the [text-input](https://developer.d
 | Icon size               |                    20 x 20px|
 | Spacing between checkbox and label | 12px  |
 | Spacing between icon and label | 12px  |
+| Focus outline `border-width` |  2px |
 
 
 ![Select specifications](images/select_spec.png)
+
+## Accessibility
+
+### WCAG 2.2
+
+**Understanding WCAG 2.2** - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
+
+* Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
+
+### WAI-ARIA 2.1 
+
+**WAI-ARIA practices 2.1** - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
+
+* An element that contains or owns all the listbox options has role `listbox`.
+* Each option in the listbox has role `option` and is a DOM descendant of the element with role listbox or is referenced by an `aria-owns` property on the listbox element.
+* If the listbox is not part of another widget, then it has a visible label referenced by `aria-labelledby` on the element with role listbox.
+* In a single-select listbox, the selected option has `aria-selected` set to true.
+* If the listbox supports multiple selection:
+  * The element with role `listbox` has `aria-multiselectable` set to true.
+  * All selected options have `aria-selected` set to true.
+  * All options that are not selected have `aria-selected` set to false.
+* If the complete set of available options is not present in the DOM due to dynamic loading as the user scrolls, their `aria-setsize` and `aria-posinset` attributes are set appropriately.
+* If options are arranged horizontally, the element with role `listbox` has `aria-orientation` set to horizontal. The default value of `aria-orientation` for listbox is vertical.
+
 
 ## User Interface Design Considerations
 
