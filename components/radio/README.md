@@ -101,6 +101,35 @@ Multiple radio buttons may be displayed horizontally across the page while keepi
 
 In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
 
+## Accessibility
+
+### WCAG 2.2
+
+**Understanding WCAG 2.2** - [SC 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+
+* Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+
+**Understanding WCAG 2.2** - [SC 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
+* Labels or instructions are provided when content requires user input.
+
+**Understanding WCAG 2.2** - [SC 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
+
+* Headings and labels describe topic or purpose.
+
+### WAI-ARIA 1.2
+
+**WAI-ARIA Authoring Practices 1.2** - [3.12 Radio group](https://www.w3.org/TR/wai-aria-practices-1.2/#radiobutton)
+
+**[Keyboard interaction](https://www.w3.org/TR/wai-aria-practices-1.2/#keyboard-interaction-15)**
+* The radio buttons are contained in or owned by an element with role radiogroup.
+* Each radio button element has role radio.
+* If a radio button is checked, the radio element has `aria-checked` set to true. If it is not checked, it has `aria-checked` set to false.
+* Each radio element is labelled by its content, has a visible label referenced by `aria-labelledby`, or has a label specified with `aria-label`.
+* The radiogroup element has a visible label referenced by `aria-labelledby` or has a label specified with `aria-label`.
+* If elements providing additional information about either the radio group or each radio button are present, those elements are referenced by the radiogroup element or radio elements with the `aria-describedby` property.
+
+
 
 
 ## User Interface Design Considerations
