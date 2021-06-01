@@ -6,13 +6,13 @@ These elements that reinforce to the user the necessity to interact are called C
 
 ## Appereance
 
-Into DXC Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
+In Halstack Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
 
-The examples below are using and applying the DXC Technology theme by default.
 
 ### Modes
 
 We can identify three different modes that imply some visual changes according to color, border or opacity attributes.
+
 Modes: **primary**, **secondary** and **text**.
 
 ![Button modes example](images/button_modes.png)
@@ -30,6 +30,9 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 
 ## Design Specifications
+
+
+![Button specification](images/button_specs.png)
 
 ### Color
 
@@ -72,36 +75,80 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 | `disabledTextFontColor`          |     #CEB7D9 |
 | `focusColor`                     |     #005FCC |
 
+#### Size
+
+The component `width` can adopt the following values:
+
+width | value
+-- | --
+```small``` | 60px
+```medium``` | 240px
+```large``` | 480px
+```fillParent``` | -
+```fitContent``` | -
+
+The component `height` is fixed:
+
+height | value
+-- | --
+| `min-height`        |      40px |
+
+### Margin
+
+Button `margin` can use the values:
+
+margin | value
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+These values can be applied independently to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Padding
+
+| Property            | Value     |
+| ------------------  | --------- |
+| `padding-right`     |      24px |
+| `padding-left`      |      24px |
+
+
+### Border
+
+| Property            | Value     |
+| ------------------  | --------- |
+| `border-radius`     |       4px |
+| `border-width`      |       1px |
+| `border-width` focus outline      |       2px |
+
+
+### Typography
+
+| Property            | Value     |
+| ------------------  | --------- |
+| `font-size`     |       1rem/16px |
+| `font-weight`     |       400 |
+| `line-height`     |       1.5em |
 
 
 
-
-By default the button implements feedback to communicate to the final user what action is taking place according to the laws of good user experience.
-
-| Property           |       Value |
-| ------------------ | ----------: |
-| Padding right/left |      `24px` |
-| Border Radius      |       `4px` |
-| Border thickness   |       `1px` |
-| Min. height        |      `40px` |
-| Max. width         |     `420px` |
-| Font size          |      `16px` |
-
-![Button specification](images/button_specs.png)
 
 ### Icon Usage
 
-It is not limited the content of a button like so the user can place icons inside of a button to reinforce the action accordingly to the meaning.
+Any icon can be used in Halstack Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
-Any icon can be used in the DXC Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
-
-Also, another point to consider is that the icon can go before or after the text with a separation of 10 pixels respecting the main button's text. To keeping the consistency, the icon sizes were defined based on the content and the implementation of the icons, resulting in the following:
-
-\*Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
+* Icon can go before or after the text with a separation of 8 pixels respecting the main button's text. 
+* Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
+* A button with an icon and no text is also allowed in the design system.
 
 ![Button with icon examples](images/button_icon.png)
 
-A button with an icon and no text is also allowed in the design system.
+
 
 ## User Interface Design Considerations
 
@@ -109,7 +156,7 @@ Here, you can find more considerations in the using of buttons:
 
 - In instances where buttons are vertically stacked, buttons should be the same length.
 - Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
-- Text or images on a button should always be centered.
+- Text or icon on a button should always be centered.
 - There must be 24 pixels of space between horizontally displayed buttons.
 - Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
 
