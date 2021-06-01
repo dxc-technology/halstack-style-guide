@@ -37,6 +37,19 @@ Allows the user to select more than one option from the list. To indicate which 
 
 ### General
 
+#### Color
+
+| Tokens                          | Value       |
+| -----------------------------   | ----------- |
+| `selectedOptionBackgroundColor` |     #D9D9D9 |
+| `color`                         |     #000000 |
+| `hoveredOptionBackgroundColor`  |     #F2F2F2 |
+| `error`                         |     #D0011B |
+| `scrollBarThumbColor`           |     #666666 |
+| `scrollBarTrackColor`           |     #D9D9D9 |
+| `disabledColor`                 |     #B1B1B1 |
+| `focusColor`                    |     #005FCC |
+
 #### Size
 
 The component `width` can adopt the following values:
@@ -147,18 +160,7 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 ![Helper text](images/select_helper_text.png)
 
-## Design tokens
 
-| Tokens                        | Default value |
-| ----------------------------- | ------------: |
-| selectedOptionBackgroundColor |     `#D9D9D9` |
-| color                         |     `#000000` |
-| hoveredOptionBackgroundColor  |     `#F2F2F2` |
-| error                         |     `#D0011B` |
-| scrollBarThumbColor           |     `#666666` |
-| scrollBarTrackColor           |     `#D9D9D9` |
-| disabledColor                 |     `#B1B1B1` |
-| focusColor                    |     `#005FCC` |
 
 
 ## Links and references
