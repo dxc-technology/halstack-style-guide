@@ -1,0 +1,134 @@
+{
+  "principles": [
+    {
+      "key": "colors",
+      "name": "Colors"
+    },
+    {
+      "key": "spacing",
+      "name": "Spacing"
+    },
+    {
+      "key": "typography",
+      "name": "Typography"
+    }
+  ],
+  "components": [
+    {
+      "key": "accordion",
+      "name": "Accordion"
+    },
+    {
+      "key": "alert",
+      "name": "Alert"
+    },
+    {
+      "key": "autocomplete",
+      "name": "Autocomplete"
+    },
+    { 
+      "key": "box", 
+      "name": "Box" 
+    },
+    {
+      "key": "button",
+      "name": "Button"
+    },
+    {
+      "key": "card",
+      "name": "Card"
+    },
+    {
+      "key": "checkbox",
+      "name": "Checkbox"
+    },
+    {
+      "key": "chip",
+      "name": "Chip"
+    },
+    {
+      "key": "date",
+      "name": "Date"
+    },
+    {
+      "key": "dialog",
+      "name": "Dialog"
+    },
+    {
+      "key": "dropdown",
+      "name": "Dropdown"
+    },
+    {
+      "key": "footer",
+      "name": "Footer"
+    },
+    {
+      "key": "header",
+      "name": "Header"
+    },
+    {
+      "key": "heading",
+      "name": "Heading"
+    },
+    {
+      "key": "link",
+      "name": "Link"
+    },
+    {
+      "key": "progressbar",
+      "name": "Progress Bar"
+    },
+    {
+      "key": "radio",
+      "name": "Radio"
+    },
+    {
+      "key": "select",
+      "name": "Select"
+    },
+    {
+      "key": "sidenav",
+      "name": "Sidenav"
+    },
+    {
+      "key": "slider",
+      "name": "Slider"
+    },
+    {
+      "key": "spinner",
+      "name": "Spinner"
+    },
+    {
+      "key": "switch",
+      "name": "Switch"
+    },
+    {
+      "key": "table",
+      "name": "Table"
+    },
+    {
+      "key": "tabs",
+      "name": "Tabs"
+    },
+    {
+      "key": "tag",
+      "name": "Tag"
+    },
+    {
+      "key": "text-input",
+      "name": "Input"
+    },
+    {
+      "key": "toggle",
+      "name": "Toggle"
+    },
+    {
+      "key": "upload",
+      "name": "Upload"
+    },
+    {
+      "key": "wizard",
+      "name": "Wizard"
+    }
+  ]
+}
