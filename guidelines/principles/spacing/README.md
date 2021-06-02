@@ -1,3 +1,4 @@
+# Spacing
 
 In the search of consistent alignment between the elements we provide a spacing scale based on a root values of 8px and 4px. The numbers 4 and 8 are easily multiplied, they provide flexible and consistent, yet distinct enough, steps between them.
 

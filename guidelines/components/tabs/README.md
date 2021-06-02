@@ -1,32 +1,32 @@
-# Overview
+# Tabs
 
 Tabs allow the user to interact across the sections to switch from one set of content to another, making the transition easily from one peer to the other.
 
 ![image](https://user-images.githubusercontent.com/44420072/114732577-ecbace80-9d42-11eb-81d3-bbba349ef99f.png)
 
-# Usage
+## Usage
 
 Tabs organize and allow navigation between groups of content that are related and at the same level of hierarchy.
 
-## Do’s
+### Do’s
 
 * Use tabs for navigation when dividing content into different sections.
 * The content should have the same level of hierarchy.
 * Tabs can contain icons and text. Text labels should be short and have a clear relation to content.
 
-## Dont’s
+### Dont’s
 
 * Don’t use tabs to move through sequential content that needs to be read in a particular order.
 * Avoid using tabs for comparing content across multiple tabs, such as different sizes of the same item.
 
 
-# States
+## States
 
 Tabs can get different states based on user interaction. States: inactive, enabled, hover, pressed, focus and disabled.
 
 ![image](https://user-images.githubusercontent.com/44420072/114732868-28559880-9d43-11eb-907d-fe912fc654bf.png)
 
-# Formatting
+
 
 ## Anatomy
 
@@ -55,7 +55,7 @@ _**Right**:Emphasized tab always paired with an attached background container._
 
 #### Desktop
 
-##### Default
+**Default**
 
 When used for main navigation place tabs above the header using 100% of the width of the screen.
 
@@ -67,7 +67,7 @@ _Center horizontally in container is allowed when there is few tabs._
 
 _Use an indicator when there are elements hidden in scrollable tabs._
 
-##### Container
+**Container**
 
 When used for panel navigation place tabs in the top of the panel using all available width. Scrollable tabs are allowed when there is not enough space available.
 
@@ -77,7 +77,7 @@ _Using scrollable tabs for panel navigation._
 
 #### Mobile
 
-##### Main navigation
+**Main navigation**
   
 When used for main navigation place tabs above the header using 100% of the width of the screen. 
 
@@ -87,7 +87,7 @@ _**Left**: Main navigation tabs are place above the content._
 
 _**Right**: Don’t stack more than 4 fixed tabs._
 
-##### Panel navigation
+**Panel navigation**
 
 ![image](https://user-images.githubusercontent.com/44420072/114734714-c39b3d80-9d44-11eb-9de3-799d43ebc418.png)
 
@@ -143,13 +143,13 @@ _The use of scrollable tabs in panel navigation could cause swipe interferences 
 _Do not use main navigation if they only affect an specific panel._
 
 
-# Specs
+## Specs
 
-## Min / Max width
+### Min / Max width
 
 ![image](https://user-images.githubusercontent.com/44420072/114735588-a024c280-9d45-11eb-877c-fedadcb645d7.png)
 
-## Fixed tabs
+### Fixed tabs
 
 ![image](https://user-images.githubusercontent.com/44420072/114735619-a9ae2a80-9d45-11eb-82e4-249c488b85e3.png)
 
@@ -159,19 +159,19 @@ _48px height fixed tabs._
 
 _72px height fixed tabs._
 
-## Scrollable tabs
+### Scrollable tabs
 
 ![image](https://user-images.githubusercontent.com/44420072/114735754-c77b8f80-9d45-11eb-814f-62c861972cfd.png)
 
 _Use a scroll indicator in scrollable tabs._
 
-## Notification tabs
+### Notification tabs
 
 ![image](https://user-images.githubusercontent.com/44420072/114735832-d82c0580-9d45-11eb-9932-e2a8ae47a5b9.png)
 
 _Notification badges are always positioned aligned with label/icon in 48px tab container and at top right of the 72px tab container._
 
-# Accessibility
+## Accessibility
 
 Each tab must have a unique title that clearly describes tab panel content. This is particularly helpful for users of 
 assistive technologies so they have the necessary information to efficiently navigate the content.
@@ -180,7 +180,7 @@ Content authors need to ensure the content that is added to the tab panel is acc
 
 [W3C WAI-ARIA Tab Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel) covers the usage of ARIA names.
 
-## Keyboard interactions
+### Keyboard interactions
 
 | key | description | 
 | :---         |     :---     |         
@@ -190,7 +190,7 @@ Content authors need to ensure the content that is added to the tab panel is acc
 | `Right-arrow`  | Moves focus to the next tab. If focus is on the last tab element, moves focus to the first tab. Optionally, activates the newly focused tab    |
 
 
-# Design Tokens
+## Design Tokens
 
 | Token                     | Default value (HEX) | Default value (hsl)  |  Calculated value (hsl)              |
 | :---                      | :---                | :---                 |  :---                                |  
@@ -207,7 +207,7 @@ Content authors need to ensure the content that is added to the tab panel is acc
 
 
 
-# Links & Resources
+## Links & Resources
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/tabs)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/tabs)

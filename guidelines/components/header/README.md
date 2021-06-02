@@ -1,9 +1,6 @@
-The header is an important component in the interface, it is the area dedicated for the navigation across the application, the first element that the user sees when he accesses to the web page and a known place where information relative to core information, sign in or search can be found.
+# Header
 
-## Overview
-
-Headers help users understand what the content of the page is about. They appear at the top of a page, above the main content.
-
+The header is an important component in the interface, it is the area dedicated for the navigation across the application and helps users understand what the content of the page is about. They appear at the top of a page, above the main content.
 ## Anatomy
 
 

@@ -1,4 +1,4 @@
-## Overview
+# Switch
 
 Switch toggles are elements that can get two simple states, each of them has an impact on the system and it can be switched on or off, there are no more options.
 If the switch toggle is on one state, the action to change it will modify to value of the element to the contrary.

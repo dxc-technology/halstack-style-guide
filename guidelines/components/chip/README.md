@@ -1,4 +1,4 @@
-## Overview
+# Chip
 
 Chips are elements that represent status, complementary information, or association between elements.
 
