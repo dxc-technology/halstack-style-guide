@@ -1,4 +1,4 @@
-## Overview
+# Radio-buttons
 
 Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from the list.
 Clicking a non-selected radio button will deselect whatever other button was previously selected in the list.
@@ -8,17 +8,14 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 * By default, one option of the radio group must be pre-selected. Select the safest or convinient option.
 
 
-
-## Appereance
-
-### Modes
+## Modes
 
 Selected mode must be used when the user select an option or by default the value of the radio button is selected. For the rest of the cases, the mode that the component should get is unselected.
 
 Modes: **selected** or **unselected**.
 ![Radio button modes](images/radio_modes.png)
 
-### States
+## States
 
 The following states are defined in the life cycle of the component: **enabled**, **focus** and **disabled**.
 

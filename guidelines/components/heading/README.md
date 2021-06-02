@@ -1,10 +1,6 @@
-A key part of a design system is the typography. The text is used almost in every component, so it is important to choose the correct font family that will fit into the overall design to create a delightful experience and makes the user perceives typography as another element that gets the essence of the system.
-
-## Overview
+# Heading
 
 Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization). The implementation will rely on the use of HTML tags.
-
-
 ## Usage
 
 Navigating through the `Headings-H1` and `Headings-H3` give a user an overview of a page and how its content is structured. The `Headings-H4` and `Headings-H5` elements provide a quick understanding of the details in each section.

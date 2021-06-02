@@ -1,36 +1,36 @@
-# Overview
+# Accordion
 
 Accordions are used to group similar content and hide or show it depending on user needs or preferences. Accordions give users more granular control over the interface and help digest content in stages, rather than all at once.
 
 ![image](https://user-images.githubusercontent.com/44420072/114667152-6a5ceb00-9cff-11eb-8d7a-bbe98463d0b9.png)
 
 
-# Usage
+## Usage
 
 The accordion component delivers large amounts of content in a small space through progressive disclosure.
 
-## Do’s
+### Do’s
 
 * Displaying and grouping additional information.
 * To shorten pages and reduce scrolling when content is not crucial to read in full.
 * Adding granular control over the information on a given page.
 
-## Dont’s
+### Dont’s
 
 * When most of the content on the page is needed to answer user questions.
 * To display a list of clickable options, dropdown should be used instead.
 * Displaying critical system information or a primary action to be taken on the page. (for example, alerts, confirmation or cancellation buttons).
 
-# States
+## States
 
 The accordion header can get four different states based on user interaction. States: enabled, hover, focus and disabled
 
 ![image](https://user-images.githubusercontent.com/44420072/114667271-90828b00-9cff-11eb-971a-b3aa87544300.png)
 
 
-# Formatting
+## Formatting
 
-## Anatomy
+### Anatomy
 
 ![image](https://user-images.githubusercontent.com/44420072/114667360-af811d00-9cff-11eb-91cf-96c8483d036b.png)
 
@@ -41,15 +41,15 @@ The accordion header can get four different states based on user interaction. St
 5. Caret icon for Expand/collapse
 6. Expanded panel
 
-## Placement and alignment
+### Placement and alignment
 
-### Placement
+#### Placement
 
 Accordions can be placed with main page content or placed inside of a container such as a side panel or tile.
 
 ![image](https://user-images.githubusercontent.com/44420072/114667774-30401900-9d00-11eb-90fe-9dec668bfe04.png)
 
-### Alignment
+#### Alignment
 
 By default the chevron icon is placed on the end side of the header. This allows for the title on the start side to align with other type elements in the layout.
 
@@ -59,7 +59,7 @@ _**Left**. Place chevron icon at the end of the accordion header._
 
 _**Right**. Don’t place caret icon on the left.._
 
-## Behavior and interaction
+### Behavior and interaction
 
 The accordion component has two main states: collapsed and expanded. The chevron icon at the end of the accordion indicates which state the accordion is in. Accordions begin by default in the collapsed state with all content panels closed. Starting in a collapsed state gives the user a high level overview of the available information.
 
@@ -81,7 +81,7 @@ the header or icon._
 _**Right**. Leave the header without caret or use a button to trigger 
 the expand/collapse action._
 
-### Accordion group
+#### Accordion group
 
 Accordion headers are stacked vertically and different hierarchy levels are allowed.
 
@@ -93,7 +93,7 @@ _The expandable section of an accordion group can contain different types of pla
 
 _When one accordion panel is expanded, the rest of the group should be collapsed._
 
-### Mobile
+#### Mobile
 
 In small devices, extremely long pages are detrimental to the user experience. Collapsing information minimizes excessive scrolling and gives an overview of the structure and content available on the page.
 
@@ -103,7 +103,7 @@ _**Left**. Use 100% of the available screen width._
 
 _**Right**. Mobile accordion expanded._
 
-## Content
+### Content
 
 The accordion component can contain other components, images, tables, and every custom feature that can be supported inside the element container.
 
@@ -113,7 +113,7 @@ _**Left**. Nesting is allowed. Use in parent accordion Open Sans Semibold._
 
 _**Right**. Icons can be used as a complement to the header label._
 
-### Additional information
+#### Additional information
 
 Extra information label can be shown at the end of the accordion header when needed.
 
@@ -126,7 +126,7 @@ Extra information label can be shown at the end of the accordion header when nee
 
 
 
-### Typography
+#### Typography
 
 Different typographic styles can be used to create hierarchy between accordion headers.
 
@@ -134,15 +134,15 @@ Different typographic styles can be used to create hierarchy between accordion h
 
 _Use of Open Sans Semibold, Regular and Light Italic to difference between titles, content and additional information._
 
-# Specs
+## Specs
 
-## min-width
+### min-width
 
 ![image](https://user-images.githubusercontent.com/44420072/114676019-2969d400-9d09-11eb-84be-3a6cc7310e1e.png)
 
 _Accordion min width._
 
-## Desktop
+### Desktop
 
 ![image](https://user-images.githubusercontent.com/44420072/114676090-38508680-9d09-11eb-81ed-0cb5f29d250d.png)
 
@@ -160,7 +160,7 @@ _Accordion group._
 
 _Nested Accordions._
 
-## Mobile
+### Mobile
 
 ![image](https://user-images.githubusercontent.com/44420072/114676312-76e64100-9d09-11eb-9ba7-76964b93e3ae.png)
 
@@ -170,11 +170,11 @@ _Accordion header._
 
 _Accordion group._
 
-# Accesibility
+## Accesibility
 
 [W3C WAI-ARIA Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/examples/accordion/accordion.html) covers the usage of ARIA names, state and roles.
 
-## Keyboard interactions
+### Keyboard interactions
 
 | key | description | 
 | :---         |     :---     |         
@@ -182,12 +182,12 @@ _Accordion group._
 | `Tab`  | Moves focus to the next focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
 | `Shift + Tab`  | Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
 
-## Usability known issues
+### Usability known issues
 
-### Printing 
+#### Printing 
 Accordions are often not well suited for printing documents and require people to print snippets of content at a time. 
 
-# Design Tokens
+## Design Tokens
 
 | Token | Default value (HEX) | Default value (hsl) |  Calculated value (hsl) |
 | :---         |     :---     |          :--- |         :--- |  
@@ -198,7 +198,7 @@ Accordions are often not well suited for printing documents and require people t
 | `disabledFontColor` | #BFBFBF |(0, 0%, 75%)| fontColor (lightness + 35%) | 
 | `focusOutline` | #6F2C91 |(280, 53%, 37%)| arrowColor | 
 
-# Related links
+## Related links
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/accordion)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/accordion)

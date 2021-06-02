@@ -1,4 +1,4 @@
-## Overview
+# Button
 
 Buttons are basic interface elements that initialize an action or function when the user interacts with them. The appearance of the button should suggest the user takes an action that leads to different scenarios.
 

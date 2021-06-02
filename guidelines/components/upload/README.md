@@ -1,4 +1,4 @@
-## Overview
+# Upload
 
 The upload component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
