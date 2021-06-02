@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1146" height="313" viewBox="0 0 1146 313">
+  <g id="Group_4004" data-name="Group 4004" transform="translate(-387 -8124)">
+    <rect id="Rectangle_2070" data-name="Rectangle 2070" width="1146" height="313" transform="translate(387 8124)" fill="#fafafa" opacity="0.521"/>
+    <g id="Group_3545" data-name="Group 3545" transform="translate(496.995 3750)">
+      <text id="Min_width" data-name="Min width" transform="translate(151 4448)" fill="#707070" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Min width</tspan></text>
+      <text id="Max_width" data-name="Max width" transform="translate(415 4448)" fill="#707070" font-size="16" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Max width</tspan></text>
+      <g id="Group_3536" data-name="Group 3536" transform="translate(-126 814.441)">
+        <rect id="Rectangle_1876" data-name="Rectangle 1876" width="90" height="48" transform="translate(277 3670.559)" fill="#fff"/>
+        <text id="Tab_1" data-name="Tab 1" transform="translate(322 3700.559)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        <rect id="Rectangle_1877" data-name="Rectangle 1877" width="90" height="2" transform="translate(277 3716.559)" fill="#6f2c91"/>
+      </g>
+      <g id="Group_3537" data-name="Group 3537" transform="translate(138 814.441)">
+        <rect id="Rectangle_1876-2" data-name="Rectangle 1876" width="360" height="48" transform="translate(277 3670.559)" fill="#fff"/>
+        <text id="Tab_1-2" data-name="Tab 1" transform="translate(457 3700.559)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        <rect id="Rectangle_1877-2" data-name="Rectangle 1877" width="360" height="2" transform="translate(277 3716.559)" fill="#6f2c91"/>
+      </g>
+      <line id="Line_1296" data-name="Line 1296" x1="54.203" transform="translate(151 4587.203) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <line id="Line_1297" data-name="Line 1297" x1="54.203" transform="translate(241 4587.203) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <line id="Line_1299" data-name="Line 1299" x1="54.203" transform="translate(775 4587.203) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <line id="Line_1298" data-name="Line 1298" x1="54.203" transform="translate(415 4587.203) rotate(-90)" fill="none" stroke="red" stroke-width="0.3" stroke-dasharray="4"/>
+      <g id="Group_3538" data-name="Group 3538" transform="translate(146 4591.703) rotate(-90)">
+        <line id="Line_1260" data-name="Line 1260" y1="9" x2="9" transform="translate(0)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1261" data-name="Line 1261" y1="9" x2="9" transform="translate(0 90.611)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1262" data-name="Line 1262" y2="91.611" transform="translate(5 4)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      </g>
+      <g id="Group_3539" data-name="Group 3539" transform="translate(410 4591.703) rotate(-90)">
+        <line id="Line_1260-2" data-name="Line 1260" y1="9" x2="9" transform="translate(0)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1261-2" data-name="Line 1261" y1="9" x2="9" transform="translate(0 361.01)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+        <line id="Line_1262-2" data-name="Line 1262" y2="362.01" transform="translate(5 4)" fill="none" stroke="#d0011b" stroke-width="0.5"/>
+      </g>
+      <text id="_90px" data-name="90px" transform="translate(194 4613.441)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-17.833" y="0">90px</tspan></text>
+      <text id="_360px" data-name="360px" transform="translate(595 4613.441)" fill="#d0011b" font-size="14" font-family="OpenSans-Regular, Open Sans" letter-spacing="0.089em"><tspan x="-22.459" y="0">360px</tspan></text>
+    </g>
+  </g>
+</svg>
