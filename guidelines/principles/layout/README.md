@@ -27,6 +27,8 @@ Margins from the left and right sides are also other aspects that the component 
 
 The specifications of the header and footer will remain the same in the rest of the layouts, with the following values:- Header: 68 pixels (height), 100% (width)- Footer: 128 pixels (height), 100% (width)
 
+![Standard layout](images/standard_layout.png)
+
 ### Application Layout with side navigation
 
 In technical applications and documentation sites, where you need to show an overview of all the items available, a side navigation bar can be included as part of the application layout.
@@ -41,6 +43,8 @@ If the sidenav is used in push mode, once the component is hidden by the left si
 
 The content will be rendered in the middle of the screen and the look will be similar to the one reproduced using the standard layout.
 
+![Side navigation](images/sidenav_layout.png)
+
 ### Application Layout with secondary aside navigation
 
 A component that can be included as part of the application layout in certain occasions, is the secondary aside navigation bar. It shows different types of descriptive icons or actions that will represent some current selections of the status of the interface. Both elements can be interchangeable in terms of position due to the requirements of the applications and the importance of the actions associated with each element.
@@ -50,6 +54,8 @@ For that class of layout, the height of the content won't increase based on the 
 In terms of responsive design, the aside element will stay at the same position and accessible at any time of the interaction process.
 
 Same specifications apply for all the components mentioned before, adding the measures of the aside element:- Aside: 88 pixels (width), 100% (height)This layout is thought to be adaptive to the viewport, meaning that in case the content overflow the available space, the container will display a scrollbar to access all the information inside it.
+
+![Aside navigation](images/aside_layout.png)
 
 ## Content Layout
 
@@ -65,6 +71,8 @@ There should be a relationship aspect between the two columns, to preserve size 
 
 Accordingly, the other column should take the rest of available space based on the ratio selected for each of them, making the 100% of the screen width.
 
+![Two column layout](images/paired_layout.png)
+
 ### Symmetrical layout
 
 A flexible layout to distribute the content through three flexible columns in the main area of the screen.
@@ -74,3 +82,5 @@ As a layout component, it doesn't provide any control of the content inside of e
 Even the relevant part of the screen is the middle column as it has a larger space and it will be updated with relevant information about the service, both columns on the sides can be used to display additional information to complement the main part of the screen, actionable items related with the business or even news and updates from some topics of importance.
 
 Specifications for paired layout:- Main margin for desktop: 64 pixels (top), 80 pixels (bottom), 15.6% (left/right)- Side columns: 270 pixels (width), 64 pixels (margin top), 80 pixels (margin bottom)
+
+![Symmetrical layout](images/paired_layout.png)
