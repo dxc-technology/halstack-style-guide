@@ -11,6 +11,10 @@
     {
       "key": "typography",
       "name": "Typography"
+    },
+    {
+      "key": "layout",
+      "name": "Layout"
     }
   ],
   "components": [
