@@ -1,6 +1,10 @@
 {
   "principles": [
     {
+      "key": "overview",
+      "name": "Overview"
+    },
+    {
       "key": "colors",
       "name": "Colors"
     },
