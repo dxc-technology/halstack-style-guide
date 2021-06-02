@@ -1,4 +1,4 @@
-## Overview
+# Card
 
 Cards are a container of information, actions and data with a hierarchy to make easy scanning the content.
 A card can be defined as a unit, so it has all the information within it, making the component useful to show images, text, and interactive elements.
