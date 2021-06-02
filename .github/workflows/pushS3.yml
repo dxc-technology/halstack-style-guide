@@ -39,7 +39,20 @@ jobs:
       with:
         args: zip -qq -r components.zip components
     
-    - name: Deploy to S3 Bucket
+    - name: Deploy components to S3 Bucket
       run: |
         aws s3 rm s3://design.system.components.catalog/components/ --recursive
         aws s3 cp ./components/ s3://design.system.components.catalog/components/ --recursive
+        
+    - name: Deleting zip guidelines file
+      run: rm -rf guidelines.zip
+    
+    - name: Zipping guidelines folfer
+      uses: montudor/action-zip@v0.1.0
+      with:
+        args: zip -qq -r guidelines.zip guidelines
+    
+    - name: Deploy guidelies to S3 Bucket
+      run: |
+        aws s3 rm s3://design.system.components.catalog/guidelines/ --recursive
+        aws s3 cp ./guidelines/ s3://design.system.components.catalog/guidelines/ --recursive
