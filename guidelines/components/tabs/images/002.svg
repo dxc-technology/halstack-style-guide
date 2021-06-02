@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1149" height="466" viewBox="0 0 1149 466">
+  <g id="Group_4090" data-name="Group 4090" transform="translate(-386 -1353)">
+    <g id="Group_3977" data-name="Group 3977">
+      <rect id="Rectangle_1949" data-name="Rectangle 1949" width="1149" height="466" rx="4" transform="translate(386 1353)" fill="#fafafa"/>
+      <text id="Selected" transform="translate(444 1612)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Selected</tspan></text>
+      <text id="Enabled" transform="translate(444 1455)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Enabled</tspan></text>
+      <text id="Disabled" transform="translate(1309 1455)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Disabled</tspan></text>
+      <text id="Hover" transform="translate(699.876 1455.06)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Hover</tspan></text>
+      <text id="Hover-2" data-name="Hover" transform="translate(700 1612)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Hover</tspan></text>
+      <text id="Pressed" transform="translate(1106.137 1455.958)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Pressed</tspan></text>
+      <text id="Pressed-2" data-name="Pressed" transform="translate(1106.137 1612)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Pressed</tspan></text>
+      <text id="Focus" transform="translate(902.333 1455.958)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Focus</tspan></text>
+      <text id="Focus-2" data-name="Focus" transform="translate(902.333 1612)" font-size="16" font-family="OpenSans-Light, Open Sans" font-weight="300" letter-spacing="0.033em"><tspan x="0" y="0">Focus</tspan></text>
+      <line id="Line_1271" data-name="Line 1271" y2="317.826" transform="translate(659.026 1435.174)" fill="none" stroke="#707070" stroke-width="1"/>
+      <g id="Tabs-Fixed-noIcon-48" transform="translate(444 1649)">
+        <rect id="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1">
+          <rect id="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <rect id="Tab-container" width="176" height="48" fill="none"/>
+          <text id="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-2" data-name="Tabs-Fixed-noIcon-48" transform="translate(444 1492)">
+        <rect id="Tabs-container-2" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-2" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-2" data-name="Tab1">
+          <rect id="Tab-container-2" data-name="Tab-container" width="176" height="48" fill="none"/>
+          <text id="Label-2" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-3" data-name="Tabs-Fixed-noIcon-48" transform="translate(1300 1492)">
+        <rect id="Tabs-container-3" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-3" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-3" data-name="Tab1">
+          <rect id="Tab-container-3" data-name="Tab-container" width="176" height="48" fill="none"/>
+          <text id="Label-3" data-name="Label" transform="translate(88 30)" fill="#bfbfbf" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-4" data-name="Tabs-Fixed-noIcon-48" transform="translate(700 1492)">
+        <rect id="Tabs-container-4" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-4" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-4" data-name="Tab1">
+          <rect id="Tab-container-4" data-name="Tab-container" width="176" height="48" fill="#f5ebf9"/>
+          <text id="Label-4" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-5" data-name="Tabs-Fixed-noIcon-48" transform="translate(900 1649)">
+        <rect id="Tabs-container-5" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-5" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-5" data-name="Tab1">
+          <g id="Tab-container-5" data-name="Tab-container" fill="none" stroke="#6f2c91" stroke-width="1">
+            <rect width="176" height="48" stroke="none"/>
+            <rect x="0.5" y="0.5" width="175" height="47" fill="none"/>
+          </g>
+          <rect id="Active-indicator-2" data-name="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <text id="Label-5" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-6" data-name="Tabs-Fixed-noIcon-48" transform="translate(1100 1649)">
+        <rect id="Tabs-container-6" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-6" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-6" data-name="Tab1">
+          <g id="Tab-container-6" data-name="Tab-container" fill="#ead8f3" stroke="#6f2c91" stroke-width="1">
+            <rect width="176" height="48" stroke="none"/>
+            <rect x="0.5" y="0.5" width="175" height="47" fill="none"/>
+          </g>
+          <rect id="Active-indicator-3" data-name="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <text id="Label-6" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-7" data-name="Tabs-Fixed-noIcon-48" transform="translate(700 1649)">
+        <rect id="Tabs-container-7" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-7" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-7" data-name="Tab1">
+          <rect id="Tab-container-7" data-name="Tab-container" width="176" height="48" fill="#f5ebf9"/>
+          <rect id="Active-indicator-4" data-name="Active-indicator" width="176" height="2" transform="translate(0 46)" fill="#6f2c91"/>
+          <text id="Label-7" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-8" data-name="Tabs-Fixed-noIcon-48" transform="translate(900 1492)">
+        <rect id="Tabs-container-8" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-8" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-8" data-name="Tab1">
+          <g id="Tab-container-8" data-name="Tab-container" fill="none" stroke="#6f2c91" stroke-width="1">
+            <rect width="176" height="48" stroke="none"/>
+            <rect x="0.5" y="0.5" width="175" height="47" fill="none"/>
+          </g>
+          <text id="Label-8" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+      <g id="Tabs-Fixed-noIcon-48-9" data-name="Tabs-Fixed-noIcon-48" transform="translate(1100 1492)">
+        <rect id="Tabs-container-9" data-name="Tabs-container" width="176" height="48" fill="#fff"/>
+        <line id="Divider-9" data-name="Divider" x1="176" transform="translate(0 48)" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+        <g id="Tab1-9" data-name="Tab1">
+          <g id="Tab-container-9" data-name="Tab-container" fill="#ead8f3" stroke="#6f2c91" stroke-width="1">
+            <rect width="176" height="48" stroke="none"/>
+            <rect x="0.5" y="0.5" width="175" height="47" fill="none"/>
+          </g>
+          <text id="Label-9" data-name="Label" transform="translate(88 30)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-23.007" y="0">Tab 1</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
