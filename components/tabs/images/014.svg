@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="372" height="278" viewBox="0 0 372 278">
+  <g id="Group_4100" data-name="Group 4100" transform="translate(-389 -6023)">
+    <g id="Group_1232" data-name="Group 1232" transform="translate(389 6023)">
+      <rect id="Rectangle_1828" data-name="Rectangle 1828" width="372" height="278" fill="#fafafa"/>
+      <rect id="Rectangle_1831" data-name="Rectangle 1831" width="372" height="6" fill="#97be35"/>
+      <g id="check_circle-24px" transform="translate(8 14)">
+        <path id="Path_983" data-name="Path 983" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_984" data-name="Path 984" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM10,17,5,12l1.41-1.41L10,14.17l7.59-7.59L19,8Z" fill="#97be35"/>
+      </g>
+    </g>
+    <g id="Group_3802" data-name="Group 3802" transform="translate(56 3023)">
+      <rect id="Rectangle_1889" data-name="Rectangle 1889" width="176" height="72" transform="translate(431 3111)" fill="#fff"/>
+      <text id="Agenda" transform="translate(519 3168)" fill="#6f2c91" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.089em"><tspan x="-32.615" y="0">Agenda</tspan></text>
+      <rect id="Rectangle_1888" data-name="Rectangle 1888" width="176" height="2" transform="translate(431 3181)" fill="#6f2c91"/>
+      <g id="event-24px" transform="translate(507 3119)">
+        <path id="Path_2885" data-name="Path 2885" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_2886" data-name="Path 2886" d="M17,12H12v5h5ZM16,1V3H8V1H6V3H5A1.991,1.991,0,0,0,3.01,5L3,19a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5a2.006,2.006,0,0,0-2-2H18V1Zm3,18H5V8H19Z" fill="#6f2c91"/>
+      </g>
+    </g>
+  </g>
+</svg>

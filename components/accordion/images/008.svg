@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562.202" height="322" viewBox="0 0 562.202 322">
+  <defs>
+    <filter id="Shadow_04dp" x="110" y="72" width="342" height="222" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4120" data-name="Group 4120" transform="translate(-974 -3313)">
+    <g id="Group_3575" data-name="Group 3575" transform="translate(974 3313)">
+      <rect id="Rectangle_1842" data-name="Rectangle 1842" width="562" height="322" fill="#fafafa"/>
+    </g>
+    <g id="Group_3577" data-name="Group 3577" transform="translate(974.692 3314.5)">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="9" cy="9" r="9" transform="translate(11 17)" fill="#fff"/>
+      <rect id="Rectangle_1837" data-name="Rectangle 1837" width="561.51" height="6" transform="translate(0)" fill="#d0011b"/>
+      <g id="cancel-24px" transform="translate(8 14)">
+        <path id="Path_985" data-name="Path 985" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_986" data-name="Path 986" d="M12,2A10,10,0,1,0,22,12,9.991,9.991,0,0,0,12,2Zm5,13.59L15.59,17,12,13.41,8.41,17,7,15.59,10.59,12,7,8.41,8.41,7,12,10.59,15.59,7,17,8.41,13.41,12l1.013,1.013Z" fill="#d0011b"/>
+      </g>
+    </g>
+    <g id="Group_3593" data-name="Group 3593" transform="translate(1099 3394.063)">
+      <g id="Group_3592" data-name="Group 3592" transform="translate(0)">
+        <g id="Shadow_04dp-2" data-name="Shadow / 04dp" transform="translate(0)">
+          <g transform="matrix(1, 0, 0, 1, -125, -81.06)" filter="url(#Shadow_04dp)">
+            <rect id="Shadow_04dp-3" data-name="Shadow / 04dp" width="312" height="192" rx="4" transform="translate(125 81)" fill="#fff"/>
+          </g>
+        </g>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(64 29.937)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.032em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_2" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(64 78.937)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.032em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_3" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(64 126.937)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.032em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+        <text id="_Text_Body_1_Selected_On_Surface_Medium_Emphasis_Left_4" data-name="✱ / Text / Body 1 / Selected / On Surface / Medium Emphasis / Left " transform="translate(64 173.937)" fill="#666" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.032em"><tspan x="0" y="0">Collapsed accordion</tspan></text>
+        <g id="expand_more-24px" transform="translate(11.692 12)">
+          <path id="Path_2872" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2873" data-name="Path 2873" d="M10.59,0,6,4.58,1.41,0,0,1.41l6,6,6-6Z" transform="translate(6 8.59)" fill="#6f2c91"/>
+        </g>
+        <g id="expand_more-24px-2" data-name="expand_more-24px" transform="translate(11.692 61)">
+          <path id="Path_2872-2" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2873-2" data-name="Path 2873" d="M10.59,0,6,4.58,1.41,0,0,1.41l6,6,6-6Z" transform="translate(6 8.59)" fill="#6f2c91"/>
+        </g>
+        <g id="expand_more-24px-3" data-name="expand_more-24px" transform="translate(11.692 109)">
+          <path id="Path_2872-3" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2873-3" data-name="Path 2873" d="M10.59,0,6,4.58,1.41,0,0,1.41l6,6,6-6Z" transform="translate(6 8.59)" fill="#6f2c91"/>
+        </g>
+        <g id="expand_more-24px-4" data-name="expand_more-24px" transform="translate(11.692 156)">
+          <path id="Path_2872-4" data-name="Path 2872" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2873-4" data-name="Path 2873" d="M10.59,0,6,4.58,1.41,0,0,1.41l6,6,6-6Z" transform="translate(6 8.59)" fill="#6f2c91"/>
+        </g>
+        <line id="Line_1320" data-name="Line 1320" x2="312" transform="translate(0 95.937)" fill="none" stroke="#d0d0d0" stroke-width="0.5"/>
+        <line id="Line_1328" data-name="Line 1328" x2="312" transform="translate(0 47.937)" fill="none" stroke="#d0d0d0" stroke-width="0.5"/>
+        <line id="Line_1321" data-name="Line 1321" x2="312" transform="translate(0 143.937)" fill="none" stroke="#d0d0d0" stroke-width="0.5"/>
+        <line id="Line_1322" data-name="Line 1322" x2="312" transform="translate(0 191.937)" fill="none" stroke="#d0d0d0" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Rectangle_1948" data-name="Rectangle 1948" transform="translate(1099 3394)" fill="#d0011b" stroke="#707070" stroke-width="0.5" opacity="0.066">
+      <path d="M4,0H48a0,0,0,0,1,0,0V192a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" stroke="none"/>
+      <path d="M4,.25H47.5a.25.25,0,0,1,.25.25v191a.25.25,0,0,1-.25.25H4A3.75,3.75,0,0,1,.25,188V4A3.75,3.75,0,0,1,4,.25Z" fill="none"/>
+    </g>
+  </g>
+</svg>
