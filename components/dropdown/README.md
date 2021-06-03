@@ -2,7 +2,6 @@
 
 The use of dropdowns has its advantages but it depends on the screen support. Dropdowns are a standard widget, so the users know how to interact with them. The options available in a dropdown component are static, so this prevents from erroneous data entered by the user since it only shows a range of correct values for that input.
 
-A dropdown in mobile is more unusable than a dropdown in a web application, regarding screen spacing, size of elements and scannability in the number of options to display.
 
 ## Appearance
 
@@ -13,8 +12,6 @@ From header menus to executing different actions, dropdowns can be useful as a l
 As it is widely used, an arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
 
 By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
-
-If the dropdown has options with submenus, this will be indicated with an arrow too, but in this case, the submenu appears by the right side, so the direction of the arrow should be placed in correspondence.
 
 Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
 
