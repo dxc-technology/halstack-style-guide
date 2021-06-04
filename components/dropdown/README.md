@@ -7,27 +7,34 @@ The use of dropdowns has its advantages but it depends on the screen support. Dr
 
 Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios.
 
-From header menus to executing different actions, dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
-
-As it is widely used, an arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
-
-By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
-
-Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
+* Dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
+* An arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
+* By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
+* Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
 
 If there is a special case when the dropdown couldn't be displayed below the selector because it is hiding important information reducing discoverability and scanability in the website then consider to use other options to display the information or customize the position of the pop up to fitting the necessities of the application.
 
-### Modes
+## Modes
 
 There is a **default** mode for the dropdown component.
 
 ![Dropdown modes](images/dropdown_modes.png)
 
-### States
+## States
 
-Six different states for the dropdown elememts: **default**, **dropdown displayed**, **option hovered**, **option selected**, **submenu displayed** and **option selected (no dropdown)**.
+### Dropdown button
+
+States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 ![Dropdown modes](images/dropdown_states.png)
+
+### Option list
+
+States: **enabled**, **hover**, **focus** and **selected**:
+
+![Dropdown modes](images/option_list_states.png)
+
+
 
 ### Design tokens
 
