@@ -1,54 +1,47 @@
-# Dropdown
+## Overview
 
 The use of dropdowns has its advantages but it depends on the screen support. Dropdowns are a standard widget, so the users know how to interact with them. The options available in a dropdown component are static, so this prevents from erroneous data entered by the user since it only shows a range of correct values for that input.
 
+A dropdown in mobile is more unusable than a dropdown in a web application, regarding screen spacing, size of elements and scannability in the number of options to display.
 
 ## Appearance
 
 Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios.
 
-* Dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
-* An arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
-* By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
-* Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
+From header menus to executing different actions, dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
+
+As it is widely used, an arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
+
+By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
+
+If the dropdown has options with submenus, this will be indicated with an arrow too, but in this case, the submenu appears by the right side, so the direction of the arrow should be placed in correspondence.
+
+Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
 
 If there is a special case when the dropdown couldn't be displayed below the selector because it is hiding important information reducing discoverability and scanability in the website then consider to use other options to display the information or customize the position of the pop up to fitting the necessities of the application.
 
-## Modes
+### Modes
 
 There is a **default** mode for the dropdown component.
 
 ![Dropdown modes](images/dropdown_modes.png)
 
-## States
+### States
 
-### Dropdown button
-
-States: **enabled**, **hover**, **focus**, **active** and **disabled**.
+Six different states for the dropdown elememts: **default**, **dropdown displayed**, **option hovered**, **option selected**, **submenu displayed** and **option selected (no dropdown)**.
 
 ![Dropdown modes](images/dropdown_states.png)
 
-### Option list
-
-States: **enabled**, **hover**, **focus** and **selected**:
-
-![Dropdown modes](images/option_list_states.png)
-
-
-
 ### Design tokens
 
-| Tokens                  | Default value |
-| ----------------------- | ------------: |
-| backgroundColor         |     `#FFFFFF` |
-| fontColor               |     `#000000` |
-| dropdownBackgroundColor |     `#FFFFFF` |
-| dropdownFontColor       |     `#000000` |
-| hoverBackgroundOption   |     `#FFFFFF` |
-| hoverBackgroundColor    |     `#FFFFFF` |
-| scrollBarThumbColor     |     `#666666` |
-| scrollBarTrackColor     |     `#D9D9D9` |
-| focusColor              |     `#005FCC` |
+| Tokens                                | Default value |
+| ----------------------------------    | ------------: |
+| selectedOptionBackgroundColor         |     `#D9D9D9` |
+| fontColor                             |     `#000000` |
+| hoveredOptionBackgroundColor          |     `#F2F2F2` |
+| disabledColor                         |     `#BFBFBF` |
+| focusColor                            |     `#0C5BA7` |
+
 
 The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 
@@ -76,6 +69,8 @@ margin | Value
 `xlarge` | 64px
 `xxlarge` | 100px
 
+These values can be applied independently to each side of the component: top bottom left right
+
 **Padding**
 
 Default dropdown `padding` values
@@ -91,28 +86,18 @@ Dropdown displayed list elements `padding` values
 | Options padding left/right    | `20px` |
 | Last option padding bottom    | `20px` |
 
-**Border-radius**
 
-Default dropdown & displayed list options container `border-radius` value
+**Properties**
 
-Border radius                  |         `2px` |
--- | --
-
-**Font-weight**
-
-Dropdown label & list options `font-weight` value
-
-Font weight                    |     `Regular` |
--- | --
-
-**Icon-size**
-
-Default dropdown & displayed `icon-size` value
-
-Icon size                      | value |
--- | --
-Caret                          | `24x24px` |
-Custom icon                    | `20x20px` |
+| Property for single             | Value    |
+| ------------------------------- | -------- |
+| List item padding-left          |`16px`    |
+| height                          |`36px`    |
+| font-size                       |`16px`    |
+| font-weight                     |`Regular` |
+| Icon size                       |`20x20px` |
+| Spacing between icon and label  |`16px`    |
+| Focus outline border-width      |`2px`     |
 
 
 ![Dropdown specifications](images/dropdown_specs.png)
