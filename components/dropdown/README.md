@@ -121,6 +121,7 @@ Custom icon                    | `20x20px` |
 
 It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
 
+The icon dropdown should always show a caret in order to distinguis the interaction of this component compared to a icon button.
 ![Icon usage](images/dropdown_icon_usage.png)
 
 ## User Interface Design Considerations
