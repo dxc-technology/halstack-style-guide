@@ -30,23 +30,6 @@ States: **enabled**, **hover**, **focus** and **selected**:
 ![Dropdown option list states](images/dropdown_option_list_states.png)
 
 
-
-### Color
-
-| Tokens                    | Value       |
-| -----------------------   | ----------- |
-| `backgroundColor`         |     #FFFFFF |
-| `fontColor`               |     #000000 |
-| `dropdownBackgroundColor` |     #FFFFFF |
-| `dropdownFontColor`       |     #000000 |
-| `hoverBackgroundOption`   |     #FFFFFF |
-| `hoverBackgroundColor`    |     #FFFFFF |
-| `scrollBarThumbColor`     |     #666666 |
-| `scrollBarTrackColor`     |     #D9D9D9 |
-| `focusColor`              |     #005FCC |
-
-The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
-
 ## Design Specifications
 
 ### Color
