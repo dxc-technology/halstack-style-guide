@@ -14,11 +14,6 @@ Dropdowns have a similar look and behaviour to select components, the difference
 
 If there is a special case when the dropdown couldn't be displayed below the selector because it is hiding important information reducing discoverability and scanability in the website then consider to use other options to display the information or customize the position of the pop up to fitting the necessities of the application.
 
-## Modes
-
-There is a **default** mode for the dropdown component.
-
-![Dropdown modes](images/dropdown_modes.png)
 
 ## States
 
@@ -26,45 +21,59 @@ There is a **default** mode for the dropdown component.
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Dropdown modes](images/dropdown_states.png)
+![Dropdown button states](images/dropdown_states.png)
 
 ### Option list
 
 States: **enabled**, **hover**, **focus** and **selected**:
 
-![Dropdown modes](images/option_list_states.png)
+![Dropdown option list states](images/option_list_states.png)
 
 
 
-### Design tokens
+### Color
 
-| Tokens                  | Default value |
-| ----------------------- | ------------: |
-| backgroundColor         |     `#FFFFFF` |
-| fontColor               |     `#000000` |
-| dropdownBackgroundColor |     `#FFFFFF` |
-| dropdownFontColor       |     `#000000` |
-| hoverBackgroundOption   |     `#FFFFFF` |
-| hoverBackgroundColor    |     `#FFFFFF` |
-| scrollBarThumbColor     |     `#666666` |
-| scrollBarTrackColor     |     `#D9D9D9` |
-| focusColor              |     `#005FCC` |
+| Tokens                    | Value       |
+| -----------------------   | ----------- |
+| `backgroundColor`         |     #FFFFFF |
+| `fontColor`               |     #000000 |
+| `dropdownBackgroundColor` |     #FFFFFF |
+| `dropdownFontColor`       |     #000000 |
+| `hoverBackgroundOption`   |     #FFFFFF |
+| `hoverBackgroundColor`    |     #FFFFFF |
+| `scrollBarThumbColor`     |     #666666 |
+| `scrollBarTrackColor`     |     #D9D9D9 |
+| `focusColor`              |     #005FCC |
 
 The dropdown itself cannot be configured, the component only allows the configuration of the trigger through the background color and the color of the text.
 
 ## Design Specifications
 
-**Width**
+### Color
+
+| Tokens                    | Value       |
+| -----------------------   | ----------- |
+| `backgroundColor`         |     #FFFFFF |
+| `fontColor`               |     #000000 |
+| `dropdownBackgroundColor` |     #FFFFFF |
+| `dropdownFontColor`       |     #000000 |
+| `hoverBackgroundOption`   |     #FFFFFF |
+| `hoverBackgroundColor`    |     #FFFFFF |
+| `scrollBarThumbColor`     |     #666666 |
+| `scrollBarTrackColor`     |     #D9D9D9 |
+| `focusColor`              |     #005FCC |
+
+### Width
 
 width | Value
 -- | --
 `small` | 60px
-`medium` | 240px
+`medium` _(default)_ | 240px
 `large` | 480px
 `fitContent` | -
 `fillParent` | -
 
-**Margin**
+### Margin
 
 margin | Value
 -- | --
@@ -76,43 +85,43 @@ margin | Value
 `xlarge` | 64px
 `xxlarge` | 100px
 
-**Padding**
+### Padding
 
-Default dropdown `padding` values
+| Property        | Element         | Value     |
+| --------------- | ----------      | --------- |
+| `padding-left` | Dropdown button  | 16px      |
+| `padding-left` | Options list     | 16px      |
+| `padding-right`| Dropdown button  | 16px      |
+| `padding-right`| Options list     | 16px      |
 
-| Padding left/right             |   `20px/15px` |
--- | --
-| Padding top/bottom             |   `10px/10px` |
 
-Dropdown displayed list elements `padding` values
+### Border
 
-| Options padding top/bottom    | `10px` |
--- | --
-| Options padding left/right    | `20px` |
-| Last option padding bottom    | `20px` |
+| Property        | Element         | Value     |
+| --------------- | ----------      | --------- |
+| `border-radius` | Dropdown button | 4px       |
+| `border-radius` | Options list    | 4px       |
+| `border-width`  | Focus outline   | 2px       |
 
-**Border-radius**
 
-Default dropdown & displayed list options container `border-radius` value
+### Typography
 
-Border radius                  |         `2px` |
--- | --
+| Property        | Element         | Value     |
+| --------------- | ----------      | ----------|
+| `font-size`     | Dropdown button | 1rem/16px |
+| `font-size`     | List item       | 1rem/16px |
+| `font-weight`   | Dropdown button | 400       |
+| `font-weight`   | List item       | 400       |
 
-**Font-weight**
 
-Dropdown label & list options `font-weight` value
+## Iconography
 
-Font weight                    |     `Regular` |
--- | --
 
-**Icon-size**
+| Property          | Element         | Value     |
+| ---------------   | ----------      | ----------|
+| `height`/ `width` | Caret           | 24/24px   |
+| `height`/ `width` | Custom icon     | 20/20px   |
 
-Default dropdown & displayed `icon-size` value
-
-Icon size                      | value |
--- | --
-Caret                          | `24x24px` |
-Custom icon                    | `20x20px` |
 
 
 ![Dropdown specifications](images/dropdown_specs.png)
