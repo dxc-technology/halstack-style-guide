@@ -27,7 +27,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 States: **enabled**, **hover**, **focus** and **selected**:
 
-![Dropdown option list states](images/option_list_states.png)
+![Dropdown option list states](images/dropdown_option_list_states.png)
 
 
 
