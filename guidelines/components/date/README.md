@@ -25,7 +25,9 @@ The date input should lead the user to interact with it to select a date and giv
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-![Date states](images/date_states.png)
+![Examples of date picker input states](images/date_states.png)
+
+_Examples of date picker input states_
 
 ### Calendar pop-up
 
@@ -36,7 +38,9 @@ By default, the view of the calendar will be the current month with all of its d
 
 The user can navigate through the calendar to select the desire date.
 
-![States of the calendar pop-up](images/date_popup.png)
+![Examples of the calendar pop-up states](images/date_popup.png)
+
+_Examples of the calendar pop-up states_
 
 
 ## Design Specifications
@@ -45,6 +49,7 @@ The user can navigate through the calendar to select the desire date.
 
 ![date-input specifications](images/date_specs.png)
 
+_Structure and spacing for date picker inputs_
 
 #### Height
 
@@ -103,6 +108,8 @@ margin | Value
 ### Calendar pop-up
 
 ![Date specifications for picker](images/date_popup_specs.png)
+
+_Structure and spacing for date picker calendar pop-up_
 
 #### Color
 
