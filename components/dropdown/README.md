@@ -10,7 +10,6 @@ Dropdowns have a similar look and behaviour to select components, the difference
 * Dropdowns can be useful as a list of items that will be shown when the user clicks or hovers their main parent that will trigger the pop up with the options.
 * An arrow linked with the label of the dropdown should be shown to indicate the user that more options are available but are currently hidden.
 * By default, every dropdown will be extending underneath his main container if the space in the screen is enough to contain all the size declared for the pop-up.
-* Once an option is selected by the user, the main container has to reflect the option chosen and the dropdown has to be closed after the user's click.
 
 If there is a special case when the dropdown couldn't be displayed below the selector because it is hiding important information reducing discoverability and scanability in the website then consider to use other options to display the information or customize the position of the pop up to fitting the necessities of the application.
 
