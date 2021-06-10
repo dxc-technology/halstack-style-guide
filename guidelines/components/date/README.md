@@ -13,7 +13,6 @@ In this component both options will be available to the user, so if the user get
 
 It is common to find a date picker in these scenarios: date of birth, date range or as an input to filter based on some criteria.
 
-If the state of the input is empty, it should give a hint in the placeholder about the format required. Also, as the design system is based in some of the Angular Material guidelines, that format would be visible in case that the input component is selected or filled.
 
 ## Appereance
 
@@ -37,13 +36,8 @@ By default, the view of the calendar will be the current month with all of its d
 
 The user can navigate through the calendar to select the desire date.
 
-![States of the calendar pop-up](images/date_datepicker.png)
+![States of the calendar pop-up](images/date_popup.png)
 
-
-
-
-
-The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
 
 ## Design Specifications
 
@@ -63,11 +57,11 @@ The other attributes of the date component are inherited from the input componen
 
 #### Width
 
-| Property         |  value            | 
-| :---                |     :---             |   
-| `medium`_(default)_    |  240px           | 
-| `large`          |  480px           |  
-| `fillParent`    |  -                   | 
+| Property            |  Value           | 
+| ------------------- |  -------------   |   
+| `medium`_(default)_ |  240px           | 
+| `large`             |  480px           |  
+| `fillParent`        |  -               | 
 
 
 #### Margin
@@ -138,17 +132,30 @@ The majority of the specifications are the same as in Angular Material datepicke
 | Font size        |      `13px` |
 
 
+### Helper text
 
-### Additional modes
+Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
 
-For the datepicker as for the input component are additional modes apart from the normal ones. **Required**, **error** and **assistive text** are another options to display within the component.
+![Date helper text](images/date_helper_text.png)
 
-The different modes and states can be combined between them to handle the flow of the component.
+#### Usage
 
-![Additonal modes for datepicker](images/date_additionals.png)
+##### Do:
 
-### Calendar Pop-up Specifications
+* Keep helper text as short and specific as possible.
+* Only use helper text when truly necessary to avoid overloading the user.
+* Should give an example or an explanation of the field.
 
+##### Don’t:
+
+* Helper text should not run longer than the input area.
+
+
+### Required
+
+Required date fields are displayed in the same way the component text-input does.
+
+![Required date input](images/date_required.png)
 
 
 ## Links and references
