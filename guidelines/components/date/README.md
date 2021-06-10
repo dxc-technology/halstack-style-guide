@@ -101,8 +101,8 @@ margin | Value
 | ----------------------------------- | --------- |
 | `border-width` enabled              |   1px     |
 | `border-width` focus                |   2px     |
-| Icon size                           | `20x20px` |
-| Distance between text and underline |  7px |
+| Icon size                           |   20x20px |
+| Distance between text and underline |   7px     |
 
 
 ### Calendar pop-up
@@ -113,52 +113,49 @@ _Structure and spacing for date picker calendar pop-up_
 
 #### Color
 
-| Tokens                            | Default value |
-| --------------------------------- | ------------: |
-| pickerSelectedDateBackgroundColor |     `#6F2C91` |
-| pickerSelectedDateColor           |     `#FFFFFF` |
-| pickerBackgroundColor             |     `#FFFFFF` |
-| pickerFontColor                   |     `#000000` |
-| pickerActualDate                  |     `#D9D9D9` |
-| pickerHoverDateBackgroundColor    |     `#D0BDDB` |
-| pickerHoverDateFontColor          |     `#000000` |
-| scrollBarThumbColor               |     `#666666` |
-| scrollBarTrackColor               |     `#D9D9D9` |
-| focusColor                        |     `#005FCC` |
+| Tokens                              | Value       |
+| ---------------------------------   | ----------- |
+| `pickerSelectedDateBackgroundColor` |     #6F2C91 |
+| `pickerSelectedDateColor`           |     #FFFFFF |
+| `pickerBackgroundColor`             |     #FFFFFF |
+| `pickerFontColor`                   |     #000000 |
+| `pickerActualDate`                  |     #D9D9D9 |
+| `pickerHoverDateBackgroundColor`    |     #D0BDDB |
+| `pickerHoverDateFontColor`          |     #000000 |
+| `scrollBarThumbColor`               |     #666666 |
+| `scrollBarTrackColor`               |     #D9D9D9 |
+| `focusColor`                        |     #005FCC |
 
-The majority of the specifications are the same as in Angular Material datepicker component. In the table below is pointed all the relevant information.
+#### Other
 
-| Property         |       Value |
-| ---------------- | ----------: |
-| Padding          |      `20px` |
-| Height (default) |     `354px` |
-| Widht (default)  |     `296px` |
-| Circle size      | `28x28(px)` |
-| Circle thickness |       `1px` |
-| Font weight      |   `Regular` |
-| Font size        |      `13px` |
+| Property           | Value     |
+| ----------------   | --------- |
+| `padding`          |      16px |
+| `font-weight`      |   Regular |
+| `font-size`        |      13px |
+| Circle size        | 28x28(px) |
 
 
-### Helper text
+## Helper text
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
 
 ![Date helper text](images/date_helper_text.png)
 
-#### Usage
+### Usage
 
-##### Do:
+#### Do:
 
 * Keep helper text as short and specific as possible.
 * Only use helper text when truly necessary to avoid overloading the user.
 * Should give an example or an explanation of the field.
 
-##### Don’t:
+#### Don’t:
 
 * Helper text should not run longer than the input area.
 
 
-### Required
+## Required
 
 Required date fields are displayed in the same way the component text-input does.
 
