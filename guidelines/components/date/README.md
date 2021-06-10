@@ -102,7 +102,7 @@ margin | Value
 
 ### Calendar pop-up
 
-![Date specifications for picker](images/date_picker_specs.png)
+![Date specifications for picker](images/date_popup_specs.png)
 
 #### Color
 
