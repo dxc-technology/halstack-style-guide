@@ -1,68 +1,74 @@
 # Link
 
-Nowadays, links are the most presented element in every web site, as they define the way of navigation across the page. They are resources that allow the user to navigate to a new page or section in the current web site, keeping the workflow of the page without losing the reference of the starting point.
-
-## Appearance
-
-The appearance of the links can change from page to page, sometimes a piece of text doesn't have the visual presentation to be a link but in fact, it is, so an important aspect about the link in the visual approach and how to communicate to the user that the element that is displayed in the screen is a link and he can interact with it in the case that it will be needed.
-
-There are a variety of types of links, but the most used are hyperlinks, text buttons, help links (terms and conditions or explanation link) and home links (usually presented as logos)
-
-### Modes
-
-The component has two different modes depending on the context of use of the link element, regarding if the text link is part of a text or if it is an independent entity itself.
-
-In the default mode, in the normal state, the link only has a different color to indicate and distinguish it as a link from the rest of the content.
-
-The underline mode stands out the link by the underline symbol rather than the color of the text. On this state, if the link has icon, it will be also underlined to indicate that is part of the link component.
-
-Modes: **default** and **underline**.
-
-![Modes of the link component](images/link_modes.png)
+Links are used as navigational elements. They may appear isolated, inside a sentence or paragraph, or following the content.
 
 ### States
 
-The states are the same for both modes, starting in the normal state where the user didn't interact with the element, following by the hover state. In this state is common the use of the pointer cursor as an indicator of the navigation once clicking in the object.
+States: **enabled**, **hover**, **focus**, **active**, **visited** and **disabled**
 
-Also, in the default state, an underline style will appear once the user hovers the link with the cursor. For the underline mode, the difference will indicate changing the color of the item. In the case that the link already has some color, the only change on hover will be the cursor.
+![Example of the link component states](images/link_states.png)
 
-If the user decides to click on the link, then it will pass to another state defined as a visited state. For both possibilities, this status will be represented with a purple color to indicate to the user that the link was already visited in a previous interaction.
-
-![States of the link for both modes](images/link_states.png)
-## Design tokens
-
-| Tokens                            | Default value |
-| --------------------------------- | :-----------: |
-| fontColor                         |   `#005FCC`   |
-| visitedFontColor                  |   `#8800F6`   |
-| underlinedBackgroundColor         |   `#005FCC`   |
-| visitedUnderlinedBackgroundColor  |   `#8800F6`   |
-| disabledColor                     |   `#D9D9D9`   |
-| disabledUnderlinedBackgroundColor |   `#D9D9D9`   |
-| hoverFontColor                    |   `#006BF6`   |
+_Example of the link component states_
 
 ## Design Specifications
 
-| Property                    |     Value |
-| --------------------------- | --------: |
-| Recommended Margin          |    `10px` |
-| Min width                   |       `0` |
-| Max width                   |    `100%` |
-| Font size                   |    `16px` |
-| Font weight                 | `Regular` |
-| Space between text and icon |    `10px` |
-| Icon size                   | `16x16px` |
-| Underline height            |     `1px` |
+![Design specifications for link component](images/link_specs.png)
 
-![Design specifications for link component](images/link_specifications.png)
+_Design specifications for link component_
 
-### Icon Usage
+### Color
+
+| Tokens                              | Value       |
+| ---------------------------------   | ----------- |
+| `fontColor`                         |   #005FCC   |
+| `visitedFontColor`                  |   #8800F6   |
+| `underlinedBackgroundColor`         |   #005FCC   |
+| `visitedUnderlinedBackgroundColor`  |   #8800F6   |
+| `disabledColor`                     |   #D9D9D9   |
+| `disabledUnderlinedBackgroundColor` |   #D9D9D9   |
+| `hoverFontColor`                    |   #006BF6   |
+
+### Margin
+
+| Margin    | value  |
+| --------- | ------ |
+| `xxsmall` | 6px    |
+| `xsmall`  | 16px   |
+| `small`   | 24px   |
+| `medium`  | 36px   |
+| `large`   | 48px   |
+| `xlarge`  | 64px   |
+| `xxlarge` | 100px  |
+
+### Typography
+
+| Property                    | value       |
+| --------------------------- | ----------- |
+| `font-size`                 | 1rem/16px   |
+| `font-weight`               | 400         |
+
+
+### Border
+
+| Property                      | Element                      |  Value      |
+| ----------------------------- | ----------------             | ----------- |
+| `border-bottom`               | `link` container (on hover)  |   1px       |
+
+
+## Icon Usage
 
 An icon can be used either in the normal or underlined mode to represent more graphical the purpose of the link, placing the icon before or after the link that is representing.
 
-The safe space between the icon and the label has to be 6 pixels and the size of the icon matches the 16px of the font size.
+![Icon usage for the link component](images/link_icon.png)
 
-![Icon usage with link component](images/link_icon.png)
+_Icon usage for the link component_
+
+### Icon specs
+
+| Property                      | Element                |  Value      |
+| ----------------------------- | ----------------       | ----------- |
+| `height/width`                |  icon                  |   16/16px   |
+| `padding-left`                |  icon                  |   4px       |
 
 ### User Interface Design Considerations
 
