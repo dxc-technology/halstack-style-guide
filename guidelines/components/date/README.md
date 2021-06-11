@@ -1,23 +1,6 @@
 # Date-picker
 
-A date input is a user interface element where the user can type or select a date in a predefined format. The date format depends on an ISO definition for each country and the preference of use within the application.
-
-The format of the date may vary depending on language, region, country or customer. i.e.
-
-- The default format for the United States is mm/dd/yyyy
-- The default format for Australia, Europe, Africa, So America and much of Asia is dd/mm/yyyy
-- The default format in China is yyyy/mm/dd
-
-It is a good practice to give to the user some type of hint about the date format and in many cases, there is a second way to select the date with a date picker control.
-In this component both options will be available to the user, so if the user gets stuck typing the correct format of the data it has an additional option with graphic representation that is easily used.
-
-It is common to find a date picker in these scenarios: date of birth, date range or as an input to filter based on some criteria.
-
-
-## Appereance
-
-The date input should lead the user to interact with it to select a date and give appropiate feedback to the user to know what value is selected from the wide range. It should be intuitive, navigable and useful.
-
+A date input is a user interface element where the user can type or select a date in a predefined format. 
 
 ## States
 
@@ -32,11 +15,6 @@ _Examples of date picker input states_
 ### Calendar pop-up
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
-
-The calendar pop-up displays the different views of days, months and years.
-By default, the view of the calendar will be the current month with all of its days and it will appear right below the input.
-
-The user can navigate through the calendar to select the desire date.
 
 ![Examples of the calendar pop-up states](images/date_popup.png)
 
@@ -87,13 +65,13 @@ margin | Value
 
 #### Typography
 
-| Property                            | Value     |
-| ----------------------------------- | --------- |
-| `font-size` label enabled           |   16px    |
-| `font-size` label                   |   12px    |
-| `font-size` placeholder             |   16px    |
-| `font-size` assistive text          |   12px    |
-| `font-weight`                       |   400     |
+| Property                      | Element          |  Value      |
+| ----------------------------- | ---------------- | ----------- |
+| `font-size`                   |  label enabled   |   16px      |
+| `font-size`                   |  label           |   12px      |
+| `font-size`                   |  placeholder     |   16px      |
+| `font-size`                   |  assistive text  |   12px      |
+| `font-weight`                 |  all             |   400       |
 
 #### Other specs
 
@@ -126,14 +104,36 @@ _Structure and spacing for date picker calendar pop-up_
 | `scrollBarTrackColor`               |     #D9D9D9 |
 | `focusColor`                        |     #005FCC |
 
-#### Other
+#### Typography
 
-| Property           | Value     |
-| ----------------   | --------- |
-| `padding`          |      16px |
-| `font-weight`      |   Regular |
-| `font-size`        |      13px |
-| Circle size        | 28x28(px) |
+| Property                      | Element          |  Value      |
+| ----------------------------- | ---------------- | ----------- |
+| `font-size`                   |  year selector   |   16px      |
+| `font-size`                   |  current month   |   13px      |
+| `font-size`                   |  day             |   13px      |
+| `font-weight`                 |  year selector   |   600       |
+| `font-weight`                 |  current month   |   400       |
+| `font-weight`                 |  day             |   400       |
+
+#### Padding
+
+| Property                      | Element               |  Value      |
+| ----------------------------- | ----------------      | ----------- |
+| `padding`                     |  calendar container   |   16px      |
+| `padding-left/right`          |  month container      |   8px       |
+| `padding-left/right`          |  year selector        |   16px      |
+| `padding-top/bottom`          |  separator            |   8px       |
+
+
+#### Sizing
+
+| Property                      | Element                |  Value      |
+| ----------------------------- | ----------------       | ----------- |
+| `height/width`                |  selected date circle  |   28/28px   |
+| `height/width`                |  year selection caret  |   24/24px   |
+| `height/width`                |  calendar top controls |   24/24px   |
+
+
 
 
 ## Helper text
@@ -160,6 +160,16 @@ Helper text can be used as additional instructions to the user when filling in t
 Required date fields are displayed in the same way the component text-input does.
 
 ![Required date input](images/date_required.png)
+
+## Internationalization
+
+The date format depends on an ISO definition for each country and the preference of use within the application.
+
+The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
+
+- The default format for the United States is `mm/dd/yyyy`
+- The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
+- The default format in China is `yyyy/mm/dd`
 
 
 ## Links and references
