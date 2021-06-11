@@ -1,100 +1,50 @@
 # Date-picker
 
-A date input is a user interface element where the user can type or select a date in a predefined format. The date format depends on an ISO definition for each country and the preference of use within the application.
+A date input is a user interface element where the user can type or select a date in a predefined format. 
 
-The format of the date may vary depending on language, region, country or customer. i.e.
+## States
 
-- The default format for the United States is mm/dd/yyyy
-- The default format for Australia, Europe, Africa, So America and much of Asia is dd/mm/yyyy
-- The default format in China is yyyy/mm/dd
+### Date-input
 
-It is a good practice to give to the user some type of hint about the date format and in many cases, there is a second way to select the date with a date picker control.
-In this component both options will be available to the user, so if the user gets stuck typing the correct format of the data it has an additional option with graphic representation that is easily used.
+States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-It is common to find a date picker in these scenarios: date of birth, date range or as an input to filter based on some criteria.
+![Examples of date picker input states](images/date_states.png)
 
-If the state of the input is empty, it should give a hint in the placeholder about the format required. Also, as the design system is based in some of the Angular Material guidelines, that format would be visible in case that the input component is selected or filled.
+_Examples of date picker input states_
 
-## Appereance
+### Calendar pop-up
 
-The date input should lead the user to interact with it to select a date and give appropiate feedback to the user to know what value is selected from the wide range. It should be intuitive, navigable and useful.
+States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-### Modes
+![Examples of the calendar pop-up states](images/date_popup.png)
 
-There is only one mode to represent the date that follows the design of the rest inputs. A thin line under the input container with description and labeling, and some animations that activate when the user interacts with the component.
-Modes: **basic**.
+_Examples of the calendar pop-up states_
 
-![Date modes](images/date_modes.png)
 
-### States
+## Design Specifications
 
-Six different states are defined in the life cycle of the component: **normal**, **disabled**, **entered**, **selected**, **focused** and **datepicker focused**.
+### Date-input
 
-![Date states](images/date_states.png)
+![date-input specifications](images/date_specs.png)
 
-### Calendar Pop-up
-
-The calendar pop-up displays the different views of days, months and years.
-By default, the view of the calendar will be the current month with all of its days and it will appear right below the input.
-
-The user can navigate through the calendar to select the desire date.
-
-![Views of the datepicker](images/date_datepicker.png)
-
-### Design Interactions
-
-Different feedback and outcomes happen when the calendar pop-up is used. To see more information please, open the xd file linked with the date component in this respository.
-
-## Design tokens
-
-| Tokens                            | Default value |
-| --------------------------------- | ------------: |
-| pickerSelectedDateBackgroundColor |     `#6F2C91` |
-| pickerSelectedDateColor           |     `#FFFFFF` |
-| pickerBackgroundColor             |     `#FFFFFF` |
-| pickerFontColor                   |     `#000000` |
-| pickerActualDate                  |     `#D9D9D9` |
-| pickerHoverDateBackgroundColor    |     `#D0BDDB` |
-| pickerHoverDateFontColor          |     `#000000` |
-| scrollBarThumbColor               |     `#666666` |
-| scrollBarTrackColor               |     `#D9D9D9` |
-| focusColor                        |     `#005FCC` |
-
-The other attributes of the date component are inherited from the input component because it is used internally in the date implementation, so a change in any token of the text field component will affect this component too.
-
-### Design Specifications
-
-![date-picker specifications](images/date_specs.png)
-
-The specifications for dates are similar to the ones used with the input text component. In the case that the field will be read-only, the look and feel will be the same for both components.
-
-The text within the input should always aligns left. By default, the font size for this type of component is 16 pixels. When the field is empty and it has some hint the space between the text and the line below the input should be 7 pixels.
-
-In the case that the input is selected or the user is typing inside and the hint is positioned on the top, the measures are 7 pixels between the main text and the underline decoration and 6 pixels between the top hint respect the main text. As this will take more space, the height of the component will be changed from 32 pixels to 48 pixels. Another variation could be to having an auxiliary text below the underlined item so it will take 73 pixels for the height.
-
-The font for the label at the top and the auxiliary text must be 12 pixels.
-
-The thickness of the border should be 1 pixel but in case that the input will be selected, the width would change to 2 pixels with animation between the two states inherit from Angular Material default behavior.
-
-Smaller touch points decrease the ease of use of the interface because it is costly for the user to hit the target. To prevent that, the size defined for the date picker icon is 20 pixels by 20 pixels for the desktop version and 44 pixels by 44 pixels for mobile and tablet versions of the application.
-These sizes are including small padding as a touchable safe area so the size of the icon in both cases will be 2 pixels less in wide and tall.
+_Structure and spacing for date picker inputs_
 
 #### Height
 
-| Property                            |       Value |
-| ----------------------------------- | ----------: |
-| Height (default)                    |      `32px` |
-| Height (selected)                   |      `48px` |
-| Height (selected + auxiliar text)   |      `73px` |
+| Property                              | Value     |
+| ------------------------------------- | --------- |
+| `height` (default)                    |      32px |
+| `height` (selected)                   |      48px |
+| `height` (selected + auxiliar text)   |      73px |
 
 
 #### Width
 
-| Property         |  value            | 
-| :---                |     :---             |   
-| `medium`_(default)_    |  240px           | 
-| `large`          |  480px           |  
-| `fillParent`    |  -                   | 
+| Property            |  Value           | 
+| ------------------- |  -------------   |   
+| `medium`_(default)_ |  240px           | 
+| `large`             |  480px           |  
+| `fillParent`        |  -               | 
 
 
 #### Margin
@@ -115,45 +65,112 @@ margin | Value
 
 #### Typography
 
-| Property                            |       Value |
-| ----------------------------------- | ----------: |
-| Font size default                   |      `16px` |
-| Font size label                     |      `12px` |
-| Font size placeholder               |      `16px` |
-| Font size assistive text/error message                     |      `12px` |
-| Font weight                         |   `Regular` |
+| Property                      | Element          |  Value      |
+| ----------------------------- | ---------------- | ----------- |
+| `font-size`                   |  label enabled   |   16px      |
+| `font-size`                   |  label           |   12px      |
+| `font-size`                   |  placeholder     |   16px      |
+| `font-size`                   |  assistive text  |   12px      |
+| `font-weight`                 |  all             |   400       |
 
 #### Other specs
 
-| Property                            |       Value |
-| ----------------------------------- | ----------: |
-| Border thickness                    |   `1px/2px` |
-| Icon size                           | `20x20(px)` |
-| Distance between text and underline |       `7px` |
+| Property                            | Value     |
+| ----------------------------------- | --------- |
+| `border-width` enabled              |   1px     |
+| `border-width` focus                |   2px     |
+| Icon size                           |   20x20px |
+| Distance between text and underline |   7px     |
 
-### Additional modes
 
-For the datepicker as for the input component are additional modes apart from the normal ones. **Required**, **error** and **assistive text** are another options to display within the component.
+### Calendar pop-up
 
-The different modes and states can be combined between them to handle the flow of the component.
+![Date specifications for picker](images/date_popup_specs.png)
 
-![Additonal modes for datepicker](images/date_additionals.png)
+_Structure and spacing for date picker calendar pop-up_
 
-### Calendar Pop-up Specifications
+#### Color
 
-The majority of the specifications are the same as in Angular Material datepicker component. In the table below is pointed all the relevant information.
+| Tokens                              | Value       |
+| ---------------------------------   | ----------- |
+| `pickerSelectedDateBackgroundColor` |     #6F2C91 |
+| `pickerSelectedDateColor`           |     #FFFFFF |
+| `pickerBackgroundColor`             |     #FFFFFF |
+| `pickerFontColor`                   |     #000000 |
+| `pickerActualDate`                  |     #D9D9D9 |
+| `pickerHoverDateBackgroundColor`    |     #D0BDDB |
+| `pickerHoverDateFontColor`          |     #000000 |
+| `scrollBarThumbColor`               |     #666666 |
+| `scrollBarTrackColor`               |     #D9D9D9 |
+| `focusColor`                        |     #005FCC |
 
-| Property         |       Value |
-| ---------------- | ----------: |
-| Padding          |      `20px` |
-| Height (default) |     `354px` |
-| Widht (default)  |     `296px` |
-| Circle size      | `28x28(px)` |
-| Circle thickness |       `1px` |
-| Font weight      |   `Regular` |
-| Font size        |      `13px` |
+#### Typography
 
-![Date specifications for picker](images/date_picker_specs.png)
+| Property                      | Element          |  Value      |
+| ----------------------------- | ---------------- | ----------- |
+| `font-size`                   |  year selector   |   16px      |
+| `font-size`                   |  current month   |   13px      |
+| `font-size`                   |  day             |   13px      |
+| `font-weight`                 |  year selector   |   600       |
+| `font-weight`                 |  current month   |   400       |
+| `font-weight`                 |  day             |   400       |
+
+#### Padding
+
+| Property                      | Element               |  Value      |
+| ----------------------------- | ----------------      | ----------- |
+| `padding`                     |  calendar container   |   16px      |
+| `padding-left/right`          |  month container      |   8px       |
+| `padding-left/right`          |  year selector        |   16px      |
+| `padding-top/bottom`          |  separator            |   8px       |
+
+
+#### Sizing
+
+| Property                      | Element                |  Value      |
+| ----------------------------- | ----------------       | ----------- |
+| `height/width`                |  selected date circle  |   28/28px   |
+| `height/width`                |  year selection caret  |   24/24px   |
+| `height/width`                |  calendar top controls |   24/24px   |
+
+
+
+
+## Helper text
+
+Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
+
+![Date helper text](images/date_helper_text.png)
+
+### Usage
+
+#### Do:
+
+* Keep helper text as short and specific as possible.
+* Only use helper text when truly necessary to avoid overloading the user.
+* Should give an example or an explanation of the field.
+
+#### Don’t:
+
+* Helper text should not run longer than the input area.
+
+
+## Required
+
+Required date fields are displayed in the same way the component text-input does.
+
+![Required date input](images/date_required.png)
+
+## Internationalization
+
+The date format depends on an ISO definition for each country and the preference of use within the application.
+
+The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
+
+- The default format for the United States is `mm/dd/yyyy`
+- The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
+- The default format in China is `yyyy/mm/dd`
+
 
 ## Links and references
 
