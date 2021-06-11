@@ -171,6 +171,19 @@ The format of the date may vary depending on language, region, country or custom
 - The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
 - The default format in China is `yyyy/mm/dd`
 
+## Accessibility
+
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [SC 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+* Understanding WCAG 2.2 - [SC 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html)
+
+
+### WAI-ARIA 1.2
+
+* WAI-ARIA authoring practices 1.2 - [3.9 Dialog modal](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
+* WAI-ARIA authoring practices - [Date picker design pattern](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/datepicker-dialog.html)
+
 
 ## Links and references
 
