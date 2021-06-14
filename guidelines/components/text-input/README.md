@@ -1,24 +1,42 @@
-# Text-inputs
+# Text-input
 
-Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers.
-Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
+Text inputs are input fields typically used in forms that allow the user to enter text data in a structured format.
 
-## Appearance
+## Usage
 
-The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written.
-Other elements like assistive text, prefix or suffix icons or error handlers can be complementing the input field making the basic structure more informative.
+Use text inputs in forms to help people enter, select, and search for text. They can also be part of a modal, search, etc...
 
-### Modes
+Common text input types include: 
+* Usernames
+* Descriptions
+* URLs
+* Phone numbers
+* Credit cards
+* Emails, addresses
+* Plain text searches
 
-Four different modes can be identify using text input component: **default**, **default with preffix**, **default with suffix** and **default with preffix and suffix**.
+### Do's
 
-![Input modes example](images/input_modes.png)
+* Do use fixed width inputs for content that has a specific, known length (e.g. post code, phone number).
+* Do use sentence for any input text case with standard, local grammar and punctuation rules.
+* Do use helpful and clear text for labels, error messages and helper texts
+
+
+### Dont's
+
+* Do not use text-input for text longer than a single line (e.g. name, phone number). Use the text-area instead.
+* Do not disable copy and paste.
+* Do not display pop up error message after validating
+* Avoid masking label, keep it always visible.
+
 
 ### States
 
-The states for text input are: **normal**, **focused**, **invalid** and **disabled**.
+Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
 
-![Input states example](images/input_states.png)
+![Example of the text-input component states](images/input_states.png)
+
+_Example of the text-input component states_
 
 ## Design tokens
 
