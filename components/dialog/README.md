@@ -11,29 +11,19 @@ This dialog disables the main content until the user explicitly interacts with t
 * Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons.
 * If the dialog is not including action buttons, an implicit element 'X' con be used to close the dialog at any time that the user considers.
 
-### Modes
 
-There is only one mode designed for the set of themes and combinations. As the modal is a special component because it has an overlay that separates into a new layer the content of the interface to the component, the same mode can be used for all of the scenarios.
+![Example of the dialog component](images/dialog_mode_content.png)
 
-![Definition of the mode with different content inside it](images/dialog_mode_content.png)
-
-
-### States
-
-Some basic states can be defined in the modal component. In case the modal is closed, there should be a trigger to open it in the actual screen.
-Once the model is open, many interactions can take place, but they should follow the standards declared for the specific components, so the modal is just a container and other components can be placed inside.
-
-A property that is inherited to the modal is the 'X' handler to close it or clicking out of the box to perform the same action. Then, there are only two actions that change the state of the modal itself once it is opened.
-
-Clicking on the X icon or outside the box will trigger an action to close the modal properly.
-
+_Example of the dialog component_
 
 
 ## Design Specifications
 
-![Specifications for the design of the dialog](images/dialog_specs.png)
+![Design specifications for dialog component](images/dialog_specs.png)
 
-## Color
+_Design specifications for dialog component_
+
+### Color
 
 | Tokens                | value       |
 | -------------------   | ----------- |
@@ -41,6 +31,21 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 | `backgroundColor`     |     #FFFFFF |
 | `scrollBarThumbColor` |     #666666 |
 | `scrollBarTrackColor` |     #D9D9D9 |
+
+### Padding
+
+padding | value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` _(default)_ | 24px
+`medium` | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
 
 ### Specifications for desktop and tablet (landscape mode)
 
@@ -56,20 +61,6 @@ Clicking on the X icon or outside the box will trigger an action to close the mo
 | `margin`               |              32px |
 | Title icon space       |              12px |
 
-#### Padding
-
-padding | value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` _(default)_ | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
-
-And also apply different values to each side of the component:
-`top` `bottom` `left` `right`
 
 ### Specifications for tablet (portrait mode)
 
@@ -83,18 +74,28 @@ And also apply different values to each side of the component:
 
 | Property           |   Value |
 | ------------------ | ------  |
-| `padding`          |  36px   |
 | `min-width`        |  92%    |
-| `max-width`        |  80%    |
+| `max-width`        |  92%    |
 | Title `font-size`  |  20px   |
 
+## Content
+
+![Example of a dialog using Halstack components as content](images/dialog_content.png)
+
+_Example of a dialog using Halstack components as content_
+
+Any content (Halstack component or custom) can be placed inside the dialog component, try always to avoid scrolling.
 
 
 ## Overlay
 
+![Example of the overlay usage](images/dialog_overlay.png)
+
+_Example of the overlay usage_
+
 The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
 
-Specifications for overlay
+### Specifications for overlay
 
 | Property |               Value |
 | -------- | ------------------: |
@@ -103,8 +104,7 @@ Specifications for overlay
 | Color    | `#000, 0.7 opacity` |
 
 
-
-### Combining with other UI elements
+## Combining with other UI elements
 
 There are some elements that require some guidance to use it on the dialog component, based on the nature of the component or the behavior that it has in the ecosystem. Due to resource loading or prompting messages for the user, special guides are defined to incorporate these scenarios.
 
@@ -115,16 +115,11 @@ For the case that the application has a modal opened and it needs to load data f
 
 Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
 
-If the application needs to render some type of alert regarding information or prompting an error to the user, the behaviour of the component varies from the definition that is taken in a normal scenario.
-
-In the case that there is an error with an input field, the action to take is the one mentioned in the component's guidelines, highligthing the field to make remarkable for the user that the specific input is wrong. Then, the alert message should be placed in the right upper corner of the screen to not modify the content of the dialog and avoid the scrolling when new content is added. The alert should remain till the error is corrected or the user interacts with it to close it.
-
-### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
 - The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. The top of the modal should align with the bottom of the banner on the parent page. Modals should be sized according to the content
 - Modals that contain tables or lists may use the available width of the device, allowing for an exterior margin where the parent page is still visible under the dialog box. Modal height, in all instances is dependent on content
-- Every effort should be made to ensure that the dialog boxes do not need to scroll, either horizontally or vertically, to display the information. Some exceptions may apply
 - Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
 - Informational modals are merely assistive and should display only read-only data
 - Interactive modals require a user response, either to a procedural option or to further define data on the underlying page with additional entry
