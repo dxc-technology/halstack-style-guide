@@ -23,7 +23,7 @@ _Example of the dialog component_
 
 _Design specifications for dialog component_
 
-## Color
+### Color
 
 | Tokens                | value       |
 | -------------------   | ----------- |
@@ -31,6 +31,21 @@ _Design specifications for dialog component_
 | `backgroundColor`     |     #FFFFFF |
 | `scrollBarThumbColor` |     #666666 |
 | `scrollBarTrackColor` |     #D9D9D9 |
+
+### Padding
+
+padding | value
+-- | --
+`xxsmall` | 6px
+`xsmall` | 16px
+`small` _(default)_ | 24px
+`medium` | 36px
+`large` | 48px
+`xlarge` | 64px
+`xxlarge` | 100px
+
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
 
 ### Specifications for desktop and tablet (landscape mode)
 
@@ -46,20 +61,6 @@ _Design specifications for dialog component_
 | `margin`               |              32px |
 | Title icon space       |              12px |
 
-#### Padding
-
-padding | value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` _(default)_ | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
-
-And also apply different values to each side of the component:
-`top` `bottom` `left` `right`
 
 ### Specifications for tablet (portrait mode)
 
@@ -83,7 +84,7 @@ And also apply different values to each side of the component:
 
 _Example of a dialog using Halstack components as content_
 
-Any content (Halstack component or custom) can bwe placed inside the dialog component, try always to avoid scrolling.
+Any content (Halstack component or custom) can be placed inside the dialog component, try always to avoid scrolling.
 
 
 ## Overlay
@@ -94,7 +95,7 @@ _Example of the overlay usage_
 
 The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
 
-Specifications for overlay
+### Specifications for overlay
 
 | Property |               Value |
 | -------- | ------------------: |
@@ -114,7 +115,7 @@ For the case that the application has a modal opened and it needs to load data f
 
 Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
 
-### User Interface Design Considerations
+## User Interface Design Considerations
 
 - Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
 - The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. The top of the modal should align with the bottom of the banner on the parent page. Modals should be sized according to the content
