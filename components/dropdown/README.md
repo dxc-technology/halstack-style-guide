@@ -20,16 +20,23 @@ If there is a special case when the dropdown couldn't be displayed below the sel
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Dropdown button states](images/dropdown_states.png)
+![Example of the dropdown component states](images/dropdown_states.png)
+
+_Example of the dropdown component states_
 
 ### Option list
 
 States: **enabled**, **hover**, **focus** and **selected**:
 
-![Dropdown option list states](images/dropdown_option_list_states.png)
+![Example of the option list states](images/dropdown_option_list_states.png)
 
+_Example of the option list states_
 
 ## Design Specifications
+
+![Dropdown component specifications](images/dropdown_specs.png)
+
+_Dropdown component specifications_
 
 ### Color
 
@@ -106,41 +113,25 @@ margin | Value
 
 
 
-![Dropdown specifications](images/dropdown_specs.png)
-
 ## Icon Usage
 
 It is allowed the use of icons within the dropdown component. There are several options of configuration, the icon can be placed before or after the label, also the icon can be the unique content of the dropdown placeholder and options, so the final goal of this is to keep consistency with the rest of the components of the design system such as buttons or selects, that have the same behavior.
 
-![Icon usage](images/dropdown_icon_usage.png)
+![Examples of icon usage](images/dropdown_icon_usage.png)
+
+_Examples of icon usage_
+
 
 ## Accessibility
 
 ### WCAG 2.2
 
-**Understanding WCAG 2.2** - [SC 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html)
-
-"Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
-
-* **Dismissible**: A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;
-* **Hoverable**: If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;
-* **Persistent**: The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid."
-
-**Understanding WCAG 2.2** - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
-
-"Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component."
+* Understanding WCAG 2.2 - [SC 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html)
+* Understanding WCAG 2.2 - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
 
 ### WAI-ARIA 1.2
 
-**WAI-ARIA Authoring Practices 1.2** - [3.16 Menu button](https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton)
-
-* "The element that opens the menu has role `button`."
-* "The element with role `button` has `aria-haspopup` set to either menu or true."
-* "When the menu is displayed, the element with role `button` has`aria-expanded` set to true. When the menu is hidden, it is recommended that `aria-expanded` is not present. If `aria-expanded` is specified when the menu is hidden, it is set to false."
-* "The element that contains the menu items displayed by activating the button has role `menu`."
-* "Optionally, the element with role `button` has a value specified for `aria-controls` that refers to the element with role menu."
-* "Additional roles, states, and properties needed for the menu element are described in [3.15 Menu or Menu bar](https://www.w3.org/TR/wai-aria-practices-1.2/#menu)."
-
+* WAI-ARIA Authoring Practices 1.2 - [3.16 Menu button](https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton)
 
 
 ## User Interface Design Considerations
