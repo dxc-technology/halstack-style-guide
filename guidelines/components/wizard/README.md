@@ -34,16 +34,46 @@ _Wizard modes spacing specifications_
 
 ### Color
 
-| Tokens                  | Default value |
-| ----------------------- | ------------: |
-| selectedBackgroundColor |     `#6F2C91` |
-| selectedFont            |     `#FFFFFF` |
-| borderColor             |     `#000000` |
-| fontColor               |     `inherit` |
-| lineColor               |     `#D9D9D9` |
-| disabledBackground      |     `#D9D9D9` |
-| disabledFont            |     `#666666` |
+| Tokens                    | Value       |
+| -----------------------   | ----------- |
+| `selectedBackgroundColor` |     #6F2C91 |
+| `selectedFont`            |     #FFFFFF |
+| `borderColor`             |     #000000 |
+| `fontColor`               |     inherit |
+| `lineColor`               |     #D9D9D9 |
+| `disabledBackground`      |     #D9D9D9 |
+| `disabledFont`            |     #666666 |
 
+### Margin
+
+Different values can be applied to each side of the component:
+`top` `bottom` `left` `right`
+
+| Margin    | Value |
+| --------- | ----- |
+| `xxsmall` | 6px   |
+| `xsmall`  | 16px  |
+| `small`   | 24px  |
+| `medium`  | 36px  |
+| `large`   | 48px  |
+| `xlarge`  | 64px  |
+| `xxlarge` | 100px |
+
+
+### Typography
+
+| Property                      | Element          |  Value      |
+| ----------------------------- | ---------------- | ----------- |
+| `font-size`                   |  label           |   16px      |
+| `font-size`                   |  helper text     |   12px      |
+| `font-weight`                 |  all             |   400       |
+
+### Iconography
+
+| Property          | Element         | Value     |
+| ---------------   | ----------      | ----------|
+| `height`/ `width` | Custom icon     | 20/20px   |
+| `height`/ `width` | Validation icon | 18/18px   |
 
 
 ## Validation
