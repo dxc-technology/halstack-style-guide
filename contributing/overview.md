@@ -1,6 +1,6 @@
 # Overview
 
-You can contribute to the Halstack documentation in several ways:
+You can contribute to the Halstack design system documentation in several ways:
 
 * [Bug reports and feature requests](#bug-reports-and-feature-requests)
 * [Content guidelines](#content-guidelines)
@@ -10,10 +10,15 @@ You can contribute to the Halstack documentation in several ways:
 
 ## Bug reports and feature requests
 
-Before opening a new issue consider the following;
+Before opening a [new issue](https://github.com/dxc-technology/halstack-style-guide/issues/new/choose) consider the following;
 
 * **Avoid duplicates**: Before opening a new issue please always check that the issue has not been already opened.
 * **Use labels**: Labels help us organizing the open issues, find a label that suits better to your feature/bug and add it.
+
+If the issue is related to our CDKs please open it in the correct repositories:
+
+* [halstack-angular](https://github.com/dxc-technology/halstack-angular/issues/new/choose)
+* [halstack-react](https://github.com/dxc-technology/halstack-react/issues/new/choose)
 
 ### Bug report
 
@@ -32,7 +37,7 @@ All the enhancements, new component or feature requests are handle via [feature 
 
 ## Content guidelines
 
-The following guidelines are meant to help contributors to create and edit content from Halstack guidelines:
+The following guidelines are meant to help contributors to create and edit content from Halstack design system:
 
 * [Writing content](contributing/content.md)
 * [Image usage](contributing/images.md)
@@ -43,9 +48,8 @@ The following guidelines are meant to help contributors to create and edit conte
 
 ### From our documentation site
 
-At the bottom of every of our documentation pages you can find a link to the Github page.
+At the bottom of every of our [documentation pages]() you will find an `edit this page on GitHub` link that will redirect to the `README.md` file.
 
-> TO DO
 
 ### Pull requests
 
@@ -79,9 +83,17 @@ guidelines
     |   ...
  
 ```
-Every component documentation or priciples should follow the same structure
+Follow these steps when creating new content:
+
+1. Create a new folder inside `guidelines/principles` or `guidelines/components`
+2. This folder should contain a `README.md` file and a `images` folder
+3. Only add the `miniature.png` file when adding a new component, no needed for principles
+
+Every component documentation or priciples added should follow the same structure.
 
 ### Editing the catalog.json file
+
+In order to update the content in our documentation site the `catalog.json` file need to track the new additions:
 
 ```
 {
@@ -90,7 +102,7 @@ Every component documentation or priciples should follow the same structure
 }
 ```
 
-#### Adding a new principles/component:
+Inside the `principles` or `components` array add the following:
 
 ```
  {
