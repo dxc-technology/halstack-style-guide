@@ -146,10 +146,31 @@ _Specification items example_
 
 #### Color
 
-| Property            | Element         | Value       |
+| Property            | Element         | Value (HEX) |
 | ---------------     | ----------      | ----------  |
 | `color`             | Line            | #FF74E8     |
+| `color`             | Squad           | #FF74E8     |
+| `color`             | Sized square    | #FF74E8     |
 | `background color`  | Overlay         | #FF74E880   |
+| `background color`  | Block           | #FF74E8     |
+
+#### Typography
+
+| Property            | Element         | Value (px)  |
+| ---------------     | ----------      | ----------  |
+| `font-size`         | Measurement     | 14          |
+| `font-size`         | Squad           | 14          |
+| `font-size`         | Sized square    | 14          |
+| `font-size`         | Block           | 10          |
+| `font-weight`       | All             | 400         |
+
+#### Border
+
+| Property            | Element         | Value       |
+| ---------------     | ----------      | ----------  |
+| `border`            | Line            | 1px dotted  |
+| `border`            | Squad           | 1px solid   |
+| `border`            | Sized square    | 1px solid   |
 
 
 ## Include images in the documentation markdown
