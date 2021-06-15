@@ -9,25 +9,6 @@ This area can contain a variety of things depending on the application and two a
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
-### Modes
-
-A couple of modes are defined in function of the necessities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright, and social media links.
-
-Another option is to use the complemented footer, with more information and links to other important resources.
-
-In both designs, there is a custom area to fill with custom content.
-
-![Footer structure example](images/footer_structure.png)
-![Footer modes example](images/footer_modes.png)
-
-### States
-
-As the main aim of the footer is bringing the user information in detail about the product, the company or functionality, the unique state defined in the interaction with the component is the hover state. While the user hovers an element, this will be highlighted.
-
-In case that the user of the design systems wanted to add other components in the custom area of the footer, the states will be the ones associated with the element itself.
-
-![Footer modes example](images/footer_states.png)
-
 ## Design tokens
 
 | Tokens          |  Default value   |
