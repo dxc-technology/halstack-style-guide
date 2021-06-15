@@ -6,6 +6,7 @@ Images are used all across the design system documentation:
      * [Sizes](#sizes)
      * [Background](#background)
      * [Format](#format)
+     * [Naming](#naming)
 
 * [Include images in the documentation markdown](#include-images-in-the-documentation-markdown)
      * [Image URL](#image-url)
@@ -33,7 +34,21 @@ Images are used all across the design system documentation:
 
 Images can be exported in `PNG`, `SVG` formats
 
+### Naming
 
+In order to improve the consistency and the readability across the multiple files follow always the same naming convention.
+
+#### Component images
+
+For images updated or added to an existing/new component:
+
+```
+component_name.png 
+```
+
+![Example of the images folder of the select component](images/image/naming_example.png)
+
+_Example of the images folder of the select component_
 
 ## Include images in the documentation markdown
 
