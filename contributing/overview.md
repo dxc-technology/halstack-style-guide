@@ -39,9 +39,9 @@ All the enhancements, new component or feature requests are handle via [feature 
 
 The following guidelines are meant to help contributors to create and edit content from Halstack design system:
 
-* [Writing content](contributing/content.md)
-* [Image usage](contributing/images.md)
-* [UI-Kit and design resources]()
+* [Writing content](content.md)
+* [Image usage](images.md)
+* [UI-Kit and design resources](design.md)
 
 
 ## Editing pages
