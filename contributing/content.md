@@ -1,10 +1,24 @@
 # Content
 
-## Writing content
+* [Markdown](#markdown)
+* [Writing content](#writing-content)
+* [Sections](#sections)
+    * [Creating hierarchy](#creating-hierarchy)
+    * [Bottom links](#bottom-links)
+* [Component specifications](#component-specifications)
+    * [Spec tables](#spec-tables)
+    * [Using escaping backticks](#using-escaping-backticks)
+
 
 ## Markdown
 
 Our documentation pages are written in markdown. [Check the markdown guide for the basic syntax](https://www.markdownguide.org/basic-syntax/).
+
+## Writing content
+
+* Keep sentences and paragraphs short and focused.
+* Be clear and concise by removing unnecessary words.
+* Use sentence case for everything, including component names
 
 ## Sections
 
@@ -24,7 +38,8 @@ Other sections to consider adding to a component documentation:
 * Content
 * Accessibility
 
-
+### Creating hierarchy
+### Bottom links
 
 
 
