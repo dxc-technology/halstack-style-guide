@@ -23,21 +23,21 @@ When creating image content for the Halstack documentation stick to the followin
 
 All images present in the documentation have a predefined size depending on the content and purpose.
 
-| Width (px)    | Item         | Purpose                                                       |
-| ------------- | ------------ |-----------------------------------------------------------    |
-| 272           | `miniature`  | component miniature<sup>(*)</sup>                             |
-| 960           | `half`       | Half width image, small components and cropped images         |
-| 1440          | `medium`     | Medium width image, standard components                       |
-| 1920          | `large`      | Large width image, large components or big number of items    |
+| Item         | Purpose                                                       | Width (px)    |   
+| ------------ |-----------------------------------------------------------    | ------------- |
+| `miniature`  | component miniature<sup>(*)</sup>                             | 272           |
+| `half`       | Half width image, small components and cropped images         | 960           |
+| `medium`     | Medium width image, standard components                       | 1440          |
+| `large`      | Large width image, large components or big number of items    | 1920          |
 
 (*)`miniature` image size is always 272x150px
 
 ### Background
 
-| value         | Item                       |
-| ------------- | -------------------------- |
-| transparent   | `miniature`                | 
-| #FAFAFA       | `half`, `medium`, `large`  | 
+| Item                       | Value          |
+| -------------------------- | -------------- |
+| `miniature`                | transparent    |
+| `half`, `medium`, `large`  | #FAFAFA        |
 
 ### Alignment and padding
 
