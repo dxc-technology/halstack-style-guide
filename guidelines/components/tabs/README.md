@@ -215,5 +215,5 @@ Content authors need to ensure the content that is added to the tab panel is acc
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/radio/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/tabs/README.md)
 
