@@ -66,3 +66,6 @@ _Usage of the `medium` token for `left` `right` `bottom` and `top` `padding` pro
 | `xlarge`          | `spacing-11`  |
 | `xxlarge`         | `spacing-14`  | 
 
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/spacing/README.md)

@@ -128,3 +128,6 @@ Both approaches are equally valid, and its use depends on the context of the app
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/variables/
 
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/dialog/README.md)

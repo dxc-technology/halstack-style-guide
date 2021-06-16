@@ -151,3 +151,8 @@ The color-usage tokens are a role-based and specify the core tokens that serve t
 ## Accesibility
 
 > To do section
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/colors/README.md)
+

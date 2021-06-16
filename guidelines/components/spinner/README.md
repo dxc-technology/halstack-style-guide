@@ -68,4 +68,7 @@ Overlay
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/variables/
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/spinner/README.md)
 
