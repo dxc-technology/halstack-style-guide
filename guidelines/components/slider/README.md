@@ -74,3 +74,7 @@ To accomplish these considerations, some slider's variations were designed with 
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/variables/
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/slider/README.md)
