@@ -48,7 +48,7 @@ The following guidelines are meant to help contributors to create and edit conte
 
 ### From our documentation site
 
-At the bottom of every of our [documentation pages]() you will find an `edit this page on GitHub` link that will redirect to the `README.md` file.
+At the bottom of every of our [documentation pages](https://developer.dxc.com/design/guidelines/principles/overview) you will find an `edit this page on GitHub` link that will redirect to the `README.md` file.
 
 
 ### Pull requests
