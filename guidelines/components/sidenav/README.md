@@ -122,3 +122,6 @@ Some properties regarding width vary, the details are indicated in the table bel
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/e52a6751-d2c1-41e4-84de-7647275db267/variables/
 
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/sidenav/README.md)
