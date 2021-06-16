@@ -84,3 +84,7 @@ Even the relevant part of the screen is the middle column as it has a larger spa
 Specifications for paired layout:- Main margin for desktop: 64 pixels (top), 80 pixels (bottom), 15.6% (left/right)- Side columns: 270 pixels (width), 64 pixels (margin top), 80 pixels (margin bottom)
 
 ![Symmetrical layout](images/paired_layout.png)
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/layout/README.md)
