@@ -4,16 +4,7 @@ Text inputs are input fields typically used in forms that allow the user to ente
 
 ## Usage
 
-Use text inputs in forms to help people enter, select, and search for text. They can also be part of a modal, search, etc...
-
-Common text input types include: 
-* Usernames
-* Descriptions
-* URLs
-* Phone numbers
-* Credit cards
-* Emails, addresses
-* Plain text searches
+Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, credit cards, emails, addresses or plain text searches
 
 ### Do's
 
@@ -29,8 +20,16 @@ Common text input types include:
 * Do not display pop up error message after validating
 * Avoid masking label, keep it always visible.
 
+## Variants
 
-### States
+* Text-input
+* Text-area
+
+![Text-input vartiants](images/input_variants.png)
+
+_Text-input vartiants_
+
+## States
 
 Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
 
@@ -38,33 +37,11 @@ Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**
 
 _Example of the text-input component states_
 
-## Design tokens
 
-| Tokens                        | Default value |
-| ----------------------------- | ------------: |
-| fontColor                     |     `#000000` |
-| disabledFontColor             |     `#B1B1B1` |
-| error                         |     `#D0011B` |
-| selectedOptionBackgroundColor |     `#F2F2F2` |
-| hoverOptionColor              |     `#000000` |
-| scrollBarThumbColor           |     `#666666` |
-| scrollBarTrackColor           |     `#D9D9D9` |
 
-## Text Area
+## Anatomy
 
-The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment.
-When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
 
-It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. 
-
-The text area can have the following features: Label, assistive text and scrollbar.
-
-The aspects that text area is not including respecting text input are:
-
-- Prefix and suffix
-- Max height fixed
-
-![Textarea example](images/input_textarea.png)
 
 ## Design Specifications
 
@@ -78,12 +55,6 @@ width | value
 ```fitContent``` | -
 ```fillParent``` | -
 
-## Height
-
-| Property                                       |       Value |
-| ---------------------------------------------- | ---------- |
-| `min-height`                                   |      32px |
-| `max-height`                                   |      73px |
 
 ### Margin
 
@@ -100,19 +71,40 @@ margin | value
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
+## Color
+
+| Property        | Element          | Token             | Value           |
+| --------------- | ---------------- | ----------------- | --------------- |
+| `color`         | error message    | `Hal-Red-S-41`    | #d0011b         |
+| `color`         | label            | `Hal-Black`       | #000000         |
+| `color`         | placeholder      | `Hal-Grey-S-40`   | #666666         |
+| `color`         | outline:enabled  | `Hal-Black`       | #000000         |
+| `color`         | outline:hover    | `Hal-Purple-L-60` | #ab63cf         |
+| `color`         | outline:focus    | `Hal-Purple-L-60` | #ab63cf         |
+| `color`         | outline:error    | `Hal-Red-S-41`    | #d0011b         |
+| `color`         | outline:disabled | `Hal-Red-L-60`    | #999999         |
+
+
 ### Typography
 
-| Property                                       |     Value |
-| ---------------------------------------------- | --------- |
-| `font-size` (_default_)                        |      16px |
-| `font-size` (_label_)                          |      12px |
-| `font-weight`                                  |   Regular |
+| Property        | Element        | Token             | Value           |
+| --------------- | -------------- | ----------------- | --------------- |
+| `font-size`     | error message  | `type-scale-01`   | 12px            |
+| `font-size`     | label          | `type-scale-02`   | 14px            |
+| `font-size`     | placeholder    | `type-scale-03`   | 16px            |
+| `font-family`   | error message  | `type-sans`       | Open Sans       |
+| `font-family`   | label          | `type-sans`       | Open Sans       |
+| `font-family`   | placeholder    | `type-sans`       | Open Sans       |
+| `font-weight`   | error message  | `type-regular`    | 400             |
+| `font-weight`   | label          | `type-bold`       | 600             |
+| `font-weight`   | placeholder    | `type-regular`    | 400             |
+
 
 ### Spacing
 
 | Property                                       |     Value |
 | ---------------------------------------------- | --------- |
-| Input value `padding-top`                      |      6px |
+| Input value `padding-top`                      |      6px  |
 | Input value `padding-bottom`                   |      7px |
 | Distance between preffix and value             |     12px |
 | Distance between suffix and value              |     12px |
@@ -127,17 +119,7 @@ And also apply different values to each side of the component:
 
 ![Specifications for input component](images/input_specs.png)
 
-### Required fields
 
-Required fields are a variation in the normal behavior of the input fields. This indicates to the user that the input is required so it can't be skipped if the intention is to go forward in the application.
-
-A red asterisks before the input label must indicate that the text input is a required field, with this visual clue the application is telling the user the mandatory field.
-
-Here are the different representations of a required field:
-
-![Type required in input texts](images/input_required.png)
-
-The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
 
 ### Helper text
 
@@ -157,12 +139,12 @@ Don’t:
 
 **Specs**
 
-| Property | Element | Token | Value |
-| :---         |     :---     |          :--- |         :--- |
-| `margin-top`  | `input-helper-text`    |     | 6px 
-| `font-size`  | `input-helper-text`    |  `type-scale-01`   | 12px 
-| `font-family`  | `input-helper-text`    |  `type-sans`   | Open Sans 
-| `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
+| Property        | Element        | Token             | Value           |
+| --------------- | -------------- | ----------------- | --------------- |
+| `margin-top`    | helper-text    | `spacing-02`      | 4px             |
+| `font-size`     | helper-text    | `type-scale-01`   | 12px            |
+| `font-family`   | helper-text    | `type-sans`       | Open Sans       |
+| `color`         | helper-text    | `Hal-Black`       | hsl(0, 0%, 0%)  |
 
 ### User Interface Design Considerations
 
