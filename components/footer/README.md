@@ -28,30 +28,80 @@ In case that the user of the design systems wanted to add other components in th
 
 ![Footer modes example](images/footer_states.png)
 
-## Design tokens
+## Color
 
-| Tokens          |  Default value   |
-| --------------- | :--------------: |
-| backgroundColor |    `#000000`     |
-| fontColor       |    `#FFFFFF`     |
-| lineColor       |    `#0067B3`     |
-| logo            | `DXC Technology` |
+| Tokens                    |   Value           |
+|---------------------------|-------------------|
+| backgroundColor           |   #000000         |
+| fontColor                 |   #FFFFFF         |
+| lineColor                 |   #0067B3         |
 
-## Design Specifications
 
-| Property                     |     Value |
-| ---------------------------- | --------: |
-| Margin left/top/bottom       |    `20px` |
-| Margin right                 |    `60px` |
-| Border Radius                |     `4px` |
-| Border thickness             |     `2px` |
-| Min. height short version    |   `120px` |
-| Min. height large version    |   `240px` |
-| Width                        |    `100%` |
-| Font size (copyright, terms) |    `12px` |
-| Font size (links)            |    `14px` |
-| Font size (section title)    |    `16px` |
-| Icon size                    | `20x20px` |
+## Height
+
+|  height           |   Value   |
+|-------------------|-----------|
+|  Minified footer  |   120px   |    
+
+
+## Margin-top
+
+| margin    |   Value   |
+|-----------|-----------|
+| xxsmall   |   6px     |
+| xsmall    |   16px    |
+| small     |   24px    |
+| medium    |   36px    |
+| large     |   48px    |
+| xlarge    |   64px    |
+| xxlarge   |   100px   |
+
+## Padding
+
+| Property          |   Value   |
+|-------------------|-----------|
+| padding-top       |   24px    | 
+| padding-right	    |   36px    |
+| padding-bottom    |   24px    |
+| padding-left	    |   36px    |
+
+
+## Typography
+
+| Property      |   Element                 |  Value          |
+|---------------|---------------------------|-----------------|
+| font-size	    |   Titles      	          |  1rem/16px      |
+| font-size     |   Links   	              |  0.875rem/14px  |
+| font-size     |   Copy-write              |  0.75rem/12px   |
+| font-size     |   Terms & company links   |  0.75rem/12px   |
+| font-weight	  |   Titles      	          |  600            |
+| font-weight	  |   Links	                  |  400            |
+
+
+## Iconography
+
+| Property      |   Element             |  Value      |
+|---------------|-----------------------|-------------|
+| height/ width	|   social media icons  |   24/24px   |
+
+
+## DXC Logo
+
+| Property      |   Element     |  Value    |
+|---------------|---------------|-----------|
+| max-height   	|   dxc logo    |   32px    |
+
+
+## Custom container - (Terms & Company Links)
+
+| Property      |   Element     	      |   Value   		        |
+|---------------|-----------------------|-----------------------|
+| min-height   	|   Empty container	    |   12px    		        |
+| min-height	  |   Links container	    |   20px    		        |
+| padding-top   |   Links container	    |   5px     		        |
+| border	      |   Links separator	    |   1px solid #0067B3	  |
+
+
 
 ![Footer modes example](images/footer_specs.png)
 
