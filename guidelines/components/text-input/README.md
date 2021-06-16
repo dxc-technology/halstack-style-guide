@@ -41,7 +41,31 @@ _Example of the text-input component states_
 
 ## Anatomy
 
+![Text-input anatomy](images/input_actions_clear.png)
 
+_Text-input anatomy_
+
+## Content
+
+### Actions
+
+#### Clearing content
+
+![Example of a text-input with a clear content action button](images/input_actions_clear.png)
+
+_Example of a text-input with a clear content action button_
+
+#### Show or hide content
+
+![Example of a text-input with a show/hide password button](images/input_actions_password.png)
+
+_Example of a text-input with a show/hide password button_
+
+### Prefixes and suffixes
+
+![Icon or text prefixes and suffixes usage](images/input_actions_password.png)
+
+_Icon or text prefixes and suffixes usage_
 
 ## Design Specifications
 
@@ -121,9 +145,14 @@ And also apply different values to each side of the component:
 
 
 
+
 ### Helper text
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
+
+![Text-input helper text example](images/input_helper_text.png)
+
+_Text-input helper text example_
 
 **Usage**
 
