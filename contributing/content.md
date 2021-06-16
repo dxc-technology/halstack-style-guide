@@ -39,8 +39,57 @@ Other sections to consider adding to a component documentation:
 * Accessibility
 
 ### Creating hierarchy
+
+All documentation pages should follow the same hierarchy:
+
+| Item       | Purpose                       | Markdown syntax |
+| ---------- | ----------------------------- | --------------- |
+| `h1`       | Component or principle name   | `#`             |
+| `h2`       | General sections              | `##`            |
+| `h3`       | Subsections                   | `###`           |
+| `h4`, `h5` | Any needed subdivisions       | `####`, `#####` |
+
+
+The title and sections for every page follow the same syntax across all our documentation. You can check a more complete [heading markdown syntax guide](https://www.markdownguide.org/basic-syntax/#headings). Below you can find an example of how one of our component documentation hierarchy is built:
+
+```
+
+# Select
+   ## Usage
+   ## States
+      ### Text-input
+      ### Options list
+   ## Anatomy
+   ## Design specs
+   ## Accesibility
+
+```
+_Example of a component documentation page headings hierarchy_
+  
+
 ### Bottom links
 
+Every page should have a dedicated section at the bottom with related links, in this section are included:
 
+* **Angular CDK component**: link to the latest released angular component
+* **React CDK component**: link to the latest released react component
+* **Adobe XD component**: link to the latest Adobe XD view component page
+* **Edit this page in GitHub**: link to the `README.md` of the page in the master branch
 
+Use the following template to add the “links and references“ section to any documentation page:
 
+```
+
+## Links and references
+
+[Angular CDK component]()
+[React CDK component]()
+[Adobe XD component]()
+
+_________________________
+
+[Edit this page on GitHub]()
+
+```
+
+_Example of the “links and references“ section_
