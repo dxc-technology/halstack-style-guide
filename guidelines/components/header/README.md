@@ -117,3 +117,4 @@ The design for smaller devices tries to keep the consistency respect to the othe
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/448bb58a-bcfc-4aac-b265-42376a27a591/variables/
 
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/header/README.md)
