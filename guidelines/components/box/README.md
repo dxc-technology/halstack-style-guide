@@ -79,5 +79,7 @@ Any type of content can be place inside the box component.
 * Organize the group layout with the information presented clearly by applying the styles in the box container.
 * Box can be reused accros the UI, avoid using different shadow depths in the same page.
 * Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
-  
+
+____________________________________________________________
+
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/box/README.md)
