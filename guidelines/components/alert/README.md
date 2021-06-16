@@ -142,3 +142,5 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/variables/
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/alert/README.md)
