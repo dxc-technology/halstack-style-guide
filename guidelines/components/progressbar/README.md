@@ -70,3 +70,4 @@ Overlay
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/variables/
 
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/progressbar/README.md)
