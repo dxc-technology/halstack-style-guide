@@ -93,3 +93,22 @@ _________________________
 ```
 
 _Example of the “links and references“ section_
+
+## Component specifications
+
+Component specifications are mainly based on tables, in order to be consistent across all our documentation pages
+
+* Always put the value column in the last place
+
+Table example
+
+```
+
+| Property        | Element          | Token       | Value     |
+| --------------- | ---------------- | ----------- | --------- |
+| `property-1`    | element-1        | `token-1`   | value-1   |
+| `property-2`    | element-2        | `token-2`   | value-2   |
+| `property-3`    | element-3        | `token-3`   | value-3   |
+
+```
+
