@@ -62,3 +62,6 @@ As it is mentioned in this document, the background color of the icon area can c
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/9ee5fa2b-f1b0-4c24-b5b4-e2656c45a730/variables/
 
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/tag/README.md)
