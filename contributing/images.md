@@ -37,7 +37,7 @@ All images present in the documentation have a predefined size depending on the 
 | Item                       | Value          |
 | -------------------------- | -------------- |
 | `miniature`                | transparent    |
-| `half`, `medium`, `large`  | #FAFAFA        |
+| `half`, `medium`, `large`  | #fafafa        |
 
 ### Alignment and padding
 
@@ -123,6 +123,7 @@ _Example of an anatomy image_
 
 * Number indicators are 24px sized circles with a 12px `font-size` label centered inside
 * Place the number indicators 24px form the edge of the component container
+* The line to the component element shoud be center aligned with the element and the number indicator
 
 
 #### Anatomy items specs
