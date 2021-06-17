@@ -9,8 +9,8 @@ Images are used all across the design system documentation:
      * [File type](#file-type)
      * [Naming](#naming)
 * [Specification images](#specification-images)
-     * [Lines and measurements](#lines-and-measurements)
-     * [Specification item specs](#specification-item-specs)
+     * [Anatomy](#anatomy)
+     * [Component specs](#component-specs)
 * [Include images in the documentation markdown](#include-images-in-the-documentation-markdown)
      * [Image URL](#image-url)
      * [Alternative text](#alternative-text)
@@ -113,48 +113,70 @@ miniature.png
 
 ## Specification images
 
+### Anatomy
+
+Anatomy images help the reader to understand the individual parts of the whole
+
+![Example of an anatomy image](images/image/specifications_anatomy.png)
+
+_Example of an anatomy image_
+
+* Number indicators are 24px sized circles with a 12px `font-size` label centered inside
+* Place the number indicators 24px form the edge of the component container
+
+
+#### Anatomy items specs
+
+| Property            | Element         | Value (HEX) |
+| ------------------- | --------------- | ----------  |
+| `background-color`  | Circle          | #0067b3     |
+| `color`             | Line            | #0067b3     |
+| `color`             | Label           | #ffffff     |
+
+### Component specs
+
 Technical images for design specifications follow the same general rules than the other image content in the documentation.
 
-![Example of the date component specification image](images/image/specifications_example.png)
+![Example of the date component specification image](images/image/specifications_component_specs.png)
 
 _Example of the date component specification image_
 
-### Lines and measurements
+#### Lines and measurements
 
 ![Specification items example](images/image/specifications_items.png)
 
 _Specification items example_
 
-#### Paddings and margins
+##### Paddings and margins
 
 * Use dotted lines and overlays to represent all the external and internal spacing units
 * Avoid mixing the direction of the overlays in the same element (if overlays are place horizontally, don't mix with vertical)
 * Try to place always the measurements outside the component, 8px from the border
 * Place the measure text 8px from the measurement line
 
-#### Border
+##### Border
 
 * For `border-radius` use a squad 8px form the border of the element, and place the measurement text aligned with the rest of the component measurements
 * For `border-width` use a 24x16px block placed always centered with the line stroke
 
-#### Item sizes
+##### Item sizes
 
 * For items `width` and `height` properties, a sized squeare should be use drowing a direct line to the measure
 * Measures using sized squares should be always aligned with the resto of the specs items
 
-### Specification item specs
+#### Specification item specs
 
-#### Color
+##### Color
 
 | Property            | Element         | Value (HEX) |
 | ---------------     | ----------      | ----------  |
-| `color`             | Line            | #FF74E8     |
-| `color`             | Squad           | #FF74E8     |
-| `color`             | Sized square    | #FF74E8     |
-| `background color`  | Overlay         | #FF74E880   |
-| `background color`  | Block           | #FF74E8     |
+| `color`             | Line            | #ff74e8     |
+| `color`             | Squad           | #ff74e8     |
+| `color`             | Sized square    | #ff74e8     |
+| `background color`  | Overlay         | #ff74e880   |
+| `background color`  | Block           | #ff74e8     |
 
-#### Typography
+##### Typography
 
 | Property            | Element         | Value (px)  |
 | ---------------     | ----------      | ----------  |
@@ -164,7 +186,7 @@ _Specification items example_
 | `font-size`         | Block           | 10          |
 | `font-weight`       | All             | 400         |
 
-#### Border
+##### Border
 
 | Property            | Element         | Value       |
 | ---------------     | ----------      | ----------  |
