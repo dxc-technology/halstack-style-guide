@@ -78,6 +78,14 @@ Prefixes and suffixes help the user to understando the purpose of the text input
 
 _Icon or text prefixes and suffixes usage_
 
+### Number
+
+Input elements of type number are used to let the user enter a number including built-in validation to reject non-numerical entries.
+
+![Input element of type number example](images/input_number.png)
+
+_Input element of type number example_
+
 ## Design Specifications
 
 ![Specifications for text-input component](images/input_specs.png)
