@@ -9,6 +9,7 @@ This area can contain a variety of things depending on the application and two a
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
+
 ### Modes
 
 A couple of modes are defined in function of the necessities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright, and social media links.
@@ -101,6 +102,32 @@ In case that the user of the design systems wanted to add other components in th
 | padding-top   |   Links container	    |   5px     		        |
 | border	      |   Links separator	    |   1px solid #0067B3	  |
 
+
+=======
+## Design tokens
+
+| Tokens          |  Default value   |
+| --------------- | :--------------: |
+| backgroundColor |    `#000000`     |
+| fontColor       |    `#FFFFFF`     |
+| lineColor       |    `#0067B3`     |
+| logo            | `DXC Technology` |
+
+## Design Specifications
+
+| Property                     |     Value |
+| ---------------------------- | --------: |
+| Margin left/top/bottom       |    `20px` |
+| Margin right                 |    `60px` |
+| Border Radius                |     `4px` |
+| Border thickness             |     `2px` |
+| Min. height short version    |   `120px` |
+| Min. height large version    |   `240px` |
+| Width                        |    `100%` |
+| Font size (copyright, terms) |    `12px` |
+| Font size (links)            |    `14px` |
+| Font size (section title)    |    `16px` |
+| Icon size                    | `20x20px` |
 
 
 ![Footer modes example](images/footer_specs.png)
