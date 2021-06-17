@@ -82,9 +82,9 @@ Use the following template to add the “links and references“ section to any 
 
 ## Links and references
 
-[Angular CDK component]()
-[React CDK component]()
-[Adobe XD component]()
+* [Angular CDK component]()
+* [React CDK component]()
+* [Adobe XD component]()
 
 _________________________
 
