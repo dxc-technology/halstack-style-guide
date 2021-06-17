@@ -25,9 +25,9 @@ Use text inputs in forms to help people enter, select, and search for text. Comm
 * Text-input
 * Text-area
 
-![Text-input vartiants](images/input_variants.png)
+![Text-input variants](images/input_variants.png)
 
-_Text-input vartiants_
+_Text-input vatiants_
 
 ## States
 
@@ -38,12 +38,17 @@ Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**
 _Example of the text-input component states_
 
 
-
 ## Anatomy
 
-![Text-input anatomy](images/input_actions_clear.png)
+![Text-input anatomy](images/input_anatomy.png)
 
-_Text-input anatomy_
+1. Label text
+2. Helper text (Optional)
+3. Placeholder text
+4. Error message
+5. Input action (Optional)
+6. Error indicator
+7. Input container
 
 ## Content
 
@@ -51,11 +56,15 @@ _Text-input anatomy_
 
 #### Clearing content
 
+Clear actions allow user to remove the content of the text-input.
+
 ![Example of a text-input with a clear content action button](images/input_actions_clear.png)
 
 _Example of a text-input with a clear content action button_
 
 #### Show or hide content
+
+Text-inputs used for password typing should allow the user to show and hide the content. 
 
 ![Example of a text-input with a show/hide password button](images/input_actions_password.png)
 
@@ -63,7 +72,9 @@ _Example of a text-input with a show/hide password button_
 
 ### Prefixes and suffixes
 
-![Icon or text prefixes and suffixes usage](images/input_actions_password.png)
+Prefixes and suffixes help the user to understando the purpose of the text input.
+
+![Icon or text prefixes and suffixes usage](images/input_prefix_suffix.png)
 
 _Icon or text prefixes and suffixes usage_
 
@@ -133,7 +144,6 @@ And also apply different values to each side of the component:
 
 | Property        | Element         | Token             | Value           |
 | --------------- | --------------- | ----------------- | --------------- |
-| `margin-bottom` | label           | `spacing-03`      | 8px             |
 | `margin-top`    | error message   | `spacing-03`      | 8px             |
 | `margin-left`   | error icon      | `spacing-02`      | 4px             |
 | `margin-left`   | action icon     | `spacing-02`      | 4px             |
@@ -141,6 +151,7 @@ And also apply different values to each side of the component:
 | `margin-left`   | suffix          | `spacing-03`      | 8px             |
 | `padding-left`  | input container | `spacing-05`      | 16px            |
 | `padding-right` | input container | `spacing-05`      | 16px            |
+| `margin-top`    | input container | `spacing-03`      | 8px             |
 
 ### Border
 
@@ -152,7 +163,7 @@ And also apply different values to each side of the component:
 
 ### Helper text
 
-Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
+Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
 
 ![Text-input helper text example](images/input_helper_text.png)
 
