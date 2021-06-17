@@ -69,6 +69,10 @@ _Icon or text prefixes and suffixes usage_
 
 ## Design Specifications
 
+![Specifications for text-input component](images/input_specs.png)
+
+_Specifications for text-input component_
+
 ### Width
 
 width | value
@@ -126,24 +130,24 @@ And also apply different values to each side of the component:
 
 ### Spacing
 
-| Property                                       |     Value |
-| ---------------------------------------------- | --------- |
-| Input value `padding-top`                      |      6px  |
-| Input value `padding-bottom`                   |      7px |
-| Distance between preffix and value             |     12px |
-| Distance between suffix and value              |     12px |
 
-### Other
+| Property        | Element         | Token             | Value           |
+| --------------- | --------------- | ----------------- | --------------- |
+| `margin-bottom` | label           | `spacing-03`      | 8px             |
+| `margin-top`    | error message   | `spacing-03`      | 8px             |
+| `margin-left`   | error icon      | `spacing-02`      | 4px             |
+| `margin-left`   | action icon     | `spacing-02`      | 4px             |
+| `margin-right`  | prefix          | `spacing-03`      | 8px             |
+| `margin-left`   | suffix          | `spacing-03`      | 8px             |
+| `padding-left`  | input container | `spacing-05`      | 16px            |
+| `padding-right` | input container | `spacing-05`      | 16px            |
 
-| Property                                       |       Value |
-| ---------------------------------------------- | ----------: |
-| Border thickness                               |     1px/2px |
-| Icon size                                      |   20x20(px) |
+### Border
 
-
-![Specifications for input component](images/input_specs.png)
-
-
+| Property        | Element               | Token             | Value           |
+| --------------- | --------------------- | ----------------- | --------------- |
+| `border`        | input container       | `-`               | 1px solid       |
+| `border`        | input container:focus | `-`               | 2px solid       |
 
 
 ### Helper text
@@ -175,16 +179,24 @@ Don’t:
 | `font-family`   | helper-text    | `type-sans`       | Open Sans       |
 | `color`         | helper-text    | `Hal-Black`       | hsl(0, 0%, 0%)  |
 
-### User Interface Design Considerations
+## Accessibility
 
-- Input fields should allow users to enter any combination of letters, numbers, or symbols unless otherwise restricted or stipulated by requirements
-- Avoid breaking up a number with distinct sections into separate input field (i.e. phone numbers, area codes, SSN, dates, etc) to facilitate screen reader accessibility requirements
-- Allow sufficient space in an entry field to allow typical input
-- User text areas, rather than a single-line input box for paragraph text and comments
-- Input fields are more restrictive for mobile users to make sure the type of input field is warranted
-- Only show error validation messages after the user has left the field
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [1.3.1: Information and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+* Understanding WCAG 2.2 - [3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)
+* Understanding WCAG 2.2 - [3.3.2: Labels and Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions) 
+* Understanding WCAG 2.2 - [3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion) 
+* Understanding WCAG 2.2 - [4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value) 
+
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/variables/
+* [Angular CDK component]()
+* [React CDK component]()
+* [Adobe XD component]()
+
+_________________________
+
+[Edit this page on GitHub]()
 
