@@ -94,26 +94,26 @@ _Specifications for text-input component_
 
 ### Width
 
-width | value
--- | --
-```small``` | 60px
-```medium``` (_default_) | 240px
-```large``` | 480px
-```fitContent``` | -
-```fillParent``` | -
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 60px  |
+| `medium` (_default_) | 240px |
+| `large`              | 480px |
+| `fitContent`         | -     |
+| `fillParent`         | -     |
 
 
 ### Margin
 
-margin | value
--- | --
-```xxsmall``` | 6px
-```xsmall``` | 16px
-```small``` | 24px
-```medium``` | 36px
-```large``` | 48px
-```xlarge``` | 64px
-```xxlarge``` | 100px
+| Margin      | Value |
+| ----------- | ----- |
+| `xxsmall`   | 6px   |
+| `xsmall`    | 16px  |
+| `small`     | 24px  |
+| `medium`    | 36px  |
+| `large`     | 48px  |
+| `xlarge`    | 64px  |
+| `xxlarge`   | 100px |
 
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
@@ -167,6 +167,7 @@ And also apply different values to each side of the component:
 | --------------- | --------------------- | ----------------- | --------------- |
 | `border`        | input container       | `-`               | 1px solid       |
 | `border`        | input container:focus | `-`               | 2px solid       |
+
 
 
 ### Helper text
