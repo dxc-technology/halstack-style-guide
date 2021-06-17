@@ -9,6 +9,101 @@ This area can contain a variety of things depending on the application and two a
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
+
+### Modes
+
+A couple of modes are defined in function of the necessities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright, and social media links.
+
+Another option is to use the complemented footer, with more information and links to other important resources.
+
+In both designs, there is a custom area to fill with custom content.
+
+![Footer structure example](images/footer_structure.png)
+![Footer modes example](images/footer_modes.png)
+
+### States
+
+As the main aim of the footer is bringing the user information in detail about the product, the company or functionality, the unique state defined in the interaction with the component is the hover state. While the user hovers an element, this will be highlighted.
+
+In case that the user of the design systems wanted to add other components in the custom area of the footer, the states will be the ones associated with the element itself.
+
+![Footer modes example](images/footer_states.png)
+
+## Color
+
+| Tokens                    |   Value           |
+|---------------------------|-------------------|
+| backgroundColor           |   #000000         |
+| fontColor                 |   #FFFFFF         |
+| lineColor                 |   #0067B3         |
+
+
+## Height
+
+|  height           |   Value   |
+|-------------------|-----------|
+|  Minified footer  |   120px   |    
+
+
+## Margin-top
+
+| margin    |   Value   |
+|-----------|-----------|
+| xxsmall   |   6px     |
+| xsmall    |   16px    |
+| small     |   24px    |
+| medium    |   36px    |
+| large     |   48px    |
+| xlarge    |   64px    |
+| xxlarge   |   100px   |
+
+## Padding
+
+| Property          |   Value   |
+|-------------------|-----------|
+| padding-top       |   24px    | 
+| padding-right	    |   36px    |
+| padding-bottom    |   24px    |
+| padding-left	    |   36px    |
+
+
+## Typography
+
+| Property      |   Element                 |  Value          |
+|---------------|---------------------------|-----------------|
+| font-size	    |   Titles      	          |  1rem/16px      |
+| font-size     |   Links   	              |  0.875rem/14px  |
+| font-size     |   Copy-write              |  0.75rem/12px   |
+| font-size     |   Terms & company links   |  0.75rem/12px   |
+| font-weight	  |   Titles      	          |  600            |
+| font-weight	  |   Links	                  |  400            |
+
+
+## Iconography
+
+| Property      |   Element             |  Value      |
+|---------------|-----------------------|-------------|
+| height/ width	|   social media icons  |   24/24px   |
+
+
+## DXC Logo
+
+| Property      |   Element     |  Value    |
+|---------------|---------------|-----------|
+| max-height   	|   dxc logo    |   32px    |
+
+
+## Custom container - (Terms & Company Links)
+
+| Property      |   Element     	      |   Value   		        |
+|---------------|-----------------------|-----------------------|
+| min-height   	|   Empty container	    |   12px    		        |
+| min-height	  |   Links container	    |   20px    		        |
+| padding-top   |   Links container	    |   5px     		        |
+| border	      |   Links separator	    |   1px solid #0067B3	  |
+
+
+=======
 ## Design tokens
 
 | Tokens          |  Default value   |
@@ -33,6 +128,7 @@ This area can contain a variety of things depending on the application and two a
 | Font size (links)            |    `14px` |
 | Font size (section title)    |    `16px` |
 | Icon size                    | `20x20px` |
+
 
 ![Footer modes example](images/footer_specs.png)
 
