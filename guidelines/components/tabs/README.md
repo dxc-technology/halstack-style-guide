@@ -203,7 +203,7 @@ Content authors need to ensure the content that is added to the tab panel is acc
 | `focusOutline`            | #5f249f             |                      |  selectedFontColor                   | 
 | `divider`                 | #BFBFBF             |                      |  fontColor (lightness + 35%)         | 
 | `hoverBackgroudColor`     | #f2eafa             | (280, 53%, 95%)      |  selectedFontColor (lightness + 58%) | 
-| `pressedBackgroundColor`  | #EAD8F3             | (280, 53%, 90%)      |  selectedFontColor (lightness + 53%) | 
+| `pressedBackgroundColor`  | #e5d5f6             | (280, 53%, 90%)      |  selectedFontColor (lightness + 53%) | 
 
 
 
