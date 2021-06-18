@@ -93,7 +93,7 @@ _Structure and spacing for date picker calendar pop-up_
 
 | Tokens                              | Value       |
 | ---------------------------------   | ----------- |
-| `pickerSelectedDateBackgroundColor` |     #6F2C91 |
+| `pickerSelectedDateBackgroundColor` |     #5f249f |
 | `pickerSelectedDateColor`           |     #FFFFFF |
 | `pickerBackgroundColor`             |     #FFFFFF |
 | `pickerFontColor`                   |     #000000 |

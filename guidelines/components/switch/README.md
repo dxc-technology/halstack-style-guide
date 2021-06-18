@@ -31,7 +31,7 @@ Five different states are defined in the life cycle of the component: **normal**
 
 | Tokens                                | Default value |
 | ------------------------------------- | ------------: |
-| `checkedTrackBackgroundColor`           |     #6F2C91 |
+| `checkedTrackBackgroundColor`           |     #5f249f |
 | `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
 | `checkedthumbBackgroundColor`           |     #FFFFFF |
 | `uncheckedThumbBackgroundColor`         |     #FFFFFF |
