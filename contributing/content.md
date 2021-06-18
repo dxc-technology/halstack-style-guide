@@ -5,9 +5,9 @@
 * [Sections](#sections)
     * [Creating hierarchy](#creating-hierarchy)
     * [Bottom links](#bottom-links)
-* [Component specifications](#component-specifications)
+* [Design specifications](#design-specifications)
     * [Spec tables](#spec-tables)
-    * [Using escaping backticks](#using-escaping-backticks)
+
 
 
 ## Markdown
@@ -71,8 +71,8 @@ _Example of a component documentation page headings hierarchy_
 
 Every page should have a dedicated section at the bottom with related links, in this section are included:
 
-* **Angular CDK component**: link to the latest released angular component
-* **React CDK component**: link to the latest released react component
+* **Angular CDK component**: link to the latest released angular component. [Angular CDK documentation](https://developer.dxc.com/tools/angular/)
+* **React CDK component**: link to the latest released react component. [React CDK documentation](https://developer.dxc.com/tools/react/)
 * **Adobe XD component**: link to the latest Adobe XD view component page
 * **Edit this page in GitHub**: link to the `README.md` of the page in the master branch
 
@@ -94,21 +94,45 @@ _________________________
 
 _Example of the “links and references“ section_
 
-## Component specifications
+## Design specifications
 
-Component specifications are mainly based on tables, in order to be consistent across all our documentation pages
+When writing design specifications consider the following:
 
-* Always put the value column in the last place
+* Add a [support image](https://github.com/dxc-technology/halstack-style-guide/blob/site-contributing/contributing/images.md#specification-images) as the first item of the component specifications.
+* Subdivide the component specs regarding the property (e.g. color, size, typography)
 
-Table example
+### Spec tables
+
+Design specifications are written mainly based on tables, in order to be consistent across all our documentation pages:
+
+* Use lowercase when referencing HEX values (#ffffff instead of #FFFFFF)
+* Use scape backticks for property `items` and `tokens`
+* Use sentence case (except items contained by space backticks)
+* Lenght values should include both pixels and rems and follow the naming convention #px/#rem (replace rems for the more convenient relative unit)
+
+
+Example of a component specs table:
 
 ```
 
 | Property        | Element          | Token       | Value     |
 | --------------- | ---------------- | ----------- | --------- |
-| `property-1`    | element-1        | `token-1`   | value-1   |
-| `property-2`    | element-2        | `token-2`   | value-2   |
-| `property-3`    | element-3        | `token-3`   | value-3   |
+| `property-1`    | Element-1        | `token-1`   | value-1   |
+| `property-2`    | Element-2        | `token-2`   | value-2   |
+| `property-3`    | Element-3        | `token-3`   | value-3   |
 
 ```
 
+Appart from the component specs, the principles and layout-patterns pages also should contain specification tables.
+
+Example of a core tokens specs table:
+
+```
+
+| Token       | Description          | Property       | Value     | 
+| ----------- | -------------------- | -------------- | --------- | 
+| `token-1`   | _Brief description_  | `property-1`   | value-1   | 
+| `token-2`   | _Brief description_  | `property-2`   | value-2   | 
+| `token-3`   | _Brief description_  | `property-3`   | value-3   |
+
+```
