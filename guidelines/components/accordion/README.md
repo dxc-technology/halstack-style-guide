@@ -194,7 +194,7 @@ Accordions are often not well suited for printing documents and require people t
 | `backgroundColor`  | #FFFFFF    |  (0, 0%, 100%)   | | 
 | `fontColor`  |  #666666 |(0, 0%, 40%)|  | 
 | `arrowColor`  |  #5f249f  |(280, 53%, 37%)| | 
-| `hoverBackgroundColor` | #F5EBF9 |(280, 53%, 95%)| arrowColor (lightness + 53%) | 
+| `hoverBackgroundColor` | #f2eafa |(280, 53%, 95%)| arrowColor (lightness + 53%) | 
 | `disabledFontColor` | #BFBFBF |(0, 0%, 75%)| fontColor (lightness + 35%) | 
 | `focusOutline` | #5f249f |(280, 53%, 37%)| arrowColor | 
 
