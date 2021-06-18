@@ -94,13 +94,32 @@ _Footer component design specs_
 
 The content of the footer should be adapt to the space available depending on the screen device.
 
-## Footer Content
+## Content
 
-By default, the footer component only includes links to other resources or elements within and without (external links) the application.
-In the case that the user wants to add elements that aren't text with a link, the custom area is the correct place to put that.
+![Footer custom content examples](images/footer_specs.png)
 
-A representation is shown above:
-![Footer with button and label as custom content](images/footer_custom_1.png)
+_Footer custom content examples_
+
+The footer component has a custom area where many kinds of content can be placed, some of them are contemplated in the following list:
+
+* Plain text or content
+   * Informational purpose text
+
+* Menu links
+   * Global navigation
+   * Sitemap
+   * Useful links or resources
+
+* Forms
+  * Select language
+  * Login / Sing up
+  * Provide email adress / Subscribe
+
+* Actions
+  * Ask for help / Support
+  * Business related actions / Call to action
+  * Search
+
 
 ## Responsive version for mobile and tablet
 
