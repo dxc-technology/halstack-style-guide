@@ -86,9 +86,9 @@ _Footer component design specs_
 
 | Property        |   Element     	    |   Value   		        |
 | --------------- | ------------------- | --------------------- |
-| `min-height`   	|   Custom container	|   12px    		        |
+| `min-height`   	|   Custom container	|   16px    		        |
 | `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   5px     		        |
+| `padding-top`   |   Links container	  |   4px     		        |
 | `border`	      |   Links separator	  |   1px solid #0067B3	  |
 
 
