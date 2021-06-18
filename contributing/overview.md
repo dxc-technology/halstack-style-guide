@@ -41,7 +41,6 @@ The following guidelines are meant to help contributors to create and edit conte
 
 * [Writing content](content.md)
 * [Image usage](images.md)
-* [UI-Kit and design resources](design.md)
 
 
 ## Editing pages
