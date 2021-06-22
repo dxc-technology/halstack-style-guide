@@ -1,5 +1,9 @@
 # Footer
 
+![Footer component example](images/footer_example.png)
+
+_Footer component example_
+
 Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application and be part of it (consumer or back-office) as it is a key layout element to the overall experience. Is a choice of the designer to either leave the footer visible by default or push it down, depending on the use case.
 
 ## Appereance
@@ -9,61 +13,117 @@ This area can contain a variety of things depending on the application and two a
 - The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
 - The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
 
-### Modes
 
-A couple of modes are defined in function of the necessities of the application, one is a short version of the footer, including brand logo, policy conditions, copyright, and social media links.
+## Design specifications
 
-Another option is to use the complemented footer, with more information and links to other important resources.
 
-In both designs, there is a custom area to fill with custom content.
+![Footer component design specs](images/footer_specs.png)
 
-![Footer structure example](images/footer_structure.png)
-![Footer modes example](images/footer_modes.png)
+_Footer component design specs_
 
-### States
+### Color
 
-As the main aim of the footer is bringing the user information in detail about the product, the company or functionality, the unique state defined in the interaction with the component is the hover state. While the user hovers an element, this will be highlighted.
+| Tokens                      |   Value           |
+|-----------------------------|-------------------|
+| `backgroundColor`           |   #000000         |
+| `fontColor`                 |   #ffffff         |
+| `lineColor`                 |   #0095ff         |
 
-In case that the user of the design systems wanted to add other components in the custom area of the footer, the states will be the ones associated with the element itself.
 
-![Footer modes example](images/footer_states.png)
+### Height
 
-## Design tokens
+|  Property         |   Value   |
+| ----------------- | --------- |
+|  `min-height`     |   124px   |
 
-| Tokens          |  Default value   |
-| --------------- | :--------------: |
-| backgroundColor |    `#000000`     |
-| fontColor       |    `#FFFFFF`     |
-| lineColor       |    `#0067B3`     |
-| logo            | `DXC Technology` |
 
-## Design Specifications
+### Margin-top
 
-| Property                     |     Value |
-| ---------------------------- | --------: |
-| Margin left/top/bottom       |    `20px` |
-| Margin right                 |    `60px` |
-| Border Radius                |     `4px` |
-| Border thickness             |     `2px` |
-| Min. height short version    |   `120px` |
-| Min. height large version    |   `240px` |
-| Width                        |    `100%` |
-| Font size (copyright, terms) |    `12px` |
-| Font size (links)            |    `14px` |
-| Font size (section title)    |    `16px` |
-| Icon size                    | `20x20px` |
+| Margin      |   Value   |
+| ----------- | --------- |
+| `xxsmall`   |   6px     |
+| `xsmall`    |   16px    |
+| `small`     |   24px    |
+| `medium`    |   36px    |
+| `large`     |   48px    |
+| `xlarge`    |   64px    |
+| `xxlarge`   |   100px   |
 
-![Footer modes example](images/footer_specs.png)
+### Padding
+
+| Property          |   Value   |
+| ----------------- | --------- |
+| `padding-top`	    |   24px    |
+| `padding-right`	  |   36px    |
+| `padding-bottom`  |   24px    |
+| `padding-left`	  |   36px    |
+
+
+### Typography
+
+| Property      |   Element                 |  Value          |
+| ------------- | ------------------------- | --------------- |
+| `font-size`	  |   Titles      	          |  1rem/16px      |
+| `font-size`   |   Links   	              |  0.875rem/14px  |
+| `font-size`   |   Copy-write              |  0.75rem/12px   |
+| `font-size`   |   Terms & company links   |  0.75rem/12px   |
+| `font-weight`	|   Titles      	          |  600            |
+| `font-weight`	|   Links	                  |  400            |
+
+
+### Iconography
+
+| Property          |   Element             |  Value      |
+| ----------------- | --------------------- | ----------- |
+| `height`/ `width`	|   Social media icons  |   24/24px   |
+
+
+### DXC Logo
+
+
+| Property      |   Element     |  Value    |
+| ------------- | ------------- | --------- |
+| `max-height`  |   DXC logo    |   32px    |
+
+
+### Custom container - (Terms & Company Links)
+
+| Property        |   Element     	    |   Value   		        |
+| --------------- | ------------------- | --------------------- |
+| `min-height`   	|   Custom container	|   16px    		        |
+| `min-height`	  |   Links container	  |   20px    		        |
+| `padding-top`   |   Links container	  |   8px     		        |
+| `border`	      |   Links separator	  |   1px solid #1489fb	  |
+
 
 The content of the footer should be adapt to the space available depending on the screen device.
 
-## Footer Content
+## Content
 
-By default, the footer component only includes links to other resources or elements within and without (external links) the application.
-In the case that the user wants to add elements that aren't text with a link, the custom area is the correct place to put that.
+![Footer custom content examples](images/footer_custom_content.png)
 
-A representation is shown above:
-![Footer with button and label as custom content](images/footer_custom_1.png)
+_Footer custom content examples_
+
+The footer component has a custom area where many kinds of content can be placed, some of them are contemplated in the following list:
+
+* Plain text or content
+   * Informational purpose text
+
+* Menu links
+   * Global navigation
+   * Sitemap
+   * Useful links or resources
+
+* Forms
+  * Select language
+  * Login / Sing up
+  * Provide email adress / Subscribe
+
+* Actions
+  * Ask for help / Support
+  * Business related actions / Call to action
+  * Search
+
 
 ## Responsive version for mobile and tablet
 
@@ -71,7 +131,7 @@ The same content in the footer will be displayed for the responsive versions and
 
 Regarding his behavior, the footer must be pushed down always so it is not visible by default after page load, even when the content is smaller than the device screen size. This includes the splash screen, which must push the footer down. Of course, if the content is larger than the device screen size, the footer will be pushed down anyway 
 
-On the mobile version, first we have the logo, the links and the separator line that will extendt all the width of the container. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
+On the mobile version, first we have the logo. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
 At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
 
 ### User Interface Design Considerations
