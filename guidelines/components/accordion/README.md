@@ -203,3 +203,7 @@ Accordions are often not well suited for printing documents and require people t
 * [React component](https://developer.dxc.com/tools/react/next/#/components/accordion)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/accordion)
 * [UI-Kit](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit)
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/accordion/README.md)

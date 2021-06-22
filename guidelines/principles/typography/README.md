@@ -265,3 +265,6 @@ overline: {
   line-height:      type-leading-normal;
 }
 ```
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/typography/README.md)

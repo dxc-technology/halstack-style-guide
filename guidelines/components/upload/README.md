@@ -69,3 +69,7 @@ Since this component has many specifications to be detailed here, the best way t
 
 - Upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/variables/
 - Single upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/f67eb530-b374-4d13-a1d8-ba4c1fba2e74/variables/
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/upload/README.md)
