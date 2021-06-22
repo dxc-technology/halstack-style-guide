@@ -1,5 +1,9 @@
 # Footer
 
+![Footer component example](images/footer_example.png)
+
+_Footer component example_
+
 Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application and be part of it (consumer or back-office) as it is a key layout element to the overall experience. Is a choice of the designer to either leave the footer visible by default or push it down, depending on the use case.
 
 ## Appereance
@@ -22,20 +26,20 @@ _Footer component design specs_
 | Tokens                      |   Value           |
 |-----------------------------|-------------------|
 | `backgroundColor`           |   #000000         |
-| `fontColor`                 |   #FFFFFF         |
-| `lineColor`                 |   #0067B3         |
+| `fontColor`                 |   #ffffff         |
+| `lineColor`                 |   #0095ff         |
 
 
 ### Height
 
-|  height           |   Value   |
+|  Property         |   Value   |
 | ----------------- | --------- |
-|  Minified footer  |   120px   |
+|  `min-height`     |   124px   |
 
 
 ### Margin-top
 
-| margin      |   Value   |
+| Margin      |   Value   |
 | ----------- | --------- |
 | `xxsmall`   |   6px     |
 | `xsmall`    |   16px    |
@@ -88,15 +92,15 @@ _Footer component design specs_
 | --------------- | ------------------- | --------------------- |
 | `min-height`   	|   Custom container	|   16px    		        |
 | `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   4px     		        |
-| `border`	      |   Links separator	  |   1px solid #0067B3	  |
+| `padding-top`   |   Links container	  |   8px     		        |
+| `border`	      |   Links separator	  |   1px solid #1489fb	  |
 
 
 The content of the footer should be adapt to the space available depending on the screen device.
 
 ## Content
 
-![Footer custom content examples](images/footer_specs.png)
+![Footer custom content examples](images/footer_custom_content.png)
 
 _Footer custom content examples_
 
@@ -127,7 +131,7 @@ The same content in the footer will be displayed for the responsive versions and
 
 Regarding his behavior, the footer must be pushed down always so it is not visible by default after page load, even when the content is smaller than the device screen size. This includes the splash screen, which must push the footer down. Of course, if the content is larger than the device screen size, the footer will be pushed down anyway 
 
-On the mobile version, first we have the logo, the links and the separator line that will extendt all the width of the container. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
+On the mobile version, first we have the logo. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
 At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
 
 ### User Interface Design Considerations
