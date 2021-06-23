@@ -40,7 +40,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 | Tokens                           | Value       |
 | ------------------------------   | ----------- |
-| `primaryBackgroundColor`         |     #6F2C91 |
+| `primaryBackgroundColor`         |     #5f249f |
 | `primaryFontColor`               |     #FFFFFF |
 | `primaryHoverBackgroundColor`    |     #000000 |
 | `primaryHoverFontColor`          |     #FFFFFF |
@@ -53,7 +53,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 | Tokens                           |  Value      |
 | ------------------------------   | ------------|
-| `secondaryOutlinedColor`         |     #6F2C91 |
+| `secondaryOutlinedColor`         |     #5f249f |
 | `secondaryBackgroundColor`       | transparent |
 | `secondaryFontColor`             |     #000000 |
 | `secondaryHoverFontColor`        |     #000000 |
@@ -68,7 +68,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 | Tokens                           | Value       |
 | ------------------------------   | ----------- |
 | `textBackgroundColor`            | transparent |
-| `textFontColor`                  |     #6F2C91 |
+| `textFontColor`                  |     #5f249f |
 | `textHoverBackgroundColor`       |     #000000 |
 | `textHoverFontColor`             |     #FFFFFF |
 | `textActiveBackgroundColor`      |     #676767 |

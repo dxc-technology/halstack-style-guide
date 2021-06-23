@@ -34,7 +34,7 @@ These states corresponding with the progress of the process in the application.
 
 | Tokens       | Default value |
 | ------------ | ------------: |
-| trackLine    |     `#6F2C91` |
+| trackLine    |     `#5f249f` |
 | totalLine    |     `#CECECE` |
 | fontColor    |     `inherit` |
 | overlayColor |     `#000000` |

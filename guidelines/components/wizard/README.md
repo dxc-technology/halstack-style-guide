@@ -36,7 +36,7 @@ _Wizard modes spacing specifications_
 
 | Tokens                    | Value       |
 | -----------------------   | ----------- |
-| `selectedBackgroundColor` |     #6F2C91 |
+| `selectedBackgroundColor` |     #5f249f |
 | `selectedFont`            |     #FFFFFF |
 | `borderColor`             |     #000000 |
 | `fontColor`               |     inherit |

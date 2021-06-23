@@ -28,7 +28,7 @@ As it is auto-management, for now, states are not contemplated.
 
 | Tokens           |          Default value |
 | ---------------- | ---------------------: |
-| trackCircleColor |              `#6F2C91` |
+| trackCircleColor |              `#5f249f` |
 | totalCircleColor |              `#FFFFFF` |
 | fontColor        |              `inherit` |
 | overlayColor     | `#000000 0.80 opacity` |

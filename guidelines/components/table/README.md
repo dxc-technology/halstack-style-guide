@@ -36,7 +36,7 @@ Some of the states that can be found in the table are the ones related to the so
 
 | Tokens                | Default value |
 | --------------------- | :-----------: |
-| headerBackgroundColor |   `#6F2C91`   |
+| headerBackgroundColor |   `#5f249f`   |
 | headerFontColor       |   `#FFFFFF`   |
 | separatorColor        |   `#D9D9D9`   |
 | bodyBackgroundColor   |   `#FFFFFF`   |

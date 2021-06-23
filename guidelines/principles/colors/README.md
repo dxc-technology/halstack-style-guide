@@ -40,11 +40,11 @@ The core Purple family serves as the primary action color.
 
 | Name                | Value (HEX)  | Value (hsl)      | 
 | :---                | :---         | :---             |
-| `Hal-Purple-L-95`   | #f5ebf9      | (283, 53%, 95%)  |
-| `Hal-Purple-L-90`   | #ead8f3      | (280, 53%, 90%)  |
-| `Hal-Purple-S-37`   | #6f2c91      | (280, 53%, 37%)  |
-| `Hal-Purple-D-30`   | #5a2475      | (280, 53%, 30%)  |
-| `Hal-Purple-D-20`   | #3c184e      | (280, 53%, 20%)  |
+| `Hal-Purple-L-95`   | #f2eafa      | (269, 63%, 95%)  |
+| `Hal-Purple-L-90`   | #e5d5f6      | (269, 63%, 90%)  |
+| `Hal-Purple-S-38`   | #5f249f      | (269, 63%, 38%)  |
+| `Hal-Purple-D-30`   | #4b1c7d      | (269, 63%, 30%)  |
+| `Hal-Purple-D-20`   | #321353      | (269, 63%, 20%)  |
 
 
 #### Blue
@@ -105,10 +105,10 @@ The color-usage tokens are a role-based and specify the core tokens that serve t
 | :---                        | :---                                          | :---                |  
 | `ui-background-01`          | _Default page background_                     | `Hal-White`         | 
 | `ui-background-02`          | _Alternate page background_                   | `Hal-Grey-L-95`     | 
-| `interactive-01`            | _Primary interactive color_                   | `Hal-Purple-S-37`   | 
+| `interactive-01`            | _Primary interactive color_                   | `Hal-Purple-S-38`   | 
 | `interactive-02`            | _Secondary interactive color_                 | `Hal-Blue-S-30`     | 
 | `danger-01`                 | _Danger button variant_                       | `Hal-Red-S-41`      | 
-| `container-background-01`   | _Primary background color on containers_      | `Hal-Purple-S-37`   | 
+| `container-background-01`   | _Primary background color on containers_      | `Hal-Purple-S-38`   | 
 | `container-background-02`   | _Background color on light containers_        | `Hal-White`         | 
 | `container-background-03`   | _Background color on dark containers_         | `Hal-Black`         | 
 | `text-01`                   | _Primary text_                                | `Hal-Black`         | 
@@ -117,7 +117,7 @@ The color-usage tokens are a role-based and specify the core tokens that serve t
 | `text-error`                | _Error messages_                              | `Hal-Red-S-41`      | 
 | `link-01`                   | _Primary link color_                          | `H-Blue-L-50`       | 
 | `link-02`                   | _Secondary link color_                        | `Hal-Blue-S-35`     | 
-| `icon-01`                   | _Primary con color_                           | `Hal-Purple-S-37`   | 
+| `icon-01`                   | _Primary con color_                           | `Hal-Purple-S-38`   | 
 | `icon-02`                   | _Icon color on light background_              | `Hal-Black`         | 
 | `icon-03`                   | _Icon color on dark background_               | `Hal-White`         | 
 | `feedback-error`            | _Error_                                       | `Hal-Red-S-41`      | 
@@ -126,7 +126,7 @@ The color-usage tokens are a role-based and specify the core tokens that serve t
 | `feedback-info`             | _Info_                                        | `Hal-Blue-L-50`     | 
 | `ui-overlay`                | _Background overlay_                          | `Hal-Black`         | 
 | `ui-line`                   | _dividers; underline_                         | `Hal-Grey-L-75`     | 
-| `focus-01`                  | _Primary focus underline/outline_             | `Hal-Purple-S-37`   | 
+| `focus-01`                  | _Primary focus underline/outline_             | `Hal-Purple-S-38`   | 
 | `focus-02`                  | _Secondary focus underline/outline_           | `Hal-Blue-S-35`     | 
 | `hover-01`                  | _Hover primary on light color_                | `Hal-Purple-L-95`   | 
 | `hover-02`                  | _Hover primary on dark color_                 | `Hal-Purple-D-30`   | 
@@ -141,7 +141,7 @@ The color-usage tokens are a role-based and specify the core tokens that serve t
 | `selected-background`       | _Background selected color_                   | `Hal-Grey-L-75`     | 
 | `disabled-01`               | _Background disabled color_                   | `Hal-Grey-L-95`     | 
 | `disabled-02`               | _Text disabeld color_                         | `Hal-Grey-L-75`     | 
-| `link-visited`              | _Visited link color_                          | `Hal-Purple-S-37`   | 
+| `link-visited`              | _Visited link color_                          | `Hal-Purple-S-38`   | 
 
 ## Data visualization colors
 
