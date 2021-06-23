@@ -40,8 +40,8 @@ _Spinner design specifications_
 
 | Property        | Element                      | Token            | Value     |
 | --------------- | ---------------------------- | ---------------- | --------- |
-| `width`         | Spinner container (default)  | -                | 120px     |
-| `height`        | Spinner container (default)  | -                | 120px     |
+| `width`         | Spinner container (default)  | -                | 140px     |
+| `height`        | Spinner container (default)  | -                | 140px     |
 | `width`         | Spinner container (tiny)     | -                | 36px      |
 | `height`        | Spinner container (tiny)     | -                | 36px      |
 | `max-width`     | Overlay                      | -                | 100vw     |
@@ -52,8 +52,10 @@ _Spinner design specifications_
 
 | Property        | Element          | Token            | Value     |
 | --------------- | ---------------- | ---------------- | --------- |
-| `font-size`     | Label            | `type-scale-01`  | 12px      |
-| `font-weight`   | Label            | `type-regular`   | 400       |
+| `font-size`     | Loading label    | `type-scale-02`  | 14px      |
+| `font-weight`   | Loading label    | `type-regular`   | 400       |
+| `font-size`     | Percentage       | `type-scale-02`  | 14px      |
+| `font-weight`   | Percentage       | `type-bold`      | 600       |
 
 ### Border
 
@@ -61,6 +63,17 @@ _Spinner design specifications_
 | --------------- | ---------------------------- | ---------------- | ------------ |
 | `border`        | Spinner circle (default)     | -                | 8.5px solid  |
 | `border`        | Spinner circle (tiny)        | -                | 6px solid    |
+
+## Determinate or indeterminate   
+ 
+![Determinate spinner](images/spinner_determinate_indeterminate.png)
+
+_Determinate vs indeterminate spinner_
+
+* Determinate indicators display how long a process will take. They should be used in longer processes.
+* Indeterminate indicators express an unspecified amount of wait time. They should be used when:
+        * The processing time is unknown.
+        * The wait time is expected to be short enough that it’s not necessary to display.
 
 
 ### User Interface Design Considerations
