@@ -11,53 +11,57 @@ In the circular version, the style is a circle with a border that is spinning fo
 
 The spinner has an undeterminated state, that means that they don't have logic or stepper process.
 
-### Modes
+## Variants
 
-There are three different modes for the spinner component due to the size or the position: **default**, **tiny** and **overlay**.
+There are three different variants for the spinner component due to the size or the position: **default**, **tiny** and **overlay**.
 The tiny mode has never a label associated, while the default and overlay values can have a paired label.
 
-![Spinner circular mode](images/spinner_modes.png)
-![Spinner tiny mode](images/spinner_mode_tiny.png)
+![Spinner component variants](images/spinner_variants.png)
 
-### States
+_Spinner component variants_
 
-States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window.
-As it is auto-management, for now, states are not contemplated.
-
-## Design tokens
-
-| Tokens           |          Default value |
-| ---------------- | ---------------------: |
-| trackCircleColor |              `#5f249f` |
-| totalCircleColor |              `#FFFFFF` |
-| fontColor        |              `inherit` |
-| overlayColor     | `#000000 0.80 opacity` |
-
-\*In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
 
 ## Design Specifications
 
-Circular type
+![Spinner design specifications](images/spinner_specs.png)
 
-| Property     |     Value |
-| ------------ | --------: |
-| Width        |   `140px` |
-| height       |   `140px` |
-| Border width |     `9px` |
-| Radio        |  `51.5px` |
-| Font size    |    `12px` |
-| Font weight  | `Regular` |
+_Spinner design specifications_
 
-![Spinner specifications for circular mode](images/spinner_specs.png)
+### Color
 
-Overlay
+| Tokens             | Value                |
+| ------------------ | -------------------- |
+| `trackCircleColor` |              #5f249f |
+| `totalCircleColor` |              #FFFFFF |
+| `fontColor`        |              inherit |
+| `overlayColor`     | #000000 0.80 opacity |
 
-| Property    |   Value |
-| ----------- | ------: |
-| Max. Width  | `100vw` |
-| Max. Height | `100vh` |
+### Size
 
-![Spinner specifications for the overlay](images/spinner_overlay.png)
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `width`         | Spinner container (default)  | -                | 120px     |
+| `height`        | Spinner container (default)  | -                | 120px     |
+| `width`         | Spinner container (tiny)     | -                | 36px      |
+| `height`        | Spinner container (tiny)     | -                | 36px      |
+| `max-width`     | Overlay                      | -                | 100vw     |
+| `max-height`    | Overlay                      | -                | 100vh     |
+
+
+### Typography
+
+| Property        | Element          | Token            | Value     |
+| --------------- | ---------------- | ---------------- | --------- |
+| `font-size`     | Label            | `type-scale-01`  | 12px      |
+| `font-weight`   | Label            | `type-regular`   | 400       |
+
+### Border
+
+| Property        | Element                      | Token            | Value        |
+| --------------- | ---------------------------- | ---------------- | ------------ |
+| `border`        | Spinner circle (default)     | -                | 8.5px solid  |
+| `border`        | Spinner circle (tiny)        | -                | 6px solid    |
+
 
 ### User Interface Design Considerations
 
