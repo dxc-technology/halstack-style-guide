@@ -30,16 +30,16 @@ jobs:
         role-to-assume: ${{ secrets.AWS_ROLE_SANDBOX }}
         role-duration-seconds: 3600
         role-skip-session-tagging: true
-      
-    - name: Deleting zip components file
-      run: rm -rf components.zip
+              
+    - name: Deleting zip guidelines file
+      run: rm -rf guidelines.zip
     
-    - name: Zipping components folfer
+    - name: Zipping guidelines folfer
       uses: montudor/action-zip@v0.1.0
       with:
-        args: zip -qq -r components.zip components
+        args: zip -qq -r guidelines.zip guidelines
     
-    - name: Deploy to S3 Bucket
+    - name: Deploy guidelies to S3 Bucket
       run: |
-        aws s3 rm s3://design.system.components.catalog/components/ --recursive
-        aws s3 cp ./components/ s3://design.system.components.catalog/components/ --recursive
+        aws s3 rm s3://design.system.components.catalog/guidelines/ --recursive
+        aws s3 cp ./guidelines/ s3://design.system.components.catalog/guidelines/ --recursive
