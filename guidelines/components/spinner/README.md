@@ -1,20 +1,17 @@
 # Spinner
 
-Loading spinner is a waiting indicator in the user interface to communicate your users that something is going on with the application and it will take a while. One of the problems that spinners have is that they don't indicate how much time the operation is going to take, for that reason the design system is including different resources to manage this consuming time for the app of taking resources.
+Loading spinner is a waiting indicator in the user interface to communicate users an ongoing proccess. 
 
-One rule to follow with this component if the process is going to take more than 10 seconds, it is recommendable that some features like a counter or some value be linked to the component to make clear to the user the time that is going to take the processing of the information.
+## Usage
 
-## Appearance
-
-The appearance of the component is widely recognized through applications.
-In the circular version, the style is a circle with a border that is spinning forever, until the processing is done.
-
-The spinner has an undeterminated state, that means that they don't have logic or stepper process.
+* There should only be a single spinner on a page at one time.
+* Only use the spinner component in a process that takes more than one second.
+* The text of the action it is not mandatory but recommendable.
+* If only a portion of a page is displaying new content or being updated, use a `medium` or `small` spinner place the spinner in that part of the page.
 
 ## Variants
 
-There are three different variants for the spinner component due to the size or the position: **default**, **tiny** and **overlay**.
-The tiny mode has never a label associated, while the default and overlay values can have a paired label.
+There are three different variants for the spinner component due to the size or the position: **large**, **small** and **overlay**.
 
 ![Spinner component variants](images/spinner_variants.png)
 
@@ -40,10 +37,10 @@ _Spinner design specifications_
 
 | Property        | Element                      | Token            | Value     |
 | --------------- | ---------------------------- | ---------------- | --------- |
-| `width`         | Spinner container (default)  | -                | 140px     |
-| `height`        | Spinner container (default)  | -                | 140px     |
-| `width`         | Spinner container (tiny)     | -                | 36px      |
-| `height`        | Spinner container (tiny)     | -                | 36px      |
+| `width`         | Spinner container (large)    | -                | 140px     |
+| `height`        | Spinner container (large)    | -                | 140px     |
+| `width`         | Spinner container (small)    | -                | 16px      |
+| `height`        | Spinner container (small)    | -                | 16px      |
 | `max-width`     | Overlay                      | -                | 100vw     |
 | `max-height`    | Overlay                      | -                | 100vh     |
 
@@ -61,8 +58,8 @@ _Spinner design specifications_
 
 | Property        | Element                      | Token            | Value        |
 | --------------- | ---------------------------- | ---------------- | ------------ |
-| `border`        | Spinner circle (default)     | -                | 8.5px solid  |
-| `border`        | Spinner circle (tiny)        | -                | 6px solid    |
+| `stroke`        | Spinner circle (large)       | -                | 8.5px solid  |
+| `stroke`        | Spinner circle (small)       | -                | 2px solid    |
 
 ## Determinate or indeterminate   
  
@@ -76,15 +73,11 @@ _Determinate vs indeterminate spinner_
         * The wait time is expected to be short enough that it’s not necessary to display.
 
 
-### User Interface Design Considerations
-
-- Use the spinner component in a process between more than 1 second and less than 10 seconds
-- In case that the process will be lower than 10 seconds, a progress indicator and a handler to interrupt the process will be attached to the element
-- The text of the action it is not mandatory but recommendable
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/variables/
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/spinner)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/spinner)
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/spinner/README.md)
