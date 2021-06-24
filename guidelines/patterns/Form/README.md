@@ -1,10 +1,21 @@
 
-## Overview
+# Forms
 
-A form is a group of related input controls that allows users to provide data or configure options. Forms can be simple or complex, and may be presented as dedicated pages, side panels, or dialogs depending on the use case and the situation.
+A form is a group of related input controls. Forms can be presented as dedicated pages or dialogs depending on the use case.
+
+* [Structure](#structure)
+* [Variants](#variants)
+* [Anatomy](#anatomy)
+* [Alignment](#alignment)
+* [Form validation](#form-validation)
+* [Required vs optional](#required-vs-optional)
+* [Progressive disclosure](#progressive-disclosure)
+* [Helping users](#helping-users)
+* [Layout](#layout)
+* [Accessibility](#accessibility)
 
 
-![image](https://user-images.githubusercontent.com/44420072/114583673-237ce000-9c82-11eb-93c9-b0bde52e404b.png)
+## Structure
 
 
 Form elements should move in a single direction so they should only be distributed through:
@@ -22,7 +33,9 @@ Horizontally stacking input fields in a vertically moving form is only acceptabl
 
 Depending on the use case, Forms may be presented as dedicated pages or dialogs.
 
-![image](https://user-images.githubusercontent.com/44420072/114583960-6d65c600-9c82-11eb-8626-71d4199f48ec.png)
+![Form pattern variants](images/form_variants.png)
+
+_Form pattern variants_
 
 ### Page form
 
@@ -35,7 +48,7 @@ For more complex, lengthier or multistep requests for user input.
 | Accordion Forms | To group similar content and hide or show it depending on user needs or preferences | [Accordion](components/accordion/README.md) |
 | Multistep Forms | Provides a linear and mandatory step progression through a defined process | [Wizard](components/wizard/README.md)|
 
-**Dialog form**
+### Dialog form
 
 For critical, infrequent requests for user input often related to editing and management tasks.
 
@@ -52,7 +65,7 @@ For critical, infrequent requests for user input often related to editing and ma
 3. **Buttons**: Allows users to submit or exit a form.
 
 
-## Text inputs
+### Text inputs
 
 These controls enable users to provide input on forms by selecting from a set of pre-determined options or a limited range of values. Carbon provides a variety of data input components that enable a user to make a selection. Each component was created to serve a specific use case.
 
@@ -61,7 +74,7 @@ These controls enable users to provide input on forms by selecting from a set of
 | [Input-text](components/text-input/README.md) | To capture several words maximum | 
 | [Text-area](components/text-input/README.md) | To capture multiple lines of text	 |  
 
-## Data inputs
+### Data inputs
 
 These controls enable users to provide input on forms by selecting from a set of pre-determined options or a limited range of values. Consider how many options you need to present as well as how many items the user may need to select.
 
@@ -75,7 +88,7 @@ These controls enable users to provide input on forms by selecting from a set of
 | [Switch](components/switch/README.md) | To activate or deactivate an option	 |  
 | [Upload](components/upload/README.md)| To upload/attach a file or multiple files to a form		 |  
 
-## Buttons
+### Buttons
 
 Use a primary button for the main action, a secondary button for secondary actions like Cancel or Discard.
 
@@ -83,7 +96,7 @@ Use a primary button for the main action, a secondary button for secondary actio
 | :---         |     :--- |
 | [Button](components/text-input/README.md) | Initialize an action or function when the user interacts with them | 
 
-### Alignment
+## Alignment
 
 | Type | Description | 
 | :---         |     :--- |
@@ -114,7 +127,11 @@ _**Right**: Alert component showing an error after submitting._
 * Leaving a mandatory field blank
 * Leaving a mandatory field incomplete
 
-## Disabling vs hiding fields
+## Required vs optional
+
+All fields in a form are assumed required, with optional fields being tagged as so in the label. An excess of optional fields should be avoided.
+
+## Progressive disclosure
 
 The user goal when interacting with a form should be taken into account when deciding whether a field needs to be disabled or hidden from the interface.
 
@@ -159,7 +176,7 @@ Every part of a UI should be intentional including the empty space between eleme
 | Sections            | Spacing between sections                            | 40px / `spacing-08`  | 32px / `spacing-07`  |
 | Buttons             | Spacing between last form element and buttons       | 48px / `spacing-09`  | 48px / `spacing-09`  |
 
-## Accesibility
+## Accessibility
 
 * All inputs in a form are associated with a corresponding label element. [SC 3.2.2](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
 * Use fieldset and legend elements where appropriate. [SC 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
@@ -171,4 +188,11 @@ Every part of a UI should be intentional including the empty space between eleme
 ### Related content
 
 * [W3C Guidance for creating forms that meet WCAG](https://www.w3.org/WAI/tutorials/forms/instructions/)
+
+
+_________________________
+
+[Edit this page on GitHub]()
+
+
 
