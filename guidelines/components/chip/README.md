@@ -8,55 +8,59 @@ A rounded component defined by a label or a graphic element to indicate the info
 
 ### States
 
-The only state that the design system specifies for the chip component is the hover interaction, which is very basic, changing the cursor from default to pointer in the case that the element is clickable. With the static version, the hover action doesn't need to be contemplated.
+The only interactive element on the chip component is the prefix/suffix and its states are: **enabled** and **focus**:
 
 ![Chip states](images/Chip_Specs.png)
 
 
 ## Design Specifications
 
-## Padding
+![Chip specs](images/Chip_Specs.png)
 
-| Property		        | Element		        | Value	|
+## Color
+
+| Component token           | Element                   | Token             | Value     |
+| ------------------------- | ------------------------- | ----------------- | --------- |
+| `backgroundColor`         | Chip container            | `Hal-Grey-S-90`   | #e6e6e6   |
+| `disabledBackgroundColor` | Chip container:disabled   | `Hal-Grey-S-95`   | #f2f2f2   |
+| `fontcolor`               | Label                     | `Hal-Black`       | #000000	  |
+| `fontcolor`               | Label:disabled            | `Hal-Grey-L-60`   | #999999	  |
+| `focusColor`              | Focus outline             | `Hal-Blue-s-35`   | #0067b3	  |
+
+
+## Size
+
+| Property		    | Element			                  | Value		      |
+| --------------- | ----------------------------- | -------------	|
+| `height`		    | Chip container		            | 40px		      |
+| `height`		    | Prefix/Suffix		              | 24px		      |
+| `width`		      | Prefix/Suffix				          | 24px		      |
+
+## Spacing
+
+| Property		          | Element		            | Value	|
 | ---------------------	| --------------------- | ----- |
-| `padding`		        | calendar container	| 16px	|
-| `padding-left/right`	| month container	    | 8px	|
-| `padding-left/right`	| year selector		    | 16px	|
-| `padding-top/bottom`	| separator	        	| 8px	|
+| `padding-left/right`	| Chip container		    | 16px	|
+| `margin`	            | Prefix/Suffix			    | 8px	  |
 
 
-## Other specs 
+## Border
 
-| Property		    | Description			        | Value		    |
-| ----------------- | ----------------------------- | -------------	|
-| `height`		    | Icon size			            | 24px		    |
-| `width`		    | Icon size			            | 24px		    |
-| `border`		    | Border			            | 2px solid	    |
-| `width`	  	    | Container        		        | fit-content	|
-| `border-radius`	| Container Radius		        | 80px		    |
-| `border`		    | Focus outline			        | 2px		    |
-| 			        | Space between text and icon	| 8px		    |
+| Property		    | Element			                  | Value		      |
+| --------------- | ----------------------------- | -------------	|
+| `border`		    | Focus outline			            | 2px solid	    |
+| `border-radius`	| Chip container		            | 80px		      |
 
 
 ## Typography
 
-| Property  	| Element	| Value	|
+| Property  	  | Element	  | Value	|
 | ------------- | --------- | ----- |
-| `font-size`	| label 	| 16px	|
-| `font-weight`	| all		| 400	|
+| `font-size`	  | Label 	  | 16px	|
+| `font-weight`	| Label		  | 400	  |
 
 
-## Design Tokens
 
-| Tokens		    |	Description 		    |	Default value	|
-| ----------------- | ------------------------- | ----------------- |
-| ``			    |	backgroundColor	    	|	#e6e6e6		    |
-| `Hal-Grey-S-40`	|	outlinedColor		    |	#666666		    |
-| `Hal-Black`		|	fontcolor		        |	#000000		    |
-| ``			    |	disabledBackgroundColor	|	#eeeeee		    |
-| `Hal-Grey-L-60`	|	disabledFontColor	    |	#999999		    |
-
-![Chip specs](images/Chip_Specs.png)
 
 ### User Interface Design Considerations
 
