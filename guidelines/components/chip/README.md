@@ -12,12 +12,15 @@ Chips are elements that represent status, complementary information, or associat
 
 The only interactive element on the chip component is the prefix/suffix and its states are: **enabled** and **focus**:
 
-![Chip states](images/Chip_Specs.png)
+![Chip prefix and suffix states](images/chip_specs.png)
 
+_Chip prefix and suffix states_
 
 ## Design Specifications
 
-![Chip specs](images/Chip_Specs.png)
+![Component chip design specifications](images/Chip_Specs.png)
+
+_Component chip design specifications_
 
 ### Color
 
