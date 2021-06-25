@@ -2,11 +2,13 @@
 
 Chips are elements that represent status, complementary information, or association between elements.
 
-## Appereance
+## Usage
 
-A rounded component defined by a label or a graphic element to indicate the information to be communicated to the user. Can be clickable on the icons, to perform an action in form of triggering a dialog or a modification in other element of the user interface. Also, they can be static or use it to categorize a different kinds of data.
+* Do not use chips instead of buttons they have a total different aim in the UI
+* Make clear and simple the content of the label
+* Use chips to make tasks easier for the user
 
-### States
+## States
 
 The only interactive element on the chip component is the prefix/suffix and its states are: **enabled** and **focus**:
 
@@ -17,7 +19,7 @@ The only interactive element on the chip component is the prefix/suffix and its 
 
 ![Chip specs](images/Chip_Specs.png)
 
-## Color
+### Color
 
 | Component token           | Element                   | Token             | Value     |
 | ------------------------- | ------------------------- | ----------------- | --------- |
@@ -28,7 +30,7 @@ The only interactive element on the chip component is the prefix/suffix and its 
 | `focusColor`              | Focus outline             | `Hal-Blue-s-35`   | #0067b3	  |
 
 
-## Size
+### Size
 
 | Property		    | Element			                  | Value		      |
 | --------------- | ----------------------------- | -------------	|
@@ -36,7 +38,7 @@ The only interactive element on the chip component is the prefix/suffix and its 
 | `height`		    | Prefix/Suffix		              | 24px		      |
 | `width`		      | Prefix/Suffix				          | 24px		      |
 
-## Spacing
+### Spacing
 
 | Property		          | Element		            | Value	|
 | ---------------------	| --------------------- | ----- |
@@ -44,7 +46,7 @@ The only interactive element on the chip component is the prefix/suffix and its 
 | `margin`	            | Prefix/Suffix			    | 8px	  |
 
 
-## Border
+### Border
 
 | Property		    | Element			                  | Value		      |
 | --------------- | ----------------------------- | -------------	|
@@ -52,7 +54,7 @@ The only interactive element on the chip component is the prefix/suffix and its 
 | `border-radius`	| Chip container		            | 80px		      |
 
 
-## Typography
+### Typography
 
 | Property  	  | Element	  | Value	|
 | ------------- | --------- | ----- |
@@ -60,14 +62,6 @@ The only interactive element on the chip component is the prefix/suffix and its 
 | `font-weight`	| Label		  | 400	  |
 
 
-
-
-### User Interface Design Considerations
-
-- Use the color with some meaning, not for purely decoration
-- Do not use chips instead of buttons they have a total different aim in the UI
-- Make clear and simple the content of the label
-- Use chips to make tasks easier for the user
 
 ## Links and references
 
