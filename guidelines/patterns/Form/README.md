@@ -115,9 +115,7 @@ When present, the validation message is placed directly below the input replacin
 
 An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. 
 
-![Handling errors in forms](images/form_handling_error.png)
-
-_Handling errors in forms_
+![Handling errors in forms](images/form_error_handling.png)
 
 _**Left**: `text-input` error message prompting the user there is an icorrect value._
 
