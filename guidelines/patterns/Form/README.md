@@ -178,13 +178,15 @@ Every part of a UI should be intentional including the empty space between eleme
 
 ## Accessibility
 
-* All inputs in a form are associated with a corresponding label element. [SC 3.2.2](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
-* Use fieldset and legend elements where appropriate. [SC 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
-* Inputs use autocomplete where appropriate. [SC 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
-* Make sure that form input errors are displayed in list above the form after submission. [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
-* Associate input error messaging with the input it corresponds to. [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
-* Make sure that error, warning, and success states are not visually communicated by just color. [SC 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) 
+### WCAG 2.2
 
+* Understanding WCAG 2.2 - [SC 3.2.2](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
+* Understanding WCAG 2.2 - [SC 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+* Understanding WCAG 2.2 - [SC 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
+* Understanding WCAG 2.2 - [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+* Understanding WCAG 2.2 - [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+* Understanding WCAG 2.2 - [SC 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html)
+  
 ### Related content
 
 * [W3C Guidance for creating forms that meet WCAG](https://www.w3.org/WAI/tutorials/forms/instructions/)
@@ -192,7 +194,7 @@ Every part of a UI should be intentional including the empty space between eleme
 
 _________________________
 
-[Edit this page on GitHub]()
+[Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/patterns/form/README.md)
 
 
 
