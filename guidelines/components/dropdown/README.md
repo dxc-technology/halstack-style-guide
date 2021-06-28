@@ -46,8 +46,8 @@ _Dropdown component specifications_
 | `fontColor`               |     #000000 |
 | `dropdownBackgroundColor` |     #FFFFFF |
 | `dropdownFontColor`       |     #000000 |
-| `hoverBackgroundOption`   |     #FFFFFF |
-| `hoverBackgroundColor`    |     #FFFFFF |
+| `hoverBackgroundOption`   |     #F2F2F2 |
+| `hoverBackgroundColor`    |     #F2F2F2 |
 | `scrollBarThumbColor`     |     #666666 |
 | `scrollBarTrackColor`     |     #D9D9D9 |
 | `focusColor`              |     #005FCC |
