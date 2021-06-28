@@ -57,8 +57,9 @@ For critical, infrequent requests for user input often related to editing and ma
 
 ## Anatomy
 
-![image](https://user-images.githubusercontent.com/44420072/114606499-9e9ec000-9c9b-11eb-9da9-7f1202d4f396.png)
+![Example of the form anatomy](images/form_anatomy.png)
 
+_Example of the form anatomy_
 
 1. **Text inputs**: Enable users to input free-form text.
 2. **Data inputs**: Information can be entered through a variety of non-free form input fields (checkboxes, radio buttons, dropdowns and selects, file uploader, date pickers, toggles, etc.)
@@ -114,8 +115,9 @@ When present, the validation message is placed directly below the input replacin
 
 An error indicates content that can’t be submitted or was found to be invalid after submission and needs to be corrected. 
 
-![image](https://user-images.githubusercontent.com/44420072/115582483-4d10b980-a2c9-11eb-9dff-5766aac00ded.png)
+![Handling errors in forms](images/form_handling_error.png)
 
+_Handling errors in forms_
 
 _**Left**: `text-input` error message prompting the user there is an icorrect value._
 
@@ -180,12 +182,11 @@ Every part of a UI should be intentional including the empty space between eleme
 
 ### WCAG 2.2
 
-* Understanding WCAG 2.2 - [SC 3.2.2](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
-* Understanding WCAG 2.2 - [SC 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
-* Understanding WCAG 2.2 - [SC 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
-* Understanding WCAG 2.2 - [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
-* Understanding WCAG 2.2 - [SC 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
-* Understanding WCAG 2.2 - [SC 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html)
+* Understanding WCAG 2.2 - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
+* Understanding WCAG 2.2 - [SC 1.3.1: Info and relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+* Understanding WCAG 2.2 - [SC 1.3.5: Identify input purpose](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
+* Understanding WCAG 2.2 - [SC 3.3.1: Error identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+* Understanding WCAG 2.2 - [SC 1.4.1: Use of color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html)
   
 ### Related content
 
