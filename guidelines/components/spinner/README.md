@@ -26,12 +26,16 @@ _Spinner design specifications_
 
 ### Color
 
-| Tokens             | Value                |
-| ------------------ | -------------------- |
-| `trackCircleColor` |              #5f249f |
-| `totalCircleColor` |              #FFFFFF |
-| `fontColor`        |              inherit |
-| `overlayColor`     | #000000 0.80 opacity |
+| Component token           | Element                   | Token             | Value     |
+| ------------------------- | ------------------------- | ----------------- | --------- |
+| `trackCircleColor`        | Spinner circle (track)    | `Hal-Purple-S-38` | #5f249f   |
+| `trackCircleColorOnDark`  | Spinner circle (track)    | `Hal-Purple-L-65` | #a46ede   |
+| `totalCircleColor`        | Spinner circle (total)    | `Hal-White`       | #ffffff   |
+| `fontColor`               | Label                     | `Hal-Black`       | #000000	  |
+| `fontColorOnDark`         | Label                     | `Hal-White`       | #ffffff   |
+| `fontColor`               | Percentage                | `Hal-Black`       | #000000	  |
+| `overlayColor`            | Overlay                   | -                 | #000000 0.80 opacity	  |
+
 
 ### Size
 
