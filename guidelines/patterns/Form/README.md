@@ -25,10 +25,6 @@ Form elements should move in a single direction so they should only be distribut
 
 Horizontally stacking input fields in a vertically moving form is only acceptable when they’re related, for example, name and surname.
 
-
-![image](https://user-images.githubusercontent.com/44420072/114583890-59ba5f80-9c82-11eb-8945-a2ef1182d570.png)
-
-
 ## Variants
 
 Depending on the use case, Forms may be presented as dedicated pages or dialogs.
