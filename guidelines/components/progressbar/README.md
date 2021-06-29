@@ -22,7 +22,9 @@ A progress bar should be used in any scenario that will take more than 1 second 
 
 The component progress-bar has two variants: **default** and **overlay**.
 
-![Progress-bar variants](images/progress_variants.png)
+![Progress bar variants](images/progress_variants.png)
+
+_Progress bar variants_
 
 ## Anatomy
 
