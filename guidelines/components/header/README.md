@@ -13,24 +13,32 @@ The header is an important component in the interface, it is the area dedicated 
    * **Site options**: Language selector, settings, or other any option that applies globally should be placed here. 
    * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
 
-Here is an example of the content distribution:
 
-![Header distribution](images/header_distribution.png)
+![Header distribution example](images/header_distribution.png)
 
-## Modes
+_Header distribution example_
 
-Following the convention of the modes that can be found in a component, two main modes are defined for the header.
-Modes: **basic** and **underlined**.
+## Variants
 
-![Header modes](images/header_modes.png)
+Following the convention of the variants that can be found in a component, two main variants are defined for the header.
+Variants: **basic** and **underlined**.
+
+![Header component variants](images/header_variants.png)
+
+_Header component variants_
 
 
 
+## Design Specifications
 
-## Design tokens
+![Header design specifications](images/header_specs.png)
 
-| Tokens                 |  Default value |
-| --------------------   | :------------: |
+_Header design specifications_
+
+### Color
+
+| Tokens                 |  Value         |
+| --------------------   | -------------- |
 | `backgroundColor`      |    #FFFFFF     |
 | `underlinedColor`      |    #000000     |
 | `fontColor`            |    #000000     |
@@ -40,16 +48,11 @@ Modes: **basic** and **underlined**.
 | `overlayColor`         |    #565656     |
 | `focusColor`           |    #005FCC     |
 
-## Design Specifications
-
-![Header specifications](images/header_design_specifications.png)
-
-Design specifications for main structure:
 
 ### Size
 
-| Property                                 |    Value |
-| ---------------------------------------- | -------: |
+| Property                                 | Value    |
+| ---------------------------------------- | -------- |
 | `height`                                 |   64px   |
 | `width`                                  |   100%   |
 
@@ -95,16 +98,11 @@ Different values can be applied to each side of the component:
 
 ## Responsive version for mobile and tablet
 
-Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device.
+Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device. The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
 
-![Header version responsive](images/header_mobile.png)
+![Header menu responsive version](images/header_responsive_menu.png)
 
-The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
-
-![Header menu responsive](images/header_responsive_menu.png)
-
-
-
+_Header menu responsive version_
 
 
 ## User Interface Design Considerations

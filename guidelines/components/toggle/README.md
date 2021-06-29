@@ -25,7 +25,7 @@ __Enabled__, __Hover__, __selected__ and __disabled__.
 
 | Token          | Value|
 |--------------------|------|
-| `selectedBackgroundColor` |  #6F2C91 |
+| `selectedBackgroundColor` |  #5f249f |
 | `selectedBackgroundHoverColor` | #000000 |
 | `selectedFontColor` | #FFFFFF |
 | `selectedHoverFontColor` | #FFFFFF |
