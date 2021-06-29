@@ -8,46 +8,45 @@ A progress bar should be used in any scenario that will take more than 1 second 
 
 The appearance of the progress bar is recognized by the user as a long bar that indicated the part of the action that is completed filling the space available. It is used in many operative systems as part of file transferring, looking for updates or installation process.
 
-### Modes
+## Determinate or indeterminate   
+ 
+![Determinate progress bar](images/progress_determinate.png)
 
-There are two modes for the progress bar components, depend on the tracking progress.
-One mode is a determinate state that goes from 0 to 100% in a linear progression.
-The other one is indeterminate, so it hasn't defined limits for the duration, there is no number indicator to estimate the remaining time.
+_Determinate progress bar_
 
-A third mode can be added based on the context of use. The simplified version of the progress bar has been thought to use on responsive versions of the component, making the interface more clear with a minimalistic component. It also can contain information about the progress or a label to indicate the action.
+* Determinate indicators display how long a process will take. They should be used in longer processes.
 
-Modes: **determinate**, **indeterminated**, and **simplified**.
+![Indeterminate progress bar](images/progress_indeterminate.png)
 
-![Alert mode for normal progress bar](images/progressbar_mode.png)
+_Indeterminate progress bar_
 
-### States
+* Indeterminate indicators express an unspecified amount of wait time. They should be used when:
+        * The processing time is unknown.
+        * The wait time is expected to be short enough that it’s not necessary to display.   
 
-Three different states can be defined, but in this case, they are not related to the interaction of the user.
-
-- The progress bar is empty
-- The progress bar is in process
-- The progress bar is done
-
-These states corresponding with the progress of the process in the application.
-
-## Design tokens
-
-| Tokens       | Default value |
-| ------------ | ------------: |
-| trackLine    |     `#6F2C91` |
-| totalLine    |     `#CECECE` |
-| fontColor    |     `inherit` |
-| overlayColor |     `#000000` |
 
 ## Design Specifications
 
-| Property              |   Value |
+### General
+
+#### Color
+
+| Tokens         | value         |
+| ------------   | ------------: |
+| `trackLine`    |     #5F249F   |
+| `totalLine`    |     #E6E6E6   |
+| `fontColor`    |     inherit   |
+| `overlayColor` |     #000000   |
+
+#### Size
+
+| width                 |   Value |
 | --------------------- | ------: |
 | Min. width            | `100px` |
 | Max. width            |   `80%` |
-| Height                |   `9px` |
-| Spacing text with bar |   `8px` |
-| Font size             |  `12px` |
+| Height                |   `8px` |
+| Spacing text with bar |  `12px` |
+| Font size             |  `14px` |
 
 ![Specifications for progress bar component](images/progressbar_specs.png)
 
@@ -62,13 +61,22 @@ Overlay
 
 ### User Interface Design Considerations
 
+#### When to use
+* Use a progress bar when it will give people feedback in a long-running process with continuous values.
+
+#### When not to use
+* For an unknown amount of time/progress, consider using a loading spinner instead.
+* For loading content in a module, consider using a loading skeleton instead.
+* For discrete steps, consider using a progress stepper instead.
+* For an interactive element that lets people provide input to show progress, use a range slider.
+* 
 - Do not use this type of component in actions that will take less than 1 minute to the system
 - Use the determinate type if it is possible, the user can have an estimation on how it is gonna take
 - Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/variables/
+- https://github.com/dxc-technology/halstack-style-guide/raw/component-progress/Halstack UI-Kit/UI Kit-Halstack_v3.3.0.xd
 
 ____________________________________________________________
 
