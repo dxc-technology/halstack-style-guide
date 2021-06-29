@@ -59,33 +59,61 @@ _Component design specifications_
 
 ### Color
 
-| Tokens         | value         |
-| ------------   | ------------: |
-| `trackLine`    |     #5F249F   |
-| `totalLine`    |     #E6E6E6   |
-| `fontColor`    |     inherit   |
-| `overlayColor` |     #000000   |
+| Component token            | Element                   | Token             | Value     |
+| -------------------------- | ------------------------- | ----------------- | --------- |
+| `trackLineColor`           | Track line                | `Hal-Purple-S-38` | #5f249f   |
+| `trackLineColorOnDark`     | Track line                | `Hal-Purple-L-65` | #a46ede   |
+| `totalLineColor`           | Total line                | `Hal-Grey-L-90`   | #e6e6e6   |
+| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
+| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
+| `labelFontColorOnDark`     | Label                     | `Hal-White`       | #ffffff   |
+| `indicatorFontColor`       | Indicator                 | `Hal-Black`       | #000000	  |
+| `indicatorFontColorOnDark` | Indicator                 | `Hal-White`       | #ffffff	  |
+| `helperFontColor`          | Helper text               | `Hal-Black`       | #000000	  |
+| `helperFontColorOnDark`    | Helper text               | `Hal-White`       | #ffffff	  |
+| `overlayColor`             | Overlay                   | -                 | #000000 0.80 opacity	  |
 
 ### Size
 
-| width                 |   Value |
-| --------------------- | ------: |
-| Min. width            | `100px` |
-| Max. width            |   `80%` |
-| Height                |   `8px` |
-| Spacing text with bar |  `12px` |
-| Font size             |  `14px` |
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `height`        | Track line                   | -                | 8px       |
+| `height`        | Total line                   | -                | 8px       |
+| `max-width`     | Overlay                      | -                | 100vw     |
+| `max-height`    | Overlay                      | -                | 100vh     |
 
+### Internal spacing
 
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `margin-bottom` | Label                        | -                | 8px       |
+| `margin-top`    | Helper text                  | -                | 8px       |
 
-Overlay
+### Margin
 
-| Property    |   Value |
-| ----------- | ------: |
-| Max. Width  | `100vw` |
-| Max. Height | `100vh` |
+| Margin | Value |
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
 
-![Theaming for progress bar component](images/progressbar_overlay.png)
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Typography
+
+| Property        | Element          | Token            | Value     |
+| --------------- | ---------------- | ---------------- | --------- |
+| `font-size`     | Label            | `type-scale-02`  | 14px      |
+| `font-weight`   | Label            | `type-regular`   | 400       |
+| `font-size`     | Indicator        | `type-scale-02`  | 14px      |
+| `font-weight`   | Indicator        | `type-bold`      | 600       |
+| `font-size`     | Helper text      | `type-scale-01`  | 12px      |
+| `font-weight`   | Helper text      | `type-regular`   | 400       |
 
 
 
