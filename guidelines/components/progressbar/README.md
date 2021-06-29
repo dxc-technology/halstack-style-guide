@@ -69,7 +69,6 @@ Overlay
 * For loading content in a module, consider using a loading skeleton instead.
 * For discrete steps, consider using a progress stepper instead.
 * For an interactive element that lets people provide input to show progress, use a range slider.
-
 - Do not use this type of component in actions that will take less than 1 minute to the system
 - Use the determinate type if it is possible, the user can have an estimation on how it is gonna take
 - Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
