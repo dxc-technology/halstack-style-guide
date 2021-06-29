@@ -4,71 +4,118 @@ Progress indicators offer visibility of system status to the user, giving feedba
 
 A progress bar should be used in any scenario that will take more than 1 second in performing the action, for anything that takes less than that time, it will be distracting for the user.
 
-## Appearance
+## Usage
 
-The appearance of the progress bar is recognized by the user as a long bar that indicated the part of the action that is completed filling the space available. It is used in many operative systems as part of file transferring, looking for updates or installation process.
+### Do
 
-### Modes
+* Use a progress bar when it will give people feedback in a long-running process with continuous values.
+* Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
+* Use the determinate type if it is possible, the user can have an estimation on how long it is gonna take.
 
-There are two modes for the progress bar components, depend on the tracking progress.
-One mode is a determinate state that goes from 0 to 100% in a linear progression.
-The other one is indeterminate, so it hasn't defined limits for the duration, there is no number indicator to estimate the remaining time.
+### Don't
 
-A third mode can be added based on the context of use. The simplified version of the progress bar has been thought to use on responsive versions of the component, making the interface more clear with a minimalistic component. It also can contain information about the progress or a label to indicate the action.
+* For an unknown amount of time/progress, consider using a loading spinner instead.
+* Do not use this type of component in actions that will take less than 1 minute to the system.
 
-Modes: **determinate**, **indeterminated**, and **simplified**.
 
-![Alert mode for normal progress bar](images/progressbar_mode.png)
+## Variants
 
-### States
+The component progress-bar has two variants: **default** and **overlay**.
 
-Three different states can be defined, but in this case, they are not related to the interaction of the user.
+![Progress-bar variants](images/progress_variants.png)
 
-- The progress bar is empty
-- The progress bar is in process
-- The progress bar is done
+## Anatomy
 
-These states corresponding with the progress of the process in the application.
+![Component anatomy](images/progress_anatomy.png)
 
-## Design tokens
+1. Label _(Optional)_
+2. Progress track line
+3. Helper text _(Optional)_
+4. Progress total line
+5. Progress indicator _(Optional)_
 
-| Tokens       | Default value |
-| ------------ | ------------: |
-| trackLine    |     `#5f249f` |
-| totalLine    |     `#CECECE` |
-| fontColor    |     `inherit` |
-| overlayColor |     `#000000` |
+## Determinate or indeterminate   
+ 
+![Determinate vs undeterminate progress bar](images/progress_determinate_undeterminate.png)
+
+_Determinate vs undeterminate progress bar_
+
+* Determinate indicators display how long a process will take. They should be used in longer processes.
+
+* Indeterminate indicators express an unspecified amount of wait time. They should be used when:
+        * The processing time is unknown.
+        * The wait time is expected to be short enough that it’s not necessary to display.   
 
 ## Design Specifications
 
-| Property              |   Value |
-| --------------------- | ------: |
-| Min. width            | `100px` |
-| Max. width            |   `80%` |
-| Height                |   `9px` |
-| Spacing text with bar |   `8px` |
-| Font size             |  `12px` |
+![Component design specifications](images/progress_specs.png)
 
-![Specifications for progress bar component](images/progressbar_specs.png)
+_Component design specifications_
 
-Overlay
+### Color
 
-| Property    |   Value |
-| ----------- | ------: |
-| Max. Width  | `100vw` |
-| Max. Height | `100vh` |
+| Component token            | Element                   | Token             | Value     |
+| -------------------------- | ------------------------- | ----------------- | --------- |
+| `trackLineColor`           | Track line                | `Hal-Purple-S-38` | #5f249f   |
+| `trackLineColorOnDark`     | Track line                | `Hal-Purple-L-65` | #a46ede   |
+| `totalLineColor`           | Total line                | `Hal-Grey-L-90`   | #e6e6e6   |
+| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
+| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
+| `labelFontColorOnDark`     | Label                     | `Hal-White`       | #ffffff   |
+| `indicatorFontColor`       | Indicator                 | `Hal-Black`       | #000000	  |
+| `indicatorFontColorOnDark` | Indicator                 | `Hal-White`       | #ffffff	  |
+| `helperFontColor`          | Helper text               | `Hal-Black`       | #000000	  |
+| `helperFontColorOnDark`    | Helper text               | `Hal-White`       | #ffffff	  |
+| `overlayColor`             | Overlay                   | -                 | #000000 0.80 opacity	  |
 
-![Theaming for progress bar component](images/progressbar_overlay.png)
+### Size
 
-### User Interface Design Considerations
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `height`        | Track line                   | -                | 8px       |
+| `height`        | Total line                   | -                | 8px       |
+| `max-width`     | Overlay                      | -                | 100vw     |
+| `max-height`    | Overlay                      | -                | 100vh     |
 
-- Do not use this type of component in actions that will take less than 1 minute to the system
-- Use the determinate type if it is possible, the user can have an estimation on how it is gonna take
-- Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
+### Internal spacing
+
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `margin-bottom` | Label                        | -                | 8px       |
+| `margin-top`    | Helper text                  | -                | 8px       |
+
+### Margin
+
+| Margin | Value |
+-- | --
+```xxsmall``` | 6px
+```xsmall``` | 16px
+```small``` | 24px
+```medium``` | 36px
+```large``` | 48px
+```xlarge``` | 64px
+```xxlarge``` | 100px
+
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
+
+### Typography
+
+| Property        | Element          | Token            | Value     |
+| --------------- | ---------------- | ---------------- | --------- |
+| `font-size`     | Label            | `type-scale-02`  | 14px      |
+| `font-weight`   | Label            | `type-regular`   | 400       |
+| `font-size`     | Indicator        | `type-scale-02`  | 14px      |
+| `font-weight`   | Indicator        | `type-bold`      | 600       |
+| `font-size`     | Helper text      | `type-scale-01`  | 12px      |
+| `font-weight`   | Helper text      | `type-regular`   | 400       |
+
+
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/4e8e4cd9-901f-45e7-886c-3855e98046ad/variables/
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/progressbar)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/progressBar)
 
 ____________________________________________________________
 
