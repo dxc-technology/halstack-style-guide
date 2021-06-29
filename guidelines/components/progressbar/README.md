@@ -36,24 +36,19 @@ The component progress-bar has two variants: **default** and **overlay**.
 
 ## Determinate or indeterminate   
  
-![Determinate progress bar](images/progress_determinate.png)
+![Determinate vs undeterminate progress bar](images/progress_determinate_undeterminate.png)
 
-_Determinate progress bar_
+_Determinate vs undeterminate progress bar_
 
 * Determinate indicators display how long a process will take. They should be used in longer processes.
-
-![Indeterminate progress bar](images/progress_indeterminate.png)
-
-_Indeterminate progress bar_
 
 * Indeterminate indicators express an unspecified amount of wait time. They should be used when:
         * The processing time is unknown.
         * The wait time is expected to be short enough that it’s not necessary to display.   
 
-
 ## Design Specifications
 
-![Component design specifications](images/progressbar_specs.png)
+![Component design specifications](images/progress_specs.png)
 
 _Component design specifications_
 
