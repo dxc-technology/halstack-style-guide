@@ -4,9 +4,35 @@ Progress indicators offer visibility of system status to the user, giving feedba
 
 A progress bar should be used in any scenario that will take more than 1 second in performing the action, for anything that takes less than that time, it will be distracting for the user.
 
-## Appearance
+## Usage
 
-The appearance of the progress bar is recognized by the user as a long bar that indicated the part of the action that is completed filling the space available. It is used in many operative systems as part of file transferring, looking for updates or installation process.
+### Do
+
+* Use a progress bar when it will give people feedback in a long-running process with continuous values.
+* Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
+* Use the determinate type if it is possible, the user can have an estimation on how long it is gonna take.
+
+### Don't
+
+* For an unknown amount of time/progress, consider using a loading spinner instead.
+* Do not use this type of component in actions that will take less than 1 minute to the system.
+
+
+## Variants
+
+The component progress-bar has two variants: **default** and **overlay**.
+
+![Progress-bar variants](images/progress_variants.png)
+
+## Anatomy
+
+![Component anatomy](images/progress_anatomy.png)
+
+1. Label _(Optional)_
+2. Progress track line
+3. Helper text _(Optional)_
+4. Progress total line
+5. Progress indicator _(Optional)_
 
 ## Determinate or indeterminate   
  
@@ -27,9 +53,11 @@ _Indeterminate progress bar_
 
 ## Design Specifications
 
-### General
+![Component design specifications](images/progressbar_specs.png)
 
-#### Color
+_Component design specifications_
+
+### Color
 
 | Tokens         | value         |
 | ------------   | ------------: |
@@ -38,7 +66,7 @@ _Indeterminate progress bar_
 | `fontColor`    |     inherit   |
 | `overlayColor` |     #000000   |
 
-#### Size
+### Size
 
 | width                 |   Value |
 | --------------------- | ------: |
@@ -48,7 +76,7 @@ _Indeterminate progress bar_
 | Spacing text with bar |  `12px` |
 | Font size             |  `14px` |
 
-![Specifications for progress bar component](images/progressbar_specs.png)
+
 
 Overlay
 
@@ -59,23 +87,12 @@ Overlay
 
 ![Theaming for progress bar component](images/progressbar_overlay.png)
 
-### User Interface Design Considerations
 
-#### When to use
-* Use a progress bar when it will give people feedback in a long-running process with continuous values.
-
-#### When not to use
-* For an unknown amount of time/progress, consider using a loading spinner instead.
-* For loading content in a module, consider using a loading skeleton instead.
-* For discrete steps, consider using a progress stepper instead.
-* For an interactive element that lets people provide input to show progress, use a range slider.
-* Do not use this type of component in actions that will take less than 1 minute to the system
-* Use the determinate type if it is possible, the user can have an estimation on how it is gonna take
-* Add additional information to clarify to the user the action for which is waiting ("Sending documents...")
 
 ## Links and references
 
-- https://github.com/dxc-technology/halstack-style-guide/raw/component-progress/Halstack UI-Kit/UI Kit-Halstack_v3.3.0.xd
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/progressbar)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/progressBar)
 
 ____________________________________________________________
 
