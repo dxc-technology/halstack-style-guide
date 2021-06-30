@@ -25,7 +25,7 @@ __Enabled__, __Hover__, __selected__ and __disabled__.
 
 | Token          | Value|
 |--------------------|------|
-| `selectedBackgroundColor` |  #6F2C91 |
+| `selectedBackgroundColor` |  #5f249f |
 | `selectedBackgroundHoverColor` | #000000 |
 | `selectedFontColor` | #FFFFFF |
 | `selectedHoverFontColor` | #FFFFFF |
@@ -109,3 +109,7 @@ Toggles should be used in place of radio buttons whenever the options are
 
 ## Links and references
 https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/badbf3be-4d04-4189-a99d-43e37ed4afc9/variables/
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/toggle/README.md)

@@ -194,16 +194,16 @@ Content authors need to ensure the content that is added to the tab panel is acc
 
 | Token                     | Default value (HEX) | Default value (hsl)  |  Calculated value (hsl)              |
 | :---                      | :---                | :---                 |  :---                                |  
-| `selectedFontColor`       | #6F2C91             |                      |                                      | 
-| `selectedIconColor`       | #6F2C91             |                      |  selectedFontColor                   | 
-| `selectedUnderlineColor`  | #6F2C91             |                      |  selectedFontColor                   | 
+| `selectedFontColor`       | #5f249f             |                      |                                      | 
+| `selectedIconColor`       | #5f249f             |                      |  selectedFontColor                   | 
+| `selectedUnderlineColor`  | #5f249f             |                      |  selectedFontColor                   | 
 | `backgroundColor`         | #FFFFFF             |                      |                                      | 
 | `fontColor`               | #666666             | (0, 0%, 40%)         |                                      | 
 | `disabledFontColor`       | #BFBFBF             | (0, 0%, 75%)         |  fontColor (lightness + 35%)         | 
-| `focusOutline`            | #6F2C91             |                      |  selectedFontColor                   | 
+| `focusOutline`            | #5f249f             |                      |  selectedFontColor                   | 
 | `divider`                 | #BFBFBF             |                      |  fontColor (lightness + 35%)         | 
-| `hoverBackgroudColor`     | #F5EBF9             | (280, 53%, 95%)      |  selectedFontColor (lightness + 58%) | 
-| `pressedBackgroundColor`  | #EAD8F3             | (280, 53%, 90%)      |  selectedFontColor (lightness + 53%) | 
+| `hoverBackgroudColor`     | #f2eafa             | (280, 53%, 95%)      |  selectedFontColor (lightness + 58%) | 
+| `pressedBackgroundColor`  | #e5d5f6             | (280, 53%, 90%)      |  selectedFontColor (lightness + 53%) | 
 
 
 
@@ -212,3 +212,8 @@ Content authors need to ensure the content that is added to the tab panel is acc
 * [React component](https://developer.dxc.com/tools/react/next/#/components/tabs)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/tabs)
 * [UI-Kit](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit)
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/tabs/README.md)
+

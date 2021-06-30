@@ -46,8 +46,8 @@ _Dropdown component specifications_
 | `fontColor`               |     #000000 |
 | `dropdownBackgroundColor` |     #FFFFFF |
 | `dropdownFontColor`       |     #000000 |
-| `hoverBackgroundOption`   |     #FFFFFF |
-| `hoverBackgroundColor`    |     #FFFFFF |
+| `hoverBackgroundOption`   |     #F2F2F2 |
+| `hoverBackgroundColor`    |     #F2F2F2 |
 | `scrollBarThumbColor`     |     #666666 |
 | `scrollBarTrackColor`     |     #D9D9D9 |
 | `focusColor`              |     #005FCC |
@@ -144,3 +144,6 @@ _Examples of icon usage_
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/variables/
 
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/dropdown/README.md)

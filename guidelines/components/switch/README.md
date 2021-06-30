@@ -31,7 +31,7 @@ Five different states are defined in the life cycle of the component: **normal**
 
 | Tokens                                | Default value |
 | ------------------------------------- | ------------: |
-| `checkedTrackBackgroundColor`           |     #6F2C91 |
+| `checkedTrackBackgroundColor`           |     #5f249f |
 | `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
 | `checkedthumbBackgroundColor`           |     #FFFFFF |
 | `uncheckedThumbBackgroundColor`         |     #FFFFFF |
@@ -107,4 +107,8 @@ And also apply different values to each side of the component:
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/c3026d48-f954-4978-91e4-05d323ee078c/variables/
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/switch/README.md)
 

@@ -1,71 +1,88 @@
 # Spinner
 
-Loading spinner is a waiting indicator in the user interface to communicate your users that something is going on with the application and it will take a while. One of the problems that spinners have is that they don't indicate how much time the operation is going to take, for that reason the design system is including different resources to manage this consuming time for the app of taking resources.
+Loading spinner is a waiting indicator in the user interface to communicate users an ongoing proccess. 
 
-One rule to follow with this component if the process is going to take more than 10 seconds, it is recommendable that some features like a counter or some value be linked to the component to make clear to the user the time that is going to take the processing of the information.
+## Usage
 
-## Appearance
+* There should only be a single spinner on a page at one time.
+* Only use the spinner component in a process that takes more than one second.
+* The text of the action it is not mandatory but recommendable.
+* If only a portion of a page is displaying new content or being updated, use a `medium` or `small` spinner place the spinner in that part of the page.
 
-The appearance of the component is widely recognized through applications.
-In the circular version, the style is a circle with a border that is spinning forever, until the processing is done.
+## Variants
 
-The spinner has an undeterminated state, that means that they don't have logic or stepper process.
+There are three different variants for the spinner component due to the size or the position: **large**, **small** and **overlay**.
 
-### Modes
+![Spinner component variants](images/spinner_variants.png)
 
-There are three different modes for the spinner component due to the size or the position: **default**, **tiny** and **overlay**.
-The tiny mode has never a label associated, while the default and overlay values can have a paired label.
+_Spinner component variants_
 
-![Spinner circular mode](images/spinner_modes.png)
-![Spinner tiny mode](images/spinner_mode_tiny.png)
-
-### States
-
-States are not defined for this element because there is no interaction by the user. It will appear automatically, controlled by the application, and once the process is done it will hide from the main window.
-As it is auto-management, for now, states are not contemplated.
-
-## Design tokens
-
-| Tokens           |          Default value |
-| ---------------- | ---------------------: |
-| trackCircleColor |              `#6F2C91` |
-| totalCircleColor |              `#FFFFFF` |
-| fontColor        |              `inherit` |
-| overlayColor     | `#000000 0.80 opacity` |
-
-\*In the case that the spinner would be used within the application excluding the overlay, the white color should be adjusted based on the context.
 
 ## Design Specifications
 
-Circular type
+![Spinner design specifications](images/spinner_specs.png)
 
-| Property     |     Value |
-| ------------ | --------: |
-| Width        |   `140px` |
-| height       |   `140px` |
-| Border width |     `9px` |
-| Radio        |  `51.5px` |
-| Font size    |    `12px` |
-| Font weight  | `Regular` |
+_Spinner design specifications_
 
-![Spinner specifications for circular mode](images/spinner_specs.png)
+### Color
 
-Overlay
+| Component token           | Element                   | Token             | Value     |
+| ------------------------- | ------------------------- | ----------------- | --------- |
+| `trackCircleColor`        | Spinner circle (track)    | `Hal-Purple-S-38` | #5f249f   |
+| `trackCircleColorOnDark`  | Spinner circle (track)    | `Hal-Purple-L-65` | #a46ede   |
+| `totalCircleColor`        | Spinner circle (total)    | `Hal-White`       | #ffffff   |
+| `fontColor`               | Label                     | `Hal-Black`       | #000000	  |
+| `fontColorOnDark`         | Label                     | `Hal-White`       | #ffffff   |
+| `fontColor`               | Percentage                | `Hal-Black`       | #000000	  |
+| `overlayColor`            | Overlay                   | -                 | #000000 0.80 opacity	  |
 
-| Property    |   Value |
-| ----------- | ------: |
-| Max. Width  | `100vw` |
-| Max. Height | `100vh` |
 
-![Spinner specifications for the overlay](images/spinner_overlay.png)
+### Size
 
-### User Interface Design Considerations
+| Property        | Element                      | Token            | Value     |
+| --------------- | ---------------------------- | ---------------- | --------- |
+| `width`         | Spinner container (large)    | -                | 140px     |
+| `height`        | Spinner container (large)    | -                | 140px     |
+| `width`         | Spinner container (small)    | -                | 16px      |
+| `height`        | Spinner container (small)    | -                | 16px      |
+| `max-width`     | Overlay                      | -                | 100vw     |
+| `max-height`    | Overlay                      | -                | 100vh     |
 
-- Use the spinner component in a process between more than 1 second and less than 10 seconds
-- In case that the process will be lower than 10 seconds, a progress indicator and a handler to interrupt the process will be attached to the element
-- The text of the action it is not mandatory but recommendable
+
+### Typography
+
+| Property        | Element          | Token            | Value     |
+| --------------- | ---------------- | ---------------- | --------- |
+| `font-size`     | Loading label    | `type-scale-02`  | 14px      |
+| `font-weight`   | Loading label    | `type-regular`   | 400       |
+| `font-size`     | Percentage       | `type-scale-02`  | 14px      |
+| `font-weight`   | Percentage       | `type-bold`      | 600       |
+
+### Border
+
+| Property        | Element                      | Token            | Value        |
+| --------------- | ---------------------------- | ---------------- | ------------ |
+| `stroke`        | Spinner circle (large)       | -                | 8.5px solid  |
+| `stroke`        | Spinner circle (small)       | -                | 2px solid    |
+
+## Determinate or indeterminate   
+ 
+![Determinate spinner](images/spinner_determinate_indeterminate.png)
+
+_Determinate vs indeterminate spinner_
+
+* Determinate indicators display how long a process will take. They should be used in longer processes.
+* Indeterminate indicators express an unspecified amount of wait time. They should be used when:
+        * The processing time is unknown.
+        * The wait time is expected to be short enough that it’s not necessary to display.
+
+
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/191779dd-dc3e-4b6c-812a-f379a44d6c03/variables/
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/spinner)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/spinner)
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/spinner/README.md)
 

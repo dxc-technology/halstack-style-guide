@@ -40,7 +40,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 | Tokens                           | Value       |
 | ------------------------------   | ----------- |
-| `primaryBackgroundColor`         |     #6F2C91 |
+| `primaryBackgroundColor`         |     #5f249f |
 | `primaryFontColor`               |     #FFFFFF |
 | `primaryHoverBackgroundColor`    |     #000000 |
 | `primaryHoverFontColor`          |     #FFFFFF |
@@ -53,7 +53,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 | Tokens                           |  Value      |
 | ------------------------------   | ------------|
-| `secondaryOutlinedColor`         |     #6F2C91 |
+| `secondaryOutlinedColor`         |     #5f249f |
 | `secondaryBackgroundColor`       | transparent |
 | `secondaryFontColor`             |     #000000 |
 | `secondaryHoverFontColor`        |     #000000 |
@@ -68,7 +68,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 | Tokens                           | Value       |
 | ------------------------------   | ----------- |
 | `textBackgroundColor`            | transparent |
-| `textFontColor`                  |     #6F2C91 |
+| `textFontColor`                  |     #5f249f |
 | `textHoverBackgroundColor`       |     #000000 |
 | `textHoverFontColor`             |     #FFFFFF |
 | `textActiveBackgroundColor`      |     #676767 |
@@ -163,3 +163,7 @@ Here, you can find more considerations in the using of buttons:
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/84bacd8b-f5aa-4369-9fe3-c2cd53165c90/variables/
+
+____________________________________________________________
+
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/button/README.md)
