@@ -1,129 +1,182 @@
-# Text-inputs
+# Text-input
 
-Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers.
-Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
+Text inputs are input fields typically used in forms that allow the user to enter text data in a structured format.
 
-## Appearance
+## Usage
 
-The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written.
-Other elements like assistive text, prefix or suffix icons or error handlers can be complementing the input field making the basic structure more informative.
+Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, credit cards, emails, addresses or plain text searches
 
-### Modes
+### Do's
 
-Four different modes can be identify using text input component: **default**, **default with preffix**, **default with suffix** and **default with preffix and suffix**.
+* Do use fixed width inputs for content that has a specific, known length (e.g. post code, phone number).
+* Do use sentence for any input text case with standard, local grammar and punctuation rules.
+* Do use helpful and clear text for labels, error messages and helper texts
 
-![Input modes example](images/input_modes.png)
 
-### States
+### Dont's
 
-The states for text input are: **normal**, **focused**, **invalid** and **disabled**.
+* Do not use text-input for text longer than a single line (e.g. name, phone number). Use the text-area instead.
+* Do not disable copy and paste.
+* Do not display pop up error message after validating
+* Avoid masking label, keep it always visible.
 
-![Input states example](images/input_states.png)
+## Variants
 
-## Design tokens
+* Text-input
+* Text-area
 
-| Tokens                        | Default value |
-| ----------------------------- | ------------: |
-| fontColor                     |     `#000000` |
-| disabledFontColor             |     `#B1B1B1` |
-| error                         |     `#D0011B` |
-| selectedOptionBackgroundColor |     `#F2F2F2` |
-| hoverOptionColor              |     `#000000` |
-| scrollBarThumbColor           |     `#666666` |
-| scrollBarTrackColor           |     `#D9D9D9` |
+![Text-input variants](images/input_variants.png)
 
-## Text Area
+_Text-input vatiants_
 
-The text area is a variation inside the text input component. The functionality of both components is the same, the user can enter text in the input area that later will be processed by the application. However, the text area is made to match with a large data text, like a description, paragraph, a long address or a comment.
-When the amount of information given by the user needs to be precise and detailed, the application should use this element for that purpose.
+## States
 
-It allows multiple lines, adapting the text to the space available and in the case that there won't be enough space then the text will be overlapped and a scrollbar will be used to scroll up and down to see the rest of the information. 
+Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
 
-The text area can have the following features: Label, assistive text and scrollbar.
+![Example of the text-input component states](images/input_states.png)
 
-The aspects that text area is not including respecting text input are:
+_Example of the text-input component states_
 
-- Prefix and suffix
-- Max height fixed
 
-![Textarea example](images/input_textarea.png)
+## Anatomy
+
+![Text-input anatomy](images/input_anatomy.png)
+
+1. Label text
+2. Helper text (Optional)
+3. Placeholder text
+4. Error message
+5. Input action (Optional)
+6. Error indicator
+7. Input container
+
+## Content
+
+### Actions
+
+#### Clearing content
+
+Clear actions allow user to remove the content of the text-input.
+
+![Example of a text-input with a clear content action button](images/input_actions_clear.png)
+
+_Example of a text-input with a clear content action button_
+
+#### Show or hide content
+
+Text-inputs used for password typing should allow the user to show and hide the content. 
+
+![Example of a text-input with a show/hide password button](images/input_actions_password.png)
+
+_Example of a text-input with a show/hide password button_
+
+### Prefixes and suffixes
+
+Prefixes and suffixes help the user to understando the purpose of the text input.
+
+![Icon or text prefixes and suffixes usage](images/input_prefix_suffix.png)
+
+_Icon or text prefixes and suffixes usage_
+
+### Number
+
+Input elements of type number are used to let the user enter a number including built-in validation to reject non-numerical entries.
+
+![Input element of type number example](images/input_number.png)
+
+_Input element of type number example_
 
 ## Design Specifications
 
+![Specifications for text-input component](images/input_specs.png)
+
+_Specifications for text-input component_
+
 ### Width
 
-width | value
--- | --
-```small``` | 60px
-```medium``` (_default_) | 240px
-```large``` | 480px
-```fitContent``` | -
-```fillParent``` | -
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 60px  |
+| `medium` (_default_) | 240px |
+| `large`              | 480px |
+| `fitContent`         | -     |
+| `fillParent`         | -     |
 
-## Height
-
-| Property                                       |       Value |
-| ---------------------------------------------- | ---------- |
-| `min-height`                                   |      32px |
-| `max-height`                                   |      73px |
 
 ### Margin
 
-margin | value
--- | --
-```xxsmall``` | 6px
-```xsmall``` | 16px
-```small``` | 24px
-```medium``` | 36px
-```large``` | 48px
-```xlarge``` | 64px
-```xxlarge``` | 100px
+| Margin      | Value |
+| ----------- | ----- |
+| `xxsmall`   | 6px   |
+| `xsmall`    | 16px  |
+| `small`     | 24px  |
+| `medium`    | 36px  |
+| `large`     | 48px  |
+| `xlarge`    | 64px  |
+| `xxlarge`   | 100px |
 
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
+## Color
+
+| Property        | Element          | Token             | Value           |
+| --------------- | ---------------- | ----------------- | --------------- |
+| `color`         | error message    | `Hal-Red-S-41`    | #d0011b         |
+| `color`         | label            | `Hal-Black`       | #000000         |
+| `color`         | placeholder      | `Hal-Grey-S-40`   | #666666         |
+| `color`         | outline:enabled  | `Hal-Black`       | #000000         |
+| `color`         | outline:hover    | `Hal-Purple-L-60` | #ab63cf         |
+| `color`         | outline:focus    | `Hal-Purple-L-60` | #ab63cf         |
+| `color`         | outline:error    | `Hal-Red-S-41`    | #d0011b         |
+| `color`         | outline:disabled | `Hal-Red-L-60`    | #999999         |
+
+
 ### Typography
 
-| Property                                       |     Value |
-| ---------------------------------------------- | --------- |
-| `font-size` (_default_)                        |      16px |
-| `font-size` (_label_)                          |      12px |
-| `font-weight`                                  |   Regular |
+| Property        | Element        | Token             | Value           |
+| --------------- | -------------- | ----------------- | --------------- |
+| `font-size`     | error message  | `type-scale-01`   | 12px            |
+| `font-size`     | label          | `type-scale-02`   | 14px            |
+| `font-size`     | placeholder    | `type-scale-03`   | 16px            |
+| `font-family`   | error message  | `type-sans`       | Open Sans       |
+| `font-family`   | label          | `type-sans`       | Open Sans       |
+| `font-family`   | placeholder    | `type-sans`       | Open Sans       |
+| `font-weight`   | error message  | `type-regular`    | 400             |
+| `font-weight`   | label          | `type-bold`       | 600             |
+| `font-weight`   | placeholder    | `type-regular`    | 400             |
+
 
 ### Spacing
 
-| Property                                       |     Value |
-| ---------------------------------------------- | --------- |
-| Input value `padding-top`                      |      6px |
-| Input value `padding-bottom`                   |      7px |
-| Distance between preffix and value             |     12px |
-| Distance between suffix and value              |     12px |
 
-### Other
+| Property        | Element         | Token             | Value           |
+| --------------- | --------------- | ----------------- | --------------- |
+| `margin-top`    | error message   | `spacing-03`      | 8px             |
+| `margin-left`   | error icon      | `spacing-02`      | 4px             |
+| `margin-left`   | action icon     | `spacing-02`      | 4px             |
+| `margin-right`  | prefix          | `spacing-03`      | 8px             |
+| `margin-left`   | suffix          | `spacing-03`      | 8px             |
+| `padding-left`  | input container | `spacing-05`      | 16px            |
+| `padding-right` | input container | `spacing-05`      | 16px            |
+| `margin-top`    | input container | `spacing-03`      | 8px             |
 
-| Property                                       |       Value |
-| ---------------------------------------------- | ----------: |
-| Border thickness                               |     1px/2px |
-| Icon size                                      |   20x20(px) |
+### Border
+
+| Property        | Element               | Token             | Value           |
+| --------------- | --------------------- | ----------------- | --------------- |
+| `border`        | input container       | `-`               | 1px solid       |
+| `border`        | input container:focus | `-`               | 2px solid       |
 
 
-![Specifications for input component](images/input_specs.png)
-
-### Required fields
-
-Required fields are a variation in the normal behavior of the input fields. This indicates to the user that the input is required so it can't be skipped if the intention is to go forward in the application.
-
-A red asterisks before the input label must indicate that the text input is a required field, with this visual clue the application is telling the user the mandatory field.
-
-Here are the different representations of a required field:
-
-![Type required in input texts](images/input_required.png)
-
-The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
 
 ### Helper text
 
-Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
+Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
+
+![Text-input helper text example](images/input_helper_text.png)
+
+_Text-input helper text example_
 
 **Usage**
 
@@ -139,25 +192,33 @@ Don’t:
 
 **Specs**
 
-| Property | Element | Token | Value |
-| :---         |     :---     |          :--- |         :--- |
-| `margin-top`  | `input-helper-text`    |     | 6px 
-| `font-size`  | `input-helper-text`    |  `type-scale-01`   | 12px 
-| `font-family`  | `input-helper-text`    |  `type-sans`   | Open Sans 
-| `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
+| Property        | Element        | Token             | Value           |
+| --------------- | -------------- | ----------------- | --------------- |
+| `margin-top`    | helper-text    | `spacing-02`      | 4px             |
+| `font-size`     | helper-text    | `type-scale-01`   | 12px            |
+| `font-family`   | helper-text    | `type-sans`       | Open Sans       |
+| `color`         | helper-text    | `Hal-Black`       | hsl(0, 0%, 0%)  |
 
-### User Interface Design Considerations
+## Accessibility
 
-- Input fields should allow users to enter any combination of letters, numbers, or symbols unless otherwise restricted or stipulated by requirements
-- Avoid breaking up a number with distinct sections into separate input field (i.e. phone numbers, area codes, SSN, dates, etc) to facilitate screen reader accessibility requirements
-- Allow sufficient space in an entry field to allow typical input
-- User text areas, rather than a single-line input box for paragraph text and comments
-- Input fields are more restrictive for mobile users to make sure the type of input field is warranted
-- Only show error validation messages after the user has left the field
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [1.3.1: Information and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+* Understanding WCAG 2.2 - [3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)
+* Understanding WCAG 2.2 - [3.3.2: Labels and Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions) 
+* Understanding WCAG 2.2 - [3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion) 
+* Understanding WCAG 2.2 - [4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value) 
+
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/1cad53d5-9b24-4336-a0c9-3d4b283c9088/variables/
+* [Angular CDK component]()
+* [React CDK component]()
+* [Adobe XD component]()
+
+_________________________
+
+[Edit this page on GitHub]()
 
 ____________________________________________________________
 
