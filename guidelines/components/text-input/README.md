@@ -120,16 +120,69 @@ And also apply different values to each side of the component:
 
 ## Color
 
-| Property        | Element          | Token             | Value           |
-| --------------- | ---------------- | ----------------- | --------------- |
-| `color`         | error message    | `Hal-Red-S-41`    | #d0011b         |
-| `color`         | label            | `Hal-Black`       | #000000         |
-| `color`         | placeholder      | `Hal-Grey-S-40`   | #666666         |
-| `color`         | outline:enabled  | `Hal-Black`       | #000000         |
-| `color`         | outline:hover    | `Hal-Purple-L-60` | #ab63cf         |
-| `color`         | outline:focus    | `Hal-Purple-L-60` | #ab63cf         |
-| `color`         | outline:error    | `Hal-Red-S-41`    | #d0011b         |
-| `color`         | outline:disabled | `Hal-Red-L-60`    | #999999         |
+### On-light
+
+#### Base
+
+| Component token          | Element          | Token             | Value             |
+| ------------------------ | ---------------- | ----------------- | ----------------- |
+| `labelFontColor`         | Label            | `Hal-Black`       | `#000000`         |
+| `helperTextFontColor`    | Helper-text      | `Hal-Black`       | `#000000`         |
+| `placeholderColor`       | Placeholder      | `Hal-Grey-S-40`   | `#666666`         |
+| `outlineEnabledColor`    | Outline:enabled  | `Hal-Black`       | `#000000`         |
+
+#### Interactive
+
+| Property                 | Element          | Token             | Value             |
+| ------------------------ | ---------------- | ----------------- | ----------------- |
+| `outlineHoverColor`      | Outline:hover    | `Hal-Purple-L-60` | `#ab63cf`         |
+| `outlineFocusColor`      | Outline:focus    | `Hal-Purple-L-60` | `#ab63cf`         |
+| `outlineErrorColor`      | Outline:error    | `Hal-Red-S-41`    | `#d0011b`         |
+| `outlineDisabledColor`   | Outline:disabled | `-`               | `-`               |
+| `errorMessageColor`      | Error message    | `Hal-Red-S-41`    | `#d0011b`         |
+| `errorIconColor`         | Error icon       | `Hal-Red-S-41`    | `#d0011b`         |
+
+
+#### Suffix/Prefix
+
+| Property                 | Element          | Token             | Value             |
+| ------------------------ | ---------------- | ----------------- | ----------------- |
+| `leadingIconColor`       | Leading icon     | `Hal-Black`       | `#000000`         |
+| `trailingIconColor`      | Trailing icon    | `Hal-Black`       | `#000000`         |
+| `suffixLabelColor`       | Suffix label     | `Hal-Black`       | `#000000`         |
+| `prefixLabelColor`       | Prefix label     | `Hal-Black`       | `#000000`         |
+
+### On-dark
+
+#### Base
+
+| Property                 | Element          | Token             | Value           |
+| ------------------------ | ---------------- | ----------------- | --------------- |
+| `labelFontColor`         | Label            | `Hal-White`       | `#ffffff`       |
+| `helperTextFontColor`    | Helper-text      | `Hal-White`       | `#ffffff`       |
+| `placeholderColor`       | Placeholder      | `Hal-White`       | `#ffffff`       |
+| `outlineEnabledColor`    | Outline:enabled  | `Hal-White`       | `#ffffff`       |
+
+#### Interactive
+
+| Property                 | Element          | Token             | Value           |
+| ------------------------ | ---------------- | ----------------- | --------------- |
+| `outlineHoverColor`      | Outline:hover    | `Hal-Purple-L-60` | `#ab63cf`       |
+| `outlineFocusColor`      | Outline:focus    | `Hal-Purple-L-60` | `#ab63cf`       |
+| `outlineErrorColor`      | Outline:error    | `Hal-Red-L-60`    | `#f7344f`       |
+| `outlineDisabledColor`   | Outline:disabled | `-`               | `-`             |
+| `errorMessageColor`      | Error message    | `Hal-Red-L-60`    | `#f7344f`       |
+| `errorIconColor`         | Error icon       | `Hal-Red-L-60`    | `#f7344f`       |
+
+
+#### Suffix/Prefix
+
+| Property                 | Element          | Token             | Value           |
+| ------------------------ | ---------------- | ----------------- | --------------- |
+| `leadingIconColor`       | Leading icon     | `Hal-White`       | `#ffffff`       |
+| `trailingIconColor`      | Trailing icon    | `Hal-White`       | `#ffffff`       |
+| `suffixLabelColor`       | Suffix label     | `Hal-White`       | `#ffffff`       |
+| `prefixLabelColor`       | Prefix label     | `Hal-White`       | `#ffffff`       |
 
 
 ### Typography
