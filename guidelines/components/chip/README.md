@@ -31,13 +31,15 @@ _Component chip design specifications_
 | `fontcolor`               | Label                     | `Hal-Black`       | #000000	  |
 | `fontcolor`               | Label:disabled            | `Hal-Grey-L-60`   | #999999	  |
 | `focusColor`              | Focus outline             | `Hal-Blue-s-35`   | #0067b3	  |
+| `iconColor`               | Icon                      | `Hal-Black`       | #000000	  |
+| `iconColor`               | Icon:disabled             | `Hal-Grey-L-60`   | #999999	  |
 
 
 ### Size
 
 | Property		    | Element			                  | Value		      |
 | --------------- | ----------------------------- | -------------	|
-| `height`		    | Chip container		            | 40px		      |
+| `min-height`		| Chip container		            | 40px		      |
 | `height`		    | Prefix/Suffix		              | 24px		      |
 | `width`		      | Prefix/Suffix				          | 24px		      |
 
