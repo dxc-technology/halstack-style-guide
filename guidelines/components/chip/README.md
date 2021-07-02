@@ -70,7 +70,8 @@ _Component chip design specifications_
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3/variables/
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/chip)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/chip)
 
 ____________________________________________________________
 
