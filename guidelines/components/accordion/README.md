@@ -150,7 +150,7 @@ _Component design specifications_
 | `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | #5f249f      |
 | `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | #666666      |
 | `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | #f2eafa      |
-| `titleFocusBorderColor`                     | Header background:focus      | `Hal-Purple-S-38`    | #5f249f      |
+| `focusBorderColor`                          | Header outline:focus         | `Hal-Purple-S-38`    | #5f249f      |
 | `backgroundColor`                           | Container background         | `Hal-White`          | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
 | `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
@@ -176,6 +176,13 @@ _Component design specifications_
 | ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
 | `iconSize`                                  | Custom icon/Caret icon       | -                      | 24x24px                   | 
 
+
+### Border
+
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `focusBorderStyle`                          | Header outline               | -                      | solid                     | 
+| `focusBorderThickness`                      | Header outline               | -                      | 1px                       | 
 
 
 ### Size
