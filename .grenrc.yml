@@ -36,6 +36,7 @@
     - "type: disparity :warning:"
     - "status: work in progress :+1:"
     - "status: under evaluation :mag_right:"
+    - "task: story :white_check_mark:"
   groupBy: {"Documentation:": ["category: documentation :notebook:"], "UI-Kit:": ["category: ui-kit :triangular_ruler:"], "Fixes:": ["type: disparity :warning:"]} 
   milestoneMatch: "Release {{tag_name}}"
   changelogFilename: "CHANGELOG.md"
