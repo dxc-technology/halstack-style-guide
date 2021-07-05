@@ -193,7 +193,7 @@ _Component design specifications_
 | `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
 | `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |
 | `padding`                                   | Caret icon                   | `spacing-04`         | 12px         | 
-| `margin-right`                              | Caret icon                   | `spacing-04`         | 12px         |
+| `margin-right`                              | Custom icon                  | `spacing-04`         | 12px         |
 | `padding`                                   | Custom content               | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] padding](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
 
 ### Margin
