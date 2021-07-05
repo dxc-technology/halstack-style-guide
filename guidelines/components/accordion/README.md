@@ -2,7 +2,14 @@
 
 Accordions are used to group similar content and hide or show it depending on user needs or preferences. Accordions give users more granular control over the interface and help digest content in stages, rather than all at once.
 
-![image](https://user-images.githubusercontent.com/44420072/114667152-6a5ceb00-9cff-11eb-8d7a-bbe98463d0b9.png)
+* [Usage](#usage)
+* [Formatting](#formatting)
+   * [Anatomy](#anatomy)
+   * [Placement and alignment](#placement-and-alignment)
+   * [Behavior and interaction](#behavior-and-interaction)
+   * [Content](#content)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
 
 
 ## Usage
@@ -134,7 +141,7 @@ Different typographic styles can be used to create hierarchy between accordion h
 
 _Use of Open Sans Semibold, Regular and Light Italic to difference between titles, content and additional information._
 
-## Specs
+## Design specifications
 
 ### min-width
 
@@ -170,39 +177,45 @@ _Accordion header._
 
 _Accordion group._
 
-## Accesibility
+### Color
 
-[W3C WAI-ARIA Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/examples/accordion/accordion.html) covers the usage of ARIA names, state and roles.
+| Component token                             | Element                      | Core token           | Value (HEX)  |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | `#666666`    | 
+| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | `#bfbfbf`    |
+| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | `#5f249f`    |
+| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | `#5f249f`    |
+| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | `#666666`    |
+| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | `#f2eafa`    |
+| `titleFocusBorderColor`                     | Header background:focus      | `Hal-Purple-S-38`    | `#5f249f`    |
+| `backgroundColor`                           | Container background         | `Hal-White`          | `#ffffff`    |
+| `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
+| `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
 
-### Keyboard interactions
+## Accessibility
 
-| key | description | 
-| :---         |     :---     |         
-| `Enter or Space`  | When focus is on the accordion header for a collapsed panel, expands the associated panel. If the implementation allows only one panel to be expanded, and if another panel is expanded, collapses that panel. When focus is on the accordion header for an expanded panel, collapses the panel if the implementation supports collapsing. Some implementations require one panel to be expanded at all times and allow only one panel to be expanded; so, they do not support a collapse function.   | 
-| `Tab`  | Moves focus to the next focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
-| `Shift + Tab`  | Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
+
+
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html)
+* Understanding WCAG 2.2 - [SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
+
+### WAI-ARIA 1.2
+
+* WAI-ARIA Authoring Practices 1.2 - [3.1 Accordion (Sections With Show/Hide Functionality)](https://www.w3.org/TR/wai-aria-practices-1.2/#accordion)
+* WAI-ARIA Authoring Practices 1.2 - [Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/examples/accordion/accordion.html)
+
 
 ### Usability known issues
 
 #### Printing 
 Accordions are often not well suited for printing documents and require people to print snippets of content at a time. 
 
-## Design Tokens
-
-| Token | Default value (HEX) | Default value (hsl) |  Calculated value (hsl) |
-| :---         |     :---     |          :--- |         :--- |  
-| `backgroundColor`  | #FFFFFF    |  (0, 0%, 100%)   | | 
-| `fontColor`  |  #666666 |(0, 0%, 40%)|  | 
-| `arrowColor`  |  #5f249f  |(280, 53%, 37%)| | 
-| `hoverBackgroundColor` | #f2eafa |(280, 53%, 95%)| arrowColor (lightness + 53%) | 
-| `disabledFontColor` | #BFBFBF |(0, 0%, 75%)| fontColor (lightness + 35%) | 
-| `focusOutline` | #5f249f |(280, 53%, 37%)| arrowColor | 
-
 ## Related links
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/accordion)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/accordion)
-* [UI-Kit](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit)
 
 ____________________________________________________________
 
