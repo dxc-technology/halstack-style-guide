@@ -144,20 +144,65 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token           | Value (HEX)  |
 | ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
-| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | `#666666`    | 
-| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | `#bfbfbf`    |
-| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | `#5f249f`    |
-| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | `#5f249f`    |
-| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | `#666666`    |
-| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | `#f2eafa`    |
-| `titleFocusBorderColor`                     | Header background:focus      | `Hal-Purple-S-38`    | `#5f249f`    |
-| `backgroundColor`                           | Container background         | `Hal-White`          | `#ffffff`    |
+| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | #000000      | 
+| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | #bfbfbf      |
+| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | #5f249f      |
+| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | #5f249f      |
+| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | #666666      |
+| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | #f2eafa      |
+| `titleFocusBorderColor`                     | Header background:focus      | `Hal-Purple-S-38`    | #5f249f      |
+| `backgroundColor`                           | Container background         | `Hal-White`          | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
 | `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
 
+
+### Typography
+
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `titleLabelFontFamily`                      | Label                        | `type_sans`            | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Label                        | `type_scale_03`        | 16px                      | 
+| `titleLabelFontWeight`                      | Label                        | `type_regular`         | 400                       | 
+| `titleLabelFontStyle`                       | Label                        | `type_normal`          | normal                    | 
+| `assistiveTextFontFamily`                   | Helper text                  | `type_sans`            | 'Open Sans', sans-serif;  |
+| `assistiveTextFontSize`                     | Helper text                  | `type_scale_03`        | 16px                      |
+| `assistiveTextFontWeight`                   | Helper text                  | `type_light`           | 300                       |
+| `assistiveTextFontStyle`                    | Helper text                  | `type_regular`         | italic                    |
+| `assistiveTextLetterSpacing`                | Helper text                  | `type_spacing_wide_01` | 0.025em                   |
+
+### Iconography
+
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `iconSize`                                  | Custom icon/Caret icon       | -                      | 24x24px                   | 
+
+
+
+### Size
+
+| Property                                    | Element                      | Core token           | Value        |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `height`                                    | Header                       | -                    | 48px         | 
+| `min-width`                                 | Accordion container          | -                    | 280px        | 
+
+### Spacing
+
+| Property                                    | Element                      | Core token           | Value        |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `padding-left`                              | Header                       | `spacing-05`         | 16px         | 
+| `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
+| `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |
+| `padding`                                   | Caret icon                   | `spacing-04`         | 12px         | 
+| `margin-right`                              | Caret icon                   | `spacing-04`         | 12px         |
+| `padding`                                   | Custom content               | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] padding](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
+
+### Margin
+
+| Property                                    | Element                      | Core token           | Value        |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `margin`                                   | Accordion container           | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] margin](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
+
 ## Accessibility
-
-
 
 ### WCAG 2.2
 
