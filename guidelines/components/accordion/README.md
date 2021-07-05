@@ -203,11 +203,6 @@ _Component design specifications_
 | `padding`                                   | Caret icon                   | `spacing-04`         | 12px         | 
 | `margin-right`                              | Custom icon                  | `spacing-04`         | 12px         |
 | `padding`                                   | Custom content               | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] padding](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
-
-### Margin
-
-| Property                                    | Element                      | Core token           | Value        |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
 | `margin`                                   | Accordion container           | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] margin](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
 
 ## Accessibility
