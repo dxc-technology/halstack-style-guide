@@ -182,7 +182,8 @@ _Component design specifications_
 | Component token                             | Element                      | Core token             | Value                     |
 | ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
 | `focusBorderStyle`                          | Header outline               | -                      | solid                     | 
-| `focusBorderThickness`                      | Header outline               | -                      | 1px                       | 
+| `focusBorderThickness`                      | Header outline               | -                      | 1px                       |
+| `borderRadius`                              | Accordion container          | -                      | 4px                       | 
 
 
 ### Size
