@@ -31,15 +31,26 @@ The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner
 
 ### Color
 
-| Tokens            | Default value |
-| ----------------- | :-----------: |
-| color             |   `#000000`   |
-| disabledColor     |   `#B1B1B1`   |
-| fontColor         |   `inherit`   |
-| disabledFontColor |   `#B1B1B1`   |
-| focusColor        |   `#005FCC`   |
+#### On-light
 
-\*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
+|   Component token                 |   Element         |   Core token                      |   Value     |
+| --------------------------------- | ----------------- | --------------------------------- | ----------- |
+|   `color`                         |   Radio           |  `Hal-Black`                      |   #000000   |
+|   `focusColor`                    |   Radio:focus     |  `Hal-Blue-S-35`                  |   #0067b3   |
+|   `disabledColor`                 |   Radio:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
+|   `fontColor`                     |   Label           |  `Hal-Black`                      |   #000000   |
+|   `disabledFontColor`             |   Label:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
+
+#### On-dark
+
+|   Component token                 |   Element         |   Core token                      |   Value     |
+| --------------------------------- | ----------------- | --------------------------------- | ----------- |
+|   `colorOnDark`                   |   Radio           |  `Hal-White`                      |   #ffffff   |
+|   `focusColorOnDark`              |   Radio:focus     |  `Hal-Blue-L-50`                  |   #0095ff   |
+|   `disabledColorOnDark`           |   Radio:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
+|   `fontColorOnDark`               |   Label           |  `Hal-White`                      |   #ffffff   |
+|   `disabledFontColorOnDark`       |   Label:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
+
 
 ### Size 
 
