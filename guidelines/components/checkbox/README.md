@@ -38,19 +38,38 @@ Specifications for checkbox are simple. The size of the checkbox should display 
 
 ### Color
 
-| Component Tokens               |   Default value |
-| ------------------------------ | --------------: |
-| backgroundColorChecked         |       `#0067B3` |
-| borderColor                    |       `#0067B3` |
-| checkColor                     |       `#FFFFFF` |
-| fontColor                      | `black/inherit` |
-| disabledBackgroundColorChecked |       `#B1CEE6` |
-| disabledBorderColor            |       `#B1CEE6` |
-| disabledCheckColor             |       `#FFFFFF` |
-| disabledFontColor              |       `#B1B1B1` |
-| focusColor                     |       `#005FCC` |
+#### On-light
 
-\*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the checkbox is unselected. The color will be the same for both scenarios.
+|   Component token                    |   Element                         |   Core token             |   Value     |
+| ------------------------------------ | --------------------------------- | ------------------------ | ------------|
+|   `backgroundColorChecked`           |   Fill                            |   `Hal-Blue-S-35`        |   #0067b3   |
+|   `hoverBackgroundColorChecked`      |   Fill:hover                      |   `Hal-Blue-L-45`        |   #0086e6   |
+|   `disabledBackgroundColorChecked`   |   Fill:disabled                   |   `Hal-Grey-L-75`        |   #bfbfbf   |
+|   `borderColor`                      |   Border                          |   `Hal-Blue-S-35`        |   #0067b3   |
+|   `hoverBorderColor`                 |   Border:hover                    |   `Hal-Blue-L-45`        |   #0086e6   |
+|   `disabledBorderColor`              |   Border:disabled                 |   `Hal-Grey-L-95`        |   #f2f2f2   |
+|   `checkColor`                       |   Check mark                      |   `Hal-White`            |   #ffffff   |
+|   `disabledCheckColor`               |   Check mark:disabled             |   `Hal-White`            |   #ffffff   |
+|   `fontColor`                        |   Label                           |   `Hal-Black`            |   #000000   |
+|   `disabledFontColor`                |   Label:disabled                  |   `Hal-Grey-L-60`        |   #999999   |
+|   `focusColor`                       |   Outline:focus                   |   `Hal-Blue-S-35`        |   #0067b3   |
+
+
+#### On-dark
+
+|   Component token                       |   Element                      |   Core token             |   Value     |
+| --------------------------------------- | ------------------------------ | ------------------------ | ----------- |
+|   `backgroundColorCheckedOnDark`        |   Fill                         |   `Hal-Blue-L-50`        |   #0095ff   |
+|   `hoverBackgroundColorCheckedOnDark`   |   Fill:hover                   |   `Hal-Blue-S-35`        |   #0067b3   |
+|   `disabledBackgroundColorCheckedOnDark`|   Fill:disabled                |   `Hal-Grey-S-40`        |   #666666   |
+|   `borderColorOnDark`                   |   Border                       |   `Hal-Blue-L-50`        |   #0095ff   |
+|   `hoverBorderColorOnDark`              |   Border:hover                 |   `Hal-Blue-S-35`        |   #0067b3   |
+|   `disabledBorderColorOnDark`           |   Border:disabled              |   `Hal-Grey-S-40`        |   #666666   |
+|   `checkColorOnDark`                    |   Check mark                   |   `Hal-White`            |   #ffffff   |
+|   `disabledCheckOnDark`                 |   Check mark:disabled          |   `Hal-White`            |   #ffffff   |
+|   `fontColorOnDark`                     |   Label                        |   `Hal-White`            |   #ffffff   |
+|   `disabledFontColorOnDark`             |   Label:disabled               |   `Hal-Grey-L-40`        |   #666666   |
+|   `focusColorOnDark`                    |   Outline:focus                |   `Hal-Blue-L-50`        |   #0095ff   |
 
 
 ### Margin
