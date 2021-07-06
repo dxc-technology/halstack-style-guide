@@ -22,12 +22,6 @@ Use text inputs in forms to help people enter, select, and search for text. Comm
 
 ## Variants
 
-* Text-input
-* Text-area
-
-![Text-input variants](images/input_variants.png)
-
-_Text-input vatiants_
 
 ## States
 
@@ -62,13 +56,13 @@ Clear actions allow user to remove the content of the text-input.
 
 _Example of a text-input with a clear content action button_
 
-#### Show or hide content
+#### Custom actions
 
-Text-inputs used for password typing should allow the user to show and hide the content. 
+Text-inputs can have ab additional custom action. 
 
 ![Example of a text-input with a show/hide password button](images/input_actions_password.png)
 
-_Example of a text-input with a show/hide password button_
+_Example of a text-input with an additional action_
 
 ### Prefixes and suffixes
 
@@ -78,13 +72,6 @@ Prefixes and suffixes help the user to understando the purpose of the text input
 
 _Icon or text prefixes and suffixes usage_
 
-### Number
-
-Input elements of type number are used to let the user enter a number including built-in validation to reject non-numerical entries.
-
-![Input element of type number example](images/input_number.png)
-
-_Input element of type number example_
 
 ## Design Specifications
 
@@ -267,11 +254,6 @@ Don’t:
 
 * [Angular CDK component]()
 * [React CDK component]()
-* [Adobe XD component]()
-
-_________________________
-
-[Edit this page on GitHub]()
 
 ____________________________________________________________
 
