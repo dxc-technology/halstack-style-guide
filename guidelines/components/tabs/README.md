@@ -145,6 +145,26 @@ _Do not use main navigation if they only affect an specific panel._
 
 ## Specs
 
+### Color
+
+|   Component token                 |   Element                     |   Core token                 |   Value       |
+| --------------------------------- | ----------------------------- | ---------------------------- | ------------- |
+|   `selectedBackgroundColor`       |   Tab item                    |   `Hal-White`                |   #ffffff     |
+|   `unselectedBackgroundColor`     |   Tab item:enabled            |   `Hal-White`                |   #ffffff     |         
+|   `hoverBackgroundColor`          |   Tab item:hover              |   `Hal-Purple-L-95`          |   #f2eafa     |
+|   `pressedBackgroundColor`        |   Tab item:active             |   `Hal-Purple-L-90`          |   #e5d5f6     |
+|   `selectedFontColor`             |   Label                       |   `Hal-Purple-S-38`          |   #5f249f     | 
+|   `unselectedFontColor`           |   Label                       |   `Hal-Grey-S-40`            |   #666666     | 
+|   `disabledFontColor`             |   Label:disabled              |   `Hal-Grey-L-60`            |   #999999     |
+|   `selectedIconColor`             |   Icon                        |   `Hal-Purple-S-38`          |   #5f249f     | 
+|   `unselectedIconColor`           |   Icon                        |   `Hal-Grey-S-40`            |   #666666     |
+|   `disabledIconColor`             |   Icon:disabled               |   `Hal-Grey-L-60`            |   #999999     |
+|   `focusOutline`                  |   Tab item outline            |   `Hal-Purple-S-38`          |   #5f249f     | 
+|   `selectedUnderlineColor`        |   Tab item border botton      |   `Hal-Purple-S-38`          |   #5f249f     | 
+|   `dividerColor`                  |   Separator                   |   `Hal-Grey-L-75`            |   #bfbfbf     |   
+|   `badgeBackgroundColor`          |   Badge container             |   `Hal-Red-S-41`             |   #d0011b     |
+|   `badgeFontColor`                |   Label                       |   `Hal-White`                |   #ffffff     |
+
 ### Min / Max width
 
 ![image](https://user-images.githubusercontent.com/44420072/114735588-a024c280-9d45-11eb-877c-fedadcb645d7.png)
@@ -190,20 +210,7 @@ Content authors need to ensure the content that is added to the tab panel is acc
 | `Right-arrow`  | Moves focus to the next tab. If focus is on the last tab element, moves focus to the first tab. Optionally, activates the newly focused tab    |
 
 
-## Design Tokens
 
-| Token                     | Default value (HEX) | Default value (hsl)  |  Calculated value (hsl)              |
-| :---                      | :---                | :---                 |  :---                                |  
-| `selectedFontColor`       | #5f249f             |                      |                                      | 
-| `selectedIconColor`       | #5f249f             |                      |  selectedFontColor                   | 
-| `selectedUnderlineColor`  | #5f249f             |                      |  selectedFontColor                   | 
-| `backgroundColor`         | #FFFFFF             |                      |                                      | 
-| `fontColor`               | #666666             | (0, 0%, 40%)         |                                      | 
-| `disabledFontColor`       | #BFBFBF             | (0, 0%, 75%)         |  fontColor (lightness + 35%)         | 
-| `focusOutline`            | #5f249f             |                      |  selectedFontColor                   | 
-| `divider`                 | #BFBFBF             |                      |  fontColor (lightness + 35%)         | 
-| `hoverBackgroudColor`     | #f2eafa             | (280, 53%, 95%)      |  selectedFontColor (lightness + 58%) | 
-| `pressedBackgroundColor`  | #e5d5f6             | (280, 53%, 90%)      |  selectedFontColor (lightness + 53%) | 
 
 
 
