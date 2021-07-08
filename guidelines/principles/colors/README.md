@@ -93,6 +93,13 @@ The core Blue family serves as the accent color.
 | `Hal-Yellow-D-30`   | #947705      | (48, 93%, 30%)   |
 
 
+#### Orange
+
+| Name                | Value (HEX)  | Value (hsl)      |
+| :---                | :---         | :---             |
+| `H-Orange-S-54`     | #F38F20      | (32, 90%, 54%)   |
+
+
 
 
 ### Color usage tokens
