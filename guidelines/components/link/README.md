@@ -17,16 +17,33 @@ _Example of the link component states_
 _Design specifications for link component_
 
 ### Color
+### On-light
 
-| Tokens                              | Value       |
-| ---------------------------------   | ----------- |
-| `fontColor`                         |   #005FCC   |
-| `visitedFontColor`                  |   #8800F6   |
-| `underlinedBackgroundColor`         |   #005FCC   |
-| `visitedUnderlinedBackgroundColor`  |   #8800F6   |
-| `disabledColor`                     |   #D9D9D9   |
-| `disabledUnderlinedBackgroundColor` |   #D9D9D9   |
-| `hoverFontColor`                    |   #006BF6   |
+|   Component token                                 |   Element           |   Core token                  |   Value     |
+| ------------------------------------------------- | ------------------- | ----------------------------- | ----------- |
+|   `fontColor`                                     |   Label             |   `Hal-Blue-S-35`             |   #0067b3   |
+|   `hoverFontColor`                                |   Label:hover       |   `Hal-Blue-S-35`             |   #0067b3   |
+|   `activeFontColor`                               |   Label:active      |   `Hal-Black`                 |   #000000   |
+|   `disabledFontColor`                             |   Label:disabled    |   `Hal-Grey-L-60`             |   #999999   |
+|   `visitedFontColor`                              |   Label:visited     |   `Hal-Purple-S-38`           |   #5f249f   |
+|   `hoverUnderlineColor`                           |   Underline:hover   |   `Hal-Blue-S-35`             |   #0067b3   |
+|   `activeUnderlineColor`                          |   Underline:active  |   `Hal-Black`                 |   #000000   |
+|   `visitedUnderlineColor`                         |   Underline:visited |   `Hal-Purple-S-38`           |   #5f249f   |
+|   `focusColor`                                    |   Outline:focus     |   `Hal-Blue-S-35`             |   #0067b3   |
+
+
+### On-dark
+
+|   Component token                                 |   Element            |   Core token                  |   Value     |
+| ------------------------------------------------- | -------------------- | ----------------------------- | ----------- |
+|   `fontColorOnDark`                               |   Label              |   `Hal-Blue-L-50`             |   #0095ff   |
+|   `hoverFontColorOnDark`                          |   Label:hover        |   `Hal-Blue-L-50`             |   #0095ff   |
+|   `activeFontColorOnDark`                         |   Label:active       |   `Hal-White`                 |   #ffffff   |
+|   `disabledFontColorOnDark`                       |   Label:disabled     |   `Hal-Grey-S-40`             |   #666666   |
+|   `visitedFontColorOnDark`                        |   Label:visited      |   `Hal-Purple-S-65`           |   #a46ede   |
+|   `hoverUnderlineColorOnDark`                     |   Underline:hover    |   `Hal-Blue-L-50`             |   #0095ff   |
+|   `visitedUnderlineColorOnDark`                   |   Underline:visited  |   `Hal-Purple-S-65`           |   #a46ede   |
+|   `focusColorOnDark`                              |   Outline:focus      |   `Hal-Blue-L-50`             |   #0095ff   |
 
 ### Margin
 

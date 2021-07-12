@@ -2,7 +2,14 @@
 
 Accordions are used to group similar content and hide or show it depending on user needs or preferences. Accordions give users more granular control over the interface and help digest content in stages, rather than all at once.
 
-![image](https://user-images.githubusercontent.com/44420072/114667152-6a5ceb00-9cff-11eb-8d7a-bbe98463d0b9.png)
+* [Usage](#usage)
+* [Formatting](#formatting)
+   * [Anatomy](#anatomy)
+   * [Placement and alignment](#placement-and-alignment)
+   * [Behavior and interaction](#behavior-and-interaction)
+   * [Content](#content)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
 
 
 ## Usage
@@ -25,14 +32,14 @@ The accordion component delivers large amounts of content in a small space throu
 
 The accordion header can get four different states based on user interaction. States: enabled, hover, focus and disabled
 
-![image](https://user-images.githubusercontent.com/44420072/114667271-90828b00-9cff-11eb-971a-b3aa87544300.png)
+![Accordion states](images/accordion_states.png)
 
 
 ## Formatting
 
 ### Anatomy
 
-![image](https://user-images.githubusercontent.com/44420072/114667360-af811d00-9cff-11eb-91cf-96c8483d036b.png)
+![Accordion anatomy](images/accordion_anatomy.png)
 
 1. Header
 2. Active icon (Optional)
@@ -47,19 +54,25 @@ The accordion header can get four different states based on user interaction. St
 
 Accordions can be placed with main page content or placed inside of a container such as a side panel or tile.
 
-![image](https://user-images.githubusercontent.com/44420072/114667774-30401900-9d00-11eb-90fe-9dec668bfe04.png)
+![Component placement examples](images/accordion_placement.png)
+
+_Component placement examples_
 
 #### Alignment
 
 By default the chevron icon is placed on the end side of the header. This allows for the title on the start side to align with other type elements in the layout.
 
-![image](https://user-images.githubusercontent.com/44420072/114675409-79946680-9d08-11eb-8f9c-569f8f55171b.png)
+![Component elements alignment](images/accordion_alignment.png)
 
 _**Left**. Place chevron icon at the end of the accordion header._
 
 _**Right**. Don’t place caret icon on the left.._
 
 ### Behavior and interaction
+
+![Examples of collapsed vs expanded accordions](images/accordion_behavior.png)
+
+_Examples of collapsed vs expanded accordions_
 
 The accordion component has two main states: collapsed and expanded. The chevron icon at the end of the accordion indicates which state the accordion is in. Accordions begin by default in the collapsed state with all content panels closed. Starting in a collapsed state gives the user a high level overview of the available information.
 
@@ -69,11 +82,9 @@ The accordion component has two main states: collapsed and expanded. The chevron
      * When the panel expands, the chevron icon rotates 180 degrees counterclockwise.
      * When the panel collapses, the chevron icon rotates 180 degrees clockwise.
 
-![image](https://user-images.githubusercontent.com/44420072/114668145-ab093400-9d00-11eb-9d98-9873cfdb5c55.png)
 
-_Examples of collapsed vs expanded accordions._
 
-![image](https://user-images.githubusercontent.com/44420072/114668488-1a7f2380-9d01-11eb-8983-4f31ca9e8b4b.png)
+![Accordion trigger usage](images/accordion_triggers.png)
 
 _**Left**. Trigger collapsed and expanded states when clicking on either 
 the header or icon._
@@ -97,112 +108,125 @@ _When one accordion panel is expanded, the rest of the group should be collapsed
 
 In small devices, extremely long pages are detrimental to the user experience. Collapsing information minimizes excessive scrolling and gives an overview of the structure and content available on the page.
 
-![image](https://user-images.githubusercontent.com/44420072/114674747-d80d1500-9d07-11eb-91ee-62ed4cb53e84.png)
-
-_**Left**. Use 100% of the available screen width._
-
-_**Right**. Mobile accordion expanded._
+* In mobile use 100% of the available screen width.
 
 ### Content
 
 The accordion component can contain other components, images, tables, and every custom feature that can be supported inside the element container.
 
-![image](https://user-images.githubusercontent.com/44420072/114675553-a779ab00-9d08-11eb-9783-fbfc5352db2d.png)
+![Nesting and icon usage examples](images/accordion_content.png)
 
 _**Left**. Nesting is allowed. Use in parent accordion Open Sans Semibold._
 
 _**Right**. Icons can be used as a complement to the header label._
 
-#### Additional information
+#### Helper text
 
-Extra information label can be shown at the end of the accordion header when needed.
+Helper text can be shown at the end of the accordion header when needed.
 
 * Icons and images can not be used.
-* Only add extra information when there is plenty space in the accordion header, in mobile devices is not displayed.
+* Only add a helper text when there is plenty space in the accordion header, in mobile devices is not displayed.
 * Try always to use a descriptive header so is no necessity to add extra information.
-* Additional information content will be truncated 48px before reaching the accordion title. Title display has priority when space is limited.
+* Helper text content will be truncated 48px before reaching the accordion title. Title display has priority when space is limited.
 
-![image](https://user-images.githubusercontent.com/44420072/114675724-dbed6700-9d08-11eb-8f23-6ebc66375214.png)
+![Accordion helper text example](images/accordion_helper_text.png)
+
+_Accordion helper text example_
 
 
+## Design specifications
 
-#### Typography
+![Component design specifications](images/accordion_specs.png)
 
-Different typographic styles can be used to create hierarchy between accordion headers.
+_Component design specifications_
 
-![image](https://user-images.githubusercontent.com/44420072/114675783-edcf0a00-9d08-11eb-97fc-3d127e3f7de4.png)
+### Color
 
-_Use of Open Sans Semibold, Regular and Light Italic to difference between titles, content and additional information._
+| Component token                             | Element                      | Core token           | Value (HEX)  |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | #000000      | 
+| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | #bfbfbf      |
+| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | #5f249f      |
+| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | #5f249f      |
+| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | #666666      |
+| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | #f2eafa      |
+| `focusBorderColor`                          | Header outline:focus         | `Hal-Purple-S-38`    | #5f249f      |
+| `backgroundColor`                           | Container background         | `Hal-White`          | #ffffff      |
+| `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
+| `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
 
-## Specs
 
-### min-width
+### Typography
 
-![image](https://user-images.githubusercontent.com/44420072/114676019-2969d400-9d09-11eb-84be-3a6cc7310e1e.png)
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `titleLabelFontFamily`                      | Label                        | `type_sans`            | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Label                        | `type_scale_03`        | 16px                      | 
+| `titleLabelFontWeight`                      | Label                        | `type_regular`         | 400                       | 
+| `titleLabelFontStyle`                       | Label                        | `type_normal`          | normal                    | 
+| `assistiveTextFontFamily`                   | Helper text                  | `type_sans`            | 'Open Sans', sans-serif;  |
+| `assistiveTextFontSize`                     | Helper text                  | `type_scale_03`        | 16px                      |
+| `assistiveTextFontWeight`                   | Helper text                  | `type_light`           | 300                       |
+| `assistiveTextFontStyle`                    | Helper text                  | `type_regular`         | italic                    |
+| `assistiveTextLetterSpacing`                | Helper text                  | `type_spacing_wide_01` | 0.025em                   |
 
-_Accordion min width._
+### Iconography
 
-### Desktop
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `iconSize`                                  | Custom icon/Caret icon       | -                      | 24x24px                   | 
 
-![image](https://user-images.githubusercontent.com/44420072/114676090-38508680-9d09-11eb-81ed-0cb5f29d250d.png)
 
-_Accordion header with additional information._
+### Border
 
-![image](https://user-images.githubusercontent.com/44420072/114676129-42728500-9d09-11eb-8964-f967248cf0f5.png)
+| Component token                             | Element                      | Core token             | Value                     |
+| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| `focusBorderStyle`                          | Header outline               | -                      | solid                     | 
+| `focusBorderThickness`                      | Header outline               | -                      | 1px                       |
+| `borderRadius`                              | Accordion container          | -                      | 4px                       | 
 
-_Accordion header with icon and additional information._
 
-![image](https://user-images.githubusercontent.com/44420072/114676161-4dc5b080-9d09-11eb-907c-0e8de63317c2.png)
+### Size
 
-_Accordion group._
+| Property                                    | Element                      | Core token           | Value        |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `height`                                    | Header                       | -                    | 48px         | 
+| `min-width`                                 | Accordion container          | -                    | 280px        | 
 
-![image](https://user-images.githubusercontent.com/44420072/114676183-58804580-9d09-11eb-9496-99f2371d7987.png)
+### Spacing
 
-_Nested Accordions._
+| Property                                    | Element                      | Core token           | Value        |
+| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| `padding-left`                              | Header                       | `spacing-05`         | 16px         | 
+| `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
+| `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |
+| `padding`                                   | Caret icon                   | `spacing-04`         | 12px         | 
+| `margin-right`                              | Custom icon                  | `spacing-04`         | 12px         |
+| `padding`                                   | Custom content               | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] padding](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
+| `margin`                                   | Accordion container           | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] margin](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
 
-### Mobile
+## Accessibility
 
-![image](https://user-images.githubusercontent.com/44420072/114676312-76e64100-9d09-11eb-9ba7-76964b93e3ae.png)
+### WCAG 2.2
 
-_Accordion header._
+* Understanding WCAG 2.2 - [SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html)
+* Understanding WCAG 2.2 - [SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
 
-![image](https://user-images.githubusercontent.com/44420072/114676357-82396c80-9d09-11eb-801a-dc05f4b09558.png)
+### WAI-ARIA 1.2
 
-_Accordion group._
+* WAI-ARIA Authoring Practices 1.2 - [3.1 Accordion (Sections With Show/Hide Functionality)](https://www.w3.org/TR/wai-aria-practices-1.2/#accordion)
+* WAI-ARIA Authoring Practices 1.2 - [Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/examples/accordion/accordion.html)
 
-## Accesibility
-
-[W3C WAI-ARIA Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.1/examples/accordion/accordion.html) covers the usage of ARIA names, state and roles.
-
-### Keyboard interactions
-
-| key | description | 
-| :---         |     :---     |         
-| `Enter or Space`  | When focus is on the accordion header for a collapsed panel, expands the associated panel. If the implementation allows only one panel to be expanded, and if another panel is expanded, collapses that panel. When focus is on the accordion header for an expanded panel, collapses the panel if the implementation supports collapsing. Some implementations require one panel to be expanded at all times and allow only one panel to be expanded; so, they do not support a collapse function.   | 
-| `Tab`  | Moves focus to the next focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
-| `Shift + Tab`  | Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page Tab sequence.    |
 
 ### Usability known issues
 
 #### Printing 
 Accordions are often not well suited for printing documents and require people to print snippets of content at a time. 
 
-## Design Tokens
-
-| Token | Default value (HEX) | Default value (hsl) |  Calculated value (hsl) |
-| :---         |     :---     |          :--- |         :--- |  
-| `backgroundColor`  | #FFFFFF    |  (0, 0%, 100%)   | | 
-| `fontColor`  |  #666666 |(0, 0%, 40%)|  | 
-| `arrowColor`  |  #5f249f  |(280, 53%, 37%)| | 
-| `hoverBackgroundColor` | #f2eafa |(280, 53%, 95%)| arrowColor (lightness + 53%) | 
-| `disabledFontColor` | #BFBFBF |(0, 0%, 75%)| fontColor (lightness + 35%) | 
-| `focusOutline` | #5f249f |(280, 53%, 37%)| arrowColor | 
-
 ## Related links
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/accordion)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/accordion)
-* [UI-Kit](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit)
 
 ____________________________________________________________
 
