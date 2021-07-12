@@ -120,19 +120,22 @@ And also apply different values to each side of the component:
 
 #### Interactive
 
-| Property                 | Element          | Token             | Value             |
-| ------------------------ | ---------------- | ----------------- | ----------------- |
-| `outlineHoverColor`      | Outline:hover    | `Hal-Purple-L-60` | `#ab63cf`         |
-| `outlineFocusColor`      | Outline:focus    | `Hal-Purple-L-60` | `#ab63cf`         |
-| `outlineErrorColor`      | Outline:error    | `Hal-Red-S-41`    | `#d0011b`         |
-| `outlineDisabledColor`   | Outline:disabled | `-`               | `-`               |
-| `errorMessageColor`      | Error message    | `Hal-Red-S-41`    | `#d0011b`         |
-| `errorIconColor`         | Error icon       | `Hal-Red-S-41`    | `#d0011b`         |
+| Component token              | Element                     | Token             | Value           |
+| ---------------------------- | --------------------------- | ----------------- | --------------- |
+| `hoverOutlineColor`          | Outline:hover               | `Hal-Purple-L-60` | `#ab63cf`       |
+| `focusOutlineColor`          | Outline:focus               | `Hal-Purple-L-60` | `#ab63cf`       |
+| `errorOutlineColor`          | Outline:error               | `Hal-Red-S-41`    | `#d0011b`       |
+| `outlineDisabledColor`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
+| `errorMessageColor`          | Error message               | `Hal-Red-S-41`    | `#d0011b`       |
+| `errorIconColor`             | Error icon                  | `Hal-Red-S-41`    | `#d0011b`       |
+| `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-L-95`   | `#f2f2f2`       |
+| `disabledLabelColor`         | Label:disabled              | `Hal-Grey-S-60`   | `#999999`       |
+
 
 
 #### Suffix/Prefix
 
-| Property                 | Element          | Token             | Value             |
+| Component token          | Element          | Token             | Value             |
 | ------------------------ | ---------------- | ----------------- | ----------------- |
 | `leadingIconColor`       | Leading icon     | `Hal-Black`       | `#000000`         |
 | `trailingIconColor`      | Trailing icon    | `Hal-Black`       | `#000000`         |
@@ -143,7 +146,7 @@ And also apply different values to each side of the component:
 
 #### Base
 
-| Property                 | Element          | Token             | Value           |
+| Component token          | Element          | Token             | Value           |
 | ------------------------ | ---------------- | ----------------- | --------------- |
 | `labelFontColor`         | Label            | `Hal-White`       | `#ffffff`       |
 | `helperTextFontColor`    | Helper-text      | `Hal-White`       | `#ffffff`       |
@@ -152,19 +155,21 @@ And also apply different values to each side of the component:
 
 #### Interactive
 
-| Property                 | Element          | Token             | Value           |
-| ------------------------ | ---------------- | ----------------- | --------------- |
-| `outlineHoverColor`      | Outline:hover    | `Hal-Purple-L-60` | `#ab63cf`       |
-| `outlineFocusColor`      | Outline:focus    | `Hal-Purple-L-60` | `#ab63cf`       |
-| `outlineErrorColor`      | Outline:error    | `Hal-Red-L-60`    | `#f7344f`       |
-| `outlineDisabledColor`   | Outline:disabled | `-`               | `-`             |
-| `errorMessageColor`      | Error message    | `Hal-Red-L-60`    | `#f7344f`       |
-| `errorIconColor`         | Error icon       | `Hal-Red-L-60`    | `#f7344f`       |
+| Component token              | Element                     | Token             | Value           |
+| ---------------------------- | --------------------------- | ----------------- | --------------- |
+| `hoverOutlineColor`          | Outline:hover               | `Hal-Purple-L-60` | `#ab63cf`       |
+| `focusOutlineColor`          | Outline:focus               | `Hal-Purple-L-60` | `#ab63cf`       |
+| `errorOutlineColor`          | Outline:error               | `Hal-Red-L-60`    | `#f7344f`       |
+| `outlineDisabledColor`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
+| `errorMessageColor`          | Error message               | `Hal-Red-L-60`    | `#f7344f`       |
+| `errorIconColor`             | Error icon                  | `Hal-Red-L-60`    | `#f7344f`       |
+| `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-S-40`   | `#666666`       |
+| `disabledLabelColor`         | Label:disabled              | `Hal-Grey-S-60`   | `#999999`       |
 
 
 #### Suffix/Prefix
 
-| Property                 | Element          | Token             | Value           |
+| Component token          | Element          | Token             | Value           |
 | ------------------------ | ---------------- | ----------------- | --------------- |
 | `leadingIconColor`       | Leading icon     | `Hal-White`       | `#ffffff`       |
 | `trailingIconColor`      | Trailing icon    | `Hal-White`       | `#ffffff`       |
