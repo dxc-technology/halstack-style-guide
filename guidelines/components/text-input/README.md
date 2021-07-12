@@ -198,7 +198,9 @@ And also apply different values to each side of the component:
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
 | `margin-left`   | Action icon     | `spacing-02`      | 0.25rem / 4px   |
 | `margin-right`  | Prefix          | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Prefix divider  | `spacing-03`      | 0.5rem / 8px    |
 | `margin-left`   | Suffix          | `spacing-03`      | 0.5rem / 8px    |
+| `padding-right` | Suffix divider  | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Input container | `spacing-05`      | 1rem / 16px     |
 | `padding-right` | Input container | `spacing-05`      | 1rem / 16px     |
 | `margin-top`    | Input container | `spacing-03`      | 0.5rem / 8px    |
