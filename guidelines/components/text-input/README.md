@@ -174,17 +174,20 @@ And also apply different values to each side of the component:
 
 ### Typography
 
-| Property        | Element        | Token             | Value           |
-| --------------- | -------------- | ----------------- | --------------- |
-| `font-size`     | error message  | `type-scale-01`   | 12px            |
-| `font-size`     | label          | `type-scale-02`   | 14px            |
-| `font-size`     | placeholder    | `type-scale-03`   | 16px            |
-| `font-family`   | error message  | `type-sans`       | Open Sans       |
-| `font-family`   | label          | `type-sans`       | Open Sans       |
-| `font-family`   | placeholder    | `type-sans`       | Open Sans       |
-| `font-weight`   | error message  | `type-regular`    | 400             |
-| `font-weight`   | label          | `type-bold`       | 600             |
-| `font-weight`   | placeholder    | `type-regular`    | 400             |
+| Property        | Element        | Token                   | Value           |
+| --------------- | -------------- | ----------------------- | --------------- |
+| `font-family`   | Label          | `type-sans`             | Open Sans       |
+| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | Label          | `type-bold`             | 600             |
+| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
+| `font-family`   | Placeholder    | `type-sans`             | Open Sans       |
+| `font-size`     | Placeholder    | `type-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Placeholder    | `type-regular`          | 400             |
+| `font-family`   | Error message  | `type-sans`             | Open Sans       |
+| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `type-regular`          | 400             |
+| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
+
 
 
 ### Spacing
@@ -192,21 +195,21 @@ And also apply different values to each side of the component:
 
 | Property        | Element         | Token             | Value           |
 | --------------- | --------------- | ----------------- | --------------- |
-| `margin-top`    | error message   | `spacing-03`      | 8px             |
-| `margin-left`   | error icon      | `spacing-02`      | 4px             |
-| `margin-left`   | action icon     | `spacing-02`      | 4px             |
-| `margin-right`  | prefix          | `spacing-03`      | 8px             |
-| `margin-left`   | suffix          | `spacing-03`      | 8px             |
-| `padding-left`  | input container | `spacing-05`      | 16px            |
-| `padding-right` | input container | `spacing-05`      | 16px            |
-| `margin-top`    | input container | `spacing-03`      | 8px             |
+| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Action icon     | `spacing-02`      | 0.25rem / 4px   |
+| `margin-right`  | Prefix          | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`   | Suffix          | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Input container | `spacing-05`      | 1rem / 16px     |
+| `padding-right` | Input container | `spacing-05`      | 1rem / 16px     |
+| `margin-top`    | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-bottom` | Input container | `spacing-03`      | 0.5rem / 8px    |
 
 ### Border
 
 | Property        | Element               | Token             | Value           |
 | --------------- | --------------------- | ----------------- | --------------- |
-| `border`        | input container       | `-`               | 1px solid       |
-| `border`        | input container:focus | `-`               | 2px solid       |
+| `border`        | Input container       | `-`               | 1px solid       |
+| `box-shadow`    | Input container:focus | `-`               | 1px solid       |
 
 
 
@@ -232,12 +235,13 @@ Don’t:
 
 **Specs**
 
-| Property        | Element        | Token             | Value           |
-| --------------- | -------------- | ----------------- | --------------- |
-| `margin-top`    | helper-text    | `spacing-02`      | 4px             |
-| `font-size`     | helper-text    | `type-scale-01`   | 12px            |
-| `font-family`   | helper-text    | `type-sans`       | Open Sans       |
-| `color`         | helper-text    | `Hal-Black`       | hsl(0, 0%, 0%)  |
+| Property        | Element        | Token                   | Value           |
+| --------------- | -------------- | ----------------------- | --------------- |
+| `margin-top`    | helper-text    | `spacing-02`            | 4px             |
+| `font-size`     | helper-text    | `type-scale-01`         | 12px            |
+| `font-family`   | helper-text    | `type-sans`             | Open Sans       |
+| `line-height`   | Helper text    | `type-leading-normal`   | 1.5em           |
+| `color`         | helper-text    | `Hal-Black`             | hsl(0, 0%, 0%)  |
 
 ## Accessibility
 
