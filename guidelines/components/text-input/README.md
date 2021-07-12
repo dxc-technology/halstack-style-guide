@@ -58,9 +58,9 @@ _Example of a text-input with a clear content action button_
 
 #### Custom actions
 
-Text-inputs can have ab additional custom action. 
+Text-inputs can have an additional custom action. 
 
-![Example of a text-input with a show/hide password button](images/input_actions_password.png)
+![Example of a text-input with an additional action](images/input_actions_custom.png)
 
 _Example of a text-input with an additional action_
 
