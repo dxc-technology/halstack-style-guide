@@ -1,46 +1,46 @@
 # Alert
 
-All web-based product applications are expected to feature the same design and transition standards for message types. Mobile apps will follow guidelines specific to those devices.
+Alert messages are meant to provide contextual feedback about important changes in the interface.
 
-## Appereance
+* [Usage](#usage)
+* [Types](#types)
+* [Variants](#variants)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
 
-The appearance of the alert is conditioned based on the type of alert that the applications wants to show to the user and the type of mode that is chosen to represent it. Starting with the type of alert, in Halstack Design System we have defined the following categories:
+## Usage
 
-### Information
+- Incorporate messages into the application when necessary to keep users informed of important changes.
+- Messages should use positive rhetoric. Avoid using negatives. (e.g. Use “City is required.” instead of “You didn’t enter a city.”)
+- Always use active instead of passive voice.
+- Be concise. Avoid words that plead, belittle or intimidate (i.e. please,wrong, or else)
+- Non-entry of a non-required entry field should never generate an edit message or warning message, nor deny user forward movement.
+- If possible, dialog messages must always display in full without any scroll bar.
+- Dialog messages will retract only when the user closes the dialog or completes through interaction.
 
-Informational messages are used exclusively to assist the user with directional or explanatory text about a complex or seldom used process.
+## Types
 
-![information alert](images/alert_specs_info.png)
+| Name            | Description |
+| --------------- | ----------- |
+| **Information**     | Informational messages are used exclusively to assist the user with directional or explanatory text about a complex or seldom used process |
+| **Warning**         | Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended |
+| **Error**          | Error messages convey a critical system problem that requires user and/or technical intervention to correct |
+| **Success**         | Success messages should be used to assure user that a system calculation or data submission was completed correctly |
 
-### Success
 
-Success messages should be used to assure user that a system calculation or data submission was completed correctly. This type of message should only be used in situations where confirmation is necessary, i.e. final submission of an application. It should not be used to notify the user of every function successfully performed by the system. These only disrupt user workflow and should be evident without continual verification.
 
-![success alert](images/alert_specs_success.png)
+## Variants
 
-### Warning
+There are two different variants for the alert component, each of them should be used according to the information that want to be given to the user, defined in the application level.
 
-Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended or there may be inadequate or incompatible system data that needs to be corrected before continuing. These messages should provide the user with both the problem and the solution needed to continue.
-
-![warning alert](images/alert_specs_warning.png)
-
-### Error
-
-Error messages convey a critical system problem that requires user and/or technical intervention to correct. Error messages should contain a solution to the problem or information on how to proceed if technical assistance is required. When error validation appears, the corresponding field associated with the error will display with a red indicator.
-
-![error alert](images/alert_specs_error.png)
-
-## Modes
-
-There are two different modes for the alert component, each of them should be used according to the information that want to be given to the user, defined in the application level.
-
-Modes: **condensed**, **multiline** 
+Variants: **condensed**, **multiline** 
 
 ### Condensed
 
-In the condensed version, the message is short and concise, avoiding word that plead, belittle or intimidate the user. It is only one line with some information about the actions that took place and the reason of the alert.
+In the condensed variant, the message is short and concise, avoiding word that plead, belittle or intimidate the user. It is only one line with some information about the actions that took place and the reason of the alert.
 
-In this mode the notification should appears in the up right corner of the screen, appearing with an animation from the right side and staying visible for 10 seconds or instead with the click of the user after it dissapears.
+In this variant the notification should appears in the up right corner of the screen, appearing with an animation from the right side and staying visible for 10 seconds or instead with the click of the user after it dissapears.
 
 ![Alert mode for the condensed version](images/alert_mode_condensed.png)
 
@@ -48,38 +48,36 @@ In this mode the notification should appears in the up right corner of the scree
 
 If the message type wants to be displayed in multiple lines because the user needs more information to understand the reason of the alerts and there is an explanaition of how to avoid it, this mode is recommendable.
 
-The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous mode is for this case that the user must interact with the alert message to close it.
+The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous variant is for this case that the user must interact with the alert message to close it.
 
 ![Alert mode for the multiple lines with more information](images/alert_mode_multi.png)
 
 
-## States
-
-Actually the alert component doesn't have states, only the action that is performed when user clicks on the 'X' icon that hiddes the alert message or a clicking in a button, that will behave as the states defined in the button component.
-
-The both actions that alert will get are the one that for some reason appears in the screen and the one that for overtime or by an action of the user the message dissapears from the interface.
-
-## Design tokens
-
-| Tokens       | Default value |
-| ------------ | ------------: |
-| overlayColor |     `#000000` |
-| infoColor    |     `#0C5BA7` |
-| infoBackgroundColor    |     `#E3F2FE` |
-| successColor |     `#239642` |
-| successBackgroundColor |     `#E7F9ED` |
-| warningColor |     `#F5CA38` |
-| warningBackgroundColor |     `#FEF8E3` |
-| errorColor   |     `#C81722` |
-| errorBackgroundColor   |     `#FFE3E6` |
-| focusColor   |     `#005FCC` |
-
-
 ## Design Specifications
 
+![alert specifications](images/alert_specs.png)
+
+### Color
+
+|   Component token               |   Element                     |   Core token                  |   Value       |
+| ------------------------------- | ----------------------------- | ----------------------------- | ------------- |
+|   `infoIconColor`               |   Icon                        |   `Hal-Blue-S-35`             |   `#0067b3`   |
+|   `successIconColor`            |   Icon                        |   `Hal-Green-S-39`            |   `#24a148`   |
+|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
+|   `errorIconColor`              |   Icon                        |   `Hal-Red-S-41`              |   `#d0011b`   |
+|   `infoBackgroundColor`         |   Container background        |   `Hal-Blue-L-95`             |   `#e6f4ff`   |
+|   `successBackgroundColor`      |   Container background        |   `Hal-Green-L-95`            |   `#eafaef`   |
+|   `warningBackgroundColor`      |   Container background        |   `Hal-Yellow-L-95`           |   `#fef9e6`   |
+|   `errorBackgroundColor`        |   Container background        |   `Hal-Red-L-95`              |   `#ffe6e9`   |
+|   `titleFontColor`              |   Label                       |   `Hal-Black`                 |   `#000000`   |
+|   `contentFontColor`            |   Content                     |   `Hal-Black`                 |   `#000000`   |
+|   `focusColor`                  |   Action:focus                |   `Hal-Blue-S-35`             |   `#0067b3`   |
+|   `boxShadowColor`              |   Container                   |   -                           |   `#00000012` |
+|   `overlayColor`                |   Overlay                     |   -                           |   `#000000B3` |
 
 
-### Component width
+
+### Width
 
 The alert component has a property that is customizable depending on the context and the scenario where the component is used. This property defines the size of the alert and it can get multiple values according to the needs of the application.
 
@@ -94,12 +92,6 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | `fillParent`    |  -                   | 
 | `fitContent`  |  -                   | 
 
-
-* _Fill parent_ - It is used when the width will be adapted to the content of the alert itself.
-* _Fit parent_ - This property defines that the alert will expand as much as the width of the parent, so it is directly dependent of the parent where is rendered.
-* _Small_ - A small width for ocassions when the message is short, also applicable in mobile.
-* _Medium_ - It is the average size, this option will fit well in a high percetange of the applications.
-* _Large_ - A largest option to make the alert more visible in the screen and explain in detail what is causing the alert message.
 
 ### Condensed
 
@@ -126,18 +118,9 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | Space between text and icon |             `12px` |
 | Icon size                   |          `24x24px` |
 
-![alert specifications](images/alert_specs.png)
 
+## Accessibility
 
-## User Interface Design Considerations
-
-- Incorporate messages into the application when necessary to keep users informed of important changes.
-- Messages should use positive rhetoric. Avoid using negatives. (e.g. Use “City is required.” instead of “You didn’t enter a city.”)
-- Always use active instead of passive voice.
-- Be concise. Avoid words that plead, belittle or intimidate (i.e. please,wrong, or else)
-- Non-entry of a non-required entry field should never generate an edit message or warning message, nor deny user forward movement.
-- If possible, dialog messages must always display in full without any scroll bar.
-- Dialog messages will retract only when the user closes the dialog or completes through interaction.
 
 ## Links and references
 
