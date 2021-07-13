@@ -29,28 +29,21 @@ Alert messages are meant to provide contextual feedback about important changes 
 | **Success**         | Success messages should be used to assure user that a system calculation or data submission was completed correctly |
 
 
-
 ## Variants
 
-There are two different variants for the alert component, each of them should be used according to the information that want to be given to the user, defined in the application level.
-
-Variants: **condensed**, **multiline** 
-
-### Condensed
-
-In the condensed variant, the message is short and concise, avoiding word that plead, belittle or intimidate the user. It is only one line with some information about the actions that took place and the reason of the alert.
+### Inline
 
 In this variant the notification should appears in the up right corner of the screen, appearing with an animation from the right side and staying visible for 10 seconds or instead with the click of the user after it dissapears.
 
-![Alert mode for the condensed version](images/alert_mode_condensed.png)
+### Modal
 
-### Multi-line
+## Content
 
-If the message type wants to be displayed in multiple lines because the user needs more information to understand the reason of the alerts and there is an explanaition of how to avoid it, this mode is recommendable.
+Depending on the content that need to be displayed, more detailed descriptions can be added to the alert component as children.
 
-The position to be displayed is the same that the condensed one, in the up right corner of the interface. The difference with the previous variant is for this case that the user must interact with the alert message to close it.
+![alert custom content](images/alert_mode_multi.png)
 
-![Alert mode for the multiple lines with more information](images/alert_mode_multi.png)
+
 
 
 ## Design Specifications
