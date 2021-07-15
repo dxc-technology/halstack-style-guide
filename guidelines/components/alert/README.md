@@ -42,17 +42,12 @@ _Context-based alert types_
 1. Icon
 2. Label
 3. Alert message
-4. Description (Optional)
-5. Close action (Optional)
+4. Close action (Optional)
+5. Description (Optional)
 
 ## Content
 
 Depending on the content that need to be displayed, more detailed descriptions can be added to the alert component as children.
-
-![Example of an alert detail description](images/alert_content.png)
-
-_Example of an alert detail description_
-
 
 
 ## Design Specifications
