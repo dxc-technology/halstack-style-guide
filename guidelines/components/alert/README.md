@@ -125,7 +125,7 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 ### WCAG
 
-* Understanding WCAG 2.2 - [SC 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
+* Understanding WCAG 2.2 - [SC 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html)
 
 ### WAI-ARIA
 
@@ -137,7 +137,8 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/8c8ff3dd-9b8e-4b1a-8f84-fc68ac6ff5ef/variables/
+* [React component](https://developer.dxc.com/tools/react/next/#/components/alert)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/alert)
 
 ____________________________________________________________
 
