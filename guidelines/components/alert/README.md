@@ -2,13 +2,6 @@
 
 Alert messages are meant to provide contextual feedback about important changes in the interface.
 
-* [Usage](#usage)
-* [Types](#types)
-* [Variants](#variants)
-* [Design specifications](#design-specifications)
-* [Accessibility](#accessibility)
-* [Links and references](#links-and-references)
-
 ## Usage
 
 - Incorporate messages into the application when necessary to keep users informed of important changes.
@@ -21,8 +14,13 @@ Alert messages are meant to provide contextual feedback about important changes 
 
 ## Types
 
+
+![Context-based alert types](images/alert_types.png)
+
+_Context-based alert types_
+
 | Name            | Description |
-| --------------- | ----------- |
+| --------------- | :----------- |
 | **Information**     | Informational messages are used exclusively to assist the user with directional or explanatory text about a complex or seldom used process |
 | **Warning**         | Alert or warning messages should be displayed when there is a potential obstacle in completing a process as intended |
 | **Error**          | Error messages convey a critical system problem that requires user and/or technical intervention to correct |
@@ -31,18 +29,20 @@ Alert messages are meant to provide contextual feedback about important changes 
 
 ## Variants
 
-### Inline
 
-In this variant the notification should appears in the up right corner of the screen, appearing with an animation from the right side and staying visible for 10 seconds or instead with the click of the user after it dissapears.
+| Name            | Description |
+| --------------- | :----------- |
+| **Inline**     | The notification appears in the up right corner of the screen staying visible for 10 seconds |
+| **Modal**         | The notification appears centered in the screen using an overlay that obscures the content below |
 
-### Modal
 
 ## Content
 
 Depending on the content that need to be displayed, more detailed descriptions can be added to the alert component as children.
 
-![alert custom content](images/alert_mode_multi.png)
+![Example of an alert detail description](images/alert_content.png)
 
+_Example of an alert detail description_
 
 
 
@@ -113,6 +113,13 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 
 ## Accessibility
+
+### WAI-ARIA
+
+WAI-ARIA Authoring practices 1.2 - [3.2 Alert](https://www.w3.org/TR/wai-aria-practices-1.2/#alert) 
+WAI-ARIA Authoring practices 1.2 - [3.3 Alert and Message dialogs](https://www.w3.org/TR/wai-aria-practices-1.2/#alertdialog) 
+WAI-ARIA Authoring practices 1.2 - [Alert design pattern](https://www.w3.org/TR/wai-aria-practices/examples/alert/alert.html)
+WAI-ARIA Authoring practices 1.2 - [Alert Dialog design pattern](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/alertdialog.html)
 
 
 ## Links and references
