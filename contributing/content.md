@@ -65,7 +65,20 @@ The title and sections for every page follow the same syntax across all our docu
 
 ```
 _Example of a component documentation page headings hierarchy_
+
+### Heading anchors
   
+```  
+* [Usage](#usage)
+* [Formatting](#formatting)
+   * [Anatomy](#anatomy)
+   * [Placement and alignment](#placement-and-alignment)
+   * [Behavior and interaction](#behavior-and-interaction)
+   * [Content](#content)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
+```
+
 
 ### Bottom links
 
