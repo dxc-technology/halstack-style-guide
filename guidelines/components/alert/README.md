@@ -66,6 +66,10 @@ Depending on the content that need to be displayed, more detailed descriptions c
 |   `successBackgroundColor`      |   Container background        |   `Hal-Green-L-95`            |   `#eafaef`   |
 |   `warningBackgroundColor`      |   Container background        |   `Hal-Yellow-L-95`           |   `#fef9e6`   |
 |   `errorBackgroundColor`        |   Container background        |   `Hal-Red-L-95`              |   `#ffe6e9`   |
+|   `infoBorderColor`             |   Container border            |   `Hal-Blue-S-35`             |   `#0067b3`   |
+|   `successBorderColor`          |   Container border            |   `Hal-Green-S-39`            |   `#24a148`   |
+|   `warningBorderColor`          |   Container border            |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
+|   `errorBorderColor`            |   Container border            |   `Hal-Red-S-41`              |   `#d0011b`   |
 |   `titleFontColor`              |   Label                       |   `Hal-Black`                 |   `#000000`   |
 |   `contentFontColor`            |   Content                     |   `Hal-Black`                 |   `#000000`   |
 |   `focusColor`                  |   Action:focus                |   `Hal-Blue-S-35`             |   `#0067b3`   |
