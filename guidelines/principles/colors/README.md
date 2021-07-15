@@ -22,10 +22,12 @@ _Core color families and lightness values_
 
 #### Greyscale
 
-| Name                | Value (HEX)  | Value (hsl)      | 
+| Name                | Value (hex)  | Value (hsl)      | 
 | :---                | :---         | :---             |
 | `Hal-White`         | #ffffff      | (0, 0%, 100%)    |
 | `Hal-Grey-L-95`     | #f2f2f2      | (0, 0%, 95%)     |
+| `Hal-Grey-L-90`     | #e6e6e6      | (0, 0%, 90%)     |
+| `Hal-Grey-L-80`     | #cccccc      | (0, 0%, 80%)     |
 | `Hal-Grey-L-75`     | #bfbfbf      | (0, 0%, 75%)     |
 | `Hal-Grey-L-60`     | #999999      | (0, 0%, 60%)     |
 | `Hal-Grey-S-40`     | #666666      | (0, 0%, 40%)     |
@@ -38,10 +40,11 @@ _Core color families and lightness values_
 The core Purple family serves as the primary action color.
 
 
-| Name                | Value (HEX)  | Value (hsl)      | 
+| Name                | Value (hex)  | Value (hsl)      | 
 | :---                | :---         | :---             |
 | `Hal-Purple-L-95`   | #f2eafa      | (269, 63%, 95%)  |
 | `Hal-Purple-L-90`   | #e5d5f6      | (269, 63%, 90%)  |
+| `Hal-Purple-L-65`   | #a46ede      | (269, 63%, 65%)  |
 | `Hal-Purple-S-38`   | #5f249f      | (269, 63%, 38%)  |
 | `Hal-Purple-D-30`   | #4b1c7d      | (269, 63%, 30%)  |
 | `Hal-Purple-D-20`   | #321353      | (269, 63%, 20%)  |
@@ -51,11 +54,12 @@ The core Purple family serves as the primary action color.
 
 The core Blue family serves as the accent color.
 
-| Name                | Value (HEX)  | Value (hsl)      |
+| Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
 | `Hal-Blue-L-95`     | #e6f4ff      | (205, 100%, 95%) |
 | `Hal-Blue-L-80`     | #99d5ff      | (205, 100%, 80%) |
 | `Hal-Blue-L-50`     | #0095ff      | (205, 100%, 50%) |
+| `Hal-Blue-L-45`     | #0086e6      | (205, 100%, 45%) |
 | `Hal-Blue-S-35`     | #0067b3      | (205, 100%, 35%) |
 | `Hal-Blue-D-20`     | #003c66      | (205, 100%, 20%) |
 
@@ -63,17 +67,18 @@ The core Blue family serves as the accent color.
 
 #### Red
 
-| Name                | Value (HEX)  | Value (hsl)      |
+| Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
 | `Hal-Red-L-95`      | #ffe6e9      | (352, 99%, 95%)  |
 | `Hal-Red-L-80`      | #fe9aa7      | (352, 99%, 80%)  |
+| `Hal-Red-L-60`      | #fe344f      | (352, 99%, 60%)  |
 | `Hal-Red-S-41`      | #d0011b      | (352, 99%, 41%)  |
 | `Hal-Red-D-30`      | #980115      | (352, 99%, 30%)  |
 | `Hal-Red-D-20`      | #65010e      | (352, 99%, 20%)  |
 
 #### Green
 
-| Name                | Value (HEX)  | Value (hsl)      |
+| Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
 | `Hal-Green-L-95`    | #eafaef      | (137, 63%, 95%)  |
 | `Hal-Green-L-80`    | #acecbe      | (137, 63%, 80%)  |
@@ -84,13 +89,25 @@ The core Blue family serves as the accent color.
 
 #### Yellow
 
-| Name                | Value (HEX)  | Value (hsl)      |
+| Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
 | `Hal-Yellow-L-95`   | #fef9e6      | (48, 93%, 95%)   |
 | `Hal-Yellow-L-80`   | #fbe89d      | (48, 93%, 80%)   |
 | `Hal-Yellow-S-57`   | #f7cf2b      | (48, 93%, 57%)   |
 | `Hal-Yellow-D-40`   | #c59f07      | (48, 93%, 40%)   |
 | `Hal-Yellow-D-30`   | #947705      | (48, 93%, 30%)   |
+
+#### Orange
+
+| Name                | Value (hex)  | Value (hsl)      |
+| :---                | :---         | :---             |
+| `H-Orange-S-54`     | #f38f20      | (32, 90%, 54%)   |
+
+#### Orange
+
+| Name                | Value (HEX)  | Value (hsl)      |
+| :---                | :---         | :---             |
+| `H-Orange-S-54`     | #F38F20      | (32, 90%, 54%)   |
 
 
 

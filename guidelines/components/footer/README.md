@@ -23,11 +23,13 @@ _Footer component design specs_
 
 ### Color
 
-| Tokens                      |   Value           |
-|-----------------------------|-------------------|
-| `backgroundColor`           |   #000000         |
-| `fontColor`                 |   #ffffff         |
-| `lineColor`                 |   #0095ff         |
+|   Component token                 |   Element             |   Core token                 |   Value      |
+| --------------------------------- | --------------------- | ---------------------------- | ------------ |
+|   `backgroundColor`               |   Footer container    |   `Hal-Black`                |   #000000    |
+|   `bottomLinksDividerColor`       |   Divider             |   `Hal-Blue-L-50`            |   #0095ff    |
+|   `bottomLinksFontColor`          |   Bottom links        |   `Hal-White`                |   #ffffff    |
+|   `copyrightFontColor`            |   Copyright           |   `Hal-White`                |   #ffffff    |
+|   `socialLinksColor`              |   Social icons        |   `Hal-White`                |   #ffffff    |
 
 
 ### Height
