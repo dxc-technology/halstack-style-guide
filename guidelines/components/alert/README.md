@@ -42,17 +42,12 @@ _Context-based alert types_
 1. Icon
 2. Label
 3. Alert message
-4. Description (Optional)
-5. Close action (Optional)
+4. Close action (Optional)
+5. Description (Optional)
 
 ## Content
 
 Depending on the content that need to be displayed, more detailed descriptions can be added to the alert component as children.
-
-![Example of an alert detail description](images/alert_content.png)
-
-_Example of an alert detail description_
-
 
 
 ## Design Specifications
@@ -65,16 +60,19 @@ _Example of an alert detail description_
 | ------------------------------- | ----------------------------- | ----------------------------- | ------------- |
 |   `infoIconColor`               |   Icon                        |   `Hal-Blue-S-35`             |   `#0067b3`   |
 |   `successIconColor`            |   Icon                        |   `Hal-Green-S-39`            |   `#24a148`   |
-|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
+|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-D-40`           |   `#c59f07`   |
 |   `errorIconColor`              |   Icon                        |   `Hal-Red-S-41`              |   `#d0011b`   |
 |   `infoBackgroundColor`         |   Container background        |   `Hal-Blue-L-95`             |   `#e6f4ff`   |
 |   `successBackgroundColor`      |   Container background        |   `Hal-Green-L-95`            |   `#eafaef`   |
 |   `warningBackgroundColor`      |   Container background        |   `Hal-Yellow-L-95`           |   `#fef9e6`   |
 |   `errorBackgroundColor`        |   Container background        |   `Hal-Red-L-95`              |   `#ffe6e9`   |
+|   `infoBorderColor`             |   Container border            |   `Hal-Blue-S-35`             |   `#0067b3`   |
+|   `successBorderColor`          |   Container border            |   `Hal-Green-S-39`            |   `#24a148`   |
+|   `warningBorderColor`          |   Container border            |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
+|   `errorBorderColor`            |   Container border            |   `Hal-Red-S-41`              |   `#d0011b`   |
 |   `titleFontColor`              |   Label                       |   `Hal-Black`                 |   `#000000`   |
 |   `contentFontColor`            |   Content                     |   `Hal-Black`                 |   `#000000`   |
 |   `focusColor`                  |   Action:focus                |   `Hal-Blue-S-35`             |   `#0067b3`   |
-|   `boxShadowColor`              |   Container                   |   -                           |   `#00000012` |
 |   `overlayColor`                |   Overlay                     |   -                           |   `#000000B3` |
 
 
