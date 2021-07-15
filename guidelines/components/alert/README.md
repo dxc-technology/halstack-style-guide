@@ -35,6 +35,15 @@ _Context-based alert types_
 | **Inline**     | The notification appears in the up right corner of the screen staying visible for 10 seconds |
 | **Modal**         | The notification appears centered in the screen using an overlay that obscures the content below |
 
+## Anatomy
+
+![Alert component anatomy](images/alert_anatomy.png)
+
+1. Icon
+2. Label
+3. Alert message
+4. Description (Optional)
+5. Close action (Optional)
 
 ## Content
 
