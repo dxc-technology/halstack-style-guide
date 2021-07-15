@@ -60,7 +60,7 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | ------------------------------- | ----------------------------- | ----------------------------- | ------------- |
 |   `infoIconColor`               |   Icon                        |   `Hal-Blue-S-35`             |   `#0067b3`   |
 |   `successIconColor`            |   Icon                        |   `Hal-Green-S-39`            |   `#24a148`   |
-|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
+|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-D-40`           |   `#c59f07`   |
 |   `errorIconColor`              |   Icon                        |   `Hal-Red-S-41`              |   `#d0011b`   |
 |   `infoBackgroundColor`         |   Container background        |   `Hal-Blue-L-95`             |   `#e6f4ff`   |
 |   `successBackgroundColor`      |   Container background        |   `Hal-Green-L-95`            |   `#eafaef`   |
@@ -73,7 +73,6 @@ Depending on the content that need to be displayed, more detailed descriptions c
 |   `titleFontColor`              |   Label                       |   `Hal-Black`                 |   `#000000`   |
 |   `contentFontColor`            |   Content                     |   `Hal-Black`                 |   `#000000`   |
 |   `focusColor`                  |   Action:focus                |   `Hal-Blue-S-35`             |   `#0067b3`   |
-|   `boxShadowColor`              |   Container                   |   -                           |   `#00000012` |
 |   `overlayColor`                |   Overlay                     |   -                           |   `#000000B3` |
 
 
