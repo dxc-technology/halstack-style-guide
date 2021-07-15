@@ -93,30 +93,41 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | `fitContent`  |  -                   | 
 
 
-### Condensed
+### Typography
 
-| Property                   |              Value |
-| -------------------------- | -----------------: |
-| Padding right/left         |        `12px/12px` |
-| Width                      | `Predefined sizes` |
-| Height                     |             `48px` |
-| Border Radius              |              `4px` |
-| Font size                  |             `12px` |
-| Font weight                |     `Regular/Bold` |
-| Space between text and '-' |              `8px` |
-| Icon size                  |          `24x24px` |
+| Component token                             | Element                      | Core token             | Value                     |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
+| `titleFontFamily`                           | Label                        | `type-sans`            | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Label                        | `type-scale_01`        | 12px                      | 
+| `titleFontWeight`                           | Label                        | `type-bold`            | 600                       | 
+| `contentFontFamily`                         | Content                      | `type-sans`            | 'Open Sans', sans-serif;  |
+| `contentFontSize`                           | Content                      | `type-scale_01`        | 12px                      |
+| `contentFontWeight`                         | Content                      | `type-regular`         | 400                       |
 
-### Multi-line
 
-| Property                    |              Value |
-| --------------------------- | -----------------: |
-| Padding right/left          |             `12px` |
-| Width                       | `Predefined sizes` |
-| Border Radius               |              `4px` |
-| Font size                   |             `12px` |
-| Font weight                 |     `Regular/Bold` |
-| Space between text and icon |             `12px` |
-| Icon size                   |          `24x24px` |
+## Border
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `borderRadius`                              | Container border             | `border-width_01`      | 1px     | 
+| `borderThickness`                           | Container border             | `border-radius_02`     | 4px     |
+
+
+### Spacing
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `containerPaddingLeft`                      | Container                    | `spacing-04`           | 12px    | 
+| `containerPaddingRight`                     | Container                    | `spacing-04`           | 12px    | 
+| `titlePaddingRight`                         | Label                        | `spacing-03`           | 8px     |
+| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 8px     |
+| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 48px    |
+
+### Iconography
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `iconSize`                                  | Icon                         | `-`                    | 24x24px | 
 
 
 ## Accessibility
