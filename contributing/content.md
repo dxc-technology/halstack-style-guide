@@ -4,6 +4,7 @@
 * [Writing content](#writing-content)
 * [Sections](#sections)
     * [Creating hierarchy](#creating-hierarchy)
+    * [Heading anchors](#heading-anchors)
     * [Bottom links](#bottom-links)
 * [Design specifications](#design-specifications)
     * [Spec tables](#spec-tables)
@@ -67,6 +68,11 @@ The title and sections for every page follow the same syntax across all our docu
 _Example of a component documentation page headings hierarchy_
 
 ### Heading anchors
+
+In order to provide a way to navigate through the documentation pages anchor links are used.
+
+* Anchor links are placed after the title of the component and the general description
+* The anchors only should be created for second-level headings (`##`)
   
 ```  
 * [Usage](#usage)
@@ -78,7 +84,7 @@ _Example of a component documentation page headings hierarchy_
 * [Design specifications](#design-specifications)
 * [Accessibility](#accessibility)
 ```
-
+_Example of an anchor links section_
 
 ### Bottom links
 
