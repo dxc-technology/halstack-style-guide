@@ -2,6 +2,9 @@
 
 The autocomplete component, also known as predictive search is an input field that suggests different options to the user based on his input. 
 
+* [States](#states)
+* [Design Specifications](#design-specifications)
+* [Links and references](#links-and-references)
 
 ## States
 
