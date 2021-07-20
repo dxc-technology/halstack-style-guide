@@ -2,9 +2,17 @@
 
 The autocomplete component, also known as predictive search is an input field that suggests different options to the user based on his input. 
 
+* [Usage](#usage)
 * [States](#states)
-* [Design Specifications](#design-specifications)
+* [Design Spuecifications](#design-specifications)
 * [Links and references](#links-and-references)
+
+## Usage
+Consider using this component:
+
+* When the information to fill is complex or large and you want to assist the user with suggestions to make the process easiest and quicker.
+* If the options are a few it would be better to use a select component.
++ Make sure that the error coming from the API is understandable for the user.
 
 ## States
 
@@ -44,15 +52,6 @@ Two modes can be defined for the autocomplete component, based on the result set
 ![Handling the error fetching data in async autocomplete component](images/autocomplete_async.png)
 
 _Handling the error fetching data in async autocomplete component_
-
-
-### User Interface Design Considerations
-
-Consider using this component:
-
-* When the information to fill is complex or large and you want to assist the user with suggestions to make the process easiest and quicker.
-* If the options are a few it would be better to use a select component.
-+ Make sure that the error coming from the API is understandable for the user.
 
 ## Links and references
 
