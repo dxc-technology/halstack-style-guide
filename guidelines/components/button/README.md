@@ -183,7 +183,8 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 
 ## Links and references
 
-- https://github.com/dxc-technology/halstack-style-guide/blob/contribution-content/contributing/content.md#bottom-links
+* [Angular CDK component](https://clicktime.symantec.com/3KG6rdmTz1vDaXhBTFLnHVX7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Fangular%2Fnext%2F%23%2Fcomponents%2Fbutton)
+* [React CDK component](https://clicktime.symantec.com/38Ybc495gf78pcUbWtvBoxs7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Freact%2Fnext%2F%23%2Fcomponents%2Fbutton)
 
 ____________________________________________________________
 
