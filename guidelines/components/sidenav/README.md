@@ -2,12 +2,28 @@
 
 The sidenav component is part of the layout of the application and it makes easier to divide the main screen into two different areas. The main area will have all the content and the sidenav as a secondary element as an index, including links to different resources on the web page.
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Responsive version for mobile and tablet](#responsive-version-for-mobile-and-tablet)
+* [Links and references](#links-and-references)
+
+## Usage
+
+- Use the sidenav element to improve the discoverability of the application, making the navigation links accessible to the users.
+- Keep in mind the type of the devices that you are developing for, and handle the behavior in a way that doesn't block or reduce the available space of the main area in the application
+- Try to follow and order for the sidenav content and make use of hierarchy to differentiate between a title and a link
+
+
 ## Appearance
 
 This component looks like a container that is rendered in the left side of the application, different content can be placed within the container but the main aim of it is to serve as a guide with links to the subject treated in the main page.
 A grey background defines the area which the sidenav occupies and there is an arrow that allows the user to hide or show the component on the screen. Anyway, there are able some configurations to have or not the arrow as a handler to control the visibility of the component, so in the case that the arrow won't be displayed, the component will be fixed in the screen.
 
-### Modes
+
+## Modes
 
 Two different modes can be set in the element, according to the needs of the application and the relation between the main content and the sidenav.
 The modes for the components are **overlay** and **push**.
@@ -16,6 +32,7 @@ The first mode, as the name is indicating, works as an overlay, leaving some con
 If the selection is the push mode, this allows us to have boths content visible in the screen, not hiding information at any time but with the constraint that the main area has to manage the content because the overall space will reduce the width of the sidenav element.
 
 ![Sidenav modes](images/sidenav_modes.png)
+
 
 ## States
 
@@ -28,7 +45,8 @@ The main difference in the static mode is that the arrow is removed from the com
 
 ![Sidenav states](images/sidenav_states.png)
 
-## Design specs
+
+## Design specifications
 
 ### Color
 
@@ -112,11 +130,6 @@ Some properties regarding width vary, the details are indicated in the table bel
 
 ![Sidenav responsive](images/sidenav_responsive.png)
 
-## User Interface Design Considerations
-
-- Use the sidenav element to improve the discoverability of the application, making the navigation links accessible to the users.
-- Keep in mind the type of the devices that you are developing for, and handle the behavior in a way that doesn't block or reduce the available space of the main area in the application
-- Try to follow and order for the sidenav content and make use of hierarchy to differentiate between a title and a link
 
 ## Links and references
 
