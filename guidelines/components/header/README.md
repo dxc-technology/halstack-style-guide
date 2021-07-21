@@ -1,8 +1,39 @@
 # Header
 
 The header is an important component in the interface, it is the area dedicated for the navigation across the application and helps users understand what the content of the page is about. They appear at the top of a page, above the main content.
-## Anatomy
 
+* [Usage](#usage)
+* [Content](#content)
+* [Responsive version for mobile and tablet](#responsive-version-for-mobile-and-tablet)
+* [Anatomy](#anatomy)
+* [Variants](#variants)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Try to avoid to place a large number of items inside the content area.
+- Avoid increasing the header height.
+
+
+## Content
+
+* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
+* Halstack components placed as a children should follow their respective guidelines.
+* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
+
+
+## Responsive version for mobile and tablet
+
+Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device. The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
+
+![Header menu responsive version](images/header_responsive_menu.png)
+
+_Header menu responsive version_
+
+
+## Anatomy
 
 * **Brand**: In this area should be placed the company logo, it will go on the left side of the header.
 
@@ -18,6 +49,7 @@ The header is an important component in the interface, it is the area dedicated 
 
 _Header distribution example_
 
+
 ## Variants
 
 Following the convention of the variants that can be found in a component, two main variants are defined for the header.
@@ -26,7 +58,6 @@ Variants: **basic** and **underlined**.
 ![Header component variants](images/header_variants.png)
 
 _Header component variants_
-
 
 
 ## Design Specifications
@@ -48,14 +79,12 @@ _Header design specifications_
 | `overlayColor`         |    #565656     |
 | `focusColor`           |    #005FCC     |
 
-
 ### Size
 
 | Property                                 | Value    |
 | ---------------------------------------- | -------- |
 | `height`                                 |   64px   |
 | `width`                                  |   100%   |
-
 
 ### Margin
 
@@ -87,28 +116,6 @@ padding | value
 
 Different values can be applied to each side of the component:
 `top` `bottom` `left` `right`
-
-
-## Content
-
-* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
-* Halstack components placed as a children should follow their respective guidelines.
-* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
-
-
-## Responsive version for mobile and tablet
-
-Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device. The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
-
-![Header menu responsive version](images/header_responsive_menu.png)
-
-_Header menu responsive version_
-
-
-## User Interface Design Considerations
-
-- Try to avoid to place a large number of items inside the content area.
-- Avoid increasing the header height.
 
 
 ## Links and references
