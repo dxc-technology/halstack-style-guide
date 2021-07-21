@@ -7,6 +7,22 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 * Labelling should be concise and clearly differentiated with respect to other options.
 * By default, one option of the radio group must be pre-selected. Select the safest or convinient option.
 
+* [Usage](#usage)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Stack](#stack)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Unless a selection is mandatory, a user should be able to re-click a radio button to deselect.
+- Single radio buttons should not be used.
+- Use radio buttons on wizard pages to make alternatives clear to the user.
+- If the question that the user needs to responde is as easier as yes/no, it is recommended to use checkbox instead of radio button.
+
 
 ## Modes
 
@@ -14,6 +30,7 @@ Selected mode must be used when the user select an option or by default the valu
 
 Modes: **selected** or **unselected**.
 ![Radio button modes](images/radio_modes.png)
+
 
 ## States
 
@@ -31,26 +48,15 @@ The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner
 
 ### Color
 
-#### On-light
+| Tokens            | Default value |
+| ----------------- | :-----------: |
+| color             |   `#000000`   |
+| disabledColor     |   `#B1B1B1`   |
+| fontColor         |   `inherit`   |
+| disabledFontColor |   `#B1B1B1`   |
+| focusColor        |   `#005FCC`   |
 
-|   Component token                 |   Element         |   Core token                      |   Value     |
-| --------------------------------- | ----------------- | --------------------------------- | ----------- |
-|   `color`                         |   Radio           |  `Hal-Black`                      |   #000000   |
-|   `focusColor`                    |   Radio:focus     |  `Hal-Blue-S-35`                  |   #0067b3   |
-|   `disabledColor`                 |   Radio:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
-|   `fontColor`                     |   Label           |  `Hal-Black`                      |   #000000   |
-|   `disabledFontColor`             |   Label:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
-
-#### On-dark
-
-|   Component token                 |   Element         |   Core token                      |   Value     |
-| --------------------------------- | ----------------- | --------------------------------- | ----------- |
-|   `colorOnDark`                   |   Radio           |  `Hal-White`                      |   #ffffff   |
-|   `focusColorOnDark`              |   Radio:focus     |  `Hal-Blue-L-50`                  |   #0095ff   |
-|   `disabledColorOnDark`           |   Radio:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
-|   `fontColorOnDark`               |   Label           |  `Hal-White`                      |   #ffffff   |
-|   `disabledFontColorOnDark`       |   Label:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
-
+\*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the radio is unselected. The color will be the same for both scenarios.
 
 ### Size 
 
@@ -90,7 +96,6 @@ margin | value
 | `border-width`        | focus outline | 2px       | -                |
 
 
-
 ## Stack
 
 Radio buttons may be displayed vertically or horizontally stacked.
@@ -102,12 +107,12 @@ Radio buttons may be displayed vertically or horizontally stacked.
 Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read.
 With this option, try to make one choice per line. Also, avoid nesting whenever is possible, all options should be keep at same level to not generate confusion.
 
-
 ### Horizontal stacking
 
 Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize, sometime a vertical position could be better.
 
 In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
+
 
 ## Accessibility
 
@@ -137,15 +142,6 @@ In any case, in the specification it is specified the ideal distance between com
 * The radiogroup element has a visible label referenced by `aria-labelledby` or has a label specified with `aria-label`.
 * If elements providing additional information about either the radio group or each radio button are present, those elements are referenced by the radiogroup element or radio elements with the `aria-describedby` property.
 
-
-
-
-## User Interface Design Considerations
-
-- Unless a selection is mandatory, a user should be able to re-click a radio button to deselect.
-- Single radio buttons should not be used.
-- Use radio buttons on wizard pages to make alternatives clear to the user.
-- If the question that the user needs to responde is as easier as yes/no, it is recommended to use checkbox instead of radio button.
 
 ## Links and references
 
