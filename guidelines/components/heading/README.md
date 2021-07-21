@@ -1,6 +1,14 @@
 # Heading
 
 Heading component is an essential element that contributes to define a great hierarchy within the application. It helps to give semantic meaning to the content as well as contributing to define a good structure for SEO (search engine optimization). The implementation will rely on the use of HTML tags.
+
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
 ## Usage
 
 Navigating through the `Headings-H1` and `Headings-H3` give a user an overview of a page and how its content is structured. The `Headings-H4` and `Headings-H5` elements provide a quick understanding of the details in each section.
@@ -25,17 +33,20 @@ The Open Sans typeface has 5 different weights, from light to extra-bold but Hal
 
 There are several scenarios where the use of heading is just right when we are talking about the title for a section, header of a table, a definition of the elements that will appear below the title or an introduction for a paragraph. 
 
-Apart from that, many of the design system components are making use of headings in their implementation (e.g., card, dialog, sidenav and so on). 
+Apart from that, many of the design system components are making use of headings in their implementation (e.g., card, dialog, sidenav and so on).
 
-## Design tokens
 
-### Color
+## Design specifications
+
+### Design tokens
+
+#### Color
 
 An inherit color from the definition of the application is received, so the component could change his color based on that parameter. There is no specific color tokens for this component.
 
-### Typography
+#### Typography
 
-#### Hal-Headings-H1
+##### Hal-Headings-H1
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
@@ -47,7 +58,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    | -12.5px / -0.0125em      | `type-spacing-tight-01`          | 
 | `line-height`       |  81.9px/  1.365em       | `type-leading-compact-01`          |
 
-#### Hal-Headings-H2
+##### Hal-Headings-H2
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
@@ -59,7 +70,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
 | `line-height`       | 65.52px / 1.365em          | `type-leading-compact-01`          | 
 
-#### Hal-Headings-H3
+##### Hal-Headings-H3
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
@@ -71,7 +82,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
 | `line-height`       | 48px / 1.5em          | `type-leading-normal`          | 
 
-#### Hal-Headings-H4
+##### Hal-Headings-H4
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
@@ -83,7 +94,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
 | `line-height`       | 36px / 1.5em          | `type-leading-normal`          | 
 
-#### Hal-Headings-H5
+##### Hal-Headings-H5
 
 | Property            | Value                     | Token        | 
 | :---                | :---                      | :---         |  
@@ -94,7 +105,6 @@ An inherit color from the definition of the application is received, so the comp
 | `text-transform`    | initial             |           | 
 | `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
 | `line-height`       | 30px / 1.5em          | `type-leading-normal`          | 
-
 
 
 ## Accesibility
