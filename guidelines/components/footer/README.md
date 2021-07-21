@@ -6,99 +6,20 @@ _Footer component example_
 
 Footers are a secondary element in a web page because they usually appear at the bottom and it is the last thing that the user interacts with. But the presence of the footer must be designed in every application and be part of it (consumer or back-office) as it is a key layout element to the overall experience. Is a choice of the designer to either leave the footer visible by default or push it down, depending on the use case.
 
-## Appereance
-
-This area can contain a variety of things depending on the application and two approaches are followed to use a footer element.
-
-- The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
-- The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
-
-
-## Design specifications
+* [Usage](#usage)
+* [Content](#content)
+* [Responsive version for mobile and tablet](#responsive-version-for-mobile-and-tablet)
+* [Appereance](#usage)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
 
 
-![Footer component design specs](images/footer_specs.png)
+## Usage
 
-_Footer component design specs_
-
-### Color
-
-|   Component token                 |   Element             |   Core token                 |   Value      |
-| --------------------------------- | --------------------- | ---------------------------- | ------------ |
-|   `backgroundColor`               |   Footer container    |   `Hal-Black`                |   #000000    |
-|   `bottomLinksDividerColor`       |   Divider             |   `Hal-Blue-L-50`            |   #0095ff    |
-|   `bottomLinksFontColor`          |   Bottom links        |   `Hal-White`                |   #ffffff    |
-|   `copyrightFontColor`            |   Copyright           |   `Hal-White`                |   #ffffff    |
-|   `socialLinksColor`              |   Social icons        |   `Hal-White`                |   #ffffff    |
-
-
-### Height
-
-|  Property         |   Value   |
-| ----------------- | --------- |
-|  `min-height`     |   124px   |
-
-
-### Margin-top
-
-| Margin      |   Value   |
-| ----------- | --------- |
-| `xxsmall`   |   6px     |
-| `xsmall`    |   16px    |
-| `small`     |   24px    |
-| `medium`    |   36px    |
-| `large`     |   48px    |
-| `xlarge`    |   64px    |
-| `xxlarge`   |   100px   |
-
-### Padding
-
-| Property          |   Value   |
-| ----------------- | --------- |
-| `padding-top`	    |   24px    |
-| `padding-right`	  |   36px    |
-| `padding-bottom`  |   24px    |
-| `padding-left`	  |   36px    |
-
-
-### Typography
-
-| Property      |   Element                 |  Value          |
-| ------------- | ------------------------- | --------------- |
-| `font-size`	  |   Titles      	          |  1rem/16px      |
-| `font-size`   |   Links   	              |  0.875rem/14px  |
-| `font-size`   |   Copy-write              |  0.75rem/12px   |
-| `font-size`   |   Terms & company links   |  0.75rem/12px   |
-| `font-weight`	|   Titles      	          |  600            |
-| `font-weight`	|   Links	                  |  400            |
-
-
-### Iconography
-
-| Property          |   Element             |  Value      |
-| ----------------- | --------------------- | ----------- |
-| `height`/ `width`	|   Social media icons  |   24/24px   |
-
-
-### DXC Logo
-
-
-| Property      |   Element     |  Value    |
-| ------------- | ------------- | --------- |
-| `max-height`  |   DXC logo    |   32px    |
-
-
-### Custom container - (Terms & Company Links)
-
-| Property        |   Element     	    |   Value   		        |
-| --------------- | ------------------- | --------------------- |
-| `min-height`   	|   Custom container	|   16px    		        |
-| `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   8px     		        |
-| `border`	      |   Links separator	  |   1px solid #1489fb	  |
-
-
-The content of the footer should be adapt to the space available depending on the screen device.
+- The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
+- The footer frame should span the entire screen width.
+- The footer frame should display the copyright information at the right margin.
+- We recommend uploading either an alternate version or a smaller brand image than the used in the header. If the company has an alternate version of the logo, isotype, imagotype or isologo available, we encourage to use it. In the opposite case a smaller version of the main brand image can be used.
 
 ## Content
 
@@ -136,12 +57,89 @@ Regarding his behavior, the footer must be pushed down always so it is not visib
 On the mobile version, first we have the logo. Below it the links to privacy and terms to let a space for custom component and at the bottom the copyright terms, centered.
 At this stage, the custom content and the disposition is responsability of the user, the same way as it is in the desktop and tablet version.
 
-### User Interface Design Considerations
 
-- The footer frame should be docked at the bottom of the page and should not scroll with any of the data within working section of the screen.
-- The footer frame should span the entire screen width.
-- The footer frame should display the copyright information at the right margin.
-- We recommend uploading either an alternate version or a smaller brand image than the used in the header. If the company has an alternate version of the logo, isotype, imagotype or isologo available, we encourage to use it. In the opposite case a smaller version of the main brand image can be used.
+## Appereance
+
+This area can contain a variety of things depending on the application and two approaches are followed to use a footer element.
+
+- The first reason is that users scan or read the page and they don't find what they are looking for or need more detail regarding some information.
+- The second reason is that the user already has a conception of the footer, and the default action in the flow is to scroll down to the footer to find useful information.
+
+
+## Design specifications
+
+![Footer component design specs](images/footer_specs.png)
+
+_Footer component design specs_
+
+### Color
+
+| Tokens                      |   Value           |
+|-----------------------------|-------------------|
+| `backgroundColor`           |   #000000         |
+| `fontColor`                 |   #ffffff         |
+| `lineColor`                 |   #0095ff         |
+
+### Height
+
+|  Property         |   Value   |
+| ----------------- | --------- |
+|  `min-height`     |   124px   |
+
+### Margin-top
+
+| Margin      |   Value   |
+| ----------- | --------- |
+| `xxsmall`   |   6px     |
+| `xsmall`    |   16px    |
+| `small`     |   24px    |
+| `medium`    |   36px    |
+| `large`     |   48px    |
+| `xlarge`    |   64px    |
+| `xxlarge`   |   100px   |
+
+### Padding
+
+| Property          |   Value   |
+| ----------------- | --------- |
+| `padding-top`	    |   24px    |
+| `padding-right`	  |   36px    |
+| `padding-bottom`  |   24px    |
+| `padding-left`	  |   36px    |
+
+### Typography
+
+| Property      |   Element                 |  Value          |
+| ------------- | ------------------------- | --------------- |
+| `font-size`	  |   Titles      	          |  1rem/16px      |
+| `font-size`   |   Links   	              |  0.875rem/14px  |
+| `font-size`   |   Copy-write              |  0.75rem/12px   |
+| `font-size`   |   Terms & company links   |  0.75rem/12px   |
+| `font-weight`	|   Titles      	          |  600            |
+| `font-weight`	|   Links	                  |  400            |
+
+### Iconography
+
+| Property          |   Element             |  Value      |
+| ----------------- | --------------------- | ----------- |
+| `height`/ `width`	|   Social media icons  |   24/24px   |
+
+### DXC Logo
+
+| Property      |   Element     |  Value    |
+| ------------- | ------------- | --------- |
+| `max-height`  |   DXC logo    |   32px    |
+
+### Custom container - (Terms & Company Links)
+
+| Property        |   Element     	    |   Value   		        |
+| --------------- | ------------------- | --------------------- |
+| `min-height`   	|   Custom container	|   16px    		        |
+| `min-height`	  |   Links container	  |   20px    		        |
+| `padding-top`   |   Links container	  |   8px     		        |
+| `border`	      |   Links separator	  |   1px solid #1489fb	  |
+
+The content of the footer should be adapt to the space available depending on the screen device.
 
 
 ## Links and references
