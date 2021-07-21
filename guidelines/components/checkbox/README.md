@@ -4,25 +4,35 @@ Checkboxes are inputs that offer to the user the possibility to select one or mo
 
 The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
 
-## Appereance
+
+* [Usage](#usage)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Stack](#stack)
+* [Required](#required)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
+## Usage
 
 A checkbox has a toggle mode so every checkbox component in the application remaining the same visually. It inherits colors from the definition of the theme, using primary color as the text content of the checkbox and accent color as a background of the box.
 
-### Modes
+
+## Modes
 
 As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included or unselected when the option should not be included. These options are mapping accordingly with the boolean values true and false.
 Modes: **selected** or **unselected**.
 
 ![Checkbox modes](images/checkbox_modes.png)
 
-### States
+
+## States
 
 The following states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**.
 
 ![Checkbox states](images/checkbox_states.png)
-
-
-
 
 
 ## Design Specifications
@@ -33,43 +43,23 @@ Specifications for checkbox are simple. The size of the checkbox should display 
 - Checkbox with left-positioned label
 - Checkbox with right-positioned label
 
-
 ![Checkbox specs](images/checkbox_specs.png)
 
 ### Color
 
-#### On-light
+| Component Tokens               |   Default value |
+| ------------------------------ | --------------: |
+| backgroundColorChecked         |       `#0067B3` |
+| borderColor                    |       `#0067B3` |
+| checkColor                     |       `#FFFFFF` |
+| fontColor                      | `black/inherit` |
+| disabledBackgroundColorChecked |       `#B1CEE6` |
+| disabledBorderColor            |       `#B1CEE6` |
+| disabledCheckColor             |       `#FFFFFF` |
+| disabledFontColor              |       `#B1B1B1` |
+| focusColor                     |       `#005FCC` |
 
-|   Component token                    |   Element                         |   Core token             |   Value     |
-| ------------------------------------ | --------------------------------- | ------------------------ | ------------|
-|   `backgroundColorChecked`           |   Fill                            |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `hoverBackgroundColorChecked`      |   Fill:hover                      |   `Hal-Blue-L-45`        |   #0086e6   |
-|   `disabledBackgroundColorChecked`   |   Fill:disabled                   |   `Hal-Grey-L-75`        |   #bfbfbf   |
-|   `borderColor`                      |   Border                          |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `hoverBorderColor`                 |   Border:hover                    |   `Hal-Blue-L-45`        |   #0086e6   |
-|   `disabledBorderColor`              |   Border:disabled                 |   `Hal-Grey-L-95`        |   #f2f2f2   |
-|   `checkColor`                       |   Check mark                      |   `Hal-White`            |   #ffffff   |
-|   `disabledCheckColor`               |   Check mark:disabled             |   `Hal-White`            |   #ffffff   |
-|   `fontColor`                        |   Label                           |   `Hal-Black`            |   #000000   |
-|   `disabledFontColor`                |   Label:disabled                  |   `Hal-Grey-L-60`        |   #999999   |
-|   `focusColor`                       |   Outline:focus                   |   `Hal-Blue-S-35`        |   #0067b3   |
-
-
-#### On-dark
-
-|   Component token                       |   Element                      |   Core token             |   Value     |
-| --------------------------------------- | ------------------------------ | ------------------------ | ----------- |
-|   `backgroundColorCheckedOnDark`        |   Fill                         |   `Hal-Blue-L-50`        |   #0095ff   |
-|   `hoverBackgroundColorCheckedOnDark`   |   Fill:hover                   |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `disabledBackgroundColorCheckedOnDark`|   Fill:disabled                |   `Hal-Grey-S-40`        |   #666666   |
-|   `borderColorOnDark`                   |   Border                       |   `Hal-Blue-L-50`        |   #0095ff   |
-|   `hoverBorderColorOnDark`              |   Border:hover                 |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `disabledBorderColorOnDark`           |   Border:disabled              |   `Hal-Grey-S-40`        |   #666666   |
-|   `checkColorOnDark`                    |   Check mark                   |   `Hal-White`            |   #ffffff   |
-|   `disabledCheckOnDark`                 |   Check mark:disabled          |   `Hal-White`            |   #ffffff   |
-|   `fontColorOnDark`                     |   Label                        |   `Hal-White`            |   #ffffff   |
-|   `disabledFontColorOnDark`             |   Label:disabled               |   `Hal-Grey-L-40`        |   #666666   |
-|   `focusColorOnDark`                    |   Outline:focus                |   `Hal-Blue-L-50`        |   #0095ff   |
+\*There is a relation between the _backgroundColor_ of the component and the _borderColor_ in the case that the checkbox is unselected. The color will be the same for both scenarios.
 
 
 ### Margin
@@ -125,6 +115,7 @@ The representation of a required checkbox is a colored asterisk right before the
 
 ![Checkbox design required field](images/checkbox_required.png)
 
+
 ## Accessibility
 
 ### WCAG 2.2
@@ -149,6 +140,7 @@ The representation of a required checkbox is a colored asterisk right before the
 aria-label set on the element with role checkbox.
 When checked, the checkbox element has state aria-checked set to true.
 When not checked, it has state aria-checked set to false.
+
 
 ## Links and references
 
