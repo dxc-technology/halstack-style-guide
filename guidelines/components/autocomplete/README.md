@@ -2,6 +2,20 @@
 
 The autocomplete component, also known as predictive search is an input field that suggests different options to the user based on his input. 
 
+* [Usage](#usage)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+Consider using this component:
+
+* When the information to fill is complex or large and you want to assist the user with suggestions to make the process easiest and quicker.
+* If the options are a few it would be better to use a select component.
++ Make sure that the error coming from the API is understandable for the user.
+
 
 ## States
 
@@ -20,7 +34,6 @@ _Autocomplete specifications_
 
 The specifications for the autocomplete input can be found in the [text-input specs](https://developer.dxc.com/design/guidelines/components/text-input), the option list can be cheked in [the select documentation](https://developer.dxc.com/design/guidelines/components/select)
 
-
 ### Required and helper text
 
 * A required empty select should show an error message when submitted.
@@ -37,19 +50,10 @@ Two modes can be defined for the autocomplete component, based on the result set
 * **Synchronous**: if all the result set is on the application side, the synchronous mode is the one used.
 * **Asynchronous**: if the application needs to interact with the APIs in every action of the user the mode will be asynchronous.
 
-
 ![Handling the error fetching data in async autocomplete component](images/autocomplete_async.png)
 
 _Handling the error fetching data in async autocomplete component_
 
-
-### User Interface Design Considerations
-
-Consider using this component:
-
-* When the information to fill is complex or large and you want to assist the user with suggestions to make the process easiest and quicker.
-* If the options are a few it would be better to use a select component.
-+ Make sure that the error coming from the API is understandable for the user.
 
 ## Links and references
 
