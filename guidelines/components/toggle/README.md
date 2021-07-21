@@ -3,6 +3,18 @@
 Toggle buttons can be used to put together related options that share a common attribute modification.
 It allows the user to switch from one selected option to another in the same control, having one option selected at a time. Also, there can be another variation that allows selecting multiple options from the current toggle group.
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+## Usage
+
+Toggles should be used in place of radio buttons whenever the options are
+- Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required
+- Opposites of each other
 
 ## Appearance
 
@@ -21,7 +33,10 @@ __Enabled__, __Hover__, __selected__ and __disabled__.
 
 ![Toggle states](images/toggle_states.png)
 
-## Design tokens
+
+## Design Specifications
+
+### Design tokens
 
 | Token          | Value|
 |--------------------|------|
@@ -38,12 +53,7 @@ __Enabled__, __Hover__, __selected__ and __disabled__.
 | `disabledUnselectedBackgroundColor` | #F2F2F2 |
 | `disabledUnselectedFontColor` | #B1B1B1 |
 
-
-
-## Design Specifications
-
 ![Toggle specifications](images/toggle_specs.png)
-
 
 ### Size
 
@@ -66,15 +76,12 @@ margin | value
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-
 ### Padding
 
 Padding | value
 -- | --
 | `padding` right/left (item)| 30px |
 | `padding` top/bottom (item)| 12px |
-
-
 
 ### Border
 
@@ -90,7 +97,7 @@ Padding | value
 | `font-size`| 14px |
 | `font-weight`| Regular |
 
-## Icon Usage
+### Icon Usage
 
 Inside the toggle button, it is possible to use icons to represent recognizable actions.
 The specifications for icon usage differs a little bit in relation to text usage.
@@ -99,12 +106,6 @@ The size of the icons should be 20 by 20 pixels, it must be centered respecting 
 The ideal padding for each option is 10 pixels for top and bottom and 12 pixels to right and left sides.
 
 The behavior in regard to colors and interactions are the same that for the previous.
-
-## User Interface Design Considerations
-
-Toggles should be used in place of radio buttons whenever the options are
-- Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required
-- Opposites of each other
 
 
 ## Links and references
