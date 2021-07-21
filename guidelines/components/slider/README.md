@@ -2,11 +2,30 @@
 
 Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore the multiple options swiftly.
 
+* [Usage](#usage)
+* [Appereance](#appereance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+## Usage
+
+- Visualize the output of the slider as feedback to the user of the current state.
+- As more information can give it to the user, the easier the selection will be.
+- If the value has to be specific, give some resource to the user to fill a precise input, i.e. an input next to the slider.
+
+To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
+
+![Slider variation for special cases](images/slider_special.png)
+
+
 ## Appereance
 
 The appearance of the component is not that complex, it is represented most of the time with a line where are mapped all the values that can be selected. Apart from that, it is needed a control to move it side by side to pick a specific value fron the range.
 
-### Modes
+
+## Modes
 
 Three modes are available for a slider control.
 
@@ -17,7 +36,8 @@ Modes: **discrete** or **continuos**.
 
 ![Slider modes](images/slider_modes.png)
 
-### States
+
+## States
 
 Seven different states are defined in the life cycle of the component: **enabled**, **disabled**, **hovered**, **focused** and **dragged**.
 
@@ -25,18 +45,6 @@ Seven different states are defined in the life cycle of the component: **enabled
 
 ![Slider mode continious](images/slider_states_cont.png)
 
-## Design tokens
-
-| Tokens                       | Default value |
-| ---------------------------- | ------------: |
-| thumbBackgroundColor         |     `#0067B3` |
-| dotsBackgroundColor          |     `#0067B3` |
-| trackLine                    |     `#0067B3` |
-| totalLine                    |     `#B1CEE6` |
-| disabledThumbBackgroundColor |     `#B1CEE6` |
-| disabledDotsBackgroundColor  |     `#B1CEE6` |
-| disabledTrackLine            |     `#B1CEE6` |
-| focusColor                   |     `#005FCC` |
 
 ## Design Specifications
 
@@ -61,15 +69,19 @@ The design specifications for slider are defining in the table below.
 
 ![Slider specifications](images/slider_specs.png)
 
-## User Interface Design Considerations
+### Design tokens
 
-- Visualize the output of the slider as feedback to the user of the current state.
-- As more information can give it to the user, the easier the selection will be.
-- If the value has to be specific, give some resource to the user to fill a precise input, i.e. an input next to the slider.
+| Tokens                       | Default value |
+| ---------------------------- | ------------: |
+| thumbBackgroundColor         |     `#0067B3` |
+| dotsBackgroundColor          |     `#0067B3` |
+| trackLine                    |     `#0067B3` |
+| totalLine                    |     `#B1CEE6` |
+| disabledThumbBackgroundColor |     `#B1CEE6` |
+| disabledDotsBackgroundColor  |     `#B1CEE6` |
+| disabledTrackLine            |     `#B1CEE6` |
+| focusColor                   |     `#005FCC` |
 
-To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
-
-![Slider variation for special cases](images/slider_special.png)
 
 ## Links and references
 
