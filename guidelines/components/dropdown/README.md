@@ -3,6 +3,22 @@
 The use of dropdowns has its advantages but it depends on the screen support. Dropdowns are a standard widget, so the users know how to interact with them. The options available in a dropdown component are static, so this prevents from erroneous data entered by the user since it only shows a range of correct values for that input.
 
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Icon Usage](#icon-usage)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Consider the number of options (binary decisions or a few items) to decide to implement one component that represent in a better way the data, i.e. radio button or switch toggle.
+- For a large number of well specified options, consider to use an autocomplete field to filter the amount of options while typing.
+- Consider the input, might be that a text input would fit better than a dropdown.
+
+
 ## Appearance
 
 Dropdowns have a similar look and behaviour to select components, the difference is that while select is only to collect user's data into a form, dropdown can be used in a variety of scenarios.
@@ -31,6 +47,7 @@ States: **enabled**, **hover**, **focus** and **selected**:
 ![Example of the option list states](images/dropdown_option_list_states.png)
 
 _Example of the option list states_
+
 
 ## Design Specifications
 
@@ -83,7 +100,6 @@ margin | Value
 | `padding-right`| Dropdown button  | 16px      |
 | `padding-right`| Options list     | 16px      |
 
-
 ### Border
 
 | Property        | Element         | Value     |
@@ -91,7 +107,6 @@ margin | Value
 | `border-radius` | Dropdown button | 4px       |
 | `border-radius` | Options list    | 4px       |
 | `border-width`  | Focus outline   | 2px       |
-
 
 ### Typography
 
@@ -102,15 +117,12 @@ margin | Value
 | `font-weight`   | Dropdown button | 400       |
 | `font-weight`   | List item       | 400       |
 
-
-## Iconography
-
+### Iconography
 
 | Property          | Element         | Value     |
 | ---------------   | ----------      | ----------|
 | `height`/ `width` | Caret           | 24/24px   |
 | `height`/ `width` | Custom icon     | 20/20px   |
-
 
 
 ## Icon Usage
@@ -133,12 +145,6 @@ _Examples of icon usage_
 
 * WAI-ARIA Authoring Practices 1.2 - [3.16 Menu button](https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton)
 
-
-## User Interface Design Considerations
-
-- Consider the number of options (binary decisions or a few items) to decide to implement one component that represent in a better way the data, i.e. radio button or switch toggle.
-- For a large number of well specified options, consider to use an autocomplete field to filter the amount of options while typing.
-- Consider the input, might be that a text input would fit better than a dropdown.
 
 ## Links and references
 
