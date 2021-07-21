@@ -4,6 +4,14 @@ Progress indicators offer visibility of system status to the user, giving feedba
 
 A progress bar should be used in any scenario that will take more than 1 second in performing the action, for anything that takes less than that time, it will be distracting for the user.
 
+* [Usage](#usage)
+* [Variants](#variants)
+* [Anatomy](#anatomy)
+* [Determinate or indeterminate](#determinate-or-indeterminate)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+
 ## Usage
 
 ### Do
@@ -26,6 +34,7 @@ The component progress-bar has two variants: **default** and **overlay**.
 
 _Progress bar variants_
 
+
 ## Anatomy
 
 ![Component anatomy](images/progress_anatomy.png)
@@ -35,6 +44,7 @@ _Progress bar variants_
 3. Helper text _(Optional)_
 4. Progress total line
 5. Progress indicator _(Optional)_
+
 
 ## Determinate or indeterminate   
  
@@ -47,6 +57,7 @@ _Determinate vs undeterminate progress bar_
 * Indeterminate indicators express an unspecified amount of wait time. They should be used when:
         * The processing time is unknown.
         * The wait time is expected to be short enough that it’s not necessary to display.   
+
 
 ## Design Specifications
 
@@ -111,7 +122,6 @@ And also apply different values to each side of the component:
 | `font-weight`   | Indicator        | `type-bold`      | 600       |
 | `font-size`     | Helper text      | `type-scale-01`  | 12px      |
 | `font-weight`   | Helper text      | `type-regular`   | 400       |
-
 
 
 ## Links and references
