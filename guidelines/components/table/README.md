@@ -2,6 +2,30 @@
 
 Data table is a component with a high rate of usage within the applications. It allows to show the user a big amount of information in a simple and simplified way. All the information contained in the table has a grid structure, defining columns and rows to place the data and allow the users to scan, analazy, compare and filter that information.
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Responsive version for mobile and tablet](#responsive-version-for-mobile-and-tablet)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Pagination strips should be used on desktop/laptop and tablet devices, but not on mobile phones.
+- The pagination strip should be right aligned below the bottom row of the table.
+- The strip is made up of 3 sections; each provides the user with information about the number of items in the table as well as how to access them.
+  - Section 1: user may choose how many rows to display per rotation
+  - Section 2: dependent on section 1 setting, system shows specific line numbers in the rotation and the number of rotations in the table
+  - Section 3: provides navigation within the entire table
+    ▪ First rotation in table
+    ▪ Previous rotation
+    ▪ Specific page number access
+    ▪ Next rotation
+    ▪ Last rotation in table
+
+
 ## Appearance
 
 It is difficult to see a design variation of a table regarding the standards definition, because it is the best way to show the data.
@@ -18,6 +42,7 @@ Here is an example of each section:
 
 ![Table modes](images/table_appereance.png)
 
+
 ## Modes
 
 One mode is defined for the table component, with slightly variations based on the configuration.
@@ -26,23 +51,13 @@ Modes: **basic**.
 
 ![Table modes](images/table_mode.png)
 
+
 ## States
 
 Some other components defined in the design system are used in the table component as the checkbox or dropdown. For concrete specifications about states, please, consider to see the documentation of each component.
 
 Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
 
-## Design tokens
-
-| Tokens                | Default value |
-| --------------------- | :-----------: |
-| headerBackgroundColor |   `#5f249f`   |
-| headerFontColor       |   `#FFFFFF`   |
-| separatorColor        |   `#D9D9D9`   |
-| bodyBackgroundColor   |   `#FFFFFF`   |
-| bodyFontColor         |   `#000000`   |
-| scrollBarThumbColor   |   `#666666`   |
-| scrollBarTrackColor   |   `#D9D9D9`   |
 
 ## Design Specifications
 
@@ -75,6 +90,19 @@ Filter specifications
 
 ![Table specifications](images/table_specs.png)
 
+### Design tokens
+
+| Tokens                | Default value |
+| --------------------- | :-----------: |
+| headerBackgroundColor |   `#5f249f`   |
+| headerFontColor       |   `#FFFFFF`   |
+| separatorColor        |   `#D9D9D9`   |
+| bodyBackgroundColor   |   `#FFFFFF`   |
+| bodyFontColor         |   `#000000`   |
+| scrollBarThumbColor   |   `#666666`   |
+| scrollBarTrackColor   |   `#D9D9D9`   |
+
+
 ## Responsive version for mobile and tablet
 
 The table layout in the responsive version was restructured due to the less space that the device offers, because it cannot be represented the same amount of information using the same way as in desktop. With that circumstances in mind, each row of the table will take all the available witdh space, dividing the fields in differente rows within the main container row.
@@ -83,19 +111,6 @@ Because in the implementation the component won't have columns, each value will 
 
 With this approach the table also has a paginator and every row could have their own actions and selection component (checkbox).
 
-## User Interface Design Considerations
-
-- Pagination strips should be used on desktop/laptop and tablet devices, but not on mobile phones.
-- The pagination strip should be right aligned below the bottom row of the table.
-- The strip is made up of 3 sections; each provides the user with information about the number of items in the table as well as how to access them.
-  - Section 1: user may choose how many rows to display per rotation
-  - Section 2: dependent on section 1 setting, system shows specific line numbers in the rotation and the number of rotations in the table
-  - Section 3: provides navigation within the entire table
-    ▪ First rotation in table
-    ▪ Previous rotation
-    ▪ Specific page number access
-    ▪ Next rotation
-    ▪ Last rotation in table
 
 ## Links and references
 
