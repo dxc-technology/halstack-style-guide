@@ -3,34 +3,43 @@
 Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers.
 Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Modes](#odes)
+* [States](#states)
+* [Text Area](#text-area)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+## Usage
+
+- Input fields should allow users to enter any combination of letters, numbers, or symbols unless otherwise restricted or stipulated by requirements
+- Avoid breaking up a number with distinct sections into separate input field (i.e. phone numbers, area codes, SSN, dates, etc) to facilitate screen reader accessibility requirements
+- Allow sufficient space in an entry field to allow typical input
+- User text areas, rather than a single-line input box for paragraph text and comments
+- Input fields are more restrictive for mobile users to make sure the type of input field is warranted
+- Only show error validation messages after the user has left the field
+
+
 ## Appearance
 
 The input appearance must be simple and clear, in this design system text inputs are represented as a placeholder with a thin underline where the text will be written.
 Other elements like assistive text, prefix or suffix icons or error handlers can be complementing the input field making the basic structure more informative.
 
-### Modes
+
+## Modes
 
 Four different modes can be identify using text input component: **default**, **default with preffix**, **default with suffix** and **default with preffix and suffix**.
 
 ![Input modes example](images/input_modes.png)
 
-### States
+
+## States
 
 The states for text input are: **normal**, **focused**, **invalid** and **disabled**.
 
 ![Input states example](images/input_states.png)
 
-## Design tokens
-
-| Tokens                        | Default value |
-| ----------------------------- | ------------: |
-| fontColor                     |     `#000000` |
-| disabledFontColor             |     `#B1B1B1` |
-| error                         |     `#D0011B` |
-| selectedOptionBackgroundColor |     `#F2F2F2` |
-| hoverOptionColor              |     `#000000` |
-| scrollBarThumbColor           |     `#666666` |
-| scrollBarTrackColor           |     `#D9D9D9` |
 
 ## Text Area
 
@@ -48,7 +57,20 @@ The aspects that text area is not including respecting text input are:
 
 ![Textarea example](images/input_textarea.png)
 
+
 ## Design Specifications
+
+### Design tokens
+
+| Tokens                        | Default value |
+| ----------------------------- | ------------: |
+| fontColor                     |     `#000000` |
+| disabledFontColor             |     `#B1B1B1` |
+| error                         |     `#D0011B` |
+| selectedOptionBackgroundColor |     `#F2F2F2` |
+| hoverOptionColor              |     `#000000` |
+| scrollBarThumbColor           |     `#666666` |
+| scrollBarTrackColor           |     `#D9D9D9` |
 
 ### Width
 
@@ -60,7 +82,7 @@ width | value
 ```fitContent``` | -
 ```fillParent``` | -
 
-## Height
+### Height
 
 | Property                                       |       Value |
 | ---------------------------------------------- | ---------- |
@@ -146,14 +168,6 @@ Don’t:
 | `font-family`  | `input-helper-text`    |  `type-sans`   | Open Sans 
 | `color` | `input-helper-text`      |  `Hal-Black`   |  hsl(0, 0%, 0%) |
 
-### User Interface Design Considerations
-
-- Input fields should allow users to enter any combination of letters, numbers, or symbols unless otherwise restricted or stipulated by requirements
-- Avoid breaking up a number with distinct sections into separate input field (i.e. phone numbers, area codes, SSN, dates, etc) to facilitate screen reader accessibility requirements
-- Allow sufficient space in an entry field to allow typical input
-- User text areas, rather than a single-line input box for paragraph text and comments
-- Input fields are more restrictive for mobile users to make sure the type of input field is warranted
-- Only show error validation messages after the user has left the field
 
 ## Links and references
 
