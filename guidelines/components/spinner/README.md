@@ -2,6 +2,13 @@
 
 Loading spinner is a waiting indicator in the user interface to communicate users an ongoing proccess. 
 
+* [Usage](#usage)
+* [Variants](#variants)
+* [Design specifications](#design-specifications)
+* [Determinate or indeterminate](#determinate-or-indeterminate)
+* [Links and references](#links-and-references)
+
+
 ## Usage
 
 * There should only be a single spinner on a page at one time.
@@ -65,6 +72,7 @@ _Spinner design specifications_
 | `stroke`        | Spinner circle (large)       | -                | 8.5px solid  |
 | `stroke`        | Spinner circle (small)       | -                | 2px solid    |
 
+
 ## Determinate or indeterminate   
  
 ![Determinate spinner](images/spinner_determinate_indeterminate.png)
@@ -75,7 +83,6 @@ _Determinate vs indeterminate spinner_
 * Indeterminate indicators express an unspecified amount of wait time. They should be used when:
         * The processing time is unknown.
         * The wait time is expected to be short enough that it’s not necessary to display.
-
 
 
 ## Links and references
