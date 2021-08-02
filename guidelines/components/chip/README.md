@@ -31,13 +31,15 @@ _Component chip design specifications_
 | `fontcolor`               | Label                     | `Hal-Black`       | #000000	  |
 | `fontcolor`               | Label:disabled            | `Hal-Grey-L-60`   | #999999	  |
 | `focusColor`              | Focus outline             | `Hal-Blue-s-35`   | #0067b3	  |
+| `iconColor`               | Icon                      | `Hal-Black`       | #000000	  |
+| `iconColor`               | Icon:disabled             | `Hal-Grey-L-60`   | #999999	  |
 
 
 ### Size
 
 | Property		    | Element			                  | Value		      |
 | --------------- | ----------------------------- | -------------	|
-| `height`		    | Chip container		            | 40px		      |
+| `min-height`		| Chip container		            | 40px		      |
 | `height`		    | Prefix/Suffix		              | 24px		      |
 | `width`		      | Prefix/Suffix				          | 24px		      |
 
@@ -68,7 +70,8 @@ _Component chip design specifications_
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/6809ad30-8c5e-44e1-8e93-d85a3aa887f3/variables/
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/chip)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/chip)
 
 ____________________________________________________________
 
