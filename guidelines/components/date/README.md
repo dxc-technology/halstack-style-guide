@@ -2,9 +2,32 @@
 
 A date input is a user interface element where the user can type or select a date in a predefined format. 
 
+* [Usage](#usage)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Helper text](#helper-text)
+* [Required](#required)
+* [Internationalization](#internationalization)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+#### Do:
+
+* Keep helper text as short and specific as possible.
+* Only use helper text when truly necessary to avoid overloading the user.
+* Should give an example or an explanation of the field.
+
+#### Don’t:
+
+* Helper text should not run longer than the input area.
+
+
 ## States
 
-### Date-input
+#### Date-input
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
@@ -12,7 +35,7 @@ States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **di
 
 _Examples of date picker input states_
 
-### Calendar pop-up
+#### Calendar pop-up
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
@@ -37,7 +60,6 @@ _Structure and spacing for date picker inputs_
 | `height` (selected)                   |      48px |
 | `height` (selected + auxiliar text)   |      73px |
 
-
 #### Width
 
 | Property            |  Value           | 
@@ -45,7 +67,6 @@ _Structure and spacing for date picker inputs_
 | `medium`_(default)_ |  240px           | 
 | `large`             |  480px           |  
 | `fillParent`        |  -               | 
-
 
 #### Margin
 
@@ -61,7 +82,6 @@ margin | Value
 `large` | 48px
 `xlarge` | 64px
 `xxlarge` | 100px
-
 
 #### Typography
 
@@ -81,7 +101,6 @@ margin | Value
 | `border-width` focus                |   2px     |
 | Icon size                           |   20x20px |
 | Distance between text and underline |   7px     |
-
 
 ### Calendar pop-up
 
@@ -124,7 +143,6 @@ _Structure and spacing for date picker calendar pop-up_
 | `padding-left/right`          |  year selector        |   16px      |
 | `padding-top/bottom`          |  separator            |   8px       |
 
-
 #### Sizing
 
 | Property                      | Element                |  Value      |
@@ -134,25 +152,11 @@ _Structure and spacing for date picker calendar pop-up_
 | `height/width`                |  calendar top controls |   24/24px   |
 
 
-
-
 ## Helper text
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
 
 ![Date helper text](images/date_helper_text.png)
-
-### Usage
-
-#### Do:
-
-* Keep helper text as short and specific as possible.
-* Only use helper text when truly necessary to avoid overloading the user.
-* Should give an example or an explanation of the field.
-
-#### Don’t:
-
-* Helper text should not run longer than the input area.
 
 
 ## Required
@@ -160,6 +164,7 @@ Helper text can be used as additional instructions to the user when filling in t
 Required date fields are displayed in the same way the component text-input does.
 
 ![Required date input](images/date_required.png)
+
 
 ## Internationalization
 
@@ -171,13 +176,13 @@ The format of the date may vary depending on language, region, country or custom
 - The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
 - The default format in China is `yyyy/mm/dd`
 
+
 ## Accessibility
 
 ### WCAG 2.2
 
 * Understanding WCAG 2.2 - [SC 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
 * Understanding WCAG 2.2 - [SC 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html)
-
 
 ### WAI-ARIA 1.2
 
