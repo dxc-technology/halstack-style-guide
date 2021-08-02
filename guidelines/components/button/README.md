@@ -4,16 +4,8 @@ Buttons are basic interface elements that initialize an action or function when 
 
 These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
 
-* [Usage](#usage)
-* [Variants](#variants)
-* [States](#states)
-* [Design specifications](#design-specifications)
-* [Links and references](#links-and-references)
-
 
 ## Usage
-
-Here, you can find more considerations in the using of buttons:
 
 - In instances where buttons are vertically stacked, buttons should be the same length.
 - Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
