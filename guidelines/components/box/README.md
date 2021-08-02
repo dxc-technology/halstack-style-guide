@@ -1,9 +1,28 @@
 # Box
+There are different ways to organise the content on the webpage to facilitate the user according to his nature of interaction with the content like forms, tables, lists etc. One of the best ways to organize the webpage is by using groups of related content, this can be achieved by using a dedicated Box component.
 
 ![box-overview](images/box_overview.png)
 
+* [Usage](#usage)
+* [Content](#content)
+* [Appearance](#appearance)
+* [Modes](#modes)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
 
-There are different ways to organise the content on the webpage to facilitate the user according to his nature of interaction with the content like forms, tables, lists etc. One of the best ways to organize the webpage is by using groups of related content, this can be achieved by using a dedicated Box component.
+
+## Usage
+
+* Organize the group layout with the information presented clearly by applying the styles in the box container.
+* Box can be reused accros the UI, avoid using different shadow depths in the same page.
+* Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
+
+
+## Content
+
+Any type of content can be place inside the box component.
+
 
 ## Appearance
 
@@ -11,7 +30,8 @@ Just as the name indicates the content in the webpage can be grouped using the B
 
 The Box has properties like margins, padding, borders, shadows, background colors etc. and organise the layout design serving as a container for interactive / non-interactive components like icons, labels, paragraphs and buttons etc.
 
-### Modes
+
+## Modes
 
 #### No-shadow:
 Can be used as a container, there's no visual appearance of the box in the UI, just works as a simple <div>
@@ -21,6 +41,7 @@ Regular visualization of the box, the container can be used to create a clear di
 
 #### Shadow depth 2:
 Basically the same as the previous on but with a deeper shadow.
+
 
 ## Design specifications
 
@@ -68,17 +89,12 @@ padding | value
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-## Content
 
-Any type of content can be place inside the box component.
-
-
-## User interface considerations
+## Accessibility
 
 
-* Organize the group layout with the information presented clearly by applying the styles in the box container.
-* Box can be reused accros the UI, avoid using different shadow depths in the same page.
-* Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
+## Links and references
+
 
 ____________________________________________________________
 
