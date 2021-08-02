@@ -7,11 +7,26 @@ The main difference to using a switch toggle instead of other components with a 
 
 With the use of switch toggle, it is not needed a submit button to do the appropriate action, because the action takes place at the moment that the switch is turned on or off.
 
+* [Usage](#usage)
+* [Appereance](#apereance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
+- Try to present your lists vertically, with one choice per line.
+
+
 ## Appereance
 
 The appearance of the component should provide good visual feedback, making clear when the switch is on or off. To make a difference between states colors, shadows and fill properties can be used.
 
 A label can be linked with the component to indicate what action will perform when the change occurs. It should be descriptive and clear about what the component is doing or affecting.
+
 
 ## Modes
 
@@ -21,25 +36,13 @@ Modes: **on** and **off**.
 
 ![Switch modes](images/switch_modes.png)
 
+
 ## States
 
 Five different states are defined in the life cycle of the component: **normal**, **disabled**, **hovered** and **focused**.
 
 ![Switch modes](images/switch_states.png)
 
-## Design tokens
-
-| Tokens                                | Default value |
-| ------------------------------------- | ------------: |
-| `checkedTrackBackgroundColor`           |     #5f249f |
-| `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
-| `checkedthumbBackgroundColor`           |     #FFFFFF |
-| `uncheckedThumbBackgroundColor`         |     #FFFFFF |
-| `uncheckedTrackBackgroundColor`         |     #D9D9D9 |
-| `disabledUncheckedTrackBackgroundColor` |     #D9D9D9 + 0.12 opacity |
-| `fontColor`                             |     #000000 |
-| `disabledFontColor`                     |     #000000 + 0.12 opacity |
-| `focusColor`                            |     #005FCC |
 
 ## Design Specifications
 
@@ -60,6 +63,20 @@ The text should have a margin of 16 pixels based on its position. If the text is
 The spacing between stacked switches should be 24 pixels that is determining by the top/bottom margin of the switch component itself.
 
 ![Switch stacked structure](images/switch_stacked.png)
+
+### Design tokens
+
+| Tokens                                | Default value |
+| ------------------------------------- | ------------: |
+| `checkedTrackBackgroundColor`           |     #5f249f |
+| `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
+| `checkedthumbBackgroundColor`           |     #FFFFFF |
+| `uncheckedThumbBackgroundColor`         |     #FFFFFF |
+| `uncheckedTrackBackgroundColor`         |     #D9D9D9 |
+| `disabledUncheckedTrackBackgroundColor` |     #D9D9D9 + 0.12 opacity |
+| `fontColor`                             |     #000000 |
+| `disabledFontColor`                     |     #000000 + 0.12 opacity |
+| `focusColor`                            |     #005FCC |
 
 #### Sizes
 
@@ -98,12 +115,6 @@ And also apply different values to each side of the component:
 | Spacing between label and toggle |        `12px` |
 
 
-
-## User Interface Design Considerations
-
-- Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
-- Try to present your lists vertically, with one choice per line.
-
 ## Links and references
 
 - https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/c3026d48-f954-4978-91e4-05d323ee078c/variables/
@@ -111,4 +122,3 @@ And also apply different values to each side of the component:
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/switch/README.md)
-
