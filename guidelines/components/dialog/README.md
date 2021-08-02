@@ -2,6 +2,26 @@
 
 A modal dialog is a message box or child window that requires user interaction before returning to the parent window. These boxes appear on top of the open parent window that is currently displayed on the screen.
 
+* [Usage](#usage)
+* [Appereance](#appereance)
+* [Design specifications](#design-specifications)
+* [Content](#content)
+* [Overlay](#overlay)
+* [Combining with other UI elements](#combining-with-other-uI-elements)
+* [Links and references](#links-and-references)
+
+
+##
+ Usage
+
+- Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
+- The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. The top of the modal should align with the bottom of the banner on the parent page. Modals should be sized according to the content
+- Modals that contain tables or lists may use the available width of the device, allowing for an exterior margin where the parent page is still visible under the dialog box. Modal height, in all instances is dependent on content
+- Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
+- Informational modals are merely assistive and should display only read-only data
+- Interactive modals require a user response, either to a procedural option or to further define data on the underlying page with additional entry
+
+
 ## Appereance
 
 The dialog appearance is widely recognizable by the users, as it appears in the center of the screen, above the content of the applications as a call to the user to interact or put the focus in the content shown inside that box.
@@ -61,14 +81,12 @@ And also apply different values to each side of the component:
 | `margin`               |              32px |
 | Title icon space       |              12px |
 
-
 ### Specifications for tablet (portrait mode)
 
 | Property         | Value   |
 | ---------------  | ------  |
 | `min-width`      | 92%     |
 | `max-width`      | 92%     |
-
 
 ### Specifications for phone
 
@@ -77,6 +95,7 @@ And also apply different values to each side of the component:
 | `min-width`        |  92%    |
 | `max-width`        |  92%    |
 | Title `font-size`  |  20px   |
+
 
 ## Content
 
@@ -115,14 +134,6 @@ For the case that the application has a modal opened and it needs to load data f
 
 Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
 
-## User Interface Design Considerations
-
-- Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
-- The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. The top of the modal should align with the bottom of the banner on the parent page. Modals should be sized according to the content
-- Modals that contain tables or lists may use the available width of the device, allowing for an exterior margin where the parent page is still visible under the dialog box. Modal height, in all instances is dependent on content
-- Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
-- Informational modals are merely assistive and should display only read-only data
-- Interactive modals require a user response, either to a procedural option or to further define data on the underlying page with additional entry
 
 ## Links and references
 
