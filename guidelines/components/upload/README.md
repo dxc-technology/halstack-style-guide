@@ -2,6 +2,21 @@
 
 The upload component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
+* [Usage](#usage)
+* [Appearance](#appearance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+## Usage
+
+- Use the specific mode based on the application requirements
+- Add some explanation text in the case that it is needed to clarify the information to the user
+- By default, the drag and drop appearance is handled by the browser, in case it wants to be customized is the responsibility of the developer
+- If the upload process fails, please show an error message avoiding technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY') that won't be understood by the user of the application
+
+
 ## Appearance
 
 A limited area in the user interface is reserved for this purpose, letting the user select the files in two ways, either choosing the file through the file system of the operating system or dragging the file and dropping in the respective area.
@@ -13,14 +28,15 @@ Once the file is displayed there, some characteristics are rendered:
 
 When all the files are loaded and the user wants to upload the files to the server, the only action to be performed is the click on the upload button. If the action goes right, an alert message with a success status will be displayed, in other cases, an error will pop up indicating the reason.
 
-### Modes
+
+## Modes
 
 There are two different modes for the upload component, one of them is used to upload a single file thus the representation of the component is much simple and takes less space in the screen compared with the multi file upload version, which is used to select several files in a row. 
 
 Modes for the component: __single__ and __multiple__.
 
 
-### States
+## States
 
 *Default state*
 
@@ -46,24 +62,19 @@ Modes for the component: __single__ and __multiple__.
 
 ![Upload after cliclinkg the upload button with an alert reporting the state](images/upload_alert.png)
 
-## Design tokens
-
-Cannot be possible to configure or customize any parameter of the component to apply a theming.
 
 ## Design Specifications
 
 Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the adobe cloud link in the Links and references section.
 
+### Design tokens
+
+Cannot be possible to configure or customize any parameter of the component to apply a theming.
+
 ### Responsive design
 
 *This is pending*
 
-### User Interface Design Considerations
-
-- Use the specific mode based on the application requirements
-- Add some explanation text in the case that it is needed to clarify the information to the user
-- By default, the drag and drop appearance is handled by the browser, in case it wants to be customized is the responsibility of the developer
-- If the upload process fails, please show an error message avoiding technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY') that won't be understood by the user of the application
 
 ## Links and references
 
