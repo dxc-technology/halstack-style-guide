@@ -2,6 +2,22 @@
 
 Links are used as navigational elements. They may appear isolated, inside a sentence or paragraph, or following the content.
 
+* [Usage](#usage)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Icon Usage](#icon-usage)
+* [Accessibility](#accessibility)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+- Provide visual cue to suggest clickability for all types of links
+- Distinguish the visited and unvisited for navigation links
+- Clearly explain where the link will take you to
+- Front-load the most relevant keyword
+
+
 ## States
 
 States: **enabled**, **hover**, **focus**, **active**, **visited** and **disabled**
@@ -10,6 +26,7 @@ States: **enabled**, **hover**, **focus**, **active**, **visited** and **disable
 
 _Example of the link component states_
 
+
 ## Design Specifications
 
 ![Design specifications for link component](images/link_specs.png)
@@ -17,33 +34,16 @@ _Example of the link component states_
 _Design specifications for link component_
 
 ### Color
-### On-light
 
-|   Component token                                 |   Element           |   Core token                  |   Value     |
-| ------------------------------------------------- | ------------------- | ----------------------------- | ----------- |
-|   `fontColor`                                     |   Label             |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `hoverFontColor`                                |   Label:hover       |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `activeFontColor`                               |   Label:active      |   `Hal-Black`                 |   #000000   |
-|   `disabledFontColor`                             |   Label:disabled    |   `Hal-Grey-L-60`             |   #999999   |
-|   `visitedFontColor`                              |   Label:visited     |   `Hal-Purple-S-38`           |   #5f249f   |
-|   `hoverUnderlineColor`                           |   Underline:hover   |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `activeUnderlineColor`                          |   Underline:active  |   `Hal-Black`                 |   #000000   |
-|   `visitedUnderlineColor`                         |   Underline:visited |   `Hal-Purple-S-38`           |   #5f249f   |
-|   `focusColor`                                    |   Outline:focus     |   `Hal-Blue-S-35`             |   #0067b3   |
-
-
-### On-dark
-
-|   Component token                                 |   Element            |   Core token                  |   Value     |
-| ------------------------------------------------- | -------------------- | ----------------------------- | ----------- |
-|   `fontColorOnDark`                               |   Label              |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `hoverFontColorOnDark`                          |   Label:hover        |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `activeFontColorOnDark`                         |   Label:active       |   `Hal-White`                 |   #ffffff   |
-|   `disabledFontColorOnDark`                       |   Label:disabled     |   `Hal-Grey-S-40`             |   #666666   |
-|   `visitedFontColorOnDark`                        |   Label:visited      |   `Hal-Purple-S-65`           |   #a46ede   |
-|   `hoverUnderlineColorOnDark`                     |   Underline:hover    |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `visitedUnderlineColorOnDark`                   |   Underline:visited  |   `Hal-Purple-S-65`           |   #a46ede   |
-|   `focusColorOnDark`                              |   Outline:focus      |   `Hal-Blue-L-50`             |   #0095ff   |
+| Tokens                              | Value       |
+| ---------------------------------   | ----------- |
+| `fontColor`                         |   #005FCC   |
+| `visitedFontColor`                  |   #8800F6   |
+| `underlinedBackgroundColor`         |   #005FCC   |
+| `visitedUnderlinedBackgroundColor`  |   #8800F6   |
+| `disabledColor`                     |   #D9D9D9   |
+| `disabledUnderlinedBackgroundColor` |   #D9D9D9   |
+| `hoverFontColor`                    |   #006BF6   |
 
 ### Margin
 
@@ -63,7 +63,6 @@ _Design specifications for link component_
 | --------------------------- | ----------- |
 | `font-size`                 | 1rem/16px   |
 | `font-weight`               | 400         |
-
 
 ### Border
 
@@ -87,6 +86,7 @@ _Icon usage for the link component_
 | `height/width`                |  icon                  |   16/16px   |
 | `padding-left`                |  icon                  |   4px       |
 
+
 ## Accessibility
 
 ### WCAG 2.2
@@ -94,18 +94,10 @@ _Icon usage for the link component_
 * Understanding WCAG 2.2 - [2.4.9: Link Purpose (Link Only)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html)
 * Understanding WCAG 2.2 - [2.4.4: Link Purpose (In Context)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html)
 
-
 ### WAI-ARIA 1.2
 
 * WAI-ARIA authoring practices 1.2 - [3.13 Link](https://www.w3.org/TR/wai-aria-practices-1.2/#link)
 
-
-## User Interface Design Considerations
-
-- Provide visual cue to suggest clickability for all types of links
-- Distinguish the visited and unvisited for navigation links
-- Clearly explain where the link will take you to
-- Front-load the most relevant keyword
 
 ## Links and references
 
