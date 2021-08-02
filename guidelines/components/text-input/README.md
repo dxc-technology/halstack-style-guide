@@ -129,10 +129,11 @@ And also apply different values to each side of the component:
 | `errorMessageColor`          | Error message               | `Hal-Red-S-41`    | `#d0011b`       |
 | `errorIconColor`             | Error icon                  | `Hal-Red-S-41`    | `#d0011b`       |
 | `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-L-95`   | `#f2f2f2`       |
-| `disabledLabelColor`         | Label:disabled              | `Hal-Grey-S-60`   | `#999999`       |
+| `disabledLabelColor`         | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledPlaceholderColor`   | Placeholder:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `hoverActionBackgroundColor` | Action:hover                | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `focusActionOutlineColor`    | Action:focus                | `Hal-Purple-L-65` | `#a46ede`       |
-| `focusActionOutlineColor`    | Action:active               | `Hal-Grey-S-60`   | `#999999`       |
+| `activeActionOutlineColor`   | Action:active               | `Hal-Grey-L-60`   | `#999999`       |
 
 
 
@@ -167,10 +168,10 @@ And also apply different values to each side of the component:
 | `errorMessageColorOnDark`          | Error message               | `Hal-Red-L-60`    | `#f7344f`       |
 | `errorIconColorOnDark`             | Error icon                  | `Hal-Red-L-60`    | `#f7344f`       |
 | `disabledContainerFillColorOnDark` | Input container:disabled    | `Hal-Grey-S-40`   | `#666666`       |
-| `disabledLabelColorOnDark`         | Label:disabled              | `Hal-Grey-S-60`   | `#999999`       |
+| `disabledLabelColorOnDark`         | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
 | `hoverActionBackgroundColorOnDark` | Action:hover                | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `focusActionOutlineColorOnDark`    | Action:focus                | `Hal-Purple-L-65` | `#a46ede`       |
-| `focusActionOutlineColorOnDark`    | Action:active               | `Hal-Grey-S-60`   | `#999999`       |
+| `focusActionOutlineColorOnDark`    | Action:active               | `Hal-Grey-L-60`   | `#999999`       |
 
 
 #### Suffix/Prefix
