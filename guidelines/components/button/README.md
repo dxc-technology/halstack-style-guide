@@ -4,12 +4,32 @@ Buttons are basic interface elements that initialize an action or function when 
 
 These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
 
+
+* [Usage](#usage)
+* [Appereance](#appereance)
+* [Modes](#modes)
+* [States](#states)
+* [Design specifications](#design-specifications)
+* [Links and references](#links-and-references)
+
+
+## Usage
+
+Here, you can find more considerations in the using of buttons:
+
+- In instances where buttons are vertically stacked, buttons should be the same length.
+- Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
+- Text or icon on a button should always be centered.
+- There must be 24 pixels of space between horizontally displayed buttons.
+- Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
+
+
 ## Appereance
 
 In Halstack Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
 
 
-### Modes
+## Modes
 
 We can identify three different modes that imply some visual changes according to color, border or opacity attributes.
 
@@ -18,7 +38,7 @@ Modes: **primary**, **secondary** and **text**.
 ![Button modes example](images/button_modes.png)
 
 
-### States
+## States
 
 The states are the different behaviors of the button component based on the interaction of the user.
 For the desktop version, we contemplate five different states by which can pass.
@@ -28,9 +48,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 ![Button state example](images/button_states.png)
 
 
-
 ## Design Specifications
-
 
 ![Button specification](images/button_specs.png)
 
@@ -117,7 +135,6 @@ These values can be applied independently to each side of the component:
 | `padding-right`     |      24px |
 | `padding-left`      |      24px |
 
-
 ### Border
 
 | Property            | Value     |
@@ -126,7 +143,6 @@ These values can be applied independently to each side of the component:
 | `border-width`      |       1px |
 | `border-width` focus outline      |       2px |
 
-
 ### Typography
 
 | Property            | Value     |
@@ -134,9 +150,6 @@ These values can be applied independently to each side of the component:
 | `font-size`     |       1rem/16px |
 | `font-weight`     |       400 |
 | `line-height`     |       1.5em |
-
-
-
 
 ### Icon Usage
 
@@ -148,17 +161,6 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 
 ![Button with icon examples](images/button_icon.png)
 
-
-
-## User Interface Design Considerations
-
-Here, you can find more considerations in the using of buttons:
-
-- In instances where buttons are vertically stacked, buttons should be the same length.
-- Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
-- Text or icon on a button should always be centered.
-- There must be 24 pixels of space between horizontally displayed buttons.
-- Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
 
 ## Links and references
 
