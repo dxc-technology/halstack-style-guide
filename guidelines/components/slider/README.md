@@ -3,27 +3,14 @@
 Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore the multiple options swiftly.
 
 
-* [Usage](#usage)
-* [Varients](#varients)
-* [Anatomy](#anatomy)
-* [States](#states)
-* [Design specifications](#design-specifications)
-* [Links and references](#links-and-references)
-
-
 ## Usage
 
 - Visualize the output of the slider as feedback to the user of the current state.
 - As more information can give it to the user, the easier the selection will be.
 - If the value has to be specific, give some resource to the user to fill a precise input, i.e. an input next to the slider.
 
-To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-![Slider variation for special cases](images/slider_special.png "Slider variation for special cases")
-_Slider variation for special cases_
-
-
-## Varients
+## Variants
 
 Three modes are available for a slider control.
 
@@ -32,8 +19,9 @@ Three modes are available for a slider control.
 
 Modes: **discrete** or **continuos**.
 
-![Slider varients](images/slider_variants.png "Slider varients")
-_Slider varients_
+![Slider variants](images/slider_variants.png "Slider variants")
+_Slider variants_
+
 
 ## Anatomy
 
@@ -44,6 +32,14 @@ _Slider Anatomy_
 2. Default Knob
 3. Maximum value label (optional)
 4. Value label (optional)
+
+
+## Slider with input
+
+To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
+
+![Slider variation for special cases](images/slider_special.png "Slider variation for special cases")
+_Slider variation for special cases_
 
 
 ## States
