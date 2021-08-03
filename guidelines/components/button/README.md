@@ -37,22 +37,20 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 ![Button specification](images/button_specs.png "Design specifications for button component")
 
-
-
- ## Button color specs table
+ ### Color
  
- ### On-light
+ #### On-light
  
- #### Primary
+ ##### Primary
  
- ##### Base
+ ###### Base
 
 | Component token | Element	| Token | Value |
 | --- | --- | --- | --- |
 | `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | `#5f249f` |
 | ` primaryFontColor` | Label | `Hal-White`| `#ffffff` |
 
- ##### Interactive
+ ###### Interactive
 
 | Component token | Element | Token | Value |
 | --- | --- | --- | --- |
@@ -63,9 +61,9 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 |  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | `#ffffff`
 |  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999`
 
-#### Secondary
+##### Secondary
 
-##### Base
+###### Base
 
 | Component token | Element | Token | Value|
 | --- | --- | --- | --- |
@@ -73,7 +71,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 | `secondaryFontColor` | Label | `Hal-Purple-S-38` | `#5f249f`
 | `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | `#5f249f`
 
-##### Interactive
+###### Interactive
 | Component token | Element | Token |  Value | 
 | --- | --- | --- | --- |
 |  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| `#f2eafa`
@@ -84,15 +82,15 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 |  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	`#999999`
 |  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| `#999999`
 
-#### Text
+##### Text
 
-##### Base
+###### Base
 |  Component token|Element|Token|Value
 | --- | --- | --- | --- |
 | `textBackgroundColor`|Container fill|`transparent`|`transparent`
 | `textFontColor`|Label|`Hal-Purple-S-38`|`#5f249f`
 
-##### Interactive
+###### Interactive
 |  Component token | Element | Token | Value |
 | --- | --- | --- | --- |
 |  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | `#f2eafa` | 
@@ -103,7 +101,7 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 | `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999` | 
 
 
-#### Size
+### Size
 
 The component `width` can adopt the following values:
 
@@ -163,7 +161,7 @@ These values can be applied independently to each side of the component:
 | `font-weight`     |       400 |
 | `line-height`     |       1.5em |
 
-### Icon Usage
+## Icon Usage
 
 Any icon can be used in Halstack Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
