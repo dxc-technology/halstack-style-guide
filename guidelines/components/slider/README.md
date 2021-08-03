@@ -12,12 +12,12 @@ Slider control allows users to select a specific value or a range of values from
 
 ## Variants
 
-Three modes are available for a slider control.
+The slider has two variants:
 
-- A discrete mode, that only can get the value marked along the slider
-- A continuous mode, that can take every value mapped into slider from the beginning to the end.
-
-Modes: **discrete** or **continuos**.
+| Variant         | Description
+| :-------------- | :-------------------------------------------------------------- |
+| **Discrete**    | Slider can only get the value marked alongside the total line   |
+| **Continous**   | Slider can take every value mapped                              |
 
 ![Slider variants](images/slider_variants.png "Slider variants")
 _Slider variants_
@@ -31,7 +31,7 @@ _Slider Anatomy_
 1. Minimum value label (optional)
 2. Default Knob
 3. Maximum value label (optional)
-4. Value label (optional)
+4. Value input (optional)
 
 
 ## Slider with input
@@ -44,38 +44,18 @@ _Slider variation for special cases_
 
 ## States
 
-Seven different states are defined in the life cycle of the component: **enabled**, **disabled**, **hovered**, **focused** and **dragged**.
+Seven different states are defined in the life cycle of the component: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Slider mode discrete](images/slider_states_discrete.png "Slider mode discrete")
-_Slider mode discrete_
+![Slider component different states example](images/slider_states_discrete.png "Slider component different states example")
+_Slider component different states example_
 
-![Slider mode continious](images/slider_states_continuos.png "Slider mode continious")
-_Slider mode continious_
 
 
 ## Design Specifications
 
-The design specifications for slider are defining in the table below.
-
-| Property                |         Value |
-| ----------------------- | ------------: |
-| Margin                  |        `15px` |
-| Slider line thickness   |         `1px` |
-| Default knob            |   `14 x 14px` |
-| Selected knob           |   `18 x 18px` |
-| Min width               |       `185px` |
-| Small steppers          |     `4 x 4px` |
-| Space between steppers  |        `36px` |
-| Separation with lock up |        `10px` |
-| Lockup size             |   `40 x 40px` |
-| Focused ripple          |   `42 x 42px` |
-| Pressed ripple          |   `62 x 62px` |
-| Font size (with text)   |        `16px` |
-| Font weight             |     `Regular` |
-| Knob shape              | `y:3, blur:3` |
-
 ![Slider specifications](images/slider_specs.png "Slider specifications")
 _Slider specifications_
+
 
 ### Color
 
@@ -108,6 +88,23 @@ _Slider specifications_
 | `disabledTotalLineColorOnDark`            |   Total line:disabled |   `Hal-Grey-S-40` |   `#666666`   |
 | `focusColorOnDark`                        |   Focus outline       |   `Hal-Blue-L-50` |   `#0095ff`   |
 
+
+| Property                |         Value |
+| ----------------------- | ------------: |
+| Margin                  |        `15px` |
+| Slider line thickness   |         `1px` |
+| Default knob            |   `14 x 14px` |
+| Selected knob           |   `18 x 18px` |
+| Min width               |       `185px` |
+| Small steppers          |     `4 x 4px` |
+| Space between steppers  |        `36px` |
+| Separation with lock up |        `10px` |
+| Lockup size             |   `40 x 40px` |
+| Focused ripple          |   `42 x 42px` |
+| Pressed ripple          |   `62 x 62px` |
+| Font size (with text)   |        `16px` |
+| Font weight             |     `Regular` |
+| Knob shape              | `y:3, blur:3` |
 
 ## Links and references
 
