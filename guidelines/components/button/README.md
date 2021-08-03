@@ -7,12 +7,12 @@ These elements that reinforce to the user the necessity to interact are called C
 
 ## Usage
 
+
 - In instances where buttons are vertically stacked, buttons should be the same length.
 - Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
 - Text or icon on a button should always be centered.
 - There must be 24 pixels of space between horizontally displayed buttons.
 - Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
-
 
 ## Variants
 
@@ -32,10 +32,11 @@ States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 ![Button state example](images/button_states.png "Button component states")
 
-
 ## Design Specifications
 
+
 ![Button specification](images/button_specs.png "Design specifications for button component")
+
 
 
  ## Button color specs table
