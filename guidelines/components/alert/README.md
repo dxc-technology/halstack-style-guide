@@ -105,7 +105,7 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | `contentFontWeight`                         | Content                      | `type-regular`         | 400                       |
 
 
-## Border
+### Border
 
 | Component token                             | Element                      | Core token             | Value   |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
