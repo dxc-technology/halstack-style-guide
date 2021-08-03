@@ -19,7 +19,8 @@ Slider control allows users to select a specific value or a range of values from
 
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-![Slider variation for special cases](images/slider_special.png)
+![Slider variation for special cases](images/slider_special.png "Slider variation for special cases")
+_Slider variation for special cases_
 
 
 ## Varients
@@ -31,12 +32,13 @@ Three modes are available for a slider control.
 
 Modes: **discrete** or **continuos**.
 
-![Slider varients](images/slider_variants.png)
-
+![Slider varients](images/slider_variants.png "Slider varients")
+_Slider varients_
 
 ## Anatomy
 
-![Slider Anatomy](images/slider_anatomy.png)
+![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
+_Slider Anatomy_
 
 1. Minimum value label (optional)
 2. Default Knob
@@ -48,9 +50,11 @@ Modes: **discrete** or **continuos**.
 
 Seven different states are defined in the life cycle of the component: **enabled**, **disabled**, **hovered**, **focused** and **dragged**.
 
-![Slider mode discrete](images/slider_states_discrete.png)
+![Slider mode discrete](images/slider_states_discrete.png "Slider mode discrete")
+_Slider mode discrete_
 
-![Slider mode continious](images/slider_states_continuos.png)
+![Slider mode continious](images/slider_states_continuos.png "Slider mode continious")
+_Slider mode continious_
 
 
 ## Design Specifications
@@ -74,7 +78,8 @@ The design specifications for slider are defining in the table below.
 | Font weight             |     `Regular` |
 | Knob shape              | `y:3, blur:3` |
 
-![Slider specifications](images/slider_specs.png)
+![Slider specifications](images/slider_specs.png "Slider specifications")
+_Slider specifications_
 
 ### Color
 
@@ -112,7 +117,6 @@ The design specifications for slider are defining in the table below.
 
 - [React component](https://developer.dxc.com/tools/react/3/#/components/slider)
 - [Angular component](https://developer.dxc.com/tools/angular/3/#/components/slider)
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/variables/
 
 ____________________________________________________________
 
