@@ -23,6 +23,14 @@ The slider has two variants:
 _Slider variants_
 
 
+## States
+
+Seven different states are defined in the life cycle of the component: **enabled**, **hover**, **focus**, **active** and **disabled**.
+
+![Slider component different states example](images/slider_states_discrete.png "Slider component different states example")
+_Slider component different states example_
+
+
 ## Anatomy
 
 ![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
@@ -40,14 +48,6 @@ To accomplish these considerations, some slider's variations were designed with 
 
 ![Slider variation for special cases](images/slider_special.png "Slider variation for special cases")
 _Slider variation for special cases_
-
-
-## States
-
-Seven different states are defined in the life cycle of the component: **enabled**, **hover**, **focus**, **active** and **disabled**.
-
-![Slider component different states example](images/slider_states_discrete.png "Slider component different states example")
-_Slider component different states example_
 
 
 
