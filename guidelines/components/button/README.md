@@ -30,7 +30,7 @@ For the desktop version, we contemplate five different states by which can pass.
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Button state example](images/buton_states.png "Button component states")
+![Button state example](images/button_states.png "Button component states")
 
 
 ## Design Specifications
