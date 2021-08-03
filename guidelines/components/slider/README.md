@@ -52,8 +52,6 @@ Seven different states are defined in the life cycle of the component: **enabled
 
 ![Slider mode continious](images/slider_states_continuos.png)
 
-![Slider Disabled](images/slider_disabled.png)
-
 
 ## Design Specifications
 
