@@ -282,9 +282,12 @@ _Autocomplete functionality for the text input component_
 | Property        | Element              | Token                   | Value           |
 | --------------- | -------------------- | ----------------------- | --------------- |
 | `font-family`   | List option          | `type-sans`             | Open Sans       |
-| `font-size`     | List option          | `type-scale-02`         | 1rem / 16px     |
 | `font-weight`   | List option          | `type-regular`          | 400             |
 | `font-weight`   | List option typed    | `type-bold`             | 600             |
+| `font-size`     | System message       | `type-scale-02`         | 0.875 / 14px    |
+| `font-size`     | Error message        | `type-scale-02`         | 0.875 / 14px    |
+| `font-size`     | Error message        | `type-scale-03`         | 1rem / 16px     |
+
 
 ## Accessibility
 
