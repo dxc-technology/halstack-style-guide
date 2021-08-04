@@ -20,8 +20,8 @@ We can identify three different modes that imply some visual changes according t
 
 Modes: **primary**, **secondary** and **text**.
 
-![Button modes example](images/button_variants.png "Example of the button component variants")
-
+![Example of the button component variants](images/button_variants.png "Example of the button component variants")
+_Example of the button component variants_
 
 ## States
 
@@ -30,12 +30,14 @@ For the desktop version, we contemplate five different states by which can pass.
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Button state example](images/button_states.png "Button component states")
+![Button component states](images/button_states.png "Button component states")
+_Button component states_
 
 ## Design Specifications
 
 
-![Button specification](images/button_specs.png "Design specifications for button component")
+![Design specifications for button component](images/button_specs.png "Design specifications for button component")
+_Design specifications for button component_
 
  ### Color
  
@@ -169,8 +171,8 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 * Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 * A button with an icon and no text is also allowed in the design system.
 
-![Button with icon examples](images/button_icon.png "Icon usage examples")
-
+![Icon usage examples](images/button_icon.png "Icon usage examples")
+_Icon usage examples_
 
 ## Links and references
 
