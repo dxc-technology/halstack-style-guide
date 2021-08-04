@@ -114,6 +114,7 @@ And also apply different values to each side of the component:
 | Component token          | Element          | Token             | Value             |
 | ------------------------ | ---------------- | ----------------- | ----------------- |
 | `labelFontColor`         | Label            | `Hal-Black`       | `#000000`         |
+| `valueFontColor`         | Value            | `Hal-Black`       | `#000000`         |
 | `helperTextFontColor`    | Helper-text      | `Hal-Black`       | `#000000`         |
 | `placeholderColor`       | Placeholder      | `Hal-Grey-S-40`   | `#666666`         |
 | `outlineEnabledColor`    | Outline:enabled  | `Hal-Black`       | `#000000`         |
@@ -153,6 +154,7 @@ And also apply different values to each side of the component:
 | Component token                | Element          | Token             | Value           |
 | ------------------------------ | ---------------- | ----------------- | --------------- |
 | `labelFontColorOnDark`         | Label            | `Hal-White`       | `#ffffff`       |
+| `valueFontColorOnDark`         | Value            | `Hal-White`       | `#ffffff`       |
 | `helperTextFontColorOnDark`    | Helper-text      | `Hal-White`       | `#ffffff`       |
 | `placeholderColorOnDark`       | Placeholder      | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `outlineEnabledColorOnDark`    | Outline:enabled  | `Hal-White`       | `#ffffff`       |
@@ -192,6 +194,9 @@ And also apply different values to each side of the component:
 | `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
 | `font-weight`   | Label          | `type-bold`             | 600             |
 | `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
+| `font-family`   | Value          | `type-sans`             | Open Sans       |
+| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Value          | `type-regular`          | 400             |
 | `font-family`   | Placeholder    | `type-sans`             | Open Sans       |
 | `font-size`     | Placeholder    | `type-scale-03`         | 1rem / 16px     |
 | `font-weight`   | Placeholder    | `type-regular`          | 400             |
