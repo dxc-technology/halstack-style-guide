@@ -282,7 +282,6 @@ _Autocomplete functionality for the text input component_
 | `ErrorMessageBorderColor`           | Error system message   | `Hal-Red-S-41`    | `#d0011b`       |
 | `ErrorMessageBackgroundColor`       | Error system message   | `Hal-Red-L-95`    | `#ffe6e9`       |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `Hal-Grey-L-95`   | `#f2f2f2`       |
-| `focusListOptionOutlineColor`       | List option:focus      | `Hal-Purple-L-65` | `#a46ede`       |
 | `activeListOptionBackgroundColor`   | List option:active     | `Hal-Grey-L-60`   | `#999999`       |
 
 #### Typography
