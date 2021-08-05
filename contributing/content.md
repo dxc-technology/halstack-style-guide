@@ -39,6 +39,8 @@ Other sections to consider adding to a component documentation:
 * Content
 * Accessibility
 
+You can check out our [templates](https://github.com/dxc-technology/halstack-style-guide/blob/site-contributing/contributing/template.md) for component and patterns documentation.
+
 ### Creating hierarchy
 
 All documentation pages should follow the same hierarchy:
