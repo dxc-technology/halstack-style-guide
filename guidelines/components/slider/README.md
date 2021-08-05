@@ -53,8 +53,8 @@ _Slider variation for special cases_
 
 ## Design Specifications
 
-![Slider specifications](images/slider_specs.png "Slider specifications")
-_Slider specifications_
+![Slider Specifications](images/slider_specs.png "Slider Specifications")
+_Slider Specifications_
 
 
 ### Color
@@ -91,7 +91,7 @@ _Slider specifications_
 
 | Property                |         Value |
 | ----------------------- | ------------: |
-| Margin                  |        `15px` |
+| Margin                  |        `16px` |
 | Slider line thickness   |         `1px` |
 | Default knob            |   `14 x 14px` |
 | Selected knob           |   `18 x 18px` |
