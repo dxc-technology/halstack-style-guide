@@ -126,7 +126,7 @@ And also apply different values to each side of the component:
 | `hoverOutlineColor`          | Outline:hover               | `Hal-Purple-L-65` | `#a46ede`       |
 | `focusOutlineColor`          | Outline:focus               | `Hal-Purple-L-65` | `#a46ede`       |
 | `errorOutlineColor`          | Outline:error               | `Hal-Red-S-41`    | `#d0011b`       |
-| `outlineDisabledColor`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledOutlineColor`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
 | `errorMessageColor`          | Error message               | `Hal-Red-S-41`    | `#d0011b`       |
 | `errorIconColor`             | Error icon                  | `Hal-Red-S-41`    | `#d0011b`       |
 | `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-L-95`   | `#f2f2f2`       |
@@ -167,7 +167,7 @@ And also apply different values to each side of the component:
 | `hoverOutlineColorOnDark`          | Outline:hover               | `Hal-Purple-L-65` | `#a46ede`       |
 | `focusOutlineColorOnDark`          | Outline:focus               | `Hal-Purple-L-65` | `#a46ede`       |
 | `errorOutlineColorOnDark`          | Outline:error               | `Hal-Red-L-60`    | `#f7344f`       |
-| `outlineDisabledColorOnDark`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledOutlineColorOnDark`       | Outline:disabled            | `Hal-Grey-L-60`   | `#999999`       |
 | `errorMessageColorOnDark`          | Error message               | `Hal-Red-L-60`    | `#f7344f`       |
 | `errorIconColorOnDark`             | Error icon                  | `Hal-Red-L-60`    | `#f7344f`       |
 | `disabledContainerFillColorOnDark` | Input container:disabled    | `Hal-Grey-S-40`   | `#666666`       |
