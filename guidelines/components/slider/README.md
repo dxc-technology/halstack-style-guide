@@ -28,7 +28,7 @@ _Slider variants_
 
 Seven different states are defined in the life cycle of the component: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Slider component different states example](images/slider_states_discrete.png "Slider component different states example")
+![Slider component different states example](images/slider_states.png "Slider component different states example")
 _Slider component different states example_
 
 
@@ -48,7 +48,7 @@ _Slider Anatomy_
 
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-![Slider with input example](images/slider_special.png "Slider with input example")
+![Slider with input example](images/slider_input.png "Slider with input example")
 
 _Slider with input example_
 
