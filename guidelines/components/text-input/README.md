@@ -116,8 +116,9 @@ And also apply different values to each side of the component:
 | `labelFontColor`         | Label            | `Hal-Black`       | `#000000`         |
 | `valueFontColor`         | Value            | `Hal-Black`       | `#000000`         |
 | `helperTextFontColor`    | Helper-text      | `Hal-Black`       | `#000000`         |
-| `placeholderColor`       | Placeholder      | `Hal-Grey-S-40`   | `#666666`         |
-| `outlineEnabledColor`    | Outline:enabled  | `Hal-Black`       | `#000000`         |
+| `placeholderFontColor`   | Placeholder      | `Hal-Grey-S-40`   | `#666666`         |
+| `enabledOutlineColor`    | Outline:enabled  | `Hal-Black`       | `#000000`         |
+
 
 #### Interactive
 
@@ -130,7 +131,7 @@ And also apply different values to each side of the component:
 | `errorMessageColor`          | Error message               | `Hal-Red-S-41`    | `#d0011b`       |
 | `errorIconColor`             | Error icon                  | `Hal-Red-S-41`    | `#d0011b`       |
 | `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-L-95`   | `#f2f2f2`       |
-| `disabledLabelColor`         | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledLabelFontColor`     | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
 | `disabledHelperTextColor`    | Helper text:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `disabledPlaceholderColor`   | Placeholder:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `hoverActionBackgroundColor` | Action:hover                | `Hal-Grey-L-95`   | `#f2f2f2`       |
@@ -157,8 +158,8 @@ And also apply different values to each side of the component:
 | `labelFontColorOnDark`         | Label            | `Hal-White`       | `#ffffff`       |
 | `valueFontColorOnDark`         | Value            | `Hal-White`       | `#ffffff`       |
 | `helperTextFontColorOnDark`    | Helper-text      | `Hal-White`       | `#ffffff`       |
-| `placeholderColorOnDark`       | Placeholder      | `Hal-Grey-L-95`   | `#f2f2f2`       |
-| `outlineEnabledColorOnDark`    | Outline:enabled  | `Hal-White`       | `#ffffff`       |
+| `placeholderFontColorOnDark`   | Placeholder      | `Hal-Grey-L-95`   | `#f2f2f2`       |
+| `enabledOutlineColorOnDark`    | Outline:enabled  | `Hal-White`       | `#ffffff`       |
 
 #### Interactive
 
@@ -171,7 +172,7 @@ And also apply different values to each side of the component:
 | `errorMessageColorOnDark`          | Error message               | `Hal-Red-L-60`    | `#f7344f`       |
 | `errorIconColorOnDark`             | Error icon                  | `Hal-Red-L-60`    | `#f7344f`       |
 | `disabledContainerFillColorOnDark` | Input container:disabled    | `Hal-Grey-S-40`   | `#666666`       |
-| `disabledLabelColorOnDark`         | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledLabelFontColorOnDark`     | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
 | `disabledHelperTextColorOnDark`    | Helper text:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `hoverActionBackgroundColorOnDark` | Action:hover                | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `focusActionOutlineColorOnDark`    | Action:focus                | `Hal-Purple-L-65` | `#a46ede`       |
@@ -282,18 +283,23 @@ _Autocomplete functionality for the text input component_
 | `ErrorMessageBackgroundColor`       | Error system message   | `Hal-Red-L-95`    | `#ffe6e9`       |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `focusListOptionOutlineColor`       | List option:focus      | `Hal-Purple-L-65` | `#a46ede`       |
-| `activeListOptionBackgroundColor`   | List option:active     | `Hal-Grey-S-60`   | `#999999`       |
+| `activeListOptionBackgroundColor`   | List option:active     | `Hal-Grey-L-60`   | `#999999`       |
 
 #### Typography
 
 | Property        | Element              | Token                   | Value           |
 | --------------- | -------------------- | ----------------------- | --------------- |
 | `font-family`   | List option          | `type-sans`             | Open Sans       |
+| `font-size`     | List option          | `type-scale-03`         | 1rem / 16px     |
 | `font-weight`   | List option          | `type-regular`          | 400             |
 | `font-weight`   | List option typed    | `type-bold`             | 600             |
+| `font-family`   | System message       | `type-sans`             | Open Sans       |
 | `font-size`     | System message       | `type-scale-02`         | 0.875 / 14px    |
+| `font-weight`   | System message       | `type-regular`          | 400             |
+| `font-family`   | Error message        | `type-sans`             | Open Sans       |
 | `font-size`     | Error message        | `type-scale-02`         | 0.875 / 14px    |
-| `font-size`     | Error message        | `type-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Error message        | `type-regular`          | 400             |
+
 
 
 ## Accessibility
