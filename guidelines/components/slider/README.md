@@ -20,6 +20,7 @@ The slider has two variants:
 | **Continous**   | Slider can take every value mapped                              |
 
 ![Slider variants](images/slider_variants.png "Slider variants")
+
 _Slider variants_
 
 
@@ -34,6 +35,7 @@ _Slider component different states example_
 ## Anatomy
 
 ![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
+
 _Slider Anatomy_
 
 1. Minimum value label (optional)
@@ -46,14 +48,16 @@ _Slider Anatomy_
 
 To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-![Slider variation for special cases](images/slider_special.png "Slider variation for special cases")
-_Slider variation for special cases_
+![Slider with input example](images/slider_special.png "Slider with input example")
+
+_Slider with input example_
 
 
 
 ## Design Specifications
 
 ![Slider Specifications](images/slider_specs.png "Slider Specifications")
+
 _Slider Specifications_
 
 
