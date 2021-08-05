@@ -39,7 +39,7 @@ Other sections to consider adding to a component documentation:
 * Content
 * Accessibility
 
-You can check out our [templates](https://github.com/dxc-technology/halstack-style-guide/blob/site-contributing/contributing/template.md) for component and patterns documentation.
+You can check out our [templates](https://github.com/dxc-technology/halstack-style-guide/blob/contribution-content/contributing/template.md) for component and patterns documentation.
 
 ### Creating hierarchy
 
@@ -119,7 +119,7 @@ _Example of the “links and references“ section_
 
 When writing design specifications consider the following:
 
-* Add a [support image](https://github.com/dxc-technology/halstack-style-guide/blob/site-contributing/contributing/images.md#specification-images) as the first item of the component specifications.
+* Add a [support image](https://github.com/dxc-technology/halstack-style-guide/blob/contribution-content/contributing/images.md#specification-images) as the first item of the component specifications.
 * Subdivide the component specs regarding the property (e.g. color, size, typography)
 
 ### Spec tables
