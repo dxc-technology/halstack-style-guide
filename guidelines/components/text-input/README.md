@@ -131,6 +131,7 @@ And also apply different values to each side of the component:
 | `errorIconColor`             | Error icon                  | `Hal-Red-S-41`    | `#d0011b`       |
 | `disabledContainerFillColor` | Input container:disabled    | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `disabledLabelColor`         | Label:disabled              | `Hal-Grey-L-60`   | `#999999`       |
+| `disabledHelperTextColor`    | Helper text:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `disabledPlaceholderColor`   | Placeholder:disabled        | `Hal-Grey-L-60`   | `#999999`       |
 | `hoverActionBackgroundColor` | Action:hover                | `Hal-Grey-L-95`   | `#f2f2f2`       |
 | `focusActionOutlineColor`    | Action:focus                | `Hal-Purple-L-65` | `#a46ede`       |
