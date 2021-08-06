@@ -138,30 +138,96 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-### Padding
-
-| Property            | Value     |
-| ------------------  | --------- |
-| `padding-right`     |      24px |
-| `padding-left`      |      24px |
-
+## Primary
 
 ### Border
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `border-radius`     |       4px |
-| `border-width`      |       1px |
-| `border-width` focus outline      |       2px |
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `primaryBorderThickness`    |  "0px"    |
+| `primaryBorderStyle`        | "none"    |
+| `primaryBorderRadius`       |  "4px"    |
 
 
 ### Typography
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `font-size`     |       1rem/16px |
-| `font-weight`     |       400 |
-| `line-height`     |       1.5em |
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `primaryFontFamily`         |  "globalTokens.type_sans"       |
+| `primaryFontSize`           | "globalTokens.type_scale_03"    |
+| `primaryFontWeight`         |  "globalTokens.type_regular"    |
+
+
+### Padding
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `primaryPaddingTop`         |  "12px"   |
+| `primaryPaddingBottom`      | "12px"    |
+
+
+## Secondary
+
+### Border
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `secondaryBorderThickness`  |  "1px"    |
+| `secondaryBorderStyle`      | "solid"   |
+| `secondaryBorderRadius`     |  "4px"    |
+
+
+### Typography
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `secondaryFontFamily`       |  "globalTokens.type_sans"       |
+| `secondaryFontSize`         | "globalTokens.type_scale_03"    |
+| `secondaryFontWeight`       |  "globalTokens.type_regular"    |
+
+
+### Padding
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `secondaryPaddingTop`       |  "10px"   |
+| `secondaryPaddingBottom`    | "10px"    |
+
+
+## Text
+
+### Border
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `textBorderThickness`       |  "0px"    |
+| `textBorderStyle`           | "none"    |
+| `textBorderRadius`          |  "4px"    |
+
+
+### Typography
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `textFontFamily`            |  "globalTokens.type_sans"       |
+| `textFontSize`              | "globalTokens.type_scale_03"    |
+| `textFontWeight`            |  "globalTokens.type_regular"    |
+
+
+### Padding
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `textPaddingTop`            |  "12px"   |
+| `textPaddingBottom`         | "12px"    |
+
+
+## Typography (Affects to all)
+
+| Property                    | Value     |
+| -------------------------   | --------- |
+| `labelFontLineHeight`       |  "globalTokens.type_leading_normal"    |
+| `labelLetterSpacing`        | "globalTokens.type_spacing_wide_01"    |
 
 ## Icon Usage
 
