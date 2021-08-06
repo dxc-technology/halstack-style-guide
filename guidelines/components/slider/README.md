@@ -65,16 +65,16 @@ _Slider Specifications_
 
 #### On-Light
 
-| Component token                   | Element             | Core token      | Value     |
-|  --                               |  --                 |  --             |  --       |
-| `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | `#000000` |
-| `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | `#0067b3` |
-| `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | `#003c66` |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Blue-L-95` | `#e6f4ff` |
-| `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | `#0067b3` |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Blue-L-95` | `#e6f4ff` |
-| `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | `#0067b3` |
-| `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | `#e6f4ff` |
+| Component token                   | Element             | Core token      | Value   |
+| :-------------------------------- | :------------------ | :-------------- | :------ |
+| `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | #000000 |
+| `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Blue-L-95` | #e6f4ff |
+| `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Blue-L-95` | #e6f4ff |
+| `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | #e6f4ff |
 
 #### On-Dark
 
@@ -92,23 +92,39 @@ _Slider Specifications_
 | `disabledTotalLineColorOnDark`            |   Total line:disabled |   `Hal-Grey-S-40` |   `#666666`   |
 | `focusColorOnDark`                        |   Focus outline       |   `Hal-Blue-L-50` |   `#0095ff`   |
 
+### Typography
 
-| Property                |         Value |
-| ----------------------- | ------------: |
-| Margin                  |        `16px` |
-| Slider line thickness   |         `1px` |
-| Default knob            |   `14 x 14px` |
-| Selected knob           |   `18 x 18px` |
-| Min width               |       `185px` |
-| Small steppers          |     `4 x 4px` |
-| Space between steppers  |        `36px` |
-| Separation with lock up |        `10px` |
-| Lockup size             |   `40 x 40px` |
-| Focused ripple          |   `42 x 42px` |
-| Pressed ripple          |   `62 x 62px` |
-| Font size (with text)   |        `16px` |
-| Font weight             |     `Regular` |
-| Knob shape              | `y:3, blur:3` |
+
+| Component token                   | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `fontFamily`                      | Floor/Ceil label    | `type-sans`     | 'Open Sans', sans-serif   |
+| `fontSize`                        | Floor/Ceil label    | `type_scale_03` | 1rem / 16px               |
+| `fontWeight`                      | Floor/Ceil label    | `type_regular`  | 400                       |
+| `fontStyle`                       | Floor/Ceil label    | `type_normal`   | normal                    |
+
+### Spacing
+
+| Property                          | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `margin-left`                     | Floor label         | `spacing-05`    | 1rem / 16px               |
+| `margin-right`                    | Ceil label          | `spacing-05`    | 1rem / 16px               |
+| `margin-left`                     | Input               | `spacing-07`    | 2rem / 32px               |
+
+
+### Size
+
+| Property                          | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `height`                          | Total line          | -               | 2px                       |
+| `min-width`                       | Total line          | -               | 185px                     |
+| `height`                          | Thumb               | -               | 16px                      |
+| `width`                           | Thumb               | -               | 16px                      |
+| `height`                          | Thumb:active        | -               | 24px                      |
+| `width`                           | Thumb:active        | -               | 24px                      |
+| `height`                          | Tick mark           | -               | 4px                       |
+| `width`                           | Tick mark           | -               | 4px                       |
+
+
 
 ## Accessibility
 
