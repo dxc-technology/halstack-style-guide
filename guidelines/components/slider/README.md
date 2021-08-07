@@ -26,7 +26,7 @@ _Slider variants_
 
 ## States
 
-Seven different states are defined in the life cycle of the component: **enabled**, **hover**, **focus**, **active** and **disabled**.
+The slider component has the following states: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
 ![Slider component different states example](images/slider_states.png "Slider component different states example")
 _Slider component different states example_
@@ -36,12 +36,13 @@ _Slider component different states example_
 
 ![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
 
-_Slider Anatomy_
-
-1. Minimum value label (optional)
-2. Default Knob
-3. Maximum value label (optional)
-4. Value input (optional)
+1. Floor label _(Optional)_
+2. Total line
+3. Ceil label _(Optional)_
+4. Value input _(Optional)_
+5. Tick mark
+6. Thumb
+7. Track line
 
 
 ## Slider with input
@@ -70,27 +71,31 @@ _Slider Specifications_
 | `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | #000000 |
 | `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | #0067b3 |
 | `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Blue-L-95` | #e6f4ff |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Grey-L-75` | #bfbfbf |
 | `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Blue-L-95` | #e6f4ff |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Grey-L-75` | #bfbfbf |
 | `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | #0067b3 |
 | `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | #e6f4ff |
+| `totalLineColor`	                | Total line          | `Hal-Grey-L-90` | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled | `Hal-Grey-L-95` | #f2f2f2 |
+| `focusColor`                      | Focus outline       | `Hal-Blue-S-35` | #0067b3 |
+
 
 #### On-Dark
 
-| Component token                           |   Element             |   Core token      |   Value       |
-|  --                                       |  --                   |  --               |  --           |
-| `fontColorOnDark`                         |   Floor/Ceil label    |   `Hal-White`     |   `#ffffff`   |
-| `thumbBackgroundColorOnDark`              |   Thumb               |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `activeThumbBackgroundColorOnDark`        |   Thumb:active        |   `Hal-Blue-S-35` |   `#0067b3`   |
-| `disabledThumbBackgroundColorOnDark`	    |   Thumb:disabled      |   `Hal-Blue-D-20` |   `#003c66`   |
-| `tickMarkBackgroundColorOnDark`	          |   Tick Mark           |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `disabledTickMarkBackgroundColorOnDark`   |   Tick Mark:disabled  |   `Hal-Blue-D-20` |   `#003c66`   |
-| `trackLineOnDark`                         |   Track line          |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `disabledTrackLineColorOnDark`            |   Track line:disabled |   `Hal-Blue-D-20` |   `#003c66`   |
-| `totalLineOnDark`	                        |   Total line          |   `Hal-Grey-L-75` |   `#bfbfbf`   |
-| `disabledTotalLineColorOnDark`            |   Total line:disabled |   `Hal-Grey-S-40` |   `#666666`   |
-| `focusColorOnDark`                        |   Focus outline       |   `Hal-Blue-L-50` |   `#0095ff`   |
+| Component token                           | Element              | Core token        | Value         |
+| :---------------------------------------- | :------------------- | :---------------- | :------------ |
+| `fontColorOnDark`                         | Floor/Ceil label     | `Hal-White`       | #ffffff       |
+| `thumbBackgroundColorOnDark`              | Thumb                | `Hal-Blue-L-50`   | #0095ff       |
+| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `Hal-Blue-S-35`   | #0067b3       |
+| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `Hal-Grey-L-60`   | #999999       |
+| `tickMarkBackgroundColorOnDark`	          | Tick mark            | `Hal-Blue-L-50`   | #0095ff       |
+| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `Hal-Grey-L-60`   | #999999       |
+| `trackLineColorOnDark`                    | Track line           | `Hal-Blue-L-50`   | #0095ff       |
+| `disabledTrackLineColorOnDark`            | Track line:disabled  | `Hal-Grey-L-60`   | #999999       |
+| `totalLineColorOnDark`	                  | Total line           | `Hal-Grey-L-75`   | #bfbfbf       |
+| `disabledTotalLineColorOnDark`            | Total line:disabled  | `Hal-Grey-S-40`   | #666666       |
+| `focusColorOnDark`                        | Focus outline        | `Hal-Blue-L-50`   | #0095ff       |
 
 ### Typography
 
@@ -116,15 +121,15 @@ _Slider Specifications_
 | Property                          | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
 | `height`                          | Total line          | -               | 2px                       |
-| `min-width`                       | Total line          | -               | 185px                     |
-| `height`                          | Thumb               | -               | 16px                      |
-| `width`                           | Thumb               | -               | 16px                      |
-| `height`                          | Thumb:active        | -               | 24px                      |
-| `width`                           | Thumb:active        | -               | 24px                      |
+| `height`                          | Track line          | -               | 2px                       |
+| `height`                          | Thumb               | -               | 12px                      |
+| `width`                           | Thumb               | -               | 12px                      |
+| `height`                          | Thumb:hover*        | -               | 16px                      |
+| `width`                           | Thumb:hover         | -               | 16px                      |
 | `height`                          | Tick mark           | -               | 4px                       |
 | `width`                           | Tick mark           | -               | 4px                       |
 
-
+[*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
 
 ## Accessibility
 
