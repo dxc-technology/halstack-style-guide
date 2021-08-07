@@ -150,8 +150,8 @@ _Slider Specifications_
 
 ## Links and references
 
-- [React component](https://developer.dxc.com/tools/react/3/#/components/slider)
-- [Angular component](https://developer.dxc.com/tools/angular/3/#/components/slider)
+- [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
+- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
 
 ____________________________________________________________
 
