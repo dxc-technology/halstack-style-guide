@@ -121,7 +121,7 @@ _Slider Specifications_
 | Property                          | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
 | `height`                          | Total line          | -               | 2px                       |
-| `min-width`                       | Total line          | -               | 185px                     |
+| `height`                          | Track line          | -               | 2px                       |
 | `height`                          | Thumb               | -               | 12px                      |
 | `width`                           | Thumb               | -               | 12px                      |
 | `height`                          | Thumb:hover*        | -               | 16px                      |
@@ -129,7 +129,7 @@ _Slider Specifications_
 | `height`                          | Tick mark           | -               | 4px                       |
 | `width`                           | Tick mark           | -               | 4px                       |
 
-[*] The thumb element size in 16x16px in the following states: `:hover`, `:focus` and `:active`.
+[*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
 
 ## Accessibility
 
