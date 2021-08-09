@@ -39,68 +39,7 @@ _Button component states_
 ![Design specifications for button component](images/button_specs.png "Design specifications for button component")
 _Design specifications for button component_
 
- ### Color
- 
- #### On-light
- 
- ##### Primary
- 
- ###### Base
-
-| Component token | Element	| Token | Value |
-| --- | --- | --- | --- |
-| `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | `#5f249f` |
-| ` primaryFontColor` | Label | `Hal-White`| `#ffffff` |
-
- ###### Interactive
-
-| Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-| `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | `#4b1c7d`
-| `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | `#321353`
-|  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | `#f2f2f2`
-|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | `#ffffff`
-|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | `#ffffff`
-|  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999`
-
-##### Secondary
-
-###### Base
-
-| Component token | Element | Token | Value|
-| --- | --- | --- | --- |
-| `secondaryBackgroundColor` | Container fill | `transparent` | `transparent`
-| `secondaryFontColor` | Label | `Hal-Purple-S-38` | `#5f249f`
-| `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | `#5f249f`
-
-###### Interactive
-| Component token | Element | Token |  Value | 
-| --- | --- | --- | --- |
-|  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| `#f2eafa`
-|  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| `#e5d5f6`
-|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| `#f2f2f2`
-|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| `#5f249f`
-|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| `#5f249f`
-|  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	`#999999`
-|  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| `#999999`
-
-##### Text
-
-###### Base
-|  Component token|Element|Token|Value
-| --- | --- | --- | --- |
-| `textBackgroundColor`|Container fill|`transparent`|`transparent`
-| `textFontColor`|Label|`Hal-Purple-S-38`|`#5f249f`
-
-###### Interactive
-|  Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-|  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | `#f2eafa` | 
-|  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | `#e5d5f6` | 
-|  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | `#f2f2f2` | 
-| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | `#5f249f` | 
-| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | `#5f249f` | 
-| `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999` | 
+### General
 
 
 ### Size
@@ -138,103 +77,158 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
+#### Typography 
 
-## Primary
+| Component token   | Property          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | 1.5 em    |
+| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | 0.025 em   |
 
-### Border
+
+ ### Primary
+ 
+ #### Color
+ 
+ ##### Base
+
+| Component token | Element	| Token | Value |
+| --- | --- | --- | --- |
+| `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | #5f249f |
+| ` primaryFontColor` | Label | `Hal-White`| #ffffff |
+
+ ##### Interactive
+
+| Component token | Element | Token | Value |
+| --- | --- | --- | --- |
+| `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | #4b1c7d
+| `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | #321353
+|  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2
+|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | #ffffff
+|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | #ffffff
+|  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999
+
+#### Border
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `primaryBorderThickness`         | container       | -   | "0px"    |
-| `primaryBorderStyle`         | container        | -   | "none"   |
-| `primaryBorderRadius`         | container        | -   | "4px"   |
+| `primaryBorderThickness`         | Container       | -   | 0px    |
+| `primaryBorderStyle`         | Container        | -   | none   |
+| `primaryBorderRadius`         | Container        | -   | 4px   |
 
 
 
-### Typography
-
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `primaryFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
-| `primaryBorderStyle`         | label        | `type_scale_03`   | "16px / 1 rem"   |
-| `primaryBorderRadius`         | label        | `type_regular`   | "400"   |
-
-
-### Padding
+#### Typography
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `primaryPaddingTop`         | label        | `spacing-04`   | "12px / 0.75 rem"    |
-| `primaryPaddingBottom`         | label        | `spacing-04`   | "12px / 0.75 rem"   |
+| `primaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `primaryBorderStyle`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `primaryBorderRadius`         | Label        | `type_regular`   | 400   |
 
 
-
-## Secondary
-
-### Border
+#### Padding
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `secondaryBorderThickness`         | container        | `token-1`   | "1px"    |
-| `secondaryBorderStyle`         | container        | `token-2`   | "solid"   |
-| `secondaryBorderRadius`         | container        | `token-3`   | "4px"   |
+| `primaryPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `primaryPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
 
+### Secondary
 
+#### Color
 
-### Typography
+##### Base
 
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `secondaryFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
-| `secondaryFontSize`         | label        | `type_scale_03`   | "16px / 1 rem"   |
-| `secondaryFontWeight`         | label        | `type_regular`   | "400"   |
+| Component token | Element | Token | Value|
+| --- | --- | --- | --- |
+| `secondaryBackgroundColor` | Container fill | `transparent` | transparent
+| `secondaryFontColor` | Label | `Hal-Purple-S-38` | #5f249f
+| `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | #5f249f
 
+##### Interactive
+| Component token | Element | Token |  Value | 
+| --- | --- | --- | --- |
+|  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| #f2eafa
+|  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| #e5d5f6
+|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| #f2f2f2
+|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| #5f249f
+|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| #5f249f
+|  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	#999999
+|  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| #999999
 
-### Padding
-
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `secondaryPaddingTop`         | label        | `-`   | "10px / 0.75 rem"    |
-| `secondaryPaddingBottom`         | label        | `-`   | "10px / 0.75 rem"   |
-
-
-
-## Text
-
-### Border
-
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `textBorderThickness`         | container        | -   | "0px"    |
-| `textBorderStyle`         | container        | -   | "none"   |
-| `textBorderRadius`         | container        | -   | "4px"   |
-
-
-
-### Typography
+#### Border
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `textFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
-| `textFontSize`         | label        | `type_scale_03`   | "16px / 1 rem"   |
-| `textFontWeight`         | label        | `type_regular`   | "400"   |
+| `secondaryBorderThickness`         | Container        | -   | 1px    |
+| `secondaryBorderStyle`         | Container        | -   | solid   |
+| `secondaryBorderRadius`         | Container        | -   | 4px   |
 
 
-### Padding
-
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `textPaddingTop`         | label        | `spacing-04`   | "12px / 0.75 rem"    |
-| `textPaddingBottom`         | label        | `spacing-04`   | "12px / 0.75 rem"   |
-
-
-
-## Typography (Affects to all)
+#### Typography
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | "1.5 em"    |
-| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | "0.025 em"   |
+| `secondaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `secondaryFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `secondaryFontWeight`         | Label        | `type_regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryPaddingTop`         | Label        | `-`   | 10px / 0.75 rem    |
+| `secondaryPaddingBottom`         | Label        | `-`   | 10px / 0.75 rem   |
+
+
+### Text
+
+#### Color
+
+##### Base
+|  Component token|Element|Token|Value
+| --- | --- | --- | --- |
+| `textBackgroundColor`|Container fill|`transparent`|transparent
+| `textFontColor`|Label|`Hal-Purple-S-38`|#5f249f
+
+###### Interactive
+|  Component token | Element | Token | Value |
+| --- | --- | --- | --- |
+|  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | #f2eafa | 
+|  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | #e5d5f6 | 
+|  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2 | 
+| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | #5f249f | 
+| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | #5f249f | 
+| `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999 | 
+
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textBorderThickness`         | Container        | -   | 0px    |
+| `textBorderStyle`         | Container        | -   | none   |
+| `textBorderRadius`         | Container        | -   | 4px   |
+
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `textFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `textFontWeight`         | Label        | `type_regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `textPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
+
 
 
 
