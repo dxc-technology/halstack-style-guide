@@ -138,96 +138,105 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
+
 ## Primary
 
 ### Border
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `primaryBorderThickness`    |  "0px"    |
-| `primaryBorderStyle`        | "none"    |
-| `primaryBorderRadius`       |  "4px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryBorderThickness`         | container       | -   | "0px"    |
+| `primaryBorderStyle`         | container        | -   | "none"   |
+| `primaryBorderRadius`         | container        | -   | "4px"   |
+
 
 
 ### Typography
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `primaryFontFamily`         |  "globalTokens.type_sans"       |
-| `primaryFontSize`           | "globalTokens.type_scale_03"    |
-| `primaryFontWeight`         |  "globalTokens.type_regular"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
+| `primaryBorderStyle`         | label        | `type_scale_03`   | "16px / 1 rem"   |
+| `primaryBorderRadius`         | label        | `type_regular`   | "400"   |
 
 
 ### Padding
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `primaryPaddingTop`         |  "12px"   |
-| `primaryPaddingBottom`      | "12px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryPaddingTop`         | label        | `spacing-04`   | "12px / 0.75 rem"    |
+| `primaryPaddingBottom`         | label        | `spacing-04`   | "12px / 0.75 rem"   |
+
 
 
 ## Secondary
 
 ### Border
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `secondaryBorderThickness`  |  "1px"    |
-| `secondaryBorderStyle`      | "solid"   |
-| `secondaryBorderRadius`     |  "4px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryBorderThickness`         | container        | `token-1`   | "1px"    |
+| `secondaryBorderStyle`         | container        | `token-2`   | "solid"   |
+| `secondaryBorderRadius`         | container        | `token-3`   | "4px"   |
+
 
 
 ### Typography
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `secondaryFontFamily`       |  "globalTokens.type_sans"       |
-| `secondaryFontSize`         | "globalTokens.type_scale_03"    |
-| `secondaryFontWeight`       |  "globalTokens.type_regular"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
+| `secondaryFontSize`         | label        | `type_scale_03`   | "16px / 1 rem"   |
+| `secondaryFontWeight`         | label        | `type_regular`   | "400"   |
 
 
 ### Padding
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `secondaryPaddingTop`       |  "10px"   |
-| `secondaryPaddingBottom`    | "10px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryPaddingTop`         | label        | `-`   | "10px / 0.75 rem"    |
+| `secondaryPaddingBottom`         | label        | `-`   | "10px / 0.75 rem"   |
+
 
 
 ## Text
 
 ### Border
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `textBorderThickness`       |  "0px"    |
-| `textBorderStyle`           | "none"    |
-| `textBorderRadius`          |  "4px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textBorderThickness`         | container        | -   | "0px"    |
+| `textBorderStyle`         | container        | -   | "none"   |
+| `textBorderRadius`         | container        | -   | "4px"   |
+
 
 
 ### Typography
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `textFontFamily`            |  "globalTokens.type_sans"       |
-| `textFontSize`              | "globalTokens.type_scale_03"    |
-| `textFontWeight`            |  "globalTokens.type_regular"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textFontFamily`         | label        | `type-sans`   | "Open Sans', sans-serif"    |
+| `textFontSize`         | label        | `type_scale_03`   | "16px / 1 rem"   |
+| `textFontWeight`         | label        | `type_regular`   | "400"   |
 
 
 ### Padding
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `textPaddingTop`            |  "12px"   |
-| `textPaddingBottom`         | "12px"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textPaddingTop`         | label        | `spacing-04`   | "12px / 0.75 rem"    |
+| `textPaddingBottom`         | label        | `spacing-04`   | "12px / 0.75 rem"   |
+
 
 
 ## Typography (Affects to all)
 
-| Property                    | Value     |
-| -------------------------   | --------- |
-| `labelFontLineHeight`       |  "globalTokens.type_leading_normal"    |
-| `labelLetterSpacing`        | "globalTokens.type_spacing_wide_01"    |
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | "1.5 em"    |
+| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | "0.025 em"   |
+
+
 
 ## Icon Usage
 
