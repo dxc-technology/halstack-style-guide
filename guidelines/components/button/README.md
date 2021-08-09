@@ -7,21 +7,20 @@ These elements that reinforce to the user the necessity to interact are called C
 
 ## Usage
 
+
 - In instances where buttons are vertically stacked, buttons should be the same length.
 - Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
 - Text or icon on a button should always be centered.
-- There must be 24 pixels of space between horizontally displayed buttons.
-- Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
-
+- There must be 8 pixels of space between horizontally displayed buttons.
 
 ## Variants
 
-We can identify three different modes that imply some visual changes according to color, border or opacity attributes.
+We can identify three different variants that imply some visual changes according to color and border attributes.
 
-Modes: **primary**, **secondary** and **text**.
+Variants: **primary**, **secondary** and **text**.
 
-![Button modes example](images/button_modes.png)
-
+![Example of the button component variants](images/button_variants.png "Example of the button component variants")
+_Example of the button component variants_
 
 ## States
 
@@ -30,79 +29,19 @@ For the desktop version, we contemplate five different states by which can pass.
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Button state example](images/button_states.png)
-
+![Button component states](images/button_states.png "Button component states")
+_Button component states_
 
 ## Design Specifications
 
-![Button specification](images/button_specs.png)
+
+![Design specifications for button component](images/button_specs.png "Design specifications for button component")
+_Design specifications for button component_
+
+### General
 
 
- ## Button color specs table
- 
- ### On-light
- 
- #### Primary
- 
- ##### Base
-
-| Component token | Element	| Token | Value |
-| --- | --- | --- | --- |
-| `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | `#5f249f` |
-| ` primaryFontColor` | Label | `Hal-White`| `#ffffff` |
-
- ##### Interactive
-
-| Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-| `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | `#4b1c7d`
-| `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | `#321353`
-|  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | `#f2f2f2`
-|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | `#ffffff`
-|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | `#ffffff`
-|  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999`
-
-#### Secondary
-
-##### Base
-
-| Component token | Element | Token | Value|
-| --- | --- | --- | --- |
-| `secondaryBackgroundColor` | Container fill | `transparent` | `transparent`
-| `secondaryFontColor` | Label | `Hal-Purple-S-38` | `#5f249f`
-| `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | `#5f249f`
-
-##### Interactive
-| Component token | Element | Token |  Value | 
-| --- | --- | --- | --- |
-|  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| `#f2eafa`
-|  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| `#e5d5f6`
-|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| `#f2f2f2`
-|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| `#5f249f`
-|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| `#5f249f`
-|  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	`#999999`
-|  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| `#999999`
-
-#### Text
-
-##### Base
-|  Component token|Element|Token|Value
-| --- | --- | --- | --- |
-| `textBackgroundColor`|Container fill|`transparent`|`transparent`
-| `textFontColor`|Label|`Hal-Purple-S-38`|`#5f249f`
-
-##### Interactive
-|  Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-|  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | `#f2eafa` | 
-|  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | `#e5d5f6` | 
-|  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | `#f2f2f2` | 
-| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | `#5f249f` | 
-| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | `#5f249f` | 
-| `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | `#999999` | 
-
-
-#### Size
+### Size
 
 The component `width` can adopt the following values:
 
@@ -137,32 +76,162 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-### Padding
+#### Typography 
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `padding-right`     |      24px |
-| `padding-left`      |      24px |
-
-
-### Border
-
-| Property            | Value     |
-| ------------------  | --------- |
-| `border-radius`     |       4px |
-| `border-width`      |       1px |
-| `border-width` focus outline      |       2px |
+| Component token   | Property          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | 1.5 em    |
+| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | 0.025 em   |
 
 
-### Typography
+ ### Primary
+ 
+ #### Color
+ 
+ ##### Base
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `font-size`     |       1rem/16px |
-| `font-weight`     |       400 |
-| `line-height`     |       1.5em |
+| Component token | Element	| Token | Value |
+| --- | --- | --- | --- |
+| `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | #5f249f |
+| ` primaryFontColor` | Label | `Hal-White`| #ffffff |
 
-### Icon Usage
+ ##### Interactive
+
+| Component token | Element | Token | Value |
+| --- | --- | --- | --- |
+| `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | #4b1c7d
+| `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | #321353
+|  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2
+|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | #ffffff
+|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | #ffffff
+|  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryBorderThickness`         | Container       | -   | 0px    |
+| `primaryBorderStyle`         | Container        | -   | none   |
+| `primaryBorderRadius`         | Container        | -   | 4px   |
+
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `primaryBorderStyle`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `primaryBorderRadius`         | Label        | `type_regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `primaryPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
+
+### Secondary
+
+#### Color
+
+##### Base
+
+| Component token | Element | Token | Value|
+| --- | --- | --- | --- |
+| `secondaryBackgroundColor` | Container fill | `transparent` | transparent
+| `secondaryFontColor` | Label | `Hal-Purple-S-38` | #5f249f
+| `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | #5f249f
+
+##### Interactive
+| Component token | Element | Token |  Value | 
+| --- | --- | --- | --- |
+|  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| #f2eafa
+|  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| #e5d5f6
+|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| #f2f2f2
+|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| #5f249f
+|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| #5f249f
+|  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	#999999
+|  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| #999999
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryBorderThickness`         | Container        | -   | 1px    |
+| `secondaryBorderStyle`         | Container        | -   | solid   |
+| `secondaryBorderRadius`         | Container        | -   | 4px   |
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `secondaryFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `secondaryFontWeight`         | Label        | `type_regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryPaddingTop`         | Label        | `-`   | 10px / 0.75 rem    |
+| `secondaryPaddingBottom`         | Label        | `-`   | 10px / 0.75 rem   |
+
+
+### Text
+
+#### Color
+
+##### Base
+|  Component token|Element|Token|Value
+| --- | --- | --- | --- |
+| `textBackgroundColor`|Container fill|`transparent`|transparent
+| `textFontColor`|Label|`Hal-Purple-S-38`|#5f249f
+
+###### Interactive
+|  Component token | Element | Token | Value |
+| --- | --- | --- | --- |
+|  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | #f2eafa | 
+|  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | #e5d5f6 | 
+|  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2 | 
+| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | #5f249f | 
+| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | #5f249f | 
+| `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999 | 
+
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textBorderThickness`         | Container        | -   | 0px    |
+| `textBorderStyle`         | Container        | -   | none   |
+| `textBorderRadius`         | Container        | -   | 4px   |
+
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
+| `textFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
+| `textFontWeight`         | Label        | `type_regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `textPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
+
+
+
+
+## Icon Usage
 
 Any icon can be used in Halstack Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
@@ -170,8 +239,8 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 * Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 * A button with an icon and no text is also allowed in the design system.
 
-![Button with icon examples](images/button_icon.png)
-
+![Icon usage examples](images/button_icon.png "Icon usage examples")
+_Icon usage examples_
 
 ## Links and references
 
