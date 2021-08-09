@@ -240,6 +240,7 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 * A button with an icon and no text is also allowed in the design system.
 
 ![Icon usage examples](images/button_icon.png "Icon usage examples")
+
 _Icon usage examples_
 
 ## Links and references
