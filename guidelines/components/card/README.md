@@ -21,15 +21,16 @@ The only state that is controlled in the card component is the hover. As it is n
 
 ![Card states](images/card_states.png)
 
-## Design tokens
-
-| Tokens          | Default value |
-| --------------- | ------------: |
-| backgroundColor |     `#FFFFFF` |
-
-As the Card component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 
 ## Design Specifications
+
+### Color
+
+|   Component token     |   Element                     |   Core token                  |   Value       |
+| --------------------- | ----------------------------- | ----------------------------- | ------------- |
+|   `backgroundColor`*  |   Container                   |   `Hal-White`                 |   `#ffffff`   |
+
+* The `background-color` token belongs to the box component, changes made on that component will affect the card element.
 
 ### Margin
 
@@ -72,18 +73,23 @@ padding | value
 
 ### Size
 
-| Property                     |   Value |
-| ---------------------------- | ------ |
-| Min. height                  | `220px` |
-| Min. width                   | `400px` |
-| Max. width                   |  `100%` |
-| Image max. width             | `140px` |
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `height`                                    | Container height             | -                      | 220px   | 
+| `width`                                     | Container width              | -                      | 400px   |
+
+
+| Property                                    | Element                      |  Value   |
+| :------------------------------------------ | :--------------------------- |  :------ |
+| `max-width`                                 | Image                        |  140px   | 
+
+
 
 
 ### Spacing
 
 | Property                     |   Value |
-| ---------------------------- | ------ |
+| ---------------------------- | ------- |
 | Space title-subtitle         |   `4px` |
 | Space main info to paragraph |  `20px` |
 | Space actions to photo       |  `20px` |
