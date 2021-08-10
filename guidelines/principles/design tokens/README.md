@@ -4,6 +4,8 @@
 
 ### Greyscale
 
+![](images/color_grey.png)
+
 | Name                | Value (hex)  | Value (hsl)      | 
 | :---                | :---         | :---             |
 | `grey-50`           | #fafafa      | (0, 0%, 98%)     |
@@ -23,6 +25,7 @@
 
 The core Purple family serves as the primary action color.
 
+![](images/color_purple.png)
 
 | Name                | Value (hex)  | Value (hsl)      | 
 | :---                | :---         | :---             |
@@ -42,6 +45,8 @@ The core Purple family serves as the primary action color.
 
 The core Blue family serves as the accent color.
 
+![](images/color_blue.png)
+
 | Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
 | `blue-50`           | #f5fbff      | (205, 100%, 98%) |
@@ -58,6 +63,8 @@ The core Blue family serves as the accent color.
 
 
 ### Red
+
+![](images/color_red.png)
 
 | Name                | Value (hex)  | Value (hsl)      |
 | :---                | :---         | :---             |
