@@ -117,6 +117,7 @@ And also apply different values to each side of the component:
 | `valueFontColor`         | Value            | `Hal-Black`       | #000000           |
 | `helperTextFontColor`    | Helper-text      | `Hal-Black`       | #000000           |
 | `placeholderFontColor`   | Placeholder      | `Hal-Grey-S-40`   | #666666           |
+| `actionColor`            | Action           | `Hal-Black`       | #000000           |
 | `enabledOutlineColor`    | Outline:enabled  | `Hal-Black`       | #000000           |
 
 
@@ -138,6 +139,7 @@ And also apply different values to each side of the component:
 | `hoverActionBackgroundColor`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
 | `focusActionBackgroundColor`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
 | `activeActionBackgroundColor`   | Action:active               | `Hal-Grey-L-80`   | #cccccc         |
+| `disabledActionColor`           | Action:disabled             | `Hal-Grey-L-60`   | #999999         |
 
 
 
@@ -145,10 +147,11 @@ And also apply different values to each side of the component:
 
 | Component token          | Element          | Token             | Value             |
 | ------------------------ | ---------------- | ----------------- | ----------------- |
-| `leadingIconColor`       | Leading icon     | `Hal-Grey-S-40`   | #666666           |
-| `trailingIconColor`      | Trailing icon    | `Hal-Grey-S-40`   | #666666           |
-| `suffixLabelFontColor`   | Suffix label     | `Hal-Grey-S-40`   | #666666           |
-| `prefixLabelFontColor`   | Prefix label     | `Hal-Grey-S-40`   | #666666           |
+| `suffixColor`            | Suffix           | `Hal-Grey-S-40`   | #666666           |
+| `prefixColor`            | Prefix           | `Hal-Grey-S-40`   | #666666           |
+| `disabledSuffixColor`    | Suffix:disabled  | `Hal-Grey-S-75`   | #bfbfbf           |
+| `disabledPrefixColor`    | Prefix:disabled  | `Hal-Grey-S-75`   | #bfbfbf           |
+
 
 ### On-dark
 
@@ -160,6 +163,7 @@ And also apply different values to each side of the component:
 | `valueFontColorOnDark`         | Value            | `Hal-White`       | #ffffff         |
 | `helperTextFontColorOnDark`    | Helper-text      | `Hal-White`       | #ffffff         |
 | `placeholderFontColorOnDark`   | Placeholder      | `Hal-Grey-L-95`   | #f2f2f2         |
+| `actionColorOnDark`            | Action           | `Hal-White`       | #ffffff         |
 | `enabledOutlineColorOnDark`    | Outline:enabled  | `Hal-White`       | #ffffff         |
 
 #### Interactive
@@ -180,17 +184,17 @@ And also apply different values to each side of the component:
 | `hoverActionBackgroundColorOnDark` | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
 | `focusActionOutlineColorOnDark`    | Action:focus                | `Hal-Purple-L-65` | #a46ede         |
 | `focusActionOutlineColorOnDark`    | Action:active               | `Hal-Grey-L-60`   | #999999         |
+| `disabledActionColor`              | Action:disabled             | `Hal-Grey-S-40`   | #666666         |
 
 
 #### Suffix/Prefix
 
 | Component token                | Element          | Token             | Value           |
 | ------------------------------ | ---------------- | ----------------- | --------------- |
-| `leadingIconColorOnDark`       | Leading icon     | `Hal-White`       | #ffffff         |
-| `trailingIconColorOnDark`      | Trailing icon    | `Hal-White`       | #ffffff         |
-| `suffixLabelFontColorOnDark`   | Suffix label     | `Hal-White`       | #ffffff         |
-| `prefixLabelFontColorOnDark`   | Prefix label     | `Hal-White`       | #ffffff         |
-
+| `suffixColorOnDark`            | Suffix           | `Hal-White`       | #ffffff         |
+| `prefixColorOnDark`            | Prefix           | `Hal-White`       | #ffffff         |
+| `disabledSuffixColorOnDark`    | Suffix:disabled  | `Hal-Grey-S-75`   | #bfbfbf         |
+| `disabledPrefixColorOnDark`    | Prefix:disabled  | `Hal-Grey-S-75`   | #bfbfbf         |
 
 ### Typography
 
