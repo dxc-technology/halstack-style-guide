@@ -102,8 +102,6 @@ These values can be applied independently to each side of the component:
 | `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | #4b1c7d
 | `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | #321353
 |  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2
-|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | #ffffff
-|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | #ffffff
 |  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999
 
 #### Border
@@ -149,9 +147,6 @@ These values can be applied independently to each side of the component:
 | --- | --- | --- | --- |
 |  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| #f2eafa
 |  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| #e5d5f6
-|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| #f2f2f2
-|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| #5f249f
-|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| #5f249f
 |  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	#999999
 |  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| #999999
 
@@ -197,8 +192,6 @@ These values can be applied independently to each side of the component:
 |  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | #f2eafa | 
 |  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | #e5d5f6 | 
 |  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2 | 
-| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | #5f249f | 
-| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | #5f249f | 
 | `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999 | 
 
 
