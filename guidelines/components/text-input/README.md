@@ -201,8 +201,8 @@ And also apply different values to each side of the component:
 | ------------------------------ | ---------------- | ----------------- | --------------- |
 | `suffixColorOnDark`            | Suffix           | `Hal-White`       | #ffffff         |
 | `prefixColorOnDark`            | Prefix           | `Hal-White`       | #ffffff         |
-| `disabledSuffixColorOnDark`    | Suffix:disabled  | `Hal-Grey-S-75`   | #bfbfbf         |
-| `disabledPrefixColorOnDark`    | Prefix:disabled  | `Hal-Grey-S-75`   | #bfbfbf         |
+| `disabledSuffixColorOnDark`    | Suffix:disabled  | `Hal-Grey-L-75`   | #bfbfbf         |
+| `disabledPrefixColorOnDark`    | Prefix:disabled  | `Hal-Grey-L-75`   | #bfbfbf         |
 
 ### Typography
 
