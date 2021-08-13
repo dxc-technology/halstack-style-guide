@@ -111,15 +111,15 @@ And also apply different values to each side of the component:
 
 #### Base
 
-| Component token          | Element          | Token             | Value             |
-| ------------------------ | ---------------- | ----------------- | ----------------- |
-| `labelFontColor`         | Label            | `Hal-Black`       | #000000           |
-| `valueFontColor`         | Value            | `Hal-Black`       | #000000           |
-| `helperTextFontColor`    | Helper-text      | `Hal-Black`       | #000000           |
-| `placeholderFontColor`   | Placeholder      | `Hal-Grey-S-40`   | #666666           |
-| `actionColor`            | Action           | `Hal-Black`       | #000000           |
-| `enabledOutlineColor`    | Outline:enabled  | `Hal-Black`       | #000000           |
-
+| Component token          | Element            | Token             | Value             |
+| ------------------------ | ------------------ | ----------------- | ----------------- |
+| `labelFontColor`         | Label              | `Hal-Black`       | #000000           |
+| `valueFontColor`         | Value              | `Hal-Black`       | #000000           |
+| `helperTextFontColor`    | Helper-text        | `Hal-Black`       | #000000           |
+| `placeholderFontColor`   | Placeholder        | `Hal-Grey-S-40`   | #666666           |
+| `enabledOutlineColor`    | Outline:enabled    | `Hal-Black`       | #000000           |
+| `ActionIconColor`        | Action icon        | `Hal-Black`       | #000000           |
+| `ActionBackgroundColor`  | Action             | `transparent`     | #transparent      |
 
 #### Interactive
 
@@ -139,7 +139,10 @@ And also apply different values to each side of the component:
 | `hoverActionBackgroundColor`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
 | `focusActionBackgroundColor`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
 | `activeActionBackgroundColor`   | Action:active               | `Hal-Grey-L-80`   | #cccccc         |
-| `disabledActionColor`           | Action:disabled             | `Hal-Grey-L-60`   | #999999         |
+| `disabledActionBackgroundColor` | Action:disabled             | `transparent`     | transparent     |
+| `hoverActionIconColor`          | Action icon:hover           | `Hal-Grey-L-60`   | #999999         |
+| `focusActionIconColor`          | Action icon:focus           | `Hal-Grey-L-60`   | #999999         |
+| `disabledActionIconColor`       | Action icon:disabled        | `Hal-Grey-L-60`   | #999999         |
 
 
 
@@ -157,34 +160,39 @@ And also apply different values to each side of the component:
 
 #### Base
 
-| Component token                | Element          | Token             | Value           |
-| ------------------------------ | ---------------- | ----------------- | --------------- |
-| `labelFontColorOnDark`         | Label            | `Hal-White`       | #ffffff         |
-| `valueFontColorOnDark`         | Value            | `Hal-White`       | #ffffff         |
-| `helperTextFontColorOnDark`    | Helper-text      | `Hal-White`       | #ffffff         |
-| `placeholderFontColorOnDark`   | Placeholder      | `Hal-Grey-L-95`   | #f2f2f2         |
-| `actionColorOnDark`            | Action           | `Hal-White`       | #ffffff         |
-| `enabledOutlineColorOnDark`    | Outline:enabled  | `Hal-White`       | #ffffff         |
+| Component token                | Element            | Token             | Value           |
+| ------------------------------ | ------------------ | ----------------- | --------------- |
+| `labelFontColorOnDark`         | Label              | `Hal-White`       | #ffffff         |
+| `valueFontColorOnDark`         | Value              | `Hal-White`       | #ffffff         |
+| `helperTextFontColorOnDark`    | Helper-text        | `Hal-White`       | #ffffff         |
+| `placeholderFontColorOnDark`   | Placeholder        | `Hal-Grey-L-95`   | #f2f2f2         |
+| `enabledOutlineColorOnDark`    | Outline:enabled    | `Hal-White`       | #ffffff         |
+| `ActionIconColor`              | Action icon        | `Hal-White`       | #ffffff         |
+| `ActionBackgroundColor`        | Action             | `transparent`     | #transparent    |
+
 
 #### Interactive
 
-| Component token                    | Element                     | Token             | Value           |
-| ---------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColorOnDark`          | Outline:hover               | `Hal-Purple-L-65` | #a46ede         |
-| `focusOutlineColorOnDark`          | Outline:focus               | `Hal-Purple-L-65` | #a46ede         |
-| `errorOutlineColorOnDark`          | Outline:error               | `Hal-Red-L-60`    | #f7344f         |
-| `disabledOutlineColorOnDark`       | Outline:disabled            | `Hal-Grey-L-60`   | #999999         |
-| `errorMessageColorOnDark`          | Error message               | `Hal-Red-L-60`    | #f7344f         |
-| `errorIconColorOnDark`             | Error icon                  | `Hal-Red-L-60`    | #f7344f         |
-| `disabledContainerFillColorOnDark` | Input container:disabled    | `Hal-Grey-S-40`   | #666666         |
-| `disabledLabelFontColorOnDark`     | Label:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledValueFontColorOnDark`     | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledHelperTextFontColorOnDark`| Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `disabledPlaceholderColorOnDark`   | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `hoverActionBackgroundColorOnDark` | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `focusActionOutlineColorOnDark`    | Action:focus                | `Hal-Purple-L-65` | #a46ede         |
-| `focusActionOutlineColorOnDark`    | Action:active               | `Hal-Grey-L-60`   | #999999         |
-| `disabledActionColor`              | Action:disabled             | `Hal-Grey-S-40`   | #666666         |
+| Component token                       | Element                     | Token             | Value           |
+| ------------------------------------- | --------------------------- | ----------------- | --------------- |
+| `hoverOutlineColorOnDark`             | Outline:hover               | `Hal-Purple-L-65` | #a46ede         |
+| `focusOutlineColorOnDark`             | Outline:focus               | `Hal-Purple-L-65` | #a46ede         |
+| `errorOutlineColorOnDark`             | Outline:error               | `Hal-Red-L-60`    | #f7344f         |
+| `disabledOutlineColorOnDark`          | Outline:disabled            | `Hal-Grey-L-60`   | #999999         |
+| `errorMessageColorOnDark`             | Error message               | `Hal-Red-L-60`    | #f7344f         |
+| `errorIconColorOnDark`                | Error icon                  | `Hal-Red-L-60`    | #f7344f         |
+| `disabledContainerFillColorOnDark`    | Input container:disabled    | `Hal-Grey-S-40`   | #666666         |
+| `disabledLabelFontColorOnDark`        | Label:disabled              | `Hal-Grey-L-60`   | #999999         |
+| `disabledValueFontColorOnDark`        | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
+| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
+| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
+| `hoverActionBackgroundColorOnDark`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
+| `focusActionBackgroundColorOnDark`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
+| `activeActionBackgroundColorOnDark`   | Action:active               | `Hal-Grey-L-60`   | #999999         |
+| `disabledActionBackgroundColorOnDark` | Action:disabled             | `transparent`     | transparent     |
+| `hoverActionIconColorOnDark`          | Action icon:hover           | `Hal-White`       | #ffffff         |
+| `focusActionIconColorOnDark`          | Action icon:focus           | `Hal-White`       | #ffffff         |
+| `disabledActionIconColorOnDark`       | Action icon:disabled        | `Hal-Grey-S-40`   | #666666         |
 
 
 #### Suffix/Prefix
