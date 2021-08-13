@@ -168,3 +168,20 @@ Example of a core tokens specs table:
 | `token-3`   | _Brief description_  | `property-3`   | value-3   |
 
 ```
+
+## Accessibility
+
+The accessibility section provides all the resources needed in order to build accessible components, we follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/) guidelines.
+
+Every component documentation page should provide:
+
+* All the Success Criterion<sup>1</sup> that may apply to the component behavior 
+* The WAI-ARIA design pattern and example
+
+
+1: Every Succes Criterion should be linked to their reference inside [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/) document. Learn more about Success criteria in the [WCAG Understanding conformance page](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels).
+
+### Referencing and linking
+
+When referencing and linking to guidelines or other technical documents ensure you are following the [W3C recommendation](https://www.w3.org/WAI/standards-guidelines/linking/:)
+
