@@ -231,15 +231,17 @@ And also apply different values to each side of the component:
 | Property        | Element         | Token             | Value           |
 | --------------- | --------------- | ----------------- | --------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Action icon     | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Prefix          | `spacing-03`      | 0.5rem / 8px    |
+| `padding-right` | Prefix          | `spacing-03`      | 0.5rem / 8px    |
 | `margin-right`  | Prefix          | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Prefix divider  | `spacing-03`      | 0.5rem / 8px    |
-| `margin-left`   | Suffix          | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Suffix divider  | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Input container | `spacing-05`      | 1rem / 16px     |
-| `padding-right` | Input container | `spacing-05`      | 1rem / 16px     |
-| `margin-top`    | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `margin-bottom` | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`   | Suffix          | `spacing-02`      | 0.25rem / 4px   |
+| `padding-left`  | Suffix          | `spacing-03`      | 0.5rem / 8px    |
+| `margin-right`  | Suffix          | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
+| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
 
 ### Border
 
