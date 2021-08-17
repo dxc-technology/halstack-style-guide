@@ -167,8 +167,8 @@ And also apply different values to each side of the component:
 | `helperTextFontColorOnDark`    | Helper-text        | `Hal-White`       | #ffffff         |
 | `placeholderFontColorOnDark`   | Placeholder        | `Hal-Grey-L-95`   | #f2f2f2         |
 | `enabledOutlineColorOnDark`    | Outline:enabled    | `Hal-White`       | #ffffff         |
-| `ActionIconColor`              | Action icon        | `Hal-White`       | #ffffff         |
-| `ActionBackgroundColor`        | Action             | `transparent`     | #transparent    |
+| `ActionIconColorOnDark`        | Action icon        | `Hal-White`       | #ffffff         |
+| `ActionBackgroundColorOnDark`  | Action             | `transparent`     | #transparent    |
 
 
 #### Interactive
