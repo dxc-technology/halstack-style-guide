@@ -16,9 +16,9 @@ Halstack uses tokens to manage color. Appart from a multi-purpose greyscale fami
 
 ### Core color tokens
 
-![Color families](images/color_families.png)
+![Core color families values](images/color_families.png)
 
-_Core color families and lightness values_
+_Core color families values_
 
 #### Greyscale
 
