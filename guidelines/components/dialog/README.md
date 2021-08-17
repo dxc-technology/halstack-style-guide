@@ -25,12 +25,17 @@ _Design specifications for dialog component_
 
 ### Color
 
-| Tokens                | value       |
-| -------------------   | ----------- |
-| `overlayColor`        |     #000000 |
-| `backgroundColor`     |     #FFFFFF |
-| `scrollBarThumbColor` |     #666666 |
-| `scrollBarTrackColor` |     #D9D9D9 |
+| Component token                | Element                     | Core token                    |  Value                 |
+| :----------------------------- | :-------------------------  | :---------------------------  | :--------------------  |
+| `overlayColor`                 | Overlay                     | `black`                       | #000000                |
+| `scrollBarThumbColor`          | Scrollbar: Thumb            | `grey-700`                    | #666666                |
+| `scrollBarTrackColor`          | Scrollbar: track            | `grey-200`                    | #e6e6e6                |
+| `backgroundColor`              | Scrollbar: container        | `white`                       | #ffffff                |
+| `fontColor`                    | Title                       | `black`                       | #000000                |
+| `closeIconColor`               | Icon close                  | `black`                       | #000000                |
+| `boxShadowColor`               | Container shadow            | -                             | rgba(0, 0, 0, 0.2)     |
+| `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
+| `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
 
 ### Padding
 
