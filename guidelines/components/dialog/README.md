@@ -14,8 +14,16 @@ A modal dialog is a message box or child window that requires user interaction b
 * Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
 
 
-
 ## Anatomy
+
+![Anatomy of the dialog component](images/dialog_anatomy.png)
+
+1. Dialog container
+2. Title
+3. Close action
+4. Dialog actions
+5. Content
+
 
 ## Design Specifications
 
