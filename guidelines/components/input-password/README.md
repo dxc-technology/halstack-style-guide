@@ -4,10 +4,15 @@ The input-password component is very much like the input-text, with the differen
 
 ## Usage
 
-* Use the component input-password when the value expected is a password and need to be secured
-* When creating a password, provide the requirements in the helper text
-* Show the validation of the input-password only when the component loses the focus
+### Do
 
+* Use the component input-password when the value expected is a password and need to be secured
+* Provide the requirements in the helper text
+
+### Don't
+
+* Show the validation of the input-password until the component loses the focus
+* Disable the copy/paste input functionality
 
 ## States
 
