@@ -136,65 +136,6 @@ The core Blue family serves as the accent color.
 | `orange-900`        | #613605      | (32, 90%, 20%)   |
 
 
-
-
-### Color usage tokens
-
-The color-usage tokens are a role-based and specify the core tokens that serve those roles in the UI. We use the core families mostly for enabled states, for other states (e.g. hover, pressed, disabled) or purpose every light or dark family variant is used. 
-
-
-
-| Token                       | Description                                   | Name                | 
-| :---                        | :---                                          | :---                |  
-| `ui-background-01`          | _Default page background_                     | `Hal-White`         | 
-| `ui-background-02`          | _Alternate page background_                   | `Hal-Grey-L-95`     | 
-| `interactive-01`            | _Primary interactive color_                   | `Hal-Purple-S-38`   | 
-| `interactive-02`            | _Secondary interactive color_                 | `Hal-Blue-S-30`     | 
-| `danger-01`                 | _Danger button variant_                       | `Hal-Red-S-41`      | 
-| `container-background-01`   | _Primary background color on containers_      | `Hal-Purple-S-38`   | 
-| `container-background-02`   | _Background color on light containers_        | `Hal-White`         | 
-| `container-background-03`   | _Background color on dark containers_         | `Hal-Black`         | 
-| `text-01`                   | _Primary text_                                | `Hal-Black`         | 
-| `text-02`                   | _Secondary text_                              | `Hal-Grey-S-40`     | 
-| `text-03`                   | _Text on dark backgrounds_                    | `Hal-White`         | 
-| `text-error`                | _Error messages_                              | `Hal-Red-S-41`      | 
-| `link-01`                   | _Primary link color_                          | `H-Blue-L-50`       | 
-| `link-02`                   | _Secondary link color_                        | `Hal-Blue-S-35`     | 
-| `icon-01`                   | _Primary con color_                           | `Hal-Purple-S-38`   | 
-| `icon-02`                   | _Icon color on light background_              | `Hal-Black`         | 
-| `icon-03`                   | _Icon color on dark background_               | `Hal-White`         | 
-| `feedback-error`            | _Error_                                       | `Hal-Red-S-41`      | 
-| `feedback-success`          | _Success_                                     | `Hal-Green-S-39`    | 
-| `feedback-warning`          | _Warning_                                     | `Hal-Yellow-S-57`   | 
-| `feedback-info`             | _Info_                                        | `Hal-Blue-L-50`     | 
-| `ui-overlay`                | _Background overlay_                          | `Hal-Black`         | 
-| `ui-line`                   | _dividers; underline_                         | `Hal-Grey-L-75`     | 
-| `focus-01`                  | _Primary focus underline/outline_             | `Hal-Purple-S-38`   | 
-| `focus-02`                  | _Secondary focus underline/outline_           | `Hal-Blue-S-35`     | 
-| `hover-01`                  | _Hover primary on light color_                | `Hal-Purple-L-95`   | 
-| `hover-02`                  | _Hover primary on dark color_                 | `Hal-Purple-D-30`   | 
-| `hover-03`                  | _Tertiary hover color_                        | `Hal-Black`         | 
-| `hover-background`          | _Background hover color on light containers_  | `Hal-Grey-L-95`     | 
-| `hover-background-selected` | _hover on selected background color_          | `Hal-Grey-L-60`     | 
-| `hover-danger`              | _Danger hover color_                          | `Hal-Red-D-30`      | 
-| `pressed-01`                | _Pressed primary on light color_              | `Hal-Purple-L-95`   | 
-| `pressed-02`                | _Pressed primary on dark color_               | `Hal-Purple-D-20`   | 
-| `pressed-03`                | _Pressed secondary color_                     | `Hal-Blue-D-20`     | 
-| `pressed-danger`            | _Danger pressed color_                        | `Hal-Red-D-20`      | 
-| `selected-background`       | _Background selected color_                   | `Hal-Grey-L-75`     | 
-| `disabled-01`               | _Background disabled color_                   | `Hal-Grey-L-95`     | 
-| `disabled-02`               | _Text disabeld color_                         | `Hal-Grey-L-75`     | 
-| `link-visited`              | _Visited link color_                          | `Hal-Purple-S-38`   | 
-
-## Data visualization colors
-
-> To do section
-
-
-## Accesibility
-
-> To do section
-
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/colors/README.md)
