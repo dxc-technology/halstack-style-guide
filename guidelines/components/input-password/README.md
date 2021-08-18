@@ -1,45 +1,25 @@
 # Input-password
 
-<!--Add description for the component-->
+The input-password component is very much like the input-text, with the difference that their value is obscured by default(by replacing its characters with dot ("•") and the mask can be toogled on/off using the show and hide component action.
 
 ## Usage
 
-<!--
-This section answers the question: when to use and when not to use this component?
+* Use the component input-password when the value expected is a password and need to be secured
+* When creating a password, provide the requirements in the helper text
+* Show the validation of the input-password only when the component loses the focus
 
-* Reason 1
-* Reason 2
-* Reason 3
--->
-
-## Variants
-
-<!--
-
-In this section define the variant the component in question has (e.g. the button component has three variants: primary, secondary and text).
-
-Variants: **Variant 1**, **variant 2**
-
-![Variants image](path to the image)
-
-_Image caption_
-
-If the component has no variants this section can be removed.
-
--->
 
 ## States
 
+The component password has the following states:
+
+States: **Enabled**, **Hover** and **Focus**
+
 <!--
-
-Define the different states for the component if there are any.
-
-States: **State 1**, **state 2**
 
 ![States image](path to the image)
 
 _Image caption_
-
 -->
 
 ## Anatomy
