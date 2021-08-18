@@ -13,29 +13,26 @@ The input-password component is very much like the input-text, with the differen
 
 The component password has the following states:
 
-States: **Enabled**, **Hover** and **Focus**
+States: **Enabled**, **Hover**, **Focus**, **Error** and **Disabled**.
 
-<!--
+![Input-password component states](images/password_states.png)
 
-![States image](path to the image)
-
-_Image caption_
--->
+_Input-password component states_
 
 ## Anatomy
 
-<!--
+![Component anatomy example](images/password_anatomy.png)
 
-In the anatomy section an image displays all the elements that are part of the component and as a caption a list of the numerical references present on the image providing the names of each element.
+_Component anatomy example_
 
-![Anatomy image](path to the image)
+1. Label
+2. Helper text _(Optional)_
+3. Input container
+4. Show/Hide action
+5. Error icon
+6. Error message
+7. Input value
 
-_Image caption_
-
-1. Element 1
-2. Element 2
-
--->
 
 ## Design specifications
 
