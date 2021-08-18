@@ -186,8 +186,8 @@ And also apply different values to each side of the component:
 | `disabledValueFontColorOnDark`        | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
 | `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
 | `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `hoverActionBackgroundColorOnDark`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `focusActionBackgroundColorOnDark`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
+| `hoverActionBackgroundColorOnDark`    | Action:hover                | `Hal-Grey-S-40`   | #666666         |
+| `focusActionBackgroundColorOnDark`    | Action:focus                | `Hal-Grey-S-40`   | #666666         |
 | `activeActionBackgroundColorOnDark`   | Action:active               | `Hal-Grey-L-60`   | #999999         |
 | `disabledActionBackgroundColorOnDark` | Action:disabled             | `transparent`     | transparent     |
 | `hoverActionIconColorOnDark`          | Action icon:hover           | `Hal-White`       | #ffffff         |
