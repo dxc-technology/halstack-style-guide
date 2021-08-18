@@ -53,35 +53,35 @@ _Image caption_
 
 | Component token          | Element            | Token             | Value             |
 | ------------------------ | ------------------ | ----------------- | ----------------- |
-| `labelFontColor`         | Label              | `Hal-Black`       | #000000           |
-| `valueFontColor`         | Value              | `Hal-Black`       | #000000           |
-| `helperTextFontColor`    | Helper-text        | `Hal-Black`       | #000000           |
-| `enabledOutlineColor`    | Outline:enabled    | `Hal-Black`       | #000000           |
-| `ActionIconColor`        | Action icon        | `Hal-Black`       | #000000           |
+| `labelFontColor`         | Label              | `black`           | #000000           |
+| `valueFontColor`         | Value              | `black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
+| `enabledOutlineColor`    | Outline:enabled    | `black`           | #000000           |
+| `ActionIconColor`        | Action icon        | `black`           | #000000           |
 | `ActionBackgroundColor`  | Action             | `transparent`     | #transparent      |
 
 #### Interactive
 
 | Component token                 | Element                     | Token             | Value           |
 | ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColor`             | Outline:hover               | `Hal-Purple-L-65` | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `Hal-Purple-L-65` | #a46ede         |
-| `errorOutlineColor`             | Outline:error               | `Hal-Red-S-41`    | #d0011b         |
-| `disabledOutlineColor`          | Outline:disabled            | `Hal-Grey-L-60`   | #999999         |
-| `errorMessageColor`             | Error message               | `Hal-Red-S-41`    | #d0011b         |
-| `errorIconColor`                | Error icon                  | `Hal-Red-S-41`    | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `Hal-Grey-L-95`   | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `hoverActionBackgroundColor`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `activeActionBackgroundColor`   | Action:active               | `Hal-Grey-L-80`   | #cccccc         |
+| `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
+| `focusOutlineColor`             | Outline:focus               | `purple-500`      | #a46ede         |
+| `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
+| `disabledOutlineColor`          | Outline:disabled            | `grey-500`        | #999999         |
+| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Action:hover                | `grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Action:focus                | `grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `grey-300`        | #cccccc         |
 | `disabledActionBackgroundColor` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Action icon:hover           | `Hal-Grey-L-60`   | #999999         |
-| `focusActionIconColor`          | Action icon:focus           | `Hal-Grey-L-60`   | #999999         |
-| `disabledActionIconColor`       | Action icon:disabled        | `Hal-Grey-L-60`   | #999999         |
+| `hoverActionIconColor`          | Action icon:hover           | `grey-500`        | #999999         |
+| `focusActionIconColor`          | Action icon:focus           | `grey-500`        | #999999         |
+| `disabledActionIconColor`       | Action icon:disabled        | `grey-500`        | #999999         |
 
 
 ### Typography
