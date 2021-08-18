@@ -36,15 +36,9 @@ _Component anatomy example_
 
 ## Design specifications
 
-<!--
+![Input-password component specifications](images/password_specs.png)
 
-The design specifications section provides developers the information needed to apply the correct visual properties of the component.
-
-![Specs image](path to the image)
-
-_Image caption_
-
--->
+_Input-password component specifications_
 
 ### Color
 
