@@ -120,19 +120,16 @@ _Image caption_
 
 
 ## Accesibility
-
-<!--
-Add WCAG success criterion and WAI-ARIA design pattern and example when available
-
 ### WCAG 
 
-* Understanding WCAG 2.2 - [SC x.x name of the succes criterion](url)
+* Understanding WCAG 2.2 - [SC 1.3.5 Identify Input Purpose](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
+* Understanding WCAG 2.2 - [SC 3.3.3 Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion)
+* Understanding WCAG 2.2 - [SC 3.3.7 Accessible Authentication](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication)
 
-### WAI-ARIA
 
-* WAI-ARIA Authoring practices 1.2 - [x.x title of the section](url)
-* WAI-ARIA Authoring practices 1.2 - ["Name" design pattern](url)
--->
+### WAI Web Accessibility Tutorials
+
+* Forms - [Full Password Example](https://www.w3.org/WAI/tutorials/forms/examples/password/)
 
 
 ## Links and references
