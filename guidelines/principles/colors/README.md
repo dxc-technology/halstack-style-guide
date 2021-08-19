@@ -20,6 +20,14 @@ Halstack uses tokens to manage color. Appart from a multi-purpose greyscale fami
 
 _Core color families values_
 
+
+#### Absolutes
+
+| Name                | Value (hex)  | Value (hsl)      | 
+| :---                | :---         | :---             |
+| `white`             | #ffffff      | (0, 0%, 100%)    |
+| `black`             | #000000      | (0, 0%, 0%)      |
+
 #### Greyscale
 
 | Name                | Value (hex)  | Value (hsl)      | 
