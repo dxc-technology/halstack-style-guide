@@ -38,6 +38,13 @@ _Component anatomy example_
 6. Error message
 7. Input value
 
+## Actions
+
+![Show and hide action to toggle the value visibility](images/password_actions.png)
+
+_Show and hide action to toggle the value visibility_
+
+The value of the input can be toggled on or off using the default action the component provides. The input-password can be also clearable.
 
 ## Design specifications
 
@@ -61,7 +68,7 @@ _Input-password component specifications_
 | Component token                 | Element                     | Token             | Value           |
 | ------------------------------- | --------------------------- | ----------------- | --------------- |
 | `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `purple-500`      | #a46ede         |
+| `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
 | `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
 | `disabledOutlineColor`          | Outline:disabled            | `grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
@@ -97,13 +104,13 @@ _Input-password component specifications_
 | `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
 
 
-
 ### Spacing
 
 
 | Property        | Element         | Token             | Value           |
 | --------------- | --------------- | ----------------- | --------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Action          | `spacing-02`      | 0.25rem / 4px   |
 | `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
 | `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
