@@ -105,12 +105,12 @@ And also apply different values to each side of the component:
 
 | Property        | Element          | Token            | Value     |
 | --------------- | ---------------- | ---------------- | --------- |
-| `font-size`     | Label            | `type-scale-02`  | 14px      |
-| `font-weight`   | Label            | `type-regular`   | 400       |
-| `font-size`     | Indicator        | `type-scale-02`  | 14px      |
-| `font-weight`   | Indicator        | `type-bold`      | 600       |
-| `font-size`     | Helper text      | `type-scale-01`  | 12px      |
-| `font-weight`   | Helper text      | `type-regular`   | 400       |
+| `font-size`     | Label            | `font-scale-02`  | 14px      |
+| `font-weight`   | Label            | `font-regular`   | 400       |
+| `font-size`     | Indicator        | `font-scale-02`  | 14px      |
+| `font-weight`   | Indicator        | `font-bold`      | 600       |
+| `font-size`     | Helper text      | `font-scale-01`  | 12px      |
+| `font-weight`   | Helper text      | `font-regular`   | 400       |
 
 
 

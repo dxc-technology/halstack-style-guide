@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Aug 2021 13:12:28 GMT
+ * Generated on Thu, 19 Aug 2021 14:04:41 GMT
  */
 
 :root {
@@ -78,6 +78,10 @@
   --color-orange-800: #915108;
   --color-orange-900: #613605;
   --font-family: Open Sans, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
   --font-scale-01: 0.75rem;
   --font-scale-02: 0.875rem;
   --font-scale-03: 0.1rem;
@@ -88,12 +92,12 @@
   --font-scale-08: 3.75rem;
   --font-style-italic: italic;
   --font-style-normal: normal;
-  --font-kerning-tight-02: -0.025em;
-  --font-kerning-tight-01: -0.0125em;
-  --font-kerning-normal-normal: 0em;
-  --font-kerning-wide-01: 0.025em;
-  --font-kerning-wide-02: 0.05em;
-  --font-kerning-wide-03: 0.1em;
+  --font-tracking-tight-02: -0.025em;
+  --font-tracking-tight-01: -0.0125em;
+  --font-tracking-normal-normal: 0em;
+  --font-tracking-wide-01: 0.025em;
+  --font-tracking-wide-02: 0.05em;
+  --font-tracking-wide-03: 0.1em;
   --font-leading-compact-03: 1em;
   --font-leading-compact-02: 1.25em;
   --font-leading-compact-01: 1.365em;

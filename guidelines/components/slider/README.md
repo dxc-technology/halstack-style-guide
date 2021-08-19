@@ -102,7 +102,7 @@ _Slider Specifications_
 
 | Component token                   | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
-| `fontFamily`                      | Floor/Ceil label    | `type-sans`     | 'Open Sans', sans-serif   |
+| `fontFamily`                      | Floor/Ceil label    | `font-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `type_scale_03` | 1rem / 16px               |
 | `fontWeight`                      | Floor/Ceil label    | `type_regular`  | 400                       |
 | `fontStyle`                       | Floor/Ceil label    | `type_normal`   | normal                    |

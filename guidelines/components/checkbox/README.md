@@ -90,8 +90,8 @@ margin | value
 
 | Property              | Element       | Value     |   Token          |
 | --------------------- | -----------   | --------  | ---------        |
-| `font-size`           | label         | 16px      | `type-scale-03`  |
-| `font-weight`         | label         | 400       | `type-regular`   |
+| `font-size`           | label         | 16px      | `font-scale-03`  |
+| `font-weight`         | label         | 400       | `font-regular`   |
 
 ### Border
 

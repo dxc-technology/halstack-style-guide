@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 19 Aug 2021 13:12:28 GMT
+ * Generated on Thu, 19 Aug 2021 14:04:41 GMT
  */
 
 export const ColorTransparent = "#000000";
@@ -77,6 +77,10 @@ export const ColorOrange700 = "#c26c0a";
 export const ColorOrange800 = "#915108";
 export const ColorOrange900 = "#613605";
 export const FontFamily = "Open Sans, sans-serif";
+export const FontWeightLight = "300";
+export const FontWeightRegular = "400";
+export const FontWeightSemibold = "600";
+export const FontWeightBold = "700";
 export const FontScale01 = "0.75rem";
 export const FontScale02 = "0.875rem";
 export const FontScale03 = "0.1rem";
@@ -87,12 +91,12 @@ export const FontScale07 = "3rem";
 export const FontScale08 = "3.75rem";
 export const FontStyleItalic = "italic";
 export const FontStyleNormal = "normal";
-export const FontKerningTight02 = "-0.025em";
-export const FontKerningTight01 = "-0.0125em";
-export const FontKerningNormalNormal = "0em";
-export const FontKerningWide01 = "0.025em";
-export const FontKerningWide02 = "0.05em";
-export const FontKerningWide03 = "0.1em";
+export const FontTrackingTight02 = "-0.025em";
+export const FontTrackingTight01 = "-0.0125em";
+export const FontTrackingNormalNormal = "0em";
+export const FontTrackingWide01 = "0.025em";
+export const FontTrackingWide02 = "0.05em";
+export const FontTrackingWide03 = "0.1em";
 export const FontLeadingCompact03 = "1em";
 export const FontLeadingCompact02 = "1.25em";
 export const FontLeadingCompact01 = "1.365em";

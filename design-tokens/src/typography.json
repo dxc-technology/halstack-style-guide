@@ -3,6 +3,12 @@
     "family": {
         "value": "Open Sans, sans-serif"
     },
+    "weight": {
+      "light": {"value":"300"},
+      "regular": {"value":"400"},
+      "semibold": {"value":"600"},
+      "bold": {"value":"700"}
+   },
     "scale": {
       "01": {"value":"0.75rem"},
       "02": {"value":"0.875rem"},
@@ -17,7 +23,7 @@
     "italic": {"value":"italic"},
     "normal": {"value":"normal"}
    },
-   "kerning": {
+   "tracking": {
      "tight": {
       "02": {"value":"-0.025em"},
       "01": {"value":"-0.0125em"}

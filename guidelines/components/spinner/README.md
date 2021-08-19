@@ -53,10 +53,10 @@ _Spinner design specifications_
 
 | Property        | Element          | Token            | Value     |
 | --------------- | ---------------- | ---------------- | --------- |
-| `font-size`     | Loading label    | `type-scale-02`  | 14px      |
-| `font-weight`   | Loading label    | `type-regular`   | 400       |
-| `font-size`     | Percentage       | `type-scale-02`  | 14px      |
-| `font-weight`   | Percentage       | `type-bold`      | 600       |
+| `font-size`     | Loading label    | `font-scale-02`  | 14px      |
+| `font-weight`   | Loading label    | `font-regular`   | 400       |
+| `font-size`     | Percentage       | `font-scale-02`  | 14px      |
+| `font-weight`   | Percentage       | `font-bold`      | 600       |
 
 ### Border
 
