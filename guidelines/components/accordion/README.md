@@ -144,14 +144,14 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token           | Value (HEX)  |
 | ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
-| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | #000000      | 
-| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | #bfbfbf      |
-| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | #5f249f      |
-| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | #5f249f      |
-| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | #666666      |
-| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | #f2eafa      |
-| `focusBorderColor`                          | Header outline:focus         | `Hal-Purple-S-38`    | #5f249f      |
-| `backgroundColor`                           | Container background         | `Hal-White`          | #ffffff      |
+| `titleLabelFontColor`                       | Label                        | `grey-700`           | #000000      | 
+| `disabledColor`                             | Label:disabled               | `grey-400`           | #bfbfbf      |
+| `arrowColor`                                | Caret icon                   | `purple-700`         | #5f249f      |
+| `iconColor`                                 | Custom icon                  | `purple-700`         | #5f249f      |
+| `assistiveTextFontColor`                    | Helper text                  | `grey-700`           | #666666      |
+| `hoverBackgroundColor`                      | Header background:hover      | `purple-100`         | #f2eafa      |
+| `focusBorderColor`                          | Header outline:focus         | `purple-700`         | #5f249f      |
+| `backgroundColor`                           | Container background         | `white`              | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
 | `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
 
