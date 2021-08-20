@@ -40,36 +40,36 @@ Specifications for checkbox are simple. The size of the checkbox should display 
 
 #### On-light
 
-|   Component token                    |   Element                         |   Core token             |   Value     |
-| ------------------------------------ | --------------------------------- | ------------------------ | ------------|
-|   `backgroundColorChecked`           |   Fill                            |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `hoverBackgroundColorChecked`      |   Fill:hover                      |   `Hal-Blue-L-45`        |   #0086e6   |
-|   `disabledBackgroundColorChecked`   |   Fill:disabled                   |   `Hal-Grey-L-75`        |   #bfbfbf   |
-|   `borderColor`                      |   Border                          |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `hoverBorderColor`                 |   Border:hover                    |   `Hal-Blue-L-45`        |   #0086e6   |
-|   `disabledBorderColor`              |   Border:disabled                 |   `Hal-Grey-L-95`        |   #f2f2f2   |
-|   `checkColor`                       |   Check mark                      |   `Hal-White`            |   #ffffff   |
-|   `disabledCheckColor`               |   Check mark:disabled             |   `Hal-White`            |   #ffffff   |
-|   `fontColor`                        |   Label                           |   `Hal-Black`            |   #000000   |
-|   `disabledFontColor`                |   Label:disabled                  |   `Hal-Grey-L-60`        |   #999999   |
-|   `focusColor`                       |   Outline:focus                   |   `Hal-Blue-S-35`        |   #0067b3   |
+| Component token                      | Element                           | Core token               | Value        |
+| :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
+| `backgroundColorChecked`             | Fill                              | `blue-800`               |   #0067b3    |
+| `hoverBackgroundColorChecked`        | Fill:hover                        | `blue-700`               |   #0086e6    |
+| `disabledBackgroundColorChecked`     | Fill:disabled                     | `grey-400`               |   #bfbfbf    |
+| `borderColor`                        | Border                            | `blue-800`               |   #0067b3    |
+| `hoverBorderColor`                   | Border:hover                      | `blue-700`               |   #0086e6    |
+| `disabledBorderColor`                | Border:disabled                   | `grey-100`               |   #f2f2f2    |
+| `checkColor`                         | Check mark                        | `white`                  |   #ffffff    |
+| `disabledCheckColor`                 | Check mark:disabled               | `white`                  |   #ffffff    |
+| `fontColor`                          | Label                             | `black`                  |   #000000    |
+| `disabledFontColor`                  | Label:disabled                    | `grey-500`               |   #999999    |
+| `focusColor`                         | Outline:focus                     | `blue-800`               |   #0067b3    |
 
 
 #### On-dark
 
-|   Component token                       |   Element                      |   Core token             |   Value     |
-| --------------------------------------- | ------------------------------ | ------------------------ | ----------- |
-|   `backgroundColorCheckedOnDark`        |   Fill                         |   `Hal-Blue-L-50`        |   #0095ff   |
-|   `hoverBackgroundColorCheckedOnDark`   |   Fill:hover                   |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `disabledBackgroundColorCheckedOnDark`|   Fill:disabled                |   `Hal-Grey-S-40`        |   #666666   |
-|   `borderColorOnDark`                   |   Border                       |   `Hal-Blue-L-50`        |   #0095ff   |
-|   `hoverBorderColorOnDark`              |   Border:hover                 |   `Hal-Blue-S-35`        |   #0067b3   |
-|   `disabledBorderColorOnDark`           |   Border:disabled              |   `Hal-Grey-S-40`        |   #666666   |
-|   `checkColorOnDark`                    |   Check mark                   |   `Hal-White`            |   #ffffff   |
-|   `disabledCheckOnDark`                 |   Check mark:disabled          |   `Hal-White`            |   #ffffff   |
-|   `fontColorOnDark`                     |   Label                        |   `Hal-White`            |   #ffffff   |
-|   `disabledFontColorOnDark`             |   Label:disabled               |   `Hal-Grey-L-40`        |   #666666   |
-|   `focusColorOnDark`                    |   Outline:focus                |   `Hal-Blue-L-50`        |   #0095ff   |
+| Component token                        | Element                           | Core token               | Value        |
+| :------------------------------------- | :-------------------------------- | :----------------------- | :----------- |
+| `backgroundColorCheckedOnDark`         | Fill                              | `blue-600`               |   #0095ff    |
+| `hoverBackgroundColorCheckedOnDark`    | Fill:hover                        | `blue-800`               |   #0067b3    |
+| `disabledBackgroundColorCheckedOnDark` | Fill:disabled                     | `grey-700`               |   #666666    |
+| `borderColorOnDark`                    | Border                            | `blue-600`               |   #0095ff    |
+| `hoverBorderColorOnDark`               | Border:hover                      | `blue-800`               |   #0067b3    |
+| `disabledBorderColorOnDark`            | Border:disabled                   | `grey-700`               |   #666666    |
+| `checkColorOnDark`                     | Check mark                        | `white`                  |   #ffffff    |
+| `disabledCheckOnDark`                  | Check mark:disabled               | `white`                  |   #ffffff    |
+| `fontColorOnDark`                      | Label                             | `white`                  |   #ffffff    |
+| `disabledFontColorOnDark`              | Label:disabled                    | `grey-700`               |   #666666    |
+| `focusColorOnDark`                     | Outline:focus                     | `blue-600`               |   #0095ff    |
 
 
 ### Margin
@@ -90,8 +90,8 @@ margin | value
 
 | Property              | Element       | Value     |   Token          |
 | --------------------- | -----------   | --------  | ---------        |
-| `font-size`           | label         | 16px      | `type-scale-03`  |
-| `font-weight`         | label         | 400       | `type-regular`   |
+| `font-size`           | label         | 16px      | `font-scale-03`  |
+| `font-weight`         | label         | 400       | `font-regular`   |
 
 ### Border
 

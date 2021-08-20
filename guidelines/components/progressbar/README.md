@@ -56,18 +56,18 @@ _Component design specifications_
 
 ### Color
 
-| Component token            | Element                   | Token             | Value     |
-| -------------------------- | ------------------------- | ----------------- | --------- |
-| `trackLineColor`           | Track line                | `Hal-Purple-S-38` | #5f249f   |
-| `trackLineColorOnDark`     | Track line                | `Hal-Purple-L-65` | #a46ede   |
-| `totalLineColor`           | Total line                | `Hal-Grey-L-90`   | #e6e6e6   |
-| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
-| `labelFontColor`           | Label                     | `Hal-Black`       | #000000   |
-| `labelFontColorOnDark`     | Label                     | `Hal-White`       | #ffffff   |
-| `indicatorFontColor`       | Indicator                 | `Hal-Black`       | #000000	  |
-| `indicatorFontColorOnDark` | Indicator                 | `Hal-White`       | #ffffff	  |
-| `helperFontColor`          | Helper text               | `Hal-Black`       | #000000	  |
-| `helperFontColorOnDark`    | Helper text               | `Hal-White`       | #ffffff	  |
+| Component token            | Element                   | Token             | Value      |
+| :------------------------- | :------------------------ | :---------------- | :--------- |
+| `trackLineColor`           | Track line                | `purple-700`      | #5f249f    |
+| `trackLineColorOnDark`     | Track line                | `purple-500`      | #a46ede    |
+| `totalLineColor`           | Total line                | `grey-200`        | #e6e6e6    |
+| `labelFontColor`           | Label                     | `black`           | #000000    |
+| `labelFontColor`           | Label                     | `black`           | #000000    |
+| `labelFontColorOnDark`     | Label                     | `white`           | #ffffff    |
+| `indicatorFontColor`       | Indicator                 | `black`           | #000000	  |
+| `indicatorFontColorOnDark` | Indicator                 | `white`           | #ffffff	  |
+| `helperFontColor`          | Helper text               | `black`           | #000000	  |
+| `helperFontColorOnDark`    | Helper text               | `white`           | #ffffff	  |
 | `overlayColor`             | Overlay                   | -                 | #000000 0.80 opacity	  |
 
 ### Size
@@ -105,12 +105,12 @@ And also apply different values to each side of the component:
 
 | Property        | Element          | Token            | Value     |
 | --------------- | ---------------- | ---------------- | --------- |
-| `font-size`     | Label            | `type-scale-02`  | 14px      |
-| `font-weight`   | Label            | `type-regular`   | 400       |
-| `font-size`     | Indicator        | `type-scale-02`  | 14px      |
-| `font-weight`   | Indicator        | `type-bold`      | 600       |
-| `font-size`     | Helper text      | `type-scale-01`  | 12px      |
-| `font-weight`   | Helper text      | `type-regular`   | 400       |
+| `font-size`     | Label            | `font-scale-02`  | 14px      |
+| `font-weight`   | Label            | `font-regular`   | 400       |
+| `font-size`     | Indicator        | `font-scale-02`  | 14px      |
+| `font-weight`   | Indicator        | `font-bold`      | 600       |
+| `font-size`     | Helper text      | `font-scale-01`  | 12px      |
+| `font-weight`   | Helper text      | `font-regular`   | 400       |
 
 
 

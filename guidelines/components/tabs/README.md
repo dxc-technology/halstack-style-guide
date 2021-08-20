@@ -147,23 +147,23 @@ _Do not use main navigation if they only affect an specific panel._
 
 ### Color
 
-|   Component token                 |   Element                     |   Core token                 |   Value       |
-| --------------------------------- | ----------------------------- | ---------------------------- | ------------- |
-|   `selectedBackgroundColor`       |   Tab item                    |   `Hal-White`                |   #ffffff     |
-|   `unselectedBackgroundColor`     |   Tab item:enabled            |   `Hal-White`                |   #ffffff     |         
-|   `hoverBackgroundColor`          |   Tab item:hover              |   `Hal-Purple-L-95`          |   #f2eafa     |
-|   `pressedBackgroundColor`        |   Tab item:active             |   `Hal-Purple-L-90`          |   #e5d5f6     |
-|   `selectedFontColor`             |   Label                       |   `Hal-Purple-S-38`          |   #5f249f     | 
-|   `unselectedFontColor`           |   Label                       |   `Hal-Grey-S-40`            |   #666666     | 
-|   `disabledFontColor`             |   Label:disabled              |   `Hal-Grey-L-60`            |   #999999     |
-|   `selectedIconColor`             |   Icon                        |   `Hal-Purple-S-38`          |   #5f249f     | 
-|   `unselectedIconColor`           |   Icon                        |   `Hal-Grey-S-40`            |   #666666     |
-|   `disabledIconColor`             |   Icon:disabled               |   `Hal-Grey-L-60`            |   #999999     |
-|   `focusOutline`                  |   Tab item outline            |   `Hal-Purple-S-38`          |   #5f249f     | 
-|   `selectedUnderlineColor`        |   Tab item border botton      |   `Hal-Purple-S-38`          |   #5f249f     | 
-|   `dividerColor`                  |   Separator                   |   `Hal-Grey-L-75`            |   #bfbfbf     |   
-|   `badgeBackgroundColor`          |   Badge container             |   `Hal-Red-S-41`             |   #d0011b     |
-|   `badgeFontColor`                |   Label                       |   `Hal-White`                |   #ffffff     |
+| Component token                   | Element                       | Core token              | Value         |
+| :-------------------------------- | :---------------------------- | :---------------------- | :------------ |
+| `selectedBackgroundColor`         | Tab item                      | `white`                 | #ffffff       |
+| `unselectedBackgroundColor`       | Tab item:enabled              | `white`                 | #ffffff       |         
+| `hoverBackgroundColor`            | Tab item:hover                | `purple-100`            | #f2eafa       |
+| `pressedBackgroundColor`          | Tab item:active               | `purple-200`            | #e5d5f6       |
+| `selectedFontColor`               | Label                         | `purple-700`            | #5f249f       | 
+| `unselectedFontColor`             | Label                         | `grey-700`              | #666666       | 
+| `disabledFontColor`               | Label:disabled                | `grey-500`              | #999999       |
+| `selectedIconColor`               | Icon                          | `purple-700`            | #5f249f       | 
+| `unselectedIconColor`             | Icon                          | `grey-700`              | #666666       |
+| `disabledIconColor`               | Icon:disabled                 | `grey-500`              | #999999       |
+| `focusOutline`                    | Tab item outline              | `purple-700`            | #5f249f       | 
+| `selectedUnderlineColor`          | Tab item border botton        | `purple-700`            | #5f249f       | 
+| `dividerColor`                    | Separator                     | `grey-400`              | #bfbfbf       |   
+| `badgeBackgroundColor`            | Badge container               | `red-700`               | #d0011b       |
+| `badgeFontColor`                  | Label                         | `white`                 | #ffffff       |
 
 ### Min / Max width
 

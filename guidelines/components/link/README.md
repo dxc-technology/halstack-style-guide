@@ -19,31 +19,31 @@ _Design specifications for link component_
 ### Color
 ### On-light
 
-|   Component token                                 |   Element           |   Core token                  |   Value     |
-| ------------------------------------------------- | ------------------- | ----------------------------- | ----------- |
-|   `fontColor`                                     |   Label             |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `hoverFontColor`                                |   Label:hover       |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `activeFontColor`                               |   Label:active      |   `Hal-Black`                 |   #000000   |
-|   `disabledFontColor`                             |   Label:disabled    |   `Hal-Grey-L-60`             |   #999999   |
-|   `visitedFontColor`                              |   Label:visited     |   `Hal-Purple-S-38`           |   #5f249f   |
-|   `hoverUnderlineColor`                           |   Underline:hover   |   `Hal-Blue-S-35`             |   #0067b3   |
-|   `activeUnderlineColor`                          |   Underline:active  |   `Hal-Black`                 |   #000000   |
-|   `visitedUnderlineColor`                         |   Underline:visited |   `Hal-Purple-S-38`           |   #5f249f   |
-|   `focusColor`                                    |   Outline:focus     |   `Hal-Blue-S-35`             |   #0067b3   |
+| Component token                                   | Element             | Core token               | Value       |
+| :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
+| `fontColor`                                       | Label               | `blue-800`               | #0067b3     |
+| `hoverFontColor`                                  | Label:hover         | `blue-800`               | #0067b3     |
+| `activeFontColor`                                 | Label:active        | `black`                  | #000000     |
+| `disabledFontColor`                               | Label:disabled      | `grey-500`               | #999999     |
+| `visitedFontColor`                                | Label:visited       | `purple-700`             | #5f249f     |
+| `hoverUnderlineColor`                             | Underline:hover     | `blue-800`               | #0067b3     |
+| `activeUnderlineColor`                            | Underline:active    | `black`                  | #000000     |
+| `visitedUnderlineColor`                           | Underline:visited   | `purple-700`             | #5f249f     |
+| `focusColor`                                      | Outline:focus       | `blue-800`               | #0067b3     |
 
 
 ### On-dark
 
-|   Component token                                 |   Element            |   Core token                  |   Value     |
-| ------------------------------------------------- | -------------------- | ----------------------------- | ----------- |
-|   `fontColorOnDark`                               |   Label              |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `hoverFontColorOnDark`                          |   Label:hover        |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `activeFontColorOnDark`                         |   Label:active       |   `Hal-White`                 |   #ffffff   |
-|   `disabledFontColorOnDark`                       |   Label:disabled     |   `Hal-Grey-S-40`             |   #666666   |
-|   `visitedFontColorOnDark`                        |   Label:visited      |   `Hal-Purple-S-65`           |   #a46ede   |
-|   `hoverUnderlineColorOnDark`                     |   Underline:hover    |   `Hal-Blue-L-50`             |   #0095ff   |
-|   `visitedUnderlineColorOnDark`                   |   Underline:visited  |   `Hal-Purple-S-65`           |   #a46ede   |
-|   `focusColorOnDark`                              |   Outline:focus      |   `Hal-Blue-L-50`             |   #0095ff   |
+| Component token                                   | Element             | Core token               | Value       |
+| :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
+| `fontColorOnDark`                                 | Label               | `blue-600`               | #0095ff     |
+| `hoverFontColorOnDark`                            | Label:hover         | `blue-600`               | #0095ff     |
+| `activeFontColorOnDark`                           | Label:active        | `white`                  | #ffffff     |
+| `disabledFontColorOnDark`                         | Label:disabled      | `grey-700`               | #666666     |
+| `visitedFontColorOnDark`                          | Label:visited       | `purple-500`             | #a46ede     |
+| `hoverUnderlineColorOnDark`                       | Underline:hover     | `blue-600`               | #0095ff     |
+| `visitedUnderlineColorOnDark`                     | Underline:visited   | `purple-500`             | #a46ede     |
+| `focusColorOnDark`                                | Outline:focus       | `blue-600`               | #0095ff     |
 
 ### Margin
 

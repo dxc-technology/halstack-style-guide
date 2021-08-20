@@ -28,7 +28,7 @@ The only state that is controlled in the card component is the hover. As it is n
 
 |   Component token     |   Element                     |   Core token                  |   Value       |
 | --------------------- | ----------------------------- | ----------------------------- | ------------- |
-|   `backgroundColor`*  |   Container                   |   `Hal-White`                 |   `#ffffff`   |
+|   `backgroundColor`*  |   Container                   |   `white`                     |   `#ffffff`   |
 
 * The `background-color` token belongs to the box component, changes made on that component will affect the card element.
 

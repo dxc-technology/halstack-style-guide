@@ -68,41 +68,41 @@ _Slider Specifications_
 
 | Component token                   | Element             | Core token      | Value   |
 | :-------------------------------- | :------------------ | :-------------- | :------ |
-| `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | #000000 |
-| `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Grey-L-75` | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Grey-L-75` | #bfbfbf |
-| `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | #e6f4ff |
-| `totalLineColor`	                | Total line          | `Hal-Grey-L-90` | #e6e6e6 |
-| `disabledTotalLineColor`          | Total line:disabled | `Hal-Grey-L-95` | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `Hal-Blue-S-35` | #0067b3 |
+| `fontColor`                       | Floor/Ceil label    | `black`         | #000000 |
+| `thumbBackgroundColor`            | Thumb               | `blue-800`      | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `grey-400`      | #bfbfbf |
+| `tickMarkBackgroundColor`         | Tick Mark           | `blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `grey-400`      | #bfbfbf |
+| `trackLineColor`                  | Track line          | `blue-800`      | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled | `blue-100`      | #e6f4ff |
+| `totalLineColor`	                | Total line          | `grey-200`      | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled | `grey-100`      | #f2f2f2 |
+| `focusColor`                      | Focus outline       | `blue-800`      | #0067b3 |
 
 
 #### On-Dark
 
 | Component token                           | Element              | Core token        | Value         |
 | :---------------------------------------- | :------------------- | :---------------- | :------------ |
-| `fontColorOnDark`                         | Floor/Ceil label     | `Hal-White`       | #ffffff       |
-| `thumbBackgroundColorOnDark`              | Thumb                | `Hal-Blue-L-50`   | #0095ff       |
-| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `Hal-Blue-S-35`   | #0067b3       |
-| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `Hal-Grey-L-60`   | #999999       |
-| `tickMarkBackgroundColorOnDark`	          | Tick mark            | `Hal-Blue-L-50`   | #0095ff       |
-| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `Hal-Grey-L-60`   | #999999       |
-| `trackLineColorOnDark`                    | Track line           | `Hal-Blue-L-50`   | #0095ff       |
-| `disabledTrackLineColorOnDark`            | Track line:disabled  | `Hal-Grey-L-60`   | #999999       |
-| `totalLineColorOnDark`	                  | Total line           | `Hal-Grey-L-75`   | #bfbfbf       |
-| `disabledTotalLineColorOnDark`            | Total line:disabled  | `Hal-Grey-S-40`   | #666666       |
-| `focusColorOnDark`                        | Focus outline        | `Hal-Blue-L-50`   | #0095ff       |
+| `fontColorOnDark`                         | Floor/Ceil label     | `white`           | #ffffff       |
+| `thumbBackgroundColorOnDark`              | Thumb                | `blue-600`        | #0095ff       |
+| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `blue-800`        | #0067b3       |
+| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `grey-500`        | #999999       |
+| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `blue-600`        | #0095ff       |
+| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `grey-500`        | #999999       |
+| `trackLineColorOnDark`                    | Track line           | `blue-600`        | #0095ff       |
+| `disabledTrackLineColorOnDark`            | Track line:disabled  | `grey-500`        | #999999       |
+| `totalLineColorOnDark`	                | Total line           | `grey-400`        | #bfbfbf       |
+| `disabledTotalLineColorOnDark`            | Total line:disabled  | `grey-700`        | #666666       |
+| `focusColorOnDark`                        | Focus outline        | `blue-600`        | #0095ff       |
 
 ### Typography
 
 
 | Component token                   | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
-| `fontFamily`                      | Floor/Ceil label    | `type-sans`     | 'Open Sans', sans-serif   |
+| `fontFamily`                      | Floor/Ceil label    | `font-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `type_scale_03` | 1rem / 16px               |
 | `fontWeight`                      | Floor/Ceil label    | `type_regular`  | 400                       |
 | `fontStyle`                       | Floor/Ceil label    | `type_normal`   | normal                    |
