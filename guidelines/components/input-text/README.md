@@ -1,10 +1,10 @@
 # Text-input
 
-Text inputs are input fields typically used in forms that allow the user to enter text data in a structured format.
+Text inputs are input fields typically used in forms that allow the user to enter text data in a structucolor-red format.
 
 ## Usage
 
-Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, credit cards, emails, addresses or plain text searches
+Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, ccolor-redit cards, emails, addresses or plain text searches
 
 ### Do's
 
@@ -111,103 +111,103 @@ And also apply different values to each side of the component:
 
 #### Base
 
-| Component token          | Element            | Token             | Value             |
-| ------------------------ | ------------------ | ----------------- | ----------------- |
-| `labelFontColor`         | Label              | `black`           | #000000           |
-| `valueFontColor`         | Value              | `black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
-| `placeholderFontColor`   | Placeholder        | `grey-600`        | #808080           |
-| `enabledOutlineColor`    | Outline:enabled    | `black`           | #000000           |
-| `ActionIconColor`        | Action icon        | `black`           | #000000           |
-| `ActionBackgroundColor`  | Action             | `transparent`     | #transparent      |
+| Component token          | Element            | Token                   | Value             |
+| :----------------------- | :----------------- | :---------------------- | :---------------- |
+| `labelFontColor`         | Label              | `color-black`           | #000000           |
+| `valueFontColor`         | Value              | `color-black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
+| `enabledOutlineColor`    | Outline:enabled    | `color-black`           | #000000           |
+| `ActionIconColor`        | Action icon        | `color-black`           | #000000           |
+| `ActionBackgroundColor`  | Action             | `color-transparent`     | #transparent      |
 
 #### Interactive
 
-| Component token                 | Element                     | Token             | Value           |
-| ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
-| `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
-| `disabledOutlineColor`          | Outline:disabled            | `grey-600`        | #808080         |
-| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Action:hover                | `grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Action:active               | `grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Action icon:hover           | `black`           | #000000         |
-| `focusActionIconColor`          | Action icon:focus           | `black`           | #000000         |
-| `disabledActionIconColor`       | Action icon:disabled        | `grey-500`        | #999999         |
+| Component token                 | Element                     | Token                   | Value           |
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverOutlineColor`             | Outline:hover               | `color-purple-500`      | #a46ede         |
+| `focusOutlineColor`             | Outline:focus               | `color-blue-600`        | #0095ff         |
+| `errorOutlineColor`             | Outline:error               | `color-red-700`         | #d0011b         |
+| `disabledOutlineColor`          | Outline:disabled            | `color-grey-600`        | #808080         |
+| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Action:focus                | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
+| `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
+| `disabledActionIconColor`       | Action icon:disabled        | `color-grey-500`        | #999999         |
 
 
 
 #### Suffix/Prefix
 
-| Component token          | Element          | Token             | Value             |
-| ------------------------ | ---------------- | ----------------- | ----------------- |
-| `suffixColor`            | Suffix           | `grey-700`        | #666666           |
-| `prefixColor`            | Prefix           | `grey-700`        | #666666           |
-| `disabledSuffixColor`    | Suffix:disabled  | `grey-400`        | #bfbfbf           |
-| `disabledPrefixColor`    | Prefix:disabled  | `grey-400`        | #bfbfbf           |
+| Component token          | Element          | Token                   | Value             |
+| :----------------------- | :--------------- | :---------------------- | ----------------- |
+| `suffixColor`            | Suffix           | `color-grey-700`        | #666666           |
+| `prefixColor`            | Prefix           | `color-grey-700`        | #666666           |
+| `disabledSuffixColor`    | Suffix:disabled  | `color-grey-400`        | #bfbfbf           |
+| `disabledPrefixColor`    | Prefix:disabled  | `color-grey-400`        | #bfbfbf           |
 
 
 ### On-dark
 
 #### Base
 
-| Component token                | Element            | Token             | Value           |
-| ------------------------------ | ------------------ | ----------------- | --------------- |
-| `labelFontColorOnDark`         | Label              | `white`           | #ffffff         |
-| `valueFontColorOnDark`         | Value              | `white`           | #ffffff         |
-| `helperTextFontColorOnDark`    | Helper-text        | `white`           | #ffffff         |
-| `placeholderFontColorOnDark`   | Placeholder        | `grey-100`        | #f2f2f2         |
-| `enabledOutlineColorOnDark`    | Outline:enabled    | `white`           | #ffffff         |
-| `ActionIconColorOnDark`        | Action icon        | `white`           | #ffffff         |
-| `ActionBackgroundColorOnDark`  | Action             | `transparent`     | #transparent    |
+| Component token                | Element            | Token                   | Value           |
+| :----------------------------- | :----------------- | :---------------------- | :-------------- |
+| `labelFontColorOnDark`         | Label              | `color-white`           | #ffffff         |
+| `valueFontColorOnDark`         | Value              | `color-white`           | #ffffff         |
+| `helperTextFontColorOnDark`    | Helper-text        | `color-white`           | #ffffff         |
+| `placeholderFontColorOnDark`   | Placeholder        | `color-grey-100`        | #f2f2f2         |
+| `enabledOutlineColorOnDark`    | Outline:enabled    | `color-white`           | #ffffff         |
+| `ActionIconColorOnDark`        | Action icon        | `color-white`           | #ffffff         |
+| `ActionBackgroundColorOnDark`  | Action             | `color-transparent`     | transparent     |
 
 
 #### Interactive
 
-| Component token                       | Element                     | Token             | Value           |
-| ------------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColorOnDark`             | Outline:hover               | `purple-500`      | #a46ede         |
-| `focusOutlineColorOnDark`             | Outline:focus               | `blue-600`        | #0095ff         |
-| `errorOutlineColorOnDark`             | Outline:error               | `red-500`         | #fe344f         |
-| `disabledOutlineColorOnDark`          | Outline:disabled            | `grey-500`        | #999999         |
-| `errorMessageColorOnDark`             | Error message               | `red-500`         | #fe344f         |
-| `errorIconColorOnDark`                | Error icon                  | `red-500`         | #fe344f         |
-| `disabledContainerFillColorOnDark`    | Input container:disabled    | `grey-700`        | #666666         |
-| `disabledLabelFontColorOnDark`        | Label:disabled              | `grey-500`        | #999999         |
-| `disabledValueFontColorOnDark`        | Value:disabled              | `grey-500`        | #999999         |
-| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `grey-500`        | #999999         |
-| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `grey-500`        | #999999         |
-| `hoverActionBackgroundColorOnDark`    | Action:hover                | `grey-700`        | #666666         |
-| `focusActionBackgroundColorOnDark`    | Action:focus                | `grey-700`        | #666666         |
-| `activeActionBackgroundColorOnDark`   | Action:active               | `grey-500`        | #999999         |
-| `disabledActionBackgroundColorOnDark` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColorOnDark`          | Action icon:hover           | `white`           | #ffffff         |
-| `focusActionIconColorOnDark`          | Action icon:focus           | `white`           | #ffffff         |
-| `disabledActionIconColorOnDark`       | Action icon:disabled        | `grey-700`        | #666666         |
+| Component token                       | Element                     | Token                   | Value           |
+| :------------------------------------ | :-------------------------- | :---------------------- | --------------- |
+| `hoverOutlineColorOnDark`             | Outline:hover               | `color-purple-500`      | #a46ede         |
+| `focusOutlineColorOnDark`             | Outline:focus               | `color-blue-600`        | #0095ff         |
+| `errorOutlineColorOnDark`             | Outline:error               | `color-red-500`         | #fe344f         |
+| `disabledOutlineColorOnDark`          | Outline:disabled            | `color-grey-500`        | #999999         |
+| `errorMessageColorOnDark`             | Error message               | `color-red-500`         | #fe344f         |
+| `errorIconColorOnDark`                | Error icon                  | `color-red-500`         | #fe344f         |
+| `disabledContainerFillColorOnDark`    | Input container:disabled    | `color-grey-700`        | #666666         |
+| `disabledLabelFontColorOnDark`        | Label:disabled              | `color-grey-500`        | #999999         |
+| `disabledValueFontColorOnDark`        | Value:disabled              | `color-grey-500`        | #999999         |
+| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `hoverActionBackgroundColorOnDark`    | Action:hover                | `color-grey-700`        | #666666         |
+| `focusActionBackgroundColorOnDark`    | Action:focus                | `color-grey-700`        | #666666         |
+| `activeActionBackgroundColorOnDark`   | Action:active               | `color-grey-500`        | #999999         |
+| `disabledActionBackgroundColorOnDark` | Action:disabled             | `color-transparent`     | transparent     |
+| `hoverActionIconColorOnDark`          | Action icon:hover           | `color-white`           | #ffffff         |
+| `focusActionIconColorOnDark`          | Action icon:focus           | `color-white`           | #ffffff         |
+| `disabledActionIconColorOnDark`       | Action icon:disabled        | `color-grey-700`        | #666666         |
 
 
 #### Suffix/Prefix
 
-| Component token                | Element          | Token             | Value           |
-| ------------------------------ | ---------------- | ----------------- | --------------- |
-| `suffixColorOnDark`            | Suffix           | `white`           | #ffffff         |
-| `prefixColorOnDark`            | Prefix           | `white`           | #ffffff         |
-| `disabledSuffixColorOnDark`    | Suffix:disabled  | `grey-700`        | #666666         |
-| `disabledPrefixColorOnDark`    | Prefix:disabled  | `grey-700`        | #666666         |
+| Component token                | Element          | Token                   | Value           |
+| :----------------------------- | :--------------- | :---------------------- | :-------------- |
+| `suffixColorOnDark`            | Suffix           | `color-white`           | #ffffff         |
+| `prefixColorOnDark`            | Prefix           | `color-white`           | #ffffff         |
+| `disabledSuffixColorOnDark`    | Suffix:disabled  | `color-grey-700`        | #666666         |
+| `disabledPrefixColorOnDark`    | Prefix:disabled  | `color-grey-700`        | #666666         |
 
 ### Typography
 
 | Property        | Element        | Token                   | Value           |
-| --------------- | -------------- | ----------------------- | --------------- |
+| :-------------- | :------------- | :---------------------- | :-------------- |
 | `font-family`   | Label          | `font-family-sans`      | Open Sans       |
 | `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
 | `font-weight`   | Label          | `font-bold`             | 600             |
@@ -229,7 +229,7 @@ And also apply different values to each side of the component:
 
 
 | Property        | Element         | Token             | Value           |
-| --------------- | --------------- | ----------------- | --------------- |
+| :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
 | `margin-left`   | Prefix          | `spacing-03`      | 0.5rem / 8px    |
 | `padding-right` | Prefix          | `spacing-03`      | 0.5rem / 8px    |
@@ -246,7 +246,7 @@ And also apply different values to each side of the component:
 ### Border
 
 | Property        | Element               | Token             | Value           |
-| --------------- | --------------------- | ----------------- | --------------- |
+| :-------------- | :-------------------- | :---------------- | :-------------- |
 | `border`        | Input container       | `-`               | 1px solid       |
 | `box-shadow`    | Input container:focus | `-`               | 1px solid       |
 
@@ -278,9 +278,9 @@ Don’t:
 | --------------- | -------------- | ----------------------- | --------------- |
 | `margin-top`    | helper-text    | `spacing-02`            | 4px             |
 | `font-size`     | helper-text    | `font-scale-01`         | 12px            |
-| `font-family`   | helper-text    | `font-sans`             | Open Sans       |
+| `font-family`   | helper-text    | `font-family-sans`      | Open Sans       |
 | `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
-| `color`         | helper-text    | `black`                 | hsl(0, 0%, 0%)  |
+| `color`         | helper-text    | `color-black`           | hsl(0, 0%, 0%)  |
 
 ### Autocomplete
 
@@ -292,27 +292,27 @@ _Autocomplete functionality for the text input component_
 
 #### Color
 
-| Component token                     | Element                | Token             | Value           |
-| ----------------------------------- | ---------------------- | ----------------- | --------------- |
-| `ListOptionFontColor`               | List option text       | `black`           | `#000000`       |
-| `sytemMessageFontColor`             | System message         | `grey-700`        | `#666666`       |
-| `ErrorMessageBorderColor`           | Error system message   | `red-700`         | `#d0011b`       |
-| `ErrorMessageBackgroundColor`       | Error system message   | `red-100`         | `#ffe6e9`       |
-| `hoverListOptionBackgroundColor`    | List option:hover      | `grey-100`        | `#f2f2f2`       |
-| `activeListOptionBackgroundColor`   | List option:active     | `grey-300`        | `#cccccc`       |
+| Component token                     | Element                | Token                   | Value           |
+| :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
+| `ListOptionFontColor`               | List option text       | `color-black`           | #000000         |
+| `sytemMessageFontColor`             | System message         | `color-grey-700`        | #666666         |
+| `ErrorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
+| `ErrorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
+| `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
+| `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc         |
 
 #### Typography
 
 | Property        | Element              | Token                   | Value           |
-| --------------- | -------------------- | ----------------------- | --------------- |
-| `font-family`   | List option          | `font-sans`             | Open Sans       |
+| :-------------- | :------------------- | :---------------------- | :-------------- |
+| `font-family`   | List option          | `font-family-sans`      | Open Sans       |
 | `font-size`     | List option          | `font-scale-03`         | 1rem / 16px     |
 | `font-weight`   | List option          | `font-regular`          | 400             |
 | `font-weight`   | List option typed    | `font-bold`             | 600             |
-| `font-family`   | System message       | `font-sans`             | Open Sans       |
+| `font-family`   | System message       | `font-family-sans`      | Open Sans       |
 | `font-size`     | System message       | `font-scale-02`         | 0.875 / 14px    |
 | `font-weight`   | System message       | `font-regular`          | 400             |
-| `font-family`   | Error message        | `font-sans`             | Open Sans       |
+| `font-family`   | Error message        | `font-family-sans`      | Open Sans       |
 | `font-size`     | Error message        | `font-scale-02`         | 0.875 / 14px    |
 | `font-weight`   | Error message        | `font-regular`          | 400             |
 
