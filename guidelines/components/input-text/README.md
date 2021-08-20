@@ -1,4 +1,4 @@
-# Text-input
+# Input-text
 
 Text inputs are input fields typically used in forms that allow the user to enter text data in a structucolor-red format.
 
@@ -337,4 +337,3 @@ _Autocomplete functionality for the text input component_
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text-input/README.md)
-

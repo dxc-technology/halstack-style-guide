@@ -4,6 +4,7 @@
 * [Writing content](#writing-content)
 * [Sections](#sections)
     * [Creating hierarchy](#creating-hierarchy)
+    * [Heading anchors](#heading-anchors)
     * [Bottom links](#bottom-links)
 * [Design specifications](#design-specifications)
     * [Spec tables](#spec-tables)
@@ -38,6 +39,8 @@ Other sections to consider adding to a component documentation:
 * Content
 * Accessibility
 
+You can check out our [templates](https://github.com/dxc-technology/halstack-style-guide/blob/contribution-content/contributing/template.md) for component and patterns documentation.
+
 ### Creating hierarchy
 
 All documentation pages should follow the same hierarchy:
@@ -65,7 +68,25 @@ The title and sections for every page follow the same syntax across all our docu
 
 ```
 _Example of a component documentation page headings hierarchy_
+
+### Heading anchors
+
+In order to provide a way to navigate through the documentation pages anchor links are used.
+
+* Anchor links are placed after the title of the component and the general description
+* The anchors only should be created for second-level headings (`##`)
   
+```  
+* [Usage](#usage)
+* [Formatting](#formatting)
+   * [Anatomy](#anatomy)
+   * [Placement and alignment](#placement-and-alignment)
+   * [Behavior and interaction](#behavior-and-interaction)
+   * [Content](#content)
+* [Design specifications](#design-specifications)
+* [Accessibility](#accessibility)
+```
+_Example of an anchor links section_
 
 ### Bottom links
 
@@ -98,7 +119,7 @@ _Example of the “links and references“ section_
 
 When writing design specifications consider the following:
 
-* Add a [support image](https://github.com/dxc-technology/halstack-style-guide/blob/site-contributing/contributing/images.md#specification-images) as the first item of the component specifications.
+* Add a [support image](https://github.com/dxc-technology/halstack-style-guide/blob/contribution-content/contributing/images.md#specification-images) as the first item of the component specifications.
 * Subdivide the component specs regarding the property (e.g. color, size, typography)
 
 ### Spec tables
@@ -115,11 +136,22 @@ Example of a component specs table:
 
 ```
 
-| Property        | Element          | Token       | Value     |
+| Property        | Element          | Core token  | Value     |
 | --------------- | ---------------- | ----------- | --------- |
 | `property-1`    | Element-1        | `token-1`   | value-1   |
 | `property-2`    | Element-2        | `token-2`   | value-2   |
 | `property-3`    | Element-3        | `token-3`   | value-3   |
+
+```
+If the component has specific tokens for the properties that affect the elements listed use them instead:
+
+```
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `token-1`         | Element-1        | `token-1`   | value-1   |
+| `token-2`         | Element-2        | `token-2`   | value-2   |
+| `token-3`         | Element-3        | `token-3`   | value-3   |
 
 ```
 
@@ -136,3 +168,20 @@ Example of a core tokens specs table:
 | `token-3`   | _Brief description_  | `property-3`   | value-3   |
 
 ```
+
+## Accessibility
+
+The accessibility section provides all the resources needed in order to build accessible components, we follow the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/) guidelines.
+
+Every component documentation page should provide:
+
+* All the Success Criterion<sup>1</sup> that may apply to the component behavior 
+* The WAI-ARIA design pattern and example
+
+
+1: Every Succes Criterion should be linked to their reference inside [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/) document. Learn more about Success criteria in the [WCAG Understanding conformance page](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels).
+
+### Referencing and linking
+
+When referencing and linking to guidelines or other technical documents ensure you are following the [W3C recommendation](https://www.w3.org/WAI/standards-guidelines/linking/:)
+
