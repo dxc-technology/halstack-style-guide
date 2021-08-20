@@ -80,8 +80,8 @@ These values can be applied independently to each side of the component:
 
 | Component token            | Property          | Core token  | Value     |
 | :------------------------- | ---------------- | ----------- | --------- |
-| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | 1.5 em    |
-| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | 0.025 em   |
+| `labelFontLineHeight`         | line-height        | `font-leading_normal`   | 1.5 em    |
+| `labelLetterSpacing`         | letter-spacing        | `font-spacing-wide-01`   | 0.025 em   |
 
 
  ### Primary
@@ -121,8 +121,8 @@ These values can be applied independently to each side of the component:
 | Component token         | Element           | Core token           | Value                      |
 | :---------------------- | :---------------- | :------------------- | :------------------------- |
 | `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
-| `primaryBorderStyle`    | Label             | `type_scale_03`      | 16px / 1 rem               |
-| `primaryBorderRadius`   | Label             | `type_regular`       | 400                        |
+| `primaryBorderStyle`    | Label             | `font-scale-03`      | 16px / 1 rem               |
+| `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
 
 
 #### Padding
@@ -169,8 +169,8 @@ These values can be applied independently to each side of the component:
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
 | `secondaryFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
-| `secondaryFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `secondaryFontWeight`         | Label        | `type_regular`   | 400   |
+| `secondaryFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `secondaryFontWeight`         | Label        | `font-regular`   | 400   |
 
 
 #### Padding
@@ -219,8 +219,8 @@ These values can be applied independently to each side of the component:
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
 | `textFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
-| `textFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `textFontWeight`         | Label        | `type_regular`   | 400   |
+| `textFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `textFontWeight`         | Label        | `font-regular`   | 400   |
 
 
 #### Padding

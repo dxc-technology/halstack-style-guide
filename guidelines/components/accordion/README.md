@@ -158,17 +158,17 @@ _Component design specifications_
 
 ### Typography
 
-| Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
-| `titleLabelFontFamily`                      | Label                        | `type_sans`            | 'Open Sans', sans-serif;  | 
-| `titleLabelFontSize`                        | Label                        | `type_scale_03`        | 16px                      | 
-| `titleLabelFontWeight`                      | Label                        | `type_regular`         | 400                       | 
-| `titleLabelFontStyle`                       | Label                        | `type_normal`          | normal                    | 
-| `assistiveTextFontFamily`                   | Helper text                  | `type_sans`            | 'Open Sans', sans-serif;  |
-| `assistiveTextFontSize`                     | Helper text                  | `type_scale_03`        | 16px                      |
-| `assistiveTextFontWeight`                   | Helper text                  | `type_light`           | 300                       |
-| `assistiveTextFontStyle`                    | Helper text                  | `type_regular`         | italic                    |
-| `assistiveTextLetterSpacing`                | Helper text                  | `type_spacing_wide_01` | 0.025em                   |
+| Component token                             | Element                      | Core token              | Value                     |
+| :------------------------------------------ | :--------------------------- | :---------------------- | :------------------------ |
+| `titleLabelFontFamily`                      | Label                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Label                        | `font-scale-03`         | 16px                      | 
+| `titleLabelFontWeight`                      | Label                        | `font-regular`          | 400                       | 
+| `titleLabelFontStyle`                       | Label                        | `font-normal`           | normal                    | 
+| `assistiveTextFontFamily`                   | Helper text                  | `font-sans`             | 'Open Sans', sans-serif;  |
+| `assistiveTextFontSize`                     | Helper text                  | `font-scale-03`         | 16px                      |
+| `assistiveTextFontWeight`                   | Helper text                  | `font-light`            | 300                       |
+| `assistiveTextFontStyle`                    | Helper text                  | `font-regular`          | italic                    |
+| `assistiveTextLetterSpacing`                | Helper text                  | `font-tracking-wide-01` | 0.025em                   |
 
 ### Iconography
 
