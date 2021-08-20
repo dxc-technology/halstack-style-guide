@@ -113,36 +113,36 @@ And also apply different values to each side of the component:
 
 | Component token          | Element            | Token             | Value             |
 | ------------------------ | ------------------ | ----------------- | ----------------- |
-| `labelFontColor`         | Label              | `Hal-Black`       | #000000           |
-| `valueFontColor`         | Value              | `Hal-Black`       | #000000           |
-| `helperTextFontColor`    | Helper-text        | `Hal-Black`       | #000000           |
-| `placeholderFontColor`   | Placeholder        | `Hal-Grey-S-40`   | #666666           |
-| `enabledOutlineColor`    | Outline:enabled    | `Hal-Black`       | #000000           |
-| `ActionIconColor`        | Action icon        | `Hal-Black`       | #000000           |
+| `labelFontColor`         | Label              | `black`           | #000000           |
+| `valueFontColor`         | Value              | `black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
+| `placeholderFontColor`   | Placeholder        | `grey-600`        | #808080           |
+| `enabledOutlineColor`    | Outline:enabled    | `black`           | #000000           |
+| `ActionIconColor`        | Action icon        | `black`           | #000000           |
 | `ActionBackgroundColor`  | Action             | `transparent`     | #transparent      |
 
 #### Interactive
 
 | Component token                 | Element                     | Token             | Value           |
 | ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColor`             | Outline:hover               | `Hal-Purple-L-65` | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `Hal-Purple-L-65` | #a46ede         |
-| `errorOutlineColor`             | Outline:error               | `Hal-Red-S-41`    | #d0011b         |
-| `disabledOutlineColor`          | Outline:disabled            | `Hal-Grey-L-60`   | #999999         |
-| `errorMessageColor`             | Error message               | `Hal-Red-S-41`    | #d0011b         |
-| `errorIconColor`                | Error icon                  | `Hal-Red-S-41`    | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `Hal-Grey-L-95`   | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `hoverActionBackgroundColor`    | Action:hover                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `Hal-Grey-L-95`   | #f2f2f2         |
-| `activeActionBackgroundColor`   | Action:active               | `Hal-Grey-L-80`   | #cccccc         |
+| `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
+| `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
+| `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
+| `disabledOutlineColor`          | Outline:disabled            | `grey-600`        | #808080         |
+| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Action:hover                | `grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Action:focus                | `grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `grey-300`        | #cccccc         |
 | `disabledActionBackgroundColor` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Action icon:hover           | `Hal-Grey-L-60`   | #999999         |
-| `focusActionIconColor`          | Action icon:focus           | `Hal-Grey-L-60`   | #999999         |
-| `disabledActionIconColor`       | Action icon:disabled        | `Hal-Grey-L-60`   | #999999         |
+| `hoverActionIconColor`          | Action icon:hover           | `black`           | #000000         |
+| `focusActionIconColor`          | Action icon:focus           | `black`           | #000000         |
+| `disabledActionIconColor`       | Action icon:disabled        | `grey-500`        | #999999         |
 
 
 
@@ -150,10 +150,10 @@ And also apply different values to each side of the component:
 
 | Component token          | Element          | Token             | Value             |
 | ------------------------ | ---------------- | ----------------- | ----------------- |
-| `suffixColor`            | Suffix           | `Hal-Grey-S-40`   | #666666           |
-| `prefixColor`            | Prefix           | `Hal-Grey-S-40`   | #666666           |
-| `disabledSuffixColor`    | Suffix:disabled  | `Hal-Grey-S-75`   | #bfbfbf           |
-| `disabledPrefixColor`    | Prefix:disabled  | `Hal-Grey-S-75`   | #bfbfbf           |
+| `suffixColor`            | Suffix           | `grey-700`        | #666666           |
+| `prefixColor`            | Prefix           | `grey-700`        | #666666           |
+| `disabledSuffixColor`    | Suffix:disabled  | `grey-400`        | #bfbfbf           |
+| `disabledPrefixColor`    | Prefix:disabled  | `grey-400`        | #bfbfbf           |
 
 
 ### On-dark
@@ -162,12 +162,12 @@ And also apply different values to each side of the component:
 
 | Component token                | Element            | Token             | Value           |
 | ------------------------------ | ------------------ | ----------------- | --------------- |
-| `labelFontColorOnDark`         | Label              | `Hal-White`       | #ffffff         |
-| `valueFontColorOnDark`         | Value              | `Hal-White`       | #ffffff         |
-| `helperTextFontColorOnDark`    | Helper-text        | `Hal-White`       | #ffffff         |
-| `placeholderFontColorOnDark`   | Placeholder        | `Hal-Grey-L-95`   | #f2f2f2         |
-| `enabledOutlineColorOnDark`    | Outline:enabled    | `Hal-White`       | #ffffff         |
-| `ActionIconColorOnDark`        | Action icon        | `Hal-White`       | #ffffff         |
+| `labelFontColorOnDark`         | Label              | `white`           | #ffffff         |
+| `valueFontColorOnDark`         | Value              | `white`           | #ffffff         |
+| `helperTextFontColorOnDark`    | Helper-text        | `white`           | #ffffff         |
+| `placeholderFontColorOnDark`   | Placeholder        | `grey-100`        | #f2f2f2         |
+| `enabledOutlineColorOnDark`    | Outline:enabled    | `white`           | #ffffff         |
+| `ActionIconColorOnDark`        | Action icon        | `white`           | #ffffff         |
 | `ActionBackgroundColorOnDark`  | Action             | `transparent`     | #transparent    |
 
 
@@ -175,34 +175,34 @@ And also apply different values to each side of the component:
 
 | Component token                       | Element                     | Token             | Value           |
 | ------------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColorOnDark`             | Outline:hover               | `Hal-Purple-L-65` | #a46ede         |
-| `focusOutlineColorOnDark`             | Outline:focus               | `Hal-Purple-L-65` | #a46ede         |
-| `errorOutlineColorOnDark`             | Outline:error               | `Hal-Red-L-60`    | #f7344f         |
-| `disabledOutlineColorOnDark`          | Outline:disabled            | `Hal-Grey-L-60`   | #999999         |
-| `errorMessageColorOnDark`             | Error message               | `Hal-Red-L-60`    | #f7344f         |
-| `errorIconColorOnDark`                | Error icon                  | `Hal-Red-L-60`    | #f7344f         |
-| `disabledContainerFillColorOnDark`    | Input container:disabled    | `Hal-Grey-S-40`   | #666666         |
-| `disabledLabelFontColorOnDark`        | Label:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledValueFontColorOnDark`        | Value:disabled              | `Hal-Grey-L-60`   | #999999         |
-| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `Hal-Grey-L-60`   | #999999         |
-| `hoverActionBackgroundColorOnDark`    | Action:hover                | `Hal-Grey-S-40`   | #666666         |
-| `focusActionBackgroundColorOnDark`    | Action:focus                | `Hal-Grey-S-40`   | #666666         |
-| `activeActionBackgroundColorOnDark`   | Action:active               | `Hal-Grey-L-60`   | #999999         |
+| `hoverOutlineColorOnDark`             | Outline:hover               | `purple-500`      | #a46ede         |
+| `focusOutlineColorOnDark`             | Outline:focus               | `blue-600`        | #0095ff         |
+| `errorOutlineColorOnDark`             | Outline:error               | `red-500`         | #fe344f         |
+| `disabledOutlineColorOnDark`          | Outline:disabled            | `grey-500`        | #999999         |
+| `errorMessageColorOnDark`             | Error message               | `red-500`         | #fe344f         |
+| `errorIconColorOnDark`                | Error icon                  | `red-500`         | #fe344f         |
+| `disabledContainerFillColorOnDark`    | Input container:disabled    | `grey-700`        | #666666         |
+| `disabledLabelFontColorOnDark`        | Label:disabled              | `grey-500`        | #999999         |
+| `disabledValueFontColorOnDark`        | Value:disabled              | `grey-500`        | #999999         |
+| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `grey-500`        | #999999         |
+| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `grey-500`        | #999999         |
+| `hoverActionBackgroundColorOnDark`    | Action:hover                | `grey-700`        | #666666         |
+| `focusActionBackgroundColorOnDark`    | Action:focus                | `grey-700`        | #666666         |
+| `activeActionBackgroundColorOnDark`   | Action:active               | `grey-500`        | #999999         |
 | `disabledActionBackgroundColorOnDark` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColorOnDark`          | Action icon:hover           | `Hal-White`       | #ffffff         |
-| `focusActionIconColorOnDark`          | Action icon:focus           | `Hal-White`       | #ffffff         |
-| `disabledActionIconColorOnDark`       | Action icon:disabled        | `Hal-Grey-S-40`   | #666666         |
+| `hoverActionIconColorOnDark`          | Action icon:hover           | `white`           | #ffffff         |
+| `focusActionIconColorOnDark`          | Action icon:focus           | `white`           | #ffffff         |
+| `disabledActionIconColorOnDark`       | Action icon:disabled        | `grey-700`        | #666666         |
 
 
 #### Suffix/Prefix
 
 | Component token                | Element          | Token             | Value           |
 | ------------------------------ | ---------------- | ----------------- | --------------- |
-| `suffixColorOnDark`            | Suffix           | `Hal-White`       | #ffffff         |
-| `prefixColorOnDark`            | Prefix           | `Hal-White`       | #ffffff         |
-| `disabledSuffixColorOnDark`    | Suffix:disabled  | `Hal-Grey-L-75`   | #bfbfbf         |
-| `disabledPrefixColorOnDark`    | Prefix:disabled  | `Hal-Grey-L-75`   | #bfbfbf         |
+| `suffixColorOnDark`            | Suffix           | `white`           | #ffffff         |
+| `prefixColorOnDark`            | Prefix           | `white`           | #ffffff         |
+| `disabledSuffixColorOnDark`    | Suffix:disabled  | `grey-700`        | #666666         |
+| `disabledPrefixColorOnDark`    | Prefix:disabled  | `grey-700`        | #666666         |
 
 ### Typography
 
@@ -280,7 +280,7 @@ Don’t:
 | `font-size`     | helper-text    | `type-scale-01`         | 12px            |
 | `font-family`   | helper-text    | `type-sans`             | Open Sans       |
 | `line-height`   | Helper text    | `type-leading-normal`   | 1.5em           |
-| `color`         | helper-text    | `Hal-Black`             | hsl(0, 0%, 0%)  |
+| `color`         | helper-text    | `black`                 | hsl(0, 0%, 0%)  |
 
 ### Autocomplete
 
@@ -294,12 +294,12 @@ _Autocomplete functionality for the text input component_
 
 | Component token                     | Element                | Token             | Value           |
 | ----------------------------------- | ---------------------- | ----------------- | --------------- |
-| `ListOptionFontColor`               | List option text       | `Hal-Black`       | `#000000`       |
-| `sytemMessageFontColor`             | System message         | `Hal-Grey-S-40`   | `#666666`       |
-| `ErrorMessageBorderColor`           | Error system message   | `Hal-Red-S-41`    | `#d0011b`       |
-| `ErrorMessageBackgroundColor`       | Error system message   | `Hal-Red-L-95`    | `#ffe6e9`       |
-| `hoverListOptionBackgroundColor`    | List option:hover      | `Hal-Grey-L-95`   | `#f2f2f2`       |
-| `activeListOptionBackgroundColor`   | List option:active     | `Hal-Grey-L-60`   | `#999999`       |
+| `ListOptionFontColor`               | List option text       | `black`           | `#000000`       |
+| `sytemMessageFontColor`             | System message         | `grey-700`        | `#666666`       |
+| `ErrorMessageBorderColor`           | Error system message   | `red-700`         | `#d0011b`       |
+| `ErrorMessageBackgroundColor`       | Error system message   | `red-100`         | `#ffe6e9`       |
+| `hoverListOptionBackgroundColor`    | List option:hover      | `grey-100`        | `#f2f2f2`       |
+| `activeListOptionBackgroundColor`   | List option:active     | `grey-300`        | `#cccccc`       |
 
 #### Typography
 
