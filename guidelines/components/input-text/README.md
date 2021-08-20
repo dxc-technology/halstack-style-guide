@@ -208,20 +208,20 @@ And also apply different values to each side of the component:
 
 | Property        | Element        | Token                   | Value           |
 | --------------- | -------------- | ----------------------- | --------------- |
-| `font-family`   | Label          | `type-sans`             | Open Sans       |
-| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `type-bold`             | 600             |
-| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `type-sans`             | Open Sans       |
-| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `type-regular`          | 400             |
-| `font-family`   | Placeholder    | `type-sans`             | Open Sans       |
-| `font-size`     | Placeholder    | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Placeholder    | `type-regular`          | 400             |
-| `font-family`   | Error message  | `type-sans`             | Open Sans       |
-| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `type-regular`          | 400             |
-| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
+| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
+| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | Label          | `font-bold`             | 600             |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `font-family`   | Value          | `font-family-sans`      | Open Sans       |
+| `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Value          | `font-regular`          | 400             |
+| `font-family`   | Placeholder    | `font-family-sans`      | Open Sans       |
+| `font-size`     | Placeholder    | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Placeholder    | `font-regular`          | 400             |
+| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-regular`          | 400             |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 
 
 
@@ -277,9 +277,9 @@ Don’t:
 | Property        | Element        | Token                   | Value           |
 | --------------- | -------------- | ----------------------- | --------------- |
 | `margin-top`    | helper-text    | `spacing-02`            | 4px             |
-| `font-size`     | helper-text    | `type-scale-01`         | 12px            |
-| `font-family`   | helper-text    | `type-sans`             | Open Sans       |
-| `line-height`   | Helper text    | `type-leading-normal`   | 1.5em           |
+| `font-size`     | helper-text    | `font-scale-01`         | 12px            |
+| `font-family`   | helper-text    | `font-sans`             | Open Sans       |
+| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
 | `color`         | helper-text    | `black`                 | hsl(0, 0%, 0%)  |
 
 ### Autocomplete
@@ -305,16 +305,16 @@ _Autocomplete functionality for the text input component_
 
 | Property        | Element              | Token                   | Value           |
 | --------------- | -------------------- | ----------------------- | --------------- |
-| `font-family`   | List option          | `type-sans`             | Open Sans       |
-| `font-size`     | List option          | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | List option          | `type-regular`          | 400             |
-| `font-weight`   | List option typed    | `type-bold`             | 600             |
-| `font-family`   | System message       | `type-sans`             | Open Sans       |
-| `font-size`     | System message       | `type-scale-02`         | 0.875 / 14px    |
-| `font-weight`   | System message       | `type-regular`          | 400             |
-| `font-family`   | Error message        | `type-sans`             | Open Sans       |
-| `font-size`     | Error message        | `type-scale-02`         | 0.875 / 14px    |
-| `font-weight`   | Error message        | `type-regular`          | 400             |
+| `font-family`   | List option          | `font-sans`             | Open Sans       |
+| `font-size`     | List option          | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | List option          | `font-regular`          | 400             |
+| `font-weight`   | List option typed    | `font-bold`             | 600             |
+| `font-family`   | System message       | `font-sans`             | Open Sans       |
+| `font-size`     | System message       | `font-scale-02`         | 0.875 / 14px    |
+| `font-weight`   | System message       | `font-regular`          | 400             |
+| `font-family`   | Error message        | `font-sans`             | Open Sans       |
+| `font-size`     | Error message        | `font-scale-02`         | 0.875 / 14px    |
+| `font-weight`   | Error message        | `font-regular`          | 400             |
 
 
 
