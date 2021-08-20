@@ -98,10 +98,10 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `font-scale_01`        | 12px                      | 
+| `titleFontSize`                             | Label                        | `font-scale-01`        | 12px                      | 
 | `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
 | `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `font-scale_01`        | 12px                      |
+| `contentFontSize`                           | Content                      | `font-scale-01`        | 12px                      |
 | `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
 
 
@@ -109,8 +109,8 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 | Component token                             | Element                      | Core token             | Value   |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `borderRadius`                              | Container border             | `border-radius_02`     | 4px     | 
-| `borderThickness`                           | Container border             | `border-width_01`      | 1px     |
+| `borderRadius`                              | Container border             | `border-radius-02`     | 4px     | 
+| `borderThickness`                           | Container border             | `border-width-01`      | 1px     |
 
 
 ### Spacing

@@ -80,7 +80,7 @@ These values can be applied independently to each side of the component:
 
 | Component token            | Property          | Core token  | Value     |
 | :------------------------- | ---------------- | ----------- | --------- |
-| `labelFontLineHeight`         | line-height        | `font-leading_normal`   | 1.5 em    |
+| `labelFontLineHeight`         | line-height        | `font-leading-normal`   | 1.5 em    |
 | `labelLetterSpacing`         | letter-spacing        | `font-spacing-wide-01`   | 0.025 em   |
 
 
