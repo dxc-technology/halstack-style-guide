@@ -20,9 +20,6 @@ Use text inputs in forms to help people enter, select, and search for text. Comm
 * Do not display pop up error message after validating
 * Avoid masking label, keep it always visible.
 
-## Variants
-
-
 ## States
 
 Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
