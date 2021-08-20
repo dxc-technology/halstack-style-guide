@@ -109,8 +109,8 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 | Component token                             | Element                      | Core token             | Value   |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `borderRadius`                              | Container border             | `border-width_01`      | 1px     | 
-| `borderThickness`                           | Container border             | `border-radius_02`     | 4px     |
+| `borderRadius`                              | Container border             | `border-radius_02`     | 4px     | 
+| `borderThickness`                           | Container border             | `border-width_01`      | 1px     |
 
 
 ### Spacing

@@ -23,11 +23,17 @@ We have our components available for the following technologies:
 
 ## UI-Kit
 
-We are currently working in an Adobe Creative Cloud (CC) public library. Until it is finished download the file and use it as a sticker sheet.
+### Halstack UI Kit public library
 
-### UI-Kit best practices
+![Halstack UI public library page](https://user-images.githubusercontent.com/44420072/129693701-84a43159-01c1-4756-8518-e8297850ce55.png)
 
-Open the UI-Kit XD document and [publish the library](https://www.adobe.com/products/xd/learn/design-systems/cloud-libraries/best-practices-creative-cloud-libraries.html) in order to reuse our colors, characther styles and components through all your design files.
+_Halstack UI public library page_
+
+We have an [XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac) ready to use. In order to receive the updates keep your assets linked and you will receive the updates automatically.
+
+### UI Kit source file
+
+Open the UI-Kit XD document and [publish the library](https://www.adobe.com/products/xd/learn/design-systems/cloud-libraries/best-practices-creative-cloud-libraries.html) locally in order to reuse our colors, characther styles and components through all your design files.
 
 ### Font family
 
