@@ -18,7 +18,7 @@ For our sans-serif `font-family`, we use the humanist typeface Open Sans, design
 
 | Token                       | Description                                   | Property            | Value                        | 
 | :---                        | :---                                          | :---                | :---                         |  
-| `font-sans`                 | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif;     | 
+| `font-family-sans`          | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif;     | 
 
 ## Weight
 

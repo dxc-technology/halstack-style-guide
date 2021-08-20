@@ -118,11 +118,11 @@ These values can be applied independently to each side of the component:
 
 #### Typography
 
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `primaryFontFamily`         | Label        | `font-sans`   | 'Open Sans', sans-serif    |
-| `primaryBorderStyle`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `primaryBorderRadius`         | Label        | `type_regular`   | 400   |
+| Component token         | Element           | Core token           | Value                      |
+| :---------------------- | :---------------- | :------------------- | :------------------------- |
+| `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `primaryBorderStyle`    | Label             | `type_scale_03`      | 16px / 1 rem               |
+| `primaryBorderRadius`   | Label             | `type_regular`       | 400                        |
 
 
 #### Padding
@@ -168,7 +168,7 @@ These values can be applied independently to each side of the component:
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `secondaryFontFamily`         | Label        | `font-sans`   | 'Open Sans', sans-serif    |
+| `secondaryFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
 | `secondaryFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
 | `secondaryFontWeight`         | Label        | `type_regular`   | 400   |
 
@@ -218,7 +218,7 @@ These values can be applied independently to each side of the component:
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `textFontFamily`         | Label        | `font-sans`   | 'Open Sans', sans-serif    |
+| `textFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
 | `textFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
 | `textFontWeight`         | Label        | `type_regular`   | 400   |
 

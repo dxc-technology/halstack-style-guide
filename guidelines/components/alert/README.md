@@ -97,10 +97,10 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `font-sans`            | 'Open Sans', sans-serif;  | 
+| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
 | `titleFontSize`                             | Label                        | `font-scale_01`        | 12px                      | 
 | `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `font-sans`            | 'Open Sans', sans-serif;  |
+| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
 | `contentFontSize`                           | Content                      | `font-scale_01`        | 12px                      |
 | `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
 
