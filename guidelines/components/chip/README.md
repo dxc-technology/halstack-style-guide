@@ -24,15 +24,15 @@ _Component chip design specifications_
 
 ### Color
 
-| Component token           | Element                   | Token             | Value     |
-| :------------------------ | :------------------------ | :---------------- | :-------- |
-| `backgroundColor`         | Chip container            | `grey-200`        | #e6e6e6   |
-| `disabledBackgroundColor` | Chip container:disabled   | `grey-100`        | #f2f2f2   |
-| `fontcolor`               | Label                     | `black`           | #000000	|
-| `fontcolor`               | Label:disabled            | `grey-500`        | #999999	|
-| `focusColor`              | Focus outline             | `blue-800`        | #0067b3	|
-| `iconColor`               | Icon                      | `black`           | #000000	|
-| `iconColor`               | Icon:disabled             | `grey-500`        | #999999	|
+| Component token           | Element                   | Token                   | Value     |
+| :------------------------ | :------------------------ | :---------------------- | :-------- |
+| `backgroundColor`         | Chip container            | `color-grey-200`        | #e6e6e6   |
+| `disabledBackgroundColor` | Chip container:disabled   | `color-grey-100`        | #f2f2f2   |
+| `fontcolor`               | Label                     | `color-black`           | #000000	  |
+| `fontcolor`               | Label:disabled            | `color-grey-500`        | #999999	  |
+| `focusColor`              | Focus outline             | `color-blue-800`        | #0067b3	  |
+| `iconColor`               | Icon                      | `color-black`           | #000000	  |
+| `iconColor`               | Icon:disabled             | `color-grey-500`        | #999999	  |
 
 
 ### Size

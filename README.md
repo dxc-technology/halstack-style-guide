@@ -29,7 +29,7 @@ We have our components available for the following technologies:
 
 _Halstack UI public library page_
 
-We have an [XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac) ready to use. In order to receive the updates keep your assets linked and you will receive the updates automatically.
+We have an [XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac) ready to use. In order to receive the updates keep your assets linked and you will receive them automatically.
 
 ### UI Kit source file
 

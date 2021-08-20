@@ -26,15 +26,15 @@ _Spinner design specifications_
 
 ### Color
 
-| Component token           | Element                   | Token             | Value     |
-| :------------------------ | :------------------------ | :---------------- | :-------- |
-| `trackCircleColor`        | Spinner circle (track)    | `purple-700`      | #5f249f   |
-| `trackCircleColorOnDark`  | Spinner circle (track)    | `purple-500`      | #a46ede   |
-| `totalCircleColor`        | Spinner circle (total)    | `white`           | #ffffff   |
-| `fontColor`               | Label                     | `black`           | #000000	|
-| `fontColorOnDark`         | Label                     | `white`           | #ffffff   |
-| `fontColor`               | Percentage                | `black`           | #000000	|
-| `overlayColor`            | Overlay                   | -                 | #000000 0.80 opacit|
+| Component token           | Element                   | Token                   | Value     |
+| :------------------------ | :------------------------ | :---------------------- | :-------- |
+| `trackCircleColor`        | Spinner circle (track)    | `color-purple-700`      | #5f249f   |
+| `trackCircleColorOnDark`  | Spinner circle (track)    | `color-purple-500`      | #a46ede   |
+| `totalCircleColor`        | Spinner circle (total)    | `color-white`           | #ffffff   |
+| `fontColor`               | Label                     | `color-black`           | #000000   |
+| `fontColorOnDark`         | Label                     | `color-white`           | #ffffff   |
+| `fontColor`               | Percentage                | `color-black`           | #000000   |
+| `overlayColor`            | Overlay                   | -                       | #000000 0.80 opacity |
 
 
 ### Size

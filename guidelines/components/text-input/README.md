@@ -144,7 +144,7 @@ Don’t:
 | `margin-top`  | `input-helper-text`    |     | 6px 
 | `font-size`  | `input-helper-text`    |  `font-scale-01`   | 12px 
 | `font-family`  | `input-helper-text`    |  `font-family-sans`   | Open Sans 
-| `color` | `input-helper-text`      |  `black`   |  hsl(0, 0%, 0%) |
+| `color` | `input-helper-text`      |  `color-black`   |  hsl(0, 0%, 0%) |
 
 ### User Interface Design Considerations
 
