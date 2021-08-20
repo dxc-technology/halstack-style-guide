@@ -93,18 +93,18 @@ _Structure and spacing for date picker calendar pop-up_
 
 | Component token                        | Element                        | Core token             | Value         |
 | :------------------------------------- | :----------------------------- | :--------------------- | ------------- |
-| `pickerBackgroundColor`                | Dialog container               | `white`                | `#ffffff`     | 
-| `pickerFontColor`                      | Dialog text                    | `black`                | `#000000`     | 
-| `pickerActualDateColor`                | Dialog title                   | `black`                | `#000000`     | 
-| `pickerHoverDateBackgroundColor`       | Container background           | `purple-200`           | `#e5d5f6`     | 
-| `pickerSelectedDateColor`              | Date text:selected             | `white`                | `#ffffff`     | 
-| `pickerSelectedDateBackgroundColor`    | Date background:hover          | `purple-700`           | `#5f249f`     | 
-| `pickerHoverDateFontColor`             | Date text:hover                | `black`                | `#000000`     | 
-| `pickerYearFontColor`                  | Year label                     | `black`                | `#000000`     | 
-| `pickerMonthFontColor`                 | Mont label                     | `black`                | `#000000`     | 
-| `pickerWeekFontColor`                  | Weekday label                  | `black`                | `#000000`     | 
-| `pickerBackgroundColorMonthArrows`     | Month selection controls       | `black`                | `#000000`     |  
-| `focusColor`                           | Focus outline                  | `blue-800`             | `#0067b3`     | 
+| `pickerBackgroundColor`                | Dialog container               | `white`                | #ffffff       | 
+| `pickerFontColor`                      | Dialog text                    | `black`                | #000000       | 
+| `pickerActualDateColor`                | Dialog title                   | `grey-500`             | #999999       | 
+| `pickerHoverDateBackgroundColor`       | Container background           | `purple-200`           | #e5d5f6       | 
+| `pickerSelectedDateColor`              | Date text:selected             | `white`                | #ffffff       | 
+| `pickerSelectedDateBackgroundColor`    | Date background:hover          | `purple-700`           | #5f249f       | 
+| `pickerHoverDateFontColor`             | Date text:hover                | `black`                | #000000       | 
+| `pickerYearFontColor`                  | Year label                     | `black`                | #000000       | 
+| `pickerMonthFontColor`                 | Mont label                     | `black`                | #000000       | 
+| `pickerWeekFontColor`                  | Weekday label                  | `black`                | #000000       | 
+| `pickerBackgroundColorMonthArrows`     | Month selection controls       | `black`                | #000000       |  
+| `focusColor`                           | Focus outline                  | `blue-800`             | #0067b3       | 
 
 #### Typography
 
