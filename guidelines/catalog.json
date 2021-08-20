@@ -123,8 +123,8 @@
       "name": "Tag"
     },
     {
-      "key": "text-input",
-      "name": "Input"
+      "key": "input-text",
+      "name": "Input-text"
     },
     {
       "key": "toggle",
