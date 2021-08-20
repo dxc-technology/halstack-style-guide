@@ -143,7 +143,7 @@ Don’t:
 | :---         |     :---     |          :--- |         :--- |
 | `margin-top`  | `input-helper-text`    |     | 6px 
 | `font-size`  | `input-helper-text`    |  `font-scale-01`   | 12px 
-| `font-family`  | `input-helper-text`    |  `font-sans`   | Open Sans 
+| `font-family`  | `input-helper-text`    |  `font-family-sans`   | Open Sans 
 | `color` | `input-helper-text`      |  `black`   |  hsl(0, 0%, 0%) |
 
 ### User Interface Design Considerations
