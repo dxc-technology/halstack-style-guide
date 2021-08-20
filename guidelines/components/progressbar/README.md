@@ -56,19 +56,19 @@ _Component design specifications_
 
 ### Color
 
-| Component token            | Element                   | Token             | Value      |
-| :------------------------- | :------------------------ | :---------------- | :--------- |
-| `trackLineColor`           | Track line                | `purple-700`      | #5f249f    |
-| `trackLineColorOnDark`     | Track line                | `purple-500`      | #a46ede    |
-| `totalLineColor`           | Total line                | `grey-200`        | #e6e6e6    |
-| `labelFontColor`           | Label                     | `black`           | #000000    |
-| `labelFontColor`           | Label                     | `black`           | #000000    |
-| `labelFontColorOnDark`     | Label                     | `white`           | #ffffff    |
-| `indicatorFontColor`       | Indicator                 | `black`           | #000000	  |
-| `indicatorFontColorOnDark` | Indicator                 | `white`           | #ffffff	  |
-| `helperFontColor`          | Helper text               | `black`           | #000000	  |
-| `helperFontColorOnDark`    | Helper text               | `white`           | #ffffff	  |
-| `overlayColor`             | Overlay                   | -                 | #000000 0.80 opacity	  |
+| Component token            | Element                   | Token                   | Value      |
+| :------------------------- | :------------------------ | :---------------------- | :--------- |
+| `trackLineColor`           | Track line                | `color-purple-700`      | #5f249f    |
+| `trackLineColorOnDark`     | Track line                | `color-purple-500`      | #a46ede    |
+| `totalLineColor`           | Total line                | `color-grey-200`        | #e6e6e6    |
+| `labelFontColor`           | Label                     | `color-black`           | #000000    |
+| `labelFontColor`           | Label                     | `color-black`           | #000000    |
+| `labelFontColorOnDark`     | Label                     | `color-white`           | #ffffff    |
+| `indicatorFontColor`       | Indicator                 | `color-black`           | #000000    |
+| `indicatorFontColorOnDark` | Indicator                 | `color-white`           | #ffffff    |
+| `helperFontColor`          | Helper text               | `color-black`           | #000000    |
+| `helperFontColorOnDark`    | Helper text               | `color-white`           | #ffffff    |
+| `overlayColor`             | Overlay                   | -                       | #000000 0.80 opacity  |
 
 ### Size
 

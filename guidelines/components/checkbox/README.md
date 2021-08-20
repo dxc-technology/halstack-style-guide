@@ -42,34 +42,34 @@ Specifications for checkbox are simple. The size of the checkbox should display 
 
 | Component token                      | Element                           | Core token               | Value        |
 | :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
-| `backgroundColorChecked`             | Fill                              | `blue-800`               |   #0067b3    |
-| `hoverBackgroundColorChecked`        | Fill:hover                        | `blue-700`               |   #0086e6    |
-| `disabledBackgroundColorChecked`     | Fill:disabled                     | `grey-400`               |   #bfbfbf    |
-| `borderColor`                        | Border                            | `blue-800`               |   #0067b3    |
-| `hoverBorderColor`                   | Border:hover                      | `blue-700`               |   #0086e6    |
-| `disabledBorderColor`                | Border:disabled                   | `grey-100`               |   #f2f2f2    |
-| `checkColor`                         | Check mark                        | `white`                  |   #ffffff    |
-| `disabledCheckColor`                 | Check mark:disabled               | `white`                  |   #ffffff    |
-| `fontColor`                          | Label                             | `black`                  |   #000000    |
-| `disabledFontColor`                  | Label:disabled                    | `grey-500`               |   #999999    |
-| `focusColor`                         | Outline:focus                     | `blue-800`               |   #0067b3    |
+| `backgroundColorChecked`             | Fill                              | `color-blue-800`         |   #0067b3    |
+| `hoverBackgroundColorChecked`        | Fill:hover                        | `color-blue-700`         |   #0086e6    |
+| `disabledBackgroundColorChecked`     | Fill:disabled                     | `color-grey-400`         |   #bfbfbf    |
+| `borderColor`                        | Border                            | `color-blue-800`         |   #0067b3    |
+| `hoverBorderColor`                   | Border:hover                      | `color-blue-700`         |   #0086e6    |
+| `disabledBorderColor`                | Border:disabled                   | `color-grey-100`         |   #f2f2f2    |
+| `checkColor`                         | Check mark                        | `color-white`            |   #ffffff    |
+| `disabledCheckColor`                 | Check mark:disabled               | `color-white`            |   #ffffff    |
+| `fontColor`                          | Label                             | `color-black`            |   #000000    |
+| `disabledFontColor`                  | Label:disabled                    | `color-grey-500`         |   #999999    |
+| `focusColor`                         | Outline:focus                     | `color-blue-800`         |   #0067b3    |
 
 
 #### On-dark
 
 | Component token                        | Element                           | Core token               | Value        |
 | :------------------------------------- | :-------------------------------- | :----------------------- | :----------- |
-| `backgroundColorCheckedOnDark`         | Fill                              | `blue-600`               |   #0095ff    |
-| `hoverBackgroundColorCheckedOnDark`    | Fill:hover                        | `blue-800`               |   #0067b3    |
-| `disabledBackgroundColorCheckedOnDark` | Fill:disabled                     | `grey-700`               |   #666666    |
-| `borderColorOnDark`                    | Border                            | `blue-600`               |   #0095ff    |
-| `hoverBorderColorOnDark`               | Border:hover                      | `blue-800`               |   #0067b3    |
-| `disabledBorderColorOnDark`            | Border:disabled                   | `grey-700`               |   #666666    |
-| `checkColorOnDark`                     | Check mark                        | `white`                  |   #ffffff    |
-| `disabledCheckOnDark`                  | Check mark:disabled               | `white`                  |   #ffffff    |
-| `fontColorOnDark`                      | Label                             | `white`                  |   #ffffff    |
-| `disabledFontColorOnDark`              | Label:disabled                    | `grey-700`               |   #666666    |
-| `focusColorOnDark`                     | Outline:focus                     | `blue-600`               |   #0095ff    |
+| `backgroundColorCheckedOnDark`         | Fill                              | `color-blue-600`         |   #0095ff    |
+| `hoverBackgroundColorCheckedOnDark`    | Fill:hover                        | `color-blue-800`         |   #0067b3    |
+| `disabledBackgroundColorCheckedOnDark` | Fill:disabled                     | `color-grey-700`         |   #666666    |
+| `borderColorOnDark`                    | Border                            | `color-blue-600`         |   #0095ff    |
+| `hoverBorderColorOnDark`               | Border:hover                      | `color-blue-800`         |   #0067b3    |
+| `disabledBorderColorOnDark`            | Border:disabled                   | `color-grey-700`         |   #666666    |
+| `checkColorOnDark`                     | Check mark                        | `color-white`            |   #ffffff    |
+| `disabledCheckOnDark`                  | Check mark:disabled               | `color-white`            |   #ffffff    |
+| `fontColorOnDark`                      | Label                             | `color-white`            |   #ffffff    |
+| `disabledFontColorOnDark`              | Label:disabled                    | `color-grey-700`         |   #666666    |
+| `focusColorOnDark`                     | Outline:focus                     | `color-blue-600`         |   #0095ff    |
 
 
 ### Margin

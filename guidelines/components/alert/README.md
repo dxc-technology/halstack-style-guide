@@ -56,24 +56,24 @@ Depending on the content that need to be displayed, more detailed descriptions c
 
 ### Color
 
-|   Component token               |   Element                     |   Core token                  |   Value       |
-| ------------------------------- | ----------------------------- | ----------------------------- | ------------- |
-|   `infoIconColor`               |   Icon                        |   `blue-800`                  |   #0067b3     |
-|   `successIconColor`            |   Icon                        |   `green-700`                 |   #24a148     |
-|   `warningIconColor`            |   Icon                        |   `yellow-700`                |   #c59f07     |
-|   `errorIconColor`              |   Icon                        |   `red-700`                   |   #d0011b     |
-|   `infoBackgroundColor`         |   Container background        |   `blue-100`                  |   #e6f4ff     |
-|   `successBackgroundColor`      |   Container background        |   `green-100`                 |   #eafaef     |
-|   `warningBackgroundColor`      |   Container background        |   `yellow-100`                |   #fef9e6     |
-|   `errorBackgroundColor`        |   Container background        |   `red-100`                   |   #ffe6e9     |
-|   `infoBorderColor`             |   Container border            |   `blue-800`                  |   #0067b3     |
-|   `successBorderColor`          |   Container border            |   `green-700`                 |   #24a148     |
-|   `warningBorderColor`          |   Container border            |   `yellow-500`                |   #f7cf2b     |
-|   `errorBorderColor`            |   Container border            |   `red-700`                   |   #d0011b     |
-|   `titleFontColor`              |   Label                       |   `black`                     |   #000000     |
-|   `contentFontColor`            |   Content                     |   `black`                     |   #000000     |
-|   `focusColor`                  |   Action:focus                |   `blue-800`                  |   #0067b3     |
-|   `overlayColor`                |   Overlay                     |   -                           |   #000000B3   |
+| Component token               | Element                     | Core token                  | Value         |
+| :---------------------------- | :-------------------------- | :-------------------------- | :------------ |
+| `infoIconColor`               | Icon                        | `color-blue-800`            |   #0067b3     |
+| `successIconColor`            | Icon                        | `color-green-700`           |   #24a148     |
+| `warningIconColor`            | Icon                        | `color-yellow-700`          |   #c59f07     |
+| `errorIconColor`              | Icon                        | `color-red-700`             |   #d0011b     |
+| `infoBackgroundColor`         | Container background        | `color-blue-100`            |   #e6f4ff     |
+| `successBackgroundColor`      | Container background        | `color-green-100`           |   #eafaef     |
+| `warningBackgroundColor`      | Container background        | `color-yellow-100`          |   #fef9e6     |
+| `errorBackgroundColor`        | Container background        | `color-red-100`             |   #ffe6e9     |
+| `infoBorderColor`             | Container border            | `color-blue-800`            |   #0067b3     |
+| `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
+| `warningBorderColor`          | Container border            | `color-yellow-500`          |   #f7cf2b     |
+| `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
+| `titleFontColor`              | Label                       | `color-black`               |   #000000     |
+| `contentFontColor`            | Content                     | `color-black`               |   #000000     |
+| `focusColor`                  | Action:focus                | `color-blue-800`            |   #0067b3     |
+| `overlayColor`                | Overlay                     | -                           |   #000000B3   |
 
 
 

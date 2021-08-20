@@ -147,23 +147,23 @@ _Do not use main navigation if they only affect an specific panel._
 
 ### Color
 
-| Component token                   | Element                       | Core token              | Value         |
-| :-------------------------------- | :---------------------------- | :---------------------- | :------------ |
-| `selectedBackgroundColor`         | Tab item                      | `white`                 | #ffffff       |
-| `unselectedBackgroundColor`       | Tab item:enabled              | `white`                 | #ffffff       |         
-| `hoverBackgroundColor`            | Tab item:hover                | `purple-100`            | #f2eafa       |
-| `pressedBackgroundColor`          | Tab item:active               | `purple-200`            | #e5d5f6       |
-| `selectedFontColor`               | Label                         | `purple-700`            | #5f249f       | 
-| `unselectedFontColor`             | Label                         | `grey-700`              | #666666       | 
-| `disabledFontColor`               | Label:disabled                | `grey-500`              | #999999       |
-| `selectedIconColor`               | Icon                          | `purple-700`            | #5f249f       | 
-| `unselectedIconColor`             | Icon                          | `grey-700`              | #666666       |
-| `disabledIconColor`               | Icon:disabled                 | `grey-500`              | #999999       |
-| `focusOutline`                    | Tab item outline              | `purple-700`            | #5f249f       | 
-| `selectedUnderlineColor`          | Tab item border botton        | `purple-700`            | #5f249f       | 
-| `dividerColor`                    | Separator                     | `grey-400`              | #bfbfbf       |   
-| `badgeBackgroundColor`            | Badge container               | `red-700`               | #d0011b       |
-| `badgeFontColor`                  | Label                         | `white`                 | #ffffff       |
+| Component token                   | Element                       | Core token                    | Value         |
+| :-------------------------------- | :---------------------------- | :---------------------------- | :------------ |
+| `selectedBackgroundColor`         | Tab item                      | `color-white`                 | #ffffff       |
+| `unselectedBackgroundColor`       | Tab item:enabled              | `color-white`                 | #ffffff       |         
+| `hoverBackgroundColor`            | Tab item:hover                | `color-purple-100`            | #f2eafa       |
+| `pressedBackgroundColor`          | Tab item:active               | `color-purple-200`            | #e5d5f6       |
+| `selectedFontColor`               | Label                         | `color-purple-700`            | #5f249f       | 
+| `unselectedFontColor`             | Label                         | `color-grey-700`              | #666666       | 
+| `disabledFontColor`               | Label:disabled                | `color-grey-500`              | #999999       |
+| `selectedIconColor`               | Icon                          | `color-purple-700`            | #5f249f       | 
+| `unselectedIconColor`             | Icon                          | `color-grey-700`              | #666666       |
+| `disabledIconColor`               | Icon:disabled                 | `color-grey-500`              | #999999       |
+| `focusOutline`                    | Tab item outline              | `color-purple-700`            | #5f249f       | 
+| `selectedUnderlineColor`          | Tab item border botton        | `color-purple-700`            | #5f249f       | 
+| `dividerColor`                    | Separator                     | `color-grey-400`              | #bfbfbf       |   
+| `badgeBackgroundColor`            | Badge container               | `color-red-700`               | #d0011b       |
+| `badgeFontColor`                  | Label                         | `color-white`                 | #ffffff       |
 
 ### Min / Max width
 

@@ -66,36 +66,36 @@ _Slider Specifications_
 
 #### On-Light
 
-| Component token                   | Element             | Core token      | Value   |
-| :-------------------------------- | :------------------ | :-------------- | :------ |
-| `fontColor`                       | Floor/Ceil label    | `black`         | #000000 |
-| `thumbBackgroundColor`            | Thumb               | `blue-800`      | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `blue-900`      | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `grey-400`      | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `blue-800`      | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `grey-400`      | #bfbfbf |
-| `trackLineColor`                  | Track line          | `blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `blue-100`      | #e6f4ff |
-| `totalLineColor`	                | Total line          | `grey-200`      | #e6e6e6 |
-| `disabledTotalLineColor`          | Total line:disabled | `grey-100`      | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `blue-800`      | #0067b3 |
+| Component token                   | Element             | Core token            | Value   |
+| :-------------------------------- | :------------------ | :-------------------- | :------ |
+| `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
+| `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-400`      | #bfbfbf |
+| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-400`      | #bfbfbf |
+| `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
+| `focusColor`                      | Focus outline       | `color-blue-800`      | #0067b3 |
 
 
 #### On-Dark
 
-| Component token                           | Element              | Core token        | Value         |
-| :---------------------------------------- | :------------------- | :---------------- | :------------ |
-| `fontColorOnDark`                         | Floor/Ceil label     | `white`           | #ffffff       |
-| `thumbBackgroundColorOnDark`              | Thumb                | `blue-600`        | #0095ff       |
-| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `blue-800`        | #0067b3       |
-| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `grey-500`        | #999999       |
-| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `blue-600`        | #0095ff       |
-| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `grey-500`        | #999999       |
-| `trackLineColorOnDark`                    | Track line           | `blue-600`        | #0095ff       |
-| `disabledTrackLineColorOnDark`            | Track line:disabled  | `grey-500`        | #999999       |
-| `totalLineColorOnDark`	                | Total line           | `grey-400`        | #bfbfbf       |
-| `disabledTotalLineColorOnDark`            | Total line:disabled  | `grey-700`        | #666666       |
-| `focusColorOnDark`                        | Focus outline        | `blue-600`        | #0095ff       |
+| Component token                           | Element              | Core token              | Value         |
+| :---------------------------------------- | :------------------- | :---------------------- | :------------ |
+| `fontColorOnDark`                         | Floor/Ceil label     | `color-white`           | #ffffff       |
+| `thumbBackgroundColorOnDark`              | Thumb                | `color-blue-600`        | #0095ff       |
+| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `color-blue-800`        | #0067b3       |
+| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `color-grey-500`        | #999999       |
+| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `color-blue-600`        | #0095ff       |
+| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `color-grey-500`        | #999999       |
+| `trackLineColorOnDark`                    | Track line           | `color-blue-600`        | #0095ff       |
+| `disabledTrackLineColorOnDark`            | Track line:disabled  | `color-grey-500`        | #999999       |
+| `totalLineColorOnDark`	                | Total line           | `color-grey-400`        | #bfbfbf       |
+| `disabledTotalLineColorOnDark`            | Total line:disabled  | `color-grey-700`        | #666666       |
+| `focusColorOnDark`                        | Focus outline        | `color-blue-600`        | #0095ff       |
 
 ### Typography
 

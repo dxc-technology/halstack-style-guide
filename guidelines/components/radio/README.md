@@ -35,21 +35,21 @@ The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner
 
 | Component token                   | Element           | Core token               | Value       |
 | :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `color`                           | Radio             | `black`                  | #000000     |
-| `focusColor`                      | Radio:focus       | `blue-800`               | #0067b3     |
-| `disabledColor`                   | Radio:disabled    | `grey-400`               | #bfbfbf     |
-| `fontColor`                       | Label             | `black`                  | #000000     |
-| `disabledFontColor`               | Label:disabled    | `grey-400`               | #bfbfbf     |
+| `color`                           | Radio             | `color-black`            | #000000     |
+| `focusColor`                      | Radio:focus       | `color-blue-800`         | #0067b3     |
+| `disabledColor`                   | Radio:disabled    | `color-grey-400`         | #bfbfbf     |
+| `fontColor`                       | Label             | `color-black`            | #000000     |
+| `disabledFontColor`               | Label:disabled    | `color-grey-400`         | #bfbfbf     |
 
 #### On-dark
 
 | Component token                   | Element           | Core token               | Value       |
 | :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `colorOnDark`                     | Radio             | `white`                  | #ffffff     |
-| `focusColorOnDark`                | Radio:focus       | `blue-600`               | #0095ff     |
-| `disabledColorOnDark`             | Radio:disabled    | `grey-700`               | #666666     |
-| `fontColorOnDark`                 | Label             | `white`                  | #ffffff     |
-| `disabledFontColorOnDark`         | Label:disabled    | `grey-700`               | #666666     |
+| `colorOnDark`                     | Radio             | `color-white`            | #ffffff     |
+| `focusColorOnDark`                | Radio:focus       | `color-blue-600`         | #0095ff     |
+| `disabledColorOnDark`             | Radio:disabled    | `color-grey-700`         | #666666     |
+| `fontColorOnDark`                 | Label             | `color-white`            | #ffffff     |
+| `disabledFontColorOnDark`         | Label:disabled    | `color-grey-700`         | #666666     |
 
 
 ### Size 

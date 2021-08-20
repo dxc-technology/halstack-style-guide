@@ -25,11 +25,11 @@ _Footer component design specs_
 
 | Component token                   | Element               | Core token                   | Value        |
 | :-------------------------------- | :-------------------- | :--------------------------- | :----------- |
-| `backgroundColor`                 | Footer container      | `black`                      | #000000      |
-| `bottomLinksDividerColor`         | Divider               | `blue-600`                   | #0095ff      |
-| `bottomLinksFontColor`            | Bottom links          | `white`                      | #ffffff      |
-| `copyrightFontColor`              | Copyright             | `white`                      | #ffffff      |
-| `socialLinksColor`                | Social icons          | `white`                      | #ffffff      |
+| `backgroundColor`                 | Footer container      | `color-black`                | #000000      |
+| `bottomLinksDividerColor`         | Divider               | `color-blue-600`             | #0095ff      |
+| `bottomLinksFontColor`            | Bottom links          | `color-white`                | #ffffff      |
+| `copyrightFontColor`              | Copyright             | `color-white`                | #ffffff      |
+| `socialLinksColor`                | Social icons          | `color-white`                | #ffffff      |
 
 
 ### Height

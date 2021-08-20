@@ -19,9 +19,9 @@
      * **Added**: `Progress-bar` component.
      * **Removed**: `PBar Determined 80` component.
 * **Color**
-     * **Added**: `purple-700`, `purple-500` and `grey-200`
-     * **Updated**: `Hal-purple-S-95`, `Hal-purple-S-90`, `Hal-purple-S-30` and `Hal-purple-S-20`
-    * **Removed**: `Hal-purple-S-37`
+     * **Added**: `color-purple-700`, `color-purple-500` and `color-grey-200`
+     * **Updated**: `Hal-color-purple-S-95`, `Hal-color-purple-S-90`, `Hal-color-purple-S-30` and `Hal-color-purple-S-20`
+    * **Removed**: `Hal-color-purple-S-37`
 
 ## Fixes
 
@@ -167,11 +167,11 @@
 
 * **Color palette**
 
-   * Added: `blue-900`, `blue-100`
-   * Added: `red-900` , `red-100`
-   * Added: `grey-500` 
-   * Added: `green-100`, `green-300`, `green-900`, `green-800`
-   * Added: `yellow-100`, `yellow-300`, `yellow-700`, `yellow-800` 
+   * Added: `color-blue-900`, `color-blue-100`
+   * Added: `color-red-900` , `color-red-100`
+   * Added: `color-grey-500` 
+   * Added: `color-green-100`, `color-green-300`, `color-green-900`, `color-green-800`
+   * Added: `color-yellow-100`, `color-yellow-300`, `color-yellow-700`, `color-yellow-800` 
 
 * **Character styles**
 
@@ -232,26 +232,26 @@
 * **Color palette**:
 
    * Updated: Color names following new naming convention
-   * Changed: ```DXC Purple``` to ```Hal-Purple-S-37```
-   * Changed: ```DXC Blue``` to ```Hal-Blue-S-30```
-   * Changed: ```DXC Green``` to ```Hal-Green-S-48``` 
-   * Changed: ```DXC Orange``` to ```Hal-Orange-S-54``` 
-   * Changed: ```DXC Yellow``` to ```yellow-500``` 
-   * Changed: ```DXC Error``` to ```red-700```
-   * Changed: ```DXC Black``` to ```black```
-   * Changed: ```DXC White``` to ```white```
-   * Changed: ```DXC Dark Grey``` to ```grey-700```
-   * Added: ```purple-200``` ```purple-100``` ```purple-900``` ```purple-800``` 
-   * Added:```grey-400``` ```grey-100```
-   * Added:```blue-600``` ```Hal-Blue-L-80```
-   * Added:```red-800```
+   * Changed: ```DXC Purple``` to ```Hal-color-purple-S-37```
+   * Changed: ```DXC Blue``` to ```Hal-color-blue-S-30```
+   * Changed: ```DXC Green``` to ```Hal-color-green-S-48``` 
+   * Changed: ```DXC Orange``` to ```Hal-color-orange-S-54``` 
+   * Changed: ```DXC Yellow``` to ```color-yellow-500``` 
+   * Changed: ```DXC Error``` to ```color-red-700```
+   * Changed: ```DXC color-black``` to ```color-black```
+   * Changed: ```DXC color-white``` to ```color-white```
+   * Changed: ```DXC Dark Grey``` to ```color-grey-700```
+   * Added: ```color-purple-200``` ```color-purple-100``` ```color-purple-900``` ```color-purple-800``` 
+   * Added:```color-grey-400``` ```color-grey-100```
+   * Added:```color-blue-600``` ```Hal-color-blue-L-80```
+   * Added:```color-red-800```
    * Removed:```DXC Light Grey```
 
 * **Dataviz color palette**
 
-   * Added: ```Hal-Purple-S-37```
-   * Added: ```Hal-Blue-S-30```
-   * Added: ```red-700```
+   * Added: ```Hal-color-purple-S-37```
+   * Added: ```Hal-color-blue-S-30```
+   * Added: ```color-red-700```
    * Removed: ```DXC Aqua```
 
 

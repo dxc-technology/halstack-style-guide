@@ -90,21 +90,21 @@ These values can be applied independently to each side of the component:
  
  ##### Base
 
-| Component token                     | Element                     | Token              | Value       |
-| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
-| `primaryBackgroundColor`            | Button container            | `purple-700`       | #5f249f     |
-| `primaryFontColor`                  | Label                       | `white`            | #ffffff     | 
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryBackgroundColor`            | Button container            | `color-purple-700`       | #5f249f     |
+| `primaryFontColor`                  | Label                       | `color-white`            | #ffffff     | 
 
  ##### Interactive
 
-| Component token                     | Element                     | Token              | Value       |
-| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
-| `primaryHoverBackgroundColor`       | Container fill:hover	    | `purple-800`       | #4b1c7d     |
-| `primaryActiveBackgroundColor`      | Container fill:active	    | `purple-900`       | #321353     |
-| `primaryDisabledBackgroundColor`    | Container fill:disabled     | `grey-100`         | #f2f2f2     |
-| `primaryHoverFontColor`             | Label:hover                 | `white`            | #ffffff     |
-| `primaryActiveFontColor`            | Label:active                | `white`            | #ffffff     |
-| `primaryDisabledFontColor`          | Label:disabled              | `grey-500`         | #999999     |
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryHoverBackgroundColor`       | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `primaryActiveBackgroundColor`      | Container fill:active	    | `color-purple-900`       | #321353     |
+| `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
+| `primaryHoverFontColor`             | Label:hover                 | `color-white`            | #ffffff     |
+| `primaryActiveFontColor`            | Label:active                | `color-white`            | #ffffff     |
+| `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -141,19 +141,19 @@ These values can be applied independently to each side of the component:
 | Component token                     | Element                     | Token              | Value       |
 | :---------------------------------- | :-------------------------- | :----------------- | :---------- |
 | `secondaryBackgroundColor`          | Container fill              | `transparent`      | transparent |
-| `secondaryFontColor`                | Label                       | `purple-700`       | #5f249f     |
-| `secondaryBorderColor`              | Container border            | `purple-700`       | #5f249f     |
+| `secondaryFontColor`                | Label                       | `color-purple-700`       | #5f249f     |
+| `secondaryBorderColor`              | Container border            | `color-purple-700`       | #5f249f     |
 
 ##### Interactive
 | Component token                     | Element                     | Token              | Value       |
 | :---------------------------------- | :-------------------------- | :----------------- | :---------- |
-| `secondaryHoverBackgroundColor`     | Container fill:hover        | `purple-100`       | #f2eafa     |
-| `secondaryActiveBackgroundColor`    | Container fill:active       | `purple-200`       | #e5d5f6     |
-| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `grey-100`	     | #f2f2f2     |
-| `secondaryHoverFontColor`           | Label:hover                 | `purple-700`       | #5f249f     |
-| `secondaryActiveFontColor`          | Label:active                | `purple-700`       | #5f249f     |
-| `secondaryDisabledFontColor`        | Label:disabled              | `grey-500`         | #999999     |
-| `secondaryDisabledBorderColor`	  |  Container border:disabled  | `grey-500`         | #999999     |
+| `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
+| `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-grey-100`	     | #f2f2f2     |
+| `secondaryHoverFontColor`           | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `secondaryActiveFontColor`          | Label:active                | `color-purple-700`       | #5f249f     |
+| `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryDisabledBorderColor`	  |  Container border:disabled  | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -190,18 +190,18 @@ These values can be applied independently to each side of the component:
 | Component token                     | Element                     | Token              | Value       |
 | :---------------------------------- | :-------------------------- | :----------------- | :---------- |
 | `textBackgroundColor`               | Container fill              | `transparent`      | transparent |
-| `textFontColor`                     | Label                       | `purple-700`       | #5f249f     |
+| `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
 
 ###### Interactive
 
 | Component token                     | Element                     | Token              | Value       |
 | :---------------------------------- | :-------------------------- | :----------------- | :---------- |
-| `textHoverBackgroundColor`          | Container fill:hover        | `purple-100`       | #f2eafa     | 
-| `textActiveBackgroundColor`         | Container fill:active       | `purple-200`       | #e5d5f6     | 
-| `textDisabledBackgroundColor`       | Container fill:disabled     | `grey-100`         | #f2f2f2     | 
-| `textHoverFontColor`                | Label:hover                 | `purple-700`       | #5f249f     |
-| `textActiveFontColor`               | Label:active                | `purple-700`       | #5f249f     | 
-| `textDisabledFontColor`             | Label:disabled              | `grey-500`         | #999999     | 
+| `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
+| `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
+| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
+| `textHoverFontColor`                | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `textActiveFontColor`               | Label:active                | `color-purple-700`       | #5f249f     | 
+| `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     | 
 
 
 #### Border

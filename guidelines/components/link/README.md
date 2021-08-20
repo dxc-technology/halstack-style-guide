@@ -21,29 +21,29 @@ _Design specifications for link component_
 
 | Component token                                   | Element             | Core token               | Value       |
 | :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
-| `fontColor`                                       | Label               | `blue-800`               | #0067b3     |
-| `hoverFontColor`                                  | Label:hover         | `blue-800`               | #0067b3     |
-| `activeFontColor`                                 | Label:active        | `black`                  | #000000     |
-| `disabledFontColor`                               | Label:disabled      | `grey-500`               | #999999     |
-| `visitedFontColor`                                | Label:visited       | `purple-700`             | #5f249f     |
-| `hoverUnderlineColor`                             | Underline:hover     | `blue-800`               | #0067b3     |
-| `activeUnderlineColor`                            | Underline:active    | `black`                  | #000000     |
-| `visitedUnderlineColor`                           | Underline:visited   | `purple-700`             | #5f249f     |
-| `focusColor`                                      | Outline:focus       | `blue-800`               | #0067b3     |
+| `fontColor`                                       | Label               | `color-blue-800`         | #0067b3     |
+| `hoverFontColor`                                  | Label:hover         | `color-blue-800`         | #0067b3     |
+| `activeFontColor`                                 | Label:active        | `color-black`            | #000000     |
+| `disabledFontColor`                               | Label:disabled      | `color-grey-500`         | #999999     |
+| `visitedFontColor`                                | Label:visited       | `color-purple-700`       | #5f249f     |
+| `hoverUnderlineColor`                             | Underline:hover     | `color-blue-800`         | #0067b3     |
+| `activeUnderlineColor`                            | Underline:active    | `color-black`            | #000000     |
+| `visitedUnderlineColor`                           | Underline:visited   | `color-purple-700`       | #5f249f     |
+| `focusColor`                                      | Outline:focus       | `color-blue-800`         | #0067b3     |
 
 
 ### On-dark
 
 | Component token                                   | Element             | Core token               | Value       |
 | :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
-| `fontColorOnDark`                                 | Label               | `blue-600`               | #0095ff     |
-| `hoverFontColorOnDark`                            | Label:hover         | `blue-600`               | #0095ff     |
-| `activeFontColorOnDark`                           | Label:active        | `white`                  | #ffffff     |
-| `disabledFontColorOnDark`                         | Label:disabled      | `grey-700`               | #666666     |
-| `visitedFontColorOnDark`                          | Label:visited       | `purple-500`             | #a46ede     |
-| `hoverUnderlineColorOnDark`                       | Underline:hover     | `blue-600`               | #0095ff     |
-| `visitedUnderlineColorOnDark`                     | Underline:visited   | `purple-500`             | #a46ede     |
-| `focusColorOnDark`                                | Outline:focus       | `blue-600`               | #0095ff     |
+| `fontColorOnDark`                                 | Label               | `color-blue-600`         | #0095ff     |
+| `hoverFontColorOnDark`                            | Label:hover         | `color-blue-600`         | #0095ff     |
+| `activeFontColorOnDark`                           | Label:active        | `color-white`            | #ffffff     |
+| `disabledFontColorOnDark`                         | Label:disabled      | `color-grey-700`         | #666666     |
+| `visitedFontColorOnDark`                          | Label:visited       | `color-purple-500`       | #a46ede     |
+| `hoverUnderlineColorOnDark`                       | Underline:hover     | `color-blue-600`         | #0095ff     |
+| `visitedUnderlineColorOnDark`                     | Underline:visited   | `color-purple-500`       | #a46ede     |
+| `focusColorOnDark`                                | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 ### Margin
 
