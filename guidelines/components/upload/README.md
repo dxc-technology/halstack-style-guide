@@ -28,6 +28,20 @@ The element has the following states: **Enabled**, **hover/focus**, **active**, 
 
 _File item states_
 
+## Anatomy
+
+![Component upload anatomy](images/upload_anatomy.png)
+
+1. Label
+2. Drag and drop area
+3. Error message
+4. Error indicator
+5. Action - Remove file
+6. Helper text
+7. Upload button
+8. File name
+9. Loading indicator
+10. File item container
 ## Loading content
 
 When handling with large file sizes the file item should provide feedback to the user about the loading state. While the file is being loaded, the action to remove the file can not be performed.
