@@ -2,73 +2,53 @@
 
 The upload component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
-## Appearance
+## Usage
 
-A limited area in the user interface is reserved for this purpose, letting the user select the files in two ways, either choosing the file through the file system of the operating system or dragging the file and dropping in the respective area.
-Once the file is displayed there, some characteristics are rendered:
-- A thumbnail of the file (in the case that it is available)
-- The name of the file
-- The size or other information of the file
-- An icon representing the actual status of the file (in progress, done, error) 
+* Provide a meaninful label and helper text in order to help the user understand the files expected
+* When displaying errors, provide feedback about the type of error using the error message
+* When the upload process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
 
-When all the files are loaded and the user wants to upload the files to the server, the only action to be performed is the click on the upload button. If the action goes right, an alert message with a success status will be displayed, in other cases, an error will pop up indicating the reason.
+## States
 
-### Modes
+The component upload is made-up of an input (type: file) and a file-item(s).
 
-There are two different modes for the upload component, one of them is used to upload a single file thus the representation of the component is much simple and takes less space in the screen compared with the multi file upload version, which is used to select several files in a row. 
+### Input-file
 
-Modes for the component: __single__ and __multiple__.
+The element has the following states: **Enabled**, **hover**, **focus**, **active**, **error**, **dragover** and **disabled**.
 
+![Input-file upload states](images/upload_states_input.png)
 
-### States
+_Input-file upload states_
 
-*Default state*
+### File items
 
-![Upload with the default preview of the component](images/upload_preview.png)
+The element has the following states: **Enabled**, **hover/focus**, **active**, **loading** and **error**.
 
-*Drag and drop state*
+![File item states](images/upload_states_file.png)
 
-![Upload with drag and drop action of a file](images/upload_dragdrop.png)
+_File item states_
 
-*Uploading state*
+## Loading content
 
-![Upload with file uploading](images/upload_processing.png)
+When handling with large file sizes the file item should provide feedback to the user about the loading state. While the file is being loaded, the action to remove the file can not be performed.
 
-*File complete state*
+![Loading content example](images/upload_loading.png)
 
-![Upload with a file already uploaded and added to the list](images/upload_uploaded.png)
-
-*Hover state with extra options*
-
-![Upload with a hover action over the items to display more options](images/upload_hover.png)
-
-*Upload completion state*
-
-![Upload after cliclinkg the upload button with an alert reporting the state](images/upload_alert.png)
-
-## Design tokens
-
-Cannot be possible to configure or customize any parameter of the component to apply a theming.
+_Loading content state_
 
 ## Design Specifications
 
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the adobe cloud link in the Links and references section.
+![Upload design specifications](images/upload_specs.png)
 
-### Responsive design
+_Upload design specifications_
 
-*This is pending*
 
-### User Interface Design Considerations
 
-- Use the specific mode based on the application requirements
-- Add some explanation text in the case that it is needed to clarify the information to the user
-- By default, the drag and drop appearance is handled by the browser, in case it wants to be customized is the responsibility of the developer
-- If the upload process fails, please show an error message avoiding technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY') that won't be understood by the user of the application
 
 ## Links and references
 
-- Upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/variables/
-- Single upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/f67eb530-b374-4d13-a1d8-ba4c1fba2e74/variables/
+* [Angular component]()
+* [React component]()
 
 ____________________________________________________________
 
