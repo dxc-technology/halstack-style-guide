@@ -105,6 +105,7 @@ These values can be applied independently to each side of the component:
 | `primaryHoverFontColor`             | Label:hover                 | `color-white`            | #ffffff     |
 | `primaryActiveFontColor`            | Label:active                | `color-white`            | #ffffff     |
 | `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
@@ -146,14 +147,15 @@ These values can be applied independently to each side of the component:
 
 ##### Interactive
 | Component token                     | Element                     | Token              | Value       |
-| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
 | `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
-| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-grey-100`	     | #f2f2f2     |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-grey-100`	       | #f2f2f2     |
 | `secondaryHoverFontColor`           | Label:hover                 | `color-purple-700`       | #5f249f     |
 | `secondaryActiveFontColor`          | Label:active                | `color-purple-700`       | #5f249f     |
 | `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryDisabledBorderColor`	  |  Container border:disabled  | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -187,21 +189,22 @@ These values can be applied independently to each side of the component:
 
 ##### Base
 
-| Component token                     | Element                     | Token              | Value       |
-| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
-| `textBackgroundColor`               | Container fill              | `transparent`      | transparent |
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `textBackgroundColor`               | Container fill              | `transparent`            | transparent |
 | `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
 
 ###### Interactive
 
-| Component token                     | Element                     | Token              | Value       |
-| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
 | `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
 | `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
 | `textHoverFontColor`                | Label:hover                 | `color-purple-700`       | #5f249f     |
 | `textActiveFontColor`               | Label:active                | `color-purple-700`       | #5f249f     | 
-| `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     | 
+| `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
