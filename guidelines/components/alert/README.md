@@ -56,24 +56,24 @@ Depending on the content that need to be displayed, more detailed descriptions c
 
 ### Color
 
-|   Component token               |   Element                     |   Core token                  |   Value       |
-| ------------------------------- | ----------------------------- | ----------------------------- | ------------- |
-|   `infoIconColor`               |   Icon                        |   `Hal-Blue-S-35`             |   `#0067b3`   |
-|   `successIconColor`            |   Icon                        |   `Hal-Green-S-39`            |   `#24a148`   |
-|   `warningIconColor`            |   Icon                        |   `Hal-Yellow-D-40`           |   `#c59f07`   |
-|   `errorIconColor`              |   Icon                        |   `Hal-Red-S-41`              |   `#d0011b`   |
-|   `infoBackgroundColor`         |   Container background        |   `Hal-Blue-L-95`             |   `#e6f4ff`   |
-|   `successBackgroundColor`      |   Container background        |   `Hal-Green-L-95`            |   `#eafaef`   |
-|   `warningBackgroundColor`      |   Container background        |   `Hal-Yellow-L-95`           |   `#fef9e6`   |
-|   `errorBackgroundColor`        |   Container background        |   `Hal-Red-L-95`              |   `#ffe6e9`   |
-|   `infoBorderColor`             |   Container border            |   `Hal-Blue-S-35`             |   `#0067b3`   |
-|   `successBorderColor`          |   Container border            |   `Hal-Green-S-39`            |   `#24a148`   |
-|   `warningBorderColor`          |   Container border            |   `Hal-Yellow-S-57`           |   `#f7cf2b`   |
-|   `errorBorderColor`            |   Container border            |   `Hal-Red-S-41`              |   `#d0011b`   |
-|   `titleFontColor`              |   Label                       |   `Hal-Black`                 |   `#000000`   |
-|   `contentFontColor`            |   Content                     |   `Hal-Black`                 |   `#000000`   |
-|   `focusColor`                  |   Action:focus                |   `Hal-Blue-S-35`             |   `#0067b3`   |
-|   `overlayColor`                |   Overlay                     |   -                           |   `#000000B3` |
+| Component token               | Element                     | Core token                  | Value         |
+| :---------------------------- | :-------------------------- | :-------------------------- | :------------ |
+| `infoIconColor`               | Icon                        | `color-blue-800`            |   #0067b3     |
+| `successIconColor`            | Icon                        | `color-green-700`           |   #24a148     |
+| `warningIconColor`            | Icon                        | `color-yellow-700`          |   #c59f07     |
+| `errorIconColor`              | Icon                        | `color-red-700`             |   #d0011b     |
+| `infoBackgroundColor`         | Container background        | `color-blue-100`            |   #e6f4ff     |
+| `successBackgroundColor`      | Container background        | `color-green-100`           |   #eafaef     |
+| `warningBackgroundColor`      | Container background        | `color-yellow-100`          |   #fef9e6     |
+| `errorBackgroundColor`        | Container background        | `color-red-100`             |   #ffe6e9     |
+| `infoBorderColor`             | Container border            | `color-blue-800`            |   #0067b3     |
+| `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
+| `warningBorderColor`          | Container border            | `color-yellow-500`          |   #f7cf2b     |
+| `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
+| `titleFontColor`              | Label                       | `color-black`               |   #000000     |
+| `contentFontColor`            | Content                     | `color-black`               |   #000000     |
+| `focusColor`                  | Action:focus                | `color-blue-800`            |   #0067b3     |
+| `overlayColor`                | Overlay                     | -                           |   #000000B3   |
 
 
 
@@ -97,20 +97,20 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `type-sans`            | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `type-scale_01`        | 12px                      | 
-| `titleFontWeight`                           | Label                        | `type-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `type-sans`            | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `type-scale_01`        | 12px                      |
-| `contentFontWeight`                         | Content                      | `type-regular`         | 400                       |
+| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Label                        | `font-scale-01`        | 12px                      | 
+| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
+| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
+| `contentFontSize`                           | Content                      | `font-scale-01`        | 12px                      |
+| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
 
 
 ### Border
 
 | Component token                             | Element                      | Core token             | Value   |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `borderRadius`                              | Container border             | `border-width_01`      | 1px     | 
-| `borderThickness`                           | Container border             | `border-radius_02`     | 4px     |
+| `borderRadius`                              | Container border             | `border-radius-02`     | 4px     | 
+| `borderThickness`                           | Container border             | `border-width-01`      | 1px     |
 
 
 ### Spacing

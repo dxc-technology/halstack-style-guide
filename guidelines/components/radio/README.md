@@ -33,23 +33,23 @@ The outlined shape has 20 by 20 pixels. In case the radio is selected, the inner
 
 #### On-light
 
-|   Component token                 |   Element         |   Core token                      |   Value     |
-| --------------------------------- | ----------------- | --------------------------------- | ----------- |
-|   `color`                         |   Radio           |  `Hal-Black`                      |   #000000   |
-|   `focusColor`                    |   Radio:focus     |  `Hal-Blue-S-35`                  |   #0067b3   |
-|   `disabledColor`                 |   Radio:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
-|   `fontColor`                     |   Label           |  `Hal-Black`                      |   #000000   |
-|   `disabledFontColor`             |   Label:disabled  |  `Hal-Grey-L-75`                  |   #bfbfbf   |
+| Component token                   | Element           | Core token               | Value       |
+| :-------------------------------- | :---------------- | :----------------------- | :---------- |
+| `color`                           | Radio             | `color-black`            | #000000     |
+| `focusColor`                      | Radio:focus       | `color-blue-800`         | #0067b3     |
+| `disabledColor`                   | Radio:disabled    | `color-grey-400`         | #bfbfbf     |
+| `fontColor`                       | Label             | `color-black`            | #000000     |
+| `disabledFontColor`               | Label:disabled    | `color-grey-400`         | #bfbfbf     |
 
 #### On-dark
 
-|   Component token                 |   Element         |   Core token                      |   Value     |
-| --------------------------------- | ----------------- | --------------------------------- | ----------- |
-|   `colorOnDark`                   |   Radio           |  `Hal-White`                      |   #ffffff   |
-|   `focusColorOnDark`              |   Radio:focus     |  `Hal-Blue-L-50`                  |   #0095ff   |
-|   `disabledColorOnDark`           |   Radio:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
-|   `fontColorOnDark`               |   Label           |  `Hal-White`                      |   #ffffff   |
-|   `disabledFontColorOnDark`       |   Label:disabled  |  `Hal-Grey-S-40`                  |   #666666   |
+| Component token                   | Element           | Core token               | Value       |
+| :-------------------------------- | :---------------- | :----------------------- | :---------- |
+| `colorOnDark`                     | Radio             | `color-white`            | #ffffff     |
+| `focusColorOnDark`                | Radio:focus       | `color-blue-600`         | #0095ff     |
+| `disabledColorOnDark`             | Radio:disabled    | `color-grey-700`         | #666666     |
+| `fontColorOnDark`                 | Label             | `color-white`            | #ffffff     |
+| `disabledFontColorOnDark`         | Label:disabled    | `color-grey-700`         | #666666     |
 
 
 ### Size 
@@ -79,8 +79,8 @@ margin | value
 
 | Property              | Element       | Value     |   Token          |
 | --------------------- | -----------   | --------  | ---------        |
-| `font-size`           | label         | 16px      | `type-scale-03`  |
-| `font-weight`         | label         | 400       | `type-regular`   |
+| `font-size`           | label         | 16px      | `font-scale-03`  |
+| `font-weight`         | label         | 400       | `font-regular`   |
 
 ### Border
 
