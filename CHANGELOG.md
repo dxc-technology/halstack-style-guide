@@ -1,5 +1,89 @@
 # Changelog
 
+## 3.6.0 (23/08/2021)
+
+#### Documentation:
+
+-  [Button] Update :focus color token [#460](https://github.com/dxc-technology/halstack-style-guide/issues/460)
+-  [Date] Color specs update [#450](https://github.com/dxc-technology/halstack-style-guide/issues/450)
+-  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
+-  [Dialog] Update component documentation to new template [#427](https://github.com/dxc-technology/halstack-style-guide/issues/427)
+-  [Docs] Add `template.md` linked to documentation page [#422](https://github.com/dxc-technology/halstack-style-guide/issues/422)
+-  [Input-password] Component documentation [#420](https://github.com/dxc-technology/halstack-style-guide/issues/420)
+-  [Button] Update component documentation to new template [#375](https://github.com/dxc-technology/halstack-style-guide/issues/375)
+-  [Dialog] Images update [#336](https://github.com/dxc-technology/halstack-style-guide/issues/336)
+-  [Button] Images update [#334](https://github.com/dxc-technology/halstack-style-guide/issues/334)
+-  [Input-text] Update text-input documentation [#326](https://github.com/dxc-technology/halstack-style-guide/issues/326)
+-  [Dialog] Color specs update [#298](https://github.com/dxc-technology/halstack-style-guide/issues/298)
+-  [Button] Color specs update [#295](https://github.com/dxc-technology/halstack-style-guide/issues/295)
+
+#### UI-Kit:
+
+-  [Dialog] Link `images.xd` to source library and assets library [#447](https://github.com/dxc-technology/halstack-style-guide/issues/447)
+-  [UI-Kit] Add new color families [#445](https://github.com/dxc-technology/halstack-style-guide/issues/445)
+-  [Dialog] Update UI-Kit component [#435](https://github.com/dxc-technology/halstack-style-guide/issues/435)
+-  [Input-password] UI-Kit component [#421](https://github.com/dxc-technology/halstack-style-guide/issues/421)
+-  [Input-text] Update text-input UI-Kit component [#327](https://github.com/dxc-technology/halstack-style-guide/issues/327)
+
+#### Site
+
+-  [Site] Edit project README.md adding the public link to the library [#444](https://github.com/dxc-technology/halstack-style-guide/issues/444)
+
+---
+
+## 3.5.0 (09/08/2021)
+
+#### Documentation:
+
+-  [Slider] Images update [#411](https://github.com/dxc-technology/halstack-style-guide/issues/411)
+-  [Slider] Update component documentation to new template [#407](https://github.com/dxc-technology/halstack-style-guide/issues/407)
+-  [Button] Update component documentation to new template [#375](https://github.com/dxc-technology/halstack-style-guide/issues/375)
+-  [Alert] Update component documentation to new template [#372](https://github.com/dxc-technology/halstack-style-guide/issues/372)
+-  [Button] Images update [#334](https://github.com/dxc-technology/halstack-style-guide/issues/334)
+-  [Slider] Color specs update [#311](https://github.com/dxc-technology/halstack-style-guide/issues/311)
+-  [Card] Color specs update [#296](https://github.com/dxc-technology/halstack-style-guide/issues/296)
+-  [Button] Color specs update [#295](https://github.com/dxc-technology/halstack-style-guide/issues/295)
+-  [Alert] Color specs update [#294](https://github.com/dxc-technology/halstack-style-guide/issues/294)
+
+#### UI-Kit:
+
+-  [Slider] Update UI-Kit component [#424](https://github.com/dxc-technology/halstack-style-guide/issues/424)
+
+#### Fixes:
+
+-  [Slider] Component specs [#224](https://github.com/dxc-technology/halstack-style-guide/issues/224)
+
+---
+
+## 3.4.0 (12/07/2021)
+
+#### Documentation:
+
+-  [Accordion] Images update [#333](https://github.com/dxc-technology/halstack-style-guide/issues/333)
+-  [Input-text] Update text-input documentation [#326](https://github.com/dxc-technology/halstack-style-guide/issues/326)
+-  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
+-  [Color] Update color families adding new token values [#312](https://github.com/dxc-technology/halstack-style-guide/issues/312)
+-  [Tabs] Color specs update [#305](https://github.com/dxc-technology/halstack-style-guide/issues/305)
+-  [Radio] Color specs update [#302](https://github.com/dxc-technology/halstack-style-guide/issues/302)
+-  [Link] Color specs update [#301](https://github.com/dxc-technology/halstack-style-guide/issues/301)
+-  [Footer] Color specs update [#299](https://github.com/dxc-technology/halstack-style-guide/issues/299)
+-  [Checkbox] Color specs update [#297](https://github.com/dxc-technology/halstack-style-guide/issues/297)
+-  [Accordion] Color specs update [#293](https://github.com/dxc-technology/halstack-style-guide/issues/293)
+-  [Spacing] Adapt margin/padding props to spacing scale [#208](https://github.com/dxc-technology/halstack-style-guide/issues/208)
+
+#### UI-Kit:
+
+-  [Color] Add `Hal-Red-L-60` and `Hal-Grey-L-80` [#358](https://github.com/dxc-technology/halstack-style-guide/issues/358)
+-  [Color] Added `Hal-purple-L-65`, `Hal-grey-L-90` and `Hal-Blue-L-45` [#340](https://github.com/dxc-technology/halstack-style-guide/issues/340)
+-  [Input-text] Update text-input UI-Kit component [#327](https://github.com/dxc-technology/halstack-style-guide/issues/327)
+
+#### Site
+
+-  [Site] Remove .DS_Store files [#362](https://github.com/dxc-technology/halstack-style-guide/issues/362)
+-  [Site] Automate release notes [#344](https://github.com/dxc-technology/halstack-style-guide/issues/344)
+
+---
+
 ## 3.3.0 (30/06/2021)
 ## Documentation
 
@@ -19,9 +103,9 @@
      * **Added**: `Progress-bar` component.
      * **Removed**: `PBar Determined 80` component.
 * **Color**
-     * **Added**: `color-purple-700`, `color-purple-500` and `color-grey-200`
-     * **Updated**: `Hal-color-purple-S-95`, `Hal-color-purple-S-90`, `Hal-color-purple-S-30` and `Hal-color-purple-S-20`
-    * **Removed**: `Hal-color-purple-S-37`
+     * **Added**: `Hal-purple-S-38`, `Hal-purple-L-65` and `Hal-grey-L-90`
+     * **Updated**: `Hal-purple-S-95`, `Hal-purple-S-90`, `Hal-purple-S-30` and `Hal-purple-S-20`
+    * **Removed**: `Hal-purple-S-37`
 
 ## Fixes
 
@@ -167,11 +251,11 @@
 
 * **Color palette**
 
-   * Added: `color-blue-900`, `color-blue-100`
-   * Added: `color-red-900` , `color-red-100`
-   * Added: `color-grey-500` 
-   * Added: `color-green-100`, `color-green-300`, `color-green-900`, `color-green-800`
-   * Added: `color-yellow-100`, `color-yellow-300`, `color-yellow-700`, `color-yellow-800` 
+   * Added: `Hal-Blue-D-20`, `Hal-Blue-L-95`
+   * Added: `Hal-Red-D-20` , `Hal-Red-L-95`
+   * Added: `Hal-Grey-L-60` 
+   * Added: `Hal-Green-L-95`, `Hal-Green-L-80`, `Hal-Green-D-20`, `Hal-Green-D-30`
+   * Added: `Hal-Yellow-L-95`, `Hal-Yellow-L-80`, `Hal-Yellow-D-40`, `Hal-Yellow-D-30` 
 
 * **Character styles**
 
@@ -232,26 +316,26 @@
 * **Color palette**:
 
    * Updated: Color names following new naming convention
-   * Changed: ```DXC Purple``` to ```Hal-color-purple-S-37```
-   * Changed: ```DXC Blue``` to ```Hal-color-blue-S-30```
-   * Changed: ```DXC Green``` to ```Hal-color-green-S-48``` 
-   * Changed: ```DXC Orange``` to ```Hal-color-orange-S-54``` 
-   * Changed: ```DXC Yellow``` to ```color-yellow-500``` 
-   * Changed: ```DXC Error``` to ```color-red-700```
-   * Changed: ```DXC color-black``` to ```color-black```
-   * Changed: ```DXC color-white``` to ```color-white```
-   * Changed: ```DXC Dark Grey``` to ```color-grey-700```
-   * Added: ```color-purple-200``` ```color-purple-100``` ```color-purple-900``` ```color-purple-800``` 
-   * Added:```color-grey-400``` ```color-grey-100```
-   * Added:```color-blue-600``` ```Hal-color-blue-L-80```
-   * Added:```color-red-800```
+   * Changed: ```DXC Purple``` to ```Hal-Purple-S-37```
+   * Changed: ```DXC Blue``` to ```Hal-Blue-S-30```
+   * Changed: ```DXC Green``` to ```Hal-Green-S-48``` 
+   * Changed: ```DXC Orange``` to ```Hal-Orange-S-54``` 
+   * Changed: ```DXC Yellow``` to ```Hal-Yellow-S-57``` 
+   * Changed: ```DXC Error``` to ```Hal-Red-S-41```
+   * Changed: ```DXC Black``` to ```Hal-Black```
+   * Changed: ```DXC White``` to ```Hal-White```
+   * Changed: ```DXC Dark Grey``` to ```Hal-Grey-S-40```
+   * Added: ```Hal-Purple-L-90``` ```Hal-Purple-L-95``` ```Hal-Purple-D-20``` ```Hal-Purple-D-30``` 
+   * Added:```Hal-Grey-L-75``` ```Hal-Grey-L-95```
+   * Added:```Hal-Blue-L-50``` ```Hal-Blue-L-80```
+   * Added:```Hal-Red-D-30```
    * Removed:```DXC Light Grey```
 
 * **Dataviz color palette**
 
-   * Added: ```Hal-color-purple-S-37```
-   * Added: ```Hal-color-blue-S-30```
-   * Added: ```color-red-700```
+   * Added: ```Hal-Purple-S-37```
+   * Added: ```Hal-Blue-S-30```
+   * Added: ```Hal-Red-S-41```
    * Removed: ```DXC Aqua```
 
 
