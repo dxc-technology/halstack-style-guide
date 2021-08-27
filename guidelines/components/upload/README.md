@@ -4,9 +4,29 @@ The upload component is used to choose files from any location in the local mach
 
 ## Usage
 
+## Do's
+
 * Provide a meaninful label and helper text in order to help the user understand the files expected
 * When displaying errors, provide feedback about the type of error using the error message
 * When the upload process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
+
+### Don'ts
+
+* Use the upload component to upload multiple files inside a modal dialog
+* Use a variant with drag and drop functionality when designing for mobile devices
+
+
+## Variants
+
+![Upload component variants](images/upload_variants.png)
+
+_Upload component variants_
+
+|  Name        | Use case                                                                             |
+| :----------- | :----------------------------------------------------------------------------------- |
+| **File**     | Use the file variant when designing for multidevice                                  |
+| **Filedrop** | Use in large or complex forms when designing only for desktop                        |
+| **Dropzone** | Choose the dropzone when the main purpose of the content is to upload files/images   |
 
 ## States
 
@@ -24,7 +44,7 @@ _Input-file upload states_
 
 The element has the following states: **Enabled**, **hover/focus**, **active**, **loading** and **error**.
 
-![File item states](images/upload_states_file.png)
+![File item states](images/upload_states_fileitem.png)
 
 _File item states_
 
@@ -39,9 +59,19 @@ _File item states_
 5. Action - Remove file
 6. Helper text
 7. Upload button
-8. File name
-9. Loading indicator
-10. File item container
+8. File preview
+9. File name
+10. Loading indicator
+11. File item container
+
+## File item with preview
+
+When the files to upload are mainly images, the preview can provide more feedback to the user rather than the name of the file, preventing errors loading content.
+
+![File item with preview example](images/upload_fileitem_preview.png)
+
+_File item with preview example_
+
 ## Loading content
 
 When handling with large file sizes the file item should provide feedback to the user about the loading state. While the file is being loaded, the action to remove the file can not be performed.
@@ -55,8 +85,6 @@ _Loading content state_
 ![Upload design specifications](images/upload_specs.png)
 
 _Upload design specifications_
-
-
 
 
 ## Links and references
