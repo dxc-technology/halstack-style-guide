@@ -4,29 +4,11 @@ The Input-number component is an Input-text component that only allows numerical
 
 ## Usage
 
-<!--
-This section answers the question: when to use and when not to use this component?
 
-* Reason 1
-* Reason 2
-* Reason 3
--->
+* Don't use the number-input component for amounts. Use a input-text instead
+* Always enable typing in the input field
+* Avoid using the component when large values are expected
 
-## Variants
-
-<!--
-
-In this section define the variant the component in question has (e.g. the button component has three variants: primary, secondary and text).
-
-Variants: **Variant 1**, **variant 2**
-
-![Variants image](path to the image)
-
-_Image caption_
-
-If the component has no variants this section can be removed.
-
--->
 
 ## States
 
