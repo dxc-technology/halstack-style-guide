@@ -34,7 +34,7 @@ If the component has no variants this section can be removed.
 
 States: **Enabled**, **hover**, **focus**, **error** and  **disabled**
 
-![Input states example](images/number_input_states)
+![Input states example](images/number_input_states.png)
 
 _Input states example_
 
@@ -42,33 +42,32 @@ _Input states example_
 
 States: **Enabled**, **hover/focus**, **active** and  **disabled**
 
-![Spin button states example](images/number_action_states)
+![Spin button states example](images/number_action_states.png)
 
 _Spin button states example_
 
 
 ## Anatomy
 
-<!--
-
-In the anatomy section an image displays all the elements that are part of the component and as a caption a list of the numerical references present on the image providing the names of each element.
-
 ![Anatomy of the number-input component](images/number_anatomy.png)
 
-1. Element 1
-2. Element 2
+1. Label
+2. Helper text
+3. Suffix
+4. Container
+5. Spin button increase
+6. Spin button decrease
+7. Error indicator
+8. Error message
+9. Value
 
--->
 
 ## Design specifications
 
-<!--
 
-The design specifications section provides developers the information needed to apply the correct visual properties of the component.
+![Design specifications of the input-number component](images/number_specs.png)
 
-![Specs image](path to the image)
-
-_Image caption_
+_Design specifications of the input-number component_
 
 ### Color
 ### Typography
@@ -95,8 +94,6 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 
 ## Links and references
-
-<!--
 
 * [Angular CDK component](url)
 * [React CDK component](url)
