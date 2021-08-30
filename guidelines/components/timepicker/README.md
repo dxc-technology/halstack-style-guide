@@ -1,4 +1,4 @@
-# Time
+# Timepicker
 
 A time input is a user interface element where the user can type or select a time in a predefined format.
 
