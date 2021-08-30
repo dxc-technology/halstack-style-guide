@@ -179,7 +179,7 @@ _Structure and spacing for time picker time pop-up_
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
 
-![Time helper text](images/time_helper_text.png)
+![Time helper text](images/Time_Helper_Text.png)
 
 
 _Examples of time picker input states with Helper text_
