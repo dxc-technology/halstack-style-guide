@@ -3,118 +3,155 @@
 Slider control allows users to select a specific value or a range of values from a set. Usually, slider presents a relatively large dataset and the way that the user interacts with it is helpful to explore the multiple options swiftly.
 
 
-* [Usage](#usage)
-* [Varients](#varients)
-* [Anatomy](#anatomy)
-* [States](#states)
-* [Design specifications](#design-specifications)
-* [Links and references](#links-and-references)
-
-
 ## Usage
 
 - Visualize the output of the slider as feedback to the user of the current state.
 - As more information can give it to the user, the easier the selection will be.
 - If the value has to be specific, give some resource to the user to fill a precise input, i.e. an input next to the slider.
 
-To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
 
-![Slider variation for special cases](images/slider_special.png)
+## Variants
 
+The slider has two variants:
 
-## Varients
+| Variant         | Description
+| :-------------- | :-------------------------------------------------------------- |
+| **Discrete**    | Slider can only get the value marked alongside the total line   |
+| **Continous**   | Slider can take every value mapped                              |
 
-Three modes are available for a slider control.
+![Slider variants](images/slider_variants.png "Slider variants")
 
-- A discrete mode, that only can get the value marked along the slider
-- A continuous mode, that can take every value mapped into slider from the beginning to the end.
-
-Modes: **discrete** or **continuos**.
-
-![Slider varients](images/slider_variants.png)
-
-
-## Anatomy
-
-![Slider Anatomy](images/slider_anatomy.png)
-
-1. Minimum value label (optional)
-2. Default Knob
-3. Maximum value label (optional)
-4. Value label (optional)
+_Slider variants_
 
 
 ## States
 
-Seven different states are defined in the life cycle of the component: **enabled**, **disabled**, **hovered**, **focused** and **dragged**.
+The slider component has the following states: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Slider mode discrete](images/slider_states_discrete.png)
+![Slider component different states example](images/slider_states.png "Slider component different states example")
+_Slider component different states example_
 
-![Slider mode continious](images/slider_states_continuos.png)
 
-![Slider Disabled](images/slider_disabled.png)
+## Anatomy
+
+![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
+
+1. Floor label _(Optional)_
+2. Total line
+3. Ceil label _(Optional)_
+4. Value input _(Optional)_
+5. Tick mark
+6. Thumb
+7. Track line
+
+
+## Slider with input
+
+To accomplish these considerations, some slider's variations were designed with the purpose of offering a great user experience within the application.
+
+![Slider with input example](images/slider_input.png "Slider with input example")
+
+_Slider with input example_
+
 
 
 ## Design Specifications
 
-The design specifications for slider are defining in the table below.
+![Slider Specifications](images/slider_specs.png "Slider Specifications")
 
-| Property                |         Value |
-| ----------------------- | ------------: |
-| Margin                  |        `15px` |
-| Slider line thickness   |         `1px` |
-| Default knob            |   `14 x 14px` |
-| Selected knob           |   `18 x 18px` |
-| Min width               |       `185px` |
-| Small steppers          |     `4 x 4px` |
-| Space between steppers  |        `36px` |
-| Separation with lock up |        `10px` |
-| Lockup size             |   `40 x 40px` |
-| Focused ripple          |   `42 x 42px` |
-| Pressed ripple          |   `62 x 62px` |
-| Font size (with text)   |        `16px` |
-| Font weight             |     `Regular` |
-| Knob shape              | `y:3, blur:3` |
+_Slider Specifications_
 
-![Slider specifications](images/slider_specs.png)
 
 ### Color
 
 #### On-Light
 
-| Component token                   | Element             | Core token      | Value     |
-|  --                               |  --                 |  --             |  --       |
-| `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | `#000000` |
-| `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | `#0067b3` |
-| `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | `#003c66` |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Blue-L-95` | `#e6f4ff` |
-| `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | `#0067b3` |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Blue-L-95` | `#e6f4ff` |
-| `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | `#0067b3` |
-| `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | `#e6f4ff` |
+| Component token                   | Element             | Core token            | Value   |
+| :-------------------------------- | :------------------ | :-------------------- | :------ |
+| `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
+| `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-400`      | #bfbfbf |
+| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-400`      | #bfbfbf |
+| `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
+| `focusColor`                      | Focus outline       | `color-blue-800`      | #0067b3 |
+
 
 #### On-Dark
 
-| Component token                           |   Element             |   Core token      |   Value       |
-|  --                                       |  --                   |  --               |  --           |
-| `fontColorOnDark`                         |   Floor/Ceil label    |   `Hal-White`     |   `#ffffff`   |
-| `thumbBackgroundColorOnDark`              |   Thumb               |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `activeThumbBackgroundColorOnDark`        |   Thumb:active        |   `Hal-Blue-S-35` |   `#0067b3`   |
-| `disabledThumbBackgroundColorOnDark`	    |   Thumb:disabled      |   `Hal-Blue-D-20` |   `#003c66`   |
-| `tickMarkBackgroundColorOnDark`	          |   Tick Mark           |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `disabledTickMarkBackgroundColorOnDark`   |   Tick Mark:disabled  |   `Hal-Blue-D-20` |   `#003c66`   |
-| `trackLineOnDark`                         |   Track line          |   `Hal-Blue-L-50` |   `#0095ff`   |
-| `disabledTrackLineColorOnDark`            |   Track line:disabled |   `Hal-Blue-D-20` |   `#003c66`   |
-| `totalLineOnDark`	                        |   Total line          |   `Hal-Grey-L-75` |   `#bfbfbf`   |
-| `disabledTotalLineColorOnDark`            |   Total line:disabled |   `Hal-Grey-S-40` |   `#666666`   |
-| `focusColorOnDark`                        |   Focus outline       |   `Hal-Blue-L-50` |   `#0095ff`   |
+| Component token                           | Element              | Core token              | Value         |
+| :---------------------------------------- | :------------------- | :---------------------- | :------------ |
+| `fontColorOnDark`                         | Floor/Ceil label     | `color-white`           | #ffffff       |
+| `thumbBackgroundColorOnDark`              | Thumb                | `color-blue-600`        | #0095ff       |
+| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `color-blue-800`        | #0067b3       |
+| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `color-grey-500`        | #999999       |
+| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `color-blue-600`        | #0095ff       |
+| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `color-grey-500`        | #999999       |
+| `trackLineColorOnDark`                    | Track line           | `color-blue-600`        | #0095ff       |
+| `disabledTrackLineColorOnDark`            | Track line:disabled  | `color-grey-500`        | #999999       |
+| `totalLineColorOnDark`	                | Total line           | `color-grey-400`        | #bfbfbf       |
+| `disabledTotalLineColorOnDark`            | Total line:disabled  | `color-grey-700`        | #666666       |
+| `focusColorOnDark`                        | Focus outline        | `color-blue-600`        | #0095ff       |
 
+### Typography
+
+
+| Component token                   | Element             | Core token             | Value                     |
+| :-------------------------------- | :------------------ | :--------------------- | :------------------------ |
+| `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
+| `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
+| `fontWeight`                      | Floor/Ceil label    | `font-regular`         | 400                       |
+| `fontStyle`                       | Floor/Ceil label    | `font-normal`          | normal                    |
+
+### Spacing
+
+| Property                          | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `margin-left`                     | Floor label         | `spacing-05`    | 1rem / 16px               |
+| `margin-right`                    | Ceil label          | `spacing-05`    | 1rem / 16px               |
+| `margin-left`                     | Input               | `spacing-07`    | 2rem / 32px               |
+
+
+### Size
+
+| Property                          | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `height`                          | Total line          | -               | 2px                       |
+| `height`                          | Track line          | -               | 2px                       |
+| `height`                          | Thumb               | -               | 12px                      |
+| `width`                           | Thumb               | -               | 12px                      |
+| `height`                          | Thumb:hover*        | -               | 16px                      |
+| `width`                           | Thumb:hover         | -               | 16px                      |
+| `height`                          | Tick mark           | -               | 4px                       |
+| `width`                           | Tick mark           | -               | 4px                       |
+
+[*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
+
+## Accessibility
+
+### WCAG
+
+* Understanding WCAG 2.2 - [SC 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships) 
+* Understanding WCAG 2.2 - [SC 1.3.2 Meaningful Sequence](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence) 
+* Understanding WCAG 2.2 - [SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+* Understanding WCAG 2.2 - [SC 2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order) 
+* Understanding WCAG 2.2 - [SC 2.4.6 Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels) 
+* Understanding WCAG 2.2 - [SC 2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible) 
+* Understanding WCAG 2.2 - [SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value) 
+
+### WAI-ARIA
+
+* WAI-ARIA Authoring practices 1.2 - [3.19 Slider](https://www.w3.org/TR/wai-aria-practices-1.2/#slider)
+* WAI-ARIA Authoring practices 1.2 - [Slider example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/slider/slider-1.html)
 
 ## Links and references
 
-- [React component](https://developer.dxc.com/tools/react/3/#/components/slider)
-- [Angular component](https://developer.dxc.com/tools/angular/3/#/components/slider)
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7f570b2b-ad1e-4e1a-b44c-8bd9488f0c44/variables/
+- [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
+- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
 
 ____________________________________________________________
 

@@ -4,78 +4,44 @@ Buttons are basic interface elements that initialize an action or function when 
 
 These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application.
 
-## Appereance
 
-In Halstack Design System you will find several buttons with different shades, colors, and sizes, each of them carefully designed following best practices to fit in every application that will be built or integrated with this system.
-
-
-### Modes
-
-We can identify three different modes that imply some visual changes according to color, border or opacity attributes.
-
-Modes: **primary**, **secondary** and **text**.
-
-![Button modes example](images/button_modes.png)
+## Usage
 
 
-### States
+- In instances where buttons are vertically stacked, buttons should be the same length.
+- Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
+- Text or icon on a button should always be centered.
+- There must be 8 pixels of space between horizontally displayed buttons.
+
+## Variants
+
+We can identify three different variants that imply some visual changes according to color and border attributes.
+
+Variants: **primary**, **secondary** and **text**.
+
+![Example of the button component variants](images/button_variants.png "Example of the button component variants")
+_Example of the button component variants_
+
+## States
 
 The states are the different behaviors of the button component based on the interaction of the user.
 For the desktop version, we contemplate five different states by which can pass.
 
 States: **enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Button state example](images/button_states.png)
-
-
+![Button component states](images/button_states.png "Button component states")
+_Button component states_
 
 ## Design Specifications
 
 
-![Button specification](images/button_specs.png)
+![Design specifications for button component](images/button_specs.png "Design specifications for button component")
+_Design specifications for button component_
 
-### Color
+### General
 
-#### Primary button
 
-| Tokens                           | Value       |
-| ------------------------------   | ----------- |
-| `primaryBackgroundColor`         |     #5f249f |
-| `primaryFontColor`               |     #FFFFFF |
-| `primaryHoverBackgroundColor`    |     #000000 |
-| `primaryHoverFontColor`          |     #FFFFFF |
-| `primaryActiveBackgroundColor`   |     #676767 |
-| `disabledPrimaryBackgroundColor` |     #CEB7D9 |
-| `disabledPrimaryFontColor`       |     #FFFFFF |
-| `focusColor`                     |     #005FCC |
-
-#### Secondary button
-
-| Tokens                           |  Value      |
-| ------------------------------   | ------------|
-| `secondaryOutlinedColor`         |     #5f249f |
-| `secondaryBackgroundColor`       | transparent |
-| `secondaryFontColor`             |     #000000 |
-| `secondaryHoverFontColor`        |     #000000 |
-| `secondaryHoverBackgroundColor`  |     #EEEEEE |
-| `secondaryActiveBackgroundColor` |     #DBDBDB |
-| `disabledSecondaryOutlinedColor` |     #CEB7D9 |
-| `disabledSecondaryFontColor`     |     #B1B1B1 |
-| `focusColor`                     |     #005FCC |
-
-#### Text button
-
-| Tokens                           | Value       |
-| ------------------------------   | ----------- |
-| `textBackgroundColor`            | transparent |
-| `textFontColor`                  |     #5f249f |
-| `textHoverBackgroundColor`       |     #000000 |
-| `textHoverFontColor`             |     #FFFFFF |
-| `textActiveBackgroundColor`      |     #676767 |
-| `disabledTextFontColor`          |     #CEB7D9 |
-| `focusColor`                     |     #005FCC |
-
-#### Size
+### Size
 
 The component `width` can adopt the following values:
 
@@ -110,35 +76,167 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-### Padding
+#### Typography 
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `padding-right`     |      24px |
-| `padding-left`      |      24px |
-
-
-### Border
-
-| Property            | Value     |
-| ------------------  | --------- |
-| `border-radius`     |       4px |
-| `border-width`      |       1px |
-| `border-width` focus outline      |       2px |
+| Component token            | Property          | Core token  | Value     |
+| :------------------------- | ---------------- | ----------- | --------- |
+| `labelFontLineHeight`         | line-height        | `font-leading-normal`   | 1.5 em    |
+| `labelLetterSpacing`         | letter-spacing        | `font-spacing-wide-01`   | 0.025 em   |
 
 
-### Typography
+ ### Primary
+ 
+ #### Color
+ 
+ ##### Base
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `font-size`     |       1rem/16px |
-| `font-weight`     |       400 |
-| `line-height`     |       1.5em |
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryBackgroundColor`            | Button container            | `color-purple-700`       | #5f249f     |
+| `primaryFontColor`                  | Label                       | `color-white`            | #ffffff     | 
+
+ ##### Interactive
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryHoverBackgroundColor`       | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `primaryActiveBackgroundColor`      | Container fill:active	    | `color-purple-900`       | #321353     |
+| `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
+| `primaryHoverFontColor`             | Label:hover                 | `color-white`            | #ffffff     |
+| `primaryActiveFontColor`            | Label:active                | `color-white`            | #ffffff     |
+| `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryBorderThickness`         | Container       | -   | 0px    |
+| `primaryBorderStyle`         | Container        | -   | none   |
+| `primaryBorderRadius`         | Container        | -   | 4px   |
+
+
+
+#### Typography
+
+| Component token         | Element           | Core token           | Value                      |
+| :---------------------- | :---------------- | :------------------- | :------------------------- |
+| `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `primaryBorderStyle`    | Label             | `font-scale-03`      | 16px / 1 rem               |
+| `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `primaryPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
+
+### Secondary
+
+#### Color
+
+##### Base
+
+| Component token                     | Element                     | Token              | Value       |
+| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
+| `secondaryBackgroundColor`          | Container fill              | `transparent`      | transparent |
+| `secondaryFontColor`                | Label                       | `color-purple-700`       | #5f249f     |
+| `secondaryBorderColor`              | Container border            | `color-purple-700`       | #5f249f     |
+
+##### Interactive
+| Component token                     | Element                     | Token              | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
+| `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-grey-100`	       | #f2f2f2     |
+| `secondaryHoverFontColor`           | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `secondaryActiveFontColor`          | Label:active                | `color-purple-700`       | #5f249f     |
+| `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryBorderThickness`         | Container        | -   | 1px    |
+| `secondaryBorderStyle`         | Container        | -   | solid   |
+| `secondaryBorderRadius`         | Container        | -   | 4px   |
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `secondaryFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `secondaryFontWeight`         | Label        | `font-regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `secondaryPaddingTop`         | Label        | `-`   | 10px / 0.75 rem    |
+| `secondaryPaddingBottom`         | Label        | `-`   | 10px / 0.75 rem   |
+
+
+### Text
+
+#### Color
+
+##### Base
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `textBackgroundColor`               | Container fill              | `transparent`            | transparent |
+| `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
+
+###### Interactive
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
+| `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
+| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
+| `textHoverFontColor`                | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `textActiveFontColor`               | Label:active                | `color-purple-700`       | #5f249f     | 
+| `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     | 
+
+
+#### Border
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textBorderThickness`         | Container        | -   | 0px    |
+| `textBorderStyle`         | Container        | -   | none   |
+| `textBorderRadius`         | Container        | -   | 4px   |
+
+
+
+#### Typography
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `textFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `textFontWeight`         | Label        | `font-regular`   | 400   |
+
+
+#### Padding
+
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `textPaddingTop`         | Label        | `spacing-04`   | 12px / 0.75 rem    |
+| `textPaddingBottom`         | Label        | `spacing-04`   | 12px / 0.75 rem   |
 
 
 
 
-### Icon Usage
+## Icon Usage
 
 Any icon can be used in Halstack Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
 
@@ -146,23 +244,14 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 * Do not use icons mainly for visual interest, the glyph must add information and clarification to the action that would be performed in the context of the button.
 * A button with an icon and no text is also allowed in the design system.
 
-![Button with icon examples](images/button_icon.png)
+![Icon usage examples](images/button_icon.png "Icon usage examples")
 
-
-
-## User Interface Design Considerations
-
-Here, you can find more considerations in the using of buttons:
-
-- In instances where buttons are vertically stacked, buttons should be the same length.
-- Horizontally displayed buttons are dependent on the amount of text, so button lengths may vary, always considering the minimum and maximum established sizes.
-- Text or icon on a button should always be centered.
-- There must be 24 pixels of space between horizontally displayed buttons.
-- Button location, not dictated by workflow, should be centered or right aligned at the section/page margin. This can be defined by the application but should be consistent throughout.
+_Icon usage examples_
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/84bacd8b-f5aa-4369-9fe3-c2cd53165c90/variables/
+* [Angular CDK component](https://clicktime.symantec.com/3KG6rdmTz1vDaXhBTFLnHVX7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Fangular%2Fnext%2F%23%2Fcomponents%2Fbutton)
+* [React CDK component](https://clicktime.symantec.com/38Ybc495gf78pcUbWtvBoxs7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Freact%2Fnext%2F%23%2Fcomponents%2Fbutton)
 
 ____________________________________________________________
 
