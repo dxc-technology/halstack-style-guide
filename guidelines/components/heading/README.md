@@ -37,63 +37,63 @@ An inherit color from the definition of the application is received, so the comp
 
 #### Hal-Headings-H1
 
-| Property            | Value                     | Token        | 
-| :---                | :---                      | :---         |  
-| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 300                       | `type-light`          | 
-| `font-size`         | 60px / 3.75rem            | `type-scale-08`         | 
-| `font-style`        | regular                   | `type-normal`          | 
-| `text-transform`    | initial                   |           | 
-| `letter-spacing`    | -12.5px / -0.0125em      | `type-spacing-tight-01`          | 
-| `line-height`       |  81.9px/  1.365em       | `type-leading-compact-01`          |
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ |  
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 300                       | `font-light`              | 
+| `font-size`         | 60px / 3.75rem            | `font-scale-08`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | -12.5px / -0.0125em       | `font-tracking-tight-01`  | 
+| `line-height`       | 81.9px/  1.365em          | `font-leading-compact-01` |
 
 #### Hal-Headings-H2
 
-| Property            | Value                     | Token        | 
-| :---                | :---                      | :---         |  
-| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 400                       | `type-regular`          | 
-| `font-size`         | 48px / 3rem            | `type-scale-07`         | 
-| `font-style`        | regular                     | `type-normal`          | 
-| `text-transform`    | initial             |           | 
-| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
-| `line-height`       | 65.52px / 1.365em          | `type-leading-compact-01`          | 
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 400                       | `font-regular`            | 
+| `font-size`         | 48px / 3rem               | `font-scale-07`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+| `line-height`       | 65.52px / 1.365em         | `font-leading-compact-01` | 
 
 #### Hal-Headings-H3
 
-| Property            | Value                     | Token        | 
-| :---                | :---                      | :---         |  
-| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 400                       | `type-regular`          | 
-| `font-size`         | 32px / 2rem            | `type-scale-06`         | 
-| `font-style`        | regular                     | `type-normal`          | 
-| `text-transform`    | initial             |           | 
-| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
-| `line-height`       | 48px / 1.5em          | `type-leading-normal`          | 
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 400                       | `font-regular`            | 
+| `font-size`         | 32px / 2rem               | `font-scale-06`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+| `line-height`       | 48px / 1.5em              | `font-leading-normal`     | 
 
 #### Hal-Headings-H4
 
-| Property            | Value                     | Token        | 
-| :---                | :---                      | :---         |  
-| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 400                       | `type-regular`          | 
-| `font-size`         | 24px / 1.5rem            | `type-scale-05`         | 
-| `font-style`        | regular                     | `type-normal`          | 
-| `text-transform`    | initial             |           | 
-| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
-| `line-height`       | 36px / 1.5em          | `type-leading-normal`          | 
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 400                       | `font-regular`            | 
+| `font-size`         | 24px / 1.5rem             | `font-scale-05`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           |
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+| `line-height`       | 36px / 1.5em              | `font-leading-normal`     | 
 
 #### Hal-Headings-H5
 
-| Property            | Value                     | Token        | 
-| :---                | :---                      | :---         |  
-| `font-family`       | 'Open Sans', sans-serif;  | `type-sans`         | 
-| `font-weight`       | 400                       | `type-regular`          | 
-| `font-size`         | 20px / 1.25rem            | `type-scale-04`         | 
-| `font-style`        | regular                     | `type-normal`          | 
-| `text-transform`    | initial             |           | 
-| `letter-spacing`    |  0px / 0em          | `type-spacing-normal`          | 
-| `line-height`       | 30px / 1.5em          | `type-leading-normal`          | 
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 400                       | `font-regular`            | 
+| `font-size`         | 20px / 1.25rem            | `font-scale-04`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+| `line-height`       | 30px / 1.5em              | `font-leading-normal`     | 
 
 
 
