@@ -1,6 +1,6 @@
-## Design
+# Design
 
-### Halstack UI Kit
+## Halstack UI Kit
 
 The Halstack UI Kit is available in two forms:
 
@@ -9,7 +9,7 @@ The Halstack UI Kit is available in two forms:
 
 At the moment we only have built our library in Adobe XD, if you are interested in contributing by creating the library in another design tool go to 
 
-### Reusing styles across XD documents
+## Reusing styles across XD documents
 
 There are two options in order to reuse the styles:
 
@@ -20,24 +20,24 @@ Unless you are working on the library itself is recommneded to use the public li
 
 If you development team is working with a **previous version of the latest released Halstack CDK**, you can find all the UI Kit files in the [previous releases folder](https://github.com/dxc-technology/halstack-style-guide/tree/master/previous-releases) (Note that if you need to upgrade the version of the components you are using you will need to delete all the instances and relink the again with the proper version/public library)
 
-
-### Design assets
+## Design assets
 
 Between the design assets we store the .xd files for every component documentation images, principles and another useful files as branding assets. All our design assets are located [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/contributing/assets). 
 
-#### Updating design assets
+### Updating design assets
 
-### Adding new component
-
-
+## Adding new component
 
 Always use the color and typography styles of the public library so a change of one of those will affect your component styles also.
 
+### Creating component states
 
+![Button component states panel](https://user-images.githubusercontent.com/44420072/131458834-ba3d1d3e-d367-40e5-98e1-986cceed4bc7.png)
 
-#### Creating component states
+_Button component states panel_
 
 We use Adobe XD instances to add all the states to the main component. Here you have more iformation about [how to work with component states in XD](https://www.adobe.com/products/xd/learn/prototype/component-states/component-states-common-use-cases.html).
+
 
 **The default state is the :enabled**, appart from that the following states can be added depending of the behaviour of the component to specify special states:
 
@@ -56,9 +56,8 @@ We use Adobe XD instances to add all the states to the main component. Here you 
 
 Most of the states have a direct relationship with the CSS pseudo-classes, if you want to know more about them, you can check the [MDN Web Docs Pseudo-classes page](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 
-#### Variants
+### Variants
 
 Sometimes the differences between component variants are big and it is not worthy to use modified instances of a component to create them, in this scenario is aways better
 
 
-### Component states & variants
