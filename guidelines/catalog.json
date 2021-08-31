@@ -130,6 +130,9 @@
       "key": "input-number",
       "name": "Input-number"
     },
+      "key": "input-password",
+      "name": "Input-password"
+    },
     {
       "key": "toggle",
       "name": "Toggle"
