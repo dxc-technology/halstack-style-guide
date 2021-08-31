@@ -78,10 +78,10 @@ These values can be applied independently to each side of the component:
 
 #### Typography 
 
-| Component token   | Property          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `labelFontLineHeight`         | line-height        | `type_leading_normal`   | 1.5 em    |
-| `labelLetterSpacing`         | letter-spacing        | `type_spacing_wide_01`   | 0.025 em   |
+| Component token            | Property          | Core token  | Value     |
+| :------------------------- | ---------------- | ----------- | --------- |
+| `labelFontLineHeight`         | line-height        | `font-leading-normal`   | 1.5 em    |
+| `labelLetterSpacing`         | letter-spacing        | `font-spacing-wide-01`   | 0.025 em   |
 
 
  ### Primary
@@ -90,21 +90,22 @@ These values can be applied independently to each side of the component:
  
  ##### Base
 
-| Component token | Element	| Token | Value |
-| --- | --- | --- | --- |
-| `primaryBackgroundColor` | Button container | `Hal-Purple-S-38` | #5f249f |
-| ` primaryFontColor` | Label | `Hal-White`| #ffffff |
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryBackgroundColor`            | Button container            | `color-purple-700`       | #5f249f     |
+| `primaryFontColor`                  | Label                       | `color-white`            | #ffffff     | 
 
  ##### Interactive
 
-| Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-| `primaryHoverBackgroundColor` | Container fill:hover	 | `Hal-Purple-D-30` | #4b1c7d
-| `primaryActiveBackgroundColor` | Container fill:active	 | `Hal-Purple-D-20` | #321353
-|  `primaryDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2
-|  ` primaryHoverFontColor` | Label:hover | `Hal-White` | #ffffff
-|  ` primaryActiveFontColor` | Label:active | `Hal-Purple-L-60` | #ffffff
-|  ` primaryDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryHoverBackgroundColor`       | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `primaryActiveBackgroundColor`      | Container fill:active	    | `color-purple-900`       | #321353     |
+| `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
+| `primaryHoverFontColor`             | Label:hover                 | `color-white`            | #ffffff     |
+| `primaryActiveFontColor`            | Label:active                | `color-white`            | #ffffff     |
+| `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
@@ -118,11 +119,11 @@ These values can be applied independently to each side of the component:
 
 #### Typography
 
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `primaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
-| `primaryBorderStyle`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `primaryBorderRadius`         | Label        | `type_regular`   | 400   |
+| Component token         | Element           | Core token           | Value                      |
+| :---------------------- | :---------------- | :------------------- | :------------------------- |
+| `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `primaryBorderStyle`    | Label             | `font-scale-03`      | 16px / 1 rem               |
+| `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
 
 
 #### Padding
@@ -138,22 +139,23 @@ These values can be applied independently to each side of the component:
 
 ##### Base
 
-| Component token | Element | Token | Value|
-| --- | --- | --- | --- |
-| `secondaryBackgroundColor` | Container fill | `transparent` | transparent
-| `secondaryFontColor` | Label | `Hal-Purple-S-38` | #5f249f
-| `secondaryBorderColor` | Container border | `Hal-Purple-S-38` | #5f249f
+| Component token                     | Element                     | Token              | Value       |
+| :---------------------------------- | :-------------------------- | :----------------- | :---------- |
+| `secondaryBackgroundColor`          | Container fill              | `transparent`      | transparent |
+| `secondaryFontColor`                | Label                       | `color-purple-700`       | #5f249f     |
+| `secondaryBorderColor`              | Container border            | `color-purple-700`       | #5f249f     |
 
 ##### Interactive
-| Component token | Element | Token |  Value | 
-| --- | --- | --- | --- |
-|  `secondaryHoverBackgroundColor` | Container fill:hover| `Hal-Purple-L-95`| #f2eafa
-|  `secondaryActiveBackgroundColor` | Container fill:active| `Hal-Purple-L-90`| #e5d5f6
-|  `secondaryDisabledBackgroundColor` | Container fill:disabled| `Hal-Grey-L-95`	| #f2f2f2
-|  `secondaryHoverFontColor` | Label:hover | `Hal-Purple-S-38`| #5f249f
-|  `secondaryActiveFontColor` | Label:active | `Hal-Purple-S-38`| #5f249f
-|  `secondaryDisabledFontColor` | Label:disabled| `Hal-Grey-L-60`| 	#999999
-|  `secondaryDisabledBorderColor`	 |  Container border:disabled | `Hal-Grey-L-60`| #999999
+| Component token                     | Element                     | Token              | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
+| `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-grey-100`	       | #f2f2f2     |
+| `secondaryHoverFontColor`           | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `secondaryActiveFontColor`          | Label:active                | `color-purple-700`       | #5f249f     |
+| `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -168,9 +170,9 @@ These values can be applied independently to each side of the component:
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `secondaryFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
-| `secondaryFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `secondaryFontWeight`         | Label        | `type_regular`   | 400   |
+| `secondaryFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `secondaryFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `secondaryFontWeight`         | Label        | `font-regular`   | 400   |
 
 
 #### Padding
@@ -186,20 +188,23 @@ These values can be applied independently to each side of the component:
 #### Color
 
 ##### Base
-|  Component token|Element|Token|Value
-| --- | --- | --- | --- |
-| `textBackgroundColor`|Container fill|`transparent`|transparent
-| `textFontColor`|Label|`Hal-Purple-S-38`|#5f249f
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `textBackgroundColor`               | Container fill              | `transparent`            | transparent |
+| `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
 
 ###### Interactive
-|  Component token | Element | Token | Value |
-| --- | --- | --- | --- |
-|  `textHoverBackgroundColor` | Container fill:hover | `Hal-Purple-L-95` | #f2eafa | 
-|  `textActiveBackgroundColor` | Container fill:active | `Hal-Purple-L-90` | #e5d5f6 | 
-|  `textDisabledBackgroundColor` | Container fill:disabled | `Hal-Grey-L-95` | #f2f2f2 | 
-| `textHoverFontColor` | Label:hover | `Hal-Purple-S-38` | #5f249f | 
-| `textActiveFontColor` | Label:active | `Hal-Purple-S-38` | #5f249f | 
-| `textDisabledFontColor` | Label:disabled | `Hal-Grey-L-60` | #999999 | 
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
+| `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
+| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
+| `textHoverFontColor`                | Label:hover                 | `color-purple-700`       | #5f249f     |
+| `textActiveFontColor`               | Label:active                | `color-purple-700`       | #5f249f     | 
+| `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
@@ -216,9 +221,9 @@ These values can be applied independently to each side of the component:
 
 | Component token   | Element          | Core token  | Value     |
 | ----------------- | ---------------- | ----------- | --------- |
-| `textFontFamily`         | Label        | `type-sans`   | 'Open Sans', sans-serif    |
-| `textFontSize`         | Label        | `type_scale_03`   | 16px / 1 rem   |
-| `textFontWeight`         | Label        | `type_regular`   | 400   |
+| `textFontFamily`         | Label        | `font-family-sans`   | 'Open Sans', sans-serif    |
+| `textFontSize`         | Label        | `font-scale-03`   | 16px / 1 rem   |
+| `textFontWeight`         | Label        | `font-regular`   | 400   |
 
 
 #### Padding

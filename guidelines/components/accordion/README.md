@@ -142,33 +142,33 @@ _Component design specifications_
 
 ### Color
 
-| Component token                             | Element                      | Core token           | Value (HEX)  |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
-| `titleLabelFontColor`                       | Label                        | `Hal-Grey-S-40`      | #000000      | 
-| `disabledColor`                             | Label:disabled               | `Hal-Grey-L-75`      | #bfbfbf      |
-| `arrowColor`                                | Caret icon                   | `Hal-Purple-S-38`    | #5f249f      |
-| `iconColor`                                 | Custom icon                  | `Hal-Purple-S-38`    | #5f249f      |
-| `assistiveTextFontColor`                    | Helper text                  | `Hal-Grey-S-40`      | #666666      |
-| `hoverBackgroundColor`                      | Header background:hover      | `Hal-Purple-L-95`    | #f2eafa      |
-| `focusBorderColor`                          | Header outline:focus         | `Hal-Purple-S-38`    | #5f249f      |
-| `backgroundColor`                           | Container background         | `Hal-White`          | #ffffff      |
-| `boxShadowColor`                            | Container shadow             | -                    | #0000001a    |
-| `accordionGroupSeparatorBorderColor`        | Separator                    | -                    | #0000001a    |
+| Component token                             | Element                      | Core token                 | Value (HEX)  |
+| ------------------------------------------- | ---------------------------- | -------------------------- | ------------ |
+| `titleLabelFontColor`                       | Label                        | `color-black`              | #000000      | 
+| `disabledColor`                             | Label:disabled               | `color-grey-400`           | #bfbfbf      |
+| `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
+| `iconColor`                                 | Custom icon                  | `color-purple-700`         | #5f249f      |
+| `assistiveTextFontColor`                    | Helper text                  | `color-grey-700`           | #666666      |
+| `hoverBackgroundColor`                      | Header background:hover      | `color-purple-100`         | #f2eafa      |
+| `focusBorderColor`                          | Header outline:focus         | `color-purple-700`         | #5f249f      |
+| `backgroundColor`                           | Container background         | `color-white`              | #ffffff      |
+| `boxShadowColor`                            | Container shadow             | -                          | #0000001a    |
+| `accordionGroupSeparatorBorderColor`        | Separator                    | -                          | #0000001a    |
 
 
 ### Typography
 
-| Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
-| `titleLabelFontFamily`                      | Label                        | `type_sans`            | 'Open Sans', sans-serif;  | 
-| `titleLabelFontSize`                        | Label                        | `type_scale_03`        | 16px                      | 
-| `titleLabelFontWeight`                      | Label                        | `type_regular`         | 400                       | 
-| `titleLabelFontStyle`                       | Label                        | `type_normal`          | normal                    | 
-| `assistiveTextFontFamily`                   | Helper text                  | `type_sans`            | 'Open Sans', sans-serif;  |
-| `assistiveTextFontSize`                     | Helper text                  | `type_scale_03`        | 16px                      |
-| `assistiveTextFontWeight`                   | Helper text                  | `type_light`           | 300                       |
-| `assistiveTextFontStyle`                    | Helper text                  | `type_regular`         | italic                    |
-| `assistiveTextLetterSpacing`                | Helper text                  | `type_spacing_wide_01` | 0.025em                   |
+| Component token                             | Element                      | Core token              | Value                     |
+| :------------------------------------------ | :--------------------------- | :---------------------- | :------------------------ |
+| `titleLabelFontFamily`                      | Label                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Label                        | `font-scale-03`         | 16px                      | 
+| `titleLabelFontWeight`                      | Label                        | `font-regular`          | 400                       | 
+| `titleLabelFontStyle`                       | Label                        | `font-normal`           | normal                    | 
+| `assistiveTextFontFamily`                   | Helper text                  | `font-sans`             | 'Open Sans', sans-serif;  |
+| `assistiveTextFontSize`                     | Helper text                  | `font-scale-03`         | 16px                      |
+| `assistiveTextFontWeight`                   | Helper text                  | `font-light`            | 300                       |
+| `assistiveTextFontStyle`                    | Helper text                  | `font-regular`          | italic                    |
+| `assistiveTextLetterSpacing`                | Helper text                  | `font-tracking-wide-01` | 0.025em                   |
 
 ### Iconography
 

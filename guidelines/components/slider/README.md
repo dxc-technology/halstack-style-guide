@@ -66,46 +66,46 @@ _Slider Specifications_
 
 #### On-Light
 
-| Component token                   | Element             | Core token      | Value   |
-| :-------------------------------- | :------------------ | :-------------- | :------ |
-| `fontColor`                       | Floor/Ceil label    | `Hal-Black`     | #000000 |
-| `thumbBackgroundColor`            | Thumb               | `Hal-Blue-S-35` | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `Hal-Blue-D-20` | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `Hal-Grey-L-75` | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `Hal-Blue-S-35` | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `Hal-Grey-L-75` | #bfbfbf |
-| `trackLineColor`                  | Track line          | `Hal-Blue-S-35` | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `Hal-Blue-L-95` | #e6f4ff |
-| `totalLineColor`	                | Total line          | `Hal-Grey-L-90` | #e6e6e6 |
-| `disabledTotalLineColor`          | Total line:disabled | `Hal-Grey-L-95` | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `Hal-Blue-S-35` | #0067b3 |
+| Component token                   | Element             | Core token            | Value   |
+| :-------------------------------- | :------------------ | :-------------------- | :------ |
+| `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
+| `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-400`      | #bfbfbf |
+| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-400`      | #bfbfbf |
+| `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
+| `focusColor`                      | Focus outline       | `color-blue-800`      | #0067b3 |
 
 
 #### On-Dark
 
-| Component token                           | Element              | Core token        | Value         |
-| :---------------------------------------- | :------------------- | :---------------- | :------------ |
-| `fontColorOnDark`                         | Floor/Ceil label     | `Hal-White`       | #ffffff       |
-| `thumbBackgroundColorOnDark`              | Thumb                | `Hal-Blue-L-50`   | #0095ff       |
-| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `Hal-Blue-S-35`   | #0067b3       |
-| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `Hal-Grey-L-60`   | #999999       |
-| `tickMarkBackgroundColorOnDark`	          | Tick mark            | `Hal-Blue-L-50`   | #0095ff       |
-| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `Hal-Grey-L-60`   | #999999       |
-| `trackLineColorOnDark`                    | Track line           | `Hal-Blue-L-50`   | #0095ff       |
-| `disabledTrackLineColorOnDark`            | Track line:disabled  | `Hal-Grey-L-60`   | #999999       |
-| `totalLineColorOnDark`	                  | Total line           | `Hal-Grey-L-75`   | #bfbfbf       |
-| `disabledTotalLineColorOnDark`            | Total line:disabled  | `Hal-Grey-S-40`   | #666666       |
-| `focusColorOnDark`                        | Focus outline        | `Hal-Blue-L-50`   | #0095ff       |
+| Component token                           | Element              | Core token              | Value         |
+| :---------------------------------------- | :------------------- | :---------------------- | :------------ |
+| `fontColorOnDark`                         | Floor/Ceil label     | `color-white`           | #ffffff       |
+| `thumbBackgroundColorOnDark`              | Thumb                | `color-blue-600`        | #0095ff       |
+| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `color-blue-800`        | #0067b3       |
+| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `color-grey-500`        | #999999       |
+| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `color-blue-600`        | #0095ff       |
+| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `color-grey-500`        | #999999       |
+| `trackLineColorOnDark`                    | Track line           | `color-blue-600`        | #0095ff       |
+| `disabledTrackLineColorOnDark`            | Track line:disabled  | `color-grey-500`        | #999999       |
+| `totalLineColorOnDark`	                | Total line           | `color-grey-400`        | #bfbfbf       |
+| `disabledTotalLineColorOnDark`            | Total line:disabled  | `color-grey-700`        | #666666       |
+| `focusColorOnDark`                        | Focus outline        | `color-blue-600`        | #0095ff       |
 
 ### Typography
 
 
-| Component token                   | Element             | Core token      | Value                     |
-| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
-| `fontFamily`                      | Floor/Ceil label    | `type-sans`     | 'Open Sans', sans-serif   |
-| `fontSize`                        | Floor/Ceil label    | `type_scale_03` | 1rem / 16px               |
-| `fontWeight`                      | Floor/Ceil label    | `type_regular`  | 400                       |
-| `fontStyle`                       | Floor/Ceil label    | `type_normal`   | normal                    |
+| Component token                   | Element             | Core token             | Value                     |
+| :-------------------------------- | :------------------ | :--------------------- | :------------------------ |
+| `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
+| `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
+| `fontWeight`                      | Floor/Ceil label    | `font-regular`         | 400                       |
+| `fontStyle`                       | Floor/Ceil label    | `font-normal`          | normal                    |
 
 ### Spacing
 
