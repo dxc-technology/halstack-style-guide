@@ -19,10 +19,6 @@
     {
       "key": "layout",
       "name": "Layout"
-    },
-    {
-      "key": "design tokens",
-      "name": "Design Tokens"
     }
   ],
   "components": [
@@ -127,12 +123,15 @@
       "name": "Tag"
     },
     {
-      "key": "input-password",
-      "name": "Input-password"
-    },
-    {
       "key": "input-text",
       "name": "Input-text"
+    },
+    {
+      "key": "input-number",
+      "name": "Input-number"
+    },
+      "key": "input-password",
+      "name": "Input-password"
     },
     {
       "key": "toggle",
