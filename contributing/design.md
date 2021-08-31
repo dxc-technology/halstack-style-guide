@@ -24,11 +24,21 @@ If you development team is working with a **previous version of the latest relea
 
 Between the design assets we store the .xd files for every component documentation images, principles and another useful files as branding assets. All our design assets are located [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/contributing/assets). 
 
-### Updating design assets
+## Adding new components
 
-## Adding new component
+The process of adding new components to the Halstack design system consists of the following steps:
 
-Always use the color and typography styles of the public library so a change of one of those will affect your component styles also.
+1. Create a [component name]_images.xd file and submit to review
+2. Export the artboards as png to an images folder following the [images contribution guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/images.md)
+3. Write the component documentation page accordingly to the [content guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/content.md)
+
+In this page we are going to focus in the first step of the process in order to helping halstack contributors to create reusable and compelling components for the design system UI Kit.
+
+### Component starting file
+
+You can use a [template](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/assets/templates/template_component_images.xd) to start building your component XD file.
+
+Be sure that you have access to the Halstack Adobe libraries (UI Kit and Assets) and always stick to the color and typography styles of the public library so a change of one of those will affect your component styles also. Adobe XD doesn't apply the color styles to the borders directly, avoid using the color picker and copy and paste the HEX code instead.
 
 ### Creating component states
 
