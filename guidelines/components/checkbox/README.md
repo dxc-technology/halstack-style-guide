@@ -141,6 +141,8 @@ margin | value
 
 _Design specifications for mobile_
 
+On mobile devices the size and font-sizes of the checkbox and checkbox group has been accomodated to touch interactions. The checkbox container provides enough space to enable a comfortable tapping. There is no possibility to stack horizontally and the only method for grouping is vertical leaving enough space for long labels.
+
 ## Accessibility
 
 ### WCAG 2.2
