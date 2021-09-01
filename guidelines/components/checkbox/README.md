@@ -118,17 +118,19 @@ margin | value
 | `font-size`            | Checkbox label         | 14px         | `font-scale-02`         |
 | `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
 | `font-size`            | Group label            | 14px         | `font-scale-02`         |
-| `font-weight`          | Checkbox label         | 600          | `font-weight-bold`      |
+| `font-weight`          | Group label            | 600          | `font-weight-bold`      |
 | `font-size`            | Helper text            | 12px         | `font-scale-01`         |
-| `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
+| `font-weight`          | Helper text            | 400          | `font-weight-regular`   |
+| `font-size`            | Error message          | 12px         | `font-scale-01`         |
+| `font-weight`          | Error message          | 400          | `font-weight-regular`   |
 
 ### Border
 
 | Property               | Element            | Value      | Token                  |
 | :--------------------- | :----------------- | :--------  | :--------------------- |
 | `border-radius`        | Checkbox input     | 2px        | `border-radius-small`  |
-| `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
 | `border-width`         | Checkbox input     | 2px        | `border-width-2`       |
+| `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
 | `border-width`         | Focus outline      | 2px        | `border-width-2`       |
 
 ## Accessibility
