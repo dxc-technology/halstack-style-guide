@@ -67,14 +67,14 @@ margin | value
 
 ### Typography
 
-| Property               | Element                | Value        | Token            |
-| :--------------------- | :--------------------- | :----------- | :--------------- |
-| `font-size`            | Checkbox label         | 14px         | `font-scale-02`  |
-| `font-weight`          | Checkbox label         | 400          | `font-regular`   |
-| `font-size`            | Group label            | 14px         | `font-scale-02`  |
-| `font-weight`          | Checkbox label         | 600          | `font-bold`      |
-| `font-size`            | Helper text            | 12px         | `font-scale-01`  |
-| `font-weight`          | Checkbox label         | 400          | `font-regular`   |
+| Property               | Element                | Value        | Token                   |
+| :--------------------- | :--------------------- | :----------- | :---------------------- |
+| `font-size`            | Checkbox label         | 14px         | `font-scale-02`         |
+| `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
+| `font-size`            | Group label            | 14px         | `font-scale-02`         |
+| `font-weight`          | Checkbox label         | 600          | `font-weight-bold`      |
+| `font-size`            | Helper text            | 12px         | `font-scale-01`         |
+| `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
 
 ### Border
 
