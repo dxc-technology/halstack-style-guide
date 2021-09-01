@@ -10,7 +10,7 @@ Checkboxes are inputs that offer to the user the possibility to select one or mo
 
 ## States
 
-The following states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**.
+The following states are defined in the life cycle of the component: **Unselected**, **hover unselected**, **focus unselected**, **disabled unselected**, **selected**, **hover selected**, **focus selected** and **disabled selected**.
 
 ![Example of the component states](images/checkbox_states.png)
 
