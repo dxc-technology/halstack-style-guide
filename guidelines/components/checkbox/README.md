@@ -27,7 +27,9 @@ _Example of the component states_
 
 ## Design Specifications
 
-![Checkbox specs](images/checkbox_specs.png)
+![Design specifications for the checkbox component](images/checkbox_specs.png)
+
+_Design specifications for the checkbox component_
 
 ### Color
 
