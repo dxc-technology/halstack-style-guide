@@ -1,6 +1,6 @@
 # Checkbox
 
-Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.
+Checkboxes are inputs that offer to the user the possibility to select one or multiple options from a range of attributes.
 
 ## Usage
 
@@ -10,7 +10,7 @@ Checkboxes are inputs that offer to the user the possibility to select one or mo
 
 ## States
 
-The following states are defined in the life cycle of the component: **Unselected**, **hover unselected**, **focus unselected**, **disabled unselected**, **selected**, **hover selected**, **focus selected** and **disabled selected**.
+The checkbox component has the following states: **Unselected**, **hover unselected**, **focus unselected**, **disabled unselected**, **selected**, **hover selected**, **focus selected** and **disabled selected**.
 
 ![Example of the component states](images/checkbox_states.png)
 
@@ -45,7 +45,7 @@ _Design specifications for the checkbox component_
 | `checkColor`                         | Check mark                        | `color-white`            | #ffffff      |
 | `disabledCheckColor`                 | Check mark:disabled               | `color-white`            | #ffffff      |
 | `focusColor`                         | Outline:focus                     | `color-blue-600`         | #0095ff      |
-| `fontColor`                          | Checkbox Label                    | `color-black`            | #000000      |
+| `fontColor`                          | Checkbox label                    | `color-black`            | #000000      |
 | `disabledFontColor`                  | Label:disabled                    | `color-grey-400`         | #bfbfbf      |
 | `labelFontColor`                     | Group label                       | `color-black`            | #000000      |
 | `disabledLabelFontColor`             | Group label:disabled              | `color-grey-400`         | #bfbfbf      |
@@ -86,7 +86,7 @@ margin | value
 | `border-width`         | Focus outline      | 2px        | -                |
 
 
-## Stack
+## Stacking
 
 Checkbox options may be either vertically or horizontally stacked.
 
@@ -94,10 +94,10 @@ Checkbox options may be either vertically or horizontally stacked.
 
 _Checkbox group stacking types_
 
-| Stacking type           | Usage                                                                                                                               |
-| :---------------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
-| **Vertical stacking**   | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
-| **Horizontal stacking** | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxex should be 24px. |
+| Type              | Usage                                                                                                                               |
+| :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
+| **Vertical**      | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
+| **Horizontal**    | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 24px. |
 
 
 ## Accessibility
