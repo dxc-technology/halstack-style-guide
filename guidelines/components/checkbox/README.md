@@ -24,6 +24,34 @@ _Example of the component states_
 2. Helper text _(Optional)_
 3. Checkbox input
 4. Checkbox label
+5. Error message
+
+## Stacking
+
+Checkbox options may be either vertically or horizontally stacked.
+
+![Checkbox group stacking types](images/checkbox_stack.png)
+
+_Checkbox group stacking types_
+
+| Type              | Usage                                                                                                                               |
+| :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
+| **Vertical**      | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
+| **Horizontal**    | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 24px. |
+
+## Error handling
+
+![Checkbox single and group error examples](images/checkbox_error_handling.png)
+
+_Checkbox single and group error examples_
+
+Depending if the checkbox component is isolated or part of a group, there are two ways to display the error message.
+
+| Type              | Usage                                                          |
+| :---------------- | :------------------------------------------------------------- |
+| **Single**        | The error message is displayed just after the checkbox input.  |
+| **Group**         | Error messages should be displayed at the en of the group      |
+
 
 ## Design Specifications
 
@@ -84,21 +112,6 @@ margin | value
 | `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
 | `border-width`         | Checkbox input     | 2px        | `border-width-2`       |
 | `border-width`         | Focus outline      | 2px        | `border-width-2`       |
-
-
-## Stacking
-
-Checkbox options may be either vertically or horizontally stacked.
-
-![Checkbox group stacking types](images/checkbox_stack.png)
-
-_Checkbox group stacking types_
-
-| Type              | Usage                                                                                                                               |
-| :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
-| **Vertical**      | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
-| **Horizontal**    | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 24px. |
-
 
 ## Accessibility
 
