@@ -69,24 +69,34 @@ _Design specifications for the checkbox component_
 
 ### Color
 
+#### Base
 
 | Component token                      | Element                           | Core token               | Value        |
 | :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
-| `backgroundColorChecked`             | Fill                              | `color-blue-800`         | #0067b3      |
-| `hoverBackgroundColorChecked`        | Fill:hover                        | `color-blue-700`         | #0086e6      |
-| `disabledBackgroundColorChecked`     | Fill:disabled                     | `color-grey-400`         | #bfbfbf      |
 | `borderColor`                        | Border                            | `color-blue-800`         | #0067b3      |
-| `hoverBorderColor`                   | Border:hover                      | `color-blue-700`         | #0086e6      |
-| `disabledBorderColor`                | Border:disabled                   | `color-grey-400`         | #bfbfbf      |
+| `selectedBackgroundColor`            | Fill                              | `color-blue-800`         | #0067b3      |
 | `checkColor`                         | Check mark                        | `color-white`            | #ffffff      |
+| `labelColor`                         | Checkbox label                    | `color-black`            | #000000      |
+| `GroupLabelColor`                    | Group label                       | `color-black`            | #000000      |
+| `helperTextColor`                    | Helper text                       | `color-black`            | #000000      |
+| `errorMessageColor`                  | Error message                     | `color-red-700`          | #d0011b      |
+
+#### Interactive
+
+| Component token                      | Element                           | Core token               | Value        |
+| :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
+| `hoverSelectedBackgroundColor`       | Fill:hover                        | `color-blue-700`         | #0086e6      |
+| `errorSelectedBackgroundColor`       | Fill:error                        | `color-red-700`          | #d0011b      |
+| `disabledSelectedBackgroundColor`    | Fill:disabled                     | `color-grey-400`         | #bfbfbf      |
+| `hoverBorderColor`                   | Border:hover                      | `color-blue-700`         | #0086e6      |
+| `errorBorderColor`                   | Border:error                      | `color-red-700`          | #d0011b      |
+| `disabledBorderColor`                | Border:disabled                   | `color-grey-400`         | #bfbfbf      |
 | `disabledCheckColor`                 | Check mark:disabled               | `color-white`            | #ffffff      |
 | `focusColor`                         | Outline:focus                     | `color-blue-600`         | #0095ff      |
-| `fontColor`                          | Checkbox label                    | `color-black`            | #000000      |
-| `disabledFontColor`                  | Label:disabled                    | `color-grey-400`         | #bfbfbf      |
-| `labelFontColor`                     | Group label                       | `color-black`            | #000000      |
-| `disabledLabelFontColor`             | Group label:disabled              | `color-grey-400`         | #bfbfbf      |
-| `helperFontColor`                    | Helper text                       | `color-black`            | #000000      |
+| `disabledLabelFontColor`             | Checkbox label:disabled           | `color-grey-400`         | #bfbfbf      |
+| `disabledGroupLabelFontColor`        | Group label:disabled              | `color-grey-400`         | #bfbfbf      |
 | `disabledHelperFontColor`            | Helper text:disabled              | `color-grey-400`         | #bfbfbf      |
+
 ### Margin
 
 Margin can be set independently for `top`, `right`, `bottom`, `left`.
