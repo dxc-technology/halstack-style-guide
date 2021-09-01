@@ -135,6 +135,12 @@ margin | value
 | `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
 | `border-width`         | Focus outline      | 2px        | `border-width-2`       |
 
+## Mobile
+
+![Design specifications for mobile](images/checkbox_mobile.png)
+
+_Design specifications for mobile_
+
 ## Accessibility
 
 ### WCAG 2.2
