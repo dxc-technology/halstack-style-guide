@@ -2,37 +2,30 @@
 
 Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.
 
-The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
+## Usage
 
-## Appereance
+* Use to select more than one option from a list
+* Use to toggle a single option on or off
+* Don't use checkboxes when only one item can be selected, use a readio button instead
 
-A checkbox has a toggle mode so every checkbox component in the application remaining the same visually. It inherits colors from the definition of the theme, using primary color as the text content of the checkbox and accent color as a background of the box.
-
-### Modes
-
-As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included or unselected when the option should not be included. These options are mapping accordingly with the boolean values true and false.
-Modes: **selected** or **unselected**.
-
-![Checkbox modes](images/checkbox_modes.png)
-
-### States
+## States
 
 The following states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**.
 
-![Checkbox states](images/checkbox_states.png)
+![Example of the component states](images/checkbox_states.png)
 
+_Example of the component states_
 
+## Anatomy
 
+![Anatomy of the checkbox component](images/checkbox_anatomy.png)
 
+1. Group label _(Optional)_
+2. Helper text _(Optional)_
+3. Checkbox input
+4. Checkbox label
 
 ## Design Specifications
-
-Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
-
-- Checkbox only
-- Checkbox with left-positioned label
-- Checkbox with right-positioned label
-
 
 ![Checkbox specs](images/checkbox_specs.png)
 
