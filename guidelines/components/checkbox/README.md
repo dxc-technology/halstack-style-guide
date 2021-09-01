@@ -86,7 +86,7 @@ margin | value
 | `border-width`         | Focus outline      | 2px        | -                |
 
 
-## Stack
+## Stacking
 
 Checkbox options may be either vertically or horizontally stacked.
 
@@ -94,7 +94,7 @@ Checkbox options may be either vertically or horizontally stacked.
 
 _Checkbox group stacking types_
 
-| Stacking type     | Usage                                                                                                                               |
+| Type              | Usage                                                                                                                               |
 | :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
 | **Vertical**      | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
 | **Horizontal**    | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxex should be 24px. |
