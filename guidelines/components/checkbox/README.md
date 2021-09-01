@@ -146,8 +146,8 @@ margin | value
 
 ## Links and references
 
-- [React component]()
-- [Angular component]()
+- [React component](https://developer.dxc.com/tools/react/next/#/components/checkbox)
+- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/checkbox)
 
 ____________________________________________________________
 
