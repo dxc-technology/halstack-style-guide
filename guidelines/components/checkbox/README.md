@@ -145,6 +145,7 @@ margin | value
 ### WAI-ARIA 1.2
 
 * WAI-ARIA Authoring Practices 1.2 - [3.7 Checkbox](https://www.w3.org/TR/wai-aria-practices-1.2/#checkbox)
+* WAI-ARIA Authoring Practices 1.2 - [Checkbox (Two state) example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/checkbox/checkbox-1/checkbox-1.html)
 
 ## Links and references
 
