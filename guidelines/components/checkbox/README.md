@@ -42,10 +42,12 @@ Checkbox options may be either vertically or horizontally stacked.
 
 _Checkbox group stacking types_
 
-| Type              | Usage                                                                                                                               |
-| :---------------- | :-----------------------------------------------------------------------------------------------------------------------------------|
-| **Vertical**      | Checkboxes are independent of a category. The vertical spacing between stacked checkboxes should be 8px.                            |
-| **Horizontal**    | Cheboxes are related or belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 24px. |
+| Type              | Usage                                                                                                                                      |
+| :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vertical**      | Related checkboxes that belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 8px.         |
+| **Horizontal**    | Checkboxes are independent of a category*. The vertical spacing between stacked checkboxes should be 32px. Don't stack more than 3 options |
+
+*Unless there is a specific use case that require horizontal stacking, use always the vertical type. Horizontal stacking deteriorate legibility, add complexity when handling responsive behaviors and the labeling position can be mistaken.
 
 ## Error handling
 
