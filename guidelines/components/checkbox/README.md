@@ -78,12 +78,12 @@ margin | value
 
 ### Border
 
-| Property               | Element            | Value      | Token            |
-| :--------------------- | :----------------- | :--------  | :--------------- |
-| `border-radius`        | Checkbox input     | 2px        | `rounded-small`  |
-| `border-radius`        | Focus outline      | 4px        | `rounded-medium` |
-| `border-width`         | Checkbox input     | 2px        | -                |
-| `border-width`         | Focus outline      | 2px        | -                |
+| Property               | Element            | Value      | Token                  |
+| :--------------------- | :----------------- | :--------  | :--------------------- |
+| `border-radius`        | Checkbox input     | 2px        | `border-radius-small`  |
+| `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
+| `border-width`         | Checkbox input     | 2px        | `border-width-2`       |
+| `border-width`         | Focus outline      | 2px        | `border-width-2`       |
 
 
 ## Stacking
