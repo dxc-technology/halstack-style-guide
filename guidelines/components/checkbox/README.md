@@ -16,6 +16,12 @@ The checkbox component has the following states: **Unselected**, **hover unselec
 
 _Example of the component states_
 
+### Error states
+
+There are use cases where is necessary to display an error. The component provides feedback trough the following states:  **Unselected error**, **hover unselected error**, **focus unselected error**, **selected error**, **hover selected error** and **focus selected error**.
+
+![Checkbox error states](images/checkbox_states_error.png)
+
 ## Anatomy
 
 ![Anatomy of the checkbox component](images/checkbox_anatomy.png)
