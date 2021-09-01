@@ -22,6 +22,8 @@ There are use cases where is necessary to display an error. The component provid
 
 ![Checkbox error states](images/checkbox_states_error.png)
 
+_Checkbox error states_
+
 ## Anatomy
 
 ![Anatomy of the checkbox component](images/checkbox_anatomy.png)
