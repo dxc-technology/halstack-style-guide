@@ -69,6 +69,7 @@ _Design specifications of the input-number component_
 | `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
 | `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
 | `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
+| `hoverErrorOutlineColor`        | Outline:hover on error      | `red-600`         | #fe0123         |
 | `disabledOutlineColor`          | Outline:disabled            | `grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
