@@ -32,14 +32,29 @@ _Upload component variants_
 
 The component upload is made-up of an input (type: file) and a file-item(s).
 
-### Input-file
+### File
 
-The element has the following states: **Enabled**, **hover**, **focus**, **active**, **error**, **dragover** and **disabled**.
+The element has the following states: **Enabled**, **hover**, **focus**, **active** and **disabled**.
 
-![Input-file upload states](images/upload_states_input.png)
+![Input-file upload states](images/upload_file_states.png)
 
 _Input-file upload states_
 
+### Filedrop
+
+The element has the following states: **Enabled**, **hover**, **focus**, **active**, **dragover** and **disabled**.
+
+![Input-file upload states](images/upload_filedrop_states.png)
+
+_Input-file upload states_
+
+### Dropzone
+
+The element has the following states: **Enabled**, **hover**, **focus**, **active**, **dragover** and **disabled**.
+
+![Input-file upload states](images/upload_dropzone_states.png)
+
+_Input-file upload states_
 ### File items
 
 The element has the following states: **Enabled**, **hover/focus**, **active**, **loading** and **error**.
