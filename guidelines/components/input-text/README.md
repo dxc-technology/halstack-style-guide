@@ -125,6 +125,7 @@ And also apply different values to each side of the component:
 | `hoverOutlineColor`             | Outline:hover               | `color-purple-500`      | #a46ede         |
 | `focusOutlineColor`             | Outline:focus               | `color-blue-600`        | #0095ff         |
 | `errorOutlineColor`             | Outline:error               | `color-red-700`         | #d0011b         |
+| `hoverErrorOutlineColor`        | Outline:hover on error      | `red-600`               | #fe0123         |
 | `disabledOutlineColor`          | Outline:disabled            | `color-grey-600`        | #808080         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
