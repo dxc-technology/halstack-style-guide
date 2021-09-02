@@ -2,73 +2,95 @@
 
 The upload component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
-## Appearance
+## Usage
 
-A limited area in the user interface is reserved for this purpose, letting the user select the files in two ways, either choosing the file through the file system of the operating system or dragging the file and dropping in the respective area.
-Once the file is displayed there, some characteristics are rendered:
-- A thumbnail of the file (in the case that it is available)
-- The name of the file
-- The size or other information of the file
-- An icon representing the actual status of the file (in progress, done, error) 
+## Do's
 
-When all the files are loaded and the user wants to upload the files to the server, the only action to be performed is the click on the upload button. If the action goes right, an alert message with a success status will be displayed, in other cases, an error will pop up indicating the reason.
+* Provide a meaninful label and helper text in order to help the user understand the files expected
+* When displaying errors, provide feedback about the type of error using the error message
+* When the upload process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
 
-### Modes
+### Don'ts
 
-There are two different modes for the upload component, one of them is used to upload a single file thus the representation of the component is much simple and takes less space in the screen compared with the multi file upload version, which is used to select several files in a row. 
-
-Modes for the component: __single__ and __multiple__.
+* Use the upload component to upload multiple files inside a modal dialog
+* Use a variant with drag and drop functionality when designing for mobile devices
 
 
-### States
+## Variants
 
-*Default state*
+![Upload component variants](images/upload_variants.png)
 
-![Upload with the default preview of the component](images/upload_preview.png)
+_Upload component variants_
 
-*Drag and drop state*
+|  Name        | Use case                                                                             |
+| :----------- | :----------------------------------------------------------------------------------- |
+| **File**     | Use the file variant when designing for multidevice                                  |
+| **Filedrop** | Use in large or complex forms when designing only for desktop                        |
+| **Dropzone** | Choose the dropzone when the main purpose of the content is to upload files/images   |
 
-![Upload with drag and drop action of a file](images/upload_dragdrop.png)
+## States
 
-*Uploading state*
+The component upload is made-up of an input (type: file) and a file-item(s).
 
-![Upload with file uploading](images/upload_processing.png)
+### Input-file
 
-*File complete state*
+The element has the following states: **Enabled**, **hover**, **focus**, **active**, **error**, **dragover** and **disabled**.
 
-![Upload with a file already uploaded and added to the list](images/upload_uploaded.png)
+![Input-file upload states](images/upload_states_input.png)
 
-*Hover state with extra options*
+_Input-file upload states_
 
-![Upload with a hover action over the items to display more options](images/upload_hover.png)
+### File items
 
-*Upload completion state*
+The element has the following states: **Enabled**, **hover/focus**, **active**, **loading** and **error**.
 
-![Upload after cliclinkg the upload button with an alert reporting the state](images/upload_alert.png)
+![File item states](images/upload_states_fileitem.png)
 
-## Design tokens
+_File item states_
 
-Cannot be possible to configure or customize any parameter of the component to apply a theming.
+## Anatomy
+
+![Component upload anatomy](images/upload_anatomy.png)
+
+1. Label
+2. Drag and drop area
+3. Error message
+4. Error indicator
+5. Action - Remove file
+6. Helper text
+7. Upload button
+8. File preview
+9. File name
+10. Loading indicator
+11. File item container
+
+## File item with preview
+
+When the files to upload are mainly images, the preview can provide more feedback to the user rather than the name of the file, preventing errors loading content.
+
+![File item with preview example](images/upload_fileitem_preview.png)
+
+_File item with preview example_
+
+## Loading content
+
+When handling with large file sizes the file item should provide feedback to the user about the loading state. While the file is being loaded, the action to remove the file can not be performed.
+
+![Loading content example](images/upload_loading.png)
+
+_Loading content state_
 
 ## Design Specifications
 
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the adobe cloud link in the Links and references section.
+![Upload design specifications](images/upload_specs.png)
 
-### Responsive design
+_Upload design specifications_
 
-*This is pending*
-
-### User Interface Design Considerations
-
-- Use the specific mode based on the application requirements
-- Add some explanation text in the case that it is needed to clarify the information to the user
-- By default, the drag and drop appearance is handled by the browser, in case it wants to be customized is the responsibility of the developer
-- If the upload process fails, please show an error message avoiding technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY') that won't be understood by the user of the application
 
 ## Links and references
 
-- Upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/0a80be63-f9b6-4436-a3f1-ced47070f70d/variables/
-- Single upload: https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/f67eb530-b374-4d13-a1d8-ba4c1fba2e74/variables/
+* [Angular component]()
+* [React component]()
 
 ____________________________________________________________
 
