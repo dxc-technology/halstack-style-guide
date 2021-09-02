@@ -131,6 +131,10 @@
       "name": "Input"
     },
     {
+      "key": "textarea",
+      "name": "Textarea"
+    },
+    {
       "key": "toggle",
       "name": "Toggle"
     },
