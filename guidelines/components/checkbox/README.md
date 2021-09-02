@@ -1,76 +1,103 @@
 # Checkbox
 
-Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.
+Checkboxes are inputs that offer to the user the possibility to select one or multiple options from a range of attributes.
 
-The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
+## Usage
 
-## Appereance
+* Use to select more than one option from a list
+* Use to toggle a single option on or off
+* Don't use checkboxes when only one item can be selected, use a readio button instead
 
-A checkbox has a toggle mode so every checkbox component in the application remaining the same visually. It inherits colors from the definition of the theme, using primary color as the text content of the checkbox and accent color as a background of the box.
+## States
 
-### Modes
+The checkbox component has the following states: **Unselected**, **hover unselected**, **focus unselected**, **disabled unselected**, **selected**, **hover selected**, **focus selected** and **disabled selected**.
 
-As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included or unselected when the option should not be included. These options are mapping accordingly with the boolean values true and false.
-Modes: **selected** or **unselected**.
+![Example of the component states](images/checkbox_states.png)
 
-![Checkbox modes](images/checkbox_modes.png)
+_Example of the component states_
 
-### States
+### Error states
 
-The following states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**.
+There are use cases where is necessary to display an error. The component provides feedback trough the following states:  **Unselected error**, **hover unselected error**, **focus unselected error**, **selected error**, **hover selected error** and **focus selected error**.
 
-![Checkbox states](images/checkbox_states.png)
+![Checkbox error states](images/checkbox_states_error.png)
 
+_Checkbox error states_
 
+## Anatomy
 
+![Anatomy of the checkbox component](images/checkbox_anatomy.png)
+
+1. Group label _(Optional)_
+2. Helper text _(Optional)_
+3. Checkbox input
+4. Checkbox label
+5. Error message
+
+## Stacking
+
+Checkbox options may be either vertically or horizontally stacked.
+
+![Checkbox group stacking types](images/checkbox_stack.png)
+
+_Checkbox group stacking types_
+
+| Type              | Usage                                                                                                                                      |
+| :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vertical**      | Related checkboxes that belong to the same category. The horizontal spacing between horizontally stacked checkboxes should be 8px.         |
+| **Horizontal**    | Checkboxes are independent of a category*. The vertical spacing between stacked checkboxes should be 32px. Don't stack more than 3 options |
+
+*Unless there is a specific use case that require horizontal stacking, use always the vertical type. Horizontal stacking deteriorate legibility, add complexity when handling responsive behaviors and the labeling position can be mistaken.
+
+## Error handling
+
+![Checkbox single and group error examples](images/checkbox_error_handling.png)
+
+_Checkbox single and group error examples_
+
+Depending if the checkbox component is isolated or part of a group, there are two ways to display the error message.
+
+| Type              | Usage                                                          |
+| :---------------- | :------------------------------------------------------------- |
+| **Single**        | The error message is displayed just after the checkbox input.  |
+| **Group**         | Error messages should be displayed at the en of the group      |
 
 
 ## Design Specifications
 
-Specifications for checkbox are simple. The size of the checkbox should display a box 20 x 20 pixels due to improving the touchable area. Depends on the input of the component it can be used different variation as are describe below:
+![Design specifications for the checkbox component](images/checkbox_specs.png)
 
-- Checkbox only
-- Checkbox with left-positioned label
-- Checkbox with right-positioned label
-
-
-![Checkbox specs](images/checkbox_specs.png)
+_Design specifications for the checkbox component_
 
 ### Color
 
-#### On-light
+#### Base
 
 | Component token                      | Element                           | Core token               | Value        |
 | :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
-| `backgroundColorChecked`             | Fill                              | `color-blue-800`         |   #0067b3    |
-| `hoverBackgroundColorChecked`        | Fill:hover                        | `color-blue-700`         |   #0086e6    |
-| `disabledBackgroundColorChecked`     | Fill:disabled                     | `color-grey-400`         |   #bfbfbf    |
-| `borderColor`                        | Border                            | `color-blue-800`         |   #0067b3    |
-| `hoverBorderColor`                   | Border:hover                      | `color-blue-700`         |   #0086e6    |
-| `disabledBorderColor`                | Border:disabled                   | `color-grey-100`         |   #f2f2f2    |
-| `checkColor`                         | Check mark                        | `color-white`            |   #ffffff    |
-| `disabledCheckColor`                 | Check mark:disabled               | `color-white`            |   #ffffff    |
-| `fontColor`                          | Label                             | `color-black`            |   #000000    |
-| `disabledFontColor`                  | Label:disabled                    | `color-grey-500`         |   #999999    |
-| `focusColor`                         | Outline:focus                     | `color-blue-800`         |   #0067b3    |
+| `borderColor`                        | Border                            | `color-blue-800`         | #0067b3      |
+| `selectedBackgroundColor`            | Fill                              | `color-blue-800`         | #0067b3      |
+| `checkColor`                         | Check mark                        | `color-white`            | #ffffff      |
+| `labelColor`                         | Checkbox label                    | `color-black`            | #000000      |
+| `GroupLabelColor`                    | Group label                       | `color-black`            | #000000      |
+| `helperTextColor`                    | Helper text                       | `color-black`            | #000000      |
+| `errorMessageColor`                  | Error message                     | `color-red-700`          | #d0011b      |
 
+#### Interactive
 
-#### On-dark
-
-| Component token                        | Element                           | Core token               | Value        |
-| :------------------------------------- | :-------------------------------- | :----------------------- | :----------- |
-| `backgroundColorCheckedOnDark`         | Fill                              | `color-blue-600`         |   #0095ff    |
-| `hoverBackgroundColorCheckedOnDark`    | Fill:hover                        | `color-blue-800`         |   #0067b3    |
-| `disabledBackgroundColorCheckedOnDark` | Fill:disabled                     | `color-grey-700`         |   #666666    |
-| `borderColorOnDark`                    | Border                            | `color-blue-600`         |   #0095ff    |
-| `hoverBorderColorOnDark`               | Border:hover                      | `color-blue-800`         |   #0067b3    |
-| `disabledBorderColorOnDark`            | Border:disabled                   | `color-grey-700`         |   #666666    |
-| `checkColorOnDark`                     | Check mark                        | `color-white`            |   #ffffff    |
-| `disabledCheckOnDark`                  | Check mark:disabled               | `color-white`            |   #ffffff    |
-| `fontColorOnDark`                      | Label                             | `color-white`            |   #ffffff    |
-| `disabledFontColorOnDark`              | Label:disabled                    | `color-grey-700`         |   #666666    |
-| `focusColorOnDark`                     | Outline:focus                     | `color-blue-600`         |   #0095ff    |
-
+| Component token                      | Element                           | Core token               | Value        |
+| :----------------------------------- | :-------------------------------- | :----------------------- | :----------- |
+| `hoverSelectedBackgroundColor`       | Fill:hover                        | `color-blue-700`         | #0086e6      |
+| `errorSelectedBackgroundColor`       | Fill:error                        | `color-red-700`          | #d0011b      |
+| `disabledSelectedBackgroundColor`    | Fill:disabled                     | `color-grey-400`         | #bfbfbf      |
+| `hoverBorderColor`                   | Border:hover                      | `color-blue-700`         | #0086e6      |
+| `errorBorderColor`                   | Border:error                      | `color-red-700`          | #d0011b      |
+| `disabledBorderColor`                | Border:disabled                   | `color-grey-400`         | #bfbfbf      |
+| `disabledCheckColor`                 | Check mark:disabled               | `color-white`            | #ffffff      |
+| `focusColor`                         | Outline:focus                     | `color-blue-600`         | #0095ff      |
+| `disabledLabelFontColor`             | Checkbox label:disabled           | `color-grey-400`         | #bfbfbf      |
+| `disabledGroupLabelFontColor`        | Group label:disabled              | `color-grey-400`         | #bfbfbf      |
+| `disabledHelperFontColor`            | Helper text:disabled              | `color-grey-400`         | #bfbfbf      |
 
 ### Margin
 
@@ -88,71 +115,65 @@ margin | value
 
 ### Typography
 
-| Property              | Element       | Value     |   Token          |
-| --------------------- | -----------   | --------  | ---------        |
-| `font-size`           | label         | 16px      | `font-scale-03`  |
-| `font-weight`         | label         | 400       | `font-regular`   |
+| Property               | Element                | Value        | Token                   |
+| :--------------------- | :--------------------- | :----------- | :---------------------- |
+| `font-size`            | Checkbox label         | 14px         | `font-scale-02`         |
+| `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
+| `font-size`            | Group label            | 14px         | `font-scale-02`         |
+| `font-weight`          | Group label            | 600          | `font-weight-bold`      |
+| `font-size`            | Helper text            | 12px         | `font-scale-01`         |
+| `font-weight`          | Helper text            | 400          | `font-weight-regular`   |
+| `font-size`            | Error message          | 12px         | `font-scale-01`         |
+| `font-weight`          | Error message          | 400          | `font-weight-regular`   |
 
 ### Border
 
-| Property              | Element       | Value     |   Token          |
-| --------------------- | -----------   | --------  | ---------        |
-| `border-radius`       | checkbox      | 2px       | `rounded-small`  |
-| `border-radius`       | focus outline | 4px       | `rounded-medium` |
-| `border-width`        | checkbox      | 2px       | -                |
-| `border-width`        | focus outline | 2px       | -                |
+| Property               | Element            | Value      | Token                  |
+| :--------------------- | :----------------- | :--------  | :--------------------- |
+| `border-radius`        | Checkbox input     | 2px        | `border-radius-small`  |
+| `border-width`         | Checkbox input     | 2px        | `border-width-2`       |
+| `border-radius`        | Focus outline      | 4px        | `border-radius-medium` |
+| `border-width`         | Focus outline      | 2px        | `border-width-2`       |
 
+## Mobile
 
-## Stack
+![Design specifications for mobile](images/checkbox_mobile.png)
 
-Checkbox may be either vertically or horizontally stacked.
+_Design specifications for mobile_
 
-![Checkbox design specifications for stacked display](images/checkbox_stacked.png)
+On mobile devices the size and font-sizes of the checkbox and checkbox group has been accomodated to touch interactions. The checkbox container provides enough space to enable a comfortable tapping. 
 
-### Vertical stacking
+There is no possibility to stack horizontally and the only method for grouping is vertical leaving enough space for long labels.
 
-Checkboxes are independent of a category and they will be displayed horizontally, where device allows. The vertical spacing between stacked checkboxes should be 16px.
+### Typography
 
-### Horizontal stacking
-
-Checkbox is related and have a group label to enhance readability and show association. The horizontal spacing between horizontally stacked checkboxex should be 32px.
-
-
-## Required
-
-The last property that the checkbox can get is the required attribute that would represent once the checkbox has a paring label, indicating that the selection of that input must be done, in another case the user wouldn't proceed with the application flow.
-The representation of a required checkbox is a colored asterisk right before the checkbox label.
-
-![Checkbox design required field](images/checkbox_required.png)
+| Property               | Element                | Value        | Token                   |
+| :--------------------- | :--------------------- | :----------- | :---------------------- |
+| `font-size`            | Checkbox label         | 16px         | `font-scale-03`         |
+| `font-weight`          | Checkbox label         | 400          | `font-weight-regular`   |
+| `font-size`            | Group label            | 16px         | `font-scale-03`         |
+| `font-weight`          | Group label            | 600          | `font-weight-bold`      |
+| `font-size`            | Helper text            | 14px         | `font-scale-02`         |
+| `font-weight`          | Helper text            | 400          | `font-weight-regular`   |
+| `font-size`            | Error message          | 14px         | `font-scale-02`         |
+| `font-weight`          | Error message          | 400          | `font-weight-regular`   |
 
 ## Accessibility
 
 ### WCAG 2.2
 
-**Understanding WCAG 2.2** - [SC 1.3.1; Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
-
-* "In a form, the labels for each checkbox can be programmatically determined by assistive technology."
-
-**Understanding WCAG 2.2** - [SC 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
-
-* "For all user interface components the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies."
+* Understanding WCAG 2.2 - [SC 1.3.1; Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+* Understanding WCAG 2.2 - [SC 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
 
 ### WAI-ARIA 1.2
 
-**WAI-ARIA Authoring Practices 1.2** - [3.7 Checkbox](https://www.w3.org/TR/wai-aria-practices-1.2/#checkbox)
-
-* "When the checkbox has focus, pressing the Space key changes the state of the checkbox"
-* "The checkbox has role checkbox"
-* "The checkbox has an accessible label provided by one of the following:
-  * Visible text content contained within the element with role checkbox.
-  * A visible label referenced by the value of aria-labelledby set on the element with role checkbox.
-aria-label set on the element with role checkbox.
-When checked, the checkbox element has state aria-checked set to true.
-When not checked, it has state aria-checked set to false.
+* WAI-ARIA Authoring Practices 1.2 - [3.7 Checkbox](https://www.w3.org/TR/wai-aria-practices-1.2/#checkbox)
+* WAI-ARIA Authoring Practices 1.2 - [Checkbox (Two state) example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/checkbox/checkbox-1/checkbox-1.html)
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/variables/
+- [React component](https://developer.dxc.com/tools/react/next/#/components/checkbox)
+- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/checkbox)
 
 ____________________________________________________________
 
