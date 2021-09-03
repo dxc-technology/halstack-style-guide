@@ -36,6 +36,31 @@ _Access to the assets from the libraries panel_
 
 If you want to know more about how to work with XD libraries you can check the article: [Adobe XD Get Started: Components and libraries](https://www.adobe.com/products/xd/learn/get-started-xd-components-libraries.html) whit a useful video to understand how to browse and use library assets (video 05).
 
+#### Color
+
+Every element on the design files should use the design system color palette. In order to follow an ETC (easy to change) methodology, having all our file assets correctly linked will favor the updates needed.
+
+The color assets should be applied to the element's:
+
+* `background-color`
+* `border-color`
+
+To can access to the contextual menu of the asset to apply both of them on the element
+
+![Color asset contextual menu example](https://user-images.githubusercontent.com/44420072/132003295-ae8071d1-eec1-4a01-b739-0fce9c01dde1.png)
+
+_Color asset contextual menu example_
+
+#### Nesting components
+
+When creating component that reuse as child elements another components, be sure that you are bringing them from the library assets (e.g. the select component uses the optionList as a child element)
+
+![OptionList reused inside the select component](https://user-images.githubusercontent.com/44420072/132003797-0c7a3e4c-212d-4773-924b-b8df8d5761e6.png)
+
+_`optionList` reused inside the select component_
+
+In the case presented above the `select` will be the outer component and the `optionList` will be the nested one. For more infomation about the terminology and how to work with nested components you can check [nested components](https://helpx.adobe.com/xd/help/work-with-nested-components.html) article.
+
 ### Working with previous versions
 
 If you development team is working with a **previous version of the latest released Halstack CDK**, you can find all the UI Kit files in the [previous releases folder](https://github.com/dxc-technology/halstack-style-guide/tree/master/previous-releases) (Note that if you need to upgrade the version of the components you are using you will need to delete all the instances and relink the again with the proper version/public library)
