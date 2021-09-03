@@ -81,20 +81,49 @@ Most of the states have a direct relationship with the CSS pseudo-classes, if yo
 
 ### Variants
 
-Sometimes the differences between component variants are big and it is not worthy to use modified instances of a component to create them, in this scenario is aways better
+Since Adobe XD doesn't support variants, we create them as separate components, so if you take a button for example where we have 3 variants (primary, secondary and text) we have a component for each of them:
+
+* Button-primary
+* Button-secondary
+* Button-text
+
+There are specific cases where the differences between component variants aren't big and it is not worthy to use different components, in this case we modify the instances (e.g. icon usage in every button variant)
+
+### Naming convention
+
+Our naming convention include multiple properties separated by a slash with one space gap before and after the slash in order to improve legibility. We use [camelCase convention](https://en.wikipedia.org/wiki/Camel_case) when connecting separate words in the same slot (e.g. on light --> onLight)
+
+Our naming convention is built in the following way:
+
+**[name] / [variant] / [state] / [mode] / [device] / [size]**
+
+| Slot name  | Description                                                                                             |
+| :--------- | :------------------------------------------------------------------------------------------------------ |
+| Name       | Component name                                                                                          |
+| Variant    | The component variants define the style variations that a component can have                            |
+| State      | Apart from the states defined inside the component, we can have a collapsed/expanded states, overlay... |
+| Icon       | Whenever the componenta can have (icon) or not (noIcon)                                                 |
+| Mode       | If the component is on a light background (onLight) or a dark one (onDark)                              |
+| Device     | Defines if the component is meant for desktop or mobile device                                          |
+| Size       | If the component have different sizes (e.g. large, medium and small) should be defined in this slot     |
+
+#### Component examples:
+
+* button / primary / noIcon / onLight / desktop / medium
+* optionList / compact / noIcon / onLight / desktop  
 
 ## Other contributions
 
 We are a small team and maintaining more than one library is time-consuming, although we know that a UI Kit in other design software rather than Adobe XD would be an interesting asset to have. So... if you are interested in bringing those to the halstack ecosystem, our priorities are:
 
-1. Figma UI Kit
+1. [Figma](https://www.figma.com/)
 
 * OS independent, Figma is a web-based tool so windows and mac users can work seamlessly on the design files 
 * Variants feature can handle not also variants but component states and other custom properties
 * Branching features to improve collaboration and design iteration 
 * The Figma API can bring all the core token information to Amazon's Style Dictionary and export them to JS, CSS, SCSS.
 
-2. Framer
+2. [Framer](https://www.framer.com/)
 
 * Version control integrated with GitHub
 * Apart form variants, Framer has variables in order to change dinamycally properties without creating a new variant 
