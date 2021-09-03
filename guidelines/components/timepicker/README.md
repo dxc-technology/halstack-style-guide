@@ -22,7 +22,7 @@ _Examples of time picker required input_
 
 ## Variants
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 ## States
 
@@ -179,12 +179,11 @@ Helper text can be used as additional instructions to the user when filling in t
 
 ![Time helper text](images/time_helper_text.png)
 
-
 _Examples of time picker input states with Helper text_
 
 ## Accesibility
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 ### WCAG 2.2
 Understanding WCAG 2.2 - SC 2.4.7: Focus Visible
