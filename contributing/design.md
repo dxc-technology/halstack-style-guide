@@ -2,9 +2,9 @@
 
 ## Halstack UI Kit
 
-The Halstack UI Kit is available in two forms:
+The Halstack UI Kit is available in two formats:
 
-* [Public XD libary](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac)
+* [Public XD library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac)
 * [UI Kit versioned file](https://github.com/dxc-technology/halstack-style-guide/raw/master/Halstack%20UI-Kit/UI%20Kit-Halstack_v3.6.0.xd)
 
 At the moment we only have built our library in Adobe XD, if you are interested in contributing by creating the library in another design tool we are delighted, please go to the ["Other contributions" section](#other-contributions) for more information.
@@ -102,18 +102,20 @@ Our naming convention is built in the following way:
 | Name       | Component name                                                                                          |
 | Variant    | The component variants define the style variations that a component can have                            |
 | State      | Apart from the states defined inside the component, we can have a collapsed/expanded states, overlay... |
-| Icon       | Whenever the componenta can have (icon) or not (noIcon)                                                 |
+| Icon       | Whenever the component can have (icon) or not (noIcon)                                                  |
 | Mode       | If the component is on a light background (onLight) or a dark one (onDark)                              |
-| Device     | Defines if the component is meant for desktop or mobile device                                          |
+| Device     | Defines if the component is meant for desktop or mobile devices                                         |
 | Size       | If the component have different sizes (e.g. large, medium and small) should be defined in this slot     |
 
 #### Component examples:
 
-![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131977236-1e6df66e-a9f8-4216-856b-1d35e58ce778.png)
+![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131995654-73eedea5-eb7e-4ee0-b6cb-4decee27bc21.png)
 
 _Example of the button naming convention_
 
-* button / primary / noIcon / onLight / desktop / medium
+Another examples:
+
+* badge / default / onLight / desktop  / small
 * optionList / compact / noIcon / onLight / desktop  
 
 ## Other contributions
