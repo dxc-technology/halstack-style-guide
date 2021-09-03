@@ -8,6 +8,7 @@ The Halstack UI Kit is available in two forms:
 * [UI Kit versioned file](https://github.com/dxc-technology/halstack-style-guide/raw/master/Halstack%20UI-Kit/UI%20Kit-Halstack_v3.6.0.xd)
 
 At the moment we only have built our library in Adobe XD, if you are interested in contributing by creating the library in another design tool we are delighted, please go to the ["Other contributions" section](#other-contributions) for more information.
+
 ## Reusing styles across XD documents
 
 There are two options in order to reuse the styles:
@@ -84,4 +85,19 @@ Sometimes the differences between component variants are big and it is not worth
 
 ## Other contributions
 
+We are a small team and maintaining more than one library is time-consuming, although we know that a UI Kit in other design software rather than Adobe XD would be an interesting asset to have. So... if you are interested in bringing those to the halstack ecosystem, our priorities are:
+
+1. Figma UI Kit
+
+* OS independent, Figma is a web-based tool so windows and mac users can work seamlessly on the design files 
+* Variants feature can handle not also variants but component states and other custom properties
+* Branching features to improve collaboration and design iteration 
+* The Figma API can bring all the core token information to Amazon's Style Dictionary and export them to JS, CSS, SCSS.
+
+2. Framer
+
+* Version control integrated with GitHub
+* Apart form variants, Framer has variables in order to change dinamycally properties without creating a new variant 
+* Offers a better control of transitions and animations.
+* Can import React components, we want to test how close we can iterate with our production components using this tool.
 
