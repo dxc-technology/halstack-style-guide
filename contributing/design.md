@@ -109,6 +109,10 @@ Our naming convention is built in the following way:
 
 #### Component examples:
 
+[Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131976963-8594dad6-2181-4b86-939d-cc7b8f593ae0.png)
+
+_Example of the button naming convention_
+
 * button / primary / noIcon / onLight / desktop / medium
 * optionList / compact / noIcon / onLight / desktop  
 
