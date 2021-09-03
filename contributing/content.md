@@ -6,6 +6,7 @@
     * [Creating hierarchy](#creating-hierarchy)
     * [Heading anchors](#heading-anchors)
     * [Bottom links](#bottom-links)
+* [Anatomy](#anatomy)
 * [Design specifications](#design-specifications)
     * [Spec tables](#spec-tables)
 
@@ -114,6 +115,27 @@ _________________________
 ```
 
 _Example of the “links and references“ section_
+
+## Anatomy
+
+The anatomy section helps users and developers to understand the building blocks of a component and provides information abour the naming of the elements. This section basically consists of an image and a list of elements.
+
+* Number the anatomy markers from left to right and from top to bottom
+* When an element is optional, point it out in its list reference
+* When choosing the component image, try to provide the component that has all the possible elements present, when it is not possible, use two examples
+
+Use the following template to add the section:
+
+```
+## Anatomy
+
+![Image Alt text]()
+
+1. Element 01 
+2. Element 02 _(Optional)_
+3. Element 03
+```
+_Example of the “anatomy“ section_
 
 ## Design specifications
 

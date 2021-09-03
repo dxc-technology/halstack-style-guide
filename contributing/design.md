@@ -1,15 +1,15 @@
 # Design
 
-* [Halstack UI Kit](halstack-ui-kit)
-  * [Reusing styles across XD documents](reusing-styles-across-xd-documents)
-  * [Working with previous versions](working-with-previous-versions)
-* [Design assets](design-assets)
-* [Adding new components](adding-new-components)
-  * [Starting file](starting-file)
-  * [Naming convention](naming-convention)
-  * [States](states)
-  * [Variants](variants)
-* [Other contributions](other-contributions)
+* [Halstack UI Kit](#halstack-ui-kit)
+  * [Reusing styles across XD documents](#reusing-styles-across-xd-documents)
+  * [Working with previous versions](#working-with-previous-versions)
+* [Design assets](#design-assets)
+* [Adding new components](#adding-new-components)
+  * [Starting file](#starting-file)
+  * [Naming convention](#naming-convention)
+  * [States](#states)
+  * [Variants](#variants)
+* [Other contributions](#other-contributions)
 
 
 ## Halstack UI Kit
