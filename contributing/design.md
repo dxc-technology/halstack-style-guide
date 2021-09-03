@@ -109,7 +109,7 @@ Our naming convention is built in the following way:
 
 #### Component examples:
 
-[Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131976963-8594dad6-2181-4b86-939d-cc7b8f593ae0.png)
+![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131977236-1e6df66e-a9f8-4216-856b-1d35e58ce778.png)
 
 _Example of the button naming convention_
 
