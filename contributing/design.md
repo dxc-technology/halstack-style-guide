@@ -1,5 +1,17 @@
 # Design
 
+* [Halstack UI Kit](halstack-ui-kit)
+  * [Reusing styles across XD documents](reusing-styles-across-xd-documents)
+  * [Working with previous versions](working-with-previous-versions)
+* [Design assets](design-assets)
+* [Adding new components](adding-new-components)
+  * [Starting file](starting-file)
+  * [Naming convention](naming-convention)
+  * [States](states)
+  * [Variants](variants)
+* [Other contributions](other-contributions)
+
+
 ## Halstack UI Kit
 
 The Halstack UI Kit is available in two formats:
@@ -9,7 +21,7 @@ The Halstack UI Kit is available in two formats:
 
 At the moment we only have built our library in Adobe XD, if you are interested in contributing by creating the library in another design tool we are delighted, please go to the ["Other contributions" section](#other-contributions) for more information.
 
-## Reusing styles across XD documents
+### Reusing styles across XD documents
 
 There are two options in order to reuse the styles:
 
@@ -48,7 +60,7 @@ The process of adding new components to the Halstack design system consists of t
 
 In this page we are going to focus in the first step of the process in order to helping halstack contributors to create reusable and compelling components for the design system UI Kit.
 
-### Component starting file
+### Starting file
 
 You can use a [template](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/assets/templates/template_component_images.xd) to start building your component XD file or use an empty file.
 
@@ -89,7 +101,7 @@ Another examples:
 * badge / default / onLight / desktop  / small
 * optionList / compact / noIcon / onLight / desktop 
 
-### Creating component states
+### States
 
 ![Button component states panel](https://user-images.githubusercontent.com/44420072/131458834-ba3d1d3e-d367-40e5-98e1-986cceed4bc7.png)
 
