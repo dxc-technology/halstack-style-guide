@@ -30,7 +30,13 @@ If you development team is working with a **previous version of the latest relea
 
 ## Design assets
 
-Between the design assets we store the .xd files for every component documentation images, principles and another useful files as branding assets. All our design assets are located [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/contributing/assets). 
+Between the design assets we store the .xd files for every component documentation images, principles and another useful files as branding assets. All our design assets are located [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/contributing/assets).
+
+Assets folder contains:
+
+* `/logos`: DXC logo variants and Halstack logo
+* `/components`: component raw XD files where from images are generated
+* `/principles`: principles pages raw XD files where from images are generated
 
 ## Adding new components
 
@@ -52,6 +58,36 @@ _Component template file example_
 
 
 Be sure that you have access to the Halstack Adobe libraries (UI Kit and Assets) and always stick to the color and typography styles of the public library so a change of one of those will affect your component styles also. Adobe XD doesn't apply the color styles to the borders directly, avoid using the color picker and copy and paste the HEX code instead.
+
+
+### Naming convention
+
+Our naming convention include multiple properties separated by a slash with one space gap before and after the slash in order to improve legibility. We use [camelCase convention](https://en.wikipedia.org/wiki/Camel_case) when connecting separate words in the same slot (e.g. on light --> onLight)
+
+Our naming convention is built in the following way:
+
+**[name] / [variant] / [state] / [mode] / [device] / [size]**
+
+| Slot name  | Description                                                                                             |
+| :--------- | :------------------------------------------------------------------------------------------------------ |
+| Name       | Component name                                                                                          |
+| Variant    | The component variants define the style variations that a component can have                            |
+| State      | Apart from the states defined inside the component, we can have a collapsed/expanded states, overlay... |
+| Icon       | Whenever the component can have (icon) or not (noIcon)                                                  |
+| Mode       | If the component is on a light background (onLight) or a dark one (onDark)                              |
+| Device     | Defines if the component is meant for desktop or mobile devices                                         |
+| Size       | If the component have different sizes (e.g. large, medium and small) should be defined in this slot     |
+
+#### Component examples:
+
+![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131995654-73eedea5-eb7e-4ee0-b6cb-4decee27bc21.png)
+
+_Example of the button naming convention_
+
+Another examples:
+
+* badge / default / onLight / desktop  / small
+* optionList / compact / noIcon / onLight / desktop 
 
 ### Creating component states
 
@@ -83,40 +119,11 @@ Most of the states have a direct relationship with the CSS pseudo-classes, if yo
 
 Since Adobe XD doesn't support variants, we create them as separate components, so if you take a button for example where we have 3 variants (primary, secondary and text) we have a component for each of them:
 
-* Button-primary
-* Button-secondary
-* Button-text
+* button / primary
+* button / secondary
+* button / text
 
-There are specific cases where the differences between component variants aren't big and it is not worthy to use different components, in this case we modify the instances (e.g. icon usage in every button variant)
-
-### Naming convention
-
-Our naming convention include multiple properties separated by a slash with one space gap before and after the slash in order to improve legibility. We use [camelCase convention](https://en.wikipedia.org/wiki/Camel_case) when connecting separate words in the same slot (e.g. on light --> onLight)
-
-Our naming convention is built in the following way:
-
-**[name] / [variant] / [state] / [mode] / [device] / [size]**
-
-| Slot name  | Description                                                                                             |
-| :--------- | :------------------------------------------------------------------------------------------------------ |
-| Name       | Component name                                                                                          |
-| Variant    | The component variants define the style variations that a component can have                            |
-| State      | Apart from the states defined inside the component, we can have a collapsed/expanded states, overlay... |
-| Icon       | Whenever the component can have (icon) or not (noIcon)                                                  |
-| Mode       | If the component is on a light background (onLight) or a dark one (onDark)                              |
-| Device     | Defines if the component is meant for desktop or mobile devices                                         |
-| Size       | If the component have different sizes (e.g. large, medium and small) should be defined in this slot     |
-
-#### Component examples:
-
-![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131995654-73eedea5-eb7e-4ee0-b6cb-4decee27bc21.png)
-
-_Example of the button naming convention_
-
-Another examples:
-
-* badge / default / onLight / desktop  / small
-* optionList / compact / noIcon / onLight / desktop  
+There are specific cases where the differences between component variants aren't big and it is not worthy to use different components, in this case we modify the instances (e.g. icon usage in every button variant) 
 
 ## Other contributions
 
