@@ -38,9 +38,7 @@ _Examples of time picker input states_
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-<span style="display:block; background-color:lightgreen;">
 ![Examples of the time pop-up states](images/time_popup.png)
-</span>
 
 _Examples of the time pop-up states_
 
@@ -119,13 +117,13 @@ margin | Value
 
 ### Time pop-up
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 _Structure and spacing for time picker time pop-up_
 
 #### Color
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 | Tokens                              | Value       |
 | ---------------------------------   | ----------- |
@@ -143,7 +141,7 @@ _Structure and spacing for time picker time pop-up_
 
 #### Typography
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 | Property                      | Element          |  Value      |
 | ----------------------------- | ---------------- | ----------- |
@@ -156,7 +154,7 @@ _Structure and spacing for time picker time pop-up_
 
 #### Padding
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 | Property                      | Element               |  Value      |
 | ----------------------------- | ----------------      | ----------- |
@@ -167,7 +165,7 @@ _Structure and spacing for time picker time pop-up_
 
 #### Sizing
 
-<span style="display:block; background-color:red; color:white"><b>- to be discussed</b></span>
+- to be discussed
 
 | Property                      | Element                |  Value      |
 | ----------------------------- | ----------------       | ----------- |
