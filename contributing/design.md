@@ -40,6 +40,17 @@ If you want to know more about how to work with XD libraries you can check the a
 
 If you development team is working with a **previous version of the latest released Halstack CDK**, you can find all the UI Kit files in the [previous releases folder](https://github.com/dxc-technology/halstack-style-guide/tree/master/previous-releases) (Note that if you need to upgrade the version of the components you are using you will need to delete all the instances and relink the again with the proper version/public library)
 
+Use the following table to match the version between the UI Kit and the CDK versions.
+
+| UI Kit                  | React           | Angular         |
+| :---------------------- | :-------------- | :-------------- |
+| 2.0.0                   | 2.0.0           | 2.1.0           |
+| 3.0.0                   | 3.0.0           | 3.0.0           |
+| 3.3.0                   | 3.2.0           | -               |
+
+Since the CDK releases React: 3.2.0 / Angular: 3.0.4  we are not releasing the guidelines or the UI Kit components until they have been correctly implemented and tested, we will improve the matching table in the next releases.
+
+
 ## Design assets
 
 Between the design assets we store the .xd files for every component documentation images, principles and another useful files as branding assets. All our design assets are located [here](https://github.com/dxc-technology/halstack-style-guide/tree/master/contributing/assets).
