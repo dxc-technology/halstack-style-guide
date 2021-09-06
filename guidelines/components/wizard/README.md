@@ -2,11 +2,14 @@
 
 Wizard represents a stepped workflow as a form of linear and mandatory progression through a defined process with several bullet points where the user need to interact with the content of each step during the workflow.
 
-## Modes
+### Usage
 
-The basic modes defined for this component are based on the display of the information.
+- The horizontal/vertical line should not extend to the left of the first circle or to the right of the last circle
+- Do not overwhelmed the component with too many steps, it won't be a good idea for the user workflow neither for the display of the information
 
-Modes: **horizontal** and **vertical**.
+## Variants
+
+The wizard component has two variants: **horizontal** and **vertical**.
 
 ![Examples of horizontal and vertizal wizard flows](images/wizard_modes.png)
 
@@ -27,9 +30,9 @@ _Example of the wizard stepper states_
 
 _Wizard stepper specifications_
 
-![Wizard modes spacing specifications](images/wizard_spacing_specs.png)
+![Wizard variants spacing specifications](images/wizard_spacing_specs.png)
 
-_Wizard modes spacing specifications_
+_Wizard variants spacing specifications_
 
 
 ### Color
@@ -106,14 +109,10 @@ Helper text can be added to the wizard component stepper:
 _Example of wizard helper text_
 
 
-### User Interface Design Considerations
-
-- The horizontal/vertical line should not extend to the left of the first circle or to the right of the last circle
-- Do not overwhelmed the component with too many steps, it won't be a good idea for the user workflow neither for the display of the information
-
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/8408c439-e1b6-4273-b0b7-b16a2def1cef/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/wizard)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/wizard)
 
 ____________________________________________________________
 
