@@ -11,7 +11,7 @@ Wizard represents a stepped workflow as a form of linear and mandatory progressi
 
 The wizard component has two variants: **horizontal** and **vertical**.
 
-![Examples of horizontal and vertizal wizard flows](images/wizard_modes.png)
+![Examples of horizontal and vertizal wizard flws](images/wizard_modes.png)
 
 _Examples of horizontal and vertizal wizard flows_
 
@@ -37,15 +37,24 @@ _Wizard variants spacing specifications_
 
 ### Color
 
-| Tokens                    | Value       |
-| -----------------------   | ----------- |
-| `selectedBackgroundColor` |     #5f249f |
-| `selectedFont`            |     #FFFFFF |
-| `borderColor`             |     #000000 |
-| `fontColor`               |     inherit |
-| `lineColor`               |     #D9D9D9 |
-| `disabledBackground`      |     #D9D9D9 |
-| `disabledFont`            |     #666666 |
+| Component token                          | Element                            | Core token             | Value            |
+| :--------------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
+| `stepperFontColor`                       | Stepper text                       | `color-black`          | `#000000`        |
+| `selectedStepperFontColor`               | Stepper:selected text              | `color-white`          | `#ffffff`        |
+| `disabledStepperFontColor`               | Stepper:disabled text              | `color-grey-500`       | `#999999`        |
+| `stepperBackgroundColor`                 | Stepper background                 | `color-white`          | `#ffffff`        |
+| `selectedStepperBackgroundColor`         | Stepper:selected  background       | `color-purple-700`     | `#5f249f`        | 
+| `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | `#f2f2f2`        |
+| `stepperBorderColor`                     | Stepper border                     | `coor-black`           | `#000000`        |
+| `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | `#5f249f`        |
+| `disabledStepperBorderColor`             | Stepper:disabled border            | `color-grey-100`       | `#f2f2f2`        |
+| `labelFontColor`                         | Label                              | `color-black`          | `#000000`        |
+| `activeLabelFontColor`                   | Label:active                       | `color-black`          | `#000000`        |
+| `disabledLabelFontColor`                 | Label:disabled                     | `color-grey-500`       | `#999999`        |
+| `helperTextFontColor`                    | Helper text                        | `color-black`          | `#000000`        |
+| `helperTextActiveFontColor`              | Helper text: active                | `color-black`          | `#000000`        |
+| `separatorColor`                         | Separator                          | `color-grey-700`       | `#666666`        |
+| `focusColor`                             | Focus outline                      | `color-blue-600`       | `#0095ff`        |
 
 ### Margin
 
@@ -64,12 +73,36 @@ Different values can be applied to each side of the component:
 
 
 ### Typography
+| Component token                          | Element                            | Core token                | Value            |
+| :--------------------------------------- | :--------------------------------- | :------------------------ | :--------------- |
+| `stepperFontFontSize`                    | Stepper text                       | `font-scale-03`           | 1rem/16px        |
+| `stepperFontFontFamily`                  | Stepper text                       | `font-family-sans`        | Open Sans        |
+| `stepperFontFontStyle`                   | Stepper text                       | `font-style-normal`       | normal           |
+| `stepperFontFontWeight`                  | Stepper text                       | `font-style-regular`      | 400              |
+| `stepperFontTracking`                    | Stepper text                       | `font-tracking-wide-02`   | 0.05em           |
+| `labelFontFontSize`                      | Label                              | `font-scale-03`           | 1rem/16px        |
+| `labelFontFontFamily`                    | Label                              | `font-family-sans`        | Open Sans        |
+| `labelFontFontStyle`                     | Label                              | `font-style-normal`       | normal           |
+| `labelFontFontWeight`                    | Label                              | `font-style-regular`      | 400              |
+| `labelFontTracking`                      | Label                              | `font-tracking-normal`    | 0em              |
+| `helperTextFontFontSize`                 | Helper text                        | `font-scale-02`           | 0.875rem/14px    |
+| `helperTextFontFontFamily`               | Helper text                        | `font-family-sans`        | Open Sans        |
+| `helperTextFontFontStyle`                | Helper text                        | `font-style-normal`       | normal           |
+| `helperTextFontFontWeight`               | Helper text                        | `font-style-regular`      | 400              |
+| `helperTextFontTracking`                 | Helper text                        | `font-tracking-normal`    | 0em              |
 
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  label           |   16px      |
-| `font-size`                   |  helper text     |   12px      |
-| `font-weight`                 |  all             |   400       |
+
+
+### Border
+
+| Component token                          | Element                            | Core token             | Value            |
+| :--------------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
+| `stepperBorderStyle`                     | Stepper border                     | `border-style-solid`   | solid            |
+| `stepperBorderWidth`                     | Stepper border                     | `border-width-2`       | 2px              |
+| `selectedStepperBorderWidth`             | Stepper border:selected            | `border-width-2`       | 2px              |
+| `disabledStepperBorderWidth`             | Stepper border:disabled            | `border-width-2`       | 2px              |
+| `stepperBorderWidth`                     | Stepper border-radius              | `border-radius`        | 48px             |
+
 
 ### Iconography
 
