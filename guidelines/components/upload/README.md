@@ -131,6 +131,27 @@ _Upload design specifications_
 | `errorFileItemBackgroundColor`          | File item:error             | `color-red-200`             |   #ffccd3     |
 | `errorMessageFontColor`                 | File item:error             | `color-red-700`             |   #d0011b     |
 
+
+### Typography
+
+| Property        | Element        | Token                   | Value           |
+| :-------------- | :------------- | :---------------------- | :-------------- |
+| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
+| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | Label          | `font-bold`             | 600             |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `font-family`   | Helper text    | `font-family-sans`      | Open Sans       |
+| `font-size`     | Helper text    | `font-scale-01`         | 12px            |
+| `font-weight`   | Helper text    | `font-regular`          | 400             |
+| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
+| `font-family`   | Drop label     | `font-family-sans`      | Open Sans       |
+| `font-size`     | Drop label     | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Drop label     | `font-regular`          | 400             |
+| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-regular`          | 400             |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
+
 ## Links and references
 
 * [Angular component]()
