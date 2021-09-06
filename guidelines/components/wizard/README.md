@@ -23,6 +23,16 @@ States: **enabled**, **focus**, **selected** and **disabled**.
 
 _Example of the wizard stepper states_
 
+## Anatomy
+
+![Wizard component anatomy](images/wizard_anatomy.png)
+
+1. Stepper
+2. Label
+3. Separator
+4. Helper text _(Optional)_
+5. Step validator _(Optional)_
+
 
 ## Design Specifications
 
