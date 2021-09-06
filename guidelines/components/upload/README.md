@@ -152,6 +152,16 @@ _Upload design specifications_
 | `font-weight`   | Error message  | `font-regular`          | 400             |
 | `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 
+### Border
+
+| Property        | Element               | Token             | Value           |
+| :-------------- | :-------------------- | :---------------- | :-------------- |
+| `border`        | Drag and drop area    | `-`               | dashed 2px      |
+| `border-radius` | Drag and drop area    | `-`               | 4px             |
+| `border`        | File item             | `-`               | solid 1px       |
+| `border-radius` | File item             | `-`               | 4px             |
+
+
 ## Links and references
 
 * [Angular component]()
