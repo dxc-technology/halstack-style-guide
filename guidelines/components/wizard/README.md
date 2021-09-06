@@ -82,22 +82,23 @@ Different values can be applied to each side of the component:
 
 
 ### Typography
+
 | Component token                          | Element                            | Core token                | Value            |
 | :--------------------------------------- | :--------------------------------- | :------------------------ | :--------------- |
-| `stepperFontFontSize`                    | Stepper text                       | `font-scale-03`           | 1rem / 16px      |
-| `stepperFontFontFamily`                  | Stepper text                       | `font-family-sans`        | Open Sans        |
-| `stepperFontFontStyle`                   | Stepper text                       | `font-style-normal`       | normal           |
-| `stepperFontFontWeight`                  | Stepper text                       | `font-style-regular`      | 400              |
+| `stepperFontSize`                        | Stepper text                       | `font-scale-03`           | 1rem / 16px      |
+| `stepperFontFamily`                      | Stepper text                       | `font-family-sans`        | Open Sans        |
+| `stepperFontStyle`                       | Stepper text                       | `font-style-normal`       | normal           |
+| `stepperFontWeight`                      | Stepper text                       | `font-style-regular`      | 400              |
 | `stepperFontTracking`                    | Stepper text                       | `font-tracking-wide-02`   | 0.05em           |
-| `labelFontFontSize`                      | Label                              | `font-scale-03`           | 1rem / 16px      |
-| `labelFontFontFamily`                    | Label                              | `font-family-sans`        | Open Sans        |
-| `labelFontFontStyle`                     | Label                              | `font-style-normal`       | normal           |
-| `labelFontFontWeight`                    | Label                              | `font-style-regular`      | 400              |
+| `labelFontSize`                          | Label                              | `font-scale-03`           | 1rem / 16px      |
+| `labelFontFamily`                        | Label                              | `font-family-sans`        | Open Sans        |
+| `labelFontStyle`                         | Label                              | `font-style-normal`       | normal           |
+| `labelFontWeight`                        | Label                              | `font-style-regular`      | 400              |
 | `labelFontTracking`                      | Label                              | `font-tracking-normal`    | 0em              |
-| `helperTextFontFontSize`                 | Helper text                        | `font-scale-02`           | 0.875rem / 14px  |
-| `helperTextFontFontFamily`               | Helper text                        | `font-family-sans`        | Open Sans        |
-| `helperTextFontFontStyle`                | Helper text                        | `font-style-normal`       | normal           |
-| `helperTextFontFontWeight`               | Helper text                        | `font-style-regular`      | 400              |
+| `helperTextFontSize`                     | Helper text                        | `font-scale-02`           | 0.875rem / 14px  |
+| `helperTextFontFamily`                   | Helper text                        | `font-family-sans`        | Open Sans        |
+| `helperTextFontStyle`                    | Helper text                        | `font-style-normal`       | normal           |
+| `helperTextFontWeight`                   | Helper text                        | `font-style-regular`      | 400              |
 | `helperTextFontTracking`                 | Helper text                        | `font-tracking-normal`    | 0em              |
 
 
@@ -124,6 +125,12 @@ Different values can be applied to each side of the component:
 | `margin-left`                     | Step container                     | `spacing-06`           | 1.5rem / 24px    |
 | `margin-right`                    | Step container                     | `spacing-06`           | 1.5rem / 24px    |
 
+### Sizing
+
+| Property                          | Element                            | Core token             | Value            |
+| :-------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
+| `width`                           | Stepper                            | -                      | 32px             |
+| `height`                          | Stepper                            | -                      | 32px             |
 
 ### Iconography
 
