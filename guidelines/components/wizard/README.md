@@ -11,7 +11,7 @@ Wizard represents a stepped workflow as a form of linear and mandatory progressi
 
 The wizard component has two variants: **horizontal** and **vertical**.
 
-![Examples of horizontal and vertizal wizard flws](images/wizard_modes.png)
+![Examples of horizontal and vertizal wizard flows](images/wizard_variants.png)
 
 _Examples of horizontal and vertizal wizard flows_
 
