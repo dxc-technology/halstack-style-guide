@@ -26,11 +26,11 @@ _Example of the wizard stepper states_
 
 ## Design Specifications
 
-![Wizard stepper specifications](images/wizard_step_specs.png)
+![Wizard stepper specifications](images/wizard_specs_stepper.png)
 
 _Wizard stepper specifications_
 
-![Wizard variants spacing specifications](images/wizard_spacing_specs.png)
+![Wizard variants spacing specifications](images/wizard_specs_spacing.png)
 
 _Wizard variants spacing specifications_
 
@@ -139,9 +139,9 @@ Different variations of the content can be performed in the stepper:
 * Only icons
 * Numbers/icons with stepper label
 
-![Examples of wizard content](images/wizard_content.png)
+![Examples of wizard content with an icon](images/wizard_content.png)
 
-_Examples of wizard content_
+_Examples of wizard content with an icon_
 
 ## Helper text
 
