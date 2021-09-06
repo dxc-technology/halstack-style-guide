@@ -4,7 +4,7 @@ The upload component is used to choose files from any location in the local mach
 
 ## Usage
 
-## Do's
+### Do's
 
 * Provide a meaninful label and helper text in order to help the user understand the files expected
 * When displaying errors, provide feedback about the type of error using the error message
@@ -101,6 +101,35 @@ _Loading content state_
 
 _Upload design specifications_
 
+### Color
+
+#### Base
+
+| Component token               | Element                     | Core token                  | Value         |
+| :---------------------------- | :-------------------------- | :-------------------------- | :------------ |
+| `dropBorderColor`             | Drag and drop area          | `color-black`               |   #000000     |
+| `fileItemBorderColor`         | File item                   | `color-grey-300`            |   #cccccc     |
+| `fileItemIconColor`           | File item                   | `color-black`               |   #000000     |
+| `labelFontColor`              | Label                       | `color-black`               |   #000000     |
+| `helperTextFontColor`         | Helper text                 | `color-black`               |   #000000     |
+| `dropLabelFontColor`          | Drop label                  | `color-black`               |   #000000     |
+
+
+#### Interactive
+
+| Component token                         | Element                     | Core token                  | Value         |
+| :-------------------------------------- | :-------------------------- | :-------------------------- | :------------ |
+| `disabledLabelFontColor`                | Label:disabled              | `color-grey-500`            |   #999999     |
+| `disabledHelperTextFontColor`           | Helper text:disabled        | `color-grey-500`            |   #999999     |
+| `disabledDropLabelFontColor`            | Drop label:disabled         | `color-grey-500`            |   #999999     |
+| `focusDropBorderColor`                  | Dnd border:focus            | `color-blue-600`            |   #0095ff     |
+| `disabledDropBorderColor`               | Dnd border:disabled         | `color-grey-500`            |   #999999     |
+| `focusDropBackgroundColor`              | Dnd fill:focus              | `color-blue-50`             |   #f5fbff     |
+| `hoverFileItemIconBackgroundColor`      | File item icon:hover        | `color-grey-100`            |   #f2f2f2     |
+| `activeFileItemIconBackgroundColor`     | File item icon:active       | `color-grey-300`            |   #cccccc     |
+| `errorFileItemBorderColor`              | File item:error             | `color-red-700`             |   #d0011b     |
+| `errorFileItemBackgroundColor`          | File item:error             | `color-red-200`             |   #ffccd3     |
+| `errorMessageFontColor`                 | File item:error             | `color-red-700`             |   #d0011b     |
 
 ## Links and references
 
