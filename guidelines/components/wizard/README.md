@@ -23,16 +23,6 @@ States: **enabled**, **focus**, **selected** and **disabled**.
 
 _Example of the wizard stepper states_
 
-## Anatomy
-
-![Wizard component anatomy](images/wizard_anatomy.png)
-
-1. Stepper
-2. Label
-3. Separator
-4. Helper text _(Optional)_
-5. Step validator _(Optional)_
-
 
 ## Design Specifications
 
@@ -112,6 +102,8 @@ Different values can be applied to each side of the component:
 | `selectedStepperBorderWidth`             | Stepper border:selected            | `border-width-2`       | 2px              |
 | `disabledStepperBorderWidth`             | Stepper border:disabled            | `border-width-2`       | 2px              |
 | `stepperBorderWidth`                     | Stepper border-radius              | -                      | 48px             |
+| `separatorBorderWidth`                   | Separator                          | `border-width-1`       | 1px              |
+| `separatorBorderStyle`                   | Separator                          | `border-style-solid`   | solid            |
 
 
 ### Spacing
