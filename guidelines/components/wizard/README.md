@@ -75,17 +75,17 @@ Different values can be applied to each side of the component:
 ### Typography
 | Component token                          | Element                            | Core token                | Value            |
 | :--------------------------------------- | :--------------------------------- | :------------------------ | :--------------- |
-| `stepperFontFontSize`                    | Stepper text                       | `font-scale-03`           | 1rem/16px        |
+| `stepperFontFontSize`                    | Stepper text                       | `font-scale-03`           | 1rem / 16px      |
 | `stepperFontFontFamily`                  | Stepper text                       | `font-family-sans`        | Open Sans        |
 | `stepperFontFontStyle`                   | Stepper text                       | `font-style-normal`       | normal           |
 | `stepperFontFontWeight`                  | Stepper text                       | `font-style-regular`      | 400              |
 | `stepperFontTracking`                    | Stepper text                       | `font-tracking-wide-02`   | 0.05em           |
-| `labelFontFontSize`                      | Label                              | `font-scale-03`           | 1rem/16px        |
+| `labelFontFontSize`                      | Label                              | `font-scale-03`           | 1rem / 16px      |
 | `labelFontFontFamily`                    | Label                              | `font-family-sans`        | Open Sans        |
 | `labelFontFontStyle`                     | Label                              | `font-style-normal`       | normal           |
 | `labelFontFontWeight`                    | Label                              | `font-style-regular`      | 400              |
 | `labelFontTracking`                      | Label                              | `font-tracking-normal`    | 0em              |
-| `helperTextFontFontSize`                 | Helper text                        | `font-scale-02`           | 0.875rem/14px    |
+| `helperTextFontFontSize`                 | Helper text                        | `font-scale-02`           | 0.875rem / 14px  |
 | `helperTextFontFontFamily`               | Helper text                        | `font-family-sans`        | Open Sans        |
 | `helperTextFontFontStyle`                | Helper text                        | `font-style-normal`       | normal           |
 | `helperTextFontFontWeight`               | Helper text                        | `font-style-regular`      | 400              |
@@ -102,6 +102,16 @@ Different values can be applied to each side of the component:
 | `selectedStepperBorderWidth`             | Stepper border:selected            | `border-width-2`       | 2px              |
 | `disabledStepperBorderWidth`             | Stepper border:disabled            | `border-width-2`       | 2px              |
 | `stepperBorderWidth`                     | Stepper border-radius              | -                      | 48px             |
+
+
+### Spacing
+
+
+| Property                          | Element                            | Core token             | Value            |
+| :-------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
+| `margin-left`                     | Label                              | `spacing-04`           | 0.75rem / 12px   |
+| `margin-left`                     | Step container                     | `spacing-06`           | 1.5rem / 24px    |
+| `margin-right`                    | Step container                     | `spacing-06`           | 1.5rem / 24px    |
 
 
 ### Iconography
