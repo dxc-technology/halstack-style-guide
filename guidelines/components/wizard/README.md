@@ -49,22 +49,22 @@ _Wizard variants spacing specifications_
 
 | Component token                          | Element                            | Core token             | Value            |
 | :--------------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
-| `stepperFontColor`                       | Stepper text                       | `color-black`          | `#000000`        |
-| `selectedStepperFontColor`               | Stepper:selected text              | `color-white`          | `#ffffff`        |
-| `disabledStepperFontColor`               | Stepper:disabled text              | `color-grey-500`       | `#999999`        |
-| `stepperBackgroundColor`                 | Stepper background                 | `color-white`          | `#ffffff`        |
-| `selectedStepperBackgroundColor`         | Stepper:selected  background       | `color-purple-700`     | `#5f249f`        | 
-| `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | `#f2f2f2`        |
-| `stepperBorderColor`                     | Stepper border                     | `coor-black`           | `#000000`        |
-| `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | `#5f249f`        |
-| `disabledStepperBorderColor`             | Stepper:disabled border            | `color-grey-100`       | `#f2f2f2`        |
-| `labelFontColor`                         | Label                              | `color-black`          | `#000000`        |
-| `activeLabelFontColor`                   | Label:active                       | `color-black`          | `#000000`        |
-| `disabledLabelFontColor`                 | Label:disabled                     | `color-grey-500`       | `#999999`        |
-| `helperTextFontColor`                    | Helper text                        | `color-black`          | `#000000`        |
-| `helperTextActiveFontColor`              | Helper text: active                | `color-black`          | `#000000`        |
-| `separatorColor`                         | Separator                          | `color-grey-700`       | `#666666`        |
-| `focusColor`                             | Focus outline                      | `color-blue-600`       | `#0095ff`        |
+| `stepperFontColor`                       | Stepper text                       | `color-black`          | #000000          |
+| `selectedStepperFontColor`               | Stepper:selected text              | `color-white`          | #ffffff          |
+| `disabledStepperFontColor`               | Stepper:disabled text              | `color-grey-500`       | #999999          |
+| `stepperBackgroundColor`                 | Stepper background                 | `color-white`          | #ffffff          |
+| `selectedStepperBackgroundColor`         | Stepper:selected  background       | `color-purple-700`     | #5f249f          | 
+| `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | #f2f2f2          |
+| `stepperBorderColor`                     | Stepper border                     | `coor-black`           | #000000          |
+| `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | #5f249f          |
+| `disabledStepperBorderColor`             | Stepper:disabled border            | `color-grey-100`       | #f2f2f2          |
+| `labelFontColor`                         | Label                              | `color-black`          | #000000          |
+| `activeLabelFontColor`                   | Label:active                       | `color-black`          | #000000          |
+| `disabledLabelFontColor`                 | Label:disabled                     | `color-grey-500`       | #999999          |
+| `helperTextFontColor`                    | Helper text                        | `color-black`          | #000000          |
+| `helperTextActiveFontColor`              | Helper text: active                | `color-black`          | #000000          |
+| `separatorColor`                         | Separator                          | `color-grey-700`       | #666666          |
+| `focusColor`                             | Focus outline                      | `color-blue-600`       | #0095ff          |
 
 ### Margin
 
