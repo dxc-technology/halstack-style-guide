@@ -17,7 +17,7 @@ _Examples of horizontal and vertizal wizard flows_
 
 ## States
 
-States: **enabled**, **focus**, **selected** and **disabled**.
+States: **enabled**, **focus**, **selected**, **unvisited** and **disabled**.
 
 ![Example of the wizard stepper states](images/wizard_states.png)
 
