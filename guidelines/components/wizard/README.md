@@ -50,9 +50,11 @@ _Wizard variants spacing specifications_
 | :--------------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
 | `stepperFontColor`                       | Stepper text                       | `color-black`          | #000000          |
 | `selectedStepperFontColor`               | Stepper:selected text              | `color-white`          | #ffffff          |
+| `unvisitedStepperFontColor`              | Stepper:unvisited text             | `color-grey-700`       | #666666          |
 | `disabledStepperFontColor`               | Stepper:disabled text              | `color-grey-500`       | #999999          |
 | `stepperBackgroundColor`                 | Stepper background                 | `color-white`          | #ffffff          |
-| `selectedStepperBackgroundColor`         | Stepper:selected  background       | `color-purple-700`     | #5f249f          | 
+| `selectedStepperBackgroundColor`         | Stepper:selected background        | `color-purple-700`     | #5f249f          | 
+| `unvisitedStepperBackgroundColor`        | Stepper:unvisited background       | `color-grey-700`       | #666666          | 
 | `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | #f2f2f2          |
 | `stepperBorderColor`                     | Stepper border                     | `coor-black`           | #000000          |
 | `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | #5f249f          |
@@ -168,6 +170,20 @@ Helper text can be added to the wizard component stepper:
 ![Example of wizard helper text](images/wizard_helper_text.png)
 
 _Example of wizard helper text_
+
+## Accessibility
+
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [SC 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+* Understanding WCAG 2.2 - [SC 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html)
+* Understanding WCAG 2.2 - [SC 2.2.2: Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html)
+* Understanding WCAG 2.2 - [SC 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
+
+### WAI-ARIA
+
+* Web accessibility tutorials - [Multi-page forms](https://www.w3.org/WAI/tutorials/forms/multi-page/)
 
 
 ## Links and references
