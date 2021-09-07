@@ -114,7 +114,7 @@ And also apply different values to each side of the component:
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
 | `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
-| `enabledOutlineColor`    | Outline:enabled    | `color-black`           | #000000           |
+| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 | `actionIconColor`        | Action icon        | `color-black`           | #000000           |
 | `actionBackgroundColor`  | Action             | `color-transparent`     | #transparent      |
 
@@ -122,11 +122,11 @@ And also apply different values to each side of the component:
 
 | Component token                 | Element                     | Token                   | Value           |
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
-| `hoverOutlineColor`             | Outline:hover               | `color-purple-500`      | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `color-blue-600`        | #0095ff         |
-| `errorOutlineColor`             | Outline:error               | `color-red-700`         | #d0011b         |
-| `hoverErrorOutlineColor`        | Outline:hover on error      | `color-red-600`         | #fe0123         |
-| `disabledOutlineColor`          | Outline:disabled            | `color-grey-600`        | #808080         |
+| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorBorcerColor`              | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverErrorOutlineColor`        | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledBorderColor`           | Border:disabled             | `color-grey-600`        | #808080         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
 | `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
@@ -165,7 +165,7 @@ And also apply different values to each side of the component:
 | `valueFontColorOnDark`         | Value              | `color-white`           | #ffffff         |
 | `helperTextFontColorOnDark`    | Helper-text        | `color-white`           | #ffffff         |
 | `placeholderFontColorOnDark`   | Placeholder        | `color-grey-100`        | #f2f2f2         |
-| `enabledOutlineColorOnDark`    | Outline:enabled    | `color-white`           | #ffffff         |
+| `enabledBorderColorOnDark`     | Border:enabled     | `color-white`           | #ffffff         |
 | `actionIconColorOnDark`        | Action icon        | `color-white`           | #ffffff         |
 | `actionBackgroundColorOnDark`  | Action             | `color-transparent`     | transparent     |
 
@@ -174,11 +174,11 @@ And also apply different values to each side of the component:
 
 | Component token                       | Element                     | Token                   | Value           |
 | :------------------------------------ | :-------------------------- | :---------------------- | --------------- |
-| `hoverOutlineColorOnDark`             | Outline:hover               | `color-purple-500`      | #a46ede         |
-| `focusOutlineColorOnDark`             | Outline:focus               | `color-blue-600`        | #0095ff         |
-| `errorOutlineColorOnDark`             | Outline:error               | `color-red-500`         | #fe344f         |
-| `hoverErrorOutlineColor`              | Outline:hover on error      | `color-red-400`         | #fe677b         |
-| `disabledOutlineColorOnDark`          | Outline:disabled            | `color-grey-500`        | #999999         |
+| `hoverBorderColorOnDark`              | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusBorderColorOnDark`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorBorderColorOnDark`              | Border:error                | `color-red-500`         | #fe344f         |
+| `hoverErrorBorderColor`               | Border:hover on error       | `color-red-400`         | #fe677b         |
+| `disabledBorderColorOnDark`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColorOnDark`             | Error message               | `color-red-500`         | #fe344f         |
 | `errorIconColorOnDark`                | Error icon                  | `color-red-500`         | #fe344f         |
 | `disabledContainerFillColorOnDark`    | Input container:disabled    | `color-grey-700`        | #666666         |
