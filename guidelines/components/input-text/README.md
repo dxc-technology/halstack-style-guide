@@ -135,7 +135,7 @@ And also apply different values to each side of the component:
 | `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
 | `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
 | `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `color-grey-100`        | #f2f2f2         |
+| `focusActionBorderColor`        | Action:focus                | `color-blue-600`        | #0095ff         |
 | `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
 | `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
 | `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
@@ -187,7 +187,7 @@ And also apply different values to each side of the component:
 | `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `color-grey-500`        | #999999         |
 | `disabledPlaceholderFontColorOnDark`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
 | `hoverActionBackgroundColorOnDark`    | Action:hover                | `color-grey-700`        | #666666         |
-| `focusActionBackgroundColorOnDark`    | Action:focus                | `color-grey-700`        | #666666         |
+| `focusActionBorderColorOnDark`        | Action:focus                | `color-blue-600`        | #0095ff         |
 | `activeActionBackgroundColorOnDark`   | Action:active               | `color-grey-500`        | #999999         |
 | `disabledActionBackgroundColorOnDark` | Action:disabled             | `color-transparent`     | transparent     |
 | `hoverActionIconColorOnDark`          | Action icon:hover           | `color-white`           | #ffffff         |
