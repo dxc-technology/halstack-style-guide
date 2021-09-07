@@ -115,8 +115,8 @@ And also apply different values to each side of the component:
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
 | `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
 | `enabledOutlineColor`    | Outline:enabled    | `color-black`           | #000000           |
-| `ActionIconColor`        | Action icon        | `color-black`           | #000000           |
-| `ActionBackgroundColor`  | Action             | `color-transparent`     | #transparent      |
+| `actionIconColor`        | Action icon        | `color-black`           | #000000           |
+| `actionBackgroundColor`  | Action             | `color-transparent`     | #transparent      |
 
 #### Interactive
 
@@ -125,7 +125,7 @@ And also apply different values to each side of the component:
 | `hoverOutlineColor`             | Outline:hover               | `color-purple-500`      | #a46ede         |
 | `focusOutlineColor`             | Outline:focus               | `color-blue-600`        | #0095ff         |
 | `errorOutlineColor`             | Outline:error               | `color-red-700`         | #d0011b         |
-| `hoverErrorOutlineColor`        | Outline:hover on error      | `red-600`               | #fe0123         |
+| `hoverErrorOutlineColor`        | Outline:hover on error      | `color-red-600`         | #fe0123         |
 | `disabledOutlineColor`          | Outline:disabled            | `color-grey-600`        | #808080         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
@@ -140,6 +140,7 @@ And also apply different values to each side of the component:
 | `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
 | `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
 | `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
+| `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
 | `disabledActionIconColor`       | Action icon:disabled        | `color-grey-500`        | #999999         |
 
 
@@ -165,8 +166,8 @@ And also apply different values to each side of the component:
 | `helperTextFontColorOnDark`    | Helper-text        | `color-white`           | #ffffff         |
 | `placeholderFontColorOnDark`   | Placeholder        | `color-grey-100`        | #f2f2f2         |
 | `enabledOutlineColorOnDark`    | Outline:enabled    | `color-white`           | #ffffff         |
-| `ActionIconColorOnDark`        | Action icon        | `color-white`           | #ffffff         |
-| `ActionBackgroundColorOnDark`  | Action             | `color-transparent`     | transparent     |
+| `actionIconColorOnDark`        | Action icon        | `color-white`           | #ffffff         |
+| `actionBackgroundColorOnDark`  | Action             | `color-transparent`     | transparent     |
 
 
 #### Interactive
@@ -176,6 +177,7 @@ And also apply different values to each side of the component:
 | `hoverOutlineColorOnDark`             | Outline:hover               | `color-purple-500`      | #a46ede         |
 | `focusOutlineColorOnDark`             | Outline:focus               | `color-blue-600`        | #0095ff         |
 | `errorOutlineColorOnDark`             | Outline:error               | `color-red-500`         | #fe344f         |
+| `hoverErrorOutlineColor`              | Outline:hover on error      | `color-red-400`         | #fe677b         |
 | `disabledOutlineColorOnDark`          | Outline:disabled            | `color-grey-500`        | #999999         |
 | `errorMessageColorOnDark`             | Error message               | `color-red-500`         | #fe344f         |
 | `errorIconColorOnDark`                | Error icon                  | `color-red-500`         | #fe344f         |
@@ -183,13 +185,14 @@ And also apply different values to each side of the component:
 | `disabledLabelFontColorOnDark`        | Label:disabled              | `color-grey-500`        | #999999         |
 | `disabledValueFontColorOnDark`        | Value:disabled              | `color-grey-500`        | #999999         |
 | `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `color-grey-500`        | #999999         |
-| `disabledPlaceholderColorOnDark`      | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderFontColorOnDark`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
 | `hoverActionBackgroundColorOnDark`    | Action:hover                | `color-grey-700`        | #666666         |
 | `focusActionBackgroundColorOnDark`    | Action:focus                | `color-grey-700`        | #666666         |
 | `activeActionBackgroundColorOnDark`   | Action:active               | `color-grey-500`        | #999999         |
 | `disabledActionBackgroundColorOnDark` | Action:disabled             | `color-transparent`     | transparent     |
 | `hoverActionIconColorOnDark`          | Action icon:hover           | `color-white`           | #ffffff         |
 | `focusActionIconColorOnDark`          | Action icon:focus           | `color-white`           | #ffffff         |
+| `activeActionIconColorOnDark`         | Action icon:active          | `color-black`           | #000000         |
 | `disabledActionIconColorOnDark`       | Action icon:disabled        | `color-grey-700`        | #666666         |
 
 
@@ -246,9 +249,9 @@ And also apply different values to each side of the component:
 
 | Property        | Element               | Token             | Value           |
 | :-------------- | :-------------------- | :---------------- | :-------------- |
-| `border`        | Input container       | `-`               | 1px solid       |
+| `border`        | Input container       | `border-width-1`  | 1px             |
+| `border`        | Input container       | `border-style`    | solid           |
 | `box-shadow`    | Input container:focus | `-`               | 1px solid       |
-
 
 
 ## Helper text
@@ -293,10 +296,10 @@ _Autocomplete functionality for the text input component_
 
 | Component token                     | Element                | Token                   | Value           |
 | :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
-| `ListOptionFontColor`               | List option text       | `color-black`           | #000000         |
-| `sytemMessageFontColor`             | System message         | `color-grey-700`        | #666666         |
-| `ErrorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
-| `ErrorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
+| `listOptionFontColor`               | List option text       | `color-black`           | #000000         |
+| `systemMessageFontColor`             | System message         | `color-grey-700`        | #666666         |
+| `errorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
+| `errorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc         |
 
