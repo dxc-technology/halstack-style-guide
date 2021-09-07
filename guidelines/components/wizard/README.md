@@ -50,12 +50,15 @@ _Wizard variants spacing specifications_
 | :--------------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
 | `stepperFontColor`                       | Stepper text                       | `color-black`          | #000000          |
 | `selectedStepperFontColor`               | Stepper:selected text              | `color-white`          | #ffffff          |
+| `unvisitedStepperFontColor`              | Stepper:unvisited text             | `color-grey-700`       | #666666          |
 | `disabledStepperFontColor`               | Stepper:disabled text              | `color-grey-500`       | #999999          |
 | `stepperBackgroundColor`                 | Stepper background                 | `color-white`          | #ffffff          |
-| `selectedStepperBackgroundColor`         | Stepper:selected  background       | `color-purple-700`     | #5f249f          | 
+| `selectedStepperBackgroundColor`         | Stepper:selected background        | `color-purple-700`     | #5f249f          | 
+| `unvisitedStepperBackgroundColor`        | Stepper:unvisited background       | `color-grey-700`       | #666666          | 
 | `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | #f2f2f2          |
 | `stepperBorderColor`                     | Stepper border                     | `coor-black`           | #000000          |
 | `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | #5f249f          |
+| `unvisitedStepperBorderColor`            | Stepper:unvisited border           | `color-grey-700`       | #666666          |
 | `disabledStepperBorderColor`             | Stepper:disabled border            | `color-grey-100`       | #f2f2f2          |
 | `labelFontColor`                         | Label                              | `color-black`          | #000000          |
 | `activeLabelFontColor`                   | Label:active                       | `color-black`          | #000000          |
@@ -82,22 +85,23 @@ Different values can be applied to each side of the component:
 
 
 ### Typography
+
 | Component token                          | Element                            | Core token                | Value            |
 | :--------------------------------------- | :--------------------------------- | :------------------------ | :--------------- |
-| `stepperFontFontSize`                    | Stepper text                       | `font-scale-03`           | 1rem / 16px      |
-| `stepperFontFontFamily`                  | Stepper text                       | `font-family-sans`        | Open Sans        |
-| `stepperFontFontStyle`                   | Stepper text                       | `font-style-normal`       | normal           |
-| `stepperFontFontWeight`                  | Stepper text                       | `font-style-regular`      | 400              |
+| `stepperFontSize`                        | Stepper text                       | `font-scale-03`           | 1rem / 16px      |
+| `stepperFontFamily`                      | Stepper text                       | `font-family-sans`        | Open Sans        |
+| `stepperFontStyle`                       | Stepper text                       | `font-style-normal`       | normal           |
+| `stepperFontWeight`                      | Stepper text                       | `font-style-regular`      | 400              |
 | `stepperFontTracking`                    | Stepper text                       | `font-tracking-wide-02`   | 0.05em           |
-| `labelFontFontSize`                      | Label                              | `font-scale-03`           | 1rem / 16px      |
-| `labelFontFontFamily`                    | Label                              | `font-family-sans`        | Open Sans        |
-| `labelFontFontStyle`                     | Label                              | `font-style-normal`       | normal           |
-| `labelFontFontWeight`                    | Label                              | `font-style-regular`      | 400              |
+| `labelFontSize`                          | Label                              | `font-scale-03`           | 1rem / 16px      |
+| `labelFontFamily`                        | Label                              | `font-family-sans`        | Open Sans        |
+| `labelFontStyle`                         | Label                              | `font-style-normal`       | normal           |
+| `labelFontWeight`                        | Label                              | `font-style-regular`      | 400              |
 | `labelFontTracking`                      | Label                              | `font-tracking-normal`    | 0em              |
-| `helperTextFontFontSize`                 | Helper text                        | `font-scale-02`           | 0.875rem / 14px  |
-| `helperTextFontFontFamily`               | Helper text                        | `font-family-sans`        | Open Sans        |
-| `helperTextFontFontStyle`                | Helper text                        | `font-style-normal`       | normal           |
-| `helperTextFontFontWeight`               | Helper text                        | `font-style-regular`      | 400              |
+| `helperTextFontSize`                     | Helper text                        | `font-scale-02`           | 0.875rem / 14px  |
+| `helperTextFontFamily`                   | Helper text                        | `font-family-sans`        | Open Sans        |
+| `helperTextFontStyle`                    | Helper text                        | `font-style-normal`       | normal           |
+| `helperTextFontWeight`                   | Helper text                        | `font-style-regular`      | 400              |
 | `helperTextFontTracking`                 | Helper text                        | `font-tracking-normal`    | 0em              |
 
 
@@ -124,6 +128,12 @@ Different values can be applied to each side of the component:
 | `margin-left`                     | Step container                     | `spacing-06`           | 1.5rem / 24px    |
 | `margin-right`                    | Step container                     | `spacing-06`           | 1.5rem / 24px    |
 
+### Sizing
+
+| Property                          | Element                            | Core token             | Value            |
+| :-------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
+| `width`                           | Stepper                            | -                      | 32px             |
+| `height`                          | Stepper                            | -                      | 32px             |
 
 ### Iconography
 
@@ -161,6 +171,20 @@ Helper text can be added to the wizard component stepper:
 ![Example of wizard helper text](images/wizard_helper_text.png)
 
 _Example of wizard helper text_
+
+## Accessibility
+
+### WCAG 2.2
+
+* Understanding WCAG 2.2 - [SC 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html)
+* Understanding WCAG 2.2 - [SC 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html)
+* Understanding WCAG 2.2 - [SC 2.2.2: Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html)
+* Understanding WCAG 2.2 - [SC 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+
+
+### WAI-ARIA
+
+* Web accessibility tutorials - [Multi-page forms](https://www.w3.org/WAI/tutorials/forms/multi-page/)
 
 
 ## Links and references
