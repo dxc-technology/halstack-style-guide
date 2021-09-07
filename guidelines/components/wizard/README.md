@@ -58,6 +58,7 @@ _Wizard variants spacing specifications_
 | `disabledStepperBackgroundColor`         | Stepper:disabled background        | `color-grey-100`       | #f2f2f2          |
 | `stepperBorderColor`                     | Stepper border                     | `coor-black`           | #000000          |
 | `selectedStepperBorderColor`             | Stepper:selected border            | `color-purple-700`     | #5f249f          |
+| `unvisitedStepperBorderColor`            | Stepper:unvisited border           | `color-grey-700`       | #666666          |
 | `disabledStepperBorderColor`             | Stepper:disabled border            | `color-grey-100`       | #f2f2f2          |
 | `labelFontColor`                         | Label                              | `color-black`          | #000000          |
 | `activeLabelFontColor`                   | Label:active                       | `color-black`          | #000000          |
