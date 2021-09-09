@@ -25,7 +25,7 @@ _Switch component states_
 2. Thumb
 3. Track
 
-### Stacking
+## Stacking
 
 ![Switch stacking options](images/switch_stacking.png)
 
@@ -33,7 +33,7 @@ _Switch stacking options_
 
 In some application the use of several switches based on the requirements could appear, that why we provide some indications in the case that the user needs to use stacked switches.
 
-### Label position
+## Label position
 
 ![Switch label position options example](images/switch_label_position.png)
 
@@ -53,29 +53,43 @@ _Switch label position options example_
 _Switch design specifications_
 
 
-## Color
+### Color
 
-| Tokens                                | Default value |
-| ------------------------------------- | ------------: |
-| `checkedTrackBackgroundColor`           |     #5f249f |
-| `disabledCheckedTrackBackgroundColor`   |     #D0BDDB |
-| `checkedthumbBackgroundColor`           |     #FFFFFF |
-| `uncheckedThumbBackgroundColor`         |     #FFFFFF |
-| `uncheckedTrackBackgroundColor`         |     #D9D9D9 |
-| `disabledUncheckedTrackBackgroundColor` |     #D9D9D9 + 0.12 opacity |
-| `fontColor`                             |     #000000 |
-| `disabledFontColor`                     |     #000000 + 0.12 opacity |
-| `focusColor`                            |     #005FCC |
+| Component token                           | Element                         | Core token          | Value     |
+| :---------------------------------------- | :------------------------------ | :------------------ | :-------- |
+| `labelFontColor`                          | Label                           | `color-black`       | #000000   |
+| `disabledLabelFontColor`                  | Label:disabled                  | `color-grey-400`    | #bfbfbf   |
+| `thumbBackgroundColor`                    | Thumb                           | `color-white`       | #ffffff   |
+| `focusThumbBorderColor`                   | Thumb:focus                     | `color-blue-600`    | #0095ff   |
+| `unselectedTrackBackgroundColor`          | Track unselected                | `color-grey-400`    | #bfbfbf   |
+| `selectedTrackBackgroundColor`            | Track selected                  | `color-purple-700`  | #5f249f   |
+| `disableudUnselectedTrackBackgroundColor` | Track:disabled unselected       | `color-grey-100`    | #f2f2f2   |
+| `disabledSelectedTrackBackgroundColor`    | Track:disabled selected         | `color-purple-100`  | #f2eafa   |
 
-#### Sizes
 
-| Property                   |         Value |
-| -------------------------- | ------------: |
-| Toggle bar                 |          36px |
-| Focused ripple             |       42x42px |
-| Toggle button              |       24x24px |
+### Typography
 
-#### Margin
+| Component token                           | Element                         | Core token            | Value        |
+| :---------------------------------------- | :------------------------------ | :-------------------- | :----------- |
+| `labelFontFamily`                         | Label                           | `font-family-sans`    | Open sans    |
+| `labelFontSize`                           | Label                           | `font-scale-02`       | 1rem / 16px  |
+| `labelFontWeight`                         | Label                           | `font-weight-regular` | 400          |
+| `labelFontStyle`                          | Label                           | `font-style-normal`   | normal       |
+
+
+### Size
+
+| Component token                           | Element                         | Core token            | Value        |
+| :---------------------------------------- | :------------------------------ | :-------------------- | :----------- |
+| `thumbHeight`                             | Thumb                           | -                     | 24px         |
+| `thumbWidth`                              | Thumb                           | -                     | 24px         |
+| `trackHeight`                             | Track                           | -                     | 12px         |
+| `trackWidth`                              | Track                           | -                     | 60px         |
+| `focusHeight`                             | Focus indicator                 | -                     | 40px         |
+| `focusWidth`                              | Focus indicator                 | -                     | 40px         |
+
+
+### Margin
 
 margin | value
 -- | --
@@ -90,14 +104,8 @@ margin | value
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
-#### Typography
 
-| Property                   |         Value |
-| -------------------------- | ------------: |
-| Font size (with text)      |        `16px` |
-| Font weight                |     `Regular` |
-
-#### Spacing
+### Spacing
 
 | Property                   |         Value |
 | -------------------------- | ------------: |
