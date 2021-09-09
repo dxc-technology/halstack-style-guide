@@ -3,16 +3,11 @@
 Switch toggles are elements that can get two simple states, each of them has an impact on the system and it can be switched on or off, there are no more options.
 If the switch toggle is on one state, the action to change it will modify to value of the element to the contrary.
 
-The main difference to using a switch toggle instead of other components with a similar purpose like radio buttons or checkboxes are the immediate effect that they should take. This grants the users control on the application, changing preferences and configuration settings.
-
-With the use of switch toggle, it is not needed a submit button to do the appropriate action, because the action takes place at the moment that the switch is turned on or off.
-
-
 ## Usage
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
 - Try to present your lists vertically, with one choice per line.
-
+- Switches have immediate effect over the application, changing preferences and configuration settings. Don't use a submit button.
 
 ## States
 
