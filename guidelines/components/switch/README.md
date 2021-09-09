@@ -6,7 +6,7 @@ If the switch toggle is on one state, the action to change it will modify to val
 ## Usage
 
 - Switch toggles should be used in place of radio buttons whenever the options are opposites of each other (i.e. yes/no, on/off, etc).
-- Try to present your lists vertically, with one choice per line.
+- Whenever is possible stack the switch component vertically.
 - Switches have immediate effect over the application, changing preferences and configuration settings. Don't use a submit button.
 
 ## States
@@ -27,7 +27,9 @@ _Switch component states_
 
 ### Stacking
 
-![Switch linear structure](images/switch_stacking.png)
+![Switch stacking options](images/switch_stacking.png)
+
+_Switch stacking options_
 
 In some application the use of several switches based on the requirements could appear, that why we provide some indications in the case that the user needs to use stacked switches.
 
