@@ -16,18 +16,41 @@ With the use of switch toggle, it is not needed a submit button to do the approp
 
 ## States
 
-Five different states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**
+Five different states are defined in the life cycle of the component: **unselected enabled**, **unselected focus**, **unselected disabled**, **selected enabled**, **selected focus** and **selected disabled**
 
-![Switch modes](images/switch_states.png)
+![Switch component states](images/switch_states.png)
 
+_Switch component states_
 
+## Anatomy
+
+![Switch component anatomy](images/switch_anatomy.png)
+
+1. Label
+2. Thumb
+3. Track
+
+### Stacking
+
+![Switch linear structure](images/switch_stacking.png)
+
+In some application the use of several switches based on the requirements could appear, that why we provide some indications in the case that the user needs to use stacked switches.
+
+### Label position
+
+![Switch label position options example](images/switch_label_position.png)
+
+_Switch label position options example_
+
+* Labels before the switch indicate what the switch is for
+* Labels after the switch indicate the state of the switch
 ## Design Specifications
 
-Schematics examples for the switch toggle component with all the variations.
 
-![Switch specifications](images/switch_specs.png)
+![Switch design specifications](images/switch_specs.png)
 
-In some application the use of several switches based on the requirments could appear, that why we provide some indications in the case that the user needs to use stacked or linear switches.
+_Switch design specifications_
+
 
 ## Color
 
@@ -42,19 +65,6 @@ In some application the use of several switches based on the requirments could a
 | `fontColor`                             |     #000000 |
 | `disabledFontColor`                     |     #000000 + 0.12 opacity |
 | `focusColor`                            |     #005FCC |
-
-
-### Linear
-
-The text should have a margin of 16 pixels based on its position. If the text is after the switch, it should define the margin on the right side. Otherwise, if the label of the switch is before the component, the margin has to go on the left side.
-
-![Switch linear structure](images/switch_linear.png)
-
-### Stacked
-
-The spacing between stacked switches should be 24 pixels that is determining by the top/bottom margin of the switch component itself.
-
-![Switch stacked structure](images/switch_stacked.png)
 
 #### Sizes
 
@@ -91,6 +101,8 @@ And also apply different values to each side of the component:
 | Property                   |         Value |
 | -------------------------- | ------------: |
 | Spacing between label and toggle |        `12px` |
+
+
 
 
 
