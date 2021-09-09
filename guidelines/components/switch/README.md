@@ -107,13 +107,13 @@ And also apply different values to each side of the component:
 
 ### Spacing
 
-| Property                   |         Value |
-| -------------------------- | ------------: |
-| Spacing between label and toggle |        `12px` |
+| Property                  | Element                         | Core token            | Value                |
+| :------------------------ | :------------------------------ | :-------------------- | :------------------- |
+| `padding`                 | Thumb                           | `spacing-03`          | 0.5rem / 8px         |
+| `margin-left/right`*      | Switch                          | `spacing-03`          | 0.5rem / 8px         |
+| `padding`                 | Track                           | `spacing-04`          | 0.75rem / 12px       |
 
-
-
-
+_*Depending of the position of the label_
 
 ## Links and references
 
