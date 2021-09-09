@@ -61,8 +61,6 @@ In the anatomy section an image displays all the elements that are part of the c
 
 ![Anatomy image](path to the image)
 
-_Image caption_
-
 1. Element 1
 2. Element 2
 
