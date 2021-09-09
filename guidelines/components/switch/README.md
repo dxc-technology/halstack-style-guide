@@ -42,8 +42,12 @@ In some application the use of several switches based on the requirements could 
 
 _Switch label position options example_
 
-* Labels before the switch indicate what the switch is for
-* Labels after the switch indicate the state of the switch
+| Position         | Description                                               |
+| :--------------- | :-------------------------------------------------------- |
+| **Label before** | Labels before the switch indicate what the switch is for  |
+| **Label after**  | Labels after the switch indicate the state of the switch  |
+
+
 ## Design Specifications
 
 
