@@ -99,18 +99,17 @@ _Component design specifications_
 
 ## Accesibility
 
-<!--
-Add WCAG success criterion and WAI-ARIA design pattern and example when available
-
 ### WCAG 
 
-* Understanding WCAG 2.2 - [SC x.x name of the succes criterion](url)
+* Understanding WCAG 2.2 - [1.3.1: Information and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+* Understanding WCAG 2.2 - [3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification)
+* Understanding WCAG 2.2 - [3.3.2: Labels and Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions) 
+* Understanding WCAG 2.2 - [3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion) 
+* Understanding WCAG 2.2 - [4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value) 
 
 ### WAI-ARIA
 
-* WAI-ARIA Authoring practices 1.2 - [x.x title of the section](url)
-* WAI-ARIA Authoring practices 1.2 - ["Name" design pattern](url)
--->
+* WAI-ARIA Accessible Rich Internet Applications 1.2 - [`textbox` role](https://www.w3.org/TR/wai-aria-1.2/#textbox)
 
 
 ## Links and references
