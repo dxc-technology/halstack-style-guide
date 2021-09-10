@@ -55,7 +55,7 @@ _Input-password component specifications_
 ### Color
 
 | Component token          | Element            | Token             | Value             |
-| ------------------------ | ------------------ | ----------------- | ----------------- |
+| :----------------------- | :----------------- | :---------------- | :---------------- |
 | `labelFontColor`         | Label              | `black`           | #000000           |
 | `valueFontColor`         | Value              | `black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
@@ -65,51 +65,51 @@ _Input-password component specifications_
 
 #### Interactive
 
-| Component token                 | Element                     | Token             | Value           |
-| ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
-| `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
-| `hoverErrorOutlineColor`        | Outline:hover on error      | `red-600`         | #fe0123         |
-| `disabledOutlineColor`          | Outline:disabled            | `grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Action:hover                | `grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Action:active               | `grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Action:disabled             | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Action icon:hover           | `grey-500`        | #999999         |
-| `focusActionIconColor`          | Action icon:focus           | `grey-500`        | #999999         |
-| `disabledActionIconColor`       | Action icon:disabled        | `grey-500`        | #999999         |
+| Component token                 | Element                     | Token                   | Value           |
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
+| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Action:focus                | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Action icon:hover           | `color-grey-500`        | #999999         |
+| `focusActionIconColor`          | Action icon:focus           | `color-grey-500`        | #999999         |
+| `disabledActionIconColor`       | Action icon:disabled        | `color-grey-500`        | #999999         |
 
 
 ### Typography
 
 | Property        | Element        | Token                   | Value           |
-| --------------- | -------------- | ----------------------- | --------------- |
-| `font-family`   | Label          | `type-sans`             | Open Sans       |
-| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `type-bold`             | 600             |
-| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `type-sans`             | Open Sans       |
-| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `type-regular`          | 400             |
-| `font-family`   | Error message  | `type-sans`             | Open Sans       |
-| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `type-regular`          | 400             |
-| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
+| :-------------- | :------------- | :---------------------- | :-------------- |
+| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
+| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | Label          | `font-weight-bold`      | 600             |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `font-family`   | Value          | `font-family-sans`      | Open Sans       |
+| `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Value          | `font-regular`          | 400             |
+| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 
 
 ### Spacing
 
 
 | Property        | Element         | Token             | Value           |
-| --------------- | --------------- | ----------------- | --------------- |
+| :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
 | `margin-left`   | Action          | `spacing-02`      | 0.25rem / 4px   |
 | `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
@@ -120,10 +120,12 @@ _Input-password component specifications_
 
 ### Border
 
-| Property        | Element               | Token             | Value           |
-| --------------- | --------------------- | ----------------- | --------------- |
-| `border`        | Input container       | `-`               | 1px solid       |
-| `box-shadow`    | Input container:focus | `-`               | 1px solid       |
+| Property        | Element               | Token                    | Value           |
+| :-------------- | :-------------------- | :----------------------- | :-------------- |
+| `border-width`  | Input container       | `border-width-1`         | 1px             |
+| `border-style`  | Input container       | `border-style-solid`     | solid           |
+| `border-radius` | Input container       | `border-radius-medium`   | 0.25rem / 4px   |
+| `box-shadow`    | Input container:focus | `-`                      | 1px solid       |
 
 
 ## Accesibility
