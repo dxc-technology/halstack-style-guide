@@ -65,10 +65,11 @@ padding | value
 
 ### Border
 
-| Property                     |   Value |
-| ---------------------------- | ------ |
-| Border Radius                |   `4px` |
-| Border thickness             |   `2px` |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 ### Size

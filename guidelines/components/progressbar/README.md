@@ -112,7 +112,13 @@ And also apply different values to each side of the component:
 | `font-size`     | Helper text      | `font-scale-01`  | 12px      |
 | `font-weight`   | Helper text      | `font-regular`   | 400       |
 
+### Border
 
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Track line       | `border-width-0`           | 0                |
+| `border-style`           | Track line       | `border-style-none`        | none             |
+| `border-radius`          | Track line       | `border-radius-full`       | 9999px           |
 
 ## Links and references
 

@@ -78,10 +78,14 @@ Padding | value
 
 ### Border
 
-| Property           | Value|
-|--------------------|------|
-| `border-radius` | 4px |
-| `border-thickness`| 2px |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Focus border     | `border-width-2`           | 2                |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 ### Typography
 

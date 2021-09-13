@@ -56,6 +56,12 @@ _Header design specifications_
 | `height`                                 |   64px   |
 | `width`                                  |   100%   |
 
+### Border
+
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-width`           | Underline              | `border-width-2`           | 2px              |
+| `border-style`           | Underline              | `border-style-solid`       | solid            |
 
 ### Margin
 

@@ -95,13 +95,14 @@ margin | value
 
 ### Border
 
-| Property              | Element       | Value     |   Token          |
-| --------------------- | -----------   | --------  | ---------        |
-| `border-radius`       | checkbox      | 2px       | `rounded-small`  |
-| `border-radius`       | focus outline | 4px       | `rounded-medium` |
-| `border-width`        | checkbox      | 2px       | -                |
-| `border-width`        | focus outline | 2px       | -                |
-
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Checkbox         | `border-width-2`           | 2px              |
+| `border-style`           | Checkbox         | `border-style-solid`       | solid            |
+| `border-radius`          | Checkbox         | `border-radius-small`      | 0.125rem / 2px   |
+| `border-width`           | Focus border     | `border-width-2`           | 2px              |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 ## Stack
 

@@ -84,12 +84,12 @@ margin | value
 
 ### Border
 
-| Property              | Element       | Value     |   Token          |
-| --------------------- | -----------   | --------  | ---------        |
-| `border-width`        | radio         | 2px       | -                |
-| `border-width`        | focus outline | 2px       | -                |
-
-
+| Property              | Element                | Core token                 | Value            |
+| :-------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-width`        | Radio input            | `border-width-2`           | 1px              |
+| `border-style`        | Radio input            | `border-style-solid`       | solid            |
+| `border-width`        | Focus border           | `border-width-2`           | 1px              |
+| `border-style`        | Focus border           | `border-style-solid`       | solid            |
 
 ## Stack
 

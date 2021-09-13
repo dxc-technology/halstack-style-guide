@@ -73,12 +73,20 @@ margin | Value
 | `font-size`                   |  assistive text  |   12px      |
 | `font-weight`                 |  all             |   400       |
 
+
+#### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Input:enabled    | `border-width-1`           | 1px              |
+| `border-style`           | Input:enabled    | `border-style-solid`       | solid            |
+| `border-width`           | Input:focus      | `border-width-2`           | 2px              |
+| `border-style`           | Input:focus      | `border-style-solid`       | solid            |
+
 #### Other specs
 
 | Property                            | Value     |
 | ----------------------------------- | --------- |
-| `border-width` enabled              |   1px     |
-| `border-width` focus                |   2px     |
 | Icon size                           |   20x20px |
 | Distance between text and underline |   7px     |
 

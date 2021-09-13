@@ -114,7 +114,7 @@ Different values can be applied to each side of the component:
 | `stepperBorderWidth`                     | Stepper border                     | `border-width-2`       | 2px              |
 | `selectedStepperBorderWidth`             | Stepper border:selected            | `border-width-2`       | 2px              |
 | `disabledStepperBorderWidth`             | Stepper border:disabled            | `border-width-2`       | 2px              |
-| `stepperBorderWidth`                     | Stepper border-radius              | -                      | 48px             |
+| `stepperBorderWidth`                     | Stepper border-radius              | `border-radius-full`   | 9999px           |
 | `separatorBorderWidth`                   | Separator                          | `border-width-1`       | 1px              |
 | `separatorBorderStyle`                   | Separator                          | `border-style-solid`   | solid            |
 
