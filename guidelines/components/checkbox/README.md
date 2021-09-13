@@ -95,7 +95,7 @@ margin | value
 
 ### Border
 
-| Component token          | Element          | Core token                 | Value            |
+| Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
 | `border-width`           | Checkbox         | `border-width-2`           | 2px              |
 | `border-style`           | Checkbox         | `border-style-solid`       | solid            |

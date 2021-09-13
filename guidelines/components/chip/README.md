@@ -53,10 +53,14 @@ _Component chip design specifications_
 
 ### Border
 
-| Property		    | Element			                  | Value		      |
-| --------------- | ----------------------------- | -------------	|
-| `border`		    | Focus outline			            | 2px solid	    |
-| `border-radius`	| Chip container		            | 80px		      |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Chip container   | `border-width-0`           | 0                |
+| `border-style`           | Chip container   | `border-style-none`        | none             |
+| `border-radius`          | Chip container   | `border-radius-rounded`    | 50%              |
+| `border-width`           | Focus border     | `border-width-2`           | 2px              |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 ### Typography
