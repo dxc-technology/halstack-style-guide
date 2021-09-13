@@ -15,14 +15,14 @@ Helper text should not run longer than the input area.
 ### Required
 Required time fields are displayed in the same way the component text-input does.
 
-![Examples of time picker input states](images/Time_Required.png)
-
-_Examples of time picker required input_
-
-
 ## Variants
 
 - to be discussed
+
+![Examples of time picker input states](images/Time_Varient.png)
+
+
+_Examples of time picker varients_
 
 ## States
 
@@ -30,15 +30,15 @@ _Examples of time picker required input_
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-![Examples of time picker input states](images/Time_States.png)
+![Examples of time picker input states](images/Time_Helper_Text.png)
 
-_Examples of time picker input states_
+_Examples of time picker required input_
 
 ### Time pop-up
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-![Examples of the time pop-up states](images/time_popup.png)
+![Examples of the time pop-up states](images/Time_Popup.png)
 
 _Examples of the time pop-up states_
 
@@ -49,13 +49,12 @@ _Examples of the time pop-up states_
 
 _Anatomy of Time picker_
 
-1. Component State
-2. Focus Area
-3. Icon
-4. Underline
-5. Assistive Text showing Error Messages
-6. Placeholder Text
-7. Helper Text
+1. Label (Optional)
+2. Placeholder
+3. Error message
+4. Secondary Icon
+5. Primary Icon
+6. Input Outline
 
 ## Design specifications
 
@@ -119,7 +118,16 @@ margin | Value
 
 - to be discussed
 
+![time-popup specifications](images/Time_Selection_Specs.png)
+
 _Structure and spacing for time picker time pop-up_
+
+![time-popup specifications](images/Time_Popup_with_Hour_and_Am-Pm_Selection.png)
+
+![time-popup specifications](images/Time_Popup_with_Hour,Minute_and_Am-Pm_Selection.png)
+
+![time-popup specifications](images/Time_Popup_with_Hr-Min-Sec_Selection.png)
+
 
 #### Color
 
@@ -176,10 +184,6 @@ _Structure and spacing for time picker time pop-up_
 ## Helper text
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
-
-![Time helper text](images/Time_Helper_Text.png)
-
-_Examples of time picker input states with Helper text_
 
 ## Accesibility
 
