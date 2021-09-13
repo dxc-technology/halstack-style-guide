@@ -89,6 +89,20 @@ _Switch design specifications_
 | `focusWidth`                              | Focus indicator                 | -                     | 40px         |
 
 
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Track            | `border-width-0`           | 0                |
+| `border-style`           | Track            | `border-style-none`        | none             |
+| `border-radius`          | Track            | `border-radius-full`       | 9999px           |
+| `border-width`           | Thumb            | `border-width-0`           | 0                |
+| `border-style`           | Thumb            | `border-style-none`        | none             |
+| `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
+| `border-width`           | Focus border     | `border-width-2`           | 2px              |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-full`       | 9999px           |
+
 ### Margin
 
 margin | value
@@ -103,6 +117,7 @@ margin | value
 
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
+
 
 
 ### Spacing
