@@ -57,7 +57,7 @@ _Component chip design specifications_
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
 | `border-width`           | Chip container   | `border-width-0`           | 0                |
 | `border-style`           | Chip container   | `border-style-none`        | none             |
-| `border-radius`          | Chip container   | `border-radius-rounded`    | 50%              |
+| `border-radius`          | Chip container   | `border-radius-full`       | 9999px           |
 | `border-width`           | Focus border     | `border-width-2`           | 2px              |
 | `border-style`           | Focus border     | `border-style-solid`       | solid            |
 | `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
