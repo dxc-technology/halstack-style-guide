@@ -67,9 +67,10 @@ _Design specifications for link component_
 
 ### Border
 
-| Property                      | Element                      |  Value      |
-| ----------------------------- | ----------------             | ----------- |
-| `border-bottom`               | `link` container (on hover)  |   1px       |
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-bottom-width`    | Link container:hover   | `border-width-1`           | 1px              |
+| `border-style`           | Link container:hover   | `border-style-solid`       | solid            |
 
 
 ## Icon Usage
