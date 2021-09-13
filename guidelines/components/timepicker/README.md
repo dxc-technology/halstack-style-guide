@@ -21,7 +21,6 @@ Required time fields are displayed in the same way the component text-input does
 
 ![Examples of time picker input states](images/Time_Varient.png)
 
-
 _Examples of time picker varients_
 
 ## States
