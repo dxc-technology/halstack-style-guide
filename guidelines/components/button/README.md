@@ -99,19 +99,19 @@ These values can be applied independently to each side of the component:
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `primaryHoverBackgroundColor`       | Container fill:hover	       | `color-purple-800`       | #4b1c7d     |
-| `primaryActiveBackgroundColor`      | Container fill:active	      | `color-purple-900`       | #321353     |
+| `primaryHoverBackgroundColor`       | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `primaryActiveBackgroundColor`      | Container fill:active	    | `color-purple-900`       | #321353     |
 | `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
 | `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	       | Container border:focus       | `color-blue-600`         | #0095ff     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
-| Component token                | Element          | Core token  | Value     |
-| :----------------------------- | :--------------- | :---------- | :-------- |
-| `primaryBorderThickness`       | Container        | -           | 0px       |
-| `primaryBorderStyle`           | Container        | -           | none      |
-| `primaryBorderRadius`          | Container        | -           | 4px       |
+| Component token                | Element          | Core token                 | Value            |
+| :----------------------------- | :--------------- | :------------------------- | :--------------- |
+| `primaryBorderThickness`       | Container        | `border-width-0`           | 0                |
+| `primaryBorderStyle`           | Container        | `border-style-none`        | none             |
+| `primaryBorderRadius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 
@@ -149,18 +149,18 @@ These values can be applied independently to each side of the component:
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
 | `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
-| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	     | transparent |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	   | transparent |
 | `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
-| `secondaryDisabledBorderColor`	     | Container border:disabled   | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
 
 #### Border
 
-| Component token                  | Element          | Core token  | Value     |
-| :------------------------------- | :--------------- | :---------- | :-------- |
-| `secondaryBorderThickness`       | Container        | -           | 1px       |
-| `secondaryBorderStyle`           | Container        | -           | solid     |
-| `secondaryBorderRadius`          | Container        | -           | 4px       |
+| Component token                  | Element          | Core token                 | Value            |
+| :------------------------------- | :--------------- | :------------------------- | :--------------- |
+| `secondaryBorderThickness`       | Container        | `border-width-1	`          | 1px              |
+| `secondaryBorderStyle`           | Container        | `border-style-solid`       | solid            |
+| `secondaryBorderRadius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 #### Typography
@@ -199,16 +199,16 @@ These values can be applied independently to each side of the component:
 | `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
 | `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
 | `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     | 
+| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
 
-| Component token               | Element          | Core token  | Value     |
-| :---------------------------- | :--------------- | :---------- | :-------- |
-| `textBorderThickness`         | Container        | -           | 0px       |
-| `textBorderStyle`             | Container        | -           | none      |
-| `textBorderRadius`            | Container        | -           | 4px       |
+| Component token             | Element          | Core token                 | Value            |
+| :-------------------------- | :--------------- | :------------------------- | :--------------- |
+| `textBorderThickness`       | Container        | `border-width-0`           | 0                |
+| `textBorderStyle`           | Container        | `border-style-none`        | none             |
+| `textBorderRadius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 
