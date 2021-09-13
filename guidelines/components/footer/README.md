@@ -92,11 +92,12 @@ _Footer component design specs_
 
 ### Terms & Company Links
 
-| Property        |   Element     	    |   Value   		        |
-| --------------- | ------------------- | --------------------- |
-| `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   8px     		        |
-| `border`	      |   Links separator	  |   1px solid #1489fb	  |
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `min height`             | Links container        | `-`                        | 20px             |
+| `padding-top`            | Links container        | `spacing-03`               | 0.5rem / 8px     |
+| `border-width`           | Links separator        | `border-width-1`           | 1px              |
+| `border-style`           | Links separator        | `border-style-solid`       | solid            |
 
 
 ### Custom content
