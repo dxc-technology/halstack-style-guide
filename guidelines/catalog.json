@@ -135,6 +135,10 @@
       "name": "Input-password"
     },
     {
+      "key": "textarea",
+      "name": "Textarea"
+    },
+    {
       "key": "toggle",
       "name": "Toggle"
     },
