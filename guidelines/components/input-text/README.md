@@ -124,8 +124,8 @@ And also apply different values to each side of the component:
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
 | `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
 | `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorBorcerColor`              | Border:error                | `color-red-700`         | #d0011b         |
-| `hoverErrorOutlineColor`        | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledBorderColor`           | Border:disabled             | `color-grey-600`        | #808080         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
