@@ -177,7 +177,7 @@ And also apply different values to each side of the component:
 | `hoverBorderColorOnDark`              | Border:hover                | `color-purple-500`      | #a46ede         |
 | `focusBorderColorOnDark`              | Border:focus                | `color-blue-600`        | #0095ff         |
 | `errorBorderColorOnDark`              | Border:error                | `color-red-500`         | #fe344f         |
-| `hoverErrorBorderColor`               | Border:hover on error       | `color-red-400`         | #fe677b         |
+| `hoverErrorBorderColorOnDark`         | Border:hover on error       | `color-red-400`         | #fe677b         |
 | `disabledBorderColorOnDark`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColorOnDark`             | Error message               | `color-red-500`         | #fe344f         |
 | `errorIconColorOnDark`                | Error icon                  | `color-red-500`         | #fe344f         |
