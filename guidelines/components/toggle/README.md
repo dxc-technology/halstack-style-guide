@@ -47,7 +47,7 @@ Inside the toggle button, it is possible to use icons to represent recognizable 
 ![Toggle design specifications](images/toggle_specs.png)
 
 _Toggle design specifications_
-## Color
+### Color
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
@@ -64,6 +64,15 @@ _Toggle design specifications_
 | `selectedFontColor`                 | Label	                    | `color-white`            | #ffffff     |
 | `selectedDisabledFontColor`         | Label:disabled	            | `color-purple-300`       | #cbacec     |
 | `focusColor`                        | Border:focus	            | `color-blue-600`         | #0095ff     |
+
+### Typography
+
+| Component token                     | Element              | Token                           | Value                       |
+| :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
+| `fontFamily`                        | Label	             | `font-family`                   | 'Open Sans', sans-serif     |
+| `fontSize`                          | Label	             | `font-scale-03`                 | 1rem / 16px                 |
+| `fontStyle`                         | Label	             | `font-style-normal`             | normal                      |
+| `fontWeight`                        | Label	             | `font-weight-regular`           | 400                         |
 
 ### Size
 
@@ -107,12 +116,7 @@ Padding | value
 | `border-style`           | Focus border     | `border-style-solid`       | solid            |
 | `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
-### Typography
 
-| Property           | Value|
-|--------------------|------|
-| `font-size`| 14px |
-| `font-weight`| Regular |
 
 
 
