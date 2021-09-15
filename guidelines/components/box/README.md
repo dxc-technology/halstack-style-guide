@@ -5,22 +5,12 @@
 
 There are different ways to organise the content on the webpage to facilitate the user according to his nature of interaction with the content like forms, tables, lists etc. One of the best ways to organize the webpage is by using groups of related content, this can be achieved by using a dedicated Box component.
 
-## Appearance
+### Variants
 
-Just as the name indicates the content in the webpage can be grouped using the Box Component, which is a simple wrapper component used to organise the layout within the box container.
-
-The Box has properties like margins, padding, borders, shadows, background colors etc. and organise the layout design serving as a container for interactive / non-interactive components like icons, labels, paragraphs and buttons etc.
-
-### Modes
-
-#### No-shadow:
-Can be used as a container, there's no visual appearance of the box in the UI, just works as a simple <div>
-
-#### Shadow depth 1:
-Regular visualization of the box, the container can be used to create a clear distinction between different sections of the UI.
-
-#### Shadow depth 2:
-Basically the same as the previous on but with a deeper shadow.
+| Name          | Description
+| :------------ | :------------------------------------------------------------------------------------------------------------ |
+| **Bordered**  | Use this variant to encapsulate other elements and build clear distinctions between areas in the page layout  |
+| **Raised**    | Use this variant for dialogs (e.g. select or dropdown dialog)                                                 |
 
 ## Design specifications
 
@@ -30,6 +20,7 @@ Basically the same as the previous on but with a deeper shadow.
 | :------------------------------ | :--------------------------- | :--------------------- | :------------------------ | 
 | `border-width`                  | Container border             | `border-width-0`       | 0                         |
 | `border-radius`                 | Container border             | `border-radius-medium` | 0.25rem / 4px             | 
+
 ### Width
 
 In the cases of `fillParent` and `fillContent` the box is going to behave as a fluid container occupying the space the parent leaves for its children or adapting its size to the children it the box has. Instead of using a fluid approach, you can set a fixed size, choosing between `small`, `medium` and `large` properties.
