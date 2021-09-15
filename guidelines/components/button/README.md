@@ -147,8 +147,8 @@ These values can be applied independently to each side of the component:
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-100`       | #f2eafa     |
-| `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-200`       | #e5d5f6     |
+| `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-700`       | #5f249f     |
+| `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-900`       | #321353     |
 | `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	   | transparent |
 | `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
 | `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
