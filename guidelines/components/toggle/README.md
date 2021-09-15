@@ -49,27 +49,27 @@ Inside the toggle button, it is possible to use icons to represent recognizable 
 _Toggle design specifications_
 ## Color
 
-| Token          | Value|
-|--------------------|------|
-| `selectedBackgroundColor` |  #5f249f |
-| `selectedBackgroundHoverColor` | #000000 |
-| `selectedFontColor` | #FFFFFF |
-| `selectedHoverFontColor` | #FFFFFF |
-| `unselectedBackgroundColor` | #D9D9D9 |
-| `unselectedBackgroundHoverColor` | #EEEEEE |
-| `unselectedFontColor` | #000000 |
-| `unselectedHoverFontColor` | #000000 |
-| `disabledSelectedBackgroundColor` | #D0BDDB |
-| `disabledSelectedFontColor` | #FFFFFF |
-| `disabledUnselectedBackgroundColor` | #F2F2F2 |
-| `disabledUnselectedFontColor` | #B1B1B1 |
-
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `unselectedBackgroundColor`         | Container fill:enabled	    | `color-grey-200`         | #e6e6e6     |
+| `unselectedHoverBackgroundColor`    | Container fill:hover	    | `color-grey-300`         | #cccccc     |
+| `unselectedActiveBackgroundColor`   | Container fill:active	    | `color-purple-700`       | #5f249f     |
+| `unselectedDisabledBackgroundColor` | Container fill:disabled	    | `color-grey-100`         | #f2f2f2     |
+| `unselectedFontColor`               | Label	                    | `color-black`            | #000000     |
+| `unselectedDisabledFontColor`       | Label:disabled	            | `color-grey-500`         | #999999     |
+| `selectedBackgroundColor`           | Container fill:enabled	    | `color-purple-700`       | #5f249f     |
+| `selectedHoverBackgroundColor`      | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `selectedActiveBackgroundColor`     | Container fill:active	    | `color-purple-900`       | #321353     |
+| `selectedDisabledBackgroundColor`   | Container fill:disabled	    | `color-purple-100`       | #f2eafa     |
+| `selectedFontColor`                 | Label	                    | `color-white`            | #ffffff     |
+| `selectedDisabledFontColor`         | Label:disabled	            | `color-purple-300`       | #cbacec     |
+| `focusColor`                        | Border:focus	            | `color-blue-600`         | #0095ff     |
 
 ### Size
 
 | Property           | Value|
 |--------------------|------|
-| Min. height| `43px` |
+| Min. height| `40px` |
 
 ### Margin
 
@@ -91,8 +91,8 @@ And also apply different values to each side of the component:
 
 Padding | value
 -- | --
-| `padding` right/left (item)| 30px |
-| `padding` top/bottom (item)| 12px |
+| `padding` right/left (item)| 24px |
+
 
 
 
@@ -118,8 +118,8 @@ Padding | value
 
 ## Links and references
 
-[React CDK component](https://developer.dxc.com/tools/react/next/#/components/toggleGroup)
-[Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/toggleGroup)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/toggleGroup)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/toggleGroup)
 
 ____________________________________________________________
 
