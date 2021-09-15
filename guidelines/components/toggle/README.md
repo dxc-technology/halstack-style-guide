@@ -74,11 +74,27 @@ _Toggle design specifications_
 | `fontStyle`                         | Label	             | `font-style-normal`             | normal                      |
 | `fontWeight`                        | Label	             | `font-weight-regular`           | 400                         |
 
-### Size
 
-| Property           | Value|
-|--------------------|------|
-| Min. height| `40px` |
+### Spacing
+
+| Component token                     | Element              | Token                           | Value                       |
+| :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
+| `iconPaddingRight`                  | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
+| `iconPaddingLeft`                   | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
+| `labelPaddingLeft`                  | Label	             | `spacing-06`                    | 1.5rem / 24px               |
+| `labelPaddingRight`                 | Label	             | `spacing-06`                    | 1.5rem / 24px               |
+
+
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Focus border     | `border-width-2`           | 2                |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 ### Margin
 
@@ -94,31 +110,6 @@ margin | value
 
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
-
-
-### Padding
-
-Padding | value
--- | --
-| `padding` right/left (item)| 24px |
-
-
-
-
-### Border
-
-| Property                 | Element          | Core token                 | Value            |
-| :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Container        | `border-width-0`           | 0                |
-| `border-style`           | Container        | `border-style-none`        | none             |
-| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
-| `border-width`           | Focus border     | `border-width-2`           | 2                |
-| `border-style`           | Focus border     | `border-style-solid`       | solid            |
-| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
-
-
-
-
 
 ## Links and references
 
