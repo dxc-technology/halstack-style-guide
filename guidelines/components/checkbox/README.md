@@ -2,27 +2,20 @@
 
 Checkboxes are inputs that offer to the user the possibility to select one or more options from a range of attributes.
 
-The using of checkbox would be reasonable to proceed with the settings configuration, multiple choices offered, binary response (yes/no), or accept conditions and additional features.
+## Usage
 
-## Appereance
+Use the checkbox when: 
 
-A checkbox has a toggle mode so every checkbox component in the application remaining the same visually. It inherits colors from the definition of the theme, using primary color as the text content of the checkbox and accent color as a background of the box.
+* Multiple choices offered 
+* Binary response are requested (yes/no) 
+* Accepting conditions and additional features
 
-### Modes
-
-As it is pointing in the description, the checkbox is a component that can get two defined modes, selected when the option wants to be added or included or unselected when the option should not be included. These options are mapping accordingly with the boolean values true and false.
-Modes: **selected** or **unselected**.
-
-![Checkbox modes](images/checkbox_modes.png)
 
 ### States
 
 The following states are defined in the life cycle of the component: **enabled**, **hover**, **focus** and **disabled**.
 
 ![Checkbox states](images/checkbox_states.png)
-
-
-
 
 
 ## Design Specifications
@@ -153,7 +146,8 @@ When not checked, it has state aria-checked set to false.
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/2fc249e5-ca58-4175-acf6-2a214df877b7/variables/
+- [React CDK component](https://developer.dxc.com/tools/react/next/#/components/checkbox)
+- [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/checkbox)
 
 ____________________________________________________________
 
