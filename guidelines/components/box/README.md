@@ -10,7 +10,7 @@ There are different ways to organise the content on the webpage to facilitate th
 | Name          | Description
 | :------------ | :------------------------------------------------------------------------------------------------------------ |
 | **Bordered**  | Use this variant to encapsulate other elements and build clear distinctions between areas in the page layout  |
-| **Raised**    | Use this variant for dialogs (e.g. select or dropdown dialog)                                                 |
+| **Raised**    | Use this variant for dialogs (e.g. select or dropdown dialog) and clickable containers                        |
 
 ## Design specifications
 
