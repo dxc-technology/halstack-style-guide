@@ -86,22 +86,38 @@ The design specifications section provides developers the information needed to 
 _Design specifications for Breadcrumbs component_
 
 ### Color
+ 
+ ##### Base
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryBackgroundColor`            | Button container            | `Hal-White`              | #ffffff     |
+| `primaryFontColor`                  | Label                       | `Hal-Grey-S-40`            | #666666     | 
+
+ ##### Interactive
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `primaryActiveBackgroundColor`      | Container fill:active	    | `Hal-White`       | #ffffff     |
+| `primaryHoverFontColor`             | Label:hover                 | `Hal-Purple-S-38`            | #7D2FD0     |
+| `primaryActiveFontColor`            | Label:active                | `Hal-Grey-S-40`            | #666666      |
+
 
 
 ### Typography
 
 | Property            | Value     |
 | ------------------  | --------- |
-| `font-size`     |       1rem/16px |
-| `font-weight`     |       400 |
-| `line-height`     |       1.5em |
+| `font-size`         | 1rem/16px |
+| `font-weight`       |       400 |
+| `line-height`       |     1.5em |
 
 ### Padding
 
 | Property            | Value     |
 | ------------------  | --------- |
-| `padding-right`     |      24px |
-| `padding-left`      |      24px |
+| `padding-right`     |      8px |
+| `padding-left`      |      8px |
 
 ### Border
 
