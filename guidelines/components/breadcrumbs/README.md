@@ -23,19 +23,6 @@ Breadcrumbs never cause problems in user testing; people might overlook this sma
 - Know your audience.
 
 
-## Variants
-
-Variants: **Arrow** - Options can be followed by arrow symbol
-**Arrow with drop down** - Options can be followed by arrow symbol and dropdown appears in between if options increases
-**Arrow with drop down** - Options can be followed by arrow symbol and dropdown appears in box icon which takes place at start if options increases
-
-![Variants image](path to the image)
-
-_Image caption_
-
-If the component has no variants this section can be removed.
-
-
 ## States
 ### to be done
 The states are the different behaviors of the button component based on the interaction of the user.
@@ -45,18 +32,22 @@ Define the different states for the component if there are any.
 
 States: **State 1**, **state 2**
 
-![States image](path to the image)
+![Breadcrumbs component states](images/breadcrumbs_states.png "Breadcrumbs component states")
+_Breadcrumbs component states_
 
-_Image caption_
+![Breadcrumbs component breadcrumbs_states_dropdown](images/breadcrumbs_states_dropdown.png "Breadcrumbs component breadcrumbs_states_dropdown")
+_Breadcrumbs component breadcrumbs_states_dropdown_
+
+![Example of the breadcrumbs component breadcrumbs_expanded](images/breadcrumbs_expanded.png "Example of the breadcrumbs component breadcrumbs_expanded")
+_Example of the breadcrumbs component breadcrumbs_expanded_
 
 
 ## Anatomy
 ### Placement
 Breadcrumbs are placed in the top left portion of the page. They sit underneath the header and navigation, but above the page title.
 
-![Anatomy image](path to the image)
-
-_Image caption_
+![Example of the breadcrumbs component anatomy](images/breadcrumbs_anatomy.png "Example of the breadcrumbs component anatomy")
+_Example of the breadcrumbs component anatomy_
 
 1. Element 1
 2. Element 2
@@ -91,9 +82,8 @@ Attribute-based breadcrumb lists the categories to the specific page or most oft
 
 The design specifications section provides developers the information needed to apply the correct visual properties of the component.
 
-![Specs image](path to the image)
-
-_Image caption_
+![Design specifications for Breadcrumbs component](images/breadcrumbs_specs.png "Design specifications for Breadcrumbs component")
+_Design specifications for Breadcrumbs component_
 
 ### Color
 
