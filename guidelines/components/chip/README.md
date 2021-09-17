@@ -24,31 +24,49 @@ _Component chip design specifications_
 
 ### Color
 
+#### On-light
+
 | Component token           | Element                   | Token                   | Value     |
 | :------------------------ | :------------------------ | :---------------------- | :-------- |
 | `backgroundColor`         | Chip container            | `color-grey-200`        | #e6e6e6   |
 | `disabledBackgroundColor` | Chip container:disabled   | `color-grey-100`        | #f2f2f2   |
 | `fontcolor`               | Label                     | `color-black`           | #000000	  |
-| `fontcolor`               | Label:disabled            | `color-grey-500`        | #999999	  |
-| `focusColor`              | Focus outline             | `color-blue-800`        | #0067b3	  |
+| `disabledFontcolor`       | Label:disabled            | `color-grey-500`        | #999999	  |
+| `focusColor`              | Focus outline             | `color-blue-600`        | #0095ff	  |
 | `iconColor`               | Icon                      | `color-black`           | #000000	  |
-| `iconColor`               | Icon:disabled             | `color-grey-500`        | #999999	  |
+| `disabledIconColor`       | Icon:disabled             | `color-grey-500`        | #999999	  |
+
+#### On-dark
+
+| Component token                 | Element                   | Token                   | Value     |
+| :------------------------------ | :------------------------ | :---------------------- | :-------- |
+| `backgroundColorOnDark`         | Chip container            | `color-grey-700`        | #666666   |
+| `disabledBackgroundColorOnDark` | Chip container:disabled   | `color-grey-800`        | #4d4d4d   |
+| `fontcolorOnDark`               | Label                     | `color-white`           | #ffffff	  |
+| `disabledfontcolorOnDark`       | Label:disabled            | `color-grey-500`        | #999999	  |
+| `focusColorOnDark`              | Focus outline             | `color-blue-600`        | #0095ff	  |
+| `iconColorOnDark`               | Icon                      | `color-white`           | #ffffff	  |
+| `iconColorOnDark`               | Icon:disabled             | `color-grey-500`        | #999999	  |
 
 
-### Size
+### Typography
 
-| Property		    | Element			                  | Value		      |
-| --------------- | ----------------------------- | -------------	|
-| `min-height`		| Chip container		            | 40px		      |
-| `height`		    | Prefix/Suffix		              | 24px		      |
-| `width`		      | Prefix/Suffix				          | 24px		      |
+| Component token          | Element          | Core token                 | Value                      |
+| :----------------------- | :--------------- | :------------------------- | :------------------------- |
+| `fontFamily`             | Label            | `font-family-sans`         | 'Open Sans', sans-serif    |
+| `fontSize`               | Label            | `font-scale-03`            | 1rem / 16px                |
+| `fontStyle`              | Label            | `font-style-normal`        | normal                     |
+| `fontWeight`             | Label            | `font-weight-regular`      | 400                        |
 
 ### Spacing
 
-| Property		          | Element		            | Value	|
-| ---------------------	| --------------------- | ----- |
-| `padding-left/right`	| Chip container		    | 16px	|
-| `margin`	            | Prefix/Suffix			    | 8px	  |
+| Component token		        | Element		            | Core token      | Value	          |
+| :-----------------------	| :-------------------- | :-------------- | :-------------- |
+| `labelMarginLeft`	        | Label		              | `spacing-03`    | 0.5rem / 8px	  |
+| `labelMarginRight`	      | Label		              | `spacing-03`    | 0.5rem / 8px	  |
+| `containerPaddingLeft`	  | Container		          | `spacing-03`    | 0.5rem / 8px	  |
+| `containerPaddingRight`	  | Container		          | `spacing-03`    | 0.5rem / 8px	  |
+
 
 
 ### Border
@@ -63,13 +81,11 @@ _Component chip design specifications_
 | `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 
-### Typography
+### Size
 
-| Property  	  | Element	  | Value	|
-| ------------- | --------- | ----- |
-| `font-size`	  | Label 	  | 16px	|
-| `font-weight`	| Label		  | 400	  |
-
+| Component token		        | Element		            | Core token          | Value	          |
+| :-----------------------	| :-------------------- | :------------------ | :-------------- |
+| `iconSize`  		          | Prefix/Suffix		      | `size-icon-large`	  | 24x24px         |
 
 
 ## Links and references
