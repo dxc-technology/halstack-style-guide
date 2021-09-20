@@ -10,11 +10,26 @@ Chips are elements that represent status, complementary information, or associat
 
 ## States
 
-The chip component states are: **enabled** and **disabled**:
+The chip component container states are: **enabled** and **disabled**:
 
-![Chip prefix and suffix states](images/chip_states.png)
+![Chip container states](images/chip_states_container.png)
 
-_Chip component states_
+_Chip container states_
+
+The chip action item has the following states: **enabled**, **hover**, **focus**, **active**, and **disabled**:
+
+![Chip prefix and suffix states](images/chip_states_action.png)
+
+_Chip prefix and suffix states_
+
+## Anatomy
+
+![Ccomponent anatomy](images/chip_anatomy.png)
+
+1. Container
+2. Prefix _(Optional)_
+3. Label
+4. Suffix _(Optional)_
 
 ## Design Specifications
 
@@ -42,11 +57,11 @@ _Component chip design specifications_
 | :------------------------------ | :------------------------ | :---------------------- | :-------- |
 | `backgroundColorOnDark`         | Chip container            | `color-grey-700`        | #666666   |
 | `disabledBackgroundColorOnDark` | Chip container:disabled   | `color-grey-800`        | #4d4d4d   |
-| `fontcolorOnDark`               | Label                     | `color-white`           | #ffffff	  |
-| `disabledfontcolorOnDark`       | Label:disabled            | `color-grey-500`        | #999999	  |
-| `focusColorOnDark`              | Focus outline             | `color-blue-600`        | #0095ff	  |
-| `iconColorOnDark`               | Icon                      | `color-white`           | #ffffff	  |
-| `iconColorOnDark`               | Icon:disabled             | `color-grey-500`        | #999999	  |
+| `fontcolorOnDark`               | Label                     | `color-white`           | #ffffff   |
+| `disabledfontcolorOnDark`       | Label:disabled            | `color-grey-500`        | #999999	|
+| `focusColorOnDark`              | Focus outline             | `color-blue-600`        | #0095ff	|
+| `iconColorOnDark`               | Icon                      | `color-white`           | #ffffff	|
+| `iconColorOnDark`               | Icon:disabled             | `color-grey-500`        | #999999	|
 
 
 ### Typography
@@ -60,12 +75,12 @@ _Component chip design specifications_
 
 ### Spacing
 
-| Component token		        | Element		            | Core token      | Value	          |
-| :-----------------------	| :-------------------- | :-------------- | :-------------- |
-| `labelMarginLeft`	        | Label		              | `spacing-03`    | 0.5rem / 8px	  |
-| `labelMarginRight`	      | Label		              | `spacing-03`    | 0.5rem / 8px	  |
-| `containerPaddingLeft`	  | Container		          | `spacing-03`    | 0.5rem / 8px	  |
-| `containerPaddingRight`	  | Container		          | `spacing-03`    | 0.5rem / 8px	  |
+| Component token		    | Element		        | Core token      | Value	          |
+| :-----------------------	| :-------------------- | :-------------- | :---------------- |
+| `labelMarginLeft`	        | Label		            | `spacing-03`    | 0.5rem / 8px	  |
+| `labelMarginRight`	    | Label		            | `spacing-03`    | 0.5rem / 8px	  |
+| `containerPaddingLeft`	| Container		        | `spacing-03`    | 0.5rem / 8px	  |
+| `containerPaddingRight`	| Container		        | `spacing-03`    | 0.5rem / 8px	  |
 
 
 
@@ -83,9 +98,9 @@ _Component chip design specifications_
 
 ### Size
 
-| Component token		        | Element		            | Core token          | Value	          |
+| Component token		    | Element		        | Core token          | Value	        |
 | :-----------------------	| :-------------------- | :------------------ | :-------------- |
-| `iconSize`  		          | Prefix/Suffix		      | `size-icon-large`	  | 24x24px         |
+| `iconSize`  		        | Prefix/Suffix		    | `size-icon-large`	  | 24x24px         |
 
 
 ## Links and references
