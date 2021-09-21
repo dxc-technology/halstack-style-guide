@@ -1,5 +1,45 @@
 # Changelog
 
+## 3.8.0 (21/09/2021)
+
+#### Documentation:
+
+-  [Chip] Update component documentation to new template [#513](https://github.com/dxc-technology/halstack-style-guide/issues/513)
+-  [Upload] Images update [#511](https://github.com/dxc-technology/halstack-style-guide/issues/511)
+-  [Toggle-group] Update component documentation to new template [#501](https://github.com/dxc-technology/halstack-style-guide/issues/501)
+-  [Button] Variant tokens update [#499](https://github.com/dxc-technology/halstack-style-guide/issues/499)
+-  [Wizard] Update component documentation to new template [#489](https://github.com/dxc-technology/halstack-style-guide/issues/489)
+-  [Switch] Update component documentation to new template [#488](https://github.com/dxc-technology/halstack-style-guide/issues/488)
+-  [Switch] Images update [#487](https://github.com/dxc-technology/halstack-style-guide/issues/487)
+-  [Checkbox] Update component documentation to new template [#476](https://github.com/dxc-technology/halstack-style-guide/issues/476)
+-  [Text-area] Component documentation [#470](https://github.com/dxc-technology/halstack-style-guide/issues/470)
+-  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
+-  [Textarea] Color specs update [#378](https://github.com/dxc-technology/halstack-style-guide/issues/378)
+-  [Chip] Color specs update [#348](https://github.com/dxc-technology/halstack-style-guide/issues/348)
+-  [Wizard] Images update [#339](https://github.com/dxc-technology/halstack-style-guide/issues/339)
+-  [Toggle] Images update [#338](https://github.com/dxc-technology/halstack-style-guide/issues/338)
+-  [Dialog] Images update [#336](https://github.com/dxc-technology/halstack-style-guide/issues/336)
+-  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
+-  [Footer] Documentation fixes [#322](https://github.com/dxc-technology/halstack-style-guide/issues/322)
+-  [Switch] Color specs update [#309](https://github.com/dxc-technology/halstack-style-guide/issues/309)
+-  [Wizard] Color specs update [#308](https://github.com/dxc-technology/halstack-style-guide/issues/308)
+-  [Toggle] Color specs update [#307](https://github.com/dxc-technology/halstack-style-guide/issues/307)
+-  [Button] Color specs update [#295](https://github.com/dxc-technology/halstack-style-guide/issues/295)
+
+#### UI-Kit:
+
+-  [Text-area] UI-Kit component [#471](https://github.com/dxc-technology/halstack-style-guide/issues/471)
+
+#### Fixes:
+
+- [Switch] Component specs [#225](https://github.com/dxc-technology/halstack-style-guide/issues/225)
+
+#### Site
+
+-  [Site] Design tokens page [#486](https://github.com/dxc-technology/halstack-style-guide/issues/486)
+
+---
+
 ## 3.7.0 (06/09/2021)
 
 #### Documentation:
