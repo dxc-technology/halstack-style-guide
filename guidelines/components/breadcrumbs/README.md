@@ -1,17 +1,13 @@
-# Bread crumbs
+# Breadcrumbs
 
-The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels.
-
-In simple terms, a breadcrumb is a footprint that helps a visitor navigate a website in an organized way.
-In technical terms, a breadcrumb is a navigational element used to indicate the current page the user is relative to the page's hierarchy.
-Breadcrumbs never cause problems in user testing; people might overlook this small design element, but they never misinterpret breadcrumb trails or have trouble operating them.
+The breadcrumbs component is a navigational element that help users to understand where they are within a website’s structure and move between levels. The component is location based, illustrates the hierarchy of the page.
 
 
 ## Usage
 
 - Use the breadcrumbs component when you need to help users understand and move between the multiple levels of a website.
-- Only use breadcrumb navigation if it makes sense for your site's structure which can be 3 levels of hierarchy, more then that it can be in dropdown. 
-- Include the full navigational path in your breadcrumb navigation. it should be clean and uncluttered in application hierarchy.
+- Only use breadcrumb navigation when your site page depth is bigger than 3. 
+- Include the full navigational path in your breadcrumb navigation. It should be clean and uncluttered in application hierarchy.
 - Progress from highest level to lowest.
 - Keep your breadcrumb titles consistent with your page titles.
 
@@ -22,69 +18,75 @@ Breadcrumbs never cause problems in user testing; people might overlook this sma
 The states are the different behaviors of the button component based on the interaction of the user.
 Different states for the component are below
 
-### Breadcrumb path order
-![Breadcrumbs component states](images/breadcrumbs_states.png "Breadcrumbs component states")
-_Breadcrumbs component states_
+### Breadcrumb path link
+![Breadcrumbs path link element states](images/breadcrumbs_states.png "Breadcrumbs component states")
+
+_Breadcrumbs path link element states_
 
 
 ### Breadcrumbs dropdown
-![Breadcrumbs component breadcrumbs_states_dropdown](images/breadcrumbs_states_dropdown.png "Breadcrumbs component breadcrumbs_states_dropdown")
-_Breadcrumbs component breadcrumbs_states_dropdown_
+![Breadcrumbs dropdown item_states](images/breadcrumbs_states_dropdown.png "Breadcrumbs component breadcrumbs_states_dropdown")
+
+_Breadcrumbs dropdown item_states_
 
 
 ## Anatomy
-### Placement
-Breadcrumbs are placed in the top left portion of the page. They sit underneath the header and navigation, but above the page title.
 
 ![Example of the breadcrumbs component anatomy](images/breadcrumbs_anatomy.png "Example of the breadcrumbs component anatomy")
-_Example of the breadcrumbs component anatomy_
 
 1. **Breadcrumbs dropdown**
 2. **Separator**
 3. **Breadcrumbs path**
 4. **Breadcrumbs expanded list**
 
+## Placement
 
-## Location Based
-These illustrate the site’s hierarchy and show the user where they are within that hierarchy.
-Location-based breadcrumbs are a representation of a site’s structure. They help visitors understand and navigate your site’s hierarchy, which has multiple levels (usually more than two levels). This type of breadcrumb is very supportive for visitors who enters the site on a deeper level from an external source (e.g. search engine results).
+Breadcrumbs are placed in the top left portion of the page. They sit underneath the header and navigation, but above the page title.
+
+![Image example of the placement]()
+
 
 
 ## Design specifications
 
-The design specifications section provides developers the information needed to apply the correct visual properties of the component.
-
 ![Design specifications for Breadcrumbs component](images/breadcrumbs_specs.png "Design specifications for Breadcrumbs component")
+
 _Design specifications for Breadcrumbs component_
 
 ### Color
  
- ##### Base
+##### Base
 
-| Component token                     | Element                     | Token                    | Value       |
-| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `primaryBackgroundColor`            | Button container            | `Hal-White`              | #ffffff     |
-| `primaryFontColor`                  | Label                       | `Hal-Grey-S-40`            | #666666     | 
+| Component token                     | Element                     | Token                       | Value       |
+| :---------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `FontColor`                         | Path link                   | `color-grey-700`            | #666666     | 
+
+
 
  ##### Interactive
 
-| Component token                     | Element                     | Token                    | Value       |
-| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `primaryActiveBackgroundColor`      | Container fill:active	    | `Hal-White`       | #ffffff     |
-| `primaryHoverFontColor`             | Label:hover                 | `Hal-Purple-S-38`            | #7D2FD0     |
-| `primaryActiveFontColor`            | Label:active                | `Hal-Grey-S-40`            | #666666      |
-
-
+| Component token                      | Element                     | Token                       | Value       |
+| :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `unselectedFontColor`                | Path link                   | `color-grey-700`            | #666666     | 
+| `unselectedHoverFontColor`           | Path link:hover             | `color-purple-600`          | #7d2fd0     | 
+| `unselectedActiveFontColor`          | Path link:active            | `color-purple-700`          | #5f249f     | 
+| `selectedFontColor`                  | Path link                   | `color-purple-700`          | #5f249f     | 
+| `selectedHoverFontColor`             | Path link:hover             | `color-purple-600`          | #7d2fd0     |  
+| `focusColor`                         | Path link:focus             | `color-blue-600`            | #0095ff     | 
 
 ### Typography
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `font-size`         | 1rem/16px |
-| `font-weight`       |       400 |
-| `line-height`       |     1.5em |
+| Component token                      | Element                     | Token                       | Value       |
+| :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `FontFamily`                         | Path link                   | `font-family-sans`          | 'Open Sans', sans-serif | 
+| `FontSize`                           | Path link                   | `font-scale-03`             | 1rem / 16px | 
+| `FontWeight`                         | Path link                   | `font-weight-regular`       | 400         |  
+| `unselectedActiveFontWeight`         | Path link:active            | `font-weight-semibold`      | 600         | 
+| `selectedFontWeight`                 | Path link                   | `font-weight-semibold`      | 600         | 
+| `LineHeight`                         | Path link                   | `font-leading-normal`       | 1.5rem      | 
 
-### Padding
+
+### Spacing
 
 | Property            | Value     |
 | ------------------  | --------- |
@@ -99,9 +101,6 @@ _Design specifications for Breadcrumbs component_
 | `border-width`      |       1px |
 | `border-width` focus outline      |       2px |
 
-
-
-### Spacing
 
 
 
