@@ -19,10 +19,6 @@
     {
       "key": "layout",
       "name": "Layout"
-    },
-    {
-      "key": "design tokens",
-      "name": "Design Tokens"
     }
   ],
   "components": [

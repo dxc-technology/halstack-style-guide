@@ -76,6 +76,41 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `overlayColor`                | Overlay                     | -                           |   #000000B3   |
 
 
+### Typography
+
+| Component token                             | Element                      | Core token             | Value                     |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
+| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Label                        | `font-scale-01`        | 0.75rem / 12px            | 
+| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
+| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
+| `contentFontSize`                           | Content                      | `font-scale-01`        | 0.75rem / 12px            |
+| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
+
+
+### Border
+
+| Component token                             | Element                      | Core token                 | Value             |
+| :------------------------------------------ | :--------------------------- | :------------------------- | :---------------- |
+| `borderRadius`                              | Container border             | `border-radius-medium`     | 0.25rem / 4px     | 
+| `borderThickness`                           | Container border             | `border-width-1`           | 1px               |
+| `borderStyle`                               | Container border             | `border-style-solid`       | solid             |
+
+### Spacing
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `containerPaddingLeft`                      | Container                    | `spacing-04`           | 0.75rem / 12px    | 
+| `containerPaddingRight`                     | Container                    | `spacing-04`           | 0.75rem / 12px    | 
+| `titlePaddingRight`                         | Label                        | `spacing-03`           | 0.5rem / 8px      |
+| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 0.5rem / 8px      |
+| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 3rem / 48px       |
+
+### Iconography
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `iconSize`                                  | Icon                         | `-`                    | 24x24px | 
 
 ### Width
 
@@ -91,43 +126,6 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | `large`          |  820px           |  
 | `fillParent`    |  -                   | 
 | `fitContent`  |  -                   | 
-
-
-### Typography
-
-| Component token                             | Element                      | Core token             | Value                     |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `font-scale-01`        | 12px                      | 
-| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `font-scale-01`        | 12px                      |
-| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
-
-
-### Border
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `borderRadius`                              | Container border             | `border-radius-02`     | 4px     | 
-| `borderThickness`                           | Container border             | `border-width-01`      | 1px     |
-
-
-### Spacing
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `containerPaddingLeft`                      | Container                    | `spacing-04`           | 12px    | 
-| `containerPaddingRight`                     | Container                    | `spacing-04`           | 12px    | 
-| `titlePaddingRight`                         | Label                        | `spacing-03`           | 8px     |
-| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 8px     |
-| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 48px    |
-
-### Iconography
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `iconSize`                                  | Icon                         | `-`                    | 24x24px | 
 
 
 ## Accessibility

@@ -60,11 +60,19 @@ padding | value
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+
+
 ### Specifications for desktop and tablet (landscape mode)
 
 | Property               |  value |
 | ---------------------  | ----------------- |
-| `border-radius`        |               4px |
 | `min-width`            |             800px |
 | `max-width`            |               80% |
 | Title `font-size`      |              24px |

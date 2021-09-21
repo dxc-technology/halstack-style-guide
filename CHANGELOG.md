@@ -1,5 +1,37 @@
 # Changelog
 
+## 3.7.0 (06/09/2021)
+
+#### Documentation:
+
+-  [Checkbox] Color specs update [#477](https://github.com/dxc-technology/halstack-style-guide/issues/477)
+-  [Checkbox] Update component documentation to new template [#476](https://github.com/dxc-technology/halstack-style-guide/issues/476)
+-  [Accordion] Remove heading anchors [#474](https://github.com/dxc-technology/halstack-style-guide/issues/474)
+-  [Input-number] Component documentation [#466](https://github.com/dxc-technology/halstack-style-guide/issues/466)
+-  [Color] Remove S, D and L color references from docs [#464](https://github.com/dxc-technology/halstack-style-guide/issues/464)
+-  [Upload] Images update [#429](https://github.com/dxc-technology/halstack-style-guide/issues/429)
+-  [Upload] Update component documentation to new template [#428](https://github.com/dxc-technology/halstack-style-guide/issues/428)
+-  [Docs] Content contribution guidelines [#316](https://github.com/dxc-technology/halstack-style-guide/issues/316)
+-  [Upload] Color specs update [#310](https://github.com/dxc-technology/halstack-style-guide/issues/310)
+-  [Docs] Design contribution guidelines [#278](https://github.com/dxc-technology/halstack-style-guide/issues/278)
+
+#### UI-Kit:
+
+-  [UI-Kit] Update component naming [#481](https://github.com/dxc-technology/halstack-style-guide/issues/481)
+-  [Checkbox] Component spacing and sizing [#478](https://github.com/dxc-technology/halstack-style-guide/issues/478)
+-  [Input-number] Ui-Kit component [#467](https://github.com/dxc-technology/halstack-style-guide/issues/467)
+-  [Upload] Update UI-Kit component [#431](https://github.com/dxc-technology/halstack-style-guide/issues/431)
+
+#### Fixes:
+
+-  [Upload] Component specs [#190](https://github.com/dxc-technology/halstack-style-guide/issues/190)
+
+#### Site
+
+-  [Site] Add new components to `ignoreLabels` [#463](https://github.com/dxc-technology/halstack-style-guide/issues/463)
+
+---
+
 ## 3.6.0 (23/08/2021)
 
 #### Documentation:

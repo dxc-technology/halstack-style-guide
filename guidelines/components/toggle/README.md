@@ -4,52 +4,97 @@ Toggle buttons can be used to put together related options that share a common a
 It allows the user to switch from one selected option to another in the same control, having one option selected at a time. Also, there can be another variation that allows selecting multiple options from the current toggle group.
 
 
-## Appearance
+## Usage
 
-The appearance of the toggle looks like button component, because it is based on the same specifications to keeping consistency along with the application, but in this case are offered fewer visual modes.
+Toggles should be used in place of radio buttons whenever the options are:
 
-![Toggle appearance](images/toggle_appearance.png)
+* Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required
+* Opposites of each other
 
-## Modes
+## Variants
 
-The selection of the toggle group can be mutually exclusive or multiple. Depending on the context a user may need to select more than one option at once.
+![Toggle component single and multiple variants](images/toggle_variants.png)
+
+_Toggle component single and multiple variants_
+
+The selection of the toggle group can be mutually exclusive (single variant) or multiple (multiple variant).
 
 ## States
 
 Different states are defined in the life cycle of the component:
-__Enabled__, __Hover__, __selected__ and __disabled__.
+**Unselected enabled**, **unselected hover**, **unselected focus**, **unselected active**, **unselected disabled**, **selected enabled**, **selected hover**, **selected focus**, **selected active** and **selected disabled**
 
-![Toggle states](images/toggle_states.png)
+![Toggle button states example](images/toggle_states.png)
 
-## Design tokens
+_Toggle button states example_
 
-| Token          | Value|
-|--------------------|------|
-| `selectedBackgroundColor` |  #5f249f |
-| `selectedBackgroundHoverColor` | #000000 |
-| `selectedFontColor` | #FFFFFF |
-| `selectedHoverFontColor` | #FFFFFF |
-| `unselectedBackgroundColor` | #D9D9D9 |
-| `unselectedBackgroundHoverColor` | #EEEEEE |
-| `unselectedFontColor` | #000000 |
-| `unselectedHoverFontColor` | #000000 |
-| `disabledSelectedBackgroundColor` | #D0BDDB |
-| `disabledSelectedFontColor` | #FFFFFF |
-| `disabledUnselectedBackgroundColor` | #F2F2F2 |
-| `disabledUnselectedFontColor` | #B1B1B1 |
 
+## Anatomy
+
+![Toggle component anatomy](images/toggle_anatomy.png)
+
+1. Container
+2. Label/Icon
+
+
+## Icon Usage
+
+Inside the toggle button, it is possible to use icons to represent recognizable actions. The specifications for icon usage differs a little bit in relation to text usage. The size of the icons should be 24 by 24 pixels, it must be centered respecting to the box that contains it vertically and horizontally. 
 
 
 ## Design Specifications
 
-![Toggle specifications](images/toggle_specs.png)
+![Toggle design specifications](images/toggle_specs.png)
+
+_Toggle design specifications_
+### Color
+
+| Component token                     | Element                     | Token                    | Value       |
+| :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `unselectedBackgroundColor`         | Container fill:enabled	    | `color-grey-200`         | #e6e6e6     |
+| `unselectedHoverBackgroundColor`    | Container fill:hover	    | `color-grey-300`         | #cccccc     |
+| `unselectedActiveBackgroundColor`   | Container fill:active	    | `color-purple-700`       | #5f249f     |
+| `unselectedDisabledBackgroundColor` | Container fill:disabled	    | `color-grey-100`         | #f2f2f2     |
+| `unselectedFontColor`               | Label	                    | `color-black`            | #000000     |
+| `unselectedDisabledFontColor`       | Label:disabled	            | `color-grey-500`         | #999999     |
+| `selectedBackgroundColor`           | Container fill:enabled	    | `color-purple-700`       | #5f249f     |
+| `selectedHoverBackgroundColor`      | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
+| `selectedActiveBackgroundColor`     | Container fill:active	    | `color-purple-900`       | #321353     |
+| `selectedDisabledBackgroundColor`   | Container fill:disabled	    | `color-purple-100`       | #f2eafa     |
+| `selectedFontColor`                 | Label	                    | `color-white`            | #ffffff     |
+| `selectedDisabledFontColor`         | Label:disabled	            | `color-purple-300`       | #cbacec     |
+| `focusColor`                        | Border:focus	            | `color-blue-600`         | #0095ff     |
+
+### Typography
+
+| Component token                     | Element              | Token                           | Value                       |
+| :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
+| `fontFamily`                        | Label	             | `font-family`                   | 'Open Sans', sans-serif     |
+| `fontSize`                          | Label	             | `font-scale-03`                 | 1rem / 16px                 |
+| `fontStyle`                         | Label	             | `font-style-normal`             | normal                      |
+| `fontWeight`                        | Label	             | `font-weight-regular`           | 400                         |
 
 
-### Size
+### Spacing
 
-| Property           | Value|
-|--------------------|------|
-| Min. height| `43px` |
+| Component token                     | Element              | Token                           | Value                       |
+| :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
+| `iconPaddingRight`                  | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
+| `iconPaddingLeft`                   | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
+| `labelPaddingLeft`                  | Label	             | `spacing-06`                    | 1.5rem / 24px               |
+| `labelPaddingRight`                 | Label	             | `spacing-06`                    | 1.5rem / 24px               |
+
+
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Focus border     | `border-width-2`           | 2                |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
 
 ### Margin
 
@@ -66,49 +111,10 @@ margin | value
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-
-### Padding
-
-Padding | value
--- | --
-| `padding` right/left (item)| 30px |
-| `padding` top/bottom (item)| 12px |
-
-
-
-### Border
-
-| Property           | Value|
-|--------------------|------|
-| `border-radius` | 4px |
-| `border-thickness`| 2px |
-
-### Typography
-
-| Property           | Value|
-|--------------------|------|
-| `font-size`| 14px |
-| `font-weight`| Regular |
-
-## Icon Usage
-
-Inside the toggle button, it is possible to use icons to represent recognizable actions.
-The specifications for icon usage differs a little bit in relation to text usage.
-
-The size of the icons should be 20 by 20 pixels, it must be centered respecting to the box that contains it vertically and horizontally. 
-The ideal padding for each option is 10 pixels for top and bottom and 12 pixels to right and left sides.
-
-The behavior in regard to colors and interactions are the same that for the previous.
-
-## User Interface Design Considerations
-
-Toggles should be used in place of radio buttons whenever the options are
-- Minimal in number, i.e. 3 or 4 maximum choices where only one selction is required
-- Opposites of each other
-
-
 ## Links and references
-https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/badbf3be-4d04-4189-a99d-43e37ed4afc9/variables/
+
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/toggleGroup)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/toggleGroup)
 
 ____________________________________________________________
 

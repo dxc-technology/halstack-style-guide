@@ -68,7 +68,9 @@ _Footer component design specs_
 | `font-size`	  |   Titles      	          |  1rem/16px      |
 | `font-size`   |   Links   	              |  0.875rem/14px  |
 | `font-size`   |   Copy-write              |  0.75rem/12px   |
+| `line-height` |   Copy-write              |  1.25rem        |
 | `font-size`   |   Terms & company links   |  0.75rem/12px   |
+| `line-height` |   Terms & company links   |  1.25rem        |
 | `font-weight`	|   Titles      	          |  600            |
 | `font-weight`	|   Links	                  |  400            |
 
@@ -88,15 +90,21 @@ _Footer component design specs_
 | `max-height`  |   DXC logo    |   32px    |
 
 
-### Custom container - (Terms & Company Links)
+### Terms & Company Links
+
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `min height`             | Links container        | `-`                        | 20px             |
+| `padding-top`            | Links container        | `spacing-03`               | 0.5rem / 8px     |
+| `border-width`           | Links separator        | `border-width-1`           | 1px              |
+| `border-style`           | Links separator        | `border-style-solid`       | solid            |
+
+
+### Custom content
 
 | Property        |   Element     	    |   Value   		        |
 | --------------- | ------------------- | --------------------- |
 | `min-height`   	|   Custom container	|   16px    		        |
-| `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   8px     		        |
-| `border`	      |   Links separator	  |   1px solid #1489fb	  |
-
 
 The content of the footer should be adapt to the space available depending on the screen device.
 
