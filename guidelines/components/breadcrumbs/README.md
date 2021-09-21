@@ -106,17 +106,15 @@ _Design specifications for Breadcrumbs component_
 
 ## Accesibility
 
-Add WCAG success criterion and WAI-ARIA design pattern and example when available
-
 ### WCAG 
 
-* Understanding WCAG 2.2 - [SC x.x name of the succes criterion](url)
+* Understanding WCAG 2.2 - [SC 2.4.4 Link Purpose (In Context)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context)
+* Understanding WCAG 2.2 - [SC 3.2.3 Consistent Navigation](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation)
 
 ### WAI-ARIA
 
-* WAI-ARIA Authoring practices 1.2 - [x.x title of the section](url)
-* WAI-ARIA Authoring practices 1.2 - ["Name" design pattern](url)
-
+* WAI-ARIA Authoring practices 1.2 - [Breadcrumb design pattern](https://www.w3.org/TR/wai-aria-practices-1.2/#breadcrumb)
+* WAI-ARIA Authoring practices 1.2 - [Breadcrumb Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/breadcrumb/index.html)
 
 
 ## Best Practices
