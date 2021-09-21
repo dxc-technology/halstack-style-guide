@@ -33,7 +33,7 @@ _Example of an item hovered_
 
 ### Success and error
 
-Provide feedback to the users regarding the issues their files may face
+Provide feedback to the users regarding the issues their files may face, or indicate that the files upload was succesfull. An alert type `success` or `error` should be placed on the top right corner of the upload container.
 
 ![Component success feedback](images/upload_success.png)
 
@@ -42,19 +42,6 @@ _Component success feedback_
 ![Component error feedback](images/upload_error.png)
 
 _Component error feedback_
-
-
-## Design Specifications
-
-## Design tokens
-
-Cannot be possible to configure or customize any parameter of the component to apply a theming.
-
-Since this component has many specifications to be detailed here, the best way to share the information with the interested people is throw the adobe cloud link in the Links and references section.
-
-### Responsive design
-
-*This is pending*
 
 
 ## Links and references
