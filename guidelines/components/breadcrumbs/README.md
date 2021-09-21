@@ -39,12 +39,10 @@ Breadcrumbs are placed in the top left portion of the page. They sit underneath 
 ![Example of the breadcrumbs component anatomy](images/breadcrumbs_anatomy.png "Example of the breadcrumbs component anatomy")
 _Example of the breadcrumbs component anatomy_
 
-1. **Parent link - Directs users to the parent-level page.**
-2. **Separator Clearly distinguishes between each page.**
-3. **Breadcrumb options**
-4. **Dropdown for hidden options**
-5. **Selected option**
-6. **Hover**
+1. **Breadcrumbs dropdown**
+2. **Separator**
+3. **Breadcrumbs path**
+4. **Breadcrumbs expanded list**
 
 
 ## Location Based
