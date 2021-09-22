@@ -141,6 +141,7 @@ margin | value
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/radio)
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/radio)
+* [Adobe XD component](https://xd.adobe.com/view/e7d8044f-9f1e-4350-b66e-3b16217b2c54-b28b/)
 
 ____________________________________________________________
 
