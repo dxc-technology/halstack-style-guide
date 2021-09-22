@@ -21,7 +21,7 @@ The following states are defined in the life cycle of the component: **enabled**
 
 Radio buttons may be displayed vertically or horizontally stacked.
 
-![Radio button stacked layout](images/radio_stacked.png)
+![Radio button stacked layout](images/radio_stacking.png)
 
 ### Vertical stacking
 
