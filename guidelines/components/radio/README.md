@@ -50,25 +50,25 @@ _Component design specifications_
 
 #### On-light
 
-| Component token                   | Element           | Core token               | Value       |
-| :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `color`                           | Radio             | `color-blue-800`         | #0067b3     |
-| `hoverColor`                      | Radio:hover       | `color-blue-900`         | #003c66     |
-| `focusColor`                      | Radio:focus       | `color-blue-600`         | #0095ff     |
-| `disabledColor`                   | Radio:disabled    | `color-grey-500`         | #999999     |
-| `fontColor`                       | Label             | `color-black`            | #000000     |
-| `disabledFontColor`               | Label:disabled    | `color-grey-500`         | #999999     |
+| Component token                   | Element                 | Core token               | Value       |
+| :-------------------------------- | :---------------------- | :----------------------- | :---------- |
+| `color`                           | Radio input             | `color-blue-800`         | #0067b3     |
+| `hoverColor`                      | Radio input:hover       | `color-blue-900`         | #003c66     |
+| `focusColor`                      | Radio input:focus       | `color-blue-600`         | #0095ff     |
+| `disabledColor`                   | Radio input:disabled    | `color-grey-500`         | #999999     |
+| `fontColor`                       | Label                   | `color-black`            | #000000     |
+| `disabledFontColor`               | Label:disabled          | `color-grey-500`         | #999999     |
 
 #### On-dark
 
-| Component token                   | Element           | Core token               | Value       |
-| :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `colorOnDark`                     | Radio             | `color-white`            | #e6e6e6     |
-| `hoverColor`                      | Radio:hover       | `color-blue-900`         | #ffffff     |
-| `focusColorOnDark`                | Radio:focus       | `color-blue-600`         | #0095ff     |
-| `disabledColorOnDark`             | Radio:disabled    | `color-grey-500`         | #999999     |
-| `fontColorOnDark`                 | Label             | `color-white`            | #ffffff     |
-| `disabledFontColorOnDark`         | Label:disabled    | `color-grey-500`         | #999999     |
+| Component token                   | Element                 | Core token               | Value       |
+| :-------------------------------- | :---------------------- | :----------------------- | :---------- |
+| `colorOnDark`                     | Radio input             | `color-white`            | #e6e6e6     |
+| `hoverColor`                      | Radio input:hover       | `color-blue-900`         | #ffffff     |
+| `focusColorOnDark`                | Radio input:focus       | `color-blue-600`         | #0095ff     |
+| `disabledColorOnDark`             | Radio input:disabled    | `color-grey-500`         | #999999     |
+| `fontColorOnDark`                 | Label                   | `color-white`            | #ffffff     |
+| `disabledFontColorOnDark`         | Label:disabled          | `color-grey-500`         | #999999     |
 
 
 ### Typography
