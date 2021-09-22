@@ -72,6 +72,7 @@ _Component design specifications_
 | `font-family`   | Value          | `font-family-sans`      | Open Sans       |
 | `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
 | `font-weight`   | Value          | `font-regular`          | 400             |
+| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
 | `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
 | `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
 | `font-weight`   | Error message  | `font-weight-regular`   | 400             |
