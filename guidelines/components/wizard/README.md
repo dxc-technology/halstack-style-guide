@@ -191,6 +191,7 @@ _Example of wizard helper text_
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/wizard)
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/wizard)
+* [Adobe XD component](https://xd.adobe.com/view/0fb20018-c358-47d7-b863-32ea4dfbb091-5ae1/)
 
 ____________________________________________________________
 
