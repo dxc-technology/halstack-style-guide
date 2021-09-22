@@ -1,7 +1,6 @@
 # Radio button
 
-Radio buttons are elements that let the user select one option within a options group. It is the correct election when it has a list with six elements or fewer items, when the user needs to pick one mutually exclusive choice from the list.
-Clicking a non-selected radio button will deselect whatever other button was previously selected in the list.
+Radio buttons are UI elements that let the user make a mutually exclusive selection from a group of options.
 
 ## Usage
 
