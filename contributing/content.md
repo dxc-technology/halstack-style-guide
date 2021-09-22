@@ -9,7 +9,7 @@
 * [Anatomy](#anatomy)
 * [Design specifications](#design-specifications)
     * [Spec tables](#spec-tables)
-
+* [Accessibility](#accessibility)
 
 
 ## Markdown
@@ -159,7 +159,7 @@ Example of a component specs table:
 ```
 
 | Property        | Element          | Core token  | Value     |
-| --------------- | ---------------- | ----------- | --------- |
+| :-------------- | :--------------- | :---------- | :-------- |
 | `property-1`    | Element-1        | `token-1`   | value-1   |
 | `property-2`    | Element-2        | `token-2`   | value-2   |
 | `property-3`    | Element-3        | `token-3`   | value-3   |
@@ -170,7 +170,7 @@ If the component has specific tokens for the properties that affect the elements
 ```
 
 | Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
+| :---------------- | :--------------- | :---------- | :-------- |
 | `token-1`         | Element-1        | `token-1`   | value-1   |
 | `token-2`         | Element-2        | `token-2`   | value-2   |
 | `token-3`         | Element-3        | `token-3`   | value-3   |
