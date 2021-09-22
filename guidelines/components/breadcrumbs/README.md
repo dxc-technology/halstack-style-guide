@@ -109,6 +109,7 @@ _Design specifications for Breadcrumbs component_
 ### WCAG 
 
 * Understanding WCAG 2.2 - [SC 2.4.4 Link Purpose (In Context)](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context)
+* Understanding WCAG 2.2 - [SC 2.4.8 Location](https://www.w3.org/WAI/WCAG22/Understanding/location.html)
 * Understanding WCAG 2.2 - [SC 3.2.3 Consistent Navigation](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation)
 
 ### WAI-ARIA
