@@ -13,31 +13,39 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 
 ## States
 
-The following states are defined in the life cycle of the component: **enabled**, **focus** and **disabled**.
+The following states are defined in the life cycle of the component: **Unselected enabled**, **unselected hover** **unselected focus**, **unselected disabled**, **selected enabled**, **selected hover**, **selected focus** and **selected disabled**.
 
-![Radio button states](images/radio_states.png)
+![Radio button component states](images/radio_states.png)
 
-## Stack
+_Radio button component states_
 
-Radio buttons may be displayed vertically or horizontally stacked.
+## Anatomy
 
-![Radio button stacked layout](images/radio_stacking.png)
+![Radio button component anatomy](images/radio_anatomy.png)
 
-### Vertical stacking
+1. Radio input
+2. Label
 
-Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read.
-With this option, try to make one choice per line. Also, avoid nesting whenever is possible, all options should be keep at same level to not generate confusion.
+## Stacking
 
-### Horizontal stacking
+![Radio button stacking options](images/radio_stacking.png)
 
-Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize, sometime a vertical position could be better.
+_Radio button stacking options_
 
-In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
+
+| Name                  | Description           
+| :-------------------- | :---------------- 
+| Vertical              | Short lists of radio buttons should be stacked vertically below a descriptive label to better associate the group. Options that are listed vertically are easier to read |
+| Horizontal            | Multiple radio buttons may be displayed horizontally across the page while keeping them aligned within their respective columns. Here, it is needed to have in consideration that the linear radio buttons represent some challenge, because it's difficult to scan and localize |
+
+*In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
 
 
 ## Design Specifications
 
-![Radio button specifications](images/radio_specs.png)
+![Component design specifications](images/radio_specs.png)
+
+_Component design specifications_
 
 ### Color
 
@@ -45,31 +53,62 @@ In any case, in the specification it is specified the ideal distance between com
 
 | Component token                   | Element           | Core token               | Value       |
 | :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `color`                           | Radio             | `color-black`            | #000000     |
-| `focusColor`                      | Radio:focus       | `color-blue-800`         | #0067b3     |
-| `disabledColor`                   | Radio:disabled    | `color-grey-400`         | #bfbfbf     |
+| `color`                           | Radio             | `color-blue-800`         | #0067b3     |
+| `hoverColor`                      | Radio:hover       | `color-blue-900`         | #003c66     |
+| `focusColor`                      | Radio:focus       | `color-blue-600`         | #0095ff     |
+| `disabledColor`                   | Radio:disabled    | `color-grey-500`         | #999999     |
 | `fontColor`                       | Label             | `color-black`            | #000000     |
-| `disabledFontColor`               | Label:disabled    | `color-grey-400`         | #bfbfbf     |
+| `disabledFontColor`               | Label:disabled    | `color-grey-500`         | #999999     |
 
 #### On-dark
 
 | Component token                   | Element           | Core token               | Value       |
 | :-------------------------------- | :---------------- | :----------------------- | :---------- |
-| `colorOnDark`                     | Radio             | `color-white`            | #ffffff     |
+| `colorOnDark`                     | Radio             | `color-white`            | #e6e6e6     |
+| `hoverColor`                      | Radio:hover       | `color-blue-900`         | #ffffff     |
 | `focusColorOnDark`                | Radio:focus       | `color-blue-600`         | #0095ff     |
-| `disabledColorOnDark`             | Radio:disabled    | `color-grey-700`         | #666666     |
+| `disabledColorOnDark`             | Radio:disabled    | `color-grey-500`         | #999999     |
 | `fontColorOnDark`                 | Label             | `color-white`            | #ffffff     |
-| `disabledFontColorOnDark`         | Label:disabled    | `color-grey-700`         | #666666     |
+| `disabledFontColorOnDark`         | Label:disabled    | `color-grey-500`         | #999999     |
+
+
+### Typography
+
+| Component token       | Element       | Core token            | Value                    |
+| :-------------------- | :------------ | :-------------------- | :----------------------- |
+| `fontFamily`          | Label         | `font-family-sans`    | 'Open Sans', sans-serif  |
+| `fontSize`            | Label         | `font-scale-03`       | 1rem / 16px              |
+| `fontWeight`          | Label         | `font-weight-regular` | 400                      |
+| `fontStyle`           | Label         | `font-style-normal`   | 400                      |
+
+
+### Border
+
+| Property              | Element                | Core token                 | Value            |
+| :-------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-width`        | Radio input            | `border-width-2`           | 2px              |
+| `border-style`        | Radio input            | `border-style-solid`       | solid            |
+| `border-width`        | Focus border           | `border-width-2`           | 2px              |
+| `border-style`        | Focus border           | `border-style-solid`       | solid            |
+
+
+### Spacing
+
+| Component token             | Element                | Core token                 | Value            |
+| :-------------------------- | :--------------------- | :------------------------- | :--------------- |
+| `labelMargin`               | Label                  | `spacing-03`               | 0.5rem / 8px     |
+| `groupVerticalSpacing`      | Radio                  | `spacing-05`               | 1rem / 16px      |
+| `groupHorizontalSpacing`    | Radio                  | `spacing-07`               | 2rem / 32px      |
 
 
 ### Size 
 
-| Property              | Element       | Value     |  
-| --------------------- | -----------   | --------  | 
-| `width`               | radio         | 20px      | 
-| `width`               | focus outline | 26px      | 
-| `height`              | radio         | 20px      | 
-| `height`              | focus outline | 26px      |  
+| Property              | Element                   | Value     |  
+| :-------------------- | :------------------------ | :-------  | 
+| `width`               | Radio input               | 18px      | 
+| `width`               | focus outline             | 24px      | 
+| `height`              | Radio input               | 18px      | 
+| `height`              | focus outline             | 26px      |  
 
 ### Margin
 
@@ -85,26 +124,6 @@ margin | value
 ```xlarge``` | 64px
 ```xxlarge``` | 100px
 
-### Typography
-
-| Component token       | Element       | Core token            | Value                    |
-| :-------------------- | :------------ | :-------------------- | :----------------------- |
-| `fontFamily`          | Label         | `font-family-sans`    | 'Open Sans', sans-serif  |
-| `fontSize`            | Label         | `font-scale-03`       | 1rem / 16px              |
-| `fontWeight`          | Label         | `font-weight-regular` | 400                      |
-| `fontStyle`           | Label         | `font-style-normal`   | 400                      |
-
-### Border
-
-| Property              | Element                | Core token                 | Value            |
-| :-------------------- | :--------------------- | :------------------------- | :--------------- |
-| `border-width`        | Radio input            | `border-width-2`           | 2px              |
-| `border-style`        | Radio input            | `border-style-solid`       | solid            |
-| `border-width`        | Focus border           | `border-width-2`           | 2px              |
-| `border-style`        | Focus border           | `border-style-solid`       | solid            |
-
-
-
 ## Accessibility
 
 ### WCAG 2.2
@@ -116,13 +135,6 @@ margin | value
 ### WAI-ARIA 1.2
 
 * WAI-ARIA Authoring Practices 1.2 - [3.12 Radio group](https://www.w3.org/TR/wai-aria-practices-1.2/#radiobutton)
-
-
-
-
-
-
-## User Interface Design Considerations
 
 
 
