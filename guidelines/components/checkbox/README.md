@@ -135,8 +135,9 @@ margin | value
 
 ## Links and references
 
-- [React CDK component](https://developer.dxc.com/tools/react/next/#/components/checkbox)
-- [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/checkbox)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/checkbox)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/checkbox)
+* [Adobe XD component](https://xd.adobe.com/view/120ae40a-a363-4e3a-8c48-08fd979f3389-4759/)
 
 ____________________________________________________________
 

@@ -132,8 +132,9 @@ _*Depending of the position of the label_
 
 ## Links and references
 
-- [React CDK component](https://developer.dxc.com/tools/react/next/#/components/switch)
-- [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/switch)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/switch)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/switch)
+* [Adobe XD component](https://xd.adobe.com/view/7ca37e4b-ba71-44a2-91fe-5e15de3cdecd-29f0/)
 
 ____________________________________________________________
 

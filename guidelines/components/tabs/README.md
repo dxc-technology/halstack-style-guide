@@ -216,9 +216,9 @@ Content authors need to ensure the content that is added to the tab panel is acc
 
 ## Links & Resources
 
-* [React component](https://developer.dxc.com/tools/react/next/#/components/tabs)
-* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/tabs)
-* [UI-Kit](https://github.com/dxc-technology/halstack-style-guide/tree/master/Halstack%20UI-Kit)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/tabs)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/tabs)
+* [Adobe XD component](https://xd.adobe.com/view/15fac072-38d7-4c81-91ef-00ebbc8469a9-40a9/)
 
 ____________________________________________________________
 

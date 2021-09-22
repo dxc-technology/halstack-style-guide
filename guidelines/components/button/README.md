@@ -245,8 +245,9 @@ _Icon usage examples_
 
 ## Links and references
 
-* [Angular CDK component](https://clicktime.symantec.com/3KG6rdmTz1vDaXhBTFLnHVX7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Fangular%2Fnext%2F%23%2Fcomponents%2Fbutton)
-* [React CDK component](https://clicktime.symantec.com/38Ybc495gf78pcUbWtvBoxs7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Freact%2Fnext%2F%23%2Fcomponents%2Fbutton)
+* [Angular CDK component](https://developer.dxc.com/tools/react/next/#/components/button)
+* [React CDK component](https://developer.dxc.com/tools/angular/next/#/components/button)
+* [Adobe XD component](https://xd.adobe.com/view/cc0d0c2a-7a2f-4146-96b0-e45a5aabc18a-995e/)
 
 ____________________________________________________________
 

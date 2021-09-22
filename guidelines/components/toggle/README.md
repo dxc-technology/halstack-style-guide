@@ -115,6 +115,7 @@ And also apply different values to each side of the component:
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/toggleGroup)
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/toggleGroup)
+* [Adobe XD component](https://xd.adobe.com/view/084a674b-b314-4b5d-8898-b4a58d7c6282-5d19/)
 
 ____________________________________________________________
 
