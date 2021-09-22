@@ -139,7 +139,8 @@ margin | value
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/578ce690-701e-4daa-869d-70b55ea4f68e/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/radio)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/radio)
 
 ____________________________________________________________
 
