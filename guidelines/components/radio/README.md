@@ -8,7 +8,6 @@ Clicking a non-selected radio button will deselect whatever other button was pre
 * Labelling should be concise and clearly differentiated with respect to other options.
 * By default, one option of the radio group must be pre-selected. Select the safest or convenient option.
 * Single radio buttons should not be used.
-* Use radio buttons on wizard pages to make alternatives clear to the user.
 * If the question that the user needs to responde is as easier as yes/no, it is recommended to use checkbox instead of radio button.
 
 
@@ -88,18 +87,20 @@ margin | value
 
 ### Typography
 
-| Property              | Element       | Value     |   Token          |
-| --------------------- | -----------   | --------  | ---------        |
-| `font-size`           | label         | 16px      | `font-scale-03`  |
-| `font-weight`         | label         | 400       | `font-regular`   |
+| Component token       | Element       | Core token            | Value                    |
+| :-------------------- | :------------ | :-------------------- | :----------------------- |
+| `fontFamily`          | Label         | `font-family-sans`    | 'Open Sans', sans-serif  |
+| `fontSize`            | Label         | `font-scale-03`       | 1rem / 16px              |
+| `fontWeight`          | Label         | `font-weight-regular` | 400                      |
+| `fontStyle`           | Label         | `font-style-normal`   | 400                      |
 
 ### Border
 
 | Property              | Element                | Core token                 | Value            |
 | :-------------------- | :--------------------- | :------------------------- | :--------------- |
-| `border-width`        | Radio input            | `border-width-2`           | 1px              |
+| `border-width`        | Radio input            | `border-width-2`           | 2px              |
 | `border-style`        | Radio input            | `border-style-solid`       | solid            |
-| `border-width`        | Focus border           | `border-width-2`           | 1px              |
+| `border-width`        | Focus border           | `border-width-2`           | 2px              |
 | `border-style`        | Focus border           | `border-style-solid`       | solid            |
 
 
