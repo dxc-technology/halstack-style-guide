@@ -98,6 +98,17 @@ _Component design specifications_
 | `border-radius` | Input container       | `border-radius-medium`   | 0.25rem / 4px   |
 | `box-shadow`    | Input container:focus | `-`                      | 1px solid       |
 
+### Width
+
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
+
+
+
 ## Accesibility
 
 ### WCAG 
