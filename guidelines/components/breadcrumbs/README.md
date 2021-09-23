@@ -88,20 +88,20 @@ _Design specifications for Breadcrumbs component_
 
 ### Spacing
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `padding-right`     |      8px |
-| `padding-left`      |      8px |
+| Property                          | Element             | Core token      | Value                     |
+| :-------------------------------- | :------------------ | :-------------- | :------------------------ |
+| `margin-left`                     | Floor label         | `spacing-03`    | 0.5rem / 8px               |
+| `margin-right`                    | Ceil label          | `spacing-03`    | 0.5rem / 8px               |
+
 
 ### Border
 
-| Property            | Value     |
-| ------------------  | --------- |
-| `border-radius`     |       4px |
-| `border-width`      |       1px |
-| `border-width` focus outline      |       2px |
 
-
+| Component token   | Element          | Core token  | Value     |
+| ----------------- | ---------------- | ----------- | --------- |
+| `primaryborder-radius`         | Container       | -   | 4px    |
+| `primaryborder-width`         | Container        | -   | 1px   |
+| `border-width` focus outline`         | Container        | -   | 2px   |
 
 
 ## Accesibility
