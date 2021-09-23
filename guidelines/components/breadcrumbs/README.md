@@ -43,7 +43,7 @@ _Breadcrumbs dropdown item_states_
 
 Breadcrumbs are placed in the top left portion of the page. They sit underneath the header and navigation, but above the page title.
 
-![Image example of the placement]()
+![Image example of the placement in layout](images/breadcrumbs_placement.png "Image example of the placement in layout")
 
 
 
