@@ -124,6 +124,15 @@ _Design specifications of the input-number component_
 | `border`        | Input container       | `-`               | 1px solid       |
 | `box-shadow`    | Input container:focus | `-`               | 1px solid       |
 
+### Width
+
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
+
 
 ## Accesibility
 
