@@ -101,7 +101,7 @@ _Design specifications for Breadcrumbs component_
 | ----------------- | ---------------- | ----------- | --------- |
 | `primaryborder-radius`         | Container       | -   | 4px    |
 | `primaryborder-width`         | Container        | -   | 1px   |
-| `border-width` focus outline`         | Container        | -   | 2px   |
+| `border-width focus outline`         | Container        | -   | 2px   |
 
 
 ## Accesibility
