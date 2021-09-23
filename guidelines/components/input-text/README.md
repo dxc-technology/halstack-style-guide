@@ -76,32 +76,6 @@ _Icon or text prefixes and suffixes usage_
 
 _Specifications for text-input component_
 
-### Width
-
-| Width                | Value |
-| -------------------- | ----- |
-| `small`              | 60px  |
-| `medium` (_default_) | 240px |
-| `large`              | 480px |
-| `fitContent`         | -     |
-| `fillParent`         | -     |
-
-
-### Margin
-
-| Margin      | Value |
-| ----------- | ----- |
-| `xxsmall`   | 6px   |
-| `xsmall`    | 16px  |
-| `small`     | 24px  |
-| `medium`    | 36px  |
-| `large`     | 48px  |
-| `xlarge`    | 64px  |
-| `xxlarge`   | 100px |
-
-And also apply different values to each side of the component:
-```top``` ```bottom``` ```left``` ```right```
-
 ## Color
 
 ### On-light
@@ -252,6 +226,31 @@ And also apply different values to each side of the component:
 | `border`        | Input container       | `border-width-1`  | 1px             |
 | `border`        | Input container       | `border-style`    | solid           |
 | `box-shadow`    | Input container:focus | `-`               | 1px solid       |
+
+### Width
+
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
+
+
+### Margin
+
+| Margin      | Value |
+| ----------- | ----- |
+| `xxsmall`   | 6px   |
+| `xsmall`    | 16px  |
+| `small`     | 24px  |
+| `medium`    | 36px  |
+| `large`     | 48px  |
+| `xlarge`    | 64px  |
+| `xxlarge`   | 100px |
+
+And also apply different values to each side of the component:
+```top``` ```bottom``` ```left``` ```right```
 
 
 ## Helper text
