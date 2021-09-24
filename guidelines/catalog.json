@@ -42,6 +42,10 @@
       "key": "box", 
       "name": "Box" 
     },
+    { 
+      "key": "breadcrumbs", 
+      "name": "Breadcrumbs" 
+    },
     {
       "key": "button",
       "name": "Button"
