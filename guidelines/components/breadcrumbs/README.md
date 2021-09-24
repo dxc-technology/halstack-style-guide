@@ -12,7 +12,6 @@ The breadcrumbs component is a navigational element that help users to understan
 - Keep your breadcrumb titles consistent with your page titles.
 
 
-
 ## States
 
 The states are the different behaviors of the button component based on the interaction of the user.
@@ -34,10 +33,10 @@ _Breadcrumbs dropdown item_states_
 
 ![Example of the breadcrumbs component anatomy](images/breadcrumbs_anatomy.png "Example of the breadcrumbs component anatomy")
 
-1. **Breadcrumbs dropdown**
-2. **Separator**
-3. **Breadcrumbs path**
-4. **Breadcrumbs expanded list**
+1. Breadcrumbs dropdown
+2. Separator
+3. Breadcrumbs path
+4. Breadcrumbs expanded list
 
 ## Placement
 
@@ -77,31 +76,29 @@ _Design specifications for Breadcrumbs component_
 ### Typography
 
 | Component token                      | Element                     | Token                       | Value       |
-| :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| :----------------------------------- | :-------------------------- | :-------------------------- | :---------------------- |
 | `FontFamily`                         | Path link                   | `font-family-sans`          | 'Open Sans', sans-serif | 
-| `FontSize`                           | Path link                   | `font-scale-03`             | 1rem / 16px | 
-| `FontWeight`                         | Path link                   | `font-weight-regular`       | 400         |  
-| `unselectedActiveFontWeight`         | Path link:active            | `font-weight-semibold`      | 600         | 
-| `selectedFontWeight`                 | Path link                   | `font-weight-semibold`      | 600         | 
-| `LineHeight`                         | Path link                   | `font-leading-normal`       | 1.5rem      | 
+| `FontSize`                           | Path link                   | `font-scale-03`             | 1rem / 16px             | 
+| `FontWeight`                         | Path link                   | `font-weight-regular`       | 400                     |  
+| `unselectedActiveFontWeight`         | Path link:active            | `font-weight-semibold`      | 600                     | 
+| `selectedFontWeight`                 | Path link selected          | `font-weight-semibold`      | 600                     | 
+| `LineHeight`                         | Path link                   | `font-leading-normal`       | 1.5rem                  | 
 
 
 ### Spacing
 
 | Property                          | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
-| `margin-left`                     | Floor label         | `spacing-03`    | 0.5rem / 8px               |
-| `margin-right`                    | Ceil label          | `spacing-03`    | 0.5rem / 8px               |
+| `margin-left`                     | Separator           | `spacing-03`    | 0.5rem / 8px              |
+| `margin-left`                     | Path link           | `spacing-03`    | 0.5rem / 8px              |
 
 
 ### Border
 
 
-| Component token   | Element          | Core token  | Value     |
-| ----------------- | ---------------- | ----------- | --------- |
-| `primaryborder-radius`         | Container       | -   | 4px    |
-| `primaryborder-width`         | Container        | -   | 1px   |
-| `border-width focus outline`         | Container        | -   | 2px   |
+| Component token    | Element            | Core token          | Value     |
+| :----------------- | :----------------- | :------------------ | --------- |
+| `border-width`     | Focus indicator    | `border-width-2`    | 2px       |
 
 
 ## Accesibility
@@ -116,17 +113,6 @@ _Design specifications for Breadcrumbs component_
 
 * WAI-ARIA Authoring practices 1.2 - [Breadcrumb design pattern](https://www.w3.org/TR/wai-aria-practices-1.2/#breadcrumb)
 * WAI-ARIA Authoring practices 1.2 - [Breadcrumb Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/breadcrumb/index.html)
-
-
-## Best Practices
-
-Breadcrumbs as an additional navigation
-Don’t link current page in breadcrumb navigation
-Use separators
-Select size & padding
-Don’t make it the focal point of the design
-Breadcrumbs should display the current location in the site’s hierarchical structure, not the session history
-
 
 
 ## Links and references
