@@ -97,7 +97,8 @@ _Specifications for text-input component_
 | Component token                 | Element                     | Token                   | Value           |
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
 | `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `focusBorderColor`              | Border:focus                | `transparent`           | transparent     |
+| `focusBoxShadowColor`           | Box-shadow:focus            | `color-blue-600`        | #0095ff         |
 | `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
 | `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledBorderColor`           | Border:disabled             | `color-grey-600`        | #808080         |
@@ -149,7 +150,8 @@ _Specifications for text-input component_
 | Component token                       | Element                     | Token                   | Value           |
 | :------------------------------------ | :-------------------------- | :---------------------- | --------------- |
 | `hoverBorderColorOnDark`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColorOnDark`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `focusBorderColorOnDark`              | Border:focus                | `transparent`           | transparent     |
+| `focusBoxShadowColorOnDark`           | Box-shadow:focus            | `color-blue-600`        | #0095ff         |
 | `errorBorderColorOnDark`              | Border:error                | `color-red-500`         | #fe344f         |
 | `hoverErrorBorderColorOnDark`         | Border:hover on error       | `color-red-400`         | #fe677b         |
 | `disabledBorderColorOnDark`           | Border:disabled             | `color-grey-500`        | #999999         |
@@ -225,7 +227,9 @@ _Specifications for text-input component_
 | :-------------- | :-------------------- | :---------------- | :-------------- |
 | `border`        | Input container       | `border-width-1`  | 1px             |
 | `border`        | Input container       | `border-style`    | solid           |
-| `box-shadow`    | Input container:focus | `-`               | 1px solid       |
+| `border`        | Input container:focus | `border-width`    | 1px             |
+| `border`        | Input container:focus | `border-style`    | solid           |
+| `box-shadow`    | Input container:focus | `-`               | 2px solid       |
 
 ### Width
 
@@ -296,7 +300,7 @@ _Autocomplete functionality for the text input component_
 | Component token                     | Element                | Token                   | Value           |
 | :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
 | `listOptionFontColor`               | List option text       | `color-black`           | #000000         |
-| `systemMessageFontColor`             | System message         | `color-grey-700`        | #666666         |
+| `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666         |
 | `errorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
 | `errorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
