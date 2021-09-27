@@ -223,13 +223,13 @@ _Specifications for text-input component_
 
 ### Border
 
-| Property        | Element               | Token             | Value           |
-| :-------------- | :-------------------- | :---------------- | :-------------- |
-| `border`        | Input container       | `border-width-1`  | 1px             |
-| `border`        | Input container       | `border-style`    | solid           |
-| `border`        | Input container:focus | `border-width`    | 1px             |
-| `border`        | Input container:focus | `border-style`    | solid           |
-| `box-shadow`    | Input container:focus | `-`               | 2px solid       |
+| Property        | Element               | Token             | Value               |
+| :-------------- | :-------------------- | :---------------- | :------------------ |
+| `border`        | Input container       | `border-width-1`  | 1px                 |
+| `border`        | Input container       | `border-style`    | solid               |
+| `border`        | Input container:focus | `border-width`    | 1px                 |
+| `border`        | Input container:focus | `border-style`    | solid               |
+| `box-shadow`    | Input container:focus | `-`               | 0 0 0 2px #0095ff   |
 
 ### Width
 
