@@ -221,11 +221,13 @@ _Specifications for text-input component_
 
 ### Border
 
-| Property        | Element               | Token             | Value           |
-| :-------------- | :-------------------- | :---------------- | :-------------- |
-| `border`        | Input container       | `border-width-1`  | 1px             |
-| `border`        | Input container       | `border-style`    | solid           |
-| `box-shadow`    | Input container:focus | `-`               | 1px solid       |
+| Property        | Element               | Token             | Value               |
+| :-------------- | :-------------------- | :---------------- | :------------------ |
+| `border`        | Input container       | `border-width-1`  | 1px                 |
+| `border`        | Input container       | `border-style`    | solid               |
+| `border`        | Input container:focus | `border-width`    | 1px                 |
+| `border`        | Input container:focus | `border-style`    | solid               |
+| `box-shadow`    | Input container:focus | `-`               | 0 0 0 2px           |
 
 ### Width
 
@@ -296,7 +298,7 @@ _Autocomplete functionality for the text input component_
 | Component token                     | Element                | Token                   | Value           |
 | :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
 | `listOptionFontColor`               | List option text       | `color-black`           | #000000         |
-| `systemMessageFontColor`             | System message         | `color-grey-700`        | #666666         |
+| `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666         |
 | `errorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
 | `errorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
