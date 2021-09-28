@@ -35,11 +35,13 @@ _Example of the text-input component states_
 
 1. Label text
 2. Helper text (Optional)
-3. Placeholder text
-4. Error message
+3. Error indicator
+4. Clear action (Optional)
 5. Input action (Optional)
-6. Error indicator
-7. Input container
+6. Input container
+7. Placeholder text
+8. Error message
+9. Prefix
 
 ## Content
 
