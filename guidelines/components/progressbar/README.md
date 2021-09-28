@@ -112,12 +112,20 @@ And also apply different values to each side of the component:
 | `font-size`     | Helper text      | `font-scale-01`  | 12px      |
 | `font-weight`   | Helper text      | `font-regular`   | 400       |
 
+### Border
 
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Track line       | `border-width-0`           | 0                |
+| `border-style`           | Track line       | `border-style-none`        | none             |
+| `border-radius`          | Track line       | `border-radius-full`       | 9999px           |
 
 ## Links and references
 
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/progressbar)
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/progressBar)
+* [Adobe XD component](https://xd.adobe.com/view/7c7319d9-c220-42f5-a0df-c9a36c7a8421-2920/)
+
 
 ____________________________________________________________
 

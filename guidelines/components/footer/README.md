@@ -68,7 +68,9 @@ _Footer component design specs_
 | `font-size`	  |   Titles      	          |  1rem/16px      |
 | `font-size`   |   Links   	              |  0.875rem/14px  |
 | `font-size`   |   Copy-write              |  0.75rem/12px   |
+| `line-height` |   Copy-write              |  1.25rem        |
 | `font-size`   |   Terms & company links   |  0.75rem/12px   |
+| `line-height` |   Terms & company links   |  1.25rem        |
 | `font-weight`	|   Titles      	          |  600            |
 | `font-weight`	|   Links	                  |  400            |
 
@@ -88,15 +90,21 @@ _Footer component design specs_
 | `max-height`  |   DXC logo    |   32px    |
 
 
-### Custom container - (Terms & Company Links)
+### Terms & Company Links
+
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `min height`             | Links container        | `-`                        | 20px             |
+| `padding-top`            | Links container        | `spacing-03`               | 0.5rem / 8px     |
+| `border-width`           | Links separator        | `border-width-1`           | 1px              |
+| `border-style`           | Links separator        | `border-style-solid`       | solid            |
+
+
+### Custom content
 
 | Property        |   Element     	    |   Value   		        |
 | --------------- | ------------------- | --------------------- |
 | `min-height`   	|   Custom container	|   16px    		        |
-| `min-height`	  |   Links container	  |   20px    		        |
-| `padding-top`   |   Links container	  |   8px     		        |
-| `border`	      |   Links separator	  |   1px solid #1489fb	  |
-
 
 The content of the footer should be adapt to the space available depending on the screen device.
 
@@ -146,7 +154,9 @@ At this stage, the custom content and the disposition is responsability of the u
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/3c920e77-d15a-4856-81c4-d9389af085b0/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/footer)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/footer)
+* [Adobe XD component](https://xd.adobe.com/view/5a5265da-3257-40c4-b086-f3d90de179e0-0f01/)
 
 ____________________________________________________________
 

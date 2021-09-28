@@ -60,11 +60,19 @@ padding | value
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+
+
 ### Specifications for desktop and tablet (landscape mode)
 
 | Property               |  value |
 | ---------------------  | ----------------- |
-| `border-radius`        |               4px |
 | `min-width`            |             800px |
 | `max-width`            |               80% |
 | Title `font-size`      |              24px |
@@ -132,7 +140,9 @@ Both approaches are equally valid, and its use depends on the context of the app
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/dialog)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/dialog)
+* [Adobe XD component](https://xd.adobe.com/view/533e8a6e-4ed4-4469-a8f8-6ad264d86822-066d/)
 
 ____________________________________________________________
 

@@ -131,6 +131,20 @@ _Slider Specifications_
 
 [*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
 
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Track line       | `border-width-0`           | 0                |
+| `border-style`           | Track line       | `border-style-none`        | none             |
+| `border-radius`          | Track line       | `border-radius-full`       | 9999px           |
+| `border-width`           | Thumb            | `border-width-0`           | 0                |
+| `border-style`           | Thumb            | `border-style-none`        | none             |
+| `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
+| `border-width`           | Focus border     | `border-width-2`           | 2px              |
+| `border-style`           | Focus border     | `border-style-solid`       | solid            |
+| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
+
 ## Accessibility
 
 ### WCAG
@@ -150,8 +164,9 @@ _Slider Specifications_
 
 ## Links and references
 
-- [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
-- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [Adobe XD component](https://xd.adobe.com/view/29ee46d1-7a4c-42bf-bd66-16ae62477a6a-7cbd/)
 
 ____________________________________________________________
 
