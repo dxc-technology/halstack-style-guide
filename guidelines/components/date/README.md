@@ -27,10 +27,20 @@ _Examples of the calendar pop-up states_
 1. Label
 2. Helper text _(Optional)_
 3. Input container
-4. Date action
+4. Date button
 5. Error indicator
 6. Error message
 7. Placeholder / value
+
+## Internationalization
+
+The date format depends on an ISO definition for each country and the preference of use within the application.
+
+The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
+
+- The default format for the United States is `mm/dd/yyyy`
+- The default format for Australia, Europe, Africa, South America most countries of Asia is `dd/mm/yyyy`
+- The default format in China is `yyyy/mm/dd`
 
 ## Design Specifications
 
@@ -40,52 +50,73 @@ _Examples of the calendar pop-up states_
 
 _Input-date design specifications_
 
-#### Height
+#### Color
 
-| Property                              | Value     |
-| ------------------------------------- | --------- |
-| `height` (default)                    |      32px |
-| `height` (selected)                   |      48px |
-| `height` (selected + auxiliar text)   |      73px |
+| Component token          | Element            | Token             | Value             |
+| ------------------------ | ------------------ | ----------------- | ----------------- |
+| `labelFontColor`         | Label              | `black`           | #000000           |
+| `valueFontColor`         | Value              | `black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
+| `enabledBorderColor`     | Border:enabled     | `black`           | #000000           |
+| `ActionIconColor`        | Spin button icon   | `black`           | #000000           |
+| `ActionBackgroundColor`  | Spin button        | `transparent`     | #transparent      |
 
+##### Interactive
 
-#### Width
-
-| Property            |  Value           | 
-| ------------------- |  -------------   |   
-| `medium`_(default)_ |  240px           | 
-| `large`             |  480px           |  
-| `fillParent`        |  -               | 
-
-
-#### Margin
-
-Different values can be applied to each side of the component:
-```top``` ```bottom``` ```left``` ```right```
-
-margin | Value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
+| Component token                 | Element                     | Token             | Value           |
+| ------------------------------- | --------------------------- | ----------------- | --------------- |
+| `hoverBorderColor`              | Border:hover                | `purple-500`      | #a46ede         |
+| `focusBorderColor`              | Border:focus                | `blue-600`        | #0095ff         |
+| `errorBorderColor`              | Border:error                | `red-700`         | #d0011b         |
+| `hoverErrorBorderColor`         | Border:hover on error       | `red-600`         | #fe0123         |
+| `disabledBorderColor`           | Border:disabled             | `grey-500`        | #999999         |
+| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Date button:hover           | `grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Date button:focus           | `grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Date button:active          | `grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Date button:disabled        | `transparent`     | transparent     |
+| `hoverActionIconColor`          | Date button icon:hover      | `grey-500`        | #999999         |
+| `focusActionIconColor`          | Date button icon:focus      | `grey-500`        | #999999         |
+| `disabledActionIconColor`       | Date button icon:disabled   | `grey-500`        | #999999         |
 
 
 #### Typography
 
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  label enabled   |   16px      |
-| `font-size`                   |  label           |   12px      |
-| `font-size`                   |  placeholder     |   16px      |
-| `font-size`                   |  assistive text  |   12px      |
-| `font-weight`                 |  all             |   400       |
+| Property        | Element        | Token                   | Value           |
+| --------------- | -------------- | ----------------------- | --------------- |
+| `font-family`   | Label          | `type-sans`             | Open Sans       |
+| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | Label          | `type-bold`             | 600             |
+| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
+| `font-family`   | Value          | `type-sans`             | Open Sans       |
+| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Value          | `type-regular`          | 400             |
+| `font-family`   | Error message  | `type-sans`             | Open Sans       |
+| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `type-regular`          | 400             |
+| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
 
 
-#### Border
+#### Spacing
+
+
+| Property        | Element         | Token             | Value           |
+| --------------- | --------------- | ----------------- | --------------- |
+| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Date button     | `spacing-02`      | 0.25rem / 4px   |
+| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
+| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
+
+##### Border
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
@@ -94,12 +125,17 @@ margin | Value
 | `border-width`           | Input:focus      | `border-width-2`           | 2px              |
 | `border-style`           | Input:focus      | `border-style-solid`       | solid            |
 
-#### Other specs
 
-| Property                            | Value     |
-| ----------------------------------- | --------- |
-| Icon size                           |   20x20px |
-| Distance between text and underline |   7px     |
+#### Width
+
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
+
+
 
 
 ### Calendar pop-up
@@ -145,7 +181,6 @@ _Structure and spacing for date picker calendar pop-up_
 | `padding-left/right`          |  year selector        |   16px      |
 | `padding-top/bottom`          |  separator            |   8px       |
 
-
 #### Sizing
 
 | Property                      | Element                |  Value      |
@@ -154,43 +189,6 @@ _Structure and spacing for date picker calendar pop-up_
 | `height/width`                |  year selection caret  |   24/24px   |
 | `height/width`                |  calendar top controls |   24/24px   |
 
-
-
-
-## Helper text
-
-Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
-
-![Date helper text](images/date_helper_text.png)
-
-### Usage
-
-#### Do:
-
-* Keep helper text as short and specific as possible.
-* Only use helper text when truly necessary to avoid overloading the user.
-* Should give an example or an explanation of the field.
-
-#### Don’t:
-
-* Helper text should not run longer than the input area.
-
-
-## Required
-
-Required date fields are displayed in the same way the component text-input does.
-
-![Required date input](images/date_required.png)
-
-## Internationalization
-
-The date format depends on an ISO definition for each country and the preference of use within the application.
-
-The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
-
-- The default format for the United States is `mm/dd/yyyy`
-- The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
-- The default format in China is `yyyy/mm/dd`
 
 ## Accessibility
 
