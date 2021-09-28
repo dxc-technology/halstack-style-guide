@@ -76,10 +76,25 @@ The design specifications section provides developers the information needed to 
 
 _Image caption_
 
-### Color
-### Typography
-### Border
-### Spacing
+### Component property (e.g. color, typography, border, spacing...)
+
+Use the following table when there are existing component tokens matching the properties
+
+| Component token   | Element          | Core token  | Value     |
+| :---------------- | :--------------- | :---------- | :-------- |
+| `token-1`         | Element-1        | `token-1`   | value-1   |
+| `token-2`         | Element-2        | `token-2`   | value-2   |
+| `token-3`         | Element-3        | `token-3`   | value-3   |
+
+
+Use the following table when there are not existing component tokens for the component properties
+
+| Property          | Element          | Core token  | Value     |
+| :---------------- | :--------------- | :---------- | :-------- |
+| `property`        | Element-1        | `token-1`   | value-1   |
+| `property`        | Element-2        | `token-2`   | value-2   |
+| `property`        | Element-3        | `token-3`   | value-3   |
+
 
 -->
 
