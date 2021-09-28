@@ -82,6 +82,9 @@ _Determinate vs indeterminate spinner_
 
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/spinner)
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/spinner)
+* [Adobe XD component](https://xd.adobe.com/view/bc8ee829-5380-4561-8957-07d06bbb51df-e9dd/)
+
+
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/spinner/README.md)

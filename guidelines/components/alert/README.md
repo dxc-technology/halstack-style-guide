@@ -146,6 +146,7 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/alert)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/alert)
+* [Adobe XD component](https://xd.adobe.com/view/c51a8120-f171-4cf3-bec7-2cca087140b1-9049/)
 
 ____________________________________________________________
 

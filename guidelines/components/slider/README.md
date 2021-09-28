@@ -164,8 +164,9 @@ _Slider Specifications_
 
 ## Links and references
 
-- [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
-- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [Adobe XD component](https://xd.adobe.com/view/29ee46d1-7a4c-42bf-bd66-16ae62477a6a-7cbd/)
 
 ____________________________________________________________
 

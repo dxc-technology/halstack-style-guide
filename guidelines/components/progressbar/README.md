@@ -124,6 +124,8 @@ And also apply different values to each side of the component:
 
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/progressbar)
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/progressBar)
+* [Adobe XD component](https://xd.adobe.com/view/7c7319d9-c220-42f5-a0df-c9a36c7a8421-2920/)
+
 
 ____________________________________________________________
 

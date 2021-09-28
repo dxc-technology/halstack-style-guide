@@ -99,11 +99,11 @@ These values can be applied independently to each side of the component:
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `primaryHoverBackgroundColor`       | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
-| `primaryActiveBackgroundColor`      | Container fill:active	    | `color-purple-900`       | #321353     |
+| `primaryHoverBackgroundColor`       | Container fill:hover	       | `color-purple-800`       | #4b1c7d     |
+| `primaryActiveBackgroundColor`      | Container fill:active	      | `color-purple-900`       | #321353     |
 | `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
 | `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
@@ -124,12 +124,15 @@ These values can be applied independently to each side of the component:
 | `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
 
 
-#### Padding
+#### Spacing
 
-| Component token             | Element          | Core token     | Value             |
-| :-------------------------- | :--------------- | :------------- | :---------------- |
-| `primaryPaddingTop`         | Label            | `spacing-04`   | 0.75 rem / 12px   |
-| `primaryPaddingBottom`      | Label            | `spacing-04`   | 12px / 0.75 rem   |
+| Component token                | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
+| `primaryPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
+
 
 ### Secondary
 
@@ -172,12 +175,14 @@ These values can be applied independently to each side of the component:
 | `secondaryFontWeight`           | Label            | `font-regular`       | 400                        |
 
 
-#### Padding
+#### Spacing
 
-| Component token                | Element          | Core token  | Value              |
-| :----------------------------- | :--------------- | :---------- | :----------------- |
-| `secondaryPaddingTop`          | Label            | `-`         | 10px / 0.75 rem    |
-| `secondaryPaddingBottom`       | Label            | `-`         | 10px / 0.75 rem    |
+| Component token                | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `secondaryPaddingLeft`         | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `secondaryPaddingRight`        | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `secondaryPaddingTop`          | Container        | `spacing-05`      | 1rem / 16px     |
+| `secondaryPaddingBottom`       | Container        | `spacing-05`      | 1rem / 16px     |
 
 
 ### Text
@@ -199,7 +204,7 @@ These values can be applied independently to each side of the component:
 | `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
 | `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
 | `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     | 
+| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
@@ -221,14 +226,14 @@ These values can be applied independently to each side of the component:
 | `textFontWeight`             | Label            | `font-regular`       | 400                        |
 
 
-#### Padding
+#### Spacing
 
-| Component token              | Element          | Core token           | Value             |
-| :--------------------------- | :--------------- | :------------------- | :---------------- |
-| `textPaddingTop`             | Label            | `spacing-04`         | 12px / 0.75 rem   |
-| `textPaddingBottom`          | Label            | `spacing-04`         | 12px / 0.75 rem   |
-
-
+| Component token             | Element          | Core token        | Value           |
+| :-------------------------- | :--------------- | :---------------- | :-------------- |
+| `textPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `textPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `textPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
+| `textPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
 
 
 ## Icon Usage
@@ -245,8 +250,9 @@ _Icon usage examples_
 
 ## Links and references
 
-* [Angular CDK component](https://clicktime.symantec.com/3KG6rdmTz1vDaXhBTFLnHVX7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Fangular%2Fnext%2F%23%2Fcomponents%2Fbutton)
-* [React CDK component](https://clicktime.symantec.com/38Ybc495gf78pcUbWtvBoxs7Vc?u=https%3A%2F%2Fdeveloper.dxc.com%2Ftools%2Freact%2Fnext%2F%23%2Fcomponents%2Fbutton)
+* [Angular CDK component](https://developer.dxc.com/tools/react/next/#/components/button)
+* [React CDK component](https://developer.dxc.com/tools/angular/next/#/components/button)
+* [Adobe XD component](https://xd.adobe.com/view/cc0d0c2a-7a2f-4146-96b0-e45a5aabc18a-995e/)
 
 ____________________________________________________________
 
