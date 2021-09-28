@@ -1,6 +1,12 @@
-# Date-picker
+# Input-date
 
 A date input is a user interface element where the user can type or select a date in a predefined format. 
+
+## Usage
+
+* Use the date input component when you’re asking users for a past, present or future date
+* Provide a hint with the date format expected in the placeholder
+* Use a concise label to indicate what the date selection refer to
 
 ## States
 
