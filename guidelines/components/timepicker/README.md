@@ -7,9 +7,6 @@ A time input is a user interface element where the user can type or select a tim
 - The time picker may be configured to display either 12-hour (HH:MM:SS AM/PM) or 24-hour (HH:MM) format.
 - User may key in the desired time or select from the displayed pre-configured 12-hour or 24-hour format time value options displayed in the dropdown.
 
-![Examples of time picker input states](images/timepicker_varients.png)
-
-_Examples of time selection_
 
 ## States
 
@@ -152,21 +149,21 @@ Property | Element | Value
 `height/ width` | selected time  | `40/50px`
 `height/ width` | am/pm selector  | `40/57px`
 
-## Helper text
 
-Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
 
 ## Accesibility
 
-- to be discussed
-
 ### WCAG 2.2
-Understanding WCAG 2.2 - SC 2.4.7: Focus Visible
-Understanding WCAG 2.2 - SC 1.4.13: Content on Hover or Focus
+
+* Understanding WCAG 2.2 - [SC 2.1.1: Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+* Understanding WCAG 2.2 - [SC 2.1.2: No keyboard trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap)
+* Understanding WCAG 2.2 - [SC 2.4.6: Headings and labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
+* Understanding WCAG 2.2 - [SC 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
 
 #### WAI-ARIA 1.2
-WAI-ARIA authoring practices 1.2 - 3.9 Dialog modal
-WAI-ARIA authoring practices - Time picker design pattern
+
+* WAI-ARIA authoring practices 1.2 - [3.9 Dialog modal](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
+
 
 ## Links and references
 
