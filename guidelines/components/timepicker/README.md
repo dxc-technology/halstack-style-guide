@@ -48,21 +48,89 @@ _Anatomy of Time picker_
 
 _Structure and spacing for time picker inputs_
 
-#### Height
+#### Color
 
-Property | Value    
--- | --
-`height` (default) | `40px`
-`height` (selected) | `64px`
-`height` (selected + auxiliar text) | `82px`
+| Component token          | Element            | Token                   | Value             |
+| :----------------------- | :----------------- | :---------------------- | :---------------- |
+| `labelFontColor`         | Label              | `color-black`           | #000000           |
+| `valueFontColor`         | Value              | `color-black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
+| `ActionIconColor`        | Time button icon   | `color-black`           | #000000           |
+| `ActionBackgroundColor`  | Time button        | `color-transparent`     | transparent       |
+
+##### Interactive
+
+| Component token                 | Element                     | Token                   | Value           |
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
+| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Time button:hover           | `color-grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Time button:focus           | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Time button:active          | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Time button:disabled        | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Time button icon:hover      | `color-grey-500`        | #999999         |
+| `focusActionIconColor`          | Time button icon:focus      | `color-grey-500`        | #999999         |
+| `disabledActionIconColor`       | Time button icon:disabled   | `color-grey-500`        | #999999         |
+
+          
+#### Typography
+
+| Property        | Element        | Token                      | Value           |
+| :-------------- | :------------- | :------------------------- | :-------------- |
+| `font-family`   | Label          | `font-family-sans`         | Open Sans       |
+| `font-size`     | Label          | `font-scale-02`            | 0.875rem / 14px |
+| `font-weight`   | Label          | `font-weight-bold`         | 600             |
+| `line-height`   | Label          | `font-leading-loose-01`    | 1.75em          |
+| `font-family`   | Value          | `font-family-sans`         | Open Sans       |
+| `font-size`     | Value          | `font--scale-03`           | 1rem / 16px     |
+| `font-weight`   | Value          | `font-weight-regular`      | 400             |
+| `font-family`   | Error message  | `font-family-sans`         | Open Sans       |
+| `font-size`     | Error message  | `font--scale-01`           | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`      | 400             |
+| `line-height`   | Error message  | `font-leading-normal`      | 1.5em           |
+
+#### Spacing
+
+
+| Property        | Element         | Token             | Value           |
+| :-------------- | :-------------- | :---------------- | :-------------- |
+| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Date button     | `spacing-02`      | 0.25rem / 4px   |
+| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
+| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
+| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
+
+##### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Input:enabled    | `border-width-1`           | 1px              |
+| `border-style`           | Input:enabled    | `border-style-solid`       | solid            |
+| `border-width`           | Input:focus      | `border-width-2`           | 2px              |
+| `border-style`           | Input:focus      | `border-style-solid`       | solid            |
+
 
 #### Width
 
-Property |  Value
--- |  --
-`medium`_(default)_ | `240px`
-`large` | `480px`
-`fillParent` | -              
+| Width                | Value |
+| :------------------- | :---- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
 
 #### Margin
 
@@ -79,24 +147,6 @@ margin | Value
 `xlarge` | `64px`
 `xxlarge` | `100px`
 
-#### Typography
-
-Property|Element|Value     
---|--|--
-`font-size` | label enabled | `16px`
-`font-size` | label | `12px`
-`font-size` | placeholder | `16px`
-`font-size` | assistive text | `12px`
-`font-weight` | all | `400`
-
-#### Other specs
-
-Property|Value    
---|--
-`border-width` enabled | `1px`
-`border-width` focus | `2px`
-Icon size | `24x24px`
-Distance between text and underline | `7px`
 
 ### Time pop-up
 
