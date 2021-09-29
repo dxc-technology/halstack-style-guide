@@ -58,62 +58,62 @@ _Input-date design specifications_
 
 #### Color
 
-| Component token          | Element            | Token             | Value             |
-| ------------------------ | ------------------ | ----------------- | ----------------- |
-| `labelFontColor`         | Label              | `black`           | #000000           |
-| `valueFontColor`         | Value              | `black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
-| `enabledBorderColor`     | Border:enabled     | `black`           | #000000           |
-| `ActionIconColor`        | Spin button icon   | `black`           | #000000           |
-| `ActionBackgroundColor`  | Spin button        | `transparent`     | #transparent      |
+| Component token          | Element            | Token                   | Value             |
+| :----------------------- | :----------------- | :---------------------- | :---------------- |
+| `labelFontColor`         | Label              | `color-black`           | #000000           |
+| `valueFontColor`         | Value              | `color-black`           | #000000           |
+| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
+| `ActionIconColor`        | Date button icon   | `color-black`           | #000000           |
+| `ActionBackgroundColor`  | Date button        | `color-transparent`     | transparent       |
 
 ##### Interactive
 
-| Component token                 | Element                     | Token             | Value           |
-| ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverBorderColor`              | Border:hover                | `purple-500`      | #a46ede         |
-| `focusBorderColor`              | Border:focus                | `blue-600`        | #0095ff         |
-| `errorBorderColor`              | Border:error                | `red-700`         | #d0011b         |
-| `hoverErrorBorderColor`         | Border:hover on error       | `red-600`         | #fe0123         |
-| `disabledBorderColor`           | Border:disabled             | `grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Date button:hover           | `grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Date button:focus           | `grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Date button:active          | `grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Date button:disabled        | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Date button icon:hover      | `grey-500`        | #999999         |
-| `focusActionIconColor`          | Date button icon:focus      | `grey-500`        | #999999         |
-| `disabledActionIconColor`       | Date button icon:disabled   | `grey-500`        | #999999         |
+| Component token                 | Element                     | Token                   | Value           |
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
+| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
+| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
+| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
+| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
+| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
+| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
+| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `hoverActionBackgroundColor`    | Date button:hover           | `color-grey-100`        | #f2f2f2         |
+| `focusActionBackgroundColor`    | Date button:focus           | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Date button:active          | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Date button:disabled        | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Date button icon:hover      | `color-grey-500`        | #999999         |
+| `focusActionIconColor`          | Date button icon:focus      | `color-grey-500`        | #999999         |
+| `disabledActionIconColor`       | Date button icon:disabled   | `color-grey-500`        | #999999         |
 
 
 #### Typography
 
-| Property        | Element        | Token                   | Value           |
-| --------------- | -------------- | ----------------------- | --------------- |
-| `font-family`   | Label          | `type-sans`             | Open Sans       |
-| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `type-bold`             | 600             |
-| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `type-sans`             | Open Sans       |
-| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `type-regular`          | 400             |
-| `font-family`   | Error message  | `type-sans`             | Open Sans       |
-| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `type-regular`          | 400             |
-| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
+| Property        | Element        | Token                      | Value           |
+| :-------------- | :------------- | :------------------------- | :-------------- |
+| `font-family`   | Label          | `font-family-sans`         | Open Sans       |
+| `font-size`     | Label          | `font-scale-02`            | 0.875rem / 14px |
+| `font-weight`   | Label          | `font-weight-bold`         | 600             |
+| `line-height`   | Label          | `font-leading-loose-01`    | 1.75em          |
+| `font-family`   | Value          | `font-family-sans`         | Open Sans       |
+| `font-size`     | Value          | `font--scale-03`           | 1rem / 16px     |
+| `font-weight`   | Value          | `font-weight-regular`      | 400             |
+| `font-family`   | Error message  | `font-family-sans`         | Open Sans       |
+| `font-size`     | Error message  | `font--scale-01`           | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`      | 400             |
+| `line-height`   | Error message  | `font-leading-normal`      | 1.5em           |
 
 
 #### Spacing
 
 
 | Property        | Element         | Token             | Value           |
-| --------------- | --------------- | ----------------- | --------------- |
+| :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
 | `margin-left`   | Date button     | `spacing-02`      | 0.25rem / 4px   |
 | `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
@@ -135,7 +135,7 @@ _Input-date design specifications_
 #### Width
 
 | Width                | Value |
-| -------------------- | ----- |
+| :------------------- | :---- |
 | `small`              | 240px |
 | `medium` (_default_) | 360px |
 | `large`              | 480px |
@@ -165,35 +165,35 @@ _Structure and spacing for date picker calendar pop-up_
 | `pickerMonthFontColor`                 | Mont label                     | `color-black`                | #000000       | 
 | `pickerWeekFontColor`                  | Weekday label                  | `color-black`                | #000000       | 
 | `pickerBackgroundColorMonthArrows`     | Month selection controls       | `color-black`                | #000000       |  
-| `focusColor`                           | Focus outline                  | `color-blue-800`             | #0067b3       | 
+| `focusColor`                           | Focus outline                  | `color-blue-600`             | #0095ff         | 
 
 #### Typography
 
 | Property                      | Element          |  Value      |
 | ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  year selector   |   16px      |
-| `font-size`                   |  current month   |   13px      |
-| `font-size`                   |  day             |   13px      |
-| `font-weight`                 |  year selector   |   600       |
-| `font-weight`                 |  current month   |   400       |
-| `font-weight`                 |  day             |   400       |
+| `font-size`                   |  Year selector   |   16px      |
+| `font-size`                   |  Current month   |   13px      |
+| `font-size`                   |  Day             |   13px      |
+| `font-weight`                 |  Year selector   |   600       |
+| `font-weight`                 |  Current month   |   400       |
+| `font-weight`                 |  Day             |   400       |
 
 #### Padding
 
 | Property                      | Element               |  Value      |
 | ----------------------------- | ----------------      | ----------- |
-| `padding`                     |  calendar container   |   16px      |
-| `padding-left/right`          |  month container      |   8px       |
-| `padding-left/right`          |  year selector        |   16px      |
-| `padding-top/bottom`          |  separator            |   8px       |
+| `padding`                     |  Calendar container   |   16px      |
+| `padding-left/right`          |  Month container      |   8px       |
+| `padding-left/right`          |  Year selector        |   16px      |
+| `padding-top/bottom`          |  Separator            |   8px       |
 
 #### Sizing
 
 | Property                      | Element                |  Value      |
 | ----------------------------- | ----------------       | ----------- |
-| `height/width`                |  selected date circle  |   28/28px   |
-| `height/width`                |  year selection caret  |   24/24px   |
-| `height/width`                |  calendar top controls |   24/24px   |
+| `height/width`                |  Selected date circle  |   28/28px   |
+| `height/width`                |  Year selection caret  |   24/24px   |
+| `height/width`                |  Calendar top controls |   24/24px   |
 
 
 ## Accessibility
