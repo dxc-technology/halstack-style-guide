@@ -26,7 +26,7 @@ All our components, design tokens, accessibility guidelines, responsive design t
 
 ## Open Source
 
-Halstack is an open source design system, this means that we work towards DXC technology bussines needs, but it is open for anyone to use and contribute back to.
+Halstack is an open source design system, this means that we work towards DXC Technology bussines needs, but it is open for anyone to use and contribute back to.
 
 We are charmed to receive external contributions to help us find bugs, design new features, or help us improve the project documentation. If you're interested, definitely check out our [contribution guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/overview.md).
 
@@ -35,7 +35,7 @@ We are charmed to receive external contributions to help us find bugs, design ne
 
 ### Design
 
-In addition to our design guidelines, we mantain an [Adobe XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac). In order to receive the regular updates keep your assets linked and you will receive them automatically.
+In addition to our design guidelines, we mantain an [Adobe XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac) in order to provide designers all the building blocks needed to quickly create solutions four our clients. Helping them focusing on innovation and user experience.
 
 ### Code implementation
 
