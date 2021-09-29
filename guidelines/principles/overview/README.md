@@ -28,14 +28,27 @@ We are charmed to receive external contributions to help us find bugs, design ne
 
 ## Our Assets
 
+### Design
+
 We mantain an [Adobe XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac). In order to receive the regular updates keep your assets linked and you will receive them automatically.
 
-We also have our components available in the following frameworks:
+### Code implementation
 
-- [Angular](https://github.com/dxc-technology/halstack-angular): _Mantained by DXC team_
-- [React](https://github.com/dxc-technology/halstack-react): _Mantained by DXC team_
+We also have our components documentation available in the following frameworks:
+
+* [React documentation](https://developer.dxc.com/tools/react/next/#/)
+* [Angular documentation](https://developer.dxc.com/tools/angular/next/#/)
+
 
 If you’re using a different framework, you can still build components by following our design guidelines.
+
+### GitHub
+
+Our code implementation is available in the following GitHub public repositories:
+
+* [halstack-style-guide](https://github.com/dxc-technology/halstack-style-guide): Design guidelines
+* [halstack-react](https://github.com/dxc-technology/halstack-react): React CDK
+* [halstack-angular](https://github.com/dxc-technology/halstack-angular): Angular CDK
 
 
 ____________________________________________________________
