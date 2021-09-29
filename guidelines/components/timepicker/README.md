@@ -7,7 +7,7 @@ A time input is a user interface element where the user can type or select a tim
 - The time picker may be configured to display either 12-hour (HH:MM:SS AM/PM) or 24-hour (HH:MM) format.
 - User may key in the desired time or select from the displayed pre-configured 12-hour or 24-hour format time value options displayed in the dropdown.
 
-![Examples of time picker input states](images/Time_Varient.png)
+![Examples of time picker input states](images/timepicker_varients.png)
 
 _Examples of time selection_
 
@@ -17,7 +17,7 @@ _Examples of time selection_
 
 States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
 
-![Examples of time picker input states](images/Time_Helper_Text.png)
+![Examples of time picker input states](images/timepicker_states.png)
 
 _Examples of time picker required input_
 
@@ -25,14 +25,14 @@ _Examples of time picker required input_
 
 States: **enabled**, **hover**, **focus** and **selected**.
 
-![Examples of the time pop-up states](images/Time_Popup.png)
+![Examples of the time pop-up states](images/timepicker_popup.png)
 
 _Examples of the time pop-up states_
 
 
 ## Anatomy
 
-![Time picker Anatomy](images/Time_Anatomy.png)
+![Time picker Anatomy](images/timepicker_anatomy.png)
 
 _Anatomy of Time picker_
 
@@ -47,7 +47,7 @@ _Anatomy of Time picker_
 
 ### Time-input
 
-![time-input specifications](images/Time_Specs.png)
+![time-input specifications](images/timepicker_specs.png)
 
 _Structure and spacing for time picker inputs_
 
@@ -103,14 +103,15 @@ Distance between text and underline | `7px`
 
 ### Time pop-up
 
-![time-popup specifications](images/Time_Selection_Specs.png)
+![time-popup specifications](images/timepicker_selection_specs.png)
+
 _Structure and spacing for time picker time pop-up_
 
-![time-popup specifications](images/Time_Popup_with_Hour_and_Am-Pm_Selection.png)
+![time-popup specifications](images/timepicker_option_01.png)
 
-![time-popup specifications](images/Time_Popup_with_Hour,Minute_and_Am-Pm_Selection.png)
+![time-popup specifications](images/timepicker_option_02.png)
 
-![time-popup specifications](images/Time_Popup_with_Hr-Min-Sec_Selection.png)
+![time-popup specifications](images/timepicker_option_03.png)
 
 
 #### Color
