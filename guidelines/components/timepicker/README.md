@@ -4,24 +4,12 @@ A time input is a user interface element where the user can type or select a tim
 
 ## Usage
 
-#### Do:
-Keep helper text as short and specific as possible.
-Only use helper text when truly necessary to avoid overloading the user.
-Should give an example or an explanation of the field.
-
-#### Don’t:
-Helper text should not run longer than the input area.
-
-### Required
-Required time fields are displayed in the same way the component text-input does.
-
-## Variants
-
-- to be discussed
+- The time picker may be configured to display either 12-hour (HH:MM:SS AM/PM) or 24-hour (HH:MM) format.
+- User may key in the desired time or select from the displayed pre-configured 12-hour or 24-hour format time value options displayed in the dropdown.
 
 ![Examples of time picker input states](images/Time_Varient.png)
 
-_Examples of time picker varients_
+_Examples of time selection_
 
 ## States
 
@@ -35,7 +23,7 @@ _Examples of time picker required input_
 
 ### Time pop-up
 
-States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
+States: **enabled**, **hover**, **focus** and **selected**.
 
 ![Examples of the time pop-up states](images/Time_Popup.png)
 
@@ -65,19 +53,19 @@ _Structure and spacing for time picker inputs_
 
 #### Height
 
-| Property                              | Value     |
-| ------------------------------------- | --------- |
-| `height` (default)                    |      32px |
-| `height` (selected)                   |      48px |
-| `height` (selected + auxiliar text)   |      73px |
+Property | Value    
+-- | --
+`height` (default) | `40px`
+`height` (selected) | `64px`
+`height` (selected + auxiliar text) | `82px`
 
 #### Width
 
-| Property            |  Value           | 
-| ------------------- |  -------------   |   
-| `medium`_(default)_ |  240px           | 
-| `large`             |  480px           |  
-| `fillParent`        |  -               | 
+Property |  Value
+-- |  --
+`medium`_(default)_ | `240px`
+`large` | `480px`
+`fillParent` | -              
 
 #### Margin
 
@@ -86,39 +74,36 @@ Different values can be applied to each side of the component:
 
 margin | Value
 -- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
+`xxsmall` | `6px`
+`xsmall` | `16px`
+`small` | `24px`
+`medium` | `36px`
+`large` | `48px`
+`xlarge` | `64px`
+`xxlarge` | `100px`
 
 #### Typography
 
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  label enabled   |   16px      |
-| `font-size`                   |  label           |   12px      |
-| `font-size`                   |  placeholder     |   16px      |
-| `font-size`                   |  assistive text  |   12px      |
-| `font-weight`                 |  all             |   400       |
+Property|Element|Value     
+--|--|--
+`font-size` | label enabled | `16px`
+`font-size` | label | `12px`
+`font-size` | placeholder | `16px`
+`font-size` | assistive text | `12px`
+`font-weight` | all | `400`
 
 #### Other specs
 
-| Property                            | Value     |
-| ----------------------------------- | --------- |
-| `border-width` enabled              |   1px     |
-| `border-width` focus                |   2px     |
-| Icon size                           |   20x20px |
-| Distance between text and underline |   7px     |
+Property|Value    
+--|--
+`border-width` enabled | `1px`
+`border-width` focus | `2px`
+Icon size | `24x24px`
+Distance between text and underline | `7px`
 
 ### Time pop-up
 
-- to be discussed
-
 ![time-popup specifications](images/Time_Selection_Specs.png)
-
 _Structure and spacing for time picker time pop-up_
 
 ![time-popup specifications](images/Time_Popup_with_Hour_and_Am-Pm_Selection.png)
@@ -130,55 +115,41 @@ _Structure and spacing for time picker time pop-up_
 
 #### Color
 
-- to be discussed
-
-| Tokens                              | Value       |
-| ---------------------------------   | ----------- |
-| `pickerSelectedDateBackgroundColor` |     #5f249f |
-| `pickerSelectedDateColor`           |     #FFFFFF |
-| `pickerBackgroundColor`             |     #FFFFFF |
-| `pickerFontColor`                   |     #000000 |
-| `pickerActualDate`                  |     #D9D9D9 |
-| `pickerHoverDateBackgroundColor`    |     #D0BDDB |
-| `pickerHoverDateFontColor`          |     #000000 |
-| `scrollBarThumbColor`               |     #666666 |
-| `scrollBarTrackColor`               |     #D9D9D9 |
-| `focusColor`                        |     #005FCC |
+Tokens | Value      
+--|--
+`pickerSelectedTimeBackgroundColor` | `#5f249f`
+`pickerSelectedTimeColor` | `#FFFFFF`
+`pickerBackgroundColor` | `#FFFFFF`
+`pickerFontColor` | `#000000`
+`pickerActualDate` | `#D9D9D9`
+`pickerHoverTimeBackgroundColor` | `#D0BDDB`
+`pickerHoverTimeFontColor` | `#000000`
+`scrollBarThumbColor` | `#666666`
+`scrollBarTrackColor` | `#D9D9D9`
+`focusColor` | `#005FCC`
 
 
 #### Typography
 
-- to be discussed
-
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  year selector   |   16px      |
-| `font-size`                   |  current month   |   13px      |
-| `font-size`                   |  day             |   13px      |
-| `font-weight`                 |  year selector   |   600       |
-| `font-weight`                 |  current month   |   400       |
-| `font-weight`                 |  day             |   400       |
+Property | Element | Value     
+--|--|--
+`font-size`   | hr/ min/ sec selector | `16px`
+`font-weight` | hr/ min/ sec selector | `400`
 
 #### Padding
 
-- to be discussed
-
-| Property                      | Element               |  Value      |
-| ----------------------------- | ----------------      | ----------- |
-| `padding`                     |  calendar container   |   16px      |
-| `padding-left/right`          |  month container      |   8px       |
-| `padding-left/right`          |  year selector        |   16px      |
-| `padding-top/bottom`          |  separator            |   8px       |
+Property | Element | Value
+--|--|--
+`padding` | time container | `8px`
+`padding-left/ right` | hr/ min/ sec selector   | `16px`
+`padding-top/ bottom` | hr/ min/ sec selector   | `8px`
 
 #### Sizing
 
-- to be discussed
-
-| Property                      | Element                |  Value      |
-| ----------------------------- | ----------------       | ----------- |
-| `height/width`                |  selected date circle  |   28/28px   |
-| `height/width`                |  year selection caret  |   24/24px   |
-| `height/width`                |  calendar top controls |   24/24px   |
+Property | Element | Value
+--|--|--
+`height/ width` | selected time  | `40/50px`
+`height/ width` | am/pm selector  | `40/57px`
 
 ## Helper text
 
