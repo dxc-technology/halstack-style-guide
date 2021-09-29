@@ -53,7 +53,10 @@ At the bottom of every of our [documentation pages](https://developer.dxc.com/de
 
 ### Pull requests
 
-To update any of our documentation pages you will need to fork our repository and then make a contribution. See how you can [create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to propose changes you've made to a fork of our repository.
+To update any of our documentation pages you can follow the following procedures:
+
+* **Standard**: fork our repository and then make a contribution. See how you can [create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to propose changes you've made to a fork of the upstream repository.
+* **Regular contributors**: depending of contribution and the expected release, the PR can be done to a release branch or a feature branch. Feature branches are created on demand.
 
 :heavy_exclamation_mark: **Don't forget to check our contribution guidelines before submitting your pull request:**
 
