@@ -30,7 +30,7 @@ We are charmed to receive external contributions to help us find bugs, design ne
 
 ### Design
 
-We mantain an [Adobe XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac). In order to receive the regular updates keep your assets linked and you will receive them automatically.
+In addition to our design guidelines, we mantain an [Adobe XD public library](https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac). In order to receive the regular updates keep your assets linked and you will receive them automatically.
 
 ### Code implementation
 
