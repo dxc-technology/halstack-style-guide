@@ -9,14 +9,19 @@
   Halstack Design System
 </h1>
 
-Halstack design principles are the fundamental part of DXC Technology's approach to provide guidance for development teams in order to deliver superior, beautiful but above all, functional user experiences to our customers:
+Halstack is the DXC Technology's open source design system for insurance products and digital experiences. Our system provides all the tools and resources needed to create superior, beautiful but above all, functional user experiences.
+
+
+
+## Design principles
+
+Halstack design principles are the fundamental part of DXC Technology's approach to provide guidance for development teams in order to deliver delightful and consistent user experiences to our customers:
  
 * Balance 
 * Consistency  
 * Visual hierarchy 
 
 All our components, design tokens, accessibility guidelines, responsive design techniques, and layout proposals have been carefully curated by DXC design and engineering teams with the objective of creating a unique visual language and ecosystem for our applications. This is the DXC way of creating User Experiences.
-
 
 
 ## Open Source
