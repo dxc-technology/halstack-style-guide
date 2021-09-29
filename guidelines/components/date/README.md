@@ -10,7 +10,7 @@ A date input is a user interface element where the user can type or select a dat
 
 ## States
 
-### Date-input
+### Input-date
 
 States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
@@ -18,9 +18,9 @@ States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
 _Examples of date picker input states_
 
-### Date dialog
+### Datepicker dialog
 
-States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
+States: **enabled**, **hover**, **focus**, and **disabled**.
 
 ![Examples of the calendar pop-up states](images/date_popup.png)
 
@@ -50,7 +50,7 @@ The format of the date may vary depending on language, region, country or custom
 
 ## Design Specifications
 
-### Date-input
+### Input-date
 
 ![Input-date design specifications](images/input_date_specs.png)
 
@@ -144,7 +144,7 @@ _Input-date design specifications_
 
 
 
-### Calendar pop-up
+### Datepicker dialog
 
 ![Date specifications for picker](images/date_popup_specs.png)
 
