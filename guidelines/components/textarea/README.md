@@ -33,61 +33,13 @@ _Textarea component states example_
 
 _Component design specifications_
 
-### Color
+The input-password `color`, `typography`, `border`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
-| Component token          | Element            | Token                   | Value             |
-| :----------------------- | :----------------- | :---------------------- | :---------------- |
-| `labelFontColor`         | Label              | `color-black`           | #000000           |
-| `valueFontColor`         | Value              | `color-black`           | #000000           |
-| `helperTextFontColor`    | Helper text        | `color-black`           | #000000           |
-| `PlaceholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
-| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
+The textarea doesn't have the following text-input elements, therefore, their listed styles don't apply:
 
-
-#### Interactive
-
-| Component token                 | Element                     | Token                   | Value           |
-| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
-| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
-| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
-| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Textarea container:disabled | `color-grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-
-
-### Typography
-
-
-| Component token           | Element              | Token                   | Value             |
-| :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
-| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
-| `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
-| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
-| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
-| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
-| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
-| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
-| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
-| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
-| `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
-
-
-
-| Property        | Element        | Token                   | Value           |
-| :-------------- | :------------- | :---------------------- | :-------------- |
-| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
-| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
-| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
-| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
+* Action
+* Prefix / Suffix
+* Error indicator
 
 
 ### Spacing
@@ -99,24 +51,6 @@ _Component design specifications_
 | `padding-right` | Texarea container | `spacing-03`      | 1rem / 16px     |
 | `margin-top`    | Texarea container | `spacing-02`      | 0.5rem / 8px    |
 | `margin-bottom` | Texarea container | `spacing-02`      | 0.5rem / 8px    |
-
-### Border
-
-| Property        | Element                 | Token                    | Value           |
-| :-------------- | :---------------------- | :----------------------- | :-------------- |
-| `border-width`  | Texarea container       | `border-width-1`         | 1px             |
-| `border-style`  | Texarea container       | `border-style-solid`     | solid           |
-| `border-radius` | Texarea container       | `border-radius-medium`   | 0.25rem / 4px   |
-| `box-shadow`    | Texarea container:focus | `-`                      | 1px solid       |
-
-### Width
-
-| Width                | Value |
-| -------------------- | ----- |
-| `small`              | 240px |
-| `medium` (_default_) | 360px |
-| `large`              | 480px |
-| `fillParent`         | 100%  |
 
 
 
