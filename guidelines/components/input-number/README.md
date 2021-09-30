@@ -34,8 +34,8 @@ _Spin button states example_
 ![Anatomy of the number-input component](images/number_anatomy.png)
 
 1. Label
-2. Helper text
-3. Suffix
+2. Helper text _(Optional)_
+3. Suffix _(Optional)_
 4. Container
 5. Spin button increase
 6. Spin button decrease
@@ -51,87 +51,9 @@ _Spin button states example_
 
 _Design specifications of the input-number component_
 
-### Color
 
-| Component token          | Element            | Token             | Value             |
-| ------------------------ | ------------------ | ----------------- | ----------------- |
-| `labelFontColor`         | Label              | `black`           | #000000           |
-| `valueFontColor`         | Value              | `black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
-| `enabledOutlineColor`    | Outline:enabled    | `black`           | #000000           |
-| `ActionIconColor`        | Spin button icon   | `black`           | #000000           |
-| `ActionBackgroundColor`  | Spin button        | `transparent`     | #transparent      |
+The input-number `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
-#### Interactive
-
-| Component token                 | Element                     | Token             | Value           |
-| ------------------------------- | --------------------------- | ----------------- | --------------- |
-| `hoverOutlineColor`             | Outline:hover               | `purple-500`      | #a46ede         |
-| `focusOutlineColor`             | Outline:focus               | `blue-600`        | #0095ff         |
-| `errorOutlineColor`             | Outline:error               | `red-700`         | #d0011b         |
-| `hoverErrorOutlineColor`        | Outline:hover on error      | `red-600`         | #fe0123         |
-| `disabledOutlineColor`          | Outline:disabled            | `grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Spin button:hover           | `grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Spin button:focus           | `grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Spin button:active          | `grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Spin button:disabled        | `transparent`     | transparent     |
-| `hoverActionIconColor`          | Spin button icon:hover      | `grey-500`        | #999999         |
-| `focusActionIconColor`          | Spin button icon:focus      | `grey-500`        | #999999         |
-| `disabledActionIconColor`       | Spin button icon:disabled   | `grey-500`        | #999999         |
-
-
-### Typography
-
-| Property        | Element        | Token                   | Value           |
-| --------------- | -------------- | ----------------------- | --------------- |
-| `font-family`   | Label          | `type-sans`             | Open Sans       |
-| `font-size`     | Label          | `type-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `type-bold`             | 600             |
-| `line-height`   | Label          | `type-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `type-sans`             | Open Sans       |
-| `font-size`     | Value          | `type-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `type-regular`          | 400             |
-| `font-family`   | Error message  | `type-sans`             | Open Sans       |
-| `font-size`     | Error message  | `type-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `type-regular`          | 400             |
-| `line-height`   | Error message  | `type-leading-normal`   | 1.5em           |
-
-
-### Spacing
-
-
-| Property        | Element         | Token             | Value           |
-| --------------- | --------------- | ----------------- | --------------- |
-| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Spin button    |  `spacing-02`      | 0.25rem / 4px   |
-| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
-| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
-
-### Border
-
-| Property        | Element               | Token             | Value           |
-| --------------- | --------------------- | ----------------- | --------------- |
-| `border`        | Input container       | `-`               | 1px solid       |
-| `box-shadow`    | Input container:focus | `-`               | 1px solid       |
-
-### Width
-
-| Width                | Value |
-| -------------------- | ----- |
-| `small`              | 240px |
-| `medium` (_default_) | 360px |
-| `large`              | 480px |
-| `fillParent`         | 100%  |
 
 
 ## Accesibility
