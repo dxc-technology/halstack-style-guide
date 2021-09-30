@@ -59,10 +59,6 @@ _Component design specifications_
 | `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
 | `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
 | `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-| `disabledContainerFillColor`    | Textarea container:disabled | `color-grey-100`        | #f2f2f2         |
-
-
-
 
 
 ### Typography
