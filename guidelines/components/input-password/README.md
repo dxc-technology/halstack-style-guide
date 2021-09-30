@@ -54,6 +54,11 @@ _Input-password component specifications_
 
 The input-password `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
+The input-password doesn't have the following text-input elements, therefore, their listed styles don't apply:
+
+* Placeholder
+* Prefix / Suffix
+
 
 ## Accesibility
 
