@@ -40,6 +40,7 @@ _Component design specifications_
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `PlaceholderFontColor`   | Placeholder        | `color-grey-700`        | #666666           |
 | `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 
 
@@ -58,25 +59,39 @@ _Component design specifications_
 | `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
 | `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
 | `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
+| `disabledContainerFillColor`    | Texarea container:disabled  | `color-grey-100`        | #f2f2f2         |
+
+
 
 
 
 ### Typography
 
+
+| Component token           | Element        | Token                   | Value             |
+| :------------------------ | :------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All            | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label          | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label          | `font-weight-bold`      | 600               |
+| `labelFontStyle`          | Label          | `font-style-normal`     | normal            |
+| `valueFontSize`           | Value          | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value          | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value          | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper-text    | `font-scale-01`         | 12px              |
+| `helperTextFontWeight`    | Value          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Value          | `font-style-normal`     | normal            |
+| `optionalLabelFontWeight` | Value          | `font-weight-regular`   | 400               |
+
+
+
 | Property        | Element        | Token                   | Value           |
 | :-------------- | :------------- | :---------------------- | :-------------- |
-| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `font-weight-bold`      | 600             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `font-regular`          | 400             |
-| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
-| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
 | `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
 | `font-weight`   | Error message  | `font-weight-regular`   | 400             |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
 | `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
+| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
 
 
 ### Spacing
