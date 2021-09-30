@@ -52,90 +52,12 @@ The value of the input can be toggled on or off using the default action the com
 
 _Input-password component specifications_
 
-### Color
+The input-password `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
-| Component token          | Element            | Token             | Value             |
-| :----------------------- | :----------------- | :---------------- | :---------------- |
-| `labelFontColor`         | Label              | `black`           | #000000           |
-| `valueFontColor`         | Value              | `black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `black`           | #000000           |
-| `enabledOutlineColor`    | Outline:enabled    | `black`           | #000000           |
-| `ActionIconColor`        | Action icon        | `black`           | #000000           |
-| `ActionBackgroundColor`  | Action             | `transparent`     | #transparent      |
+The input-password doesn't have the following text-input elements, therefore, their listed styles don't apply:
 
-#### Interactive
-
-| Component token                 | Element                     | Token                   | Value           |
-| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
-| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
-| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
-| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Action:focus                | `color-grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
-| `hoverActionIconColor`          | Action icon:hover           | `color-grey-500`        | #999999         |
-| `focusActionIconColor`          | Action icon:focus           | `color-grey-500`        | #999999         |
-| `disabledActionIconColor`       | Action icon:disabled        | `color-grey-500`        | #999999         |
-
-
-### Typography
-
-| Property        | Element        | Token                   | Value           |
-| :-------------- | :------------- | :---------------------- | :-------------- |
-| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `font-weight-bold`      | 600             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `font-regular`          | 400             |
-| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
-| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
-| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
-
-
-### Spacing
-
-
-| Property        | Element         | Token             | Value           |
-| :-------------- | :-------------- | :---------------- | :-------------- |
-| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Action          | `spacing-02`      | 0.25rem / 4px   |
-| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
-| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
-
-### Border
-
-| Property        | Element               | Token                    | Value           |
-| :-------------- | :-------------------- | :----------------------- | :-------------- |
-| `border-width`  | Input container       | `border-width-1`         | 1px             |
-| `border-style`  | Input container       | `border-style-solid`     | solid           |
-| `border-radius` | Input container       | `border-radius-medium`   | 0.25rem / 4px   |
-| `box-shadow`    | Input container:focus | `-`                      | 1px solid       |
-
-### Width
-
-| Width                | Value |
-| -------------------- | ----- |
-| `small`              | 240px |
-| `medium` (_default_) | 360px |
-| `large`              | 480px |
-| `fillParent`         | 100%  |
-
+* Placeholder
+* Prefix / Suffix
 
 ## Accesibility
 ### WCAG 
