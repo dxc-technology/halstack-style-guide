@@ -55,6 +55,7 @@ _Structure and spacing for time picker inputs_
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
 | `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 | `ActionIconColor`        | Time button icon   | `color-black`           | #000000           |
 | `ActionBackgroundColor`  | Time button        | `color-transparent`     | transparent       |
@@ -106,7 +107,7 @@ _Structure and spacing for time picker inputs_
 | Property        | Element         | Token             | Value           |
 | :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Date button     | `spacing-02`      | 0.25rem / 4px   |
+| `margin-left`   | Time button     | `spacing-02`      | 0.25rem / 4px   |
 | `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
 | `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
