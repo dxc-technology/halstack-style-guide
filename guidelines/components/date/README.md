@@ -56,106 +56,11 @@ The format of the date may vary depending on language, region, country or custom
 
 _Input-date design specifications_
 
-#### Color
+The input-date `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
-| Component token          | Element            | Token                   | Value             |
-| :----------------------- | :----------------- | :---------------------- | :---------------- |
-| `labelFontColor`         | Label              | `color-black`           | #000000           |
-| `valueFontColor`         | Value              | `color-black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
-| `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
-| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
-| `ActionIconColor`        | Date button icon   | `color-black`           | #000000           |
-| `ActionBackgroundColor`  | Date button        | `color-transparent`     | transparent       |
+The input-date doesn't have the following text-input elements, therefore, their listed styles don't apply:
 
-##### Interactive
-
-| Component token                 | Element                     | Token                   | Value           |
-| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
-| `hoverBorderColor`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
-| `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
-| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
-| `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
-| `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
-| `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
-| `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
-| `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-| `hoverActionBackgroundColor`    | Date button:hover           | `color-grey-100`        | #f2f2f2         |
-| `focusActionBackgroundColor`    | Date button:focus           | `color-grey-100`        | #f2f2f2         |
-| `activeActionBackgroundColor`   | Date button:active          | `color-grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Date button:disabled        | `color-transparent`     | transparent     |
-| `hoverActionIconColor`          | Date button icon:hover      | `color-grey-500`        | #999999         |
-| `focusActionIconColor`          | Date button icon:focus      | `color-grey-500`        | #999999         |
-| `disabledActionIconColor`       | Date button icon:disabled   | `color-grey-500`        | #999999         |
-
-
-#### Typography
-
-| Component token           | Element              | Token                   | Value             |
-| :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
-| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
-| `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
-| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
-| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
-| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
-| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
-| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
-| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
-| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
-| `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
-
-
-
-| Property        | Element        | Token                   | Value           |
-| :-------------- | :------------- | :---------------------- | :-------------- |
-| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
-| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
-| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
-| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
-| `font-size`     | Placeholder    | `font-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Placeholder    | `font-regular`          | 400             |
-
-
-#### Spacing
-
-
-| Property        | Element         | Token             | Value           |
-| :-------------- | :-------------- | :---------------- | :-------------- |
-| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Date button     | `spacing-02`      | 0.25rem / 4px   |
-| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
-| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
-
-##### Border
-
-| Property                 | Element          | Core token                 | Value            |
-| :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Input:enabled    | `border-width-1`           | 1px              |
-| `border-style`           | Input:enabled    | `border-style-solid`       | solid            |
-| `border-width`           | Input:focus      | `border-width-2`           | 2px              |
-| `border-style`           | Input:focus      | `border-style-solid`       | solid            |
-
-
-#### Width
-
-| Width                | Value |
-| :------------------- | :---- |
-| `small`              | 240px |
-| `medium` (_default_) | 360px |
-| `large`              | 480px |
-| `fillParent`         | 100%  |
-
-
+* Prefix / Suffix
 
 
 ### Datepicker dialog
