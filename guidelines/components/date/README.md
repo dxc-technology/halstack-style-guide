@@ -63,6 +63,7 @@ _Input-date design specifications_
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
 | `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 | `ActionIconColor`        | Date button icon   | `color-black`           | #000000           |
 | `ActionBackgroundColor`  | Date button        | `color-transparent`     | transparent       |
