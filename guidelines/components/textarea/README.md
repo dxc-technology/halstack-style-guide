@@ -39,8 +39,8 @@ _Component design specifications_
 | :----------------------- | :----------------- | :---------------------- | :---------------- |
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
-| `PlaceholderFontColor`   | Placeholder        | `color-grey-700`        | #666666           |
+| `helperTextFontColor`    | Helper text        | `color-black`           | #000000           |
+| `PlaceholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
 | `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 
 
@@ -54,12 +54,12 @@ _Component design specifications_
 | `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Texarea container:disabled  | `color-grey-100`        | #f2f2f2         |
+| `disabledContainerFillColor`    | Textarea container:disabled | `color-grey-100`        | #f2f2f2         |
 | `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
 | `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
 | `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
 | `disabledPlaceholderFontColor`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-| `disabledContainerFillColor`    | Texarea container:disabled  | `color-grey-100`        | #f2f2f2         |
+| `disabledContainerFillColor`    | Textarea container:disabled | `color-grey-100`        | #f2f2f2         |
 
 
 
@@ -68,19 +68,19 @@ _Component design specifications_
 ### Typography
 
 
-| Component token           | Element        | Token                   | Value             |
-| :------------------------ | :------------- | :---------------------- | :---------------- |
-| `fontFamily`              | All            | `font-family-sans`      | Open Sans         |
-| `labelFontSize`           | Label          | `font-scale-02`         | 0.875rem / 14px   |
-| `labelFontWeight`         | Label          | `font-weight-bold`      | 600               |
-| `labelFontStyle`          | Label          | `font-style-normal`     | normal            |
-| `valueFontSize`           | Value          | `font-scale-03`         | 1rem / 16px       |
-| `valueFontWeight`         | Value          | `font-weight-regular`   | 400               |
-| `valueFontStyle`          | Value          | `font-style-normal`     | normal            |
-| `helperTextFontSize`      | Helper-text    | `font-scale-01`         | 12px              |
-| `helperTextFontWeight`    | Value          | `font-weight-regular`   | 400               |
-| `helperTextFontStyle`     | Value          | `font-style-normal`     | normal            |
-| `optionalLabelFontWeight` | Value          | `font-weight-regular`   | 400               |
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
+| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
 
 
 
