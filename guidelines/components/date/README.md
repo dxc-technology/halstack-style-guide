@@ -94,19 +94,32 @@ _Input-date design specifications_
 
 #### Typography
 
-| Property        | Element        | Token                      | Value           |
-| :-------------- | :------------- | :------------------------- | :-------------- |
-| `font-family`   | Label          | `font-family-sans`         | Open Sans       |
-| `font-size`     | Label          | `font-scale-02`            | 0.875rem / 14px |
-| `font-weight`   | Label          | `font-weight-bold`         | 600             |
-| `line-height`   | Label          | `font-leading-loose-01`    | 1.75em          |
-| `font-family`   | Value          | `font-family-sans`         | Open Sans       |
-| `font-size`     | Value          | `font--scale-03`           | 1rem / 16px     |
-| `font-weight`   | Value          | `font-weight-regular`      | 400             |
-| `font-family`   | Error message  | `font-family-sans`         | Open Sans       |
-| `font-size`     | Error message  | `font--scale-01`           | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `font-weight-regular`      | 400             |
-| `line-height`   | Error message  | `font-leading-normal`      | 1.5em           |
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
+| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
+
+
+
+| Property        | Element        | Token                   | Value           |
+| :-------------- | :------------- | :---------------------- | :-------------- |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
+| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
+| `font-size`     | Placeholder    | `font-scale-03`         | 1rem / 16px     |
+| `font-weight`   | Placeholder    | `font-regular`          | 400             |
 
 
 #### Spacing
