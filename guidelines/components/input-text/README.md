@@ -86,7 +86,7 @@ _Specifications for text-input component_
 | :----------------------- | :----------------- | :---------------------- | :---------------- |
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
-| `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
+| `helperTextFontColor`    | Helper text        | `color-black`           | #000000           |
 | `placeholderFontColor`   | Placeholder        | `color-grey-600`        | #808080           |
 | `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 | `actionIconColor`        | Action icon        | `color-black`           | #000000           |
@@ -100,7 +100,7 @@ _Specifications for text-input component_
 | `focusBorderColor`              | Border:focus                | `color-blue-600`        | #0095ff         |
 | `errorBorderColor`              | Border:error                | `color-red-700`         | #d0011b         |
 | `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
-| `disabledBorderColor`           | Border:disabled             | `color-grey-600`        | #808080         |
+| `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
 | `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
 | `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
@@ -132,22 +132,32 @@ _Specifications for text-input component_
 
 ### Typography
 
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
+| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
+
+
+
 | Property        | Element        | Token                   | Value           |
 | :-------------- | :------------- | :---------------------- | :-------------- |
-| `font-family`   | Label          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
-| `font-weight`   | Label          | `font-bold`             | 600             |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
 | `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
-| `font-family`   | Value          | `font-family-sans`      | Open Sans       |
-| `font-size`     | Value          | `font-scale-03`         | 1rem / 16px     |
-| `font-weight`   | Value          | `font-regular`          | 400             |
-| `font-family`   | Placeholder    | `font-family-sans`      | Open Sans       |
+| `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
+| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
 | `font-size`     | Placeholder    | `font-scale-03`         | 1rem / 16px     |
 | `font-weight`   | Placeholder    | `font-regular`          | 400             |
-| `font-family`   | Error message  | `font-family-sans`      | Open Sans       |
-| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
-| `font-weight`   | Error message  | `font-regular`          | 400             |
-| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 
 
 
