@@ -80,9 +80,7 @@ _Specifications for text-input component_
 
 ## Color
 
-### On-light
-
-#### Base
+### Base
 
 | Component token          | Element            | Token                   | Value             |
 | :----------------------- | :----------------- | :---------------------- | :---------------- |
@@ -94,7 +92,7 @@ _Specifications for text-input component_
 | `actionIconColor`        | Action icon        | `color-black`           | #000000           |
 | `actionBackgroundColor`  | Action             | `color-transparent`     | #transparent      |
 
-#### Interactive
+### Interactive
 
 | Component token                 | Element                     | Token                   | Value           |
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
@@ -121,7 +119,7 @@ _Specifications for text-input component_
 
 
 
-#### Suffix/Prefix
+### Suffix/Prefix
 
 | Component token          | Element          | Token                   | Value             |
 | :----------------------- | :--------------- | :---------------------- | ----------------- |
@@ -131,55 +129,6 @@ _Specifications for text-input component_
 | `disabledPrefixColor`    | Prefix:disabled  | `color-grey-400`        | #bfbfbf           |
 
 
-### On-dark
-
-#### Base
-
-| Component token                | Element            | Token                   | Value           |
-| :----------------------------- | :----------------- | :---------------------- | :-------------- |
-| `labelFontColorOnDark`         | Label              | `color-white`           | #ffffff         |
-| `valueFontColorOnDark`         | Value              | `color-white`           | #ffffff         |
-| `helperTextFontColorOnDark`    | Helper-text        | `color-white`           | #ffffff         |
-| `placeholderFontColorOnDark`   | Placeholder        | `color-grey-100`        | #f2f2f2         |
-| `enabledBorderColorOnDark`     | Border:enabled     | `color-white`           | #ffffff         |
-| `actionIconColorOnDark`        | Action icon        | `color-white`           | #ffffff         |
-| `actionBackgroundColorOnDark`  | Action             | `color-transparent`     | transparent     |
-
-
-#### Interactive
-
-| Component token                       | Element                     | Token                   | Value           |
-| :------------------------------------ | :-------------------------- | :---------------------- | --------------- |
-| `hoverBorderColorOnDark`              | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusBorderColorOnDark`              | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorBorderColorOnDark`              | Border:error                | `color-red-500`         | #fe344f         |
-| `hoverErrorBorderColorOnDark`         | Border:hover on error       | `color-red-400`         | #fe677b         |
-| `disabledBorderColorOnDark`           | Border:disabled             | `color-grey-500`        | #999999         |
-| `errorMessageColorOnDark`             | Error message               | `color-red-500`         | #fe344f         |
-| `errorIconColorOnDark`                | Error icon                  | `color-red-500`         | #fe344f         |
-| `disabledContainerFillColorOnDark`    | Input container:disabled    | `color-grey-700`        | #666666         |
-| `disabledLabelFontColorOnDark`        | Label:disabled              | `color-grey-500`        | #999999         |
-| `disabledValueFontColorOnDark`        | Value:disabled              | `color-grey-500`        | #999999         |
-| `disabledHelperTextFontColorOnDark`   | Helper text:disabled        | `color-grey-500`        | #999999         |
-| `disabledPlaceholderFontColorOnDark`  | Placeholder:disabled        | `color-grey-500`        | #999999         |
-| `hoverActionBackgroundColorOnDark`    | Action:hover                | `color-grey-700`        | #666666         |
-| `focusActionBorderColorOnDark`        | Action:focus                | `color-blue-600`        | #0095ff         |
-| `activeActionBackgroundColorOnDark`   | Action:active               | `color-grey-500`        | #999999         |
-| `disabledActionBackgroundColorOnDark` | Action:disabled             | `color-transparent`     | transparent     |
-| `hoverActionIconColorOnDark`          | Action icon:hover           | `color-white`           | #ffffff         |
-| `focusActionIconColorOnDark`          | Action icon:focus           | `color-white`           | #ffffff         |
-| `activeActionIconColorOnDark`         | Action icon:active          | `color-black`           | #000000         |
-| `disabledActionIconColorOnDark`       | Action icon:disabled        | `color-grey-700`        | #666666         |
-
-
-#### Suffix/Prefix
-
-| Component token                | Element          | Token                   | Value           |
-| :----------------------------- | :--------------- | :---------------------- | :-------------- |
-| `suffixColorOnDark`            | Suffix           | `color-white`           | #ffffff         |
-| `prefixColorOnDark`            | Prefix           | `color-white`           | #ffffff         |
-| `disabledSuffixColorOnDark`    | Suffix:disabled  | `color-grey-700`        | #666666         |
-| `disabledPrefixColorOnDark`    | Prefix:disabled  | `color-grey-700`        | #666666         |
 
 ### Typography
 
@@ -203,7 +152,6 @@ _Specifications for text-input component_
 
 
 ### Spacing
-
 
 | Property        | Element         | Token             | Value           |
 | :-------------- | :-------------- | :---------------- | :-------------- |
