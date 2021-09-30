@@ -11,6 +11,7 @@ There are different ways to organise the content on the webpage to facilitate th
 | :------------ | :------------------------------------------------------------------------------------------------------------ |
 | **Bordered**  | Use this variant to encapsulate other elements and build clear distinctions between areas in the page layout  |
 | **Raised**    | Use this variant for dialogs (e.g. select or dropdown dialog) and clickable containers                        |
+| **Dashed**    | Use this variant for drag and drop areas                                                                      |
 
 ## Design specifications
 
