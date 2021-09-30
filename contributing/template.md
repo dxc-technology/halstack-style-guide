@@ -120,6 +120,7 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 * [Angular CDK component](url)
 * [React CDK component](url)
+* [Adobe XD component](url)
 
 ____________________________________________________________
 
