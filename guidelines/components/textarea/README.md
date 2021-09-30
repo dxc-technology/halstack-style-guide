@@ -40,7 +40,7 @@ _Component design specifications_
 | `labelFontColor`         | Label              | `color-black`           | #000000           |
 | `valueFontColor`         | Value              | `color-black`           | #000000           |
 | `helperTextFontColor`    | Helper-text        | `color-black`           | #000000           |
-| `enabledOutlineColor`    | Outline:enabled    | `color-black`           | #000000           |
+| `enabledBorderColor`     | Border:enabled     | `color-black`           | #000000           |
 
 
 #### Interactive
@@ -53,7 +53,7 @@ _Component design specifications_
 | `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
+| `disabledContainerFillColor`    | Texarea container:disabled  | `color-grey-100`        | #f2f2f2         |
 | `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
 | `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
 | `disabledHelperTextFontColor`   | Helper text:disabled        | `color-grey-500`        | #999999         |
@@ -82,21 +82,21 @@ _Component design specifications_
 ### Spacing
 
 
-| Property        | Element         | Token             | Value           |
-| :-------------- | :-------------- | :---------------- | :-------------- |
-| `padding-left`  | Input container | `spacing-03`      | 1rem / 16px     |
-| `padding-right` | Input container | `spacing-03`      | 1rem / 16px     |
-| `margin-top`    | Input container | `spacing-02`      | 0.5rem / 8px    |
-| `margin-bottom` | Input container | `spacing-02`      | 0.5rem / 8px    |
+| Property        | Element           | Token             | Value           |
+| :-------------- | :---------------- | :---------------- | :-------------- |
+| `padding-left`  | Texarea container | `spacing-03`      | 1rem / 16px     |
+| `padding-right` | Texarea container | `spacing-03`      | 1rem / 16px     |
+| `margin-top`    | Texarea container | `spacing-02`      | 0.5rem / 8px    |
+| `margin-bottom` | Texarea container | `spacing-02`      | 0.5rem / 8px    |
 
 ### Border
 
-| Property        | Element               | Token                    | Value           |
-| :-------------- | :-------------------- | :----------------------- | :-------------- |
-| `border-width`  | Input container       | `border-width-1`         | 1px             |
-| `border-style`  | Input container       | `border-style-solid`     | solid           |
-| `border-radius` | Input container       | `border-radius-medium`   | 0.25rem / 4px   |
-| `box-shadow`    | Input container:focus | `-`                      | 1px solid       |
+| Property        | Element                 | Token                    | Value           |
+| :-------------- | :---------------------- | :----------------------- | :-------------- |
+| `border-width`  | Texarea container       | `border-width-1`         | 1px             |
+| `border-style`  | Texarea container       | `border-style-solid`     | solid           |
+| `border-radius` | Texarea container       | `border-radius-medium`   | 0.25rem / 4px   |
+| `box-shadow`    | Texarea container:focus | `-`                      | 1px solid       |
 
 ### Width
 
