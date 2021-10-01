@@ -71,6 +71,26 @@ Prefixes and suffixes help the user to understando the purpose of the text input
 
 _Icon or text prefixes and suffixes usage_
 
+## Helper text
+
+Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
+
+![Text-input helper text example](images/input_helper_text.png)
+
+_Text-input helper text example_
+
+### Usage
+
+Do:
+
+* Keep helper text as short and specific as possible.
+* Only use helper text when truly necessary to avoid overloading the user.
+* Should give an example or an explanation of the field
+
+Don’t:
+
+* Helper text should not run longer than the input area.
+
 
 ## Design Specifications
 
@@ -214,36 +234,6 @@ _Specifications for text-input component_
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-
-## Helper text
-
-Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
-
-![Text-input helper text example](images/input_helper_text.png)
-
-_Text-input helper text example_
-
-### Usage
-
-Do:
-
-* Keep helper text as short and specific as possible.
-* Only use helper text when truly necessary to avoid overloading the user.
-* Should give an example or an explanation of the field
-
-Don’t:
-
-* Helper text should not run longer than the input area.
-
-### Specs
-
-| Property        | Element        | Token                   | Value           |
-| --------------- | -------------- | ----------------------- | --------------- |
-| `margin-top`    | helper-text    | `spacing-02`            | 4px             |
-| `font-size`     | helper-text    | `font-scale-01`         | 12px            |
-| `font-family`   | helper-text    | `font-family-sans`      | Open Sans       |
-| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
-| `color`         | helper-text    | `color-black`           | hsl(0, 0%, 0%)  |
 
 ### Autocomplete
 
