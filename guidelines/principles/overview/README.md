@@ -1,16 +1,6 @@
-
-<p align="center">
-  <a href="https://developer.dxc.com/design/principles">
-    <img alt="Halstack Design System" src="https://developer.dxc.com/static/media/halstack.08bea965.svg" width="100px" />
-  </a>
-</p>
-
-<h1 align="center">
-  Halstack Design System
-</h1>
+# Halstack Design System
 
 Halstack is the DXC Technology's open source design system for insurance products and digital experiences. Our system provides all the tools and resources needed to create superior, beautiful but above all, functional user experiences.
-
 
 
 ## Design principles
