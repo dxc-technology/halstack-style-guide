@@ -88,14 +88,14 @@ _Structure and spacing for date picker calendar pop-up_
 
 #### Typography
 
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  Year selector   |   16px      |
-| `font-size`                   |  Current month   |   13px      |
-| `font-size`                   |  Day             |   13px      |
-| `font-weight`                 |  Year selector   |   600       |
-| `font-weight`                 |  Current month   |   400       |
-| `font-weight`                 |  Day             |   400       |
+| Property                      | Element          | Core token              | Value        |
+| :---------------------------- | :--------------- | :---------------------- | :----------- |
+| `font-size`                   |  Year selector   | `font-scale-03`         | 1rem / 16px  |
+| `font-size`                   |  Current month   | -                       | 13px         |
+| `font-size`                   |  Day             | -                       | 13px         |
+| `font-weight`                 |  Year selector   | `font-weight-semibold`  | 600          |
+| `font-weight`                 |  Current month   | `font-weight-regular`   | 400          |
+| `font-weight`                 |  Day             | `font-weight-regular`   | 400          |
 
 #### Padding
 
