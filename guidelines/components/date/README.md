@@ -97,14 +97,14 @@ _Structure and spacing for date picker calendar pop-up_
 | `font-weight`                 |  Current month   | `font-weight-regular`   | 400          |
 | `font-weight`                 |  Day             | `font-weight-regular`   | 400          |
 
-#### Padding
+#### Spacing
 
-| Property                      | Element               |  Value      |
-| ----------------------------- | ----------------      | ----------- |
-| `padding`                     |  Calendar container   |   16px      |
-| `padding-left/right`          |  Month container      |   8px       |
-| `padding-left/right`          |  Year selector        |   16px      |
-| `padding-top/bottom`          |  Separator            |   8px       |
+| Property                      | Element               | Core token      | Value            |
+| :---------------------------- | :-------------------- | :-------------- | :--------------- |
+| `padding`                     |  Calendar container   | `spacing-05`    | 1rem / 16px      |
+| `padding-left/right`          |  Month container      | `spacing-03`    | 0.5rem / 8px     |
+| `padding-left/right`          |  Year selector        | `spacing-05`    | 1rem / 16px      |
+| `padding-top/bottom`          |  Separator            | `spacing-03`    | 0.5rem / 8px     |
 
 #### Sizing
 
