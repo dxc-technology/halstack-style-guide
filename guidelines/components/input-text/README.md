@@ -4,7 +4,7 @@ Text inputs are input fields typically used in forms that allow the user to ente
 
 ## Usage
 
-Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, ccolor-redit cards, emails, addresses or plain text searches
+Use text inputs in forms to help people enter, select, and search for text. Common text input types include: Usernames, descriptions, URLs, phone numbers, credit cards, emails, addresses or plain text searches
 
 ### Do's
 
@@ -256,11 +256,16 @@ _Autocomplete functionality for the text input component_
 
 #### Typography
 
+
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `listOptionFontSize`      | List option          | `font-scale-03`         | 1rem / 16px       |
+| `listOptionFontWeight`    | List option          | `font-weight-regular`   | 400               |
+| `listOptionFontStyle`     | List option          | `font-style-normal`     | normal            |
+
 | Property        | Element              | Token                   | Value           |
 | :-------------- | :------------------- | :---------------------- | :-------------- |
 | `font-family`   | List option          | `font-family-sans`      | Open Sans       |
-| `font-size`     | List option          | `font-scale-03`         | 1rem / 16px     |
-| `font-weight`   | List option          | `font-regular`          | 400             |
 | `font-weight`   | List option typed    | `font-bold`             | 600             |
 | `font-family`   | System message       | `font-family-sans`      | Open Sans       |
 | `font-size`     | System message       | `font-scale-02`         | 0.875 / 14px    |
