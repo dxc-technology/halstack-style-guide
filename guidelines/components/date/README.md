@@ -1,97 +1,69 @@
-# Date-picker
+# Input-date
 
 A date input is a user interface element where the user can type or select a date in a predefined format. 
 
+## Usage
+
+* Use the date input component when you’re asking users for a past, present or future date
+* Provide a hint with the date format expected in the placeholder
+* Use a concise label to indicate what the date selection refer to
+
 ## States
 
-### Date-input
+### Input-date
 
-States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
+States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
-![Examples of date picker input states](images/date_states.png)
+![Examples of date picker input states](images/input_date_states.png)
 
 _Examples of date picker input states_
 
-### Calendar pop-up
+### Datepicker dialog
 
-States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **disabled**.
+States: **enabled**, **hover**, **focus**, and **disabled**.
 
 ![Examples of the calendar pop-up states](images/date_popup.png)
 
 _Examples of the calendar pop-up states_
 
+## Anatomy
+
+![Component anatomy example](images/input_date_anatomy.png)
+
+1. Label
+2. Helper text _(Optional)_
+3. Input container
+4. Date button
+5. Error indicator
+6. Error message
+7. Placeholder / value
+
+## Internationalization
+
+The date format depends on an ISO definition for each country and the preference of use within the application.
+
+The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
+
+- The default format for the United States is `mm/dd/yyyy`
+- The default format for Australia, Europe, Africa, South America most countries of Asia is `dd/mm/yyyy`
+- The default format in China is `yyyy/mm/dd`
 
 ## Design Specifications
 
-### Date-input
+### Input-date
 
-![date-input specifications](images/date_specs.png)
+![Input-date design specifications](images/input_date_specs.png)
 
-_Structure and spacing for date picker inputs_
+_Input-date design specifications_
 
-#### Height
+The input-date `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
-| Property                              | Value     |
-| ------------------------------------- | --------- |
-| `height` (default)                    |      32px |
-| `height` (selected)                   |      48px |
-| `height` (selected + auxiliar text)   |      73px |
+The input-date doesn't have the following text-input elements, therefore, their listed styles don't apply:
+
+* Prefix / Suffix
 
 
-#### Width
-
-| Property            |  Value           | 
-| ------------------- |  -------------   |   
-| `medium`_(default)_ |  240px           | 
-| `large`             |  480px           |  
-| `fillParent`        |  -               | 
-
-
-#### Margin
-
-Different values can be applied to each side of the component:
-```top``` ```bottom``` ```left``` ```right```
-
-margin | Value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
-
-
-#### Typography
-
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  label enabled   |   16px      |
-| `font-size`                   |  label           |   12px      |
-| `font-size`                   |  placeholder     |   16px      |
-| `font-size`                   |  assistive text  |   12px      |
-| `font-weight`                 |  all             |   400       |
-
-
-#### Border
-
-| Property                 | Element          | Core token                 | Value            |
-| :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Input:enabled    | `border-width-1`           | 1px              |
-| `border-style`           | Input:enabled    | `border-style-solid`       | solid            |
-| `border-width`           | Input:focus      | `border-width-2`           | 2px              |
-| `border-style`           | Input:focus      | `border-style-solid`       | solid            |
-
-#### Other specs
-
-| Property                            | Value     |
-| ----------------------------------- | --------- |
-| Icon size                           |   20x20px |
-| Distance between text and underline |   7px     |
-
-
-### Calendar pop-up
+### Datepicker dialog
 
 ![Date specifications for picker](images/date_popup_specs.png)
 
@@ -112,81 +84,45 @@ _Structure and spacing for date picker calendar pop-up_
 | `pickerMonthFontColor`                 | Mont label                     | `color-black`                | #000000       | 
 | `pickerWeekFontColor`                  | Weekday label                  | `color-black`                | #000000       | 
 | `pickerBackgroundColorMonthArrows`     | Month selection controls       | `color-black`                | #000000       |  
-| `focusColor`                           | Focus outline                  | `color-blue-800`             | #0067b3       | 
+| `focusColor`                           | Focus outline                  | `color-blue-600`             | #0095ff         | 
 
 #### Typography
 
-| Property                      | Element          |  Value      |
-| ----------------------------- | ---------------- | ----------- |
-| `font-size`                   |  year selector   |   16px      |
-| `font-size`                   |  current month   |   13px      |
-| `font-size`                   |  day             |   13px      |
-| `font-weight`                 |  year selector   |   600       |
-| `font-weight`                 |  current month   |   400       |
-| `font-weight`                 |  day             |   400       |
+| Property                      | Element          | Core token              | Value        |
+| :---------------------------- | :--------------- | :---------------------- | :----------- |
+| `font-size`                   |  Year selector   | `font-scale-03`         | 1rem / 16px  |
+| `font-size`                   |  Current month   | -                       | 13px         |
+| `font-size`                   |  Day             | -                       | 13px         |
+| `font-weight`                 |  Year selector   | `font-weight-semibold`  | 600          |
+| `font-weight`                 |  Current month   | `font-weight-regular`   | 400          |
+| `font-weight`                 |  Day             | `font-weight-regular`   | 400          |
 
-#### Padding
+#### Spacing
 
-| Property                      | Element               |  Value      |
-| ----------------------------- | ----------------      | ----------- |
-| `padding`                     |  calendar container   |   16px      |
-| `padding-left/right`          |  month container      |   8px       |
-| `padding-left/right`          |  year selector        |   16px      |
-| `padding-top/bottom`          |  separator            |   8px       |
-
+| Property                      | Element               | Core token      | Value            |
+| :---------------------------- | :-------------------- | :-------------- | :--------------- |
+| `padding`                     |  Calendar container   | `spacing-05`    | 1rem / 16px      |
+| `padding-left/right`          |  Month container      | `spacing-03`    | 0.5rem / 8px     |
+| `padding-left/right`          |  Year selector        | `spacing-05`    | 1rem / 16px      |
+| `padding-top/bottom`          |  Separator            | `spacing-03`    | 0.5rem / 8px     |
 
 #### Sizing
 
 | Property                      | Element                |  Value      |
 | ----------------------------- | ----------------       | ----------- |
-| `height/width`                |  selected date circle  |   28/28px   |
-| `height/width`                |  year selection caret  |   24/24px   |
-| `height/width`                |  calendar top controls |   24/24px   |
+| `height/width`                |  Selected date circle  |   28/28px   |
+| `height/width`                |  Year selection caret  |   24/24px   |
+| `height/width`                |  Calendar top controls |   24/24px   |
 
-
-
-
-## Helper text
-
-Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
-
-![Date helper text](images/date_helper_text.png)
-
-### Usage
-
-#### Do:
-
-* Keep helper text as short and specific as possible.
-* Only use helper text when truly necessary to avoid overloading the user.
-* Should give an example or an explanation of the field.
-
-#### Don’t:
-
-* Helper text should not run longer than the input area.
-
-
-## Required
-
-Required date fields are displayed in the same way the component text-input does.
-
-![Required date input](images/date_required.png)
-
-## Internationalization
-
-The date format depends on an ISO definition for each country and the preference of use within the application.
-
-The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
-
-- The default format for the United States is `mm/dd/yyyy`
-- The default format for Australia, Europe, Africa, So America and much of Asia is `dd/mm/yyyy`
-- The default format in China is `yyyy/mm/dd`
 
 ## Accessibility
 
 ### WCAG 2.2
 
+* Understanding WCAG 2.2 - [SC 2.1.1: Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+* Understanding WCAG 2.2 - [SC 2.1.2: No keyboard trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap)
+* Understanding WCAG 2.2 - [SC 2.4.6: Headings and labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
 * Understanding WCAG 2.2 - [SC 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
-* Understanding WCAG 2.2 - [SC 1.4.13: Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html)
 
 
 ### WAI-ARIA 1.2
@@ -197,7 +133,9 @@ The format of the date may vary depending on language, region, country or custom
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7965bd24-3ef3-427d-92de-0d2aac880402/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/newDate)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/newDate)
+* [Adobe XD component]()
 
 ____________________________________________________________
 
