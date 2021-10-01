@@ -107,6 +107,7 @@ _Component chip design specifications_
 
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/chip)
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/chip)
+* [Adobe XD component](https://xd.adobe.com/view/bbb28dcb-0378-49af-ab09-c10f1e0ce2b2-eee1/)
 
 ____________________________________________________________
 

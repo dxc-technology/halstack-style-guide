@@ -119,7 +119,9 @@ _Header menu responsive version_
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/448bb58a-bcfc-4aac-b265-42376a27a591/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/header)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/header)
+* [Adobe XD component](https://xd.adobe.com/view/947422e5-2708-45b4-8974-4968fb97ceb2-c127/)
 
 ____________________________________________________________
 

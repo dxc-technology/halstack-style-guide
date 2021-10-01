@@ -154,7 +154,9 @@ At this stage, the custom content and the disposition is responsability of the u
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/3c920e77-d15a-4856-81c4-d9389af085b0/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/footer)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/footer)
+* [Adobe XD component](https://xd.adobe.com/view/5a5265da-3257-40c4-b086-f3d90de179e0-0f01/)
 
 ____________________________________________________________
 
