@@ -79,7 +79,7 @@ _Slider Specifications_
 | `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
 | `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
 | `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `color-blue-600`      | #0095ff |
+| `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
 
 
 ### Typography
@@ -126,9 +126,9 @@ _Slider Specifications_
 | `border-width`           | Thumb            | `border-width-0`           | 0                |
 | `border-style`           | Thumb            | `border-style-none`        | none             |
 | `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
-| `border-width`           | Focus border     | `border-width-2`           | 2px              |
-| `border-style`           | Focus border     | `border-style-solid`       | solid            |
-| `border-radius`          | Focus border     | `border-radius-full`       | 9999px           |
+| `border-width`           | Focus indicator  | `border-width-2`           | 2px              |
+| `border-style`           | Focus indicator  | `border-style-solid`       | solid            |
+| `border-radius`          | Focus indicator  | `border-radius-full`       | 9999px           |
 
 ## Accessibility
 
