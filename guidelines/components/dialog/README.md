@@ -8,10 +8,10 @@ A modal dialog is a message box or child window that requires user interaction b
 * The dialog always should have a title to introduce the actions or information that will get displayed on the screen.  
 * Can contain a descriptive text or a phrase related to the action that triggered the dialog.
 * Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons.
-* If the dialog is not including a cancel action, provide a way to close it
+* If the dialog is not including a cancel action, provide a way to close it.
 * Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
 * The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. 
-* Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
+* Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly.
 
 
 ## Anatomy
@@ -45,20 +45,20 @@ _Design specifications for dialog component_
 | `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
 | `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
 
-### Padding
+### Typography
 
-padding | value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` _(default)_ | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
+| Component token                | Element                     | Core token                    | Value                    |
+| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
+| `fontFamily`                   | Content                     | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `fontSize`                     | Content                     | `font-scale-03`               | 1rem / 16px              |
+| `fontWeight`                   | Content                     | `font-weight-regular`         | 400                      |
 
-And also apply different values to each side of the component:
-`top` `bottom` `left` `right`
+| Property                       | Element                     | Core token                    | Value                    |
+| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
+| `font-family`                  | Title                       | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `font-size`                    | Title                       | `font-scale-05`               | 1.5rem / 24px            |
+| `font-weight`                  | Title                       | `font-weight-semibold`        | 600                      |
+
 
 ### Border
 
@@ -68,36 +68,38 @@ And also apply different values to each side of the component:
 | `border-style`           | Container        | `border-style-none`        | none             |
 | `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
+### Spacing
 
-### Specifications for desktop and tablet (landscape mode)
-
-| Property               |  value |
-| ---------------------  | ----------------- |
-| `min-width`            |             800px |
-| `max-width`            |               80% |
-| Title `font-size`      |              24px |
-| Body `font size`       |              16px |
-| `font-weight`          |           Regular |
-| 'X' icon size          |           24x24px |
-| `margin`               |              32px |
-| Title icon space       |              12px |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `margin-right`           | Title icon       | `spacing-04`               | 0.75rem / 12px   |
+| `margin-bottom`          | Title            | `spacing-06`               | 1.5rem / 24px    |
 
 
-### Specifications for tablet (portrait mode)
+### Size
 
-| Property         | Value   |
-| ---------------  | ------  |
-| `min-width`      | 92%     |
-| `max-width`      | 92%     |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `min-width`              | Container        | -                          | 800px            |
+| `max-width`              | Container        | -                          | 80%              |
+| `width`                  | Close action     | -                          | 24px             |
+| `height`                 | Close action     | -                          | 24px             |
 
 
-### Specifications for phone
+### Padding
 
-| Property           |   Value |
-| ------------------ | ------  |
-| `min-width`        |  92%    |
-| `max-width`        |  92%    |
-| Title `font-size`  |  20px   |
+| Padding             | Value  |
+| :------------------ | :----- |
+| `xxsmall`           | 6px    |
+| `xsmall`            | 16px   |
+| `small` _(default)_ | 24px   |
+| `medium`            | 36px   |
+| `large`             | 48px   |
+| `xlarge`            | 64px   |
+| `xxlarge`           | 100px  |
+
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
 
 ## Content
 
