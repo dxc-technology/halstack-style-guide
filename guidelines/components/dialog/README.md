@@ -5,14 +5,12 @@ A modal dialog is a message box or child window that requires user interaction b
 ## Usage
 
 
-* The dialog always should have a title to introduce the actions or information that will get displayed on the screen.  
-* Can contain a descriptive text or a phrase related to the action that triggered the dialog.
-* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons.
-* If the dialog is not including a cancel action, provide a way to close it.
-* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
-* The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. 
-* Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly.
-
+* The dialog always should have a title to introduce the actions or information that will get displayed on the screen  
+* Can contain a descriptive text or a phrase related to the action that triggered the dialog
+* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons
+* If the dialog is not including a cancel action, provide a way to close it
+* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow
+ 
 
 ## Anatomy
 
@@ -23,6 +21,23 @@ A modal dialog is a message box or child window that requires user interaction b
 3. Close action
 4. Dialog actions
 5. Content
+
+## Content
+
+![Example of a dialog using Halstack components as content](images/dialog_content.png)
+
+_Example of a dialog using Halstack components as content_
+
+Any content (Halstack components or custom) can be placed inside the dialog component, try always to avoid scrolling.
+
+
+## Overlay
+
+![Example of the overlay usage](images/dialog_overlay.png)
+
+_Example of the overlay usage_
+
+The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
 
 
 ## Design Specifications
@@ -85,6 +100,17 @@ _Design specifications for dialog component_
 | `width`                  | Close action     | -                          | 24px             |
 | `height`                 | Close action     | -                          | 24px             |
 
+### Overlay
+
+| Component token          | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `overlayOpacity`         | Overlay          | -                          | 0.7              |
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `width`                  | Overlay          | -                          | 100vw            |
+| `height`                 | Overlay          | -                          | 100vh            |
+
 
 ### Padding
 
@@ -100,31 +126,6 @@ _Design specifications for dialog component_
 
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
-
-## Content
-
-![Example of a dialog using Halstack components as content](images/dialog_content.png)
-
-_Example of a dialog using Halstack components as content_
-
-Any content (Halstack component or custom) can be placed inside the dialog component, try always to avoid scrolling.
-
-
-## Overlay
-
-![Example of the overlay usage](images/dialog_overlay.png)
-
-_Example of the overlay usage_
-
-The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
-
-### Specifications for overlay
-
-| Property |               Value |
-| -------- | ------------------: |
-| Width    |             `100vw` |
-| Height   |             `100vh` |
-| Color    | `#000, 0.7 opacity` |
 
 
 ## Combining with other UI elements
