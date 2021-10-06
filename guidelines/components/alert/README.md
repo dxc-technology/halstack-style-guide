@@ -70,9 +70,9 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
 | `warningBorderColor`          | Container border            | `color-yellow-700`          |   #c59f07     |
 | `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
-| `titleFontColor`              | Label                       | `color-black`               |   #000000     |
-| `contentFontColor`            | Content                     | `color-black`               |   #000000     |
-| `focusColor`                  | Action:focus                | `color-blue-800`            |   #0067b3     |
+| `titleFontColor`              | Title                       | `color-black`               |   #000000     |
+| `inlineTextFontColor`         | Inline text                 | `color-black`               |   #000000     |
+| `focusColor`                  | Action:focus                | `color-blue-600`            |   #0095ff     |
 | `overlayColor`                | Overlay                     | -                           |   #000000B3   |
 
 
@@ -80,12 +80,12 @@ Depending on the content that need to be displayed, more detailed descriptions c
 
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `font-scale-01`        | 0.75rem / 12px            | 
-| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `font-scale-01`        | 0.75rem / 12px            |
-| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
+| `titleFontFamily`                           | Title                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Title                        | `font-scale-01`        | 0.75rem / 12px            | 
+| `titleFontWeight`                           | Title                        | `font-bold`            | 600                       | 
+| `inlineTextFontFamily`                      | Inline text                  | `font-family-sans`     | 'Open Sans', sans-serif;  |
+| `inlineTextFontSize`                        | Inline text                  | `font-scale-01`        | 0.75rem / 12px            |
+| `inlineTextFontWeight`                      | Inline text                  | `font-regular`         | 400                       |
 
 
 ### Border
@@ -98,13 +98,13 @@ Depending on the content that need to be displayed, more detailed descriptions c
 
 ### Spacing
 
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| Component token                             | Element                      | Core token             | Value             |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :---------------- |
 | `containerPaddingLeft`                      | Container                    | `spacing-04`           | 0.75rem / 12px    | 
 | `containerPaddingRight`                     | Container                    | `spacing-04`           | 0.75rem / 12px    | 
-| `titlePaddingRight`                         | Label                        | `spacing-03`           | 0.5rem / 8px      |
-| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 0.5rem / 8px      |
-| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 3rem / 48px       |
+| `titlePaddingRight`                         | Title                        | `spacing-03`           | 0.5rem / 8px      |
+| `inlineTextPaddingRight`                    | Inline text                  | `spacing-03`           | 0.5rem / 8px      |
+
 
 ### Iconography
 
