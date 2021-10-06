@@ -39,11 +39,12 @@ _Context-based alert types_
 
 ![Alert component anatomy](images/alert_anatomy.png)
 
-1. Icon
-2. Label
-3. Alert message
-4. Close action (Optional)
-5. Description (Optional)
+1. Container
+2. Icon
+3. Title
+4. Inline text
+5. Close action
+6. Content _(Optional)_
 
 ## Content
 
