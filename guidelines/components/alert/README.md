@@ -68,7 +68,7 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `errorBackgroundColor`        | Container background        | `color-red-100`             |   #ffe6e9     |
 | `infoBorderColor`             | Container border            | `color-blue-800`            |   #0067b3     |
 | `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
-| `warningBorderColor`          | Container border            | `color-yellow-500`          |   #f7cf2b     |
+| `warningBorderColor`          | Container border            | `color-yellow-700`          |   #c59f07     |
 | `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
 | `titleFontColor`              | Label                       | `color-black`               |   #000000     |
 | `contentFontColor`            | Content                     | `color-black`               |   #000000     |
