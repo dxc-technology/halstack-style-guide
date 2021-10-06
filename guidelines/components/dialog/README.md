@@ -139,8 +139,19 @@ For the case that the application has a modal opened and it needs to load data f
 
 Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
 
+## Accesibility
 
+### WCAG
 
+* Understanding WCAG 2.2 - [2.1.2 No Keyboard Trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html)
+* Understanding WCAG 2.2 - [2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html)
+
+### WAI-ARIA
+
+* WAI-ARIA Authoring practices 1.2 - [3.9 Dialog (Modal)](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
+* WAI-ARIA Authoring practices 1.2 - [Modal Dialog Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html)
+
+Modal Dialog Example
 ## Links and references
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/dialog)
