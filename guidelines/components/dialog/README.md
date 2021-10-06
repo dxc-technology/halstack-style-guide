@@ -127,18 +127,6 @@ _Design specifications for dialog component_
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
-
-## Combining with other UI elements
-
-There are some elements that require some guidance to use it on the dialog component, based on the nature of the component or the behavior that it has in the ecosystem. Due to resource loading or prompting messages for the user, special guides are defined to incorporate these scenarios.
-
-For the case that the application has a modal opened and it needs to load data from the server, we can represent this situation to the user in several ways.
-
-- One option can be to stick to the default implementation of the spinner component and use it in the overlay mode, overlapping the loading element to the rest of the interface components and make it clear that the application is getting some resources from the APIs.
-- Another approach, to avoid render an overlay on top of another overlay is to integrate the loading indicator into the modal window. This can be done placing the spinner near the title of the dialog, on the right side and the small variations of the component. Using this way we make explicit to the user that the applications are working on something without the need to distract the attention from the dialog.
-
-Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
-
 ## Accesibility
 
 ### WCAG
@@ -151,7 +139,7 @@ Both approaches are equally valid, and its use depends on the context of the app
 * WAI-ARIA Authoring practices 1.2 - [3.9 Dialog (Modal)](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
 * WAI-ARIA Authoring practices 1.2 - [Modal Dialog Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html)
 
-Modal Dialog Example
+
 ## Links and references
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/dialog)
