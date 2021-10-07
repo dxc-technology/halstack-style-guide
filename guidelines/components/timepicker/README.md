@@ -34,11 +34,11 @@ _Examples of the time pop-up states_
 _Anatomy of Time picker_
 
 1. Label (Optional)
-2. Placeholder
-3. Error message
-4. Secondary Icon
-5. Primary Icon
-6. Input Outline
+2. Secondary Icon
+3. Primary Icon
+4. Input Outline
+5. Error message
+6. Placeholder
 
 ## Design specifications
 
@@ -138,15 +138,15 @@ _Structure and spacing for time picker inputs_
 Different values can be applied to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-margin | Value
--- | --
-`xxsmall` | `6px`
-`xsmall` | `16px`
-`small` | `24px`
-`medium` | `36px`
-`large` | `48px`
-`xlarge` | `64px`
-`xxlarge` | `100px`
+| margin        | Value     |
+| :------------ | :-------- |
+| `xxsmall`     | `6px`     |
+| `xsmall`      | `16px`    |
+| `small`       | `24px`    |
+| `medium`      | `36px`    |
+| `large`       | `48px`    |
+| `xlarge`      | `64px`    |
+| `xxlarge`     | `100px`   |
 
 
 ### Time pop-up
@@ -164,43 +164,41 @@ _Structure and spacing for time picker time pop-up_
 
 #### Color
 
-Tokens | Value      
---|--
-`pickerSelectedTimeBackgroundColor` | `#5f249f`
-`pickerSelectedTimeColor` | `#FFFFFF`
-`pickerBackgroundColor` | `#FFFFFF`
-`pickerFontColor` | `#000000`
-`pickerActualDate` | `#D9D9D9`
-`pickerHoverTimeBackgroundColor` | `#D0BDDB`
-`pickerHoverTimeFontColor` | `#000000`
-`scrollBarThumbColor` | `#666666`
-`scrollBarTrackColor` | `#D9D9D9`
-`focusColor` | `#005FCC`
+| Component token                       | Element                     | Token                   | Value         |
+| :------------------------------       | :-------------------------- | :---------------------- | :------------ |
+| `pickerSelectedTimeBackgroundColor`   | ?                           | color-purple-100        |  `#F2EAFA`    |
+| `pickerSelectedTimeColor`             | ?                           | color-purple-700        |  `#5f249f`    |
+| `pickerBackgroundColor`               | ?                           | color-white             |  `#FFFFFF`    |
+| `pickerFontColor`                     | ?                           | color-black             |  `#000000`    |
+| `pickerActualTime`                    | ?                           | ?                       |  ?            |
+| `pickerHoverTimeBackgroundColor`      | ?                           | color-grey-100          |  `#F2F2F2`    |
+| `pickerHoverTimeFontColor`            | ?                           | color-black             |  `#000000`    |
+| `scrollBarThumbColor`                 | ?                           | color-grey-600          |  `#808080`    |
+| `scrollBarTrackColor`                 | ?                           | color-grey-200          |  `#E6E6E6`    |
+| `focusColor`                          | ?                           | color-blue-600          |  `#0095FF`    |
 
 
 #### Typography
 
-Property | Element | Value     
---|--|--
-`font-size`   | hr/ min/ sec selector | `16px`
-`font-weight` | hr/ min/ sec selector | `400`
+| Property      |   Element                 |   Token               | Value         |
+| :------------ |   :---------------------- |  :------------------  | :------------ |
+| `font-size`   |   hr/ min/ sec selector   |  spacing-05           | `1 rem/ 16px` |
+| `font-weight` |   hr/ min/ sec selector   |  font-weight-regular  | `400`         |
 
 #### Padding
 
-Property | Element | Value
---|--|--
-`padding` | time container | `8px`
-`padding-left/ right` | hr/ min/ sec selector   | `16px`
-`padding-top/ bottom` | hr/ min/ sec selector   | `8px`
+| Property              | Element                   | Value     |
+| :-------------------- | :------------------------ | :-------- |
+| `padding`             | time container            | `8px`     |
+| `padding-left/ right` | hr/ min/ sec selector     | `16px`    |
+| `padding-top/ bottom` | hr/ min/ sec selector     | `8px`     |
 
 #### Sizing
 
-Property | Element | Value
---|--|--
-`height/ width` | selected time  | `40/50px`
-`height/ width` | am/pm selector  | `40/57px`
-
-
+| Property          | Element           | Toke          | Value     |
+| :---------------- | :---------------- | :------------ | :-------- |
+| `height/ width`   | selected time     | spacing-08/?  | `40/50px` |
+| `height/ width`   | am/ pm selector   | spacing-08/?  | `40/57px` |
 
 ## Accesibility
 
