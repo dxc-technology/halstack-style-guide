@@ -103,8 +103,9 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | :------------------------------------------ | :--------------------------- | :--------------------- | :---------------- |
 | `containerPaddingLeft`                      | Container                    | `spacing-04`           | 0.75rem / 12px    | 
 | `containerPaddingRight`                     | Container                    | `spacing-04`           | 0.75rem / 12px    | 
-| `titlePaddingRight`                         | Title                        | `spacing-03`           | 0.5rem / 8px      |
-| `inlineTextPaddingRight`                    | Inline text                  | `spacing-03`           | 0.5rem / 8px      |
+| `iconMarginRight`                           | Icon                         | `spacing-03`           | 0.75rem / 12px    |
+| `inlineTextPaddingLeft`                     | Inline text                  | `spacing-03`           | 0.5rem / 8px      |
+| `titlePaddingLeft`                          | Title                        | `spacing-03`           | 0.5rem / 8px      |
 
 
 ### Iconography
