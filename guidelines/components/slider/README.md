@@ -114,7 +114,7 @@ _Slider Specifications_
 | `height`                          | Tick                | -               | 4px                       |
 | `width`                           | Tick                | -               | 4px                       |
 
-[*] The thumb element size is 16x16px in the following states: `:hover, and `:active`.
+[*] The thumb element size is 14x14px in the following states: `:hover`, and `:active`.
 
 ### Border
 
