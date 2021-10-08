@@ -40,7 +40,7 @@ _Slider component different states example_
 2. Total line
 3. Ceil label _(Optional)_
 4. Value input _(Optional)_
-5. Tick mark
+5. Tick
 6. Thumb
 7. Track line
 
@@ -71,12 +71,12 @@ _Slider Specifications_
 | `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
 | `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
 | `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #999999 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-500`      | #999999 |
+| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #999999 |
+| `tickMarkBackgroundColor`         | Tick                | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick:disabled       | `color-grey-500`      | #999999 |
 | `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-500`      | #999999 |
 | `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
 | `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
 | `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
@@ -111,10 +111,10 @@ _Slider Specifications_
 | `width`                           | Thumb               | -               | 12px                      |
 | `height`                          | Thumb:hover*        | -               | 14px                      |
 | `width`                           | Thumb:hover         | -               | 14px                      |
-| `height`                          | Tick mark           | -               | 4px                       |
-| `width`                           | Tick mark           | -               | 4px                       |
+| `height`                          | Tick                | -               | 4px                       |
+| `width`                           | Tick                | -               | 4px                       |
 
-[*] The thumb element size is 16x16px in the following states: `:hover`, and `:active`.
+[*] The thumb element size is 14x14px in the following states: `:hover`, and `:active`.
 
 ### Border
 
@@ -126,9 +126,9 @@ _Slider Specifications_
 | `border-width`           | Thumb            | `border-width-0`           | 0                |
 | `border-style`           | Thumb            | `border-style-none`        | none             |
 | `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
-| `border-width`           | Focus indicator  | `border-width-2`           | 2px              |
-| `border-style`           | Focus indicator  | `border-style-solid`       | solid            |
-| `border-radius`          | Focus indicator  | `border-radius-full`       | 9999px           |
+| `outline`                | Focus indicator  | -                          | auto 1px         |
+| `outline-offset`         | Focus indicator  | -                          | 2px              |
+
 
 ## Accessibility
 
