@@ -71,12 +71,12 @@ _Slider Specifications_
 | `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
 | `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
 | `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #999999 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #bfbfbf |
+| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #999999 |
 | `tickMarkBackgroundColor`         | Tick                | `color-blue-800`      | #0067b3 |
 | `disabledTickMarkBackgroundColor` | Tick:disabled       | `color-grey-500`      | #999999 |
 | `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-500`      | #999999 |
 | `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
 | `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
 | `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
