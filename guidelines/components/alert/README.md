@@ -35,6 +35,16 @@ _Context-based alert types_
 | **Inline**     | The notification appears in the up right corner of the screen staying visible for 10 seconds |
 | **Modal**         | The notification appears centered in the screen using an overlay that obscures the content below |
 
+
+## States
+
+States for the close action of the alert component: **Enabled**, **hover**, **focus**, and **active**.
+
+![Alert action specs](images/alert_states.png)
+
+_Alert action specs_
+
+
 ## Anatomy
 
 ![Alert component anatomy](images/alert_anatomy.png)
