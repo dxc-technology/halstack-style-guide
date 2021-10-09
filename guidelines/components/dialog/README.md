@@ -5,14 +5,12 @@ A modal dialog is a message box or child window that requires user interaction b
 ## Usage
 
 
-* The dialog always should have a title to introduce the actions or information that will get displayed on the screen.  
-* Can contain a descriptive text or a phrase related to the action that triggered the dialog.
-* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons.
+* The dialog always should have a title to introduce the actions or information that will get displayed on the screen  
+* Can contain a descriptive text or a phrase related to the action that triggered the dialog
+* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons
 * If the dialog is not including a cancel action, provide a way to close it
-* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
-* The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. 
-* Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
-
+* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow
+ 
 
 ## Anatomy
 
@@ -23,6 +21,23 @@ A modal dialog is a message box or child window that requires user interaction b
 3. Close action
 4. Dialog actions
 5. Content
+
+## Content
+
+![Example of a dialog using Halstack components as content](images/dialog_content.png)
+
+_Example of a dialog using Halstack components as content_
+
+Any content (Halstack components or custom) can be placed inside the dialog component, try always to avoid scrolling.
+
+
+## Overlay
+
+![Example of the overlay usage](images/dialog_overlay.png)
+
+_Example of the overlay usage_
+
+The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
 
 
 ## Design Specifications
@@ -45,94 +60,91 @@ _Design specifications for dialog component_
 | `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
 | `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
 
+### Typography
+
+| Component token                | Element                     | Core token                    | Value                    |
+| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
+| `fontFamily`                   | Content                     | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `fontSize`                     | Content                     | `font-scale-03`               | 1rem / 16px              |
+| `fontWeight`                   | Content                     | `font-weight-regular`         | 400                      |
+
+| Property                       | Element                     | Core token                    | Value                    |
+| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
+| `font-family`                  | Title                       | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `font-size`                    | Title                       | `font-scale-05`               | 1.5rem / 24px            |
+| `font-weight`                  | Title                       | `font-weight-semibold`        | 600                      |
+
+
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+
+### Spacing
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `margin-right`           | Title icon       | `spacing-04`               | 0.75rem / 12px   |
+| `margin-bottom`          | Title            | `spacing-06`               | 1.5rem / 24px    |
+
+
+### Size
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `min-width`              | Container        | -                          | 800px            |
+| `max-width`              | Container        | -                          | 80%              |
+| `width`                  | Close action     | -                          | 24px             |
+| `height`                 | Close action     | -                          | 24px             |
+
+### Overlay
+
+| Component token          | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `overlayOpacity`         | Overlay          | -                          | 0.7              |
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `width`                  | Overlay          | -                          | 100vw            |
+| `height`                 | Overlay          | -                          | 100vh            |
+
+
 ### Padding
 
-padding | value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` _(default)_ | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
+| Padding             | Value  |
+| :------------------ | :----- |
+| `xxsmall`           | 6px    |
+| `xsmall`            | 16px   |
+| `small` _(default)_ | 24px   |
+| `medium`            | 36px   |
+| `large`             | 48px   |
+| `xlarge`            | 64px   |
+| `xxlarge`           | 100px  |
 
 And also apply different values to each side of the component:
 `top` `bottom` `left` `right`
 
-### Specifications for desktop and tablet (landscape mode)
+## Accesibility
 
-| Property               |  value |
-| ---------------------  | ----------------- |
-| `border-radius`        |               4px |
-| `min-width`            |             800px |
-| `max-width`            |               80% |
-| Title `font-size`      |              24px |
-| Body `font size`       |              16px |
-| `font-weight`          |           Regular |
-| 'X' icon size          |           24x24px |
-| `margin`               |              32px |
-| Title icon space       |              12px |
+### WCAG
 
+* Understanding WCAG 2.2 - [2.1.2 No Keyboard Trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html)
+* Understanding WCAG 2.2 - [2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html)
 
-### Specifications for tablet (portrait mode)
+### WAI-ARIA
 
-| Property         | Value   |
-| ---------------  | ------  |
-| `min-width`      | 92%     |
-| `max-width`      | 92%     |
-
-
-### Specifications for phone
-
-| Property           |   Value |
-| ------------------ | ------  |
-| `min-width`        |  92%    |
-| `max-width`        |  92%    |
-| Title `font-size`  |  20px   |
-
-## Content
-
-![Example of a dialog using Halstack components as content](images/dialog_content.png)
-
-_Example of a dialog using Halstack components as content_
-
-Any content (Halstack component or custom) can be placed inside the dialog component, try always to avoid scrolling.
-
-
-## Overlay
-
-![Example of the overlay usage](images/dialog_overlay.png)
-
-_Example of the overlay usage_
-
-The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
-
-### Specifications for overlay
-
-| Property |               Value |
-| -------- | ------------------: |
-| Width    |             `100vw` |
-| Height   |             `100vh` |
-| Color    | `#000, 0.7 opacity` |
-
-
-## Combining with other UI elements
-
-There are some elements that require some guidance to use it on the dialog component, based on the nature of the component or the behavior that it has in the ecosystem. Due to resource loading or prompting messages for the user, special guides are defined to incorporate these scenarios.
-
-For the case that the application has a modal opened and it needs to load data from the server, we can represent this situation to the user in several ways.
-
-- One option can be to stick to the default implementation of the spinner component and use it in the overlay mode, overlapping the loading element to the rest of the interface components and make it clear that the application is getting some resources from the APIs.
-- Another approach, to avoid render an overlay on top of another overlay is to integrate the loading indicator into the modal window. This can be done placing the spinner near the title of the dialog, on the right side and the small variations of the component. Using this way we make explicit to the user that the applications are working on something without the need to distract the attention from the dialog.
-
-Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
-
+* WAI-ARIA Authoring practices 1.2 - [3.9 Dialog (Modal)](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
+* WAI-ARIA Authoring practices 1.2 - [Modal Dialog Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html)
 
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/878a0090-5cac-4084-8e1c-6c61f61bf552/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/dialog)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/dialog)
+* [Adobe XD component](https://xd.adobe.com/view/533e8a6e-4ed4-4469-a8f8-6ad264d86822-066d/)
 
 ____________________________________________________________
 

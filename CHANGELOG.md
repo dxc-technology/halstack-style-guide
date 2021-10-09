@@ -1,5 +1,105 @@
 # Changelog
 
+## 3.9.0 (01/10/2021)
+
+#### Documentation:
+
+-  [Docs] Overview updates [#556](https://github.com/dxc-technology/halstack-style-guide/issues/556)
+-  [Docs] Add example tables to template.md file [#553](https://github.com/dxc-technology/halstack-style-guide/issues/553)
+-  [Button] Component updates [#547](https://github.com/dxc-technology/halstack-style-guide/issues/547)
+-  [Docs] Add UI-Kit component link to links and references [#535](https://github.com/dxc-technology/halstack-style-guide/issues/535)
+-  [Docs] Fixes on content guidelines [#533](https://github.com/dxc-technology/halstack-style-guide/issues/533)
+-  [Radio] Documentation review [#530](https://github.com/dxc-technology/halstack-style-guide/issues/530)
+-  [Radio] Update component documentation to new template [#529](https://github.com/dxc-technology/halstack-style-guide/issues/529)
+-  [Principles] Update overview page [#527](https://github.com/dxc-technology/halstack-style-guide/issues/527)
+-  [Input-date] Update date documentation [#522](https://github.com/dxc-technology/halstack-style-guide/issues/522)
+-  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
+-  [Radio] Color specs update [#302](https://github.com/dxc-technology/halstack-style-guide/issues/302)
+
+#### UI-Kit:
+
+-  [Input-date] Update date UI-Kit component [#523](https://github.com/dxc-technology/halstack-style-guide/issues/523)
+-  [Button] Add button Icon variants as component [#521](https://github.com/dxc-technology/halstack-style-guide/issues/521)
+-  [UI-Kit] Link all components used for doc images to the library [#446](https://github.com/dxc-technology/halstack-style-guide/issues/446)
+
+#### Site
+
+-  [Site] Edit gren `ignoreLabels` [#518](https://github.com/dxc-technology/halstack-style-guide/issues/518)
+
+---
+
+## 3.8.0 (21/09/2021)
+
+#### Documentation:
+
+-  [Chip] Update component documentation to new template [#513](https://github.com/dxc-technology/halstack-style-guide/issues/513)
+-  [Upload] Images update [#511](https://github.com/dxc-technology/halstack-style-guide/issues/511)
+-  [Toggle-group] Update component documentation to new template [#501](https://github.com/dxc-technology/halstack-style-guide/issues/501)
+-  [Button] Variant tokens update [#499](https://github.com/dxc-technology/halstack-style-guide/issues/499)
+- [Wizard] Update component documentation to new template [#489](https://github.com/dxc-technology/halstack-style-guide/issues/489)
+- [Switch] Update component documentation to new template [#488](https://github.com/dxc-technology/halstack-style-guide/issues/488)
+- [Switch] Images update [#487](https://github.com/dxc-technology/halstack-style-guide/issues/487)
+-  [Checkbox] Update component documentation to new template [#476](https://github.com/dxc-technology/halstack-style-guide/issues/476)
+-  [Text-area] Component documentation [#470](https://github.com/dxc-technology/halstack-style-guide/issues/470)
+-  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
+-  [Textarea] Color specs update [#378](https://github.com/dxc-technology/halstack-style-guide/issues/378)
+-  [Chip] Color specs update [#348](https://github.com/dxc-technology/halstack-style-guide/issues/348)
+- [Wizard] Images update [#339](https://github.com/dxc-technology/halstack-style-guide/issues/339)
+- [Toggle] Images update [#338](https://github.com/dxc-technology/halstack-style-guide/issues/338)
+-  [Dialog] Images update [#336](https://github.com/dxc-technology/halstack-style-guide/issues/336)
+-  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
+-  [Footer] Documentation fixes [#322](https://github.com/dxc-technology/halstack-style-guide/issues/322)
+- [Switch] Color specs update [#309](https://github.com/dxc-technology/halstack-style-guide/issues/309)
+- [Wizard] Color specs update [#308](https://github.com/dxc-technology/halstack-style-guide/issues/308)
+- [Toggle] Color specs update [#307](https://github.com/dxc-technology/halstack-style-guide/issues/307)
+-  [Button] Color specs update [#295](https://github.com/dxc-technology/halstack-style-guide/issues/295)
+
+#### UI-Kit:
+
+-  [Text-area] UI-Kit component [#471](https://github.com/dxc-technology/halstack-style-guide/issues/471)
+
+#### Fixes:
+
+- [Switch] Component specs [#225](https://github.com/dxc-technology/halstack-style-guide/issues/225)
+
+#### Site
+
+-  [Site] Design tokens page [#486](https://github.com/dxc-technology/halstack-style-guide/issues/486)
+
+---
+
+## 3.7.0 (06/09/2021)
+
+#### Documentation:
+
+-  [Checkbox] Color specs update [#477](https://github.com/dxc-technology/halstack-style-guide/issues/477)
+-  [Checkbox] Update component documentation to new template [#476](https://github.com/dxc-technology/halstack-style-guide/issues/476)
+-  [Accordion] Remove heading anchors [#474](https://github.com/dxc-technology/halstack-style-guide/issues/474)
+-  [Input-number] Component documentation [#466](https://github.com/dxc-technology/halstack-style-guide/issues/466)
+-  [Color] Remove S, D and L color references from docs [#464](https://github.com/dxc-technology/halstack-style-guide/issues/464)
+-  [Upload] Images update [#429](https://github.com/dxc-technology/halstack-style-guide/issues/429)
+-  [Upload] Update component documentation to new template [#428](https://github.com/dxc-technology/halstack-style-guide/issues/428)
+-  [Docs] Content contribution guidelines [#316](https://github.com/dxc-technology/halstack-style-guide/issues/316)
+-  [Upload] Color specs update [#310](https://github.com/dxc-technology/halstack-style-guide/issues/310)
+-  [Docs] Design contribution guidelines [#278](https://github.com/dxc-technology/halstack-style-guide/issues/278)
+
+#### UI-Kit:
+
+-  [UI-Kit] Update component naming [#481](https://github.com/dxc-technology/halstack-style-guide/issues/481)
+-  [Checkbox] Component spacing and sizing [#478](https://github.com/dxc-technology/halstack-style-guide/issues/478)
+-  [Input-number] Ui-Kit component [#467](https://github.com/dxc-technology/halstack-style-guide/issues/467)
+-  [Upload] Update UI-Kit component [#431](https://github.com/dxc-technology/halstack-style-guide/issues/431)
+
+#### Fixes:
+
+-  [Upload] Component specs [#190](https://github.com/dxc-technology/halstack-style-guide/issues/190)
+
+#### Site
+
+-  [Site] Add new components to `ignoreLabels` [#463](https://github.com/dxc-technology/halstack-style-guide/issues/463)
+
+---
+
 ## 3.6.0 (23/08/2021)
 
 #### Documentation:

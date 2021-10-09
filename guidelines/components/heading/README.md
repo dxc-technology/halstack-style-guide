@@ -111,7 +111,9 @@ An inherit color from the definition of the application is received, so the comp
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/heading)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/heading)
+* [Adobe XD component]()
 
 ____________________________________________________________
 

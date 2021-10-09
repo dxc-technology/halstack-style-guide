@@ -171,9 +171,9 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token             | Value                     |
 | ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
-| `focusBorderStyle`                          | Header outline               | -                      | solid                     | 
-| `focusBorderThickness`                      | Header outline               | -                      | 1px                       |
-| `borderRadius`                              | Accordion container          | -                      | 4px                       | 
+| `focusBorderStyle`                          | Header:focus border          | `border-style-solid`   | solid                     | 
+| `focusBorderThickness`                      | Header:focus border          | `border-width-1`       | 1px                       |
+| `borderRadius`                              | Accordion container          | `border-radius-medium` | 0.25rem / 4px             | 
 
 
 ### Size
@@ -217,6 +217,7 @@ Accordions are often not well suited for printing documents and require people t
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/accordion)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/accordion)
+* [Adobe XD component](https://xd.adobe.com/view/8a8d6745-9ec4-4383-bedb-99108f9e7963-dfde/)
 
 ____________________________________________________________
 

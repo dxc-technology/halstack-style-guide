@@ -164,8 +164,9 @@ _Upload design specifications_
 
 ## Links and references
 
-* [Angular component]()
-* [React component]()
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/upload)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/upload)
+* [Adobe XD component](https://xd.adobe.com/view/39b1bdc4-900e-431e-8724-2076a4840509-6ce2/)
 
 ____________________________________________________________
 

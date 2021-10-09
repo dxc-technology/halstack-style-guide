@@ -35,15 +35,26 @@ _Context-based alert types_
 | **Inline**     | The notification appears in the up right corner of the screen staying visible for 10 seconds |
 | **Modal**         | The notification appears centered in the screen using an overlay that obscures the content below |
 
+
+## States
+
+States for the close action of the alert component: **Enabled**, **hover**, **focus**, and **active**.
+
+![Alert action specs](images/alert_states.png)
+
+_Alert action specs_
+
+
 ## Anatomy
 
 ![Alert component anatomy](images/alert_anatomy.png)
 
-1. Icon
-2. Label
-3. Alert message
-4. Close action (Optional)
-5. Description (Optional)
+1. Container
+2. Icon
+3. Title
+4. Inline text
+5. Close action
+6. Content _(Optional)_
 
 ## Content
 
@@ -68,14 +79,52 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `errorBackgroundColor`        | Container background        | `color-red-100`             |   #ffe6e9     |
 | `infoBorderColor`             | Container border            | `color-blue-800`            |   #0067b3     |
 | `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
-| `warningBorderColor`          | Container border            | `color-yellow-500`          |   #f7cf2b     |
+| `warningBorderColor`          | Container border            | `color-yellow-700`          |   #c59f07     |
 | `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
-| `titleFontColor`              | Label                       | `color-black`               |   #000000     |
-| `contentFontColor`            | Content                     | `color-black`               |   #000000     |
-| `focusColor`                  | Action:focus                | `color-blue-800`            |   #0067b3     |
+| `titleFontColor`              | Title                       | `color-black`               |   #000000     |
+| `inlineTextFontColor`         | Inline text                 | `color-black`               |   #000000     |
+| `hoverActionBackgroundColor`  | Action:hover                | -                           |   #0000000d   |
+| `activeActionBackgroundColor` | Action:active               | -                           |   #0000001a   |
+| `focusActionBorderColor`      | Action:focus                | `color-blue-600`            |   #0095ff     |
 | `overlayColor`                | Overlay                     | -                           |   #000000B3   |
 
 
+### Typography
+
+| Component token                             | Element                      | Core token             | Value                     |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
+| `titleFontFamily`                           | Title                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Title                        | `font-scale-01`        | 0.75rem / 12px            | 
+| `titleFontWeight`                           | Title                        | `font-bold`            | 600                       | 
+| `inlineTextFontFamily`                      | Inline text                  | `font-family-sans`     | 'Open Sans', sans-serif;  |
+| `inlineTextFontSize`                        | Inline text                  | `font-scale-01`        | 0.75rem / 12px            |
+| `inlineTextFontWeight`                      | Inline text                  | `font-regular`         | 400                       |
+
+
+### Border
+
+| Component token                             | Element                      | Core token                 | Value             |
+| :------------------------------------------ | :--------------------------- | :------------------------- | :---------------- |
+| `borderRadius`                              | Container border             | `border-radius-medium`     | 0.25rem / 4px     | 
+| `borderThickness`                           | Container border             | `border-width-1`           | 1px               |
+| `borderStyle`                               | Container border             | `border-style-solid`       | solid             |
+
+### Spacing
+
+| Component token                             | Element                      | Core token             | Value             |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :---------------- |
+| `containerPaddingLeft`                      | Container                    | `spacing-04`           | 0.75rem / 12px    | 
+| `containerPaddingRight`                     | Container                    | `spacing-04`           | 0.75rem / 12px    | 
+| `iconMarginRight`                           | Icon                         | `spacing-03`           | 0.75rem / 12px    |
+| `inlineTextPaddingLeft`                     | Inline text                  | `spacing-03`           | 0.5rem / 8px      |
+| `titlePaddingLeft`                          | Title                        | `spacing-03`           | 0.5rem / 8px      |
+
+
+### Iconography
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `iconSize`                                  | Icon                         | `-`                    | 24x24px | 
 
 ### Width
 
@@ -91,43 +140,6 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 | `large`          |  820px           |  
 | `fillParent`    |  -                   | 
 | `fitContent`  |  -                   | 
-
-
-### Typography
-
-| Component token                             | Element                      | Core token             | Value                     |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `font-scale-01`        | 12px                      | 
-| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `font-scale-01`        | 12px                      |
-| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
-
-
-### Border
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `borderRadius`                              | Container border             | `border-radius-02`     | 4px     | 
-| `borderThickness`                           | Container border             | `border-width-01`      | 1px     |
-
-
-### Spacing
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `containerPaddingLeft`                      | Container                    | `spacing-04`           | 12px    | 
-| `containerPaddingRight`                     | Container                    | `spacing-04`           | 12px    | 
-| `titlePaddingRight`                         | Label                        | `spacing-03`           | 8px     |
-| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 8px     |
-| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 48px    |
-
-### Iconography
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `iconSize`                                  | Icon                         | `-`                    | 24x24px | 
 
 
 ## Accessibility
@@ -148,6 +160,7 @@ Widths for alert component: **fill content**, **fit parent**, **small**, **mediu
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/alert)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/alert)
+* [Adobe XD component](https://xd.adobe.com/view/c51a8120-f171-4cf3-bec7-2cca087140b1-9049/)
 
 ____________________________________________________________
 

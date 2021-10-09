@@ -86,11 +86,17 @@ margin | Value
 
 ### Border
 
-| Property        | Element         | Value     |
-| --------------- | ----------      | --------- |
-| `border-radius` | Dropdown button | 4px       |
-| `border-radius` | Options list    | 4px       |
-| `border-width`  | Focus outline   | 2px       |
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-width`           | Dropdown button        | `border-width-0`           | 0                |
+| `border-style`           | Dropdown button        | `border-style-none`        | none             |
+| `border-radius`          | Dropdown button        | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Options list           | `border-width-0`           | 0                |
+| `border-style`           | Options list           | `border-style-none`        | none             |
+| `border-radius`          | Options list           | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Focus outline          | `border-width-2`           | 2px              |
+| `border-style`           | Focus outline          | `border-style-solid`       | solid            |
+| `border-radius`          | Focus outline          | `border-radius-medium`     | 0.25rem / 4px    |
 
 
 ### Typography

@@ -40,7 +40,7 @@ _Slider component different states example_
 2. Total line
 3. Ceil label _(Optional)_
 4. Value input _(Optional)_
-5. Tick mark
+5. Tick
 6. Thumb
 7. Track line
 
@@ -64,38 +64,23 @@ _Slider Specifications_
 
 ### Color
 
-#### On-Light
 
 | Component token                   | Element             | Core token            | Value   |
 | :-------------------------------- | :------------------ | :-------------------- | :------ |
 | `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
 | `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
+| `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
+| `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
 | `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-400`      | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-400`      | #bfbfbf |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #999999 |
+| `tickMarkBackgroundColor`         | Tick                | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick:disabled       | `color-grey-500`      | #999999 |
 | `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-500`      | #999999 |
 | `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
 | `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `color-blue-800`      | #0067b3 |
+| `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
 
-
-#### On-Dark
-
-| Component token                           | Element              | Core token              | Value         |
-| :---------------------------------------- | :------------------- | :---------------------- | :------------ |
-| `fontColorOnDark`                         | Floor/Ceil label     | `color-white`           | #ffffff       |
-| `thumbBackgroundColorOnDark`              | Thumb                | `color-blue-600`        | #0095ff       |
-| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `color-blue-800`        | #0067b3       |
-| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `color-grey-500`        | #999999       |
-| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `color-blue-600`        | #0095ff       |
-| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `color-grey-500`        | #999999       |
-| `trackLineColorOnDark`                    | Track line           | `color-blue-600`        | #0095ff       |
-| `disabledTrackLineColorOnDark`            | Track line:disabled  | `color-grey-500`        | #999999       |
-| `totalLineColorOnDark`	                | Total line           | `color-grey-400`        | #bfbfbf       |
-| `disabledTotalLineColorOnDark`            | Total line:disabled  | `color-grey-700`        | #666666       |
-| `focusColorOnDark`                        | Focus outline        | `color-blue-600`        | #0095ff       |
 
 ### Typography
 
@@ -104,8 +89,8 @@ _Slider Specifications_
 | :-------------------------------- | :------------------ | :--------------------- | :------------------------ |
 | `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
-| `fontWeight`                      | Floor/Ceil label    | `font-regular`         | 400                       |
-| `fontStyle`                       | Floor/Ceil label    | `font-normal`          | normal                    |
+| `fontWeight`                      | Floor/Ceil label    | `font-weight-regular`  | 400                       |
+| `fontStyle`                       | Floor/Ceil label    | `font-style-normal`    | normal                    |
 
 ### Spacing
 
@@ -124,12 +109,26 @@ _Slider Specifications_
 | `height`                          | Track line          | -               | 2px                       |
 | `height`                          | Thumb               | -               | 12px                      |
 | `width`                           | Thumb               | -               | 12px                      |
-| `height`                          | Thumb:hover*        | -               | 16px                      |
-| `width`                           | Thumb:hover         | -               | 16px                      |
-| `height`                          | Tick mark           | -               | 4px                       |
-| `width`                           | Tick mark           | -               | 4px                       |
+| `height`                          | Thumb:hover*        | -               | 14px                      |
+| `width`                           | Thumb:hover         | -               | 14px                      |
+| `height`                          | Tick                | -               | 4px                       |
+| `width`                           | Tick                | -               | 4px                       |
 
-[*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
+[*] The thumb element size is 14x14px in the following states: `:hover`, and `:active`.
+
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Track line       | `border-width-0`           | 0                |
+| `border-style`           | Track line       | `border-style-none`        | none             |
+| `border-radius`          | Track line       | `border-radius-full`       | 9999px           |
+| `border-width`           | Thumb            | `border-width-0`           | 0                |
+| `border-style`           | Thumb            | `border-style-none`        | none             |
+| `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
+| `outline`                | Focus indicator  | -                          | auto 1px         |
+| `outline-offset`         | Focus indicator  | -                          | 2px              |
+
 
 ## Accessibility
 
@@ -150,8 +149,9 @@ _Slider Specifications_
 
 ## Links and references
 
-- [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
-- [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [React component](https://developer.dxc.com/tools/react/next/#/components/slider)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/slider)
+* [Adobe XD component](https://xd.adobe.com/view/29ee46d1-7a4c-42bf-bd66-16ae62477a6a-7cbd/)
 
 ____________________________________________________________
 

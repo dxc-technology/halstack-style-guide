@@ -67,9 +67,10 @@ _Design specifications for link component_
 
 ### Border
 
-| Property                      | Element                      |  Value      |
-| ----------------------------- | ----------------             | ----------- |
-| `border-bottom`               | `link` container (on hover)  |   1px       |
+| Property                 | Element                | Core token                 | Value            |
+| :----------------------- | :--------------------- | :------------------------- | :--------------- |
+| `border-bottom-width`    | Link container:hover   | `border-width-1`           | 1px              |
+| `border-style`           | Link container:hover   | `border-style-solid`       | solid            |
 
 
 ## Icon Usage
@@ -109,7 +110,10 @@ _Icon usage for the link component_
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7d626918-c972-43d1-86f1-a0eb6f4ae0c4/variables/
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/link)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/link)
+* [Adobe XD component](https://xd.adobe.com/view/1199107d-06d2-438b-9b6a-90da4d673211-44ca/)
+
 
 ____________________________________________________________
 
