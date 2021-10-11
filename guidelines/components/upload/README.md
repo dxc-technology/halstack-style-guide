@@ -76,8 +76,7 @@ _File item states_
 7. Upload button
 8. File preview
 9. File name
-10. Loading indicator
-11. File item container
+10. File item container
 
 ## File item with preview
 
@@ -87,13 +86,13 @@ When the files to upload are mainly images, the preview can provide more feedbac
 
 _File item with preview example_
 
-## Loading content
+## Single file upload
 
-When handling with large file sizes the file item should provide feedback to the user about the loading state. While the file is being loaded, the action to remove the file can not be performed.
+In order to provide a compact version of the upload component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
 
-![Loading content example](images/upload_loading.png)
+![Variant file single upload](images/upload_file_single.png)
 
-_Loading content state_
+_Variant file single upload_
 
 ## Design Specifications
 
