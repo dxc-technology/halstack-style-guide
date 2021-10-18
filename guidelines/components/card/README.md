@@ -41,6 +41,40 @@ _Card design specifications_
 
 * The `background-color` token belongs to the box component, changes made on that component will affect the card element.
 
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+
+
+### Spacing
+
+| Property                 | Element                  | Core token                 | Value            |
+| :----------------------- | :----------------------- | :------------------------- | :--------------- |
+| `margin-top`             | Custom content- subtitle | `spacing-02`               | 0.25rem / 4px    |
+| `margin-bottom`          | Custom content- title    | `spacing-05`               | 1rem / 16px      |
+| `padding-left`           | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-top`            | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-bottom`         | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-right`          | Container                | `spacing-06`               | 1.5rem / 24px    |
+
+
+### Size
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `height`                                    | Container height             | -                      | 220px   | 
+| `width`                                     | Container width              | -                      | 400px   |
+
+
+| Property                                    | Element                      |  Value   |
+| :------------------------------------------ | :--------------------------- |  :------ |
+| `max-width`                                 | Image                        |  140px   | 
+
+
 ### Margin
 
 Margin properties can be applied independently to `top`, `right`, `bottom` and `left` sides of the card container.
@@ -72,35 +106,6 @@ padding | value
 ```xxlarge``` | 100px
 
 
-### Border
-
-| Property                 | Element          | Core token                 | Value            |
-| :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Container        | `border-width-0`           | 0                |
-| `border-style`           | Container        | `border-style-none`        | none             |
-| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
-
-
-### Size
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `height`                                    | Container height             | -                      | 220px   | 
-| `width`                                     | Container width              | -                      | 400px   |
-
-
-| Property                                    | Element                      |  Value   |
-| :------------------------------------------ | :--------------------------- |  :------ |
-| `max-width`                                 | Image                        |  140px   | 
-
-
-### Spacing
-
-| Property                     |   Value |
-| ---------------------------- | ------- |
-| Space title-subtitle         |   `4px` |
-| Space main info to paragraph |  `16px` |
-| Space actions to photo       |  `24px` |
 
 
 
