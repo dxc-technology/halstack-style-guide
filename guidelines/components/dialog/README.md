@@ -51,31 +51,32 @@ _Design specifications for dialog component_
 | Component token                | Element                     | Core token                    | Value                  |
 | :----------------------------- | :-------------------------  | :---------------------------  | :--------------------  |
 | `overlayColor`                 | Overlay                     | `color-black`                 | #000000                |
-| `scrollBarThumbColor`          | Scrollbar: Thumb            | `color-grey-700`              | #666666                |
-| `scrollBarTrackColor`          | Scrollbar: track            | `color-grey-200`              | #e6e6e6                |
-| `backgroundColor`              | Scrollbar: container        | `color-white`                 | #ffffff                |
-| `fontColor`                    | Title                       | `color-black`                 | #000000                |
-| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
+| `backgroundColor`              | Container                   | `color-white`                 | #ffffff                |
 | `boxShadowColor`               | Container shadow            | -                             | rgba(0, 0, 0, 0.2)     |
-| `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
-| `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
+| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
+| `closeIconBackgroundColor`     | Icon close                  | `none`                        | none                   |
+| `closeIconBorderColor`         | Icon close                  | `none`                        | none                   |
 
 ### Typography
-
-| Component token                | Element                     | Core token                    | Value                    |
-| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
-| `fontFamily`                   | Content                     | `font-family-sans`            | 'Open Sans, sans-serif'  |
-| `fontSize`                     | Content                     | `font-scale-03`               | 1rem / 16px              |
-| `fontWeight`                   | Content                     | `font-weight-regular`         | 400                      |
 
 | Property                       | Element                     | Core token                    | Value                    |
 | :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
 | `font-family`                  | Title                       | `font-family-sans`            | 'Open Sans, sans-serif'  |
 | `font-size`                    | Title                       | `font-scale-05`               | 1.5rem / 24px            |
 | `font-weight`                  | Title                       | `font-weight-semibold`        | 600                      |
+| `fontFamily`                   | Content                     | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `fontSize`                     | Content                     | `font-scale-03`               | 1rem / 16px              |
+| `fontWeight`                   | Content                     | `font-weight-regular`         | 400                      |
 
 
 ### Border
+
+| Component token                | Element                     | Core token                    | Value           |
+| :----------------------------- | :-------------------------  | :---------------------------  | :-------------  |
+| `closeIconBorderThickness`     | Icon close                  | `border-width-0`              | 0px             |
+| `closeIconBorderStyle`         | Icon close                  | `border-style-solid`          | solid           |
+| `closeIconBorderRadius`        | Icon close                  | `border-radius-none`          | 0               |
+
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
