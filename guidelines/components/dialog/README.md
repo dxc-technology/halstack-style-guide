@@ -52,10 +52,10 @@ _Design specifications for dialog component_
 | :----------------------------- | :-------------------------  | :---------------------------  | :--------------------  |
 | `overlayColor`                 | Overlay                     | `color-black`                 | #000000                |
 | `backgroundColor`              | Container                   | `color-white`                 | #ffffff                |
-| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
 | `boxShadowColor`               | Container shadow            | -                             | rgba(0, 0, 0, 0.2)     |
-| `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
-| `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
+| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
+| `closeIconBackgroundColor`     | Icon close                  | `none`                        | none                   |
+| `closeIconBorderColor`         | Icon close                  | `none`                        | none                   |
 
 ### Typography
 
