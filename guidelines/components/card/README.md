@@ -5,15 +5,11 @@ A card can be defined as a unit, so it has all the information within it, making
 
 The structure of the card can be seen as blocks, each block is optional to be displayed but the overall element should make a cohesive design, even if it includes text, images or other elements.
 
-## Appearance
+### Usage
 
-Even a card is defined as a unit by itself, it is common to represent cards in a set, with a grid structure in which each card has different information but from the same field.
+* Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
+* If a collection want be create, won't use different card styles, use the same to keep consistency
 
-### Modes
-
-The card component doesn't have modes, instead the component has many ways of configuration with images, custom containers and background colors to adapt it to the needs of the UI.
-
-![Card modes](images/card_modes.png)
 
 ### States
 
@@ -97,15 +93,13 @@ padding | value
 
 ![Card specifications](images/card_specs.png)
 
-### User Interface Design Considerations
 
-- Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
-- If a collection want be create, won't use different card styles, use the same to keep consistency
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/variables/
-
+* [React component](https://developer.dxc.com/tools/react/next/#/components/card)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/card)
+* [Adobe XD component](https://xd.adobe.com/view/6430ac9c-eb36-413a-92bf-41d72005dcd4-3163/)
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/card/README.md)
