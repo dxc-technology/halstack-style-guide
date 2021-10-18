@@ -99,8 +99,8 @@ padding | value
 | Property                     |   Value |
 | ---------------------------- | ------- |
 | Space title-subtitle         |   `4px` |
-| Space main info to paragraph |  `20px` |
-| Space actions to photo       |  `20px` |
+| Space main info to paragraph |  `16px` |
+| Space actions to photo       |  `24px` |
 
 
 
