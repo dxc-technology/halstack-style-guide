@@ -5,25 +5,34 @@ A card can be defined as a unit, so it has all the information within it, making
 
 The structure of the card can be seen as blocks, each block is optional to be displayed but the overall element should make a cohesive design, even if it includes text, images or other elements.
 
-## Appearance
+## Usage
 
-Even a card is defined as a unit by itself, it is common to represent cards in a set, with a grid structure in which each card has different information but from the same field.
+* Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
+* If a collection want be create, won't use different card styles, use the same to keep consistency
 
-### Modes
 
-The card component doesn't have modes, instead the component has many ways of configuration with images, custom containers and background colors to adapt it to the needs of the UI.
+## States
 
-![Card modes](images/card_modes.png)
+Component states: **Enabled**, **hover** and **focus**.
 
-### States
+![Card component states](images/card_states.png)
 
-The only state that is controlled in the card component is the hover. As it is needed visual feedback to give the user a notion of which card is involve in the action, the rest of the states are directly dependent on the components defined inside of the card.
+_Card component states_
 
-![Card states](images/card_states.png)
+## Anatomy
+
+![Card anatomy](images/card_anatomy.png)
+
+1. Card image
+2. Custom content
+3. Container
 
 
 ## Design Specifications
 
+![Card design specifications](images/card_specs.png)
+
+_Card design specifications_
 ### Color
 
 | Component token     | Element                     | Core token                  | Value         |
@@ -31,6 +40,40 @@ The only state that is controlled in the card component is the hover. As it is n
 | `backgroundColor`*  | Container                   | `color-white`               | `#ffffff`     |
 
 * The `background-color` token belongs to the box component, changes made on that component will affect the card element.
+
+### Border
+
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `border-width`           | Container        | `border-width-0`           | 0                |
+| `border-style`           | Container        | `border-style-none`        | none             |
+| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+
+
+### Spacing
+
+| Property                 | Element                  | Core token                 | Value            |
+| :----------------------- | :----------------------- | :------------------------- | :--------------- |
+| `margin-top`             | Custom content- subtitle | `spacing-02`               | 0.25rem / 4px    |
+| `margin-bottom`          | Custom content- title    | `spacing-05`               | 1rem / 16px      |
+| `padding-left`           | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-top`            | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-bottom`         | Custom content           | `spacing-06`               | 1.5rem / 24px    |
+| `padding-right`          | Container                | `spacing-06`               | 1.5rem / 24px    |
+
+
+### Size
+
+| Component token                             | Element                      | Core token             | Value   |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| `height`                                    | Container height             | -                      | 220px   | 
+| `width`                                     | Container width              | -                      | 400px   |
+
+
+| Property                                    | Element                      |  Value   |
+| :------------------------------------------ | :--------------------------- |  :------ |
+| `max-width`                                 | Image                        |  140px   | 
+
 
 ### Margin
 
@@ -63,49 +106,14 @@ padding | value
 ```xxlarge``` | 100px
 
 
-### Border
-
-| Property                 | Element          | Core token                 | Value            |
-| :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Container        | `border-width-0`           | 0                |
-| `border-style`           | Container        | `border-style-none`        | none             |
-| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
 
-### Size
-
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
-| `height`                                    | Container height             | -                      | 220px   | 
-| `width`                                     | Container width              | -                      | 400px   |
-
-
-| Property                                    | Element                      |  Value   |
-| :------------------------------------------ | :--------------------------- |  :------ |
-| `max-width`                                 | Image                        |  140px   | 
-
-
-
-
-### Spacing
-
-| Property                     |   Value |
-| ---------------------------- | ------- |
-| Space title-subtitle         |   `4px` |
-| Space main info to paragraph |  `20px` |
-| Space actions to photo       |  `20px` |
-
-![Card specifications](images/card_specs.png)
-
-### User Interface Design Considerations
-
-- Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
-- If a collection want be create, won't use different card styles, use the same to keep consistency
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/cca4ba93-1008-40ce-a7a5-89fbc21f665f/variables/
-
+* [React component](https://developer.dxc.com/tools/react/next/#/components/card)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/card)
+* [Adobe XD component](https://xd.adobe.com/view/6430ac9c-eb36-413a-92bf-41d72005dcd4-3163/)
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/card/README.md)

@@ -5,14 +5,12 @@ A modal dialog is a message box or child window that requires user interaction b
 ## Usage
 
 
-* The dialog always should have a title to introduce the actions or information that will get displayed on the screen.  
-* Can contain a descriptive text or a phrase related to the action that triggered the dialog.
-* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons.
+* The dialog always should have a title to introduce the actions or information that will get displayed on the screen  
+* Can contain a descriptive text or a phrase related to the action that triggered the dialog
+* Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons
 * If the dialog is not including a cancel action, provide a way to close it
-* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow.
-* The modal dialog should emerge from the top of the screen and be centered horizontally on the parent page. 
-* Modal dialog features should be used sparingly, as they disrupt workflow, but can be advantageous when used properly
-
+* Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow
+ 
 
 ## Anatomy
 
@@ -23,6 +21,23 @@ A modal dialog is a message box or child window that requires user interaction b
 3. Close action
 4. Dialog actions
 5. Content
+
+## Content
+
+![Example of a dialog using Halstack components as content](images/dialog_content.png)
+
+_Example of a dialog using Halstack components as content_
+
+Any content (Halstack components or custom) can be placed inside the dialog component, try always to avoid scrolling.
+
+
+## Overlay
+
+![Example of the overlay usage](images/dialog_overlay.png)
+
+_Example of the overlay usage_
+
+The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
 
 
 ## Design Specifications
@@ -36,31 +51,32 @@ _Design specifications for dialog component_
 | Component token                | Element                     | Core token                    | Value                  |
 | :----------------------------- | :-------------------------  | :---------------------------  | :--------------------  |
 | `overlayColor`                 | Overlay                     | `color-black`                 | #000000                |
-| `scrollBarThumbColor`          | Scrollbar: Thumb            | `color-grey-700`              | #666666                |
-| `scrollBarTrackColor`          | Scrollbar: track            | `color-grey-200`              | #e6e6e6                |
-| `backgroundColor`              | Scrollbar: container        | `color-white`                 | #ffffff                |
-| `fontColor`                    | Title                       | `color-black`                 | #000000                |
-| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
+| `backgroundColor`              | Container                   | `color-white`                 | #ffffff                |
 | `boxShadowColor`               | Container shadow            | -                             | rgba(0, 0, 0, 0.2)     |
-| `closeIconBackgroundColor`     | Icon close background       | `none`                        | none                   |
-| `closeIconBorderColor`         | Icon close border           | `none`                        | none                   |
+| `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
+| `closeIconBackgroundColor`     | Icon close                  | `none`                        | none                   |
+| `closeIconBorderColor`         | Icon close                  | `none`                        | none                   |
 
-### Padding
+### Typography
 
-padding | value
--- | --
-`xxsmall` | 6px
-`xsmall` | 16px
-`small` _(default)_ | 24px
-`medium` | 36px
-`large` | 48px
-`xlarge` | 64px
-`xxlarge` | 100px
+| Property                       | Element                     | Core token                    | Value                    |
+| :----------------------------- | :-------------------------  | :---------------------------  | :----------------------- |
+| `font-family`                  | Title                       | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `font-size`                    | Title                       | `font-scale-05`               | 1.5rem / 24px            |
+| `font-weight`                  | Title                       | `font-weight-semibold`        | 600                      |
+| `fontFamily`                   | Content                     | `font-family-sans`            | 'Open Sans, sans-serif'  |
+| `fontSize`                     | Content                     | `font-scale-03`               | 1rem / 16px              |
+| `fontWeight`                   | Content                     | `font-weight-regular`         | 400                      |
 
-And also apply different values to each side of the component:
-`top` `bottom` `left` `right`
 
 ### Border
+
+| Component token                | Element                     | Core token                    | Value           |
+| :----------------------------- | :-------------------------  | :---------------------------  | :-------------  |
+| `closeIconBorderThickness`     | Icon close                  | `border-width-0`              | 0px             |
+| `closeIconBorderStyle`         | Icon close                  | `border-style-solid`          | solid           |
+| `closeIconBorderRadius`        | Icon close                  | `border-radius-none`          | 0               |
+
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
@@ -68,74 +84,61 @@ And also apply different values to each side of the component:
 | `border-style`           | Container        | `border-style-none`        | none             |
 | `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
 
+### Spacing
 
-### Specifications for desktop and tablet (landscape mode)
-
-| Property               |  value |
-| ---------------------  | ----------------- |
-| `min-width`            |             800px |
-| `max-width`            |               80% |
-| Title `font-size`      |              24px |
-| Body `font size`       |              16px |
-| `font-weight`          |           Regular |
-| 'X' icon size          |           24x24px |
-| `margin`               |              32px |
-| Title icon space       |              12px |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `margin-right`           | Title icon       | `spacing-04`               | 0.75rem / 12px   |
+| `margin-bottom`          | Title            | `spacing-06`               | 1.5rem / 24px    |
 
 
-### Specifications for tablet (portrait mode)
+### Size
 
-| Property         | Value   |
-| ---------------  | ------  |
-| `min-width`      | 92%     |
-| `max-width`      | 92%     |
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `min-width`              | Container        | -                          | 800px            |
+| `max-width`              | Container        | -                          | 80%              |
+| `width`                  | Close action     | -                          | 24px             |
+| `height`                 | Close action     | -                          | 24px             |
 
+### Overlay
 
-### Specifications for phone
+| Component token          | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `overlayOpacity`         | Overlay          | -                          | 0.7              |
 
-| Property           |   Value |
-| ------------------ | ------  |
-| `min-width`        |  92%    |
-| `max-width`        |  92%    |
-| Title `font-size`  |  20px   |
-
-## Content
-
-![Example of a dialog using Halstack components as content](images/dialog_content.png)
-
-_Example of a dialog using Halstack components as content_
-
-Any content (Halstack component or custom) can be placed inside the dialog component, try always to avoid scrolling.
+| Property                 | Element          | Core token                 | Value            |
+| :----------------------- | :--------------- | :------------------------- | :--------------- |
+| `width`                  | Overlay          | -                          | 100vw            |
+| `height`                 | Overlay          | -                          | 100vh            |
 
 
-## Overlay
+### Padding
 
-![Example of the overlay usage](images/dialog_overlay.png)
+| Padding             | Value  |
+| :------------------ | :----- |
+| `xxsmall`           | 6px    |
+| `xsmall`            | 16px   |
+| `small` _(default)_ | 24px   |
+| `medium`            | 36px   |
+| `large`             | 48px   |
+| `xlarge`            | 64px   |
+| `xxlarge`           | 100px  |
 
-_Example of the overlay usage_
+And also apply different values to each side of the component:
+`top` `bottom` `left` `right`
 
-The overlay element makes possible to get the user attention into the dialog creating a layer between the actual application and the modal information showed in the user interface.
+## Accesibility
 
-### Specifications for overlay
+### WCAG
 
-| Property |               Value |
-| -------- | ------------------: |
-| Width    |             `100vw` |
-| Height   |             `100vh` |
-| Color    | `#000, 0.7 opacity` |
+* Understanding WCAG 2.2 - [2.1.2 No Keyboard Trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html)
+* Understanding WCAG 2.2 - [2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html)
 
+### WAI-ARIA
 
-## Combining with other UI elements
-
-There are some elements that require some guidance to use it on the dialog component, based on the nature of the component or the behavior that it has in the ecosystem. Due to resource loading or prompting messages for the user, special guides are defined to incorporate these scenarios.
-
-For the case that the application has a modal opened and it needs to load data from the server, we can represent this situation to the user in several ways.
-
-- One option can be to stick to the default implementation of the spinner component and use it in the overlay mode, overlapping the loading element to the rest of the interface components and make it clear that the application is getting some resources from the APIs.
-- Another approach, to avoid render an overlay on top of another overlay is to integrate the loading indicator into the modal window. This can be done placing the spinner near the title of the dialog, on the right side and the small variations of the component. Using this way we make explicit to the user that the applications are working on something without the need to distract the attention from the dialog.
-
-Both approaches are equally valid, and its use depends on the context of the application and the content of the dialog.
-
+* WAI-ARIA Authoring practices 1.2 - [3.9 Dialog (Modal)](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
+* WAI-ARIA Authoring practices 1.2 - [Modal Dialog Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html)
 
 
 ## Links and references
