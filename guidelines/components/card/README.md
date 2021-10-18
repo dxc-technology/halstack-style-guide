@@ -5,21 +5,34 @@ A card can be defined as a unit, so it has all the information within it, making
 
 The structure of the card can be seen as blocks, each block is optional to be displayed but the overall element should make a cohesive design, even if it includes text, images or other elements.
 
-### Usage
+## Usage
 
 * Organize the card collection so thery are easy to use, take a layout that presents the information in a clear way and apply the same styles for every card
 * If a collection want be create, won't use different card styles, use the same to keep consistency
 
 
-### States
+## States
 
-The only state that is controlled in the card component is the hover. As it is needed visual feedback to give the user a notion of which card is involve in the action, the rest of the states are directly dependent on the components defined inside of the card.
+Component states: **Enabled**, **hover** and **focus**.
 
-![Card states](images/card_states.png)
+![Card component states](images/card_states.png)
+
+_Card component states_
+
+## Anatomy
+
+![Card anatomy](images/card_anatomy.png)
+
+1. Card image
+2. Custom content
+3. Container
 
 
 ## Design Specifications
 
+![Card design specifications](images/card_specs.png)
+
+_Card design specifications_
 ### Color
 
 | Component token     | Element                     | Core token                  | Value         |
@@ -81,8 +94,6 @@ padding | value
 | `max-width`                                 | Image                        |  140px   | 
 
 
-
-
 ### Spacing
 
 | Property                     |   Value |
@@ -90,8 +101,6 @@ padding | value
 | Space title-subtitle         |   `4px` |
 | Space main info to paragraph |  `20px` |
 | Space actions to photo       |  `20px` |
-
-![Card specifications](images/card_specs.png)
 
 
 
