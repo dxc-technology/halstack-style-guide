@@ -40,6 +40,21 @@ _Design specifications for button component_
 
 ### General
 
+#### Spacing
+
+| Component token                | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingTop`            | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingBottom`         | Container        | `spacing-03`      | 0.5rem / 8px    |
+
+| Property                       | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `margin-right`                 | Label            | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`                  | Label            | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`                  | Icon             | `spacing-03`      | 0.5rem / 8px    |
+
 
 ### Size
 
@@ -103,7 +118,7 @@ These values can be applied independently to each side of the component:
 | `primaryActiveBackgroundColor`      | Container fill:active	      | `color-purple-900`       | #321353     |
 | `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
 | `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `primaryFocusBorderColor`	          | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
@@ -120,18 +135,9 @@ These values can be applied independently to each side of the component:
 | Component token         | Element           | Core token           | Value                      |
 | :---------------------- | :---------------- | :------------------- | :------------------------- |
 | `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
-| `primaryBorderStyle`    | Label             | `font-scale-03`      | 1 rem / 16px               |
-| `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
+| `primaryFontSize`    | Label             | `font-scale-03`      | 1 rem / 16px               |
+| `primaryBorderWeight`   | Label             | `font-regular`       | 400                        |
 
-
-#### Spacing
-
-| Component token                | Element          | Core token        | Value           |
-| :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
-| `primaryPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
 
 
 ### Secondary
@@ -151,11 +157,12 @@ These values can be applied independently to each side of the component:
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-700`       | #5f249f     |
+| `secondaryHoverFontColor`           | Label:hover                 | `color-white`            | #ffffff     |
 | `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-900`       | #321353     |
-| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	   | transparent |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	     | transparent |
 | `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
-| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	     | Container border:disabled   | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -175,16 +182,6 @@ These values can be applied independently to each side of the component:
 | `secondaryFontWeight`           | Label            | `font-regular`       | 400                        |
 
 
-#### Spacing
-
-| Component token                | Element          | Core token        | Value           |
-| :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `secondaryPaddingLeft`         | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `secondaryPaddingRight`        | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `secondaryPaddingTop`          | Container        | `spacing-05`      | 1rem / 16px     |
-| `secondaryPaddingBottom`       | Container        | `spacing-05`      | 1rem / 16px     |
-
-
 ### Text
 
 #### Color
@@ -193,7 +190,7 @@ These values can be applied independently to each side of the component:
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `textBackgroundColor`               | Container fill              | `transparent`            | transparent |
+| `textBackgroundColor`               | Container fill              | `color-transparent`      | transparent |
 | `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
 
 ###### Interactive
@@ -202,9 +199,9 @@ These values can be applied independently to each side of the component:
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
 | `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
-| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
+| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-transparent`      | transparent | 
 | `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     | 
+| `textFocusBorderColor`	             | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
@@ -224,16 +221,6 @@ These values can be applied independently to each side of the component:
 | `textFontFamily`             | Label            | `font-family-sans`   | 'Open Sans', sans-serif    |
 | `textFontSize`               | Label            | `font-scale-03`      | 16px / 1 rem               |
 | `textFontWeight`             | Label            | `font-regular`       | 400                        |
-
-
-#### Spacing
-
-| Component token             | Element          | Core token        | Value           |
-| :-------------------------- | :--------------- | :---------------- | :-------------- |
-| `textPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `textPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `textPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
-| `textPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
 
 
 ## Icon Usage
