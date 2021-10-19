@@ -133,7 +133,7 @@ _Component design specifications_
 ### Color
 
 | Component token                             | Element                      | Core token                 | Value (HEX)  |
-| ------------------------------------------- | ---------------------------- | -------------------------- | ------------ |
+| :------------------------------------------ | :--------------------------- | :------------------------- | :----------- |
 | `titleLabelFontColor`                       | Title                        | `color-black`              | #000000      | 
 | `disabledTitleFontColor`                    | Title:disabled               | `color-grey-500`           | #999999      |
 | `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
@@ -166,14 +166,14 @@ _Component design specifications_
 ### Iconography
 
 | Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `iconSize`                                  | Custom icon/Caret icon       | -                      | 24x24px                   | 
 
 
 ### Border
 
 | Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `focusBorderStyle`                          | Header:focus border          | `border-style-solid`   | solid                     | 
 | `focusBorderThickness`                      | Header:focus border          | `border-width-1`       | 1px                       |
 | `borderRadius`                              | Accordion container          | `border-radius-medium` | 0.25rem / 4px             | 
@@ -182,16 +182,22 @@ _Component design specifications_
 ### Size
 
 | Property                                    | Element                      | Core token           | Value        |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
 | `height`                                    | Header                       | -                    | 48px         | 
 | `min-width`                                 | Accordion container          | -                    | 280px        | 
 
 ### Spacing
 
+| Component token                             | Element                      | Core token             | Value                     |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
+| `titleLabelPaddingRight`                    | Title                        | `spacing-05`           | 1rem / 16px               |
+| `titleLabelPaddingLeft`                     | Title                        | `spacing-00`           | 0rem / 0px                |
+| `titleLabelPaddingTop`                      | Title                        | `spacing-00`           | 0rem / 0px                |
+| `titleLabelPaddingBottom`                   | Title                        | `spacing-00`           | 0rem / 0px                |
 
 
 | Property                                    | Element                      | Core token           | Value        |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
 | `padding-left`                              | Header                       | `spacing-05`         | 16px         | 
 | `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
 | `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |
