@@ -32,10 +32,10 @@ The accordion header can get four different states based on user interaction. St
 ![Accordion anatomy](images/accordion_anatomy.png)
 
 1. Header
-2. Active icon (Optional)
-3. Active text label 
-4. Additional information
-5. Caret icon for Expand/collapse
+2. Custom icon (Optional)
+3. Title 
+4. Helper text (Optional)
+5. Caret icon (Expand/collapse)
 6. Expanded panel
 
 ### Placement and alignment
@@ -134,11 +134,14 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token                 | Value (HEX)  |
 | ------------------------------------------- | ---------------------------- | -------------------------- | ------------ |
-| `titleLabelFontColor`                       | Label                        | `color-black`              | #000000      | 
-| `disabledColor`                             | Label:disabled               | `color-grey-500`           | #999999      |
+| `titleLabelFontColor`                       | Title                        | `color-black`              | #000000      | 
+| `disabledTitleFontColor`                    | Title:disabled               | `color-grey-500`           | #999999      |
 | `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
+| `disabledArrowColor`                        | Title:disabled               | `color-grey-500`           | #999999      |
 | `iconColor`                                 | Custom icon                  | `color-purple-700`         | #5f249f      |
+| `disabledIconColor`                         | Custom icon:disabled         | `color-grey-500`           | #999999      |
 | `assistiveTextFontColor`                    | Helper text                  | `color-grey-700`           | #666666      |
+| `disabledAssistiveTextFontColor`            | Helper text:disabled         | `color-grey-500`           | #999999      |
 | `hoverBackgroundColor`                      | Header background:hover      | `color-purple-100`         | #f2eafa      |
 | `focusBorderColor`                          | Header outline:focus         | `color-blue-600`           | #0095ff      |
 | `backgroundColor`                           | Container background         | `color-white`              | #ffffff      |
@@ -150,10 +153,10 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token              | Value                     |
 | :------------------------------------------ | :--------------------------- | :---------------------- | :------------------------ |
-| `titleLabelFontFamily`                      | Label                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
-| `titleLabelFontSize`                        | Label                        | `font-scale-03`         | 16px                      | 
-| `titleLabelFontWeight`                      | Label                        | `font-regular`          | 400                       | 
-| `titleLabelFontStyle`                       | Label                        | `font-normal`           | normal                    | 
+| `titleLabelFontFamily`                      | Title                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Title                        | `font-scale-03`         | 16px                      | 
+| `titleLabelFontWeight`                      | Title                        | `font-regular`          | 400                       | 
+| `titleLabelFontStyle`                       | Title                        | `font-normal`           | normal                    | 
 | `assistiveTextFontFamily`                   | Helper text                  | `font-sans`             | 'Open Sans', sans-serif;  |
 | `assistiveTextFontSize`                     | Helper text                  | `font-scale-03`         | 16px                      |
 | `assistiveTextFontWeight`                   | Helper text                  | `font-light`            | 300                       |
@@ -184,6 +187,8 @@ _Component design specifications_
 | `min-width`                                 | Accordion container          | -                    | 280px        | 
 
 ### Spacing
+
+
 
 | Property                                    | Element                      | Core token           | Value        |
 | ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
