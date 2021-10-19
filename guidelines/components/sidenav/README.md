@@ -66,6 +66,7 @@ _Sidenav design specifications_
 | `linkFontFamily`               | Link             | `font-family-sans`      | 'Open Sans', sans-serif   |
 | `titleFontSize`                | Link             | `font-scale-02`         | 0.875rem / 14px           |
 | `linkFontWeight`               | Link             | `font-weight-regular`   | 400                       |
+| `selectedLinkFontWeight`       | Link             | `font-weight-semibold`  | 600                       |
 | `linkFontStyle`                | Link             | `font-style-normal`     | normal                    |
 | `linkTextDecoration`           | Link             | `font-no-line`          | none                      |
 
