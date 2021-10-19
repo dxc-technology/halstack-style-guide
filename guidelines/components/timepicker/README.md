@@ -18,6 +18,8 @@ States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **di
 
 _Examples of time picker required input_
 
+
+<!-- Remove white background from the disabled image -->
 ### Time pop-up
 
 States: **enabled**, **hover**, **focus** and **selected**.
@@ -33,12 +35,14 @@ _Examples of the time pop-up states_
 
 _Anatomy of Time picker_
 
-1. Label (Optional)
+1. Label
 2. Secondary Icon
 3. Primary Icon
 4. Input Outline
 5. Error message
 6. Placeholder
+
+<!-- Add new indicator showing the optional element as optional [x. Optional field label _(Optional)_] -->
 
 ## Design specifications
 
@@ -166,39 +170,41 @@ _Structure and spacing for time picker time pop-up_
 
 | Component token                       | Element                     | Token                   | Value         |
 | :------------------------------       | :-------------------------- | :---------------------- | :------------ |
-| `pickerSelectedTimeBackgroundColor`   | ?                           | color-purple-100        |  `#F2EAFA`    |
-| `pickerSelectedTimeColor`             | ?                           | color-purple-700        |  `#5f249f`    |
-| `pickerBackgroundColor`               | ?                           | color-white             |  `#FFFFFF`    |
-| `pickerFontColor`                     | ?                           | color-black             |  `#000000`    |
-| `pickerActualTime`                    | ?                           | ?                       |  ?            |
-| `pickerHoverTimeBackgroundColor`      | ?                           | color-grey-100          |  `#F2F2F2`    |
-| `pickerHoverTimeFontColor`            | ?                           | color-black             |  `#000000`    |
-| `scrollBarThumbColor`                 | ?                           | color-grey-600          |  `#808080`    |
-| `scrollBarTrackColor`                 | ?                           | color-grey-200          |  `#E6E6E6`    |
-| `focusColor`                          | ?                           | color-blue-600          |  `#0095FF`    |
+| `timeBackgroundColor`                 | Time container              | color-transparent       |  transparent   |
+| `timeFontColor`                       | Time label                  | color-black             |  #000000    |
+| `hoverTimeBackgroundColor`            | Time container:hover        | color-grey-100          |  #F2F2F2    |
+| `hoverTimeFontColor`                  | Time label:hover            | color-black             |  #000000    |
+| `selectedTimeBackgroundColor`         | Time container:selected     | color-purple-100        |  #f2eafa    |
+| `selectedTimeFontColor`               | Time label:selected         | color-purple-700        |  #5f249f    |
+| `focusColor`                          | Time container:focus        | color-blue-600          |  #0095FF    |
+
+<!--- hex letters in values always displayed in lowercase -->
 
 
 #### Typography
 
 | Property      |   Element                 |   Token               | Value         |
 | :------------ |   :---------------------- |  :------------------  | :------------ |
-| `font-size`   |   hr/ min/ sec selector   |  spacing-05           | `1 rem/ 16px` |
-| `font-weight` |   hr/ min/ sec selector   |  font-weight-regular  | `400`         |
+| `font-size`   |   Time label              |  `spacing-05`           | 1 rem/ 16px |
+| `font-weight` |   Time label              |  `font-weight-regular`  | 400         |
+| `font-weight` |   Time label:selected     |  `font-weight-semibold` | 600         |
 
-#### Padding
 
-| Property              | Element                   | Value     |
-| :-------------------- | :------------------------ | :-------- |
-| `padding`             | time container            | `8px`     |
-| `padding-left/ right` | hr/ min/ sec selector     | `16px`    |
-| `padding-top/ bottom` | hr/ min/ sec selector     | `8px`     |
+#### Spacing
+
+| Property              |   Element                 |   Token               | Value         |
+| :-------------------- |   :---------------------- |  :------------------  | :------------ |
+| `padding-left/ right` | Time label                | `spacing-05`          | 1rem / 16px   |
+| `padding-top/ bottom` | Time label                | `spacing-03`          | 0.5rem / 8px   |
+| `padding`             | Time dialog container     | `spacing-03`          | 0.5rem / 8px   |
+| `padding-right`       | Time column               | `spacing-03`          | 0.5rem / 8px   |
 
 #### Sizing
 
-| Property          | Element           | Toke          | Value     |
+| Property          | Element           | Token         | Value     |
 | :---------------- | :---------------- | :------------ | :-------- |
-| `height/ width`   | selected time     | spacing-08/?  | `40/50px` |
-| `height/ width`   | am/ pm selector   | spacing-08/?  | `40/57px` |
+| `height/ width`   | Time container    | -             | 40 / 50px |
+| `height/ width`   | Format selector   | -             | 40 / 57px |
 
 ## Accesibility
 
