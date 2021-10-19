@@ -19,7 +19,6 @@ States: **enabled**, **hover**, **focus**, **focus-suffix**, **error**, and **di
 _Examples of time picker required input_
 
 
-<!-- Remove white background from the disabled image -->
 ### Time pop-up
 
 States: **enabled**, **hover**, **focus** and **selected**.
@@ -36,13 +35,13 @@ _Examples of the time pop-up states_
 _Anatomy of Time picker_
 
 1. Label
-2. Secondary Icon
-3. Primary Icon
-4. Input Outline
-5. Error message
-6. Placeholder
+2. Optional field label (Optional)
+3. Secondary Icon
+4. Primary Icon
+5. Input Outline
+6. Error message
+7. Placeholder
 
-<!-- Add new indicator showing the optional element as optional [x. Optional field label _(Optional)_] -->
 
 ## Design specifications
 
@@ -144,13 +143,13 @@ Different values can be applied to each side of the component:
 
 | margin        | Value     |
 | :------------ | :-------- |
-| `xxsmall`     | `6px`     |
-| `xsmall`      | `16px`    |
-| `small`       | `24px`    |
-| `medium`      | `36px`    |
-| `large`       | `48px`    |
-| `xlarge`      | `64px`    |
-| `xxlarge`     | `100px`   |
+| `xxsmall`     | 6px       |
+| `xsmall`      | 16px      |
+| `small`       | 24px      |
+| `medium`      | 36px      |
+| `large`       | 48px      |
+| `xlarge`      | 64px      |
+| `xxlarge`     | 100px     |
 
 
 ### Time pop-up
@@ -170,24 +169,22 @@ _Structure and spacing for time picker time pop-up_
 
 | Component token                       | Element                     | Token                   | Value         |
 | :------------------------------       | :-------------------------- | :---------------------- | :------------ |
-| `timeBackgroundColor`                 | Time container              | color-transparent       |  transparent   |
-| `timeFontColor`                       | Time label                  | color-black             |  #000000    |
-| `hoverTimeBackgroundColor`            | Time container:hover        | color-grey-100          |  #F2F2F2    |
-| `hoverTimeFontColor`                  | Time label:hover            | color-black             |  #000000    |
-| `selectedTimeBackgroundColor`         | Time container:selected     | color-purple-100        |  #f2eafa    |
-| `selectedTimeFontColor`               | Time label:selected         | color-purple-700        |  #5f249f    |
-| `focusColor`                          | Time container:focus        | color-blue-600          |  #0095FF    |
-
-<!--- hex letters in values always displayed in lowercase -->
+| `timeBackgroundColor`                 | Time container              | `color-transparent`     |  transparent  |
+| `timeFontColor`                       | Time label                  | `color-black`           |  #000000      |
+| `hoverTimeBackgroundColor`            | Time container:hover        | `color-grey-100`        |  #f2f2f2      |
+| `hoverTimeFontColor`                  | Time label:hover            | `color-black`           |  #000000      |
+| `selectedTimeBackgroundColor`         | Time container:selected     | `color-purple-100 `     |  #f2eafa      |
+| `selectedTimeFontColor`               | Time label:selected         | `color-purple-700 `     |  #5f249f      |
+| `focusColor`                          | Time container:focus        | `color-blue-600`        |  #0095ff      |
 
 
 #### Typography
 
-| Property      |   Element                 |   Token               | Value         |
-| :------------ |   :---------------------- |  :------------------  | :------------ |
-| `font-size`   |   Time label              |  `spacing-05`           | 1 rem/ 16px |
-| `font-weight` |   Time label              |  `font-weight-regular`  | 400         |
-| `font-weight` |   Time label:selected     |  `font-weight-semibold` | 600         |
+| Property      |   Element                 |   Token                   | Value         |
+| :------------ |   :---------------------- |  :------------------      | :------------ |
+| `font-size`   |   Time label              |  `spacing-05`             | 1 rem/ 16px   |
+| `font-weight` |   Time label              |  `font-weight-regular`    | 400           |
+| `font-weight` |   Time label:selected     |  `font-weight-semibold`   | 600           |
 
 
 #### Spacing
