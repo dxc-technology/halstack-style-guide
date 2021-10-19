@@ -135,12 +135,12 @@ _Component design specifications_
 | Component token                             | Element                      | Core token                 | Value (HEX)  |
 | ------------------------------------------- | ---------------------------- | -------------------------- | ------------ |
 | `titleLabelFontColor`                       | Label                        | `color-black`              | #000000      | 
-| `disabledColor`                             | Label:disabled               | `color-grey-400`           | #bfbfbf      |
+| `disabledColor`                             | Label:disabled               | `color-grey-500`           | #999999      |
 | `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
 | `iconColor`                                 | Custom icon                  | `color-purple-700`         | #5f249f      |
 | `assistiveTextFontColor`                    | Helper text                  | `color-grey-700`           | #666666      |
 | `hoverBackgroundColor`                      | Header background:hover      | `color-purple-100`         | #f2eafa      |
-| `focusBorderColor`                          | Header outline:focus         | `color-purple-700`         | #5f249f      |
+| `focusBorderColor`                          | Header outline:focus         | `color-blue-600`           | #0095ff      |
 | `backgroundColor`                           | Container background         | `color-white`              | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                          | #0000001a    |
 | `accordionGroupSeparatorBorderColor`        | Separator                    | -                          | #0000001a    |
