@@ -1,5 +1,26 @@
 # Changelog
 
+## 3.10.0 (18/10/2021)
+
+#### Documentation:
+
+-  [Sidenav] Update documentation to the new template [#579](https://github.com/dxc-technology/halstack-style-guide/issues/579)
+-  [Card] Update documentation to the new template [#577](https://github.com/dxc-technology/halstack-style-guide/issues/577)
+-  [Slider] Documentation fixes [#572](https://github.com/dxc-technology/halstack-style-guide/issues/572)
+-  [Button] Component updates [#547](https://github.com/dxc-technology/halstack-style-guide/issues/547)
+-  [Dialog] Documentation review [#443](https://github.com/dxc-technology/halstack-style-guide/issues/443)
+-  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
+
+#### Fixes:
+
+-  [Slider] Component specs [#224](https://github.com/dxc-technology/halstack-style-guide/issues/224)
+
+#### Site
+
+-  [Site] Update changelog [#524](https://github.com/dxc-technology/halstack-style-guide/issues/524)
+
+---
+
 ## 3.9.0 (01/10/2021)
 
 #### Documentation:
