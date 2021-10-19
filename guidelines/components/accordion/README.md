@@ -86,11 +86,11 @@ the expand/collapse action._
 
 Accordion headers are stacked vertically and different hierarchy levels are allowed.
 
-![image](https://user-images.githubusercontent.com/44420072/114674447-86648a80-9d07-11eb-99fc-acf9cecdcad7.png)
+![image](images/accordion_group.png)
 
 _The expandable section of an accordion group can contain different types of plain information or clickable components._
 
-![image](https://user-images.githubusercontent.com/44420072/114674497-94b2a680-9d07-11eb-80f8-5890dc811d6b.png)
+![image](images/accordion_multi_expand.png)
 
 _When one accordion panel is expanded, the rest of the group should be collapsed._
 
