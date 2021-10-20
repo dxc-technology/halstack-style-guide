@@ -18,7 +18,6 @@ The Tag represents resources and global terms to identify and linked with a text
 Also, this component is static, which means that there is only one difference between the default and hover state, changing the cursor from the default to the pointer cursor. The tag is merely a link to other resource or a place to display some information, so it is not intended that the flow of the component consider all the different states.
 
 
-
 ## Anatomy
 
 ![Component tag anatomy](images/tag_anatomy.png)
@@ -27,33 +26,47 @@ Also, this component is static, which means that there is only one difference be
 2. Label
 3. Container
 
+
 ## Design Specifications
 
 ![Design specification for the tag component](images/tag_specs.png)
 
 _Design specification for the tag component_
 
+
 ## Color
 
-| Tokens          | Default value |
-| --------------- | ------------: |
-| backgroundColor |     `#FFFFFF` |
+| Component token   | Element          | Core token     | Value      |
+| :---------------- | :--------------- | :------------- | :--------- |
+| `fontColor`       | Label            | `color-black`  | `#000000`  |
+| `iconColor`       | Icon            | `color-white`  | `#ffffff`  |
 
-As the Tag component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
-The only way to customize the visuals of the tag component is using his own props for a specific background area.
+*_The `tag` component is using the `box` underneath, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components._
 
-| Property            |         Value |
-| ------------------- | ------------: |
-| Recommended Margin  | `30px - 12px` |
-| Min width icon area |        `48px` |
-| Margin icon area    |        `12px` |
-| Min height          |        `43px` |
-| Max width           |        `100%` |
-| Font size           |        `14px` |
-| Font weight         |     `Regular` |
-| Icon size           |     `24x24px` |
-| Text transform      |   `Uppercase` |
 
+## Typography
+
+| Component token   | Element          | Core token              | Value           |
+| :---------------- | :--------------- | :---------------------- | :-------------- |
+| `fontSize`        | Label            | `font-scale-02`         | 0.875rem / 14px |
+| `fontStyle`       | Label            | `font-style-normal`     | normal          |
+| `fontWeight`      | Label            | `font-weight-regular`   | 400             |
+
+
+## Spacing
+
+| Property        | Element          | Core token    | Value       |
+| :-------------- | :--------------- | :------------ | :---------- |
+| `padding-left`  | Label            | `spacing-05`  | 1rem / 16px |
+| `padding-right` | Label            | `spacing-05`  | 1rem / 16px |
+
+
+## Size
+
+| Component token   | Element          | Core token     | Value      |
+| :---------------- | :--------------- | :------------- | :--------- |
+| `height`          | Container        | -              | 40px       |
+| `iconHeight`      | Icon             | -              | 24px       |
 
 
 ### Icon Usage
