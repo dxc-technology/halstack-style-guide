@@ -5,10 +5,10 @@ The Tag represents resources and global terms to identify and linked with a text
 
 ## Usage
 
-- Use tag for highlight properties of a section that want to remark
+- Use the tag component for highlight properties of a section that want to remark
 - Make consistent use of the component accross the application
 - Be responsible of the use of background color and icons
-- If there are multiple tags, make sure to space them properly
+- If there are multiple tags, the space between the should be at least 16px
 
 
 ## States
@@ -71,7 +71,7 @@ _Design specification for the tag component_
 | `box-shadow`    | Container         | `shadow-default`  | 0 4px 6px -1px rgba(0,0,0,0.1)  |
 | `box-shadow`    | Container:hover   | `shadow-high`     | 0 8px 14px -2px rgba(0,0,0,0.1) |
 
-*_The `shadow-default` token is used for the `:enabled`, `:focus` and `:disabled` states. The `shadow-high` for `:hover` and `:active`.
+*_The `shadow-default` token is used for the `:enabled`, `:focus` and `:disabled` states. The `shadow-high` for `:hover` and `:active`._
 
 ### Spacing
 
