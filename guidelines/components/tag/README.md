@@ -64,6 +64,14 @@ _Design specification for the tag component_
 | `fontStyle`       | Label            | `font-style-normal`     | normal          |
 | `fontWeight`      | Label            | `font-weight-regular`   | 400             |
 
+### Shadow
+
+| Property        | Element           | Core token        | Value                           |
+| :-------------- | :---------------- | :---------------- | :------------------------------ |
+| `box-shadow`    | Container         | `shadow-default`  | 0 4px 6px -1px rgba(0,0,0,0.1)  |
+| `box-shadow`    | Container:hover   | `shadow-high`     | 0 8px 14px -2px rgba(0,0,0,0.1) |
+
+*_The `shadow-default` token is used for the `:enabled`, `:focus` and `:disabled` states. The `shadow-high` for `:hover` and `:active`.
 
 ### Spacing
 
