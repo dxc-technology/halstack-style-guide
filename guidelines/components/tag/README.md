@@ -27,6 +27,18 @@ Also, this component is static, which means that there is only one difference be
 3. Container
 
 
+
+### Icon Usage
+
+![Icon usage examples](images/tag_icon.png)
+
+_Icon usage examples_
+
+* The tag can be displayed with icon and label or only icon
+* The icon can be placed before or after
+* The icon background color can be defined with the `iconBgColor` component property
+
+
 ## Design Specifications
 
 ![Design specification for the tag component](images/tag_specs.png)
@@ -34,7 +46,7 @@ Also, this component is static, which means that there is only one difference be
 _Design specification for the tag component_
 
 
-## Color
+### Color
 
 | Component token   | Element          | Core token     | Value      |
 | :---------------- | :--------------- | :------------- | :--------- |
@@ -44,7 +56,7 @@ _Design specification for the tag component_
 *_The `tag` component is using the `box` underneath, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components._
 
 
-## Typography
+### Typography
 
 | Component token   | Element          | Core token              | Value           |
 | :---------------- | :--------------- | :---------------------- | :-------------- |
@@ -53,7 +65,7 @@ _Design specification for the tag component_
 | `fontWeight`      | Label            | `font-weight-regular`   | 400             |
 
 
-## Spacing
+### Spacing
 
 | Property        | Element          | Core token    | Value       |
 | :-------------- | :--------------- | :------------ | :---------- |
@@ -61,25 +73,12 @@ _Design specification for the tag component_
 | `padding-right` | Label            | `spacing-05`  | 1rem / 16px |
 
 
-## Size
+### Size
 
 | Component token   | Element          | Core token     | Value      |
 | :---------------- | :--------------- | :------------- | :--------- |
 | `height`          | Container        | -              | 40px       |
 | `iconHeight`      | Icon             | -              | 24px       |
-
-
-### Icon Usage
-
-![Icon usage examples](images/tag_icon.png)
-
-_Icon usage examples_
-
-The icon can be included inside the tag component or not. It is apt to the user if he wants to represent the tag resource with a visual representation or just pure text. On the other hand, the text is optional too, so it can be the case that the tag element has only an icon or only a label.
-
-The combination of both can be represented too, and the icon will lead the component representation if the position selected is before the label. It will be at the end if on the opposite the after position value is set.
-
-As it is mentioned in this document, the background color of the icon area can change accordingly to the definition from the user, but please, make it consistent with the application and with the accessibility guidelines for the color contrast. That election is the user's responsibility, so keep this point in mind.
 
 
 ## Links and references
