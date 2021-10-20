@@ -3,7 +3,7 @@
 The Tag represents resources and global terms to identify and linked with a text section to provide to the user more context and information regarding a topic. It usually appears in the top or bottom of the section and multiple tags can be concatenated to generate a series of resources displayed with a visual hierarchy that calls the user's attention.
 
 
-### Usage
+## Usage
 
 - Use tag for highlight properties of a section that want to remark
 - Make consistent use of the component accross the application
@@ -11,11 +11,29 @@ The Tag represents resources and global terms to identify and linked with a text
 - If there are multiple tags, make sure to space them properly
 
 
-### States
+## States
+
+![Component tag states](images/tag_states.png)
 
 Also, this component is static, which means that there is only one difference between the default and hover state, changing the cursor from the default to the pointer cursor. The tag is merely a link to other resource or a place to display some information, so it is not intended that the flow of the component consider all the different states.
 
-## Design tokens
+
+
+## Anatomy
+
+![Component tag anatomy](images/tag_anatomy.png)
+
+1. Icon
+2. Label
+3. Container
+
+## Design Specifications
+
+![Design specification for the tag component](images/tag_specs.png)
+
+_Design specification for the tag component_
+
+## Color
 
 | Tokens          | Default value |
 | --------------- | ------------: |
@@ -23,8 +41,6 @@ Also, this component is static, which means that there is only one difference be
 
 As the Tag component is using the Box to be build, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components.
 The only way to customize the visuals of the tag component is using his own props for a specific background area.
-
-## Design Specifications
 
 | Property            |         Value |
 | ------------------- | ------------: |
@@ -38,9 +54,13 @@ The only way to customize the visuals of the tag component is using his own prop
 | Icon size           |     `24x24px` |
 | Text transform      |   `Uppercase` |
 
-![Design specification for the tag component](images/tag_specs.png)
+
 
 ### Icon Usage
+
+![Icon usage examples](images/tag_icon.png)
+
+_Icon usage examples_
 
 The icon can be included inside the tag component or not. It is apt to the user if he wants to represent the tag resource with a visual representation or just pure text. On the other hand, the text is optional too, so it can be the case that the tag element has only an icon or only a label.
 
