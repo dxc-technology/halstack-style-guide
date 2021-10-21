@@ -73,6 +73,37 @@ _Design specifications for Breadcrumbs component_
 | `selectedHoverFontColor`             | Path link:hover             | `color-purple-600`          | #7d2fd0     |  
 | `focusColor`                         | Path link:focus             | `color-blue-600`            | #0095ff     | 
 
+
+#### On Dark
+##### Base
+
+| Component token                     | Element                     | Token                       | Value       |
+| :---------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `FontColor`                         | Path link                   | `color-white`            | #ffffff     | 
+
+
+
+ ##### Interactive for Text
+
+| Component token                      | Element                     | Token                       | Value       |
+| :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `unselectedFontColor`                | Path link                   | `color-white`            | #ffffff     | 
+| `unselectedHoverFontColor`           | Path link:hover             | `color-purple-300`          | #cbacec     | 
+| `unselectedActiveFontColor`          | Path link:active            | `color-purple-500`          | #a46ede     | 
+| `selectedFontColor`                  | Path link                   | `color-purple-500`          | #a46ede     | 
+| `selectedHoverFontColor`             | Path link:hover             | `color-purple-300`          | #cbacec     |   
+| `focusColor`                         | Path link:focus             | `color-blue-600`            | #0095ff     | 
+
+
+##### Interactive for Dropdown
+
+| Component token                      | Element                     | Token                       | Value       |
+| :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
+| `EnabledDropDown`                    | Path link                   |  `color-white`              | #ffffff     | 
+| `HoverdDropDown`                     | Path link                   |  `color-purple-100`         | #f2eafa     | 
+| `ActiveDropDown`                     | Path link                   |  `color-purple-500`         | #a46ede     |
+| `focusColor`                         | Path link:focus             |  `color-blue-600`           | #0095ff     | 
+
 ### Typography
 
 | Component token                      | Element                     | Token                       | Value       |
