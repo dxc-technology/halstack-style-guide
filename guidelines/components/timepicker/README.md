@@ -45,7 +45,7 @@ _Anatomy of Time picker_
 
 ### Variants of the time pop-up
 
-![time-popup specifications](images/timepicker_option_01.png)
+![time-popup specifications](images/timepicker_varients_with_popup.png)
 
 * Hours/ Minutes / Seconds
 * Hours / Minutes or Minutes / Seconds
@@ -72,7 +72,7 @@ _Structure and spacing for time picker inputs_
 | `ActionIconColor`        | Time button icon   | `color-black`           | #000000           |
 | `ActionBackgroundColor`  | Time button        | `color-transparent`     | transparent       |
 
-##### Interactive
+#### Interactive
 
 | Component token                 | Element                     | Token                   | Value           |
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
@@ -126,7 +126,7 @@ _Structure and spacing for time picker inputs_
 | `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
 | `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
 
-##### Border
+#### Border
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
