@@ -54,7 +54,7 @@ _Design specifications for Breadcrumbs component_
 
 ### Color
  
-##### Base
+#### Base
 
 | Component token                     | Element                     | Token                       | Value       |
 | :---------------------------------- | :-------------------------- | :-------------------------- | :---------- |
@@ -62,7 +62,7 @@ _Design specifications for Breadcrumbs component_
 
 
 
- ##### Interactive
+ #### Interactive
 
 | Component token                      | Element                     | Token                       | Value       |
 | :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
@@ -73,13 +73,13 @@ _Design specifications for Breadcrumbs component_
 | `selectedHoverFontColor`             | Path link:hover             | `color-purple-600`          | #7d2fd0     |  
 | `focusColor`                         | Path link:focus             | `color-blue-600`            | #0095ff     | 
 
-
+<!--
 #### On Dark
 ##### Base
 
 | Component token                     | Element                     | Token                       | Value       |
 | :---------------------------------- | :-------------------------- | :-------------------------- | :---------- |
-| `FontColor`                         | Path link                   | `color-white`            | #ffffff     | 
+| `fontColorOnDark`                   | Path link                   | `color-white`               | #ffffff     | 
 
 
 
@@ -87,13 +87,14 @@ _Design specifications for Breadcrumbs component_
 
 | Component token                      | Element                     | Token                       | Value       |
 | :----------------------------------- | :-------------------------- | :-------------------------- | :---------- |
-| `unselectedFontColor`                | Path link                   | `color-white`            | #ffffff     | 
-| `unselectedHoverFontColor`           | Path link:hover             | `color-purple-300`          | #cbacec     | 
-| `unselectedActiveFontColor`          | Path link:active            | `color-purple-500`          | #a46ede     | 
-| `selectedFontColor`                  | Path link                   | `color-purple-500`          | #a46ede     | 
-| `selectedHoverFontColor`             | Path link:hover             | `color-purple-300`          | #cbacec     |   
-| `focusColor`                         | Path link:focus             | `color-blue-600`            | #0095ff     | 
+| `unselectedFontColorOnDark`          | Path link                   | `color-white`               | #ffffff     | 
+| `unselectedHoverFontColorOnDark`     | Path link:hover             | `color-purple-300`          | #cbacec     | 
+| `unselectedActiveFontColorOnDark`    | Path link:active            | `color-purple-500`          | #a46ede     | 
+| `selectedFontColorOnDark`            | Path link                   | `color-purple-500`          | #a46ede     | 
+| `selectedHoverFontColorOnDark`       | Path link:hover             | `color-purple-300`          | #cbacec     |   
+| `focusColorOnDark`                   | Path link:focus             | `color-blue-600`            | #0095ff     | 
 
+-->
 
 ##### Interactive for Dropdown
 
@@ -103,6 +104,8 @@ _Design specifications for Breadcrumbs component_
 | `HoverdDropDown`                     | Path link                   |  `color-purple-100`         | #f2eafa     | 
 | `ActiveDropDown`                     | Path link                   |  `color-purple-500`         | #a46ede     |
 | `focusColor`                         | Path link:focus             |  `color-blue-600`           | #0095ff     | 
+
+
 
 ### Typography
 
