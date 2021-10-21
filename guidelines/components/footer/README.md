@@ -13,6 +13,15 @@ Footers are a secondary element in a web page because they usually appear at the
 - The footer frame should display the copyright information at the right margin.
 - We recommend uploading either an alternate version or a smaller brand image than the used in the header. If the company has an alternate version of the logo, isotype, imagotype or isologo available, we encourage to use it. In the opposite case a smaller version of the main brand image can be used.
 
+## Anatomy
+
+![Footer anatomy](images/footer_anatomy.png)
+
+1. Container
+2. Logo
+3. Social icons
+4. Copyright
+5. Company links
 
 ## Content
 
