@@ -43,6 +43,15 @@ _Anatomy of Time picker_
 7. Placeholder
 
 
+### Variants of the time pop-up
+
+![time-popup specifications](images/timepicker_option_01.png)
+
+* Hours/ Minutes / Seconds
+* Hours / Minutes or Minutes / Seconds
+* Select only one: Hours, minutes or seconds
+* Display in a 12 hour / 24 hours this configuration affects all
+
 ## Design specifications
 
 ### Time-input
@@ -157,12 +166,6 @@ Different values can be applied to each side of the component:
 ![time-popup specifications](images/timepicker_selection_specs.png)
 
 _Structure and spacing for time picker time pop-up_
-
-![time-popup specifications](images/timepicker_option_01.png)
-
-![time-popup specifications](images/timepicker_option_02.png)
-
-![time-popup specifications](images/timepicker_option_03.png)
 
 
 #### Color
