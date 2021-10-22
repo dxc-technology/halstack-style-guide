@@ -9,6 +9,7 @@
   * [Naming convention](#naming-convention)
   * [States](#states)
   * [Variants](#variants)
+* [Adding component features](#adding-component-features)
 * [Other contributions](#other-contributions)
 
 
@@ -172,6 +173,34 @@ Since Adobe XD doesn't support variants, we create them as separate components, 
 * button / text
 
 There are specific cases where the differences between component variants aren't big and it is not worthy to use different components, in this case we modify the instances (e.g. icon usage in every button variant) 
+
+## Adding component features
+
+When the component already exists but there is a missing feature or changes in a current one the proccess varies depending if it's a new variant of the component or the changes affect an existing one.
+
+### New variant
+
+1. Bring the existing component to a new XD file named `component-xyz_variant.xd`
+2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name it properly following the naming convention
+4. Work on the new variant
+5. Create a new branch in your fork named `component-xyz-variant`
+6. Save the file in `contribution/variants` folder
+
+### Changing an existing variant
+
+1. Bring the existing component from the library to a new XD file named `component-xyz_update.xd`
+2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming
+4. Work on the variant changes
+5. Create a new branch in your fork named `component-xyz-update`
+6. Save the file in `contribution/updates` folder
+
+### Documentation
+
+Changes on a component need to be properly documented, before making a PR from your for to the upstream repository ensure you are changing the component README.md file, updating the needed images in order to help other designers and developers understand the changes made in the component.
+
+The [content](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/content.md) and [image](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/images.md) contribution guidelines will help you in the process of updating documentation of a component.
 
 ## Other contributions
 
