@@ -10,6 +10,9 @@
   * [States](#states)
   * [Variants](#variants)
 * [Adding component features](#adding-component-features)
+  * [New variant](#new-variant)
+  * [Changing an exisiting variant](#changing-an-exisiting-variant)
+  * [Documentation](#documentation)
 * [Other contributions](#other-contributions)
 
 
