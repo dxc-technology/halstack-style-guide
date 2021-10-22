@@ -180,18 +180,22 @@ When the component already exists but there is a missing feature or changes in a
 
 ### New variant
 
+If you identify a new variant of the component that is not covered by our guidelines you can submit the variant file and the documentation changes in a Pull request to the upstream repository so we can review it and add the variant to the UI-Kit library.
+
 1. Bring the existing component to a new XD file named `component-xyz_variant.xd`
 2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
-3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name it properly following the naming convention
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name the variant properly following the naming convention
 4. Work on the new variant
 5. Create a new branch in your fork named `component-xyz-variant`
 6. Save the file in `contributing/assets/components/variants` folder
 
 ### Changing an existing variant
 
+Sometimes the changes affect a variant of the component that already exist, in order to incorporate those changes in our component library we need the to have the new component variant and deprecate the previous to make everyone aware wich component should use.
+
 1. Bring the existing component from the library to a new XD file named `component-xyz_update.xd`
 2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
-3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming adding "(new)" as a prefix
 4. Work on the variant changes
 5. Create a new branch in your fork named `component-xyz-update`
 6. Save the file in `contributing/assets/components/updates` folder
