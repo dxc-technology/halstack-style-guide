@@ -185,7 +185,7 @@ When the component already exists but there is a missing feature or changes in a
 3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name it properly following the naming convention
 4. Work on the new variant
 5. Create a new branch in your fork named `component-xyz-variant`
-6. Save the file in `contribution/variants` folder
+6. Save the file in `contributing/assets/components/variants` folder
 
 ### Changing an existing variant
 
@@ -194,7 +194,7 @@ When the component already exists but there is a missing feature or changes in a
 3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming
 4. Work on the variant changes
 5. Create a new branch in your fork named `component-xyz-update`
-6. Save the file in `contribution/updates` folder
+6. Save the file in `contributing/assets/components/updates` folder
 
 ### Documentation
 
