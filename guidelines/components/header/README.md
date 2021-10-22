@@ -1,7 +1,29 @@
 # Header
 
 The header is an important component in the interface, it is the area dedicated for the navigation across the application and helps users understand what the content of the page is about. They appear at the top of a page, above the main content.
+
+
+## Usage
+
+- Try to avoid to place a large number of items inside the content area.
+- Avoid increasing the header height.
+
+## Variants
+
+![Header component variants](images/header_variants.png)
+
+_Header component variants_
+
+Following the convention of the variants that can be found in a component, two main variants are defined for the header.
+Variants: **basic** and **underlined**.
+
+
+
 ## Anatomy
+
+![Header distribution example](images/header_distribution.png)
+
+_Header distribution example_
 
 
 * **Brand**: In this area should be placed the company logo, it will go on the left side of the header.
@@ -14,18 +36,13 @@ The header is an important component in the interface, it is the area dedicated 
    * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
 
 
-![Header distribution example](images/header_distribution.png)
 
-_Header distribution example_
 
-## Variants
+## Content
 
-Following the convention of the variants that can be found in a component, two main variants are defined for the header.
-Variants: **basic** and **underlined**.
-
-![Header component variants](images/header_variants.png)
-
-_Header component variants_
+* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
+* Halstack components placed as a children should follow their respective guidelines.
+* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
 
 
 
@@ -95,12 +112,6 @@ Different values can be applied to each side of the component:
 `top` `bottom` `left` `right`
 
 
-## Content
-
-* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
-* Halstack components placed as a children should follow their respective guidelines.
-* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
-
 
 ## Responsive version for mobile and tablet
 
@@ -109,12 +120,6 @@ Due to the applications are accessible from a laptop, tablet and mobile it is ne
 ![Header menu responsive version](images/header_responsive_menu.png)
 
 _Header menu responsive version_
-
-
-## User Interface Design Considerations
-
-- Try to avoid to place a large number of items inside the content area.
-- Avoid increasing the header height.
 
 
 ## Links and references
