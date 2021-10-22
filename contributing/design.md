@@ -187,7 +187,7 @@ If you identify a new variant of the component that is not covered by our guidel
 
 1. Bring the existing component to a new XD file named `component-xyz_variant.xd`
 2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
-3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name the variant properly following the naming convention
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and name the variant following the naming convention and adding "🟣 /" as a prefix
 4. Work on the new variant
 5. Create a new branch in your fork named `component-xyz-variant`
 6. Save the file in `contributing/assets/components/variants` folder
@@ -198,7 +198,7 @@ Sometimes the changes affect a variant of the component that already exist, in o
 
 1. Bring the existing component from the library to a new XD file named `component-xyz_update.xd`
 2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
-3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming adding "(new)" as a prefix
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming adding "🟠 /" as a prefix
 4. Work on the variant changes
 5. Create a new branch in your fork named `component-xyz-update`
 6. Save the file in `contributing/assets/components/updates` folder
