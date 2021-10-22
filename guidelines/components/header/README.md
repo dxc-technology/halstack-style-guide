@@ -21,7 +21,7 @@ Variants: **basic** and **underlined**.
 
 ## Anatomy
 
-![Header distribution example](images/header_distribution.png)
+![Header distribution example](images/header_anatomy.png)
 
 _Header distribution example_
 
@@ -117,7 +117,7 @@ Different values can be applied to each side of the component:
 
 Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device. The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
 
-![Header menu responsive version](images/header_responsive_menu.png)
+![Header menu responsive version](images/header_responsive.png)
 
 _Header menu responsive version_
 
