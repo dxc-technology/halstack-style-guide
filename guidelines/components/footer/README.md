@@ -67,6 +67,28 @@ _Footer component design specs_
 | `socialLinksColor`                | Social icons          | `color-white`                | #ffffff      |
 
 
+### Typography
+
+| Component token                   | Element               | Core token                   | Value                      |
+| :-------------------------------- | :-------------------- | :--------------------------- | :------------------------- |
+| `bottomLinksFontFamily`           | Bottom links          | `font-family-sans`           | 'Open Sans', sans-serif    |
+| `bottomLinksFontSize`             | Bottom links          | `font-scale-01`              | 0.75rem / 12px             |
+| `bottomLinksFontWeight`           | Bottom links          | `font-weight-regular`        | 400                        |
+| `bottomLinksFontStyle`            | Bottom links          | `font-style-normal`          | normal                     |
+| `bottomLinksTextDecoration`       | Bottom links          | `font-style-no-line`         | none                       |
+| `copyrightFontFamily`             | Copyright             | `font-family-sans`           | 'Open Sans', sans-serif    |
+| `copyrightFontSize`               | Copyright             | `font-scale-01`              | 0.75rem / 12px             |
+| `copyrightFontWeight`             | Copyright             | `font-weight-regular`        | 400                        |
+| `copyrightFontStyle`              | Copyright             | `font-style-normal`          | normal                     |
+
+
+### Border
+
+| Component token                   | Element               | Core token                   | Value                      |
+| :-------------------------------- | :-------------------- | :--------------------------- | :------------------------- |
+| `border-width`                    | Divider               | `border-width-1`             | 1px                        |
+| `border-style`                    | Divider               | `border-style-solid`         | solid                      |
+
 ### Height
 
 |  Property         |   Value   |
@@ -91,48 +113,25 @@ _Footer component design specs_
 | Property          |   Value   |
 | ----------------- | --------- |
 | `padding-top`	    |   24px    |
-| `padding-right`	  |   36px    |
-| `padding-bottom`  |   24px    |
+| `padding-right`	  |   32px    |
+| `padding-bottom`  |   22px    |
 | `padding-left`	  |   36px    |
-
-
-### Typography
-
-| Property      |   Element                 |  Value          |
-| ------------- | ------------------------- | --------------- |
-| `font-size`	  |   Titles      	          |  1rem/16px      |
-| `font-size`   |   Links   	              |  0.875rem/14px  |
-| `font-size`   |   Copy-write              |  0.75rem/12px   |
-| `line-height` |   Copy-write              |  1.25rem        |
-| `font-size`   |   Terms & company links   |  0.75rem/12px   |
-| `line-height` |   Terms & company links   |  1.25rem        |
-| `font-weight`	|   Titles      	          |  600            |
-| `font-weight`	|   Links	                  |  400            |
 
 
 ### Iconography
 
-| Property          |   Element             |  Value      |
-| ----------------- | --------------------- | ----------- |
-| `height`/ `width`	|   Social media icons  |   24/24px   |
+| Property           |   Element              |  Value       |
+| :----------------- | :--------------------- | :----------- |
+| `height`/ `width`	 | Social media icons     |   24/24px    |
+| `max-height`       | DXC logo               |   32px       |
 
 
-### DXC Logo
-
-
-| Property      |   Element     |  Value    |
-| ------------- | ------------- | --------- |
-| `max-height`  |   DXC logo    |   32px    |
-
-
-### Terms & Company Links
+### Bottom Links
 
 | Property                 | Element                | Core token                 | Value            |
 | :----------------------- | :--------------------- | :------------------------- | :--------------- |
 | `min height`             | Links container        | `-`                        | 20px             |
 | `padding-top`            | Links container        | `spacing-03`               | 0.5rem / 8px     |
-| `border-width`           | Links separator        | `border-width-1`           | 1px              |
-| `border-style`           | Links separator        | `border-style-solid`       | solid            |
 
 
 ### Custom content
