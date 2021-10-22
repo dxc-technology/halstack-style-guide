@@ -135,7 +135,7 @@ _Component design specifications_
 | Component token                             | Element                      | Core token                 | Value (HEX)  |
 | :------------------------------------------ | :--------------------------- | :------------------------- | :----------- |
 | `titleLabelFontColor`                       | Title                        | `color-black`              | #000000      | 
-| `disabledTitleFontColor`                    | Title:disabled               | `color-grey-500`           | #999999      |
+| `disabledTitleLabelFontColor`               | Title:disabled               | `color-grey-500`           | #999999      |
 | `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
 | `disabledArrowColor`                        | Title:disabled               | `color-grey-500`           | #999999      |
 | `iconColor`                                 | Custom icon                  | `color-purple-700`         | #5f249f      |
@@ -175,7 +175,7 @@ _Component design specifications_
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `focusBorderStyle`                          | Header:focus border          | `border-style-solid`   | solid                     | 
-| `focusBorderThickness`                      | Header:focus border          | `border-width-1`       | 1px                       |
+| `focusBorderThickness`                      | Header:focus border          | `border-width-2`       | 2px                       |
 | `borderRadius`                              | Accordion container          | `border-radius-medium` | 0.25rem / 4px             | 
 
 
