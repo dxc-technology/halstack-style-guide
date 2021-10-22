@@ -2,6 +2,7 @@
 
 * [Halstack UI Kit](#halstack-ui-kit)
   * [Reusing styles across XD documents](#reusing-styles-across-xd-documents)
+  * [New and deprecated components](#new-and-deprecated-components)
   * [Working with previous versions](#working-with-previous-versions)
 * [Design assets](#design-assets)
 * [Adding new components](#adding-new-components)
@@ -11,7 +12,7 @@
   * [Variants](#variants)
 * [Adding component features](#adding-component-features)
   * [New variant](#new-variant)
-  * [Changing an exisiting variant](#changing-an-exisiting-variant)
+  * [Changing an exisiting variant](#changing-an-existing-variant)
   * [Documentation](#documentation)
 * [Other contributions](#other-contributions)
 
@@ -64,6 +65,20 @@ When creating component that reuse as child elements another components, be sure
 _`optionList` reused inside the select component_
 
 In the case presented above the `select` will be the outer component and the `optionList` will be the nested one. For more infomation about the terminology and how to work with nested components you can check [nested components](https://helpx.adobe.com/xd/help/work-with-nested-components.html) article.
+
+
+### New and deprecated components
+
+In order to identify wich components in the UI-Kit are new and wich ones are deprecated, we have a color legend that comes with the component when is searched across the document assets search bar:
+
+| Color  | Component status      | Description                                                                                                             |
+| :----- | :-------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| 🔴     | Waiting to be removed  | The component will be removed soon. If you have any instance of this component in your files, replace for the new ones |
+| 🟠     | Deprecated             | The component has been deprecated                                                                                      | 
+| 🟡     | Variant changed        | There are changes on this component variant                                                                            |
+| 🟣     | New variant            | New component variant in the UI-Kit. Changes are not available yet in CDK's                                            |
+| 🟢     | CDK Available          | New component variant available in CDK                                                                                 |
+
 
 ### Working with previous versions
 
@@ -198,7 +213,7 @@ Sometimes the changes affect a variant of the component that already exist, in o
 
 1. Bring the existing component from the library to a new XD file named `component-xyz_update.xd`
 2. Ungroup the component (<kbd>⇧ Shift</kbd><kbd>⌘ Command</kbd><kbd>G</kbd>)
-3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming adding "🟠 /" as a prefix
+3. Make the component local (<kbd>⌘ Command</kbd><kbd>K</kbd>) and keep the previous naming adding "🟡 /" as a prefix
 4. Work on the variant changes
 5. Create a new branch in your fork named `component-xyz-update`
 6. Save the file in `contributing/assets/components/updates` folder
