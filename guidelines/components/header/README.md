@@ -5,8 +5,9 @@ The header is an important component in the interface, it is the area dedicated 
 
 ## Usage
 
-- Try to avoid to place a large number of items inside the content area.
-- Avoid increasing the header height.
+* Try to avoid to place a large number of items inside the content area
+* Avoid increasing the header height
+* Halstack components placed as a children should follow their respective guidelines
 
 ## Variants
 
@@ -15,7 +16,7 @@ The header is an important component in the interface, it is the area dedicated 
 _Header component variants_
 
 Following the convention of the variants that can be found in a component, two main variants are defined for the header.
-Variants: **basic** and **underlined**.
+Variants: **default** and **underlined**.
 
 
 
@@ -26,24 +27,19 @@ Variants: **basic** and **underlined**.
 _Header distribution example_
 
 
-* **Brand**: In this area should be placed the company logo, it will go on the left side of the header.
-
-* **Content**:
-
-   * **Application name**: If the application has a specific name, can be placed here.
-   * **Primary navigation**: The links and dropdowns with a navigational purpose should be placed here.
-   * **Site options**: Language selector, settings, or other any option that applies globally should be placed here. 
-   * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
+1. Brand image
+2. Application name
+3. Navigation links
+4. Header dropdown
+5. Container
 
 
+## Custom content
 
-
-## Content
-
-* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
-* Halstack components placed as a children should follow their respective guidelines.
-* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
-
+* **Application name**: If the application has a specific name, can be placed following the brand image
+* **Primary navigation**: The links and dropdowns with a navigational purpose
+* **Site options**: Language selector, settings, or other any option that applies 
+* **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
 
 
 ## Design Specifications
