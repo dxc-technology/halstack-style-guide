@@ -50,24 +50,26 @@ _Header design specifications_
 
 ### Color
 
-| Component token                | Element          | Core token       | Value     |
-| :----------------------------- | :--------------- | :--------------- | --------- |
-| `backgroundColor`              | Container        | `color-white`    | #ffffff   |
-| `underlinedColor`              | Container        | `color-black`    | #000000   |
-| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700` | #666666   |
-| `hamburguerFocusColor`         | Menu:focus       | `color-blue-600` | #0095ff   |
-| `hamburguerFontColor`          | Menu label       | `color-black`    | #000000   |
-| `hamburguerIconColor`          | Menu icon        | `color-black`    | #000000   |
-| `menuBackgroundColor`          | Menu             | `color-white`    | #ffffff   |
-| `overlayColor`                 | Overlay          | `color-black`    | #f2f2f2   |
+| Component token                | Element          | Core token       | Value      |
+| :----------------------------- | :--------------- | :--------------- | :--------- |
+| `backgroundColor`              | Container        | `color-white`    | #ffffff    |
+| `underlinedColor`              | Container        | `color-black`    | #000000    |
+| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700` | #666666    |
+| `hamburguerFocusColor`         | Menu:focus       | `color-blue-600` | #0095ff    |
+| `hamburguerFontColor`          | Menu label       | `color-black`    | #000000    |
+| `hamburguerIconColor`          | Menu icon        | `color-black`    | #000000    |
+| `menuBackgroundColor`          | Menu             | `color-white`    | #ffffff    |
+| `overlayColor`                 | Overlay          | `color-black`    | #f2f2f2    |
 
+### Typography
 
-### Size
+| Component token                | Element          | Core token             | Value                   |
+| :----------------------------- | :--------------- | :--------------------- | :---------------------- |
+| `hamburguerFontFamily`         | Menu label       | `font-family-sans`     | 'Open Sans', sans-serif |
+| `hamburguerFontStyle`          | Menu label       | `font-style-normal`    | normal                  |
+| `hamburguerFontSize`           | Menu label       | `font-scale-01`        | 0.75rem / 12px          |
+| `hamburguerFontWeight`         | Menu label       | `font-weight-semibold` | 600                     |
 
-| Property                                 | Value    |
-| ---------------------------------------- | -------- |
-| `height`                                 |   64px   |
-| `width`                                  |   100%   |
 
 ### Border
 
@@ -75,6 +77,14 @@ _Header design specifications_
 | :----------------------- | :--------------------- | :------------------------- | :--------------- |
 | `border-width`           | Underline              | `border-width-2`           | 2px              |
 | `border-style`           | Underline              | `border-style-solid`       | solid            |
+
+  
+### Size
+
+| Property                                 | Value    |
+| ---------------------------------------- | -------- |
+| `height`                                 |   64px   |
+| `width`                                  |   100%   |
 
 ### Margin
 
