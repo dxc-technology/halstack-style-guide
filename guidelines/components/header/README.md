@@ -81,10 +81,11 @@ _Header design specifications_
   
 ### Size
 
-| Property                                 | Value    |
-| ---------------------------------------- | -------- |
-| `height`                                 |   64px   |
-| `width`                                  |   100%   |
+| Poperty                 | Element          | Core token       | Value      |
+| :---------------------- | :--------------- | :--------------- | :--------- |
+| `height`                | Container        | -                | 64px       |
+| `width`                 | Container        | -                | 100%       |
+
 
 ### Margin
 
