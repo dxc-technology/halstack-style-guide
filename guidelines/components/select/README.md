@@ -57,16 +57,27 @@ Allows the user to select more than one option from the list. To indicate which 
 
 #### Color
 
-| Tokens                          | Value       |
-| -----------------------------   | ----------- |
-| `selectedOptionBackgroundColor` |     #D9D9D9 |
-| `color`                         |     #000000 |
-| `hoveredOptionBackgroundColor`  |     #F2F2F2 |
-| `error`                         |     #D0011B |
-| `scrollBarThumbColor`           |     #666666 |
-| `scrollBarTrackColor`           |     #D9D9D9 |
-| `disabledColor`                 |     #B1B1B1 |
-| `focusColor`                    |     #005FCC |
+| Component token                   | Element                    | Core token         | Value      |             
+| :-------------------------------- | :------------------------- | :----------------- | :--------- |
+| `assistiveTextFontColor`          | Helper text                | `color-black`      | #000000    |
+| `labelFontColor`                  | Label                      | `color-black`      | #000000    |
+| `disabledColor`                   | All:disabled               | `color-black`      | #000000    |
+| `errorColor`                      | Error message              | `color-red-700`    | #d0011b    |
+| `optionBackgroundColor`           | Option list dialog         | `color-white`      | #ffffff    |
+| `optionFontColor`                 | Option list item           | `color-black`      | #000000    |
+| `scrollBarThumbColor`             | Scroll bar                 | `color-grey-700`   | #666666    |
+| `scrollBarTrackColor`             | Scroll bar                 | `color-grey-500`   | #999999    |
+| `optionIconColor`                 | Option list icon           | `color-black`      | #000000    |
+| `hoverOptionBackgroundColor`      | Option list item:hover     | `color-grey-100`   | #f2f2f2    |
+| `activeOptionBackgroundColor`     | Option list item:active    | `color-grey-200`   | #e6e6e6    |
+| `selectedOptionBackgroundColor`   | Option list item:selected  | `color-grey-300`   | #cccccc    |
+| `underlineColor`                  | Underline                  | `color-black`      | #000000    |
+| `underlineFocusColor`             | underline:focus            | `color-black`      | #000000    |
+| `valueFontColor`                  | Value                      | `color-black`      | #000000    |
+| `valueIconColor`                  | Icon                       | `color-black`      | #000000    |
+| `arrowColor`                      | Arrow                      | `color-black`      | #000000    |
+| `focusColorOnDark`                | Focus indicator            | `color-blue-600`   | #0095ff    |
+
 
 #### Size
 
