@@ -7,7 +7,7 @@ A select component is a right choice to preventing errors with predefined option
 
 ### Single select
 
-- A dropdown element should allow the user to select one option from a list.
+- A dialog element should allow the user to select one option from a list.
 - The select component should always display a label, different from any name in the option list.
 - If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
 - A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
@@ -16,7 +16,7 @@ A select component is a right choice to preventing errors with predefined option
 ### Multi-select
 
 - If more than one option is applicable, a multi-selection box should be used.
-- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity.
+- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of the multi-select component for simplicity and visual clarity.
 - Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
 
 
@@ -30,7 +30,7 @@ States are defined for select component based on the interactions that the user 
 
 ### Options list
 
-The options have two states: **enabled**, **hover**, **focus** and **selected**:
+The option items have the following states: **enabled**, **hover**, **focus** and **selected**:
 
 ![Option list states](images/select_option_states.png)
 
@@ -117,7 +117,7 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 | Property for single     |                           Value |
 | ----------------------- | ------------------------------ |
-| List item `padding-left`      |            16px |
+| List item `padding-left/right`      |            16px |
 | `height`                  |     36px |
 | `font-size`               |                          16px |
 | `font-weight`             |                       Regular |
@@ -130,12 +130,12 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 | Property for multiple   |                 Value |
 | ----------------------- | -------------------- |
-| List item `padding-left`      |            16px |
+| List item `padding-left/right`      |            16px |
 | `height`                  |     48px |
 | `font-size`               |                          16px |
 | `font-weight`             |                       Regular |
 | Icon size               |                    20 x 20px|
-| Spacing between checkbox and label | 12px  |
+| Spacing between checkbox and label | 8px  |
 | Spacing between icon and label | 12px  |
 | Focus outline `border-width` |  2px |
 
