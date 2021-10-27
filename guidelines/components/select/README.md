@@ -145,35 +145,18 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 ### WCAG 2.2
 
-**Understanding WCAG 2.2** - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
-
-* Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
+* Understanding WCAG 2.2 - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
 
 ### WAI-ARIA 2.1 
 
-**WAI-ARIA practices 2.1** - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
-
-* An element that contains or owns all the listbox options has role `listbox`.
-* Each option in the listbox has role `option` and is a DOM descendant of the element with role listbox or is referenced by an `aria-owns` property on the listbox element.
-* If the listbox is not part of another widget, then it has a visible label referenced by `aria-labelledby` on the element with role listbox.
-* In a single-select listbox, the selected option has `aria-selected` set to true.
-* If the listbox supports multiple selection:
-  * The element with role `listbox` has `aria-multiselectable` set to true.
-  * All selected options have `aria-selected` set to true.
-  * All options that are not selected have `aria-selected` set to false.
-* If the complete set of available options is not present in the DOM due to dynamic loading as the user scrolls, their `aria-setsize` and `aria-posinset` attributes are set appropriately.
-* If options are arranged horizontally, the element with role `listbox` has `aria-orientation` set to horizontal. The default value of `aria-orientation` for listbox is vertical.
-
-
-
-
-
-
+* WAI-ARIA practices 2.1 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
 
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/5d47790c-8718-4e0a-acc4-3deea3a0a8fa/variables/
+* [React component](https://developer.dxc.com/tools/react/next/#/components/select)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/select)
+* [Adobe XD component](https://xd.adobe.com/view/af227d9a-92fa-4e32-b735-b1e914a9d447-fa71/)
 
 ____________________________________________________________
 
