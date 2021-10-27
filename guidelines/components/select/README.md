@@ -2,13 +2,22 @@
 
 A select component is a right choice to preventing errors with predefined options, also they reduce the vertical space by showing several options in a reduced space. Selects are used in forms, letting the user select an option instead using an input.
 
-## Appearance
+## Usage
 
-Select is widely recognizable, despite the options are not shown at the first instance, an icon with a down arrow indicates that clicking in the field the list will be visible. In the input, the placeholder defines the attribute that will get the value. 
 
-* The options list will be displayed immediately above the placeholder, to get visible all the time which form fill attribute is the user filling.
-* In case that an option is selected when the dropdown turns visible, it should be at the top of the dropdown whenever this would be possible.
-* Multiple option selection will get an appearance with a checkbox that indicates the elements from the list that are selected or not.
+### Single select
+
+- A dropdown element should allow the user to select one option from a list.
+- The select component should always display a label, different from any name in the option list.
+- If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
+- A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
+- Use progressive disclosure between linked select components.
+
+### Multi-select
+
+- If more than one option is applicable, a multi-selection box should be used.
+- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity.
+- Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
 
 
 ## States
@@ -26,14 +35,23 @@ The options have two states: **enabled**, **hover**, **focus** and **selected**:
 ![Option list states](images/select_option_states.png)
 
 
-
 ## Multiple selection
 
 Allows the user to select more than one option from the list. To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
 
 ![Select multiple option](images/select_multi.png)
 
+
+## Required and error
+
+* A required empty select should show an error message when submitted.
+* Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
+
+![Helper text](images/select_helper_text.png)
+
 ## Design Specifications
+
+![Select specifications](images/select_spec.png)
 
 ### General
 
@@ -111,7 +129,6 @@ Select input specifications are the same as the [text-input](https://developer.d
 | Focus outline `border-width` |  2px |
 
 
-![Select specifications](images/select_spec.png)
 
 ## Accessibility
 
@@ -137,28 +154,8 @@ Select input specifications are the same as the [text-input](https://developer.d
 * If options are arranged horizontally, the element with role `listbox` has `aria-orientation` set to horizontal. The default value of `aria-orientation` for listbox is vertical.
 
 
-## User Interface Design Considerations
 
-### Single select
 
-- A dropdown element should allow the user to select one option from a list.
-- The select component should always display a label, different from any name in the option list.
-- If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
-- A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
-- Use progressive disclosure between linked select components.
-
-### Multi-select
-
-- If more than one option is applicable, a multi-selection box should be used.
-- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of a multi-selection list for simplicity and visual clarity.
-- Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
-
-## Required and error
-
-* A required empty select should show an error message when submitted.
-* Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
-
-![Helper text](images/select_helper_text.png)
 
 
 
