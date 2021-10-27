@@ -51,7 +51,7 @@ Allows the user to select more than one option from the list. To indicate which 
 
 ## Design Specifications
 
-![Select specifications](images/select_spec.png)
+![Select specifications](images/select_specs.png)
 
 ### General
 
