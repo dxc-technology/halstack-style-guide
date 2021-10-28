@@ -32,10 +32,10 @@ The accordion header can get four different states based on user interaction. St
 ![Accordion anatomy](images/accordion_anatomy.png)
 
 1. Header
-2. Active icon (Optional)
-3. Active text label 
-4. Additional information
-5. Caret icon for Expand/collapse
+2. Custom icon (Optional)
+3. Title 
+4. Helper text (Optional)
+5. Caret icon (Expand/collapse)
 6. Expanded panel
 
 ### Placement and alignment
@@ -86,11 +86,11 @@ the expand/collapse action._
 
 Accordion headers are stacked vertically and different hierarchy levels are allowed.
 
-![image](https://user-images.githubusercontent.com/44420072/114674447-86648a80-9d07-11eb-99fc-acf9cecdcad7.png)
+![image](images/accordion_group.png)
 
 _The expandable section of an accordion group can contain different types of plain information or clickable components._
 
-![image](https://user-images.githubusercontent.com/44420072/114674497-94b2a680-9d07-11eb-80f8-5890dc811d6b.png)
+![image](images/accordion_multi_expand.png)
 
 _When one accordion panel is expanded, the rest of the group should be collapsed._
 
@@ -133,14 +133,17 @@ _Component design specifications_
 ### Color
 
 | Component token                             | Element                      | Core token                 | Value (HEX)  |
-| ------------------------------------------- | ---------------------------- | -------------------------- | ------------ |
-| `titleLabelFontColor`                       | Label                        | `color-black`              | #000000      | 
-| `disabledColor`                             | Label:disabled               | `color-grey-400`           | #bfbfbf      |
+| :------------------------------------------ | :--------------------------- | :------------------------- | :----------- |
+| `titleLabelFontColor`                       | Title                        | `color-black`              | #000000      | 
+| `disabledTitleLabelFontColor`               | Title:disabled               | `color-grey-500`           | #999999      |
 | `arrowColor`                                | Caret icon                   | `color-purple-700`         | #5f249f      |
+| `disabledArrowColor`                        | Title:disabled               | `color-grey-500`           | #999999      |
 | `iconColor`                                 | Custom icon                  | `color-purple-700`         | #5f249f      |
+| `disabledIconColor`                         | Custom icon:disabled         | `color-grey-500`           | #999999      |
 | `assistiveTextFontColor`                    | Helper text                  | `color-grey-700`           | #666666      |
+| `disabledAssistiveTextFontColor`            | Helper text:disabled         | `color-grey-500`           | #999999      |
 | `hoverBackgroundColor`                      | Header background:hover      | `color-purple-100`         | #f2eafa      |
-| `focusBorderColor`                          | Header outline:focus         | `color-purple-700`         | #5f249f      |
+| `focusBorderColor`                          | Header outline:focus         | `color-blue-600`           | #0095ff      |
 | `backgroundColor`                           | Container background         | `color-white`              | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                          | #0000001a    |
 | `accordionGroupSeparatorBorderColor`        | Separator                    | -                          | #0000001a    |
@@ -150,10 +153,10 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token              | Value                     |
 | :------------------------------------------ | :--------------------------- | :---------------------- | :------------------------ |
-| `titleLabelFontFamily`                      | Label                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
-| `titleLabelFontSize`                        | Label                        | `font-scale-03`         | 16px                      | 
-| `titleLabelFontWeight`                      | Label                        | `font-regular`          | 400                       | 
-| `titleLabelFontStyle`                       | Label                        | `font-normal`           | normal                    | 
+| `titleLabelFontFamily`                      | Title                        | `font-family-sans`      | 'Open Sans', sans-serif;  | 
+| `titleLabelFontSize`                        | Title                        | `font-scale-03`         | 16px                      | 
+| `titleLabelFontWeight`                      | Title                        | `font-regular`          | 400                       | 
+| `titleLabelFontStyle`                       | Title                        | `font-normal`           | normal                    | 
 | `assistiveTextFontFamily`                   | Helper text                  | `font-sans`             | 'Open Sans', sans-serif;  |
 | `assistiveTextFontSize`                     | Helper text                  | `font-scale-03`         | 16px                      |
 | `assistiveTextFontWeight`                   | Helper text                  | `font-light`            | 300                       |
@@ -163,30 +166,38 @@ _Component design specifications_
 ### Iconography
 
 | Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `iconSize`                                  | Custom icon/Caret icon       | -                      | 24x24px                   | 
 
 
 ### Border
 
 | Component token                             | Element                      | Core token             | Value                     |
-| ------------------------------------------- | ---------------------------- | ---------------------- | ------------------------- |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
 | `focusBorderStyle`                          | Header:focus border          | `border-style-solid`   | solid                     | 
-| `focusBorderThickness`                      | Header:focus border          | `border-width-1`       | 1px                       |
+| `focusBorderThickness`                      | Header:focus border          | `border-width-2`       | 2px                       |
 | `borderRadius`                              | Accordion container          | `border-radius-medium` | 0.25rem / 4px             | 
 
 
 ### Size
 
 | Property                                    | Element                      | Core token           | Value        |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
 | `height`                                    | Header                       | -                    | 48px         | 
 | `min-width`                                 | Accordion container          | -                    | 280px        | 
 
 ### Spacing
 
+| Component token                             | Element                      | Core token             | Value                     |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
+| `titleLabelPaddingRight`                    | Title                        | `spacing-05`           | 1rem / 16px               |
+| `titleLabelPaddingLeft`                     | Title                        | `spacing-00`           | 0rem / 0px                |
+| `titleLabelPaddingTop`                      | Title                        | `spacing-00`           | 0rem / 0px                |
+| `titleLabelPaddingBottom`                   | Title                        | `spacing-00`           | 0rem / 0px                |
+
+
 | Property                                    | Element                      | Core token           | Value        |
-| ------------------------------------------- | ---------------------------- | -------------------- | ------------ |
+| :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
 | `padding-left`                              | Header                       | `spacing-05`         | 16px         | 
 | `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
 | `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |

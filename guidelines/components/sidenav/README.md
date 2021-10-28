@@ -46,8 +46,8 @@ _Sidenav design specifications_
 | `arrowContainerColor`  | Arrow container  | `color-grey-200`   | #e6e6e6   |
 | `arrowColor`           | Arrow            | `color-black`      | #000000   |
 | `titleFontColor`       | Title            | `color-black`      | #000000   |
-| `subtitleFontColor`    | Subtitle         | `color-grey-700`   | #666666   |
-| `linkFontColor`        | Link             | `color-black`      | #000000   |
+| `subtitleFontColor`    | Subtitle         | `color-grey-800`   | #4d4d4d   |
+| `linkFontColor`        | Link             | `color-grey-800`   | #4d4d4d   |
 
 ### Typography
 
