@@ -48,10 +48,11 @@ _Design specification for the tag component_
 
 ### Color
 
-| Component token   | Element          | Core token     | Value      |
-| :---------------- | :--------------- | :------------- | :--------- |
-| `fontColor`       | Label            | `color-black`  | `#000000`  |
-| `iconColor`       | Icon            | `color-white`  | `#ffffff`  |
+| Component token   | Element          | Core token        | Value      |
+| :---------------- | :--------------- | :---------------- | :--------- |
+| `fontColor`       | Label            | `color-black`     | `#000000`  |
+| `iconColor`       | Icon             | `color-white`     | `#ffffff`  |
+| `focusColor`      | Container        | `color-blue-600`  | `#0095ff`  |
 
 *_The `tag` component is using the `box` underneath, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components._
 
