@@ -1,26 +1,47 @@
 # Box
 
-![box-overview](images/box_overview.png)
-
-
 There are different ways to organise the content on the webpage to facilitate the user according to his nature of interaction with the content like forms, tables, lists etc. One of the best ways to organize the webpage is by using groups of related content, this can be achieved by using a dedicated Box component.
 
-### Variants
 
-| Name          | Description
-| :------------ | :------------------------------------------------------------------------------------------------------------ |
-| **Bordered**  | Use this variant to encapsulate other elements and build clear distinctions between areas in the page layout  |
-| **Raised**    | Use this variant for dialogs (e.g. select or dropdown dialog) and clickable containers                        |
-| **Dashed**    | Use this variant for drag and drop areas                                                                      |
+## Usage
+
+* Organize the group layout with the information presented clearly by applying the styles in the box container.
+* Box can be reused accros the UI, avoid using different shadow depths in the same page.
+* Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
+
+
+## Content
+
+Any type of content can be place inside the box component.
+
 
 ## Design specifications
 
+### Color
+
+| Component token                 | Element                      | Core token             | Value                     |
+| :------------------------------ | :--------------------------- | :--------------------- | :------------------------ | 
+| `backgroundColor`               | Container                    | `color-white`          | #ffffff                   |
+| `borderColor`                   | Container                    | `color-transparent`    | #transparent              |
+
+
 ### Border
 
-| Property                        | Element                      | Core token             | Value                     |
+| Component token                 | Element                      | Core token             | Value                     |
 | :------------------------------ | :--------------------------- | :--------------------- | :------------------------ | 
-| `border-width`                  | Container border             | `border-width-0`       | 0                         |
-| `border-radius`                 | Container border             | `border-radius-medium` | 0.25rem / 4px             | 
+| `borderThickness`               | Container border             | `border-width-0`       | 0                         |
+| `borderRadius`                  | Container border             | `border-radius-medium` | 0.25rem / 4px             | 
+| `borderStyle`                   | Container border             | `border-style-none`    | none                      | 
+
+
+### Shadow
+
+| Component token                 | Element                      | Core token             | Value                           |
+| :------------------------------ | :--------------------------- | :--------------------- | :------------------------------ | 
+| `noneShadowDepth`               | Container shadow             | `shadow-none`          | none                            |
+| `oneShadowDepth`                | Container shadow             | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  | 
+| `twoShadowDepth`                | Container shadow             | `shadow-high`          | 0 8px 14px -2px rgba(0,0,0,0.1) | 
+
 
 ### Width
 
@@ -64,17 +85,11 @@ padding | value
 And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-## Content
+## Links and references
 
-Any type of content can be place inside the box component.
-
-
-## User interface considerations
-
-
-* Organize the group layout with the information presented clearly by applying the styles in the box container.
-* Box can be reused accros the UI, avoid using different shadow depths in the same page.
-* Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
+* [React component](https://developer.dxc.com/tools/react/next/#/components/box)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/box)
+* [Adobe XD component](https://xd.adobe.com/view/5dbf0c6e-c116-4fe2-970e-344911a74201-08ec/)
 
 ____________________________________________________________
 
