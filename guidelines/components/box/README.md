@@ -6,10 +6,16 @@ There are different ways to organise the content on the webpage to facilitate th
 ## Usage
 
 * Organize the group layout with the information presented clearly by applying the styles in the box container.
-* Box can be reused accros the UI, avoid using different shadow depths in the same page.
+* Box can be reused accros the UI, avoid using different variants in the same page.
 * Use always a minimun padding and always leave enough margin when stacking boxes so the shadows don't ovelap.
 
+## Variants
 
+![Box component variants](images/box_variants.png)
+
+_Box component variants_
+
+The `shadow-default` and `shadow-high` variants can be used to create clear distictions between sections of content without the use of borders or separators, the `no-shadow` helps in the process of building the layout. Note that when using an application `background-color` different than white, the limits of the box are goig to be clearly visible no matter the variant choosed.
 ## Content
 
 Any type of content can be place inside the box component.
@@ -17,6 +23,10 @@ Any type of content can be place inside the box component.
 
 ## Design specifications
 
+
+![Component design specifications](images/box_specs.png)
+
+_Component design specifications_
 ### Color
 
 | Component token                 | Element                      | Core token             | Value                     |
