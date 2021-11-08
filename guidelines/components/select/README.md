@@ -1,24 +1,14 @@
 # Select
 
-A select component is a right choice to preventing errors with predefined options, also they reduce the vertical space by showing several options in a reduced space. Selects are used in forms, letting the user select an option instead using an input.
-
+Select component allow users to make a single or multiple selection from a pre-defined list of options.
 ## Usage
 
-
-### Single select
-
-- A dialog element should allow the user to select one option from a list.
-- The select component should always display a label, different from any name in the option list.
-- If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
-- A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
-- Use progressive disclosure between linked select components.
-
-### Multi-select
-
-- If more than one option is applicable, a multi-selection box should be used.
-- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of the multi-select component for simplicity and visual clarity.
-- Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
-
+- A dialog element should allow the user to select one option from a list
+- If the list of options is short (4 or less), use checkboxes instead of the select component
+- The select component should always display a label, different from any name in the option list
+- Use a pre-selected good default where possible
+- Use progressive disclosure between linked select components
+- If more than one option is applicable, use the multi-select variant
 
 ## States
 
