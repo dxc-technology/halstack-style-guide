@@ -18,7 +18,7 @@ The states are the different behaviors of the button component based on the inte
 Different states for the component are below
 
 ### Breadcrumb path link
-![Breadcrumbs path link element states](images/breadcrumbs_states.png "Breadcrumbs component states")
+![Breadcrumbs path link element states](images/breadcrumbs_states_path.png "Breadcrumbs component states")
 
 _Breadcrumbs path link element states_
 
