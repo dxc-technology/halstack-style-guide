@@ -20,7 +20,7 @@ _Examples of date picker input states_
 
 ### Datepicker dialog
 
-States: **enabled**, **hover**, **focus**, and **disabled**.
+States: **enabled**, **hover**, **focus**, and **selected**.
 
 ![Examples of the calendar pop-up states](images/date_popup.png)
 
@@ -74,8 +74,8 @@ _Structure and spacing for date picker calendar pop-up_
 | Component token                        | Element                        | Core token                   | Value         |
 | :------------------------------------- | :----------------------------- | :--------------------------- | :------------ |
 | `pickerBackgroundColor`                | Dialog container               | `color-white`                | #ffffff       | 
-| `pickerFontColor`                      | Dialog text                    | `color-black`                | #000000       | 
-| `pickerActualDateColor`                | Dialog title                   | `color-grey-500`             | #999999       | 
+| `pickerDayFontColor`                   | Dialog text                    | `color-black`                | #000000       | 
+| `pickerCurrentDateColor`               | Dialog title                   | `color-grey-500`             | #999999       | 
 | `pickerHoverDateBackgroundColor`       | Container background           | `color-purple-200`           | #e5d5f6       | 
 | `pickerSelectedDateColor`              | Date text:selected             | `color-white`                | #ffffff       | 
 | `pickerSelectedDateBackgroundColor`    | Date background:hover          | `color-purple-700`           | #5f249f       | 
@@ -83,10 +83,15 @@ _Structure and spacing for date picker calendar pop-up_
 | `pickerYearFontColor`                  | Year label                     | `color-black`                | #000000       | 
 | `pickerMonthFontColor`                 | Mont label                     | `color-black`                | #000000       | 
 | `pickerWeekFontColor`                  | Weekday label                  | `color-black`                | #000000       | 
-| `pickerBackgroundColorMonthArrows`     | Month selection controls       | `color-black`                | #000000       |  
-| `focusColor`                           | Focus outline                  | `color-blue-600`             | #0095ff         | 
+| `pickerMonthArrowsBackgroundColor`     | Month selection controls       | `color-transparent`          | transparent   |  
+| `pickerFocusColor`                     | Focus indicator                | `color-blue-600`             | #0095ff       | 
+
 
 #### Typography
+
+| Component token           | Element                        | Core token                   | Value                   |
+| :------------------------ | :----------------------------- | :--------------------------- | :---------------------- |
+| `pickerFontFamily`        | Datepicker dialog              | font-family-sans`            | 'Open Sans', sans-serif |
 
 | Property                      | Element          | Core token              | Value        |
 | :---------------------------- | :--------------- | :---------------------- | :----------- |
