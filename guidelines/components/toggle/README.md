@@ -13,7 +13,7 @@ Toggles should be used in place of radio buttons whenever the options are:
 
 ## Variants
 
-![Toggle component single and multiple variants](images/toggle_variants.png)
+![Toggle component single and multiple variants](images/toggle_group_variants.png)
 
 _Toggle component single and multiple variants_
 
@@ -24,17 +24,19 @@ The selection of the toggle group can be mutually exclusive (single variant) or 
 Different states are defined in the life cycle of the component:
 **Unselected enabled**, **unselected hover**, **unselected focus**, **unselected active**, **unselected disabled**, **selected enabled**, **selected hover**, **selected focus**, **selected active** and **selected disabled**
 
-![Toggle button states example](images/toggle_states.png)
+![Toggle button states example](images/toggle_group_states.png)
 
 _Toggle button states example_
 
 
 ## Anatomy
 
-![Toggle component anatomy](images/toggle_anatomy.png)
+![Toggle component anatomy](images/toggle_group_anatomy.png)
 
 1. Container
-2. Label/Icon
+2. Button
+3. Icon
+4. Label
 
 
 ## Icon Usage
@@ -44,7 +46,7 @@ Inside the toggle button, it is possible to use icons to represent recognizable 
 
 ## Design Specifications
 
-![Toggle design specifications](images/toggle_specs.png)
+![Toggle design specifications](images/toggle_group_specs.png)
 
 _Toggle design specifications_
 ### Color
