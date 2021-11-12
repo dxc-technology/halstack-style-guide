@@ -53,47 +53,55 @@ _Toggle design specifications_
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `unselectedBackgroundColor`         | Container fill:enabled	    | `color-grey-200`         | #e6e6e6     |
-| `unselectedHoverBackgroundColor`    | Container fill:hover	    | `color-grey-300`         | #cccccc     |
-| `unselectedActiveBackgroundColor`   | Container fill:active	    | `color-purple-700`       | #5f249f     |
-| `unselectedDisabledBackgroundColor` | Container fill:disabled	    | `color-grey-100`         | #f2f2f2     |
-| `unselectedFontColor`               | Label	                    | `color-black`            | #000000     |
+| `containerBackgroundColor`          | Container	                  | `color-grey-50`          | #fafafa     |
+| `containerBorderColor`              | Container	                  | `color-grey-500`         | #999999     |
+| `unselectedBackgroundColor`         | Button fill:enabled	        | `color-grey-200`         | #e6e6e6     |
+| `unselectedHoverBackgroundColor`    | Button fill:hover	          | `color-grey-300`         | #cccccc     |
+| `unselectedActiveBackgroundColor`   | Button fill:active	        | `color-purple-700`       | #5f249f     |
+| `unselectedDisabledBackgroundColor` | Button fill:disabled	      | `color-grey-100`         | #f2f2f2     |
+| `unselectedFontColor`               | Label	                      | `color-black`            | #000000     |
 | `unselectedDisabledFontColor`       | Label:disabled	            | `color-grey-500`         | #999999     |
-| `selectedBackgroundColor`           | Container fill:enabled	    | `color-purple-700`       | #5f249f     |
-| `selectedHoverBackgroundColor`      | Container fill:hover	    | `color-purple-800`       | #4b1c7d     |
-| `selectedActiveBackgroundColor`     | Container fill:active	    | `color-purple-900`       | #321353     |
-| `selectedDisabledBackgroundColor`   | Container fill:disabled	    | `color-purple-100`       | #f2eafa     |
-| `selectedFontColor`                 | Label	                    | `color-white`            | #ffffff     |
+| `unselectedIconColor`               | Icon                        | `color-black`            | #000000     |
+| `unselectedDisabledIconColor`       | Icon:disabled	              | `color-grey-500`         | #999999     |
+| `selectedBackgroundColor`           | Button fill:enabled	        | `color-purple-700`       | #5f249f     |
+| `selectedHoverBackgroundColor`      | Button fill:hover	          | `color-purple-800`       | #4b1c7d     |
+| `selectedActiveBackgroundColor`     | Button fill:active	        | `color-purple-900`       | #321353     |
+| `selectedDisabledBackgroundColor`   | Button fill:disabled	      | `color-purple-100`       | #f2eafa     |
+| `selectedFontColor`                 | Label	                      | `color-white`            | #ffffff     |
+| `selectedIconColor`                 | Icon	                      | `color-white`            | #ffffff     |
 | `selectedDisabledFontColor`         | Label:disabled	            | `color-purple-300`       | #cbacec     |
-| `focusColor`                        | Border:focus	            | `color-blue-600`         | #0095ff     |
+| `focusColor`                        | Focus indicator	            | `color-blue-600`         | #0095ff     |
 
 ### Typography
 
 | Component token                     | Element              | Token                           | Value                       |
 | :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
-| `fontFamily`                        | Label	             | `font-family`                   | 'Open Sans', sans-serif     |
-| `fontSize`                          | Label	             | `font-scale-03`                 | 1rem / 16px                 |
-| `fontStyle`                         | Label	             | `font-style-normal`             | normal                      |
-| `fontWeight`                        | Label	             | `font-weight-regular`           | 400                         |
+| `fontFamily`                        | Label	               | `font-family`                   | 'Open Sans', sans-serif     |
+| `fontSize`                          | Label	               | `font-scale-03`                 | 1rem / 16px                 |
+| `fontStyle`                         | Label                | `font-style-normal`             | normal                      |
+| `fontWeight`                        | Label                | `font-weight-regular`           | 400                         |
 
 
 ### Spacing
 
 | Component token                     | Element              | Token                           | Value                       |
 | :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
-| `iconPaddingRight`                  | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
-| `iconPaddingLeft`                   | Icon	             | `spacing-03`                    | 0.5rem / 8px                |
-| `labelPaddingLeft`                  | Label	             | `spacing-06`                    | 1.5rem / 24px               |
-| `labelPaddingRight`                 | Label	             | `spacing-06`                    | 1.5rem / 24px               |
+| `iconPaddingRight`                  | Icon	               | `spacing-03`                    | 0.5rem / 8px                |
+| `iconPaddingLeft`                   | Icon	               | `spacing-03`                    | 0.5rem / 8px                |
+| `labelPaddingLeft`                  | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
+| `labelPaddingRight`                 | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
 
 
 ### Border
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `border-width`           | Container        | `border-width-0`           | 0                |
-| `border-style`           | Container        | `border-style-none`        | none             |
-| `border-radius`          | Container        | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Button           | `border-width-0`           | 0                |
+| `border-style`           | Button           | `border-style-none`        | none             |
+| `border-radius`          | Button           | `border-radius-medium`     | 0.25rem / 4px    |
+| `border-width`           | Container        | `border-width-1`           | 1px              |
+| `border-style`           | Container        | `border-style-solid`       | solid            |
+| `border-radius`          | Container        | -                          | 0.375rem / 6px   |
 | `border-width`           | Focus border     | `border-width-2`           | 2                |
 | `border-style`           | Focus border     | `border-style-solid`       | solid            |
 | `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
