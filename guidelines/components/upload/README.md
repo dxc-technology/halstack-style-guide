@@ -153,12 +153,12 @@ _Upload design specifications_
 
 ### Border
 
-| Property        | Element               | Token             | Value           |
-| :-------------- | :-------------------- | :---------------- | :-------------- |
-| `border`        | Drag and drop area    | `-`               | dashed 2px      |
-| `border-radius` | Drag and drop area    | `-`               | 4px             |
-| `border`        | File item             | `-`               | solid 1px       |
-| `border-radius` | File item             | `-`               | 4px             |
+| Property        | Element               | Token                   | Value              |
+| :-------------- | :-------------------- | :---------------------- | :----------------- |
+| `border`        | Drag and drop area    | `-`                     | dashed 1px         |
+| `border-radius` | Drag and drop area    | `-`                     | 0.375rem / 6px     |
+| `border`        | File item             | `-`                     | solid 1px          |
+| `border-radius` | File item             | `border-radius-medium`  | 0.25rem / 4px      |
 
 
 ## Links and references
