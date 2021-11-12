@@ -109,6 +109,7 @@ _Upload design specifications_
 | `dropBorderColor`             | Drag and drop area          | `color-black`               |   #000000     |
 | `fileItemBorderColor`         | File item                   | `color-grey-300`            |   #cccccc     |
 | `fileItemIconColor`           | File item                   | `color-black`               |   #000000     |
+| `fileNameFontColor`           | File name                   | `color-black`               |   #000000     |
 | `labelFontColor`              | Label                       | `color-black`               |   #000000     |
 | `helperTextFontColor`         | Helper text                 | `color-black`               |   #000000     |
 | `dropLabelFontColor`          | Drop label                  | `color-black`               |   #000000     |
@@ -139,6 +140,10 @@ _Upload design specifications_
 | `font-size`     | Label          | `font-scale-02`         | 0.875rem / 14px |
 | `font-weight`   | Label          | `font-bold`             | 600             |
 | `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `font-family`   | File item      | `font-family-sans`      | Open Sans       |
+| `font-size`     | File item      | `font-scale-02`         | 0.875rem / 14px |
+| `font-weight`   | File item      | `font-regular`          | 400             |
+| `line-height`   | File item      | `font-leading-normal`   | 1.5em           |
 | `font-family`   | Helper text    | `font-family-sans`      | Open Sans       |
 | `font-size`     | Helper text    | `font-scale-01`         | 12px            |
 | `font-weight`   | Helper text    | `font-regular`          | 400             |
