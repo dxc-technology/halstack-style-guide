@@ -22,6 +22,12 @@ Variants: **primary**, **secondary** and **text**.
 ![Example of the button component variants](images/button_variants.png "Example of the button component variants")
 _Example of the button component variants_
 
+| Variant | Description |
+| :------ | :---------- |
+| Primary | For the principal call to action on the page; primary buttons should only appear once per screen (not including the application header or in a modal dialog) |
+| Secondary | For less prominent actions; secondary buttons can be used in isolation or paired with a primary button when there are multiple calls to action |
+| Text | For the least pronounced actions; often used in conjunction with a primary button (e.g. cancel in a modal dialog) |
+
 ## States
 
 The states are the different behaviors of the button component based on the interaction of the user.

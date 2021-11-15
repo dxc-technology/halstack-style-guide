@@ -1,5 +1,29 @@
 # Changelog
 
+## 3.11.0 (28/10/2021)
+
+## What's Changed
+
+### Documentation
+
+* Accordion :focus state update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/584
+* Fix accordion component specs by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/589
+* Component footer documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/592
+* Update contributing/design documentation by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/595
+* Component tag documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/590
+* Header documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/599
+* Select documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/602
+* Documentation fixes by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/603
+* Sidenav documentation fixes by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/585
+
+### UI Kit
+
+* Update UI Kit select and sidenav components by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/604
+* Add component status identifiers by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/597
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.10.0...3.11.0
+---
+
 ## 3.10.0 (18/10/2021)
 
 #### Documentation:
