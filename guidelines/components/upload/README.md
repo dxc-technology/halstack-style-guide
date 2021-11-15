@@ -163,9 +163,11 @@ _Upload design specifications_
 
 | Property        | Element               | Token                   | Value              |
 | :-------------- | :-------------------- | :---------------------- | :----------------- |
-| `border`        | Drag and drop area    | `-`                     | dashed 1px         |
-| `border-radius` | Drag and drop area    | `-`                     | 0.375rem / 6px     |
-| `border`        | File item             | `-`                     | solid 1px          |
+| `border-style`  | Drag and drop area    | `border-style-dashed`   | dashed             |
+| `border-width`  | Drag and drop area    | `border-width-1`        | 1px                |
+| `border-radius` | Drag and drop area    | `border-radius-large`   | 0.375rem / 6px     |
+| `border-style`  | File item             | `border-style-solid`    | solid              |
+| `border-width`  | File item             | `border-width-1`        | 1px                |
 | `border-radius` | File item             | `border-radius-medium`  | 0.25rem / 4px      |
 
 
