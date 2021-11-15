@@ -110,6 +110,8 @@ _Upload design specifications_
 | `fileItemBorderColor`         | File item                   | `color-grey-300`            |   #cccccc     |
 | `fileItemIconColor`           | File item                   | `color-black`               |   #000000     |
 | `fileNameFontColor`           | File name                   | `color-black`               |   #000000     |
+| `filePreviewBackgroundColor`  | File preview                | `color-color-grey-100`      |   #f2f2f2     |
+| `filePreviewIconColor`        | File preview icon           | `color-black`               |   #000000     |
 | `labelFontColor`              | Label                       | `color-black`               |   #000000     |
 | `helperTextFontColor`         | Helper text                 | `color-black`               |   #000000     |
 | `dropLabelFontColor`          | Drop label                  | `color-black`               |   #000000     |
@@ -127,8 +129,9 @@ _Upload design specifications_
 | `focusDropBackgroundColor`              | Dnd fill:focus              | `color-blue-50`             |   #f5fbff     |
 | `hoverFileItemIconBackgroundColor`      | File item icon:hover        | `color-grey-100`            |   #f2f2f2     |
 | `activeFileItemIconBackgroundColor`     | File item icon:active       | `color-grey-300`            |   #cccccc     |
-| `errorFileItemBorderColor`              | File item:error             | `color-red-700`             |   #d0011b     |
-| `errorFileItemBackgroundColor`          | File item:error             | `color-red-200`             |   #ffccd3     |
+| `errorFileItemBorderColor`              | File item container:error   | `color-red-700`             |   #d0011b     |
+| `errorFileItemBackgroundColor`          | File item container:error   | `color-red-50`              |   #fff5f6     |
+| `errorFilePreviewBackgroundColor`       | File item preview:error     | `color-red-200`             |   #ffccd3     |
 | `errorMessageFontColor`                 | File item:error             | `color-red-700`             |   #d0011b     |
 
 
