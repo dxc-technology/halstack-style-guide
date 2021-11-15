@@ -56,15 +56,15 @@ Most components across Halstack can adopt our component spacing tokens as `margi
 _Usage of the `medium` token for `left` `right` `bottom` and `top` `padding` properties._
 
 
-| Component token     | Core token        | Value      |
-| ------------------- | --------------- | ------------ |
-| `xxsmall`           | `spacing-03`    | 8px          |
-| `xsmall`            | `spacing-05`    | 16px         |
-| `small`             | `spacing-06`    | 24px         |
-| `medium`            | `spacing-07`    | 32px         |
-| `large`             | `spacing-09`    | 48px         |
-| `xlarge`            | `spacing-11`    | 64px         |
-| `xxlarge`           | `spacing-14`    | 112px        |
+| Component token     | Core token       | Value        |
+| :------------------ | :--------------- | :----------- |
+| `xxsmall`           | `spacing-02`     | 4px          |
+| `xsmall`            | `spacing-03`     | 8px          |
+| `small`             | `spacing-04`     | 12px         |
+| `medium`            | `spacing-05`     | 16px         |
+| `large`             | `spacing-06`     | 24px         |
+| `xlarge`            | `spacing-07`     | 32px         |
+| `xxlarge`           | `spacing-09`     | 48px         | 
 
 
 ____________________________________________________________
