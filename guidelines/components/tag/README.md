@@ -48,10 +48,11 @@ _Design specification for the tag component_
 
 ### Color
 
-| Component token   | Element          | Core token     | Value      |
-| :---------------- | :--------------- | :------------- | :--------- |
-| `fontColor`       | Label            | `color-black`  | `#000000`  |
-| `iconColor`       | Icon            | `color-white`  | `#ffffff`  |
+| Component token   | Element          | Core token        | Value      |
+| :---------------- | :--------------- | :---------------- | :--------- |
+| `fontColor`       | Label            | `color-black`     | `#000000`  |
+| `iconColor`       | Icon             | `color-white`     | `#ffffff`  |
+| `focusColor`      | Container        | `color-blue-600`  | `#0095ff`  |
 
 *_The `tag` component is using the `box` underneath, the values for the background are inherited from the definition in the component. By default, the background color is white and not themable, so it will be the same for both components._
 
@@ -75,10 +76,12 @@ _Design specification for the tag component_
 
 ### Spacing
 
-| Property        | Element          | Core token    | Value       |
-| :-------------- | :--------------- | :------------ | :---------- |
-| `padding-left`  | Label            | `spacing-05`  | 1rem / 16px |
-| `padding-right` | Label            | `spacing-05`  | 1rem / 16px |
+| Component token        | Element          | Core token    | Value       |
+| :--------------------- | :--------------- | :------------ | :---------- |
+| `labelPaddingTop`      | Label            | `spacing-00`  | 0rem / 0px  |
+| `labelPaddingBottom`   | Label            | `spacing-00`  | 0rem / 0px  |
+| `labelPaddingLeft`     | Label            | `spacing-05`  | 1rem / 16px |
+| `labelPaddingRight`    | Label            | `spacing-05`  | 1rem / 16px |
 
 
 ### Size

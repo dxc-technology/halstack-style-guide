@@ -1,0 +1,14 @@
+changelog:
+  exclude:
+    authors:
+      - aweell
+  categories:
+    - title: Documentation 📚
+      labels:
+        - category: documentation :notebook:
+    - title: UI Kit 📐
+      labels:
+        - category: ui-kit :triangular_ruler:
+    - title: Other Changes
+      labels:
+        - "*"
