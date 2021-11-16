@@ -27,12 +27,17 @@ Any type of content can be place inside the box component.
 ![Component design specifications](images/box_specs.png)
 
 _Component design specifications_
+
 ### Color
 
 | Component token                 | Element                      | Core token             | Value                     |
 | :------------------------------ | :--------------------------- | :--------------------- | :------------------------ | 
 | `backgroundColor`               | Container                    | `color-white`          | #ffffff                   |
 | `borderColor`                   | Container                    | `color-transparent`    | #transparent              |
+| `noneShadowDepthShadowColor`    | Shadow                       | `color-transparent`    | transparent               |
+| `oneShadowDepthShadowColor`     | Shadow                       | -                      | #00000033                 |
+| `twoShadowDepthShadowColor`     | Shadow                       | -                      | #00000033                 |
+
 
 
 ### Border
@@ -48,9 +53,19 @@ _Component design specifications_
 
 | Component token                 | Element                      | Core token             | Value                           |
 | :------------------------------ | :--------------------------- | :--------------------- | :------------------------------ | 
-| `noneShadowDepth`               | Container shadow             | `shadow-none`          | none                            |
-| `oneShadowDepth`                | Container shadow             | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  | 
-| `twoShadowDepth`                | Container shadow             | `shadow-high`          | 0 8px 14px -2px rgba(0,0,0,0.1) | 
+| `noneShadowDepthShadowOffsetX`  | Container shadow             | -                      | none                            |
+| `noneShadowDepthShadowOffsetY`  | Container shadow             | -                      | none                            |
+| `noneShadowDepthShadowBlur`     | Container shadow             | -                      | none                            |
+| `noneShadowDepthShadowSpread`   | Container shadow             | -                      | none                            |
+| `oneShadowDepthShadowOffsetX`   | Container shadow             | -                      | 0x                              |
+| `oneShadowDepthShadowOffsetY`   | Container shadow             | -                      | 3px                             |
+| `oneShadowDepthShadowBlur`      | Container shadow             | -                      | 6px                             |
+| `oneShadowDepthShadowSpread`    | Container shadow             | -                      | 0px                             |
+| `twoShadowDepthShadowOffsetX`   | Container shadow             | -                      | 0x                              |
+| `twoShadowDepthShadowOffsetY`   | Container shadow             | -                      | 3px                             |
+| `twoShadowDepthShadowBlur`      | Container shadow             | -                      | 10px                            |
+| `twoShadowDepthShadowSpread`    | Container shadow             | -                      | 0px                             |
+
 
 
 ### Width
