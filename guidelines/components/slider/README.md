@@ -36,13 +36,15 @@ _Slider component different states example_
 
 ![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
 
-1. Floor label _(Optional)_
-2. Total line
-3. Ceil label _(Optional)_
-4. Value input _(Optional)_
-5. Tick
-6. Thumb
-7. Track line
+1. Label
+2. Helper text
+3. Floor label _(Optional)_
+4. Total line
+5. Ceil label _(Optional)_
+6. Value input _(Optional)_
+7. Tick
+8. Thumb
+9. Track line
 
 
 ## Slider with input
@@ -68,6 +70,8 @@ _Slider Specifications_
 | Component token                   | Element             | Core token            | Value   |
 | :-------------------------------- | :------------------ | :-------------------- | :------ |
 | `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
+| `labelFontColor`                  | Label               | `color-black`         | #000000 |
+| `helperTextColor`                 | Helper text         | `color-black`         | #000000 |
 | `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
 | `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
 | `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
@@ -84,13 +88,21 @@ _Slider Specifications_
 
 ### Typography
 
-
 | Component token                   | Element             | Core token             | Value                     |
 | :-------------------------------- | :------------------ | :--------------------- | :------------------------ |
+| `fontFamily`                      | Label	              | `font-family`          | 'Open Sans', sans-serif   |
+| `fontSize`                        | Label	              | `font-scale-02`        | 0.875rem / 14px           |
+| `fontStyle`                       | Label	              | `font-style-normal`    | normal                    |
+| `fontWeight`                      | Label	              | `font-weight-semibold` | 600                       |
+| `fontFamily`                      | Helper text	        | `font-family`          | 'Open Sans', sans-serif   |
+| `fontSize`                        | Helper text	        | `font-scale-01`        | 0.75rem / 12px            |
+| `fontStyle`                       | Helper text	        | `font-style-normal`    | normal                    |
+| `fontWeight`                      | Helper text	        | `font-weight-regular`  | 400                       |
 | `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
 | `fontWeight`                      | Floor/Ceil label    | `font-weight-regular`  | 400                       |
 | `fontStyle`                       | Floor/Ceil label    | `font-style-normal`    | normal                    |
+
 
 ### Spacing
 
@@ -115,6 +127,7 @@ _Slider Specifications_
 | `width`                           | Tick                | -               | 4px                       |
 
 [*] The thumb element size is 14x14px in the following states: `:hover`, and `:active`.
+
 
 ### Border
 
