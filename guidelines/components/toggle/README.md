@@ -86,20 +86,20 @@ _Toggle design specifications_
 
 | Component token                     | Element              | Token                           | Value                       |
 | :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
-| `fontFamily`                        | Label	               | `font-family`                   | 'Open Sans', sans-serif     |
-| `fontSize`                          | Label	               | `font-scale-02`                 | 0.875rem / 14px             |
-| `fontStyle`                         | Label	               | `font-style-normal`             | normal                      |
-| `fontWeight`                        | Label	               | `font-weight-semibold`          | 600                         |
+| `labelFontFamily`                   | Label	               | `font-family`                   | 'Open Sans', sans-serif     |
+| `labelFontSize`                     | Label	               | `font-scale-02`                 | 0.875rem / 14px             |
+| `labelFontStyle`                    | Label	               | `font-style-normal`             | normal                      |
+| `labelFontWeight`                   | Label	               | `font-weight-semibold`          | 600                         |
 | `labelLineHeight`                   | Label	               | `font-leading-loose-01`         | 1.75em                      |
-| `fontFamily`                        | Helper text	         | `font-family`                   | 'Open Sans', sans-serif     |
-| `fontSize`                          | Helper text	         | `font-scale-01`                 | 0.75rem / 12px              |
-| `fontStyle`                         | Helper text	         | `font-style-normal`             | normal                      |
-| `fontWeight`                        | Helper text	         | `font-weight-regular`           | 400                         |
+| `helperTextFontFamily`              | Helper text	         | `font-family`                   | 'Open Sans', sans-serif     |
+| `helperTextFontSize`                | Helper text	         | `font-scale-01`                 | 0.75rem / 12px              |
+| `helperTextFontStyle`               | Helper text	         | `font-style-normal`             | normal                      |
+| `helperTextFontWeight`              | Helper text	         | `font-weight-regular`           | 400                         |
 | `helperTextLineHeight`              | Helper text	         | `font-leading-normal`           | 1.5em                       |
-| `fontFamily`                        | Button label	       | `font-family`                   | 'Open Sans', sans-serif     |
-| `fontSize`                          | Button label	       | `font-scale-03`                 | 1rem / 16px                 |
-| `fontStyle`                         | Button label	       | `font-style-normal`             | normal                      |
-| `fontWeight`                        | Button label	       | `font-weight-regular`           | 400                         |
+| `optionLabelFontFamily`             | Button label	       | `font-family`                   | 'Open Sans', sans-serif     |
+| `optionLabelFontSize`               | Button label	       | `font-scale-03`                 | 1rem / 16px                 |
+| `optionLabelFontStyle`              | Button label	       | `font-style-normal`             | normal                      |
+| `optionLabelFontWeight`             | Button label	       | `font-weight-regular`           | 400                         |
 
 
 ### Spacing
