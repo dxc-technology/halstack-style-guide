@@ -56,6 +56,10 @@ _Toggle design specifications_
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
+| `labelFontColor`                    | Label	                      | `color-black`            | #000000     |
+| `disabledLabelFontColor`            | Label:disabled	            | `color-grey-500`         | #999999     |
+| `helperTextFontColor`               | Helper text	                | `color-black`            | #000000     |
+| `disabledHelperTextFontColor`       | Helper text:disabled	      | `color-grey-500`         | #999999     |
 | `containerBackgroundColor`          | Container	                  | `color-grey-50`          | #fafafa     |
 | `containerBorderColor`              | Container	                  | `color-grey-500`         | #999999     |
 | `unselectedBackgroundColor`         | Button fill:enabled	        | `color-grey-200`         | #e6e6e6     |
@@ -78,16 +82,20 @@ _Toggle design specifications_
 
 ### Typography
 
+
+
 | Component token                     | Element              | Token                           | Value                       |
 | :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
 | `fontFamily`                        | Label	               | `font-family`                   | 'Open Sans', sans-serif     |
 | `fontSize`                          | Label	               | `font-scale-02`                 | 0.875rem / 14px             |
 | `fontStyle`                         | Label	               | `font-style-normal`             | normal                      |
 | `fontWeight`                        | Label	               | `font-weight-semibold`          | 600                         |
+| `labelLineHeight`                   | Label	               | `font-leading-loose-01`         | 1.75em                      |
 | `fontFamily`                        | Helper text	         | `font-family`                   | 'Open Sans', sans-serif     |
 | `fontSize`                          | Helper text	         | `font-scale-01`                 | 0.75rem / 12px              |
 | `fontStyle`                         | Helper text	         | `font-style-normal`             | normal                      |
 | `fontWeight`                        | Helper text	         | `font-weight-regular`           | 400                         |
+| `helperTextLineHeight`              | Helper text	         | `font-leading-normal`           | 1.5em                       |
 | `fontFamily`                        | Button label	       | `font-family`                   | 'Open Sans', sans-serif     |
 | `fontSize`                          | Button label	       | `font-scale-03`                 | 1rem / 16px                 |
 | `fontStyle`                         | Button label	       | `font-style-normal`             | normal                      |
