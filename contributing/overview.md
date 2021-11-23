@@ -3,7 +3,8 @@
 You can contribute to the Halstack design system documentation in several ways:
 
 * [Giving feedback](#giving-feedback)
-* [Bug reports and feature requests](#bug-reports-and-feature-requests)
+  * [Discussions](#discussions)
+  * [Issues](#issues)
 * [Content guidelines](#content-guidelines)
 * [Editing pages](#editing-pages)
 * [Creating pages](#creating-pages)
@@ -17,11 +18,26 @@ Halstack design system is free to use and contributors help us to make it awesom
 
 _Feedback process flow_
 
+### Discussions
 
+The Github discussions tab is the best method to provide your opinion about anything we have (or not!) on our design system. Consider using discussions if:
 
-## Bug reports and feature requests
+* You want to **share your ideas**
+* There is a **new component or variant** you would like us to have
+* There is a **missing feature** you want to add to an exisiting component
+* You have **any question** regarding our tools and guidelines
 
-Before opening a [new issue](https://github.com/dxc-technology/halstack-style-guide/issues/new/choose) consider the following;
+In case is the first time you use discussions, GitHub has an [amazing documentation](https://docs.github.com/en/discussions) available. You can open a discussion or give your opinion about the following topics:
+
+* [Design discussions](https://github.com/dxc-technology/halstack-style-guide/discussions)
+* [React discussions](https://github.com/dxc-technology/halstack-react/discussions)
+* [Angular discussions](https://github.com/dxc-technology/halstack-angular/discussions)
+
+Before submitting any comment please read the [community guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines).
+
+### Issues
+
+We use GitHub issues as action items for our daily basis work, before opening a [new issue](https://github.com/dxc-technology/halstack-style-guide/issues/new/choose) consider the following:
 
 * **Avoid duplicates**: Before opening a new issue please always check that the issue has not been already opened.
 * **Use labels**: Labels help us organizing the open issues, find a label that suits better to your feature/bug and add it.
@@ -31,7 +47,7 @@ If the issue is related to our CDKs please open it in the correct repositories:
 * [halstack-angular](https://github.com/dxc-technology/halstack-angular/issues/new/choose)
 * [halstack-react](https://github.com/dxc-technology/halstack-react/issues/new/choose)
 
-### Bug report
+#### Bug report
 
 Open a [bug report](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=bug_report.md) when there are:
 
@@ -39,7 +55,7 @@ Open a [bug report](https://github.com/dxc-technology/halstack-style-guide/issue
 * Incorrect or misleading information 
 * Broken or outdated links
 
-### Feature request
+#### Feature request
 
 All the enhancements, new component or feature requests are handle via [feature requests](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=feature_request.md). Every user of Halstack design system can use this method for requesting improvements.
 
