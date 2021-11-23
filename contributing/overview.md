@@ -2,10 +2,21 @@
 
 You can contribute to the Halstack design system documentation in several ways:
 
+* [Giving feedback](#giving-feedback)
 * [Bug reports and feature requests](#bug-reports-and-feature-requests)
 * [Content guidelines](#content-guidelines)
 * [Editing pages](#editing-pages)
 * [Creating pages](#creating-pages)
+
+## Giving feedback
+
+Halstack design system is free to use and contributors help us to make it awesome. In order to manage the feedback we have different channels depending of the nature of the topic, the following flow will help you to find the correct forum to provide your feedback:
+
+
+![Feedback_flow](https://user-images.githubusercontent.com/44420072/143018131-01a29532-f1ca-4700-af86-0e23a2ce6197.png)
+
+_Feedback process flow_
+
 
 
 ## Bug reports and feature requests
@@ -30,7 +41,7 @@ Open a [bug report](https://github.com/dxc-technology/halstack-style-guide/issue
 
 ### Feature request
 
-All the enhancements, new component or feature requests are handle via [feature requests](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=feature_request.md). We encourage every user of Halstack design system to use this method for requesting improvements.
+All the enhancements, new component or feature requests are handle via [feature requests](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=feature_request.md). Every user of Halstack design system can use this method for requesting improvements.
 
 * Proposed and accepted features are included by the core mantainers 
 * Any feature can be crafted and submitted to this repo as a [pull request](#pull-requests).
