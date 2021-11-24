@@ -110,6 +110,7 @@ _Toggle design specifications_
 | `iconPaddingLeft`                   | Icon	               | `spacing-03`                    | 0.5rem / 8px                |
 | `labelPaddingLeft`                  | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
 | `labelPaddingRight`                 | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
+| `iconMarginRight`                   | Icon (Label + icon)  | `spacing-03`                    | 0.5rem / 8px                |
 | `containerMarginTop`                | Container            | `spacing-02`                    | 0.25rem / 4px               |
 
 ### Border
