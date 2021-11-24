@@ -18,23 +18,17 @@ States are defined for select component based on the interactions that the user 
 
 ![Select states](images/select_input_states_single.png)
 
-### Options list
+### Multiple selection
 
-The option items have the following states: **enabled**, **hover**, **focus** and **selected**:
+Allows the user to select more than one option from the list.
 
-![Option list item single states](images/option_item_states_single.png)
-
-
-## Multiple selection
-
-Allows the user to select more than one option from the list. 
 ![Select multiple option](images/select_input_states_multiple.png)
 
 ### Options list
 
 To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
 
-![Option list item multiple states](images/option_item_states_multiple.png)
+![Option list item multiple states](images/select_list_item_states.png)
 
 ## Anatomy
 
