@@ -10,6 +10,9 @@ Select component allow users to make a single or multiple selection from a pre-d
 - Use progressive disclosure between linked select components
 - If more than one option is applicable, use the multi-select variant
 
+## Variants
+
+![Select variants](images/select_variants.png)
 ## States
 
 ### Select input
