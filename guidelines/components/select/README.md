@@ -14,23 +14,44 @@ Select component allow users to make a single or multiple selection from a pre-d
 
 ### Select input
 
-States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **focus**, **error** and **disabled**:
+States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **hover**, **focus**, **active**, **error** and **disabled**:
 
-![Select states](images/select_states.png)
+![Select states](images/select_input_states_single.png)
 
 ### Options list
 
 The option items have the following states: **enabled**, **hover**, **focus** and **selected**:
 
-![Option list states](images/select_option_states.png)
+![Option list item single states](images/option_item_states_single.png)
 
 
 ## Multiple selection
 
-Allows the user to select more than one option from the list. To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
+Allows the user to select more than one option from the list. 
+![Select multiple option](images/select_input_states_multiple.png)
 
-![Select multiple option](images/select_multi.png)
+### Options list
 
+To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
+
+![Option list item multiple states](images/option_item_states_multiple.png)
+
+## Anatomy
+
+![Select anatomy](images/select_anatomy.png)
+
+1. Label
+2. Helper text
+3. Selection indicator (multiple)
+4. Option list container
+5. Collapse indicator
+6. List item
+7. Divider
+8. List item label
+9. List item icon
+10. List item checkbox (multiple)
+11. Select value
+12. List item selected indicator
 
 ## Required and error
 
