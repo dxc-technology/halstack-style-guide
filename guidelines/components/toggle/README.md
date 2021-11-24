@@ -68,16 +68,12 @@ _Toggle design specifications_
 | `unselectedDisabledBackgroundColor` | Button fill:disabled	      | `color-grey-100`         | #f2f2f2     |
 | `unselectedFontColor`               | Button label	              | `color-black`            | #000000     |
 | `unselectedDisabledFontColor`       | Button label:disabled	      | `color-grey-500`         | #999999     |
-| `unselectedIconColor`               | Button icon	                | `color-black`            | #000000     |
-| `unselectedDisabledIconColor`       | Button icon:disabled	      | `color-grey-500`         | #999999     |
 | `selectedBackgroundColor`           | Button fill:enabled	        | `color-purple-700`       | #5f249f     |
 | `selectedHoverBackgroundColor`      | Button fill:hover	          | `color-purple-800`       | #4b1c7d     |
 | `selectedActiveBackgroundColor`     | Button fill:active	        | `color-purple-900`       | #321353     |
 | `selectedDisabledBackgroundColor`   | Button fill:disabled	      | `color-purple-100`       | #f2eafa     |
 | `selectedFontColor`                 | Button label	              | `color-white`            | #ffffff     |
-| `selectedIconColor`                 | Button icon	                | `color-white`            | #ffffff     |
 | `selectedDisabledFontColor`         | Button label:disabled	      | `color-purple-300`       | #cbacec     |
-| `selectedDisabledIconColor`         | Button icon:disabled	      | `color-purple-300`       | #cbacec     |
 | `focusColor`                        | Focus indicator	            | `color-blue-600`         | #0095ff     |
 
 ### Typography
