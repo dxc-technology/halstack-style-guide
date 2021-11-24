@@ -12,7 +12,15 @@ Select component allow users to make a single or multiple selection from a pre-d
 
 ## Variants
 
-![Select variants](images/select_variants.png)
+![Single and multiple variants of the select component](images/select_variants.png)
+
+_Single and multiple variants of the select component_
+
+| Variant       | Description                                             |
+| :------------ | :------------------------------------------------------ |
+| **Single**    | Allows the user to select one option from a list        |
+| **Multiple**  | Allows the user to select multiple options from a list  |
+
 ## States
 
 ### Select input
