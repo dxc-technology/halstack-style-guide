@@ -49,7 +49,7 @@ To indicate which items are selected and which not, the select multiple variant 
 
 ## Required and error
 
-* A required empty select should show an error message when submitted.
+* Unless is marked as optional, an empty select should show an error message when submitted.
 * Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
 
 ![Helper text](images/select_helper_text.png)
@@ -64,7 +64,7 @@ To indicate which items are selected and which not, the select multiple variant 
 
 | Component token                   | Element                    | Core token         | Value      |             
 | :-------------------------------- | :------------------------- | :----------------- | :--------- |
-| `assistiveTextFontColor`          | Helper text                | `color-black`      | #000000    |
+| `helperTextFontColor`          | Helper text                | `color-black`      | #000000    |
 | `labelFontColor`                  | Label                      | `color-black`      | #000000    |
 | `disabledColor`                   | All:disabled               | `color-black`      | #000000    |
 | `errorColor`                      | Error message              | `color-red-700`    | #d0011b    |
