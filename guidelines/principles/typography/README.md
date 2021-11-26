@@ -79,7 +79,7 @@ We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (
 | `font-leading-compact-02`   | _Set line height as 1.25em_                   | `line-height`       | 1.25         |
 | `font-leading-compact-01`   | _Set line height as 1.365em_                  | `line-height`       | 1.365        |
 | `font-leading-normal`       | _Set line height as 1.5em_                    | `line-height`       | 1.5          |
-| `font-leading-loose-01`     | _Set line height as 1.75em_                   | `line-height`       | 1.75         |
+| `font-leading-loose-01`     | _Set line height as 1.75em_                   | `line-height`       | 1.715        |
 | `font-leading-loose-02`     | _Set line height as 2em_                      | `line-height`       | 2            |
  
 
