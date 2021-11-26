@@ -94,10 +94,12 @@ _Slider Specifications_
 | `fontSize`                        | Label	              | `font-scale-02`        | 0.875rem / 14px           |
 | `fontStyle`                       | Label	              | `font-style-normal`    | normal                    |
 | `fontWeight`                      | Label	              | `font-weight-semibold` | 600                       |
-| `fontFamily`                      | Helper text	        | `font-family`          | 'Open Sans', sans-serif   |
-| `fontSize`                        | Helper text	        | `font-scale-01`        | 0.75rem / 12px            |
-| `fontStyle`                       | Helper text	        | `font-style-normal`    | normal                    |
-| `fontWeight`                      | Helper text	        | `font-weight-regular`  | 400                       |
+| `lineHeight`                      | Label	              | `font-leading-loose-01`| 1.715em                   |
+| `fontFamily`                      | Helper text	      | `font-family`          | 'Open Sans', sans-serif   |
+| `fontSize`                        | Helper text	      | `font-scale-01`        | 0.75rem / 12px            |
+| `fontStyle`                       | Helper text	      | `font-style-normal`    | normal                    |
+| `fontWeight`                      | Helper text	      | `font-weight-regular`  | 400                       |
+| `lineHeight`                      | Helper text	      | `font-leading-normal`  | 1.5em                     |
 | `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
 | `fontWeight`                      | Floor/Ceil label    | `font-weight-regular`  | 400                       |
