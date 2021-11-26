@@ -173,8 +173,8 @@ _Input-file design specifications_
 
 ## Links and references
 
-* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/input-file)
-* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/input-file)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/fileInput)
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/fileInput)
 * [Adobe XD component](https://xd.adobe.com/view/e2c71e4d-54a9-461a-b269-fcb1b3ffe407-b794/)
 
 ____________________________________________________________
