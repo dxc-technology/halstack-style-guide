@@ -86,7 +86,7 @@ _Toggle design specifications_
 | `labelFontSize`                     | Label	               | `font-scale-02`                 | 0.875rem / 14px             |
 | `labelFontStyle`                    | Label	               | `font-style-normal`             | normal                      |
 | `labelFontWeight`                   | Label	               | `font-weight-semibold`          | 600                         |
-| `labelLineHeight`                   | Label	               | `font-leading-loose-01`         | 1.75em                      |
+| `labelLineHeight`                   | Label	               | `font-leading-loose-01`         | 1.715em                      |
 | `helperTextFontFamily`              | Helper text	         | `font-family`                   | 'Open Sans', sans-serif     |
 | `helperTextFontSize`                | Helper text	         | `font-scale-01`                 | 0.75rem / 12px              |
 | `helperTextFontStyle`               | Helper text	         | `font-style-normal`             | normal                      |
