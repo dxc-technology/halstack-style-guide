@@ -172,7 +172,7 @@ _Specifications for text-input component_
 | :-------------- | :------------- | :---------------------- | :-------------- |
 | `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
 | `font-weight`   | Error message  | `font-weight-regular`   | 400             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.75em          |
+| `line-height`   | Label          | `font-leading-loose-01` | 1.715em         |
 | `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
 | `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 | `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
