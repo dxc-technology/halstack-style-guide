@@ -50,7 +50,7 @@ _Design specifications for dialog component_
 
 | Component token                | Element                     | Core token                    | Value                  |
 | :----------------------------- | :-------------------------  | :---------------------------  | :--------------------  |
-| `overlayColor`                 | Overlay                     | `color-black`                 | #000000                |
+| `overlayColor`                 | Overlay                     | `color-grey-800-a`            | #000000b3              |
 | `backgroundColor`              | Container                   | `color-white`                 | #ffffff                |
 | `boxShadowColor`               | Container shadow            | -                             | rgba(0, 0, 0, 0.2)     |
 | `closeIconColor`               | Icon close                  | `color-black`                 | #000000                |
