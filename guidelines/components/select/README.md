@@ -167,9 +167,12 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 * Understanding WCAG 2.2 - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
 
-### WAI-ARIA 2.1 
+### WAI-ARIA 1.2 
 
-* WAI-ARIA practices 2.1 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
+* WAI-ARIA practices 1.2 - [3.8 Combobox](https://www.w3.org/TR/wai-aria-practices-1.2/#combobox)
+* WAI-ARIA practices 1.2 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
+* WAI-ARIA examples 1.2 - [Editable Combobox without Autocomplete Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/combobox/combobox-autocomplete-none.html)
+
 
 
 ## Links and references
