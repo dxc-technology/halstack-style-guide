@@ -58,12 +58,16 @@ To indicate which items are selected and which not, the select multiple variant 
 11. Select value
 12. List item selected indicator
 
-## Required and error
+## Filter
 
-* Unless is marked as optional, an empty select should show an error message when submitted.
-* Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
+![Filterable single and multi variants](images/select_filterable.png)
 
-![Helper text](images/select_helper_text.png)
+_Filterable single and multi variants_
+
+* Both select variants can be filterable
+* Use the filter when the number of items in the optionList is extremely long (± 15 elements)
+* This list will be reduced to show only the matches as the user types
+* The value will change when yhe user types a string that mayches an option from the list or pick one manually
 
 ## Design Specifications
 
