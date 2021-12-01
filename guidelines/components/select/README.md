@@ -70,6 +70,17 @@ _Filterable single and multi variants_
 * The value will change when yhe user types a string that mayches an option from the list or pick one manually
 * When the search does not match any result, a "no matches found" message will be displayed
 
+## Required and optional
+
+![Required with error and optional select examples](images/select_optional.png)
+
+_Required with error and optional select examples_
+
+* When labelled as optional, the select will display an option matching the placeholder to allow leaving it empty
+* When no optional label appears, the select is required
+* If leaved empty the required should display the error "this field can not be empty" when the select loses the focus
+
+
 ## Design Specifications
 
 ![Select specifications](images/select_specs.png)
