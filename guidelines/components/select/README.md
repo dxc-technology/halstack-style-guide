@@ -68,6 +68,7 @@ _Filterable single and multi variants_
 * Use the filter when the number of items in the optionList is extremely long (± 15 elements)
 * This list will be reduced to show only the matches as the user types
 * The value will change when yhe user types a string that mayches an option from the list or pick one manually
+* When the search does not match any result, a "no matches found" message will be displayed
 
 ## Design Specifications
 
