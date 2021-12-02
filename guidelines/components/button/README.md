@@ -243,14 +243,6 @@ _Icon usage examples_
 
 ## Accessibility
 
-### Widget attributes
-
-* `aria-label`: use it in cases where a text label is not visible on the screen  
-* `aria-labelledby`: use when there is a visible text labeling the element
-* `aria-describedby`: use to indicate the `id` of the text element that describes the button
-
-### References
-
 * Understanding WCAG 2.2 - [2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
 * Understanding WCAG 2.2 - [3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input)
 * WAI-ARIA Authoring Practices 1.2 -[Button Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/#button)
