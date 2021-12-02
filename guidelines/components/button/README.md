@@ -241,6 +241,12 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 
 _Icon usage examples_
 
+## Accessibility
+
+* Understanding WCAG 2.2 - [2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+* Understanding WCAG 2.2 - [3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input)
+* WAI-ARIA Authoring Practices 1.2 -[Button Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/#button)
+
 ## Links and references
 
 * [Angular CDK component](https://developer.dxc.com/tools/react/next/#/components/button)
