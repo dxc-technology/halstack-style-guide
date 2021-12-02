@@ -121,6 +121,15 @@ Here are the different representations of a required field:
 
 The specifications for the required input follows the same guide that a normal input, with the variation of the asterisk before the label.
 
+### Value alignment
+
+![Value right aligned example](images/input_alignment.png)
+
+_Value right aligned example_
+
+* Only use the alignment right when displaying amounts and they need to be compared vertically
+* Avoid the use of right-aligned values when mixing different types of data in a form
+
 ### Helper text
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be visible even on focus state and it can be replaced by an error message until the error is fixed in order to prevent adding more lines of text.
