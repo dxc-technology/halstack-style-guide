@@ -83,10 +83,10 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
 | `titleFontColor`              | Title                       | `color-black`               |   #000000     |
 | `inlineTextFontColor`         | Inline text                 | `color-black`               |   #000000     |
-| `hoverActionBackgroundColor`  | Action:hover                | -                           |   #0000000d   |
-| `activeActionBackgroundColor` | Action:active               | -                           |   #0000001a   |
+| `hoverActionBackgroundColor`  | Action:hover                | `color-grey-100-a`          |   #0000000d   |
+| `activeActionBackgroundColor` | Action:active               | `color-grey-200-a`          |   #0000001a   |
 | `focusActionBorderColor`      | Action:focus                | `color-blue-600`            |   #0095ff     |
-| `overlayColor`                | Overlay                     | -                           |   #000000B3   |
+| `overlayColor`                | Overlay                     | `color-grey-800-a`          |   #000000b3   |
 
 
 ### Typography

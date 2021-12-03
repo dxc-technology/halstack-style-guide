@@ -50,16 +50,16 @@ _Header design specifications_
 
 ### Color
 
-| Component token                | Element          | Core token       | Value      |
-| :----------------------------- | :--------------- | :--------------- | :--------- |
-| `backgroundColor`              | Container        | `color-white`    | #ffffff    |
-| `underlinedColor`              | Container        | `color-black`    | #000000    |
-| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700` | #666666    |
-| `hamburguerFocusColor`         | Menu:focus       | `color-blue-600` | #0095ff    |
-| `hamburguerFontColor`          | Menu label       | `color-black`    | #000000    |
-| `hamburguerIconColor`          | Menu icon        | `color-black`    | #000000    |
-| `menuBackgroundColor`          | Menu             | `color-white`    | #ffffff    |
-| `overlayColor`                 | Overlay          | `color-black`    | #f2f2f2    |
+| Component token                | Element          | Core token              | Value       |
+| :----------------------------- | :--------------- | :---------------------- | :---------- |
+| `backgroundColor`              | Container        | `color-white`           | #ffffff     |
+| `underlinedColor`              | Container        | `color-black`           | #000000     |
+| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700`        | #666666     |
+| `hamburguerFocusColor`         | Menu:focus       | `color-blue-600`        | #0095ff     |
+| `hamburguerFontColor`          | Menu label       | `color-black`           | #000000     |
+| `hamburguerIconColor`          | Menu icon        | `color-black`           | #000000     |
+| `menuBackgroundColor`          | Menu             | `color-white`           | #ffffff     |
+| `overlayColor`                 | Overlay          | `color-grey-800-a`      | #000000b3   |
 
 ### Typography
 
