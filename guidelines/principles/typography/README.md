@@ -18,7 +18,7 @@ For our sans-serif `font-family`, we use the humanist typeface Open Sans, design
 
 | Token                         | Description                                   | Property            | Value                        | 
 | :---                          | :---                                          | :---                | :---                         |  
-| `font-family-sans`            | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif;     | 
+| `font-family-sans`            | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif      | 
 
 ## Weight
 
@@ -109,75 +109,57 @@ Styles for the headings can be found in the [component documentation](https://gi
 
 ### Body
 
-####`body-01`
+#### body-01
 
-```
-body-01: {
-  font-family:      font-sans;
-  font-weight:      font-regular;
-  font-size:        font-scale-03;
-  font-style:       font-normal;
-  text-transform:   initial;
-  letter-spacing:   font-tracking-normal;
-  line-height:      font-leading-normal;
-}
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-regular`        | 400                      |
+| `font-size`           | `font-scale-03`              | 1rem / 16px              |
+| `font-style`          | `font-style-normal`          | normal                   |
+| `text-transform`      | `font-transform-initial`     | initial                  |
+| `letter-spacing`      | `font-tracking-normal`       | 0                        |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
 
-| Property             | Core token                   | Value        | 
-| :------------------- | :--------------------------- | :----------- | 
-|  font-family         | `font-family-sans`           |              |
-|  font-weight         | `font-weight-regular`        |              |
-|  font-size           | `font-scale-03`              |              |
-|  font-style          | `font-style-normal`          |              |
-|  text-transform      | `font-transform-initial`     |              |
-|  letter-spacing      | `font-tracking-normal`       |              |
-|  line-height         | `font-leading-normal`        |              |
+#### body-02
 
-**`body-02`**
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-semibold`       | 600                      |
+| `font-size`           | `font-scale-03`              | 1rem / 16px              |
+| `font-style`          | `font-style-normal`          | normal                   |
+| `text-transform`      | `font-transform-initial`     | initial                  |
+| `letter-spacing`      | `font-tracking-normal`       | 0                        |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
-body-02: {
-  font-family:      font-sans;
-  font-weight:      font-semibold;
-  font-size:        font-scale-03;
-  font-style:       font-normal;
-  text-transform:   initial;
-  letter-spacing:   font-tracking-normal;
-  line-height:      font-leading-normal;
-}
 
-```
+#### body-03
 
-**`body-03`**
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-regular`        | 400                      |
+| `font-size`           | `font-scale-02`              | 0.875rem / 14px          |
+| `font-style`          | `font-style-normal`          | normal                   |
+| `text-transform`      | `font-transform-initial`     | initial                  |
+| `letter-spacing`      | `font-tracking-normal`       | 0                        |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
-body-03: {
-  font-family:      font-sans;
-  font-weight:      font-regular;
-  font-size:        font-scale-02;
-  font-style:       font-normal;
-  text-transform:   initial;
-  letter-spacing:   font-tracking-normal;
-  line-height:      font-leading-normal;
-}
 
-```
+#### body-04
 
-**`body-04`**
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-semibold`       | 600                      |
+| `font-size`           | `font-scale-02`              | 0.875rem / 14px          |
+| `font-style`          | `font-style-normal`          | normal                   |
+| `text-transform`      | `font-transform-initial`     | initial                  |
+| `letter-spacing`      | `font-tracking-normal`       | 0                        |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
-body-04: {
-  font-family:      font-sans;
-  font-weight:      font-semibold;
-  font-size:        font-scale-02;
-  font-style:       font-normal;
-  text-transform:   initial;
-  letter-spacing:   font-tracking-normal;
-  line-height:      font-leading-normal;
-}
-
-```
 
 ### Additional styles
 
