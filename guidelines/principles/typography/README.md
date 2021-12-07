@@ -1,6 +1,6 @@
 # Typography
 
-![Typography overview](images/typography_overview.png)
+![Typography overview](images/type_open_sans.png)
 
 ## Typography hierarchy
 Our selected typography helps in structuring our user's experience based on the visual impact that it has on the user interface content. 
@@ -105,13 +105,17 @@ We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (
 
 ### Headings
 
-Styles for the headings can be found in the [component documentation](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/heading/README.md). When using native `<h1>...<h5>` html tags or a different component to represent application headings, use the styles defined.
+![Heading set styles](images/type_set_additional.png)
+
+_Heading set styles_
+
+Styles for the headings can be found in the [component documentation](https://developer.dxc.com/design/guidelines/components/heading). When using native `<h1>...<h5>` html tags or a different component to represent application headings, use the styles defined.
 
 ### Body
 
-![Type set for body styles](images/type_set_body.png)
+![Body set styles](images/type_set_body.png)
 
-_Type set for body styles_
+_Body set styles_
 
 #### body-01
 
@@ -167,6 +171,10 @@ _Type set for body styles_
 
 ### Additional styles
 
+![Additional caption and overline styles](images/type_set_additional.png)
+
+_Additional caption and overline styles_
+
 #### caption
 
 | Property              | Core token                   | Value                    | 
@@ -180,7 +188,7 @@ _Type set for body styles_
 | `line-height`         | `font-leading-normal`        | 1.5em                    |
 
 
-**`overline`**
+#### overline
 
 | Property              | Core token                   | Value                    | 
 | :-------------------- | :--------------------------- | :----------------------- | 
