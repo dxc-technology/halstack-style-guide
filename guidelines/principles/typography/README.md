@@ -105,7 +105,7 @@ We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (
 
 ### Headings
 
-![Heading set styles](images/type_set_additional.png)
+![Heading set styles](images/type_set_headings.png)
 
 _Heading set styles_
 
