@@ -85,30 +85,53 @@ _Required with error and optional select examples_
 
 ![Select specifications](images/select_specs.png)
 
-### General
+### Color
 
-#### Color
+| Component token                             | Element                        | Core token         | Value      |             
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
+| `labelFontColor`                            | Label                          | `color-black`      | #000000    |
+| `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
+| `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
+| `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
+| `valueFontColor`                            | Value                          | `color-black`      | #000000    |
+| `valueIconColor`                            | Icon                           | `color-black`      | #000000    |
+| `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
+| `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
+| `optionListBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
+| `optionListBorderColor`                     | Option list dialog             | `color-grey-300`   | #cccccc    |
+| `listItemFontColor`                         | List item                      | `color-black`      | #000000    |
+| `listItemIconColor`                         | List item icon                 | `color-black`      | #000000    |
+| `listItemDividerColor`                      | Divider                        | `color-grey-200`   | #e6e6e6    |
+| `unselectedHoverlistItemBackgroundColor`    | List item:hover unselected     | `color-grey-100`   | #f2f2f2    |
+| `unselectedactivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
+| `selectedlistItemBackgroundColor`           | List item selected             | `color-grey-200`   | #e6e6e6    |
+| `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-grey-300`   | #cccccc    |
+| `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-grey-400`   | #bfbfbf    |
 
-| Component token                   | Element                    | Core token         | Value      |             
-| :-------------------------------- | :------------------------- | :----------------- | :--------- |
-| `helperTextFontColor`          | Helper text                | `color-black`      | #000000    |
-| `labelFontColor`                  | Label                      | `color-black`      | #000000    |
-| `disabledColor`                   | All:disabled               | `color-black`      | #000000    |
-| `errorColor`                      | Error message              | `color-red-700`    | #d0011b    |
-| `optionBackgroundColor`           | Option list dialog         | `color-white`      | #ffffff    |
-| `optionFontColor`                 | Option list item           | `color-black`      | #000000    |
-| `scrollBarThumbColor`             | Scroll bar                 | `color-grey-700`   | #666666    |
-| `scrollBarTrackColor`             | Scroll bar                 | `color-grey-500`   | #999999    |
-| `optionIconColor`                 | Option list icon           | `color-black`      | #000000    |
-| `hoverOptionBackgroundColor`      | Option list item:hover     | `color-grey-100`   | #f2f2f2    |
-| `activeOptionBackgroundColor`     | Option list item:active    | `color-grey-200`   | #e6e6e6    |
-| `selectedOptionBackgroundColor`   | Option list item:selected  | `color-grey-300`   | #cccccc    |
-| `underlineColor`                  | Underline                  | `color-black`      | #000000    |
-| `underlineFocusColor`             | underline:focus            | `color-black`      | #000000    |
-| `valueFontColor`                  | Value                      | `color-black`      | #000000    |
-| `valueIconColor`                  | Icon                       | `color-black`      | #000000    |
-| `arrowColor`                      | Arrow                      | `color-black`      | #000000    |
-| `focusColorOnDark`                | Focus indicator            | `color-blue-600`   | #0095ff    |
+### Typography
+
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
+| `placeholderFontSize`     | Placeholder          | `font-scale-03`         | 1rem / 16px       |
+| `placeholderFontWeight`   | Placeholder          | `font-weight-regular`   | 400               |
+| `placeholderFontStyle`    | Placeholder          | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
+| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `errorMessageFontSize`    | Error message        | `font-scale-01`         | 12px              |
+| `errorMessageFontWeight`  | Error message        | `font-weight-regular`   | 400               |
+| `errorMessagetFontStyle`  | Error message        | `font-style-normal`     | normal            |
+| `listItemFontSize`        | List item            | `font-scale-02`         | 0.875rem / 14px   |
+| `listItemFontWeight`      | List item            | `font-weight-regular`   | 400               |
+| `listItemFontStyle`       | List item            | `font-style-normal`     | normal            |
+| `listGroupItemFontWeight` | List group item      | `font-weight-semibold`  | 600               |
 
 
 #### Size
@@ -121,6 +144,7 @@ width | value
 ```medium``` | 240px
 ```large``` | 480px
 ```fillParent``` | -
+
 
 #### Margin
 
@@ -139,39 +163,6 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-### Select input
-
-Select input specifications are the same as the [text-input](https://developer.dxc.com/design/components/text-input)
-
-### Options list
-
-#### Single select
-
-| Property for single     |                           Value |
-| ----------------------- | ------------------------------ |
-| List item `padding-left/right`      |            16px |
-| `height`                  |     36px |
-| `font-size`               |                          16px |
-| `font-weight`             |                       Regular |
-| Icon size               |                    20 x 20px|
-| Spacing between icon and label | 12px  |
-| Focus outline `border-width` |  2px |
-
-
-#### Multi-select
-
-| Property for multiple   |                 Value |
-| ----------------------- | -------------------- |
-| List item `padding-left/right`      |            16px |
-| `height`                  |     48px |
-| `font-size`               |                          16px |
-| `font-weight`             |                       Regular |
-| Icon size               |                    20 x 20px|
-| Spacing between checkbox and label | 8px  |
-| Spacing between icon and label | 12px  |
-| Focus outline `border-width` |  2px |
-
-
 
 ## Accessibility
 
@@ -184,7 +175,6 @@ Select input specifications are the same as the [text-input](https://developer.d
 * WAI-ARIA practices 1.2 - [3.8 Combobox](https://www.w3.org/TR/wai-aria-practices-1.2/#combobox)
 * WAI-ARIA practices 1.2 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
 * WAI-ARIA examples 1.2 - [Editable Combobox without Autocomplete Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/combobox/combobox-autocomplete-none.html)
-
 
 
 ## Links and references
