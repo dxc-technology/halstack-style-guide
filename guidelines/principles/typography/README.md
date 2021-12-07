@@ -90,7 +90,7 @@ We use a ratio of 1:1.5 as a standard `line-height` value. A body font of 16px (
 | :---                           | :---                                          | :---                | :---         |  
 | `font-transform-initial`       | _Preserve default value_                      | `text-transform`    | initial      | 
 | `font-transform-lowercase`     | _Transform text to lowercase_                 | `text-transform`    | lowercase    |
-| `font-transformuppercase`      | _Transform text to uppercase_                 | `text-transform`    | uppercase    |
+| `font-transform-uppercase`     | _Transform text to uppercase_                 | `text-transform`    | uppercase    |
 
 ### Text decoration
 
@@ -167,35 +167,32 @@ _Type set for body styles_
 
 ### Additional styles
 
-**`caption`**
+#### caption
 
-```
-caption: {
-  font-family:      font-sans;
-  font-weight:      font-regular;
-  font-size:        font-scale-01;
-  font-style:       font-italic;
-  text-transform:   initial;
-  letter-spacing:   font-tracking-normal;
-  line-height:      font-leading-normal;
-}
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-regular`        | 400                      |
+| `font-size`           | `font-scale-01`              | 0.75rem / 12px           |
+| `font-style`          | `font-style-italic`          | italic                   |
+| `text-transform`      | `font-transform-initial`     | initial                  |
+| `letter-spacing`      | `font-tracking-normal`       | 0                        |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
 
 **`overline`**
 
-```
-overline: {
-  font-family:      font-sans;
-  font-weight:      font-regular;
-  font-size:        font-scale-02;
-  font-style:       font-normal;
-  text-transform:   uppercase;
-  letter-spacing:   font-tracking-wide-02;
-  line-height:      font-leading-normal;
-}
+| Property              | Core token                   | Value                    | 
+| :-------------------- | :--------------------------- | :----------------------- | 
+| `font-family`         | `font-family-sans`           | 'Open Sans', sans-serif  |
+| `font-weight`         | `font-weight-regular`        | 400                      |
+| `font-size`           | `font-scale-02`              | 0.875rem / 14px          |
+| `font-style`          | `font-style-italic`          | italic                   |
+| `text-transform`      | `font-transform-uppercase`   | uppercase                |
+| `letter-spacing`      | `font-tracking-wide-02`      | 0.05em                   |
+| `line-height`         | `font-leading-normal`        | 1.5em                    |
 
-```
+
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/typography/README.md)
