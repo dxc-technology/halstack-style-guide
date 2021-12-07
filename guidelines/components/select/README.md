@@ -116,18 +116,21 @@ _Required with error and optional select examples_
 | `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
 | `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.175em           |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
 | `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
 | `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
 | `placeholderFontSize`     | Placeholder          | `font-scale-03`         | 1rem / 16px       |
 | `placeholderFontWeight`   | Placeholder          | `font-weight-regular`   | 400               |
 | `placeholderFontStyle`    | Placeholder          | `font-style-normal`     | normal            |
-| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 0.75rem / 12px    |
 | `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
 | `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
-| `errorMessageFontSize`    | Error message        | `font-scale-01`         | 12px              |
+| `helperTextLineHeight`    | Helper text          | `font-leading-normal`   | 1.5em             |
+| `errorMessageFontSize`    | Error message        | `font-scale-01`         | 0.75rem / 12px    |
 | `errorMessageFontWeight`  | Error message        | `font-weight-regular`   | 400               |
 | `errorMessagetFontStyle`  | Error message        | `font-style-normal`     | normal            |
+| `errorMessagetLineHeight` | Error message        | `font-leading-normal`   | 1.5em             |
 | `listItemFontSize`        | List item            | `font-scale-02`         | 0.875rem / 14px   |
 | `listItemFontWeight`      | List item            | `font-weight-regular`   | 400               |
 | `listItemFontStyle`       | List item            | `font-style-normal`     | normal            |
