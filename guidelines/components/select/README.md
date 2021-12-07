@@ -116,7 +116,7 @@ _Required with error and optional select examples_
 | `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
 | `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
-| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.175em           |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
 | `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
 | `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
