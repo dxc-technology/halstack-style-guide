@@ -109,6 +109,10 @@ Styles for the headings can be found in the [component documentation](https://gi
 
 ### Body
 
+![Type set for body styles](images/type_set_body.png)
+
+_Type set for body styles_
+
 #### body-01
 
 | Property              | Core token                   | Value                    | 
