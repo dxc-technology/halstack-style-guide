@@ -203,6 +203,14 @@ _Additional caption and overline styles_
 | `line-height`         | `font-leading-normal`        | 1.5em                    |
 
 
+## Accesibility
+
+### WCAG
+
+* Understanding WCAG 2.2 - [SC 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html)
+* Understanding WCAG 2.2 - [SC 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing)
+
+
 ____________________________________________________________
 
 [Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/typography/README.md)
