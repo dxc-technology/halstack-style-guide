@@ -90,6 +90,7 @@ _Required with error and optional select examples_
 | Component token                             | Element                        | Core token         | Value      |             
 | :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
 | `labelFontColor`                            | Label                          | `color-black`      | #000000    |
+| `labelOptiona`                              | Label                          | `color-black`      | #000000    |
 | `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
 | `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
 | `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
@@ -108,6 +109,36 @@ _Required with error and optional select examples_
 | `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-grey-300`   | #cccccc    |
 | `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-grey-400`   | #bfbfbf    |
 
+| `enabledInputBorderColor`                | Border:enabled              | `color-black`           | #000000           |
+| `hoverInputBorderColor`                  | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusInputBorderColor`                  | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorInputBorderColor`                  | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverInputErrorBorderColor`             | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledInputBorderColor`               | Border:disabled             | `color-grey-500`        | #999999         |
+
+
+#### Selection indicator
+
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
+| `selectionIndicatorBorderColor`              | Selection indicator border                | `color-grey-400`        | #bfbfbf         |
+| `selectionIndicatorBackgroundColor`              | Selection indicator                       | `color-grey-50`         | #fafafa         |
+| `enabledSelectionIndicatorActionBackgroundColor` | Selection indicator                       | `color-transparent`         | transparent         |
+| `hoverSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-grey-100`         | #f2f2f2         |
+| `activeSelectionIndicatorActionBackgroundColor`  | Selection indicator                       | `color-grey-300`         | #cccccc        |
+
+* Hover & focus have the same background style (shared token)
+
+#### Clear action
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
+| `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
+| `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
+
+* Hover & focus have the same background style (shared token)
+
 ### Typography
 
 | Component token           | Element              | Token                   | Value             |
@@ -115,6 +146,10 @@ _Required with error and optional select examples_
 | `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
 | `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
 | `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
+| `labelFontSize`           | Label optional       | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-regular`   | 400               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
 | `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
