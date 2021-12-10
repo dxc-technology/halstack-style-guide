@@ -138,5 +138,11 @@
       "key": "wizard",
       "name": "Wizard"
     }
+  ],
+  "contributing": [
+    {
+      "key": "overview",
+      "name": "Overview"
+    }
   ]
 }
