@@ -143,6 +143,18 @@
     {
       "key": "overview",
       "name": "Overview"
+    },
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "image",
+      "name": "Image"
+    },
+    {
+      "key": "design",
+      "name": "Design"
     }
   ]
 }

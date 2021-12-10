@@ -19,7 +19,7 @@ There are two options in order to reuse the styles:
 
 Unless you are working on the library itself is recommneded to use the public library in order to reuse the design assets in other files. **You will receive the updates automatically in your working files**. 
 
-![Access to the assets from the libraries panel](https://user-images.githubusercontent.com/44420072/131477160-c41aba11-18f1-4992-929b-fa3496400f16.png)
+![Access to the assets from the libraries panel](images/design_libraries_panel.png)
 
 _Access to the assets from the libraries panel_
 
@@ -36,7 +36,7 @@ The color assets should be applied to the element's:
 
 To can access to the contextual menu of the asset to apply both of them on the element
 
-![Color asset contextual menu example](https://user-images.githubusercontent.com/44420072/132003295-ae8071d1-eec1-4a01-b739-0fce9c01dde1.png)
+![Color asset contextual menu example](images/design_color_assets.png)
 
 _Color asset contextual menu example_
 
@@ -44,7 +44,7 @@ _Color asset contextual menu example_
 
 When creating component that reuse as child elements another components, be sure that you are bringing them from the library assets (e.g. the select component uses the optionList as a child element)
 
-![OptionList reused inside the select component](https://user-images.githubusercontent.com/44420072/132003797-0c7a3e4c-212d-4773-924b-b8df8d5761e6.png)
+![OptionList reused inside the select component](images/design_nested_component.png)
 
 _`optionList` reused inside the select component_
 
@@ -94,8 +94,8 @@ Assets folder contains:
 The process of adding new components to the Halstack design system consists of the following steps:
 
 1. Create a `[component name]_images.xd` file and submit to review
-2. Export the artboards as png to an images folder following the [images contribution guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/images.md)
-3. Write the component documentation page accordingly to the [content guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/content.md)
+2. Export the artboards as png to an images folder following the [images contribution guidelines](https://developer.dxc.com/design/guidelines/contributing/image)
+3. Write the component documentation page accordingly to the [content guidelines](https://developer.dxc.com/design/guidelines/contributing/content)
 
 In this page we are going to focus in the first step of the process in order to helping halstack contributors to create reusable and compelling components for the design system UI Kit.
 
@@ -103,7 +103,7 @@ In this page we are going to focus in the first step of the process in order to 
 
 You can use a [template](https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/assets/templates/template_component_images.xd) to start building your component XD file or use an empty file.
 
-![Component template file example](https://user-images.githubusercontent.com/44420072/131476248-0b53d6d5-6e00-435c-a7d8-2af737880eb3.png)
+![Component template file example](images/design_template.png)
 
 _Component template file example_
 
@@ -131,7 +131,7 @@ Our naming convention is built in the following way:
 
 #### Component examples:
 
-![Example of the button naming convention](https://user-images.githubusercontent.com/44420072/131995654-73eedea5-eb7e-4ee0-b6cb-4decee27bc21.png)
+![Example of the button naming convention](images/design_naming.png)
 
 _Example of the button naming convention_
 
@@ -142,7 +142,7 @@ Another examples:
 
 ### States
 
-![Button component states panel](https://user-images.githubusercontent.com/44420072/131458834-ba3d1d3e-d367-40e5-98e1-986cceed4bc7.png)
+![Button component states panel](images/design_states.png)
 
 _Button component states panel_
 
