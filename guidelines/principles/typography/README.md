@@ -16,9 +16,11 @@ Make sure you include all the different typographic variants in order to enhance
 
 For our sans-serif `font-family`, we use the humanist typeface Open Sans, designed by Steve Matteson and licensed under the [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-| Token                         | Description                                   | Property            | Value                        | 
-| :---                          | :---                                          | :---                | :---                         |  
-| `font-family-sans`            | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif      | 
+| Token                         | Description                                   | Property            | Value                          | 
+| :---                          | :---                                          | :---                | :---                           |  
+| `font-family-sans`            | _Default font family sans-serif_              | `font-family`       | 'Open Sans', sans-serif        | 
+| `font-family-mono`            | _Default font family monospaced_              | `font-family`       |  Source Code Pro', monospace   | 
+
 
 ## Weight
 
@@ -199,6 +201,14 @@ _Additional caption and overline styles_
 | `text-transform`      | `font-transform-uppercase`   | uppercase                |
 | `letter-spacing`      | `font-tracking-wide-02`      | 0.05em                   |
 | `line-height`         | `font-leading-normal`        | 1.5em                    |
+
+
+## Accesibility
+
+### WCAG
+
+* Understanding WCAG 2.2 - [SC 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html)
+* Understanding WCAG 2.2 - [SC 1.4.12: Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing)
 
 
 ____________________________________________________________
