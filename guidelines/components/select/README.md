@@ -109,6 +109,11 @@ _Required with error and optional select examples_
 | `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-grey-300`   | #cccccc    |
 | `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-grey-400`   | #bfbfbf    |
 
+
+#### Input
+
+| Component token                             | Element                        | Core token         | Value      | 
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
 | `enabledInputBorderColor`                | Border:enabled              | `color-black`           | #000000           |
 | `hoverInputBorderColor`                  | Border:hover                | `color-purple-500`      | #a46ede         |
 | `focusInputBorderColor`                  | Border:focus                | `color-blue-600`        | #0095ff         |
@@ -119,8 +124,9 @@ _Required with error and optional select examples_
 
 #### Selection indicator
 
+| Component token                             | Element                        | Core token         | Value      | 
 | :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
-| `selectionIndicatorBorderColor`              | Selection indicator border                | `color-grey-400`        | #bfbfbf         |
+| `selectionIndicatorBorderColor`              | Selection indicator                 | `color-grey-400`        | #bfbfbf         |
 | `selectionIndicatorBackgroundColor`              | Selection indicator                       | `color-grey-50`         | #fafafa         |
 | `enabledSelectionIndicatorActionBackgroundColor` | Selection indicator                       | `color-transparent`         | transparent         |
 | `hoverSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-grey-100`         | #f2f2f2         |
@@ -129,6 +135,8 @@ _Required with error and optional select examples_
 * Hover & focus have the same background style (shared token)
 
 #### Clear action
+
+| Component token                             | Element                        | Core token         | Value      | 
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
 | `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
 | `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
