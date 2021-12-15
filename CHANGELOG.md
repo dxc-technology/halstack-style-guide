@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.13.0 (26/11/2021)
+## What's Changed
+* [Contribution] Update feedback section by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/622
+* [Toggle] Toggle design review by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/613
+* [Principles] Changes on token leading values by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/625
+* [Slider] Add label and helper text by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/620
+
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.12.0...3.13.0
+---
+
 ## 3.12.0 (16/11/2021)
 ## What's Changed
 

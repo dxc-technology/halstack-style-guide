@@ -2,19 +2,12 @@
 
 You can contribute to the Halstack design system documentation in several ways:
 
-* [Giving feedback](#giving-feedback)
-  * [Discussions](#discussions)
-  * [Issues](#issues)
-* [Content guidelines](#content-guidelines)
-* [Editing pages](#editing-pages)
-* [Creating pages](#creating-pages)
-
 ## Giving feedback
 
 Halstack design system is free to use and contributors help us to make it awesome. In order to manage the feedback we have different channels depending of the nature of the topic, the following flow will help you to find the correct forum to provide your feedback:
 
 
-![Feedback_flow](https://user-images.githubusercontent.com/44420072/143018131-01a29532-f1ca-4700-af86-0e23a2ce6197.png)
+![Feedback process flow](images/overview_flow.png)
 
 _Feedback process flow_
 
@@ -85,7 +78,7 @@ To update any of our documentation pages you can follow the following procedures
 * **Standard**: fork our repository and then make a contribution. See how you can [create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to propose changes you've made to a fork of the upstream repository.
 * **Regular contributors**: depending of contribution and the expected release, the PR can be done to a release branch or a feature branch. Feature branches are created on demand.
 
-:heavy_exclamation_mark: **Don't forget to check our contribution guidelines before submitting your pull request:**
+❗ **Don't forget to check our contribution guidelines before submitting your pull request:**
 
 [DXC Assure Digital Platform contribution guidelines](https://github.com/dxc-technology/halstack-style-guide/blob/3.2.0/CONTRIBUTING.md#contributing-via-github-pull-requests
 ).
@@ -128,21 +121,22 @@ In order to update the content in our documentation site the `catalog.json` file
 ```
 {
   "principles": [  ],
-  "components": [  ]
+  "components": [  ],
+  "contributing": [  ]
 }
 ```
 
-Inside the `principles` or `components` array add the following:
+Inside the `principles`, `components` or `contributing` array add the following:
 
 ```
  {
-      "key": "overview",
-      "name": "Overview"
+      "key": "xyz",
+      "name": "xyz"
     },
 ```
 
 * **key**: name of the folder placed inside `guidelines/principles` or `guidelines/components`
-* **name**: this value will be displayed in [Developer central](https://developer.dxc.com/design/guidelines/principles/overview) site navigation
+* **name**: this value will be displayed in Developer central site navigation
 
 
 
