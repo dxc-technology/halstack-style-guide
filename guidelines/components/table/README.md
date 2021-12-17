@@ -106,7 +106,7 @@ With this approach the table also has a paginator and every row could have their
 
 * [React component](https://developer.dxc.com/tools/react/next/#/components/resultsetTable)
 * [Angular component](https://developer.dxc.com/tools/angular/next/#/components/resultsettable) 
-* [Adobe XD component]()  
+* [Adobe XD component](https://xd.adobe.com/view/7c1326a5-31f5-4d55-8e5f-36a064d51273-2940/)  
 
 ____________________________________________________________
 
