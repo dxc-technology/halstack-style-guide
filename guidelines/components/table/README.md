@@ -4,9 +4,7 @@ Data table is a component with a high rate of usage within the applications. It 
 
 ## States
 
-Some other components defined in the design system are used in the table component as the checkbox or dropdown. For concrete specifications about states, please, consider to see the documentation of each component.
-
-Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
+Some other components defined in the design system are used in the table component as the [checkbox](https://developer.dxc.com/design/guidelines/components/checkbox), [button](https://developer.dxc.com/design/guidelines/components/button) or [select](https://developer.dxc.com/design/guidelines/components/select). For concrete specifications about states, please, consider to see the documentation of each component.
 
 ## Anatomy
 
@@ -92,15 +90,22 @@ _Table design specifications_
 | Height            | Sorting action  | -                      | 14px         |
 
 
+## Accessibility
 
-## Responsive version for mobile and tablet
+### WCAG
 
-The table layout in the responsive version was restructured due to the less space that the device offers, because it cannot be represented the same amount of information using the same way as in desktop. With that circumstances in mind, each row of the table will take all the available witdh space, dividing the fields in differente rows within the main container row.
+* Understanding WCAG 2.2 - [Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+* Understanding WCAG 2.2 - [Success Criterion 1.3.2: Meaningful Sequence](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence)
+* Understanding WCAG 2.2 - [Success Criterion 2.1.1: Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.3: Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+* Understanding WCAG 2.2 - [Success Criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value)
 
-Because in the implementation the component won't have columns, each value will have associated the name of the property in each row. This can be redundant but it is the best way to present the information to the user and don't make him confused.
+### WAI-ARIA
 
-With this approach the table also has a paginator and every row could have their own actions and selection component (checkbox).
-
+* WAI-ARIA Authoring Practices 1.2 - [3.23 Table](https://www.w3.org/TR/wai-aria-practices-1.2/#table)
+* WAI-ARIA Authoring Practices 1.2 - [Sortable Table Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/table/sortable-table.html)
 
 ## Links and references
 
