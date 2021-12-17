@@ -2,6 +2,13 @@
 
 Data table is a component with a high rate of usage within the applications. It allows to show the user a big amount of information in a simple and simplified way. All the information contained in the table has a grid structure, defining columns and rows to place the data and allow the users to scan, analazy, compare and filter that information.
 
+## Usage
+
+* Use the table component to compare information in rows and columns
+* Every table cell requires a logical column header/row header
+* Don't use the table for create visual layout of the content of a page
+* Avoid truncating content, wrap instead
+
 ## States
 
 Some other components defined in the design system are used in the table component as the [checkbox](https://developer.dxc.com/design/guidelines/components/checkbox), [button](https://developer.dxc.com/design/guidelines/components/button) or [select](https://developer.dxc.com/design/guidelines/components/select). For concrete specifications about states, please, consider to see the documentation of each component.
