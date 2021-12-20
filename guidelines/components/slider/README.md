@@ -36,13 +36,15 @@ _Slider component different states example_
 
 ![Slider Anatomy](images/slider_anatomy.png "Slider Anatomy")
 
-1. Floor label _(Optional)_
-2. Total line
-3. Ceil label _(Optional)_
-4. Value input _(Optional)_
-5. Tick mark
-6. Thumb
-7. Track line
+1. Label
+2. Helper text
+3. Floor label _(Optional)_
+4. Total line
+5. Ceil label _(Optional)_
+6. Value input _(Optional)_
+7. Tick
+8. Thumb
+9. Track line
 
 
 ## Slider with input
@@ -64,48 +66,45 @@ _Slider Specifications_
 
 ### Color
 
-#### On-Light
 
 | Component token                   | Element             | Core token            | Value   |
 | :-------------------------------- | :------------------ | :-------------------- | :------ |
 | `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
+| `labelFontColor`                  | Label               | `color-black`         | #000000 |
+| `helperTextColor`                 | Helper text         | `color-black`         | #000000 |
 | `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
+| `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
+| `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
 | `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-400`      | #bfbfbf |
-| `tickMarkBackgroundColor`         | Tick Mark           | `color-blue-800`      | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick Mark:disabled  | `color-grey-400`      | #bfbfbf |
+| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #999999 |
+| `tickMarkBackgroundColor`         | Tick                | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick:disabled       | `color-grey-500`      | #999999 |
 | `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-100`      | #e6f4ff |
+| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-500`      | #999999 |
 | `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
 | `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
-| `focusColor`                      | Focus outline       | `color-blue-800`      | #0067b3 |
+| `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
 
-
-#### On-Dark
-
-| Component token                           | Element              | Core token              | Value         |
-| :---------------------------------------- | :------------------- | :---------------------- | :------------ |
-| `fontColorOnDark`                         | Floor/Ceil label     | `color-white`           | #ffffff       |
-| `thumbBackgroundColorOnDark`              | Thumb                | `color-blue-600`        | #0095ff       |
-| `activeThumbBackgroundColorOnDark`        | Thumb:active         | `color-blue-800`        | #0067b3       |
-| `disabledThumbBackgroundColorOnDark`	    | Thumb:disabled       | `color-grey-500`        | #999999       |
-| `tickMarkBackgroundColorOnDark`	        | Tick mark            | `color-blue-600`        | #0095ff       |
-| `disabledTickMarkBackgroundColorOnDark`   | Tick mark:disabled   | `color-grey-500`        | #999999       |
-| `trackLineColorOnDark`                    | Track line           | `color-blue-600`        | #0095ff       |
-| `disabledTrackLineColorOnDark`            | Track line:disabled  | `color-grey-500`        | #999999       |
-| `totalLineColorOnDark`	                | Total line           | `color-grey-400`        | #bfbfbf       |
-| `disabledTotalLineColorOnDark`            | Total line:disabled  | `color-grey-700`        | #666666       |
-| `focusColorOnDark`                        | Focus outline        | `color-blue-600`        | #0095ff       |
 
 ### Typography
 
-
 | Component token                   | Element             | Core token             | Value                     |
 | :-------------------------------- | :------------------ | :--------------------- | :------------------------ |
+| `fontFamily`                      | Label	              | `font-family`          | 'Open Sans', sans-serif   |
+| `fontSize`                        | Label	              | `font-scale-02`        | 0.875rem / 14px           |
+| `fontStyle`                       | Label	              | `font-style-normal`    | normal                    |
+| `fontWeight`                      | Label	              | `font-weight-semibold` | 600                       |
+| `lineHeight`                      | Label	              | `font-leading-loose-01`| 1.715em                   |
+| `fontFamily`                      | Helper text	      | `font-family`          | 'Open Sans', sans-serif   |
+| `fontSize`                        | Helper text	      | `font-scale-01`        | 0.75rem / 12px            |
+| `fontStyle`                       | Helper text	      | `font-style-normal`    | normal                    |
+| `fontWeight`                      | Helper text	      | `font-weight-regular`  | 400                       |
+| `lineHeight`                      | Helper text	      | `font-leading-normal`  | 1.5em                     |
 | `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
-| `fontWeight`                      | Floor/Ceil label    | `font-regular`         | 400                       |
-| `fontStyle`                       | Floor/Ceil label    | `font-normal`          | normal                    |
+| `fontWeight`                      | Floor/Ceil label    | `font-weight-regular`  | 400                       |
+| `fontStyle`                       | Floor/Ceil label    | `font-style-normal`    | normal                    |
+
 
 ### Spacing
 
@@ -124,12 +123,13 @@ _Slider Specifications_
 | `height`                          | Track line          | -               | 2px                       |
 | `height`                          | Thumb               | -               | 12px                      |
 | `width`                           | Thumb               | -               | 12px                      |
-| `height`                          | Thumb:hover*        | -               | 16px                      |
-| `width`                           | Thumb:hover         | -               | 16px                      |
-| `height`                          | Tick mark           | -               | 4px                       |
-| `width`                           | Tick mark           | -               | 4px                       |
+| `height`                          | Thumb:hover*        | -               | 14px                      |
+| `width`                           | Thumb:hover         | -               | 14px                      |
+| `height`                          | Tick                | -               | 4px                       |
+| `width`                           | Tick                | -               | 4px                       |
 
-[*] The thumb element size is 16x16px in the following states: `:hover`, `:focus` and `:active`.
+[*] The thumb element size is 14x14px in the following states: `:hover`, and `:active`.
+
 
 ### Border
 
@@ -141,9 +141,9 @@ _Slider Specifications_
 | `border-width`           | Thumb            | `border-width-0`           | 0                |
 | `border-style`           | Thumb            | `border-style-none`        | none             |
 | `border-radius`          | Thumb            | `border-radius-full`       | 9999px           |
-| `border-width`           | Focus border     | `border-width-2`           | 2px              |
-| `border-style`           | Focus border     | `border-style-solid`       | solid            |
-| `border-radius`          | Focus border     | `border-radius-medium`     | 0.25rem / 4px    |
+| `outline`                | Focus indicator  | -                          | auto 1px         |
+| `outline-offset`         | Focus indicator  | -                          | 2px              |
+
 
 ## Accessibility
 

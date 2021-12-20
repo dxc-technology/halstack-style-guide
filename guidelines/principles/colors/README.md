@@ -31,6 +31,8 @@ _Core color families values_
 
 #### Greyscale
 
+##### Solid variants
+
 | Name                      | Value (hex)  | Value (hsl)      | 
 | :------------------------ | :----------- | :--------------- |
 | `color-grey-50`           | #fafafa      | (0, 0%, 98%)     |
@@ -44,6 +46,21 @@ _Core color families values_
 | `color-grey-800`          | #4d4d4d      | (0, 0%, 30%)     |
 | `color-grey-900`          | #333333      | (0, 0%, 20%)     |
 
+
+##### Trasparent variants
+
+| Token              | Opacity | Value (hsla)         | Value (#RRGGBBAA) |
+| :----------------- |:------- | :------------------- | :---------------- |
+| `color-grey-50-a`  | 0.02    | hsla(0,0%,0% / 0.02) | #00000005         |
+| `color-grey-100-a` | 0.05    | hsla(0,0%,0% / 0.05) | #0000000d         |
+| `color-grey-200-a` | 0.1     | hsla(0,0%,0% / 0.1)  | #0000001a         |
+| `color-grey-300-a` | 0.2     | hsla(0,0%,0% / 0.2)  | #00000033         |
+| `color-grey-400-a` | 0.3     | hsla(0,0%,0% / 0.3)  | #0000004d         |
+| `color-grey-500-a` | 0.4     | hsla(0,0%,0% / 0.4)  | #00000066         |
+| `color-grey-600-a` | 0.5     | hsla(0,0%,0% / 0.5)  | #00000080         |
+| `color-grey-700-a` | 0.6     | hsla(0,0%,0% / 0.6)  | #00000099         |
+| `color-grey-800-a` | 0.7     | hsla(0,0%,0% / 0.7)  | #000000b3         |
+| `color-grey-900-a` | 0.8     | hsla(0,0%,0% / 0.8)  | #000000cc         |
 
 
 #### Purple

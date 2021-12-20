@@ -1,5 +1,98 @@
 # Changelog
 
+## 3.13.0 (26/11/2021)
+## What's Changed
+* [Contribution] Update feedback section by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/622
+* [Toggle] Toggle design review by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/613
+* [Principles] Changes on token leading values by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/625
+* [Slider] Add label and helper text by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/620
+
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.12.0...3.13.0
+---
+
+## 3.12.0 (16/11/2021)
+## What's Changed
+
+* Add variants hierarchy usage table by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/608
+* Tag documentation fixes by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/606
+* Update tag miniature by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/610
+* Update padding property values by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/616
+* Add GitHub release notes configuration by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/617
+* Box documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/609
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.11.0...3.12.0
+---
+
+## 3.11.0 (28/10/2021)
+## What's Changed
+
+* Accordion :focus state update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/584
+* Fix accordion component specs by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/589
+* Component footer documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/592
+* Add component status identifiers by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/597
+* Update contributing/design documentation by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/595
+* Component tag documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/590
+* Header documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/599
+* Select documentation update by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/602
+* Documentation fixes by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/603
+* Sidenav documentation fixes by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/585
+* Update UI Kit select and sidenav components by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/604
+* Release 3.11.0 by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/605
+
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.10.0...3.11.0
+---
+
+## 3.10.0 (18/10/2021)
+
+#### Documentation:
+
+-  [Sidenav] Update documentation to the new template [#579](https://github.com/dxc-technology/halstack-style-guide/issues/579)
+-  [Card] Update documentation to the new template [#577](https://github.com/dxc-technology/halstack-style-guide/issues/577)
+-  [Slider] Documentation fixes [#572](https://github.com/dxc-technology/halstack-style-guide/issues/572)
+-  [Button] Component updates [#547](https://github.com/dxc-technology/halstack-style-guide/issues/547)
+-  [Dialog] Documentation review [#443](https://github.com/dxc-technology/halstack-style-guide/issues/443)
+-  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
+
+#### Fixes:
+
+-  [Slider] Component specs [#224](https://github.com/dxc-technology/halstack-style-guide/issues/224)
+
+#### Site
+
+-  [Site] Update changelog [#524](https://github.com/dxc-technology/halstack-style-guide/issues/524)
+
+---
+
+## 3.9.0 (01/10/2021)
+
+#### Documentation:
+
+-  [Docs] Overview updates [#556](https://github.com/dxc-technology/halstack-style-guide/issues/556)
+-  [Docs] Add example tables to template.md file [#553](https://github.com/dxc-technology/halstack-style-guide/issues/553)
+-  [Button] Component updates [#547](https://github.com/dxc-technology/halstack-style-guide/issues/547)
+-  [Docs] Add UI-Kit component link to links and references [#535](https://github.com/dxc-technology/halstack-style-guide/issues/535)
+-  [Docs] Fixes on content guidelines [#533](https://github.com/dxc-technology/halstack-style-guide/issues/533)
+-  [Radio] Documentation review [#530](https://github.com/dxc-technology/halstack-style-guide/issues/530)
+-  [Radio] Update component documentation to new template [#529](https://github.com/dxc-technology/halstack-style-guide/issues/529)
+-  [Principles] Update overview page [#527](https://github.com/dxc-technology/halstack-style-guide/issues/527)
+-  [Input-date] Update date documentation [#522](https://github.com/dxc-technology/halstack-style-guide/issues/522)
+-  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
+-  [Radio] Color specs update [#302](https://github.com/dxc-technology/halstack-style-guide/issues/302)
+
+#### UI-Kit:
+
+-  [Input-date] Update date UI-Kit component [#523](https://github.com/dxc-technology/halstack-style-guide/issues/523)
+-  [Button] Add button Icon variants as component [#521](https://github.com/dxc-technology/halstack-style-guide/issues/521)
+-  [UI-Kit] Link all components used for doc images to the library [#446](https://github.com/dxc-technology/halstack-style-guide/issues/446)
+
+#### Site
+
+-  [Site] Edit gren `ignoreLabels` [#518](https://github.com/dxc-technology/halstack-style-guide/issues/518)
+
+---
+
 ## 3.8.0 (21/09/2021)
 
 #### Documentation:
@@ -8,22 +101,22 @@
 -  [Upload] Images update [#511](https://github.com/dxc-technology/halstack-style-guide/issues/511)
 -  [Toggle-group] Update component documentation to new template [#501](https://github.com/dxc-technology/halstack-style-guide/issues/501)
 -  [Button] Variant tokens update [#499](https://github.com/dxc-technology/halstack-style-guide/issues/499)
--  [Wizard] Update component documentation to new template [#489](https://github.com/dxc-technology/halstack-style-guide/issues/489)
--  [Switch] Update component documentation to new template [#488](https://github.com/dxc-technology/halstack-style-guide/issues/488)
--  [Switch] Images update [#487](https://github.com/dxc-technology/halstack-style-guide/issues/487)
+- [Wizard] Update component documentation to new template [#489](https://github.com/dxc-technology/halstack-style-guide/issues/489)
+- [Switch] Update component documentation to new template [#488](https://github.com/dxc-technology/halstack-style-guide/issues/488)
+- [Switch] Images update [#487](https://github.com/dxc-technology/halstack-style-guide/issues/487)
 -  [Checkbox] Update component documentation to new template [#476](https://github.com/dxc-technology/halstack-style-guide/issues/476)
 -  [Text-area] Component documentation [#470](https://github.com/dxc-technology/halstack-style-guide/issues/470)
 -  [Alert] Fixes on component specs [#437](https://github.com/dxc-technology/halstack-style-guide/issues/437)
 -  [Textarea] Color specs update [#378](https://github.com/dxc-technology/halstack-style-guide/issues/378)
 -  [Chip] Color specs update [#348](https://github.com/dxc-technology/halstack-style-guide/issues/348)
--  [Wizard] Images update [#339](https://github.com/dxc-technology/halstack-style-guide/issues/339)
--  [Toggle] Images update [#338](https://github.com/dxc-technology/halstack-style-guide/issues/338)
+- [Wizard] Images update [#339](https://github.com/dxc-technology/halstack-style-guide/issues/339)
+- [Toggle] Images update [#338](https://github.com/dxc-technology/halstack-style-guide/issues/338)
 -  [Dialog] Images update [#336](https://github.com/dxc-technology/halstack-style-guide/issues/336)
 -  [Chip] Documentation fixes [#323](https://github.com/dxc-technology/halstack-style-guide/issues/323)
 -  [Footer] Documentation fixes [#322](https://github.com/dxc-technology/halstack-style-guide/issues/322)
--  [Switch] Color specs update [#309](https://github.com/dxc-technology/halstack-style-guide/issues/309)
--  [Wizard] Color specs update [#308](https://github.com/dxc-technology/halstack-style-guide/issues/308)
--  [Toggle] Color specs update [#307](https://github.com/dxc-technology/halstack-style-guide/issues/307)
+- [Switch] Color specs update [#309](https://github.com/dxc-technology/halstack-style-guide/issues/309)
+- [Wizard] Color specs update [#308](https://github.com/dxc-technology/halstack-style-guide/issues/308)
+- [Toggle] Color specs update [#307](https://github.com/dxc-technology/halstack-style-guide/issues/307)
 -  [Button] Color specs update [#295](https://github.com/dxc-technology/halstack-style-guide/issues/295)
 
 #### UI-Kit:

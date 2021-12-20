@@ -35,15 +35,26 @@ _Context-based alert types_
 | **Inline**     | The notification appears in the up right corner of the screen staying visible for 10 seconds |
 | **Modal**         | The notification appears centered in the screen using an overlay that obscures the content below |
 
+
+## States
+
+States for the close action of the alert component: **Enabled**, **hover**, **focus**, and **active**.
+
+![Alert action specs](images/alert_states.png)
+
+_Alert action specs_
+
+
 ## Anatomy
 
 ![Alert component anatomy](images/alert_anatomy.png)
 
-1. Icon
-2. Label
-3. Alert message
-4. Close action (Optional)
-5. Description (Optional)
+1. Container
+2. Icon
+3. Title
+4. Inline text
+5. Close action
+6. Content _(Optional)_
 
 ## Content
 
@@ -68,24 +79,26 @@ Depending on the content that need to be displayed, more detailed descriptions c
 | `errorBackgroundColor`        | Container background        | `color-red-100`             |   #ffe6e9     |
 | `infoBorderColor`             | Container border            | `color-blue-800`            |   #0067b3     |
 | `successBorderColor`          | Container border            | `color-green-700`           |   #24a148     |
-| `warningBorderColor`          | Container border            | `color-yellow-500`          |   #f7cf2b     |
+| `warningBorderColor`          | Container border            | `color-yellow-700`          |   #c59f07     |
 | `errorBorderColor`            | Container border            | `color-red-700`             |   #d0011b     |
-| `titleFontColor`              | Label                       | `color-black`               |   #000000     |
-| `contentFontColor`            | Content                     | `color-black`               |   #000000     |
-| `focusColor`                  | Action:focus                | `color-blue-800`            |   #0067b3     |
-| `overlayColor`                | Overlay                     | -                           |   #000000B3   |
+| `titleFontColor`              | Title                       | `color-black`               |   #000000     |
+| `inlineTextFontColor`         | Inline text                 | `color-black`               |   #000000     |
+| `hoverActionBackgroundColor`  | Action:hover                | `color-grey-100-a`          |   #0000000d   |
+| `activeActionBackgroundColor` | Action:active               | `color-grey-200-a`          |   #0000001a   |
+| `focusActionBorderColor`      | Action:focus                | `color-blue-600`            |   #0095ff     |
+| `overlayColor`                | Overlay                     | `color-grey-800-a`          |   #000000b3   |
 
 
 ### Typography
 
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleFontFamily`                           | Label                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
-| `titleFontSize`                             | Label                        | `font-scale-01`        | 0.75rem / 12px            | 
-| `titleFontWeight`                           | Label                        | `font-bold`            | 600                       | 
-| `contentFontFamily`                         | Content                      | `font-family-sans`     | 'Open Sans', sans-serif;  |
-| `contentFontSize`                           | Content                      | `font-scale-01`        | 0.75rem / 12px            |
-| `contentFontWeight`                         | Content                      | `font-regular`         | 400                       |
+| `titleFontFamily`                           | Title                        | `font-family-sans`     | 'Open Sans', sans-serif;  | 
+| `titleFontSize`                             | Title                        | `font-scale-01`        | 0.75rem / 12px            | 
+| `titleFontWeight`                           | Title                        | `font-bold`            | 600                       | 
+| `inlineTextFontFamily`                      | Inline text                  | `font-family-sans`     | 'Open Sans', sans-serif;  |
+| `inlineTextFontSize`                        | Inline text                  | `font-scale-01`        | 0.75rem / 12px            |
+| `inlineTextFontWeight`                      | Inline text                  | `font-regular`         | 400                       |
 
 
 ### Border
@@ -98,13 +111,14 @@ Depending on the content that need to be displayed, more detailed descriptions c
 
 ### Spacing
 
-| Component token                             | Element                      | Core token             | Value   |
-| :------------------------------------------ | :--------------------------- | :--------------------- | :------ |
+| Component token                             | Element                      | Core token             | Value             |
+| :------------------------------------------ | :--------------------------- | :--------------------- | :---------------- |
 | `containerPaddingLeft`                      | Container                    | `spacing-04`           | 0.75rem / 12px    | 
 | `containerPaddingRight`                     | Container                    | `spacing-04`           | 0.75rem / 12px    | 
-| `titlePaddingRight`                         | Label                        | `spacing-03`           | 0.5rem / 8px      |
-| `inlineTextPaddingRight`                    | Message                      | `spacing-03`           | 0.5rem / 8px      |
-| `contentPaddingLeft`                        | Description                  | `spacing-09`           | 3rem / 48px       |
+| `iconMarginRight`                           | Icon                         | `spacing-03`           | 0.75rem / 12px    |
+| `inlineTextPaddingLeft`                     | Inline text                  | `spacing-03`           | 0.5rem / 8px      |
+| `titlePaddingLeft`                          | Title                        | `spacing-03`           | 0.5rem / 8px      |
+
 
 ### Iconography
 

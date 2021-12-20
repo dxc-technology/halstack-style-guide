@@ -22,6 +22,12 @@ Variants: **primary**, **secondary** and **text**.
 ![Example of the button component variants](images/button_variants.png "Example of the button component variants")
 _Example of the button component variants_
 
+| Variant | Description |
+| :------ | :---------- |
+| Primary | For the principal call to action on the page; primary buttons should only appear once per screen (not including the application header or in a modal dialog) |
+| Secondary | For less prominent actions; secondary buttons can be used in isolation or paired with a primary button when there are multiple calls to action |
+| Text | For the least pronounced actions; often used in conjunction with a primary button (e.g. cancel in a modal dialog) |
+
 ## States
 
 The states are the different behaviors of the button component based on the interaction of the user.
@@ -39,6 +45,21 @@ _Button component states_
 _Design specifications for button component_
 
 ### General
+
+#### Spacing
+
+| Component token                | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingTop`            | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingBottom`         | Container        | `spacing-03`      | 0.5rem / 8px    |
+
+| Property                       | Element          | Core token        | Value           |
+| :----------------------------- | :--------------- | :---------------- | :-------------- |
+| `margin-right`                 | Label            | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`                  | Label            | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`                  | Icon             | `spacing-03`      | 0.5rem / 8px    |
 
 
 ### Size
@@ -103,7 +124,7 @@ These values can be applied independently to each side of the component:
 | `primaryActiveBackgroundColor`      | Container fill:active	      | `color-purple-900`       | #321353     |
 | `primaryDisabledBackgroundColor`    | Container fill:disabled     | `color-grey-100`         | #f2f2f2     |
 | `primaryDisabledFontColor`          | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `primaryFocusBorderColor`	          | Container border:focus      | `color-blue-600`         | #0095ff     |
 
 #### Border
 
@@ -120,18 +141,9 @@ These values can be applied independently to each side of the component:
 | Component token         | Element           | Core token           | Value                      |
 | :---------------------- | :---------------- | :------------------- | :------------------------- |
 | `primaryFontFamily`     | Label             | `font-family-sans`   | 'Open Sans', sans-serif    |
-| `primaryBorderStyle`    | Label             | `font-scale-03`      | 1 rem / 16px               |
-| `primaryBorderRadius`   | Label             | `font-regular`       | 400                        |
+| `primaryFontSize`    | Label             | `font-scale-03`      | 1 rem / 16px               |
+| `primaryBorderWeight`   | Label             | `font-regular`       | 400                        |
 
-
-#### Spacing
-
-| Component token                | Element          | Core token        | Value           |
-| :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
-| `primaryPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
 
 
 ### Secondary
@@ -151,11 +163,12 @@ These values can be applied independently to each side of the component:
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `secondaryHoverBackgroundColor`     | Container fill:hover        | `color-purple-700`       | #5f249f     |
+| `secondaryHoverFontColor`           | Label:hover                 | `color-white`            | #ffffff     |
 | `secondaryActiveBackgroundColor`    | Container fill:active       | `color-purple-900`       | #321353     |
-| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	   | transparent |
+| `secondaryDisabledBackgroundColor`  | Container fill:disabled     | `color-transparent`	     | transparent |
 | `secondaryDisabledFontColor`        | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	      | Container border:focus      | `color-blue-600`         | #0095ff     |
-| `secondaryDisabledBorderColor`	  | Container border:disabled   | `color-grey-500`         | #999999     |
+| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     |
+| `secondaryDisabledBorderColor`	     | Container border:disabled   | `color-grey-500`         | #999999     |
 
 #### Border
 
@@ -175,16 +188,6 @@ These values can be applied independently to each side of the component:
 | `secondaryFontWeight`           | Label            | `font-regular`       | 400                        |
 
 
-#### Spacing
-
-| Component token                | Element          | Core token        | Value           |
-| :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `secondaryPaddingLeft`         | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `secondaryPaddingRight`        | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `secondaryPaddingTop`          | Container        | `spacing-05`      | 1rem / 16px     |
-| `secondaryPaddingBottom`       | Container        | `spacing-05`      | 1rem / 16px     |
-
-
 ### Text
 
 #### Color
@@ -193,7 +196,7 @@ These values can be applied independently to each side of the component:
 
 | Component token                     | Element                     | Token                    | Value       |
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
-| `textBackgroundColor`               | Container fill              | `transparent`            | transparent |
+| `textBackgroundColor`               | Container fill              | `color-transparent`      | transparent |
 | `textFontColor`                     | Label                       | `color-purple-700`       | #5f249f     |
 
 ###### Interactive
@@ -202,9 +205,9 @@ These values can be applied independently to each side of the component:
 | :---------------------------------- | :-------------------------- | :----------------------- | :---------- |
 | `textHoverBackgroundColor`          | Container fill:hover        | `color-purple-100`       | #f2eafa     | 
 | `textActiveBackgroundColor`         | Container fill:active       | `color-purple-200`       | #e5d5f6     | 
-| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-grey-100`         | #f2f2f2     | 
+| `textDisabledBackgroundColor`       | Container fill:disabled     | `color-transparent`      | transparent | 
 | `textDisabledFontColor`             | Label:disabled              | `color-grey-500`         | #999999     |
-| `secondaryFocusBorderColor`	        | Container border:focus      | `color-blue-600`         | #0095ff     | 
+| `textFocusBorderColor`	             | Container border:focus      | `color-blue-600`         | #0095ff     | 
 
 
 #### Border
@@ -226,16 +229,6 @@ These values can be applied independently to each side of the component:
 | `textFontWeight`             | Label            | `font-regular`       | 400                        |
 
 
-#### Spacing
-
-| Component token             | Element          | Core token        | Value           |
-| :-------------------------- | :--------------- | :---------------- | :-------------- |
-| `textPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `textPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `textPaddingTop`            | Container        | `spacing-05`      | 1rem / 16px     |
-| `textPaddingBottom`         | Container        | `spacing-05`      | 1rem / 16px     |
-
-
 ## Icon Usage
 
 Any icon can be used in Halstack Design System, so it is apt to the user to choose between one of the multiple options that are offered through internet but it is recommended to use the same library of icons along the application to keeping concistency.
@@ -247,6 +240,12 @@ Any icon can be used in Halstack Design System, so it is apt to the user to choo
 ![Icon usage examples](images/button_icon.png "Icon usage examples")
 
 _Icon usage examples_
+
+## Accessibility
+
+* Understanding WCAG 2.2 - [2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+* Understanding WCAG 2.2 - [3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input)
+* WAI-ARIA Authoring Practices 1.2 -[Button Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/#button)
 
 ## Links and references
 

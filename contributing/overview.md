@@ -2,15 +2,42 @@
 
 You can contribute to the Halstack design system documentation in several ways:
 
-* [Bug reports and feature requests](#bug-reports-and-feature-requests)
+* [Giving feedback](#giving-feedback)
+  * [Discussions](#discussions)
+  * [Issues](#issues)
 * [Content guidelines](#content-guidelines)
 * [Editing pages](#editing-pages)
 * [Creating pages](#creating-pages)
 
+## Giving feedback
 
-## Bug reports and feature requests
+Halstack design system is free to use and contributors help us to make it awesome. In order to manage the feedback we have different channels depending of the nature of the topic, the following flow will help you to find the correct forum to provide your feedback:
 
-Before opening a [new issue](https://github.com/dxc-technology/halstack-style-guide/issues/new/choose) consider the following;
+
+![Feedback_flow](https://user-images.githubusercontent.com/44420072/143018131-01a29532-f1ca-4700-af86-0e23a2ce6197.png)
+
+_Feedback process flow_
+
+### Discussions
+
+The Github discussions tab is the best method to provide your opinion about anything we have (or not!) on our design system. Consider using discussions if:
+
+* You want to **share your ideas**
+* There is a **new component or variant** you would like us to have
+* There is a **missing feature** you want to add to an exisiting component
+* You have **any question** regarding our tools and guidelines
+
+In case is the first time you use discussions, GitHub has an [amazing documentation](https://docs.github.com/en/discussions) available. You can open a discussion or give your opinion about the following topics:
+
+* [Design discussions](https://github.com/dxc-technology/halstack-style-guide/discussions)
+* [React discussions](https://github.com/dxc-technology/halstack-react/discussions)
+* [Angular discussions](https://github.com/dxc-technology/halstack-angular/discussions)
+
+Before submitting any comment please read the [community guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines).
+
+### Issues
+
+We use GitHub issues as action items for our daily basis work, before opening a [new issue](https://github.com/dxc-technology/halstack-style-guide/issues/new/choose) consider the following:
 
 * **Avoid duplicates**: Before opening a new issue please always check that the issue has not been already opened.
 * **Use labels**: Labels help us organizing the open issues, find a label that suits better to your feature/bug and add it.
@@ -20,7 +47,7 @@ If the issue is related to our CDKs please open it in the correct repositories:
 * [halstack-angular](https://github.com/dxc-technology/halstack-angular/issues/new/choose)
 * [halstack-react](https://github.com/dxc-technology/halstack-react/issues/new/choose)
 
-### Bug report
+#### Bug report
 
 Open a [bug report](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=bug_report.md) when there are:
 
@@ -28,9 +55,9 @@ Open a [bug report](https://github.com/dxc-technology/halstack-style-guide/issue
 * Incorrect or misleading information 
 * Broken or outdated links
 
-### Feature request
+#### Feature request
 
-All the enhancements, new component or feature requests are handle via [feature requests](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=feature_request.md). We encourage every user of Halstack design system to use this method for requesting improvements.
+All the enhancements, new component or feature requests are handle via [feature requests](https://github.com/dxc-technology/halstack-style-guide/issues/new?assignees=&labels=&template=feature_request.md). Every user of Halstack design system can use this method for requesting improvements.
 
 * Proposed and accepted features are included by the core mantainers 
 * Any feature can be crafted and submitted to this repo as a [pull request](#pull-requests).
@@ -41,6 +68,7 @@ The following guidelines are meant to help contributors to create and edit conte
 
 * [Writing content](content.md)
 * [Image usage](images.md)
+* [Designing components](design.md)
 
 
 ## Editing pages
@@ -52,7 +80,10 @@ At the bottom of every of our [documentation pages](https://developer.dxc.com/de
 
 ### Pull requests
 
-To update any of our documentation pages you will need to fork our repository and then make a contribution. See how you can [create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to propose changes you've made to a fork of our repository.
+To update any of our documentation pages you can follow the following procedures:
+
+* **Standard**: fork our repository and then make a contribution. See how you can [create a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to propose changes you've made to a fork of the upstream repository.
+* **Regular contributors**: depending of contribution and the expected release, the PR can be done to a release branch or a feature branch. Feature branches are created on demand.
 
 :heavy_exclamation_mark: **Don't forget to check our contribution guidelines before submitting your pull request:**
 

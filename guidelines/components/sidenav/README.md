@@ -2,48 +2,89 @@
 
 The sidenav component is part of the layout of the application and it makes easier to divide the main screen into two different areas. The main area will have all the content and the sidenav as a secondary element as an index, including links to different resources on the web page.
 
-## Appearance
 
-This component looks like a container that is rendered in the left side of the application, different content can be placed within the container but the main aim of it is to serve as a guide with links to the subject treated in the main page.
-A grey background defines the area which the sidenav occupies and there is an arrow that allows the user to hide or show the component on the screen. Anyway, there are able some configurations to have or not the arrow as a handler to control the visibility of the component, so in the case that the arrow won't be displayed, the component will be fixed in the screen.
+## Usage
 
-### Modes
+- Use the sidenav element to improve the discoverability of the application, making the navigation links accessible to the users.
+- Keep in mind the type of the devices that you are developing for, and handle the behavior in a way that doesn't block or reduce the available space of the main area in the application
+- Try to follow and order for the sidenav content and make use of hierarchy to differentiate between a title and a link
+
+
+## Variants
+
+![Example of the overlay and push sidenav variants](images/sidenav_variants.png)
+
+_Example of the `overlay` and `push` sidenav variants_
 
 Two different modes can be set in the element, according to the needs of the application and the relation between the main content and the sidenav.
-The modes for the components are **overlay** and **push**.
 
-The first mode, as the name is indicating, works as an overlay, leaving some content behind it on the occasion that will be displayed on the screen. That means that every time that the sidenav will be visible, some of the content of the main area remains covered by the layer.
-If the selection is the push mode, this allows us to have boths content visible in the screen, not hiding information at any time but with the constraint that the main area has to manage the content because the overall space will reduce the width of the sidenav element.
+| Variant     | Description                                                   |
+| :---------- | :------------------------------------------------------------ |
+| **overlay** | Content is covered by the sidenav container when displayed    |
+| **push**    | Content is pushed right when displayed                        |
 
-![Sidenav modes](images/sidenav_modes.png)
+## Anatomy
 
-## States
+![Sidenav anatomy](images/sidenav_anatomy.png)
 
-States are simple, it is a component that doesn't require much logic and the behavior is basic.
-It can be defined as two different modes: **default** and **static**.
+1. Title
+2. Subtitle
+3. Link
+4. Container
+5. Arrow
+## Design specifications
 
-With the default mode, the component will be visible in the first load of the application (only for desktop version) and the visibility of it can be handled by the user using the arrow to trigger the event.
+![Sidenav design specifications](images/sidenav_specs.png)
 
-The main difference in the static mode is that the arrow is removed from the component, so the user doesn't have the control to switch between views and the component will remain always visible.
-
-![Sidenav states](images/sidenav_states.png)
-
-## Design specs
+_Sidenav design specifications_
 
 ### Color
 
-#### Design tokens
+| Component token        | Element          | Core token         | Value     |
+| :--------------------- | :--------------- | :----------------- | :-------- |
+| `backgroundColor`      | Container        | `color-grey-100`   | #f2f2f2   |
+| `arrowContainerColor`  | Arrow container  | `color-grey-200`   | #e6e6e6   |
+| `arrowColor`           | Arrow            | `color-black`      | #000000   |
+| `titleFontColor`       | Title            | `color-black`      | #000000   |
+| `subtitleFontColor`    | Subtitle         | `color-grey-800`   | #4d4d4d   |
+| `linkFontColor`        | Link             | `color-grey-800`   | #4d4d4d   |
 
-| Element               | Color token          | hex           | hsl           |
-| :-------------------  | :------------        | :------------ | :------------ |
-| `backgroundColor`     |  `ui-background-02`  | #f2f2f2       | (0, 0%, 95%)  |
-| `arrowContainerColor` |   -                  | #D9D9D9CC     | -             |
-| `arrowColor`          |  `icon-02`           | #000000       | (0, 0%, 0%)   |
+### Typography
+
+| Component token                | Element          | Core token              | Value                     |
+| :----------------------------- | :--------------- | :---------------------- | :------------------------ |
+| `titleFontFamily`              | Title            | `font-family-sans`      | 'Open Sans', sans-serif   |
+| `titleFontSize`                | Title            | `font-scale-05`         | 1.5rem / 24px             |
+| `titleFontWeight`              | Title            | `font-weight-regular`   | 400                       |
+| `titleFontStyle`               | Title            | `font-style-normal`     | normal                    |
+| `subtitleFontFamily`           | Subtitle         | `font-family-sans`      | 'Open Sans', sans-serif   |
+| `subtitleFontSize`             | Subtitle         | `font-scale-03`         | 1rem / 16px               |
+| `subtitleFontWeight`           | Subtitle         | `font-weight-regular`   | 400                       |
+| `subtitleFontStyle`            | Subtitle         | `font-style-normal`     | normal                    |
+| `subtitleFontLetterSpacing`    | Subtitle         | `font-tracking-wide-03` | 0.05em                    |
+| `subtitleFontTextTransform`    | Subtitle         | `font-uppercase`        | uppercase                 |
+| `linkFontFamily`               | Link             | `font-family-sans`      | 'Open Sans', sans-serif   |
+| `titleFontSize`                | Link             | `font-scale-02`         | 0.875rem / 14px           |
+| `linkFontWeight`               | Link             | `font-weight-regular`   | 400                       |
+| `linkFontStyle`                | Link             | `font-style-normal`     | normal                    |
+| `linkTextDecoration`           | Link             | `font-no-line`          | none                      |
 
 
-### Container
+### Spacing
 
-#### Width and height
+| Component token                | Element          | Core token              | Value          |
+| :----------------------------- | :--------------- | :---------------------- | :------------- |
+| `linkMarginTop`                | Link             | `spacing-02`            | 0.25rem / 4px  |
+| `linkMarginBottom`             | Link             | `spacing-02`            | 0.25rem / 4px  |
+| `linkMarginLeft`               | Link             | `spacing-05`            | 1rem / 16x     |
+| `linkMarginRight`              | Link             | `spacing-05`            | 1rem / 16x     |
+
+| Property                | Element          | Core token              | Value          |
+| :---------------------- | :--------------- | :---------------------- | :------------- |
+| `margin-bottom`         | Title            | `spacing-05`            | 1rem / 16px    |
+| `margin-bottom`         | Subtitle         | `spacing-02`            | 0.25rem / 4px  |
+
+ ### Size
 
 | Property for sidenav |                           Value |
 | -------------------- | :------------------------------ |
@@ -73,32 +114,17 @@ Padding can be set through the following values: (xxsmall', 'xsmall', 'small', '
 | Arrow distance       |                           50% |
 
 
-### Content
-
-#### Padding
-
-Element | value
--- | --
-```sidenav-title``` | 15px 0px 15px 0px
-```sidenav-section-title``` | 15px 0px 15px 0px
-```sidenav-links``` | 6px 18px 6px 18px
-
-#### Typography
-
-Element | value |  token
--- | -- | -- |
-```sidenav-title```  |  24px  | ```Hal-Headings-H4```
-```sidenav-section-title``` | 12px  |```Hal-Overline```
-```sidenav-link``` |  14px |```Hal-Body-02-Regular```
-```sidenav-link-active``` |14px  |```Hal-Body-02-Semibold```
-
 
 ## Responsive version for mobile and tablet
+
+![Sidenav component example in mobile devices](images/sidenav_responsive.png)
+
+_Sidenav component example in mobile devices_
 
 The responsive version of the component for mobile and tablet works a little bit different compared with the version for desktop. As the size of the screen in those devices is reduced, the default behavior in the first load of the page will be hidden in the sidenav component.
 Taking this approach, as a first view of the page the user has all the content in the main area visible, and then he will need to interact with the component to make it visible and navigate to other resources.
 
-Also, as an important point to mention, the only mode that works with responsive is the overlay, due to lack of space in the screen if the sidenav pushed the content of the main container.
+Also, as an important point to mention, the only variant that works with responsive is the overlay, due to lack of space in the screen if the sidenav pushed the content of the main container.
 
 Some properties regarding width vary, the details are indicated in the table below.
 
@@ -110,17 +136,12 @@ Some properties regarding width vary, the details are indicated in the table bel
 | Arrow display        |     true (it cannot be false) |
 | Arrow distance       |                           50% |
 
-![Sidenav responsive](images/sidenav_responsive.png)
-
-## User Interface Design Considerations
-
-- Use the sidenav element to improve the discoverability of the application, making the navigation links accessible to the users.
-- Keep in mind the type of the devices that you are developing for, and handle the behavior in a way that doesn't block or reduce the available space of the main area in the application
-- Try to follow and order for the sidenav content and make use of hierarchy to differentiate between a title and a link
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/e52a6751-d2c1-41e4-84de-7647275db267/variables/
+* [React component](https://developer.dxc.com/tools/react/next/#/components/sidenav)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/sidenav)
+* [Adobe XD component](https://xd.adobe.com/view/498590ff-e553-4c88-b2c9-73972b53d95a-1cd6/)
 
 ____________________________________________________________
 

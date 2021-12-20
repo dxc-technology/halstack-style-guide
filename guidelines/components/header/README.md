@@ -1,32 +1,45 @@
 # Header
 
 The header is an important component in the interface, it is the area dedicated for the navigation across the application and helps users understand what the content of the page is about. They appear at the top of a page, above the main content.
-## Anatomy
 
 
-* **Brand**: In this area should be placed the company logo, it will go on the left side of the header.
+## Usage
 
-* **Content**:
-
-   * **Application name**: If the application has a specific name, can be placed here.
-   * **Primary navigation**: The links and dropdowns with a navigational purpose should be placed here.
-   * **Site options**: Language selector, settings, or other any option that applies globally should be placed here. 
-   * **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
-
-
-![Header distribution example](images/header_distribution.png)
-
-_Header distribution example_
+* Try to avoid to place a large number of items inside the content area
+* Avoid increasing the header height
+* Halstack components placed as a children should follow their respective guidelines
 
 ## Variants
-
-Following the convention of the variants that can be found in a component, two main variants are defined for the header.
-Variants: **basic** and **underlined**.
 
 ![Header component variants](images/header_variants.png)
 
 _Header component variants_
 
+Following the convention of the variants that can be found in a component, two main variants are defined for the header.
+Variants: **default** and **underlined**.
+
+
+
+## Anatomy
+
+![Header distribution example](images/header_anatomy.png)
+
+_Header distribution example_
+
+
+1. Brand image
+2. Application name
+3. Navigation links
+4. Header dropdown
+5. Container
+
+
+## Custom content
+
+* **Application name**: If the application has a specific name, can be placed following the brand image
+* **Primary navigation**: The links and dropdowns with a navigational purpose
+* **Site options**: Language selector, settings, or other any option that applies 
+* **Account**: In the case that the application manages accounts, the element for the login and register options should be positioned on the far right except in the tablet and mobile version that will be covered in the following sections.
 
 
 ## Design Specifications
@@ -37,24 +50,26 @@ _Header design specifications_
 
 ### Color
 
-| Tokens                 |  Value         |
-| --------------------   | -------------- |
-| `backgroundColor`      |    #FFFFFF     |
-| `underlinedColor`      |    #000000     |
-| `fontColor`            |    #000000     |
-| `backgroundColorMenu`  |    #FFFFFF     |
-| `fontColorMenu`        |    #000000     |
-| `hamburguerColor`      |    #000000     |
-| `overlayColor`         |    #565656     |
-| `focusColor`           |    #005FCC     |
+| Component token                | Element          | Core token              | Value       |
+| :----------------------------- | :--------------- | :---------------------- | :---------- |
+| `backgroundColor`              | Container        | `color-white`           | #ffffff     |
+| `underlinedColor`              | Container        | `color-black`           | #000000     |
+| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700`        | #666666     |
+| `hamburguerFocusColor`         | Menu:focus       | `color-blue-600`        | #0095ff     |
+| `hamburguerFontColor`          | Menu label       | `color-black`           | #000000     |
+| `hamburguerIconColor`          | Menu icon        | `color-black`           | #000000     |
+| `menuBackgroundColor`          | Menu             | `color-white`           | #ffffff     |
+| `overlayColor`                 | Overlay          | `color-grey-800-a`      | #000000b3   |
 
+### Typography
 
-### Size
+| Component token                | Element          | Core token             | Value                   |
+| :----------------------------- | :--------------- | :--------------------- | :---------------------- |
+| `hamburguerFontFamily`         | Menu label       | `font-family-sans`     | 'Open Sans', sans-serif |
+| `hamburguerFontStyle`          | Menu label       | `font-style-normal`    | normal                  |
+| `hamburguerFontSize`           | Menu label       | `font-scale-01`        | 0.75rem / 12px          |
+| `hamburguerFontWeight`         | Menu label       | `font-weight-semibold` | 600                     |
 
-| Property                                 | Value    |
-| ---------------------------------------- | -------- |
-| `height`                                 |   64px   |
-| `width`                                  |   100%   |
 
 ### Border
 
@@ -62,6 +77,15 @@ _Header design specifications_
 | :----------------------- | :--------------------- | :------------------------- | :--------------- |
 | `border-width`           | Underline              | `border-width-2`           | 2px              |
 | `border-style`           | Underline              | `border-style-solid`       | solid            |
+
+  
+### Size
+
+| Poperty                 | Element          | Core token       | Value      |
+| :---------------------- | :--------------- | :--------------- | :--------- |
+| `height`                | Container        | -                | 64px       |
+| `width`                 | Container        | -                | 100%       |
+
 
 ### Margin
 
@@ -95,26 +119,14 @@ Different values can be applied to each side of the component:
 `top` `bottom` `left` `right`
 
 
-## Content
-
-* Any component or custom content can be placed in the content area of the header (e.g. dropdown, button, link).
-* Halstack components placed as a children should follow their respective guidelines.
-* There is a special adaptation of the dropdown with a trasparent background design to be a children of the aheader component.
-
 
 ## Responsive version for mobile and tablet
 
 Due to the applications are accessible from a laptop, tablet and mobile it is necessary to think and design a header version for the corresponding device. The design for smaller devices tries to keep the consistency respect to the other versions, allowing the user experiences a similar interaction although the space available is less.
 
-![Header menu responsive version](images/header_responsive_menu.png)
+![Header menu responsive version](images/header_responsive.png)
 
 _Header menu responsive version_
-
-
-## User Interface Design Considerations
-
-- Try to avoid to place a large number of items inside the content area.
-- Avoid increasing the header height.
 
 
 ## Links and references
