@@ -138,9 +138,9 @@ _Structure and spacing for date picker calendar pop-up_
 
 ## Links and references
 
-* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/newDate)
-* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/newDate)
-* [Adobe XD component]()
+* [React component](https://developer.dxc.com/tools/react/next/#/components/dateInput)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/dateInput)
+* [Adobe XD component](https://xd.adobe.com/view/8da8ab12-b0a1-469d-a72f-9d2588c8dbf2-d8fb/)
 
 ____________________________________________________________
 

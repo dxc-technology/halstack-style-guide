@@ -201,13 +201,14 @@ _Specifications for text-input component_
 
 ### Border
 
-| Property        | Element               | Token             | Value               |
-| :-------------- | :-------------------- | :---------------- | :------------------ |
-| `border`        | Input container       | `border-width-1`  | 1px                 |
-| `border`        | Input container       | `border-style`    | solid               |
-| `border`        | Input container:focus | `border-width`    | 1px                 |
-| `border`        | Input container:focus | `border-style`    | solid               |
-| `box-shadow`    | Input container:focus | `-`               | 0 0 0 2px           |
+| Property        | Element               | Token                  | Value               |
+| :-------------- | :-------------------- | :--------------------- | :------------------ |
+| `border`        | Input container       | `border-width-1`       | 1px                 |
+| `border`        | Input container       | `border-style-solid`   | solid               |
+| `border`        | Input container:focus | `border-width-1`       | 1px                 |
+| `border`        | Input container:focus | `border-style-solid`   | solid               |
+| `box-shadow`    | Input container:focus | `-`                    | 0 0 0 2px           |
+| `box-shadow`    | Input container:error | `-`                    | 0 0 0 2px           |
 
 ### Width
 
@@ -289,8 +290,9 @@ _Autocomplete functionality for the text input component_
 
 ## Links and references
 
-* [Angular CDK component]()
-* [React CDK component]()
+* [React component](https://developer.dxc.com/tools/react/next/#/components/textInput)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/textInput)
+* [Adobe XD component](https://xd.adobe.com/view/a8c4a40a-e4ef-4161-8917-8172a165d626-fd97/)
 
 ____________________________________________________________
 

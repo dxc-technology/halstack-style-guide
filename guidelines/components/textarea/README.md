@@ -71,10 +71,9 @@ The textarea doesn't have the following text-input elements, therefore, their li
 
 ## Links and references
 
-
-
-* [Angular CDK component](https://developer.dxc.com/tools/react/next/#/components/textarea)
-* [React CDK component](https://developer.dxc.com/tools/angular/next/#/components/textarea)
+* [React component](https://developer.dxc.com/tools/react/next/#/components/textarea)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/textarea)
+* [Adobe XD component](https://xd.adobe.com/view/aef66774-aaaf-44ea-b00d-e2bfc34b392f-fba5/)
 
 ____________________________________________________________
 

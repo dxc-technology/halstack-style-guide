@@ -76,12 +76,11 @@ The input-password doesn't have the following text-input elements, therefore, th
 
 ## Links and references
 
-<!--
+* [React component](https://developer.dxc.com/tools/react/next/#/components/passwordInput)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/passwordInput)
+* [Adobe XD component](https://xd.adobe.com/view/9e81c000-7d20-4531-a6cd-8da5f4de876e-cbd2/)
 
-* [Angular CDK component](url)
-* [React CDK component](url)
 
--->
 ____________________________________________________________
 
 * [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/input-password/README.md)

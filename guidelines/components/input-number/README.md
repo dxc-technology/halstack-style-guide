@@ -55,10 +55,10 @@ _Design specifications of the input-number component_
 The input-number `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
 
 
-
+<!--
 ## Accesibility
 
-<!--
+
 Add WCAG success criterion and WAI-ARIA design pattern and example when available
 
 ### WCAG 
@@ -75,8 +75,9 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 ## Links and references
 
-* [Angular CDK component](url)
-* [React CDK component](url)
+* [React component](https://developer.dxc.com/tools/react/next/#/components/numberInput)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/numberInput)
+* [Adobe XD component](https://xd.adobe.com/view/946f8b3d-f07c-475b-adcd-0abe2239d592-c13c/)
 
 ____________________________________________________________
 
