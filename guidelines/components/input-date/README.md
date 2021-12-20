@@ -34,9 +34,10 @@ _Examples of the calendar pop-up states_
 2. Helper text _(Optional)_
 3. Input container
 4. Date button
-5. Error indicator
-6. Error message
-7. Placeholder / value
+5. Clear action
+6. Error indicator
+7. Error message
+8. Placeholder / value
 
 ## Internationalization
 
@@ -133,7 +134,7 @@ _Structure and spacing for date picker calendar pop-up_
 ### WAI-ARIA 1.2
 
 * WAI-ARIA authoring practices 1.2 - [3.9 Dialog modal](https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal)
-* WAI-ARIA authoring practices - [Date picker design pattern](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/datepicker-dialog.html)
+* WAI-ARIA authoring practices 1.2 - [Date picker design pattern](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/datepicker-dialog.html)
 
 
 ## Links and references
