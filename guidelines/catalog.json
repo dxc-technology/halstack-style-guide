@@ -120,15 +120,15 @@
     },
     {
       "key": "input-text",
-      "name": "Input-text"
+      "name": "Text input"
     },
     {
       "key": "input-number",
-      "name": "Input-number"
+      "name": "Number input"
     },
     {
       "key": "input-password",
-      "name": "Input-password"
+      "name": "Password input"
     },
     {
       "key": "textarea",
