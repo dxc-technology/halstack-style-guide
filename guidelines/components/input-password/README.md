@@ -34,9 +34,10 @@ _Component anatomy example_
 2. Helper text _(Optional)_
 3. Input container
 4. Show/Hide action
-5. Error icon
-6. Error message
-7. Input value
+5. Clear action
+6. Error icon
+7. Error message
+8. Input value
 
 ## Actions
 
