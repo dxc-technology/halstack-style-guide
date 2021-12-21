@@ -30,6 +30,10 @@
       "key": "alert",
       "name": "Alert"
     },
+    {
+      "key": "v3_autocomplete",
+      "name": "Autocomplete (deprecated)"
+    },
     { 
       "key": "box", 
       "name": "Box" 
