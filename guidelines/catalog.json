@@ -59,8 +59,12 @@
       "name": "Chip"
     },
     {
-      "key": "date",
+      "key": "date-input",
       "name": "Date"
+    },
+    {
+      "key": "v3_date",
+      "name": "Date (deprecated)"
     },
     {
       "key": "date-input",
