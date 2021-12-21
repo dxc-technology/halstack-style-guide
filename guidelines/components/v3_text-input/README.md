@@ -161,5 +161,5 @@ Don’t:
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text-input/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/v3_text-input/README.md)
 

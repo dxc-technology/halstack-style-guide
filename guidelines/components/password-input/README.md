@@ -84,5 +84,5 @@ The input-password doesn't have the following text-input elements, therefore, th
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/input-password/README.md)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/password-input/README.md)
 

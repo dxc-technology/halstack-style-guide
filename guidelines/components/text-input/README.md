@@ -255,4 +255,4 @@ And also apply different values to each side of the component:
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text input/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text-input/README.md)

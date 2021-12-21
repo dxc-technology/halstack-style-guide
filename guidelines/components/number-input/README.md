@@ -81,5 +81,5 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](url)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/number-input/README.md)
 

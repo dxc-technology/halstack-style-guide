@@ -201,4 +201,4 @@ The format of the date may vary depending on language, region, country or custom
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/date/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/v3_date/README.md)
