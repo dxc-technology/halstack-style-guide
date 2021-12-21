@@ -1,12 +1,23 @@
 ## Autosuggest
 
-![Autosuggest functionality for the text input component](images/input_autocomplete.png)
+Suggests a list of options to fill a text input. A user can either select a suggestion or enter their own answer.
 
-_Autosuggest functionality for the text input component_
+## Usage
 
-### Specs
+* Use the autosuggest component to help users select from a list of standard responses when needed
+* If the value for the textbox must be chosen from a predefined set of allowed values, use the [select](https://developer.dxc.com/design/guidelines/components/select) component instead
+* Keep Suggestions simple and avoid scroll
 
-#### Color
+## States
+
+![Autosuggest functionality for the text input component](images/autosuggest_states.png)
+## Anatomy
+
+![Autosuggest functionality for the text input component](images/autosuggest_anatomy.png)
+## Specs
+
+The specifications for the autosuggest input can be found in the [input text specs](https://developer.dxc.com/design/guidelines/components/input-text)
+### Color
 
 | Component token                     | Element                | Token                   | Value           |
 | :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
@@ -17,7 +28,7 @@ _Autosuggest functionality for the text input component_
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc         |
 
-#### Typography
+### Typography
 
 
 | Component token           | Element              | Token                   | Value             |
