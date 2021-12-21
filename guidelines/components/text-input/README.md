@@ -1,4 +1,4 @@
-# Input-text
+# Text input
 
 Text inputs are input fields typically used in forms that allow the user to enter text data in a structucolor-red format.
 
@@ -15,23 +15,23 @@ Use text inputs in forms to help people enter, select, and search for text. Comm
 
 ### Dont's
 
-* Do not use text-input for text longer than a single line (e.g. name, phone number). Use the text-area instead.
+* Do not use text input for text longer than a single line (e.g. name, phone number). Use the text-area instead.
 * Do not disable copy and paste.
 * Do not display pop up error message after validating
 * Avoid masking label, keep it always visible.
 
 ## States
 
-Text-input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
+Text input states: **enabled**, **hover**, **focus**, **error** and **disabled**.
 
-![Example of the text-input component states](images/input_states.png)
+![Example of the text input component states](images/input_states.png)
 
-_Example of the text-input component states_
+_Example of the text input component states_
 
 
 ## Anatomy
 
-![Text-input anatomy](images/input_anatomy.png)
+![Text input anatomy](images/input_anatomy.png)
 
 1. Label text
 2. Helper text (Optional)
@@ -49,19 +49,19 @@ _Example of the text-input component states_
 
 #### Clearing content
 
-Clear actions allow user to remove the content of the text-input.
+Clear actions allow user to remove the content of the text input.
 
-![Example of a text-input with a clear content action button](images/input_actions_clear.png)
+![Example of a text input with a clear content action button](images/input_actions_clear.png)
 
-_Example of a text-input with a clear content action button_
+_Example of a text input with a clear content action button_
 
 #### Custom actions
 
-Text-inputs can have an additional custom action. 
+Text inputs can have an additional custom action. 
 
-![Example of a text-input with an additional action](images/input_actions_custom.png)
+![Example of a text input with an additional action](images/input_actions_custom.png)
 
-_Example of a text-input with an additional action_
+_Example of a text input with an additional action_
 
 ### Prefixes and suffixes
 
@@ -75,9 +75,9 @@ _Icon or text prefixes and suffixes usage_
 
 Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
 
-![Text-input helper text example](images/input_helper_text.png)
+![Text input helper text example](images/input_helper_text.png)
 
-_Text-input helper text example_
+_Text input helper text example_
 
 ### Usage
 
@@ -94,9 +94,9 @@ Don’t:
 
 ## Design Specifications
 
-![Specifications for text-input component](images/input_specs.png)
+![Specifications for text input component](images/input_specs.png)
 
-_Specifications for text-input component_
+_Specifications for text input component_
 
 ## Color
 
@@ -236,47 +236,6 @@ And also apply different values to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
 
-### Autocomplete
-
-![Autocomplete functionality for the text input component](images/input_autocomplete.png)
-
-_Autocomplete functionality for the text input component_
-
-### Specs
-
-#### Color
-
-| Component token                     | Element                | Token                   | Value           |
-| :---------------------------------- | :--------------------- | :---------------------- | :-------------- |
-| `listOptionFontColor`               | List option text       | `color-black`           | #000000         |
-| `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666         |
-| `errorMessageBorderColor`           | Error system message   | `color-red-700`         | #d0011b         |
-| `errorMessageBackgroundColor`       | Error system message   | `color-red-100`         | #ffe6e9         |
-| `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2         |
-| `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc         |
-
-#### Typography
-
-
-| Component token           | Element              | Token                   | Value             |
-| :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `listOptionFontSize`      | List option          | `font-scale-03`         | 1rem / 16px       |
-| `listOptionFontWeight`    | List option          | `font-weight-regular`   | 400               |
-| `listOptionFontStyle`     | List option          | `font-style-normal`     | normal            |
-
-| Property        | Element              | Token                   | Value           |
-| :-------------- | :------------------- | :---------------------- | :-------------- |
-| `font-family`   | List option          | `font-family-sans`      | Open Sans       |
-| `font-weight`   | List option typed    | `font-bold`             | 600             |
-| `font-family`   | System message       | `font-family-sans`      | Open Sans       |
-| `font-size`     | System message       | `font-scale-02`         | 0.875 / 14px    |
-| `font-weight`   | System message       | `font-regular`          | 400             |
-| `font-family`   | Error message        | `font-family-sans`      | Open Sans       |
-| `font-size`     | Error message        | `font-scale-02`         | 0.875 / 14px    |
-| `font-weight`   | Error message        | `font-regular`          | 400             |
-
-
-
 ## Accessibility
 
 ### WCAG 2.2
@@ -296,4 +255,4 @@ _Autocomplete functionality for the text input component_
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text-input/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/text input/README.md)
