@@ -123,6 +123,10 @@
       "name": "Text input"
     },
     {
+      "key": "v3_text-input",
+      "name": "Input text (deprecated)"
+    },
+    {
       "key": "input-number",
       "name": "Number input"
     },
