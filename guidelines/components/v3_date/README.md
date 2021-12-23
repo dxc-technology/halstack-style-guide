@@ -1,5 +1,10 @@
 # Date-picker
 
+
+⚠️ **This component has been deprecated in v4.0.0, use the [date input](https://developer.dxc.com/design/guidelines/components/date-input) component instead.**
+
+____________________________________________________________
+
 A date input is a user interface element where the user can type or select a date in a predefined format. 
 
 ## States
