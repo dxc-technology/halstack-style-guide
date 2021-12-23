@@ -1,6 +1,6 @@
-# Input-file
+# File input
 
-The input-file component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
+The file input component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
 ## Usage
 
@@ -12,15 +12,15 @@ The input-file component is used to choose files from any location in the local 
 
 ### Don'ts
 
-* Use the input-file component to upload multiple files inside a modal dialog
+* Use the file input component to upload multiple files inside a modal dialog
 * Use a variant with drag and drop functionality when designing for mobile devices
 
 
 ## Variants
 
-![input-file component variants](images/input_file_variants.png)
+![File input component variants](images/input_file_variants.png)
 
-_Input-file component variants_
+_File input component variants_
 
 |  Name        | Use case                                                                                 |
 | :----------- | :--------------------------------------------------------------------------------------- |
@@ -30,7 +30,7 @@ _Input-file component variants_
 
 ## States
 
-The component input-file is made-up of an input (type: file) and a file-item(s).
+The component file input is made-up of an input (type: file) and a file-item(s).
 
 ### File
 
@@ -65,7 +65,7 @@ _File item states_
 
 ## Anatomy
 
-![Component input-file anatomy](images/input_file_anatomy.png)
+![Component file input anatomy](images/input_file_anatomy.png)
 
 1. Label
 2. Drag and drop area
@@ -88,17 +88,17 @@ _File item with preview example_
 
 ## Single file input-file
 
-In order to provide a compact version of the input-file component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
+In order to provide a compact version of the file input component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
 
-![Variant file single input-file](images/input_file_single_file.png)
+![Variant file single](images/input_file_single_file.png)
 
-_Variant file single upload_
+_Variant file single_
 
 ## Design Specifications
 
-![Input-file design specifications](images/input_file_specs.png)
+![File input design specifications](images/input_file_specs.png)
 
-_Input-file design specifications_
+_File input design specifications_
 
 ### Color
 
