@@ -37,7 +37,8 @@ The specifications for the autosuggest input can be found in the [input text spe
 | Component token                     | Element                | Token                   | Value             |
 | :---------------------------------- | :--------------------- | :---------------------- | :---------------- |
 | `listOptionFontColor`               | List option value      | `color-black`           | #000000           |
-| `listOptionBorderColor`             | List dialog            | `color-grey-400`        | #bfbfbf           |
+| `listOptionBorderColor`             | List option divider    | `color-grey-200`        | #e6e6e6           |
+| `listDialogBorderColor`             | List dialog            | `color-grey-400`        | #bfbfbf           |
 | `listOptionBackgroundColor`         | List dialog            | `color-white`           | #ffffff           |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2           |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc           |
@@ -65,8 +66,9 @@ The specifications for the autosuggest input can be found in the [input text spe
 | :---------------------------------- | :-------------------- | :---------------------- | :---------------- |
 | `border-width`                      | List dialog           | `border-width-1`        | 1px               |
 | `border-radius`                     | List dialog           | `border-radius-medium`  | 0.25rem / 4px     |
-| `border-style`                      | List dialog           | `border-style-solid`    | Open Sans         |
-
+| `border-style`                      | List dialog           | `border-style-solid`    | Solid             |
+| `border-width`                      | List option divider   | `border-width-1`        | 1px               |
+| `border-style`                      | List option divider   | `border-style-solid`    | Solid             |
 ### Spacing
 
 | Property                            | Element               | Token                   | Value             |
