@@ -155,12 +155,16 @@
       "name": "Textarea"
     },
     {
+      "key": "file-input",
+      "name": "File input"
+    },
+    {
       "key": "toggle",
       "name": "Toggle"
     },
     {
-      "key": "upload",
-      "name": "Upload"
+      "key": "v3_upload",
+      "name": "Upload (deprecated)"
     },
     {
       "key": "wizard",
