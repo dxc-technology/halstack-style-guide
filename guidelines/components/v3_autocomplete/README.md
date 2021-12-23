@@ -1,5 +1,9 @@
 # Autocomplete
 
+⚠️ **This component has been deprecated in v4.0.0, use [autosuggest](https://developer.dxc.com/design/guidelines/components/autosuggest) component instead.**
+
+____________________________________________________________
+
 The autocomplete component, also known as predictive search is an input field that suggests different options to the user based on his input. 
 
 
