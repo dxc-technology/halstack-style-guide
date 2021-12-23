@@ -1,5 +1,10 @@
 # Text-inputs
 
+
+⚠️ **This component has been deprecated in v4.0.0, use the [text input](https://developer.dxc.com/design/guidelines/components/text-input) component instead.**
+
+____________________________________________________________
+
 Text inputs are the standard way to receive the user input into an application. There are several types of inputs to cover a spectrum, from email inputs to numbers.
 Each input should specify which property the user is editing and indicate clearly the status of the field in every interaction.
 
