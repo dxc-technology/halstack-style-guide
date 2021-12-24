@@ -39,7 +39,13 @@ Allows the user to select more than one option from the list.
 
 To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
 
-![Option list item multiple states](images/select_list_item_states.png)
+#### Single
+
+![Option list item multiple states](images/option_item_states_single.png)
+
+#### Multiple
+
+![Option list item multiple states](images/option_item_states_multiple.png)
 
 ## Anatomy
 
@@ -95,20 +101,19 @@ _Required with error and optional select examples_
 | `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
 | `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
-| `valueIconColor`                            | Icon                           | `color-black`      | #000000    |
 | `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
 | `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
 | `optionListBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
-| `optionListBorderColor`                     | Option list dialog             | `color-grey-300`   | #cccccc    |
+| `optionListBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
 | `listItemFontColor`                         | List item                      | `color-black`      | #000000    |
 | `listItemIconColor`                         | List item icon                 | `color-black`      | #000000    |
 | `listItemDividerColor`                      | Divider                        | `color-grey-200`   | #e6e6e6    |
 | `unselectedHoverlistItemBackgroundColor`    | List item:hover unselected     | `color-grey-100`   | #f2f2f2    |
 | `unselectedactivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
-| `selectedlistItemBackgroundColor`           | List item selected             | `color-grey-200`   | #e6e6e6    |
-| `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-grey-300`   | #cccccc    |
-| `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-grey-400`   | #bfbfbf    |
-
+| `selectedlistItemBackgroundColor`           | List item selected             | `color-blue-100`   | #e6f4ff    |
+| `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-blue-200`   | #cceaff    |
+| `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-blue-300`   | #99d5ff    |
+| `selectedlistItemIconColor`                 | List item selected indicator   | `color-blue-900`   | #003c66    |
 
 #### Input
 
