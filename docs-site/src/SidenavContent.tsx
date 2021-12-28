@@ -18,14 +18,11 @@ type Categories = {
   [key: string | number]: Array<Document>;
 };
 
-function SidenavContent({ documents }: SidenavProps) {
+function SidenavContent({ documents = [] }: SidenavProps) {
   const groupedDocuments = documents.reduce(
     (acc, document) => ({
       ...acc,
-      [document.category]: [
-        ...(acc[document.category] || []),
-        document,
-      ],
+      [document.category]: [...(acc[document.category] || []), document],
     }),
     {} as Categories
   );

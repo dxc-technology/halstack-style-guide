@@ -28,6 +28,23 @@ const getDocument = async (
   category: string,
   document: string
 ): Promise<Document> => {
+  if (process.platform === "win32") {
+    process.env.ESBUILD_BINARY_PATH = path.join(
+      process.cwd(),
+      "node_modules",
+      "esbuild",
+      "esbuild.exe"
+    );
+  } else {
+    process.env.ESBUILD_BINARY_PATH = path.join(
+      process.cwd(),
+      "node_modules",
+      "esbuild",
+      "bin",
+      "esbuild"
+    );
+  }
+
   const { frontmatter, code } = await bundleMDX({
     file: path.join(documentsDirectory, category, document, `README.mdx`),
     cwd: documentsDirectory,
@@ -42,9 +59,12 @@ const getDocument = async (
     esbuildOptions: (options) => {
       options.target = ["es6"];
       options.platform = "node";
+      options.outdir = path.join(process.cwd(), "public", category, document);
+      options.publicPath = path.join("/", category, document);
+      options.write = true;
       options.loader = {
         ...options.loader,
-        ".png": "dataurl",
+        ".png": "file",
       };
       return options;
     },
