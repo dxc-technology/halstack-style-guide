@@ -1,0 +1,28 @@
+{
+  "name": "docs-site",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dxc-technology/halstack-react": "0.0.0-12908ef",
+    "@types/styled-components": "^5.1.18",
+    "esbuild": "^0.14.7",
+    "mdx-bundler": "^8.0.1",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remark-mdx-images": "^1.0.3",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.2",
+    "@types/react": "17.0.37",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
+  }
+}
