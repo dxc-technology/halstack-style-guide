@@ -3,10 +3,10 @@ import { DxcHeading } from "@dxc-technology/halstack-react";
 import slugify from "slugify";
 import HeadingLink from "./HeadingLink";
 
-export const h1 = ({ children }) => (
+export const h1 = ({ children }: { children: string }) => (
   <DxcHeading level={2} as="h1" text={children} />
 );
-export const h2 = ({ children }) => {
+export const h2 = ({ children }: { children: string }) => {
   const slug = slugify(children, { lower: true });
   return (
     <HeadingLink elementId={slug}>
@@ -14,12 +14,12 @@ export const h2 = ({ children }) => {
     </HeadingLink>
   );
 };
-export const h3 = ({ children }) => (
+export const h3 = ({ children }: { children: string }) => (
   <DxcHeading level={4} as="h2" text={children} />
 );
-export const h4 = ({ children }) => (
+export const h4 = ({ children }: { children: string }) => (
   <DxcHeading level={5} as="h3" text={children} />
 );
-export const h5 = ({ children }) => (
+export const h5 = ({ children }: { children: string }) => (
   <DxcHeading level={5} as="h5" text={children} />
 );

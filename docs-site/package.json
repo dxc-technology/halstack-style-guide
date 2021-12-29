@@ -8,7 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dxc-technology/halstack-react": "0.0.0-12908ef",
+    "@dxc-technology/halstack-react": "0.0.0-b3de035",
     "@types/styled-components": "^5.1.18",
     "esbuild": "^0.14.7",
     "mdx-bundler": "^8.0.1",
