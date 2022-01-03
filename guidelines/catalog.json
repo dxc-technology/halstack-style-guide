@@ -107,6 +107,10 @@
       "name": "Select"
     },
     {
+      "key": "v3_select",
+      "name": "Select (Deprecated)"
+    },
+    {
       "key": "sidenav",
       "name": "Sidenav"
     },
