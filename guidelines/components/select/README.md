@@ -55,14 +55,15 @@ To indicate which items are selected and which not, the select multiple variant 
 2. Helper text
 3. Selection indicator (multiple)
 4. Option list container
-5. Collapse indicator
-6. List item
-7. Divider
-8. List item label
-9. List item icon
-10. List item checkbox (multiple)
-11. Select value
-12. List item selected indicator
+5. Clear action
+6. Collapse indicator
+7. List item
+8. Divider
+9. List item label
+10. List item icon
+11. List item checkbox (multiple)
+12. Select value
+13. List item selected indicator
 
 ## Filter
 
