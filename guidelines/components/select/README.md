@@ -201,6 +201,19 @@ _Required with error and optional select examples_
 | `box-shadow`    | Input container:focus | `-`                    | 0 0 0 2px           |
 | `box-shadow`    | Input container:error | `-`                    | 0 0 0 2px           |
 
+### Spacing
+
+The select component **input** share the [same spacing tokens of the input-text](https://developer.dxc.com/design/guidelines/components/text-input).
+
+| Property         | Element               | Token                  | Value               |
+| :--------------- | :-------------------- | :--------------------- | :------------------ |
+| `padding-left`   | List dialog           | `spacing-03`           | 0.5rem / 8px        |
+| `padding-right`  | List dialog           | `spacing-03`           | 0.5rem / 8px        |
+| `margin-top`     | List dialog content   | `spacing-02`           | 0.25rem / 4px       |
+| `margin-bottom`  | List dialog content   | `spacing-02`           | 0.25rem / 4px       |
+| `padding-top`    | List option           | `spacing-02`           | 0.25rem / 4px       |
+| `padding-bottom` | List option           | `spacing-02`           | 0.25rem / 4px       |
+
 
 #### Size
 
