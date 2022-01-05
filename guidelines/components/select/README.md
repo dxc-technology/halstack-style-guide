@@ -97,21 +97,20 @@ _Required with error and optional select examples_
 | Component token                             | Element                        | Core token         | Value      |             
 | :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
 | `labelFontColor`                            | Label                          | `color-black`      | #000000    |
-| `labelOptiona`                              | Label                          | `color-black`      | #000000    |
 | `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
 | `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
 | `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
 | `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
 | `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
-| `optionListBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
-| `optionListBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
+| `listOptionBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
+| `listOptionBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
 | `listItemFontColor`                         | List item                      | `color-black`      | #000000    |
 | `listItemIconColor`                         | List item icon                 | `color-black`      | #000000    |
 | `listItemDividerColor`                      | Divider                        | `color-grey-200`   | #e6e6e6    |
 | `unselectedHoverlistItemBackgroundColor`    | List item:hover unselected     | `color-grey-100`   | #f2f2f2    |
-| `unselectedactivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
-| `selectedlistItemBackgroundColor`           | List item selected             | `color-blue-100`   | #e6f4ff    |
+| `unselectedActivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
+| `selectedListItemBackgroundColor`           | List item selected             | `color-blue-100`   | #e6f4ff    |
 | `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-blue-200`   | #cceaff    |
 | `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-blue-300`   | #99d5ff    |
 | `selectedlistItemIconColor`                 | List item selected indicator   | `color-blue-900`   | #003c66    |
@@ -126,17 +125,18 @@ _Required with error and optional select examples_
 | `errorInputBorderColor`                  | Border:error                | `color-red-700`         | #d0011b         |
 | `hoverInputErrorBorderColor`             | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledInputBorderColor`               | Border:disabled             | `color-grey-500`        | #999999         |
-
+| `disabledInputBackgroundColor`               | Background:disabled             | `color-grey-500`        | #999999         |
 
 #### Selection indicator
 
-| Component token                             | Element                        | Core token         | Value      | 
-| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
-| `selectionIndicatorBorderColor`              | Selection indicator                 | `color-grey-400`        | #bfbfbf         |
-| `selectionIndicatorBackgroundColor`              | Selection indicator                       | `color-grey-50`         | #fafafa         |
-| `enabledSelectionIndicatorActionBackgroundColor` | Selection indicator                       | `color-transparent`         | transparent         |
-| `hoverSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-grey-100`         | #f2f2f2         |
-| `activeSelectionIndicatorActionBackgroundColor`  | Selection indicator                       | `color-grey-300`         | #cccccc        |
+| Component token                                    | Element                        | Core token         | Value      | 
+| :------------------------------------------------- | :----------------------------- | :----------------- | :--------- |
+| `selectionIndicatorBorderColor`                    | Selection indicator                 | `color-grey-400`        | #bfbfbf         |
+| `selectionIndicatorBackgroundColor`                | Selection indicator                       | `color-grey-50`         | #fafafa         |
+| `enabledSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-transparent`         | transparent         |
+| `hoverSelectionIndicatorActionBackgroundColor`     | Selection indicator:hover                       | `color-grey-100`         | #f2f2f2         |
+| `activeSelectionIndicatorActionBackgroundColor`    | Selection indicator:active                      | `color-grey-300`         | #cccccc        |
+| `disabledSelectionIndicatorActionColor`            | Selection indicator:disabled                    | `color-grey-500`         | #999999       |
 
 * Hover & focus have the same background style (shared token)
 
@@ -162,16 +162,14 @@ _Required with error and optional select examples_
 | `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
 | `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
-| `labelFontSize`           | Label optional       | `font-scale-02`         | 0.875rem / 14px   |
-| `labelFontWeight`         | Label                | `font-weight-regular`   | 400               |
-| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
-| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
+| `optionallabelFontSize`   | Label optional       | `font-scale-02`         | 0.875rem / 14px   |
+| `optionallabelFontStyle`  | Label optional       | `font-style-normal`     | normal            |
+| `optionallabelLineHeight` | Label optional       | `font-leading-loose-01` | 1.715em           |
+| `optionalLabelFontWeight` | Label optional       | `font-weight-regular`   | 400               |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
 | `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
 | `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
-| `placeholderFontSize`     | Placeholder          | `font-scale-03`         | 1rem / 16px       |
-| `placeholderFontWeight`   | Placeholder          | `font-weight-regular`   | 400               |
-| `placeholderFontStyle`    | Placeholder          | `font-style-normal`     | normal            |
+| `valueLineHeight`         | Value                | `font-leading-normal`   | 1.5em             |
 | `helperTextFontSize`      | Helper text          | `font-scale-01`         | 0.75rem / 12px    |
 | `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
 | `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
@@ -185,17 +183,24 @@ _Required with error and optional select examples_
 | `listItemFontStyle`       | List item            | `font-style-normal`     | normal            |
 | `listGroupItemFontWeight` | List group item      | `font-weight-semibold`  | 600               |
 
+### Border
+
+
+| Component token                      | Element              | Token                      | Value              |
+| :----------------------------------- | :------------------- | :------------------------- | :----------------- |
+| `inputBorderRadius`                  | Input                | `border-radius-medium`     | 0.25rem / 4px      |
+| `selectionIndicatorBorderRadius`     | Selection indicator  | `border-radius-small`      | 0.125rem / 2px     |
 
 #### Size
 
 The component `width` can adopt the following values:
 
-width | value
--- | --
-```small``` | 60px
-```medium``` | 240px
-```large``` | 480px
-```fillParent``` | -
+| Width                | Value |
+| -------------------- | ----- |
+| `small`              | 240px |
+| `medium` (_default_) | 360px |
+| `large`              | 480px |
+| `fillParent`         | 100%  |
 
 
 #### Margin
