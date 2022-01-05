@@ -122,7 +122,6 @@ _Specifications for text input component_
 | `hoverErrorBorderColor`         | Border:hover on error       | `color-red-600`         | #fe0123         |
 | `disabledBorderColor`           | Border:disabled             | `color-grey-500`        | #999999         |
 | `errorMessageColor`             | Error message               | `color-red-700`         | #d0011b         |
-| `errorIconColor`                | Error icon                  | `color-red-700`         | #d0011b         |
 | `disabledContainerFillColor`    | Input container:disabled    | `color-grey-100`        | #f2f2f2         |
 | `disabledLabelFontColor`        | Label:disabled              | `color-grey-500`        | #999999         |
 | `disabledValueFontColor`        | Value:disabled              | `color-grey-500`        | #999999         |
@@ -187,11 +186,11 @@ _Specifications for text input component_
 | :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
 | `margin-left`   | Action          | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Prefix          | `spacing-03`      | 0.25rem / 4px   |
+| `margin-left`   | Prefix          | `spacing-02`      | 0.25rem / 4px   |
 | `padding-right` | Prefix          | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Suffix          | `spacing-03`      | 0.5rem / 8px    |
 | `margin-left`   | Suffix          | `spacing-02`      | 0.25rem / 4px   |
-| `margin-right`  | Suffix          | `spacing-03`      | 0.25rem / 4px   |
+| `margin-right`  | Suffix          | `spacing-02`      | 0.25rem / 4px   |
 | `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
 | `padding-right` | Input           | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
