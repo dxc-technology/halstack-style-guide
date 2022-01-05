@@ -54,14 +54,14 @@ To indicate which items are selected and which not, the select multiple variant 
 1. Label
 2. Helper text
 3. Selection indicator (multiple)
-4. Option list container
+4. List dialog
 5. Clear action
 6. Collapse indicator
-7. List item
+7. List option
 8. Divider
-9. List item label
-10. List item icon
-11. List item checkbox (multiple)
+9. List option label
+10. List option icon
+11. List option checkbox (multiple)
 12. Select value
 13. List item selected indicator
 
@@ -99,54 +99,61 @@ _Required with error and optional select examples_
 | `labelFontColor`                            | Label                          | `color-black`      | #000000    |
 | `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
 | `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
-| `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
+| `errorMessageColor`                         | Error message                  | `color-red-700`    | #d0011b    |
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
 | `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
 | `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
-| `listOptionBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
-| `listOptionBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
-| `listItemFontColor`                         | List item                      | `color-black`      | #000000    |
-| `listItemIconColor`                         | List item icon                 | `color-black`      | #000000    |
-| `listItemDividerColor`                      | Divider                        | `color-grey-200`   | #e6e6e6    |
-| `unselectedHoverlistItemBackgroundColor`    | List item:hover unselected     | `color-grey-100`   | #f2f2f2    |
-| `unselectedActivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
-| `selectedListItemBackgroundColor`           | List item selected             | `color-blue-100`   | #e6f4ff    |
-| `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-blue-200`   | #cceaff    |
-| `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-blue-300`   | #99d5ff    |
-| `selectedlistItemIconColor`                 | List item selected indicator   | `color-blue-900`   | #003c66    |
+| `listDialogBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
+| `listDialogBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
+| `listOptionFontColor`                       | List option                    | `color-black`      | #000000    |
+| `listOptionIconColor`                       | List item icon                 | `color-black`      | #000000    |
+| `listOptionDividerColor`                    | Divider                        | `color-grey-200`   | #e6e6e6    |
+| `unselectedHoverlistItemBackgroundColor`    | List option:hover unselected   | `color-grey-100`   | #f2f2f2    |
+| `unselectedActivelistItemBackgroundColor`   | List option:active unselected  | `color-grey-200`   | #e6e6e6    |
+| `selectedListOptionBackgroundColor`         | List option selected           | `color-blue-100`   | #e6f4ff    |
+| `selectedHoverListOptionBackgroundColor`    | List option:hover selected     | `color-blue-200`   | #cceaff    |
+| `selectedActiveListOptionBackgroundColor`   | List option:active selected    | `color-blue-300`   | #99d5ff    |
+| `selectedListOptionIconColor`               | List option selected indicator | `color-blue-900`   | #003c66    |
+| `focusListOptionBorderColor`                | List option:hover selected     | `color-blue-600`   | #0095ff    |
+| `systemMessageFontColor`                    | System message                 | `color-grey-700`   | #666666    |
 
 #### Input
 
-| Component token                             | Element                        | Core token         | Value      | 
-| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
-| `enabledInputBorderColor`                | Border:enabled              | `color-black`           | #000000           |
-| `hoverInputBorderColor`                  | Border:hover                | `color-purple-500`      | #a46ede         |
-| `focusInputBorderColor`                  | Border:focus                | `color-blue-600`        | #0095ff         |
-| `errorInputBorderColor`                  | Border:error                | `color-red-700`         | #d0011b         |
-| `hoverInputErrorBorderColor`             | Border:hover on error       | `color-red-600`         | #fe0123         |
-| `disabledInputBorderColor`               | Border:disabled             | `color-grey-500`        | #999999         |
-| `disabledInputBackgroundColor`               | Background:disabled             | `color-grey-500`        | #999999         |
+| Component token                             | Element                        | Core token           | Value           | 
+| :------------------------------------------ | :----------------------------- | :------------------- | :-------------- |
+| `enabledInputBorderColor`                   | Border:enabled                 | `color-black`        | #000000         |
+| `hoverInputBorderColor`                     | Border:hover                   | `color-purple-500`   | #a46ede         |
+| `focusInputBorderColor`                     | Border:focus                   | `color-blue-600`     | #0095ff         |
+| `errorInputBorderColor`                     | Border:error                   | `color-red-700`      | #d0011b         |
+| `hoverInputErrorBorderColor`                | Border:hover on error          | `color-red-600`      | #fe0123         |
+| `disabledInputBorderColor`                  | Border:disabled                | `color-grey-500`     | #999999         |
+| `disabledInputBackgroundColor`              | Background:disabled            | `color-grey-500`     | #999999         |
+| `errorIconColor`                            | Error icon                     | `color-red-700`      | #d0011b         |
+| `collapseIndicatorColor`                    | Collapse indicator             | `color-black`        | #000000         |
+
 
 #### Selection indicator
 
-| Component token                                    | Element                        | Core token         | Value      | 
-| :------------------------------------------------- | :----------------------------- | :----------------- | :--------- |
-| `selectionIndicatorBorderColor`                    | Selection indicator                 | `color-grey-400`        | #bfbfbf         |
-| `selectionIndicatorBackgroundColor`                | Selection indicator                       | `color-grey-50`         | #fafafa         |
-| `enabledSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-transparent`         | transparent         |
-| `hoverSelectionIndicatorActionBackgroundColor`     | Selection indicator:hover                       | `color-grey-100`         | #f2f2f2         |
-| `activeSelectionIndicatorActionBackgroundColor`    | Selection indicator:active                      | `color-grey-300`         | #cccccc        |
-| `disabledSelectionIndicatorActionColor`            | Selection indicator:disabled                    | `color-grey-500`         | #999999       |
-
-* Hover & focus have the same background style (shared token)
+| Component token                                    | Element                           | Core token           | Value           | 
+| :------------------------------------------------- | :-------------------------------- | :------------------- | :-------------- |
+| `selectionIndicatorFontColor`                      | Selection indicator value         | `color-black`        | #000000         |
+| `selectionIndicatorBorderColor`                    | Selection indicator               | `color-grey-400`     | #bfbfbf         |
+| `selectionIndicatorBackgroundColor`                | Selection indicator               | `color-grey-50`      | #fafafa         |
+| `enabledSelectionIndicatorActionBackgroundColor`   | Selection indicator               | `color-transparent`  | transparent     |
+| `hoverSelectionIndicatorActionBackgroundColor`     | Selection indicator:hover         | `color-grey-100`     | #f2f2f2         |
+| `activeSelectionIndicatorActionBackgroundColor`    | Selection indicator:active        | `color-grey-300`     | #cccccc         |
+| `enabledSelectionIndicatorActionIconColor`         | Selection indicator icon          | `color-black`        | #000000         |
+| `hoverSelectionIndicatorActionIconColor`           | Selection indicator icon:hover    | `color-black`        | #000000         |
+| `activeSelectionIndicatorActionIconColor`          | Selection indicator icon:active   | `color-black`        | #000000         | 
 
 #### Clear action
 
-| Component token                             | Element                        | Core token         | Value      | 
+| Component token                 | Element                     | Core token              | Value           | 
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
 | `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
 | `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
 | `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
+| `actionIconColor`               | Action icon                 | `color-black`           | #000000         |
 | `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
 | `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
 | `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
@@ -162,9 +169,6 @@ _Required with error and optional select examples_
 | `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
 | `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
-| `optionallabelFontSize`   | Label optional       | `font-scale-02`         | 0.875rem / 14px   |
-| `optionallabelFontStyle`  | Label optional       | `font-style-normal`     | normal            |
-| `optionallabelLineHeight` | Label optional       | `font-leading-loose-01` | 1.715em           |
 | `optionalLabelFontWeight` | Label optional       | `font-weight-regular`   | 400               |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
 | `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
@@ -174,22 +178,29 @@ _Required with error and optional select examples_
 | `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
 | `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
 | `helperTextLineHeight`    | Helper text          | `font-leading-normal`   | 1.5em             |
-| `errorMessageFontSize`    | Error message        | `font-scale-01`         | 0.75rem / 12px    |
-| `errorMessageFontWeight`  | Error message        | `font-weight-regular`   | 400               |
-| `errorMessagetFontStyle`  | Error message        | `font-style-normal`     | normal            |
-| `errorMessagetLineHeight` | Error message        | `font-leading-normal`   | 1.5em             |
-| `listItemFontSize`        | List item            | `font-scale-02`         | 0.875rem / 14px   |
-| `listItemFontWeight`      | List item            | `font-weight-regular`   | 400               |
-| `listItemFontStyle`       | List item            | `font-style-normal`     | normal            |
+| `listOptionFontSize`      | List option          | `font-scale-02`         | 0.875rem / 14px   |
+| `listOptionFontWeight`    | List option          | `font-weight-regular`   | 400               |
+| `listOptionFontStyle`     | List option          | `font-style-normal`     | normal            |
 | `listGroupItemFontWeight` | List group item      | `font-weight-semibold`  | 600               |
 
 ### Border
 
 
-| Component token                      | Element              | Token                      | Value              |
-| :----------------------------------- | :------------------- | :------------------------- | :----------------- |
-| `inputBorderRadius`                  | Input                | `border-radius-medium`     | 0.25rem / 4px      |
-| `selectionIndicatorBorderRadius`     | Selection indicator  | `border-radius-small`      | 0.125rem / 2px     |
+| Component token                      | Element                             | Token                      | Value              |
+| :----------------------------------- | :---------------------------------- | :------------------------- | :----------------- |
+| `inputBorderRadius`                  | Input                               | `border-radius-medium`     | 0.25rem / 4px      |
+| `actionBorderRadius`                 | Selection indicator / Clear action  | `border-radius-small`      | 0.125rem / 2px     |
+
+
+| Property        | Element               | Token                  | Value               |
+| :-------------- | :-------------------- | :--------------------- | :------------------ |
+| `border`        | Input container       | `border-width-1`       | 1px                 |
+| `border`        | Input container       | `border-style-solid`   | solid               |
+| `border`        | Input container:focus | `border-width-1`       | 1px                 |
+| `border`        | Input container:focus | `border-style-solid`   | solid               |
+| `box-shadow`    | Input container:focus | `-`                    | 0 0 0 2px           |
+| `box-shadow`    | Input container:error | `-`                    | 0 0 0 2px           |
+
 
 #### Size
 
