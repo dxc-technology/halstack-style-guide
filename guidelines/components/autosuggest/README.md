@@ -36,10 +36,10 @@ The specifications for the autosuggest input can be found in the [input text spe
 
 | Component token                     | Element                | Token                   | Value             |
 | :---------------------------------- | :--------------------- | :---------------------- | :---------------- |
-| `listOptionFontColor`               | List option value      | `color-black`           | #000000           |
-| `listOptionBorderColor`             | List option divider    | `color-grey-200`        | #e6e6e6           |
+| `listOptionFontColor`                 | List item value        | `color-black`           | #000000           |
+| `listOptionBorderColor`               | List item divider      | `color-grey-200`        | #e6e6e6           |
 | `listDialogBorderColor`             | List dialog            | `color-grey-400`        | #bfbfbf           |
-| `listOptionBackgroundColor`         | List dialog            | `color-white`           | #ffffff           |
+| `listDialogBackgroundColor`         | List dialog            | `color-white`           | #ffffff           |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2           |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc           |
 | `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666           |
