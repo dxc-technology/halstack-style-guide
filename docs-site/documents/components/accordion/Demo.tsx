@@ -1,9 +1,11 @@
 import React from "react";
 import { DxcAccordion } from "@dxc-technology/halstack-react";
+import DemoWrapper from "../../../src/DemoWrapper";
+
 
 function AccordionDemo() {
   return (
-    <div>
+    <DemoWrapper>
       <DxcAccordion
         label="Default Accordion Uncontrolled"
         margin="medium"
@@ -14,7 +16,7 @@ function AccordionDemo() {
           malesuada lacus ex, sit amet blandit leo lobortis eget.
         </div>
       </DxcAccordion>
-    </div>
+    </DemoWrapper>
   );
 }
 
