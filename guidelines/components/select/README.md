@@ -1,82 +1,189 @@
 # Select
 
-A select component is a right choice to preventing errors with predefined options, also they reduce the vertical space by showing several options in a reduced space. Selects are used in forms, letting the user select an option instead using an input.
-
+Select component allow users to make a single or multiple selection from a pre-defined list of options.
 ## Usage
 
+- A dialog element should allow the user to select one option from a list
+- If the list of options is short (4 or less), use checkboxes instead of the select component
+- The select component should always display a label, different from any name in the option list
+- Use a pre-selected good default where possible
+- Use progressive disclosure between linked select components
+- If more than one option is applicable, use the multi-select variant
 
-### Single select
+## Variants
 
-- A dialog element should allow the user to select one option from a list.
-- The select component should always display a label, different from any name in the option list.
-- If the options list is extensive, consider letting the user type for suggestions filtering the whole number of options.
-- A default choice can be displayed as the placeholder before user selection. It must be placed as the first item on the options list and appear selected.
-- Use progressive disclosure between linked select components.
+![Single and multiple variants of the select component](images/select_variants.png)
 
-### Multi-select
+_Single and multiple variants of the select component_
 
-- If more than one option is applicable, a multi-selection box should be used.
-- If the list of options is short (4 or less) and users can select more than one option, consider using checkboxes instead of the multi-select component for simplicity and visual clarity.
-- Multi-select fields include checkboxes for every single option in the list, the entire row must be clickable.
-
+| Variant       | Description                                             |
+| :------------ | :------------------------------------------------------ |
+| **Single**    | Allows the user to select one option from a list        |
+| **Multiple**  | Allows the user to select multiple options from a list  |
 
 ## States
 
 ### Select input
 
-States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **focus**, **error** and **disabled**:
+States are defined for select component based on the interactions that the user can reproduce. The states are: **enabled**, **hover**, **focus**, **active**, **error** and **disabled**:
 
-![Select states](images/select_states.png)
+![Select states](images/select_input_states_single.png)
+
+### Multiple selection
+
+Allows the user to select more than one option from the list.
+
+![Select multiple option](images/select_input_states_multiple.png)
 
 ### Options list
 
-The option items have the following states: **enabled**, **hover**, **focus** and **selected**:
+To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
 
-![Option list states](images/select_option_states.png)
+#### Single
 
+![Option list item multiple states](images/option_item_states_single.png)
 
-## Multiple selection
+#### Multiple
 
-Allows the user to select more than one option from the list. To indicate which items are selected and which not, the design for multiple selections integrates a checkbox pairing with each option from the dropdown.
+![Option list item multiple states](images/option_item_states_multiple.png)
 
-![Select multiple option](images/select_multi.png)
+## Anatomy
 
+![Select anatomy](images/select_anatomy.png)
 
-## Required and error
+1. Label
+2. Helper text
+3. Selection indicator (multiple)
+4. Option list container
+5. Clear action
+6. Collapse indicator
+7. List item
+8. Divider
+9. List item label
+10. List item icon
+11. List item checkbox (multiple)
+12. Select value
+13. List item selected indicator
 
-* A required empty select should show an error message when submitted.
-* Helper text can be added to the component, [specs](https://developer.dxc.com/design/components/text-input) are available in the input component.
+## Filter
 
-![Helper text](images/select_helper_text.png)
+![Filterable single and multi variants](images/select_filterable.png)
+
+_Filterable single and multi variants_
+
+* Both select variants can be filterable
+* Use the filter when the number of items in the optionList is extremely long (± 15 elements)
+* This list will be reduced to show only the matches as the user types
+* The value will change when yhe user types a string that mayches an option from the list or pick one manually
+* When the search does not match any result, a "no matches found" message will be displayed
+
+## Required and optional
+
+![Required with error and optional select examples](images/select_optional.png)
+
+_Required with error and optional select examples_
+
+* When labelled as optional, the select will display an option matching the placeholder to allow leaving it empty
+* When no optional label appears, the select is required
+* If leaved empty the required should display the error "this field can not be empty" when the select loses the focus
+
 
 ## Design Specifications
 
 ![Select specifications](images/select_specs.png)
 
-### General
+### Color
 
-#### Color
+| Component token                             | Element                        | Core token         | Value      |             
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
+| `labelFontColor`                            | Label                          | `color-black`      | #000000    |
+| `labelOptiona`                              | Label                          | `color-black`      | #000000    |
+| `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
+| `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
+| `errorColor`                                | Error message                  | `color-red-700`    | #d0011b    |
+| `valueFontColor`                            | Value                          | `color-black`      | #000000    |
+| `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
+| `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
+| `optionListBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
+| `optionListBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
+| `listItemFontColor`                         | List item                      | `color-black`      | #000000    |
+| `listItemIconColor`                         | List item icon                 | `color-black`      | #000000    |
+| `listItemDividerColor`                      | Divider                        | `color-grey-200`   | #e6e6e6    |
+| `unselectedHoverlistItemBackgroundColor`    | List item:hover unselected     | `color-grey-100`   | #f2f2f2    |
+| `unselectedactivelistItemBackgroundColor`   | List item:active unselected    | `color-grey-200`   | #e6e6e6    |
+| `selectedlistItemBackgroundColor`           | List item selected             | `color-blue-100`   | #e6f4ff    |
+| `selectedHoverlistItemBackgroundColor`      | List item:hover selected       | `color-blue-200`   | #cceaff    |
+| `selectedActivelistItemBackgroundColor`     | List item:active selected      | `color-blue-300`   | #99d5ff    |
+| `selectedlistItemIconColor`                 | List item selected indicator   | `color-blue-900`   | #003c66    |
 
-| Component token                   | Element                    | Core token         | Value      |             
-| :-------------------------------- | :------------------------- | :----------------- | :--------- |
-| `assistiveTextFontColor`          | Helper text                | `color-black`      | #000000    |
-| `labelFontColor`                  | Label                      | `color-black`      | #000000    |
-| `disabledColor`                   | All:disabled               | `color-black`      | #000000    |
-| `errorColor`                      | Error message              | `color-red-700`    | #d0011b    |
-| `optionBackgroundColor`           | Option list dialog         | `color-white`      | #ffffff    |
-| `optionFontColor`                 | Option list item           | `color-black`      | #000000    |
-| `scrollBarThumbColor`             | Scroll bar                 | `color-grey-700`   | #666666    |
-| `scrollBarTrackColor`             | Scroll bar                 | `color-grey-500`   | #999999    |
-| `optionIconColor`                 | Option list icon           | `color-black`      | #000000    |
-| `hoverOptionBackgroundColor`      | Option list item:hover     | `color-grey-100`   | #f2f2f2    |
-| `activeOptionBackgroundColor`     | Option list item:active    | `color-grey-200`   | #e6e6e6    |
-| `selectedOptionBackgroundColor`   | Option list item:selected  | `color-grey-300`   | #cccccc    |
-| `underlineColor`                  | Underline                  | `color-black`      | #000000    |
-| `underlineFocusColor`             | underline:focus            | `color-black`      | #000000    |
-| `valueFontColor`                  | Value                      | `color-black`      | #000000    |
-| `valueIconColor`                  | Icon                       | `color-black`      | #000000    |
-| `arrowColor`                      | Arrow                      | `color-black`      | #000000    |
-| `focusColorOnDark`                | Focus indicator            | `color-blue-600`   | #0095ff    |
+#### Input
+
+| Component token                             | Element                        | Core token         | Value      | 
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
+| `enabledInputBorderColor`                | Border:enabled              | `color-black`           | #000000           |
+| `hoverInputBorderColor`                  | Border:hover                | `color-purple-500`      | #a46ede         |
+| `focusInputBorderColor`                  | Border:focus                | `color-blue-600`        | #0095ff         |
+| `errorInputBorderColor`                  | Border:error                | `color-red-700`         | #d0011b         |
+| `hoverInputErrorBorderColor`             | Border:hover on error       | `color-red-600`         | #fe0123         |
+| `disabledInputBorderColor`               | Border:disabled             | `color-grey-500`        | #999999         |
+
+
+#### Selection indicator
+
+| Component token                             | Element                        | Core token         | Value      | 
+| :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
+| `selectionIndicatorBorderColor`              | Selection indicator                 | `color-grey-400`        | #bfbfbf         |
+| `selectionIndicatorBackgroundColor`              | Selection indicator                       | `color-grey-50`         | #fafafa         |
+| `enabledSelectionIndicatorActionBackgroundColor` | Selection indicator                       | `color-transparent`         | transparent         |
+| `hoverSelectionIndicatorActionBackgroundColor`   | Selection indicator                       | `color-grey-100`         | #f2f2f2         |
+| `activeSelectionIndicatorActionBackgroundColor`  | Selection indicator                       | `color-grey-300`         | #cccccc        |
+
+* Hover & focus have the same background style (shared token)
+
+#### Clear action
+
+| Component token                             | Element                        | Core token         | Value      | 
+| :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
+| `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
+| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
+| `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
+| `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
+| `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
+
+* Hover & focus have the same background style (shared token)
+
+### Typography
+
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
+| `labelFontSize`           | Label optional       | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`         | Label                | `font-weight-regular`   | 400               |
+| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
+| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
+| `placeholderFontSize`     | Placeholder          | `font-scale-03`         | 1rem / 16px       |
+| `placeholderFontWeight`   | Placeholder          | `font-weight-regular`   | 400               |
+| `placeholderFontStyle`    | Placeholder          | `font-style-normal`     | normal            |
+| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 0.75rem / 12px    |
+| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `helperTextLineHeight`    | Helper text          | `font-leading-normal`   | 1.5em             |
+| `errorMessageFontSize`    | Error message        | `font-scale-01`         | 0.75rem / 12px    |
+| `errorMessageFontWeight`  | Error message        | `font-weight-regular`   | 400               |
+| `errorMessagetFontStyle`  | Error message        | `font-style-normal`     | normal            |
+| `errorMessagetLineHeight` | Error message        | `font-leading-normal`   | 1.5em             |
+| `listItemFontSize`        | List item            | `font-scale-02`         | 0.875rem / 14px   |
+| `listItemFontWeight`      | List item            | `font-weight-regular`   | 400               |
+| `listItemFontStyle`       | List item            | `font-style-normal`     | normal            |
+| `listGroupItemFontWeight` | List group item      | `font-weight-semibold`  | 600               |
 
 
 #### Size
@@ -89,6 +196,7 @@ width | value
 ```medium``` | 240px
 ```large``` | 480px
 ```fillParent``` | -
+
 
 #### Margin
 
@@ -107,39 +215,6 @@ margin | value
 These values can be applied independently to each side of the component:
 ```top``` ```bottom``` ```left``` ```right```
 
-### Select input
-
-Select input specifications are the same as the [text-input](https://developer.dxc.com/design/components/text-input)
-
-### Options list
-
-#### Single select
-
-| Property for single     |                           Value |
-| ----------------------- | ------------------------------ |
-| List item `padding-left/right`      |            16px |
-| `height`                  |     36px |
-| `font-size`               |                          16px |
-| `font-weight`             |                       Regular |
-| Icon size               |                    20 x 20px|
-| Spacing between icon and label | 12px  |
-| Focus outline `border-width` |  2px |
-
-
-#### Multi-select
-
-| Property for multiple   |                 Value |
-| ----------------------- | -------------------- |
-| List item `padding-left/right`      |            16px |
-| `height`                  |     48px |
-| `font-size`               |                          16px |
-| `font-weight`             |                       Regular |
-| Icon size               |                    20 x 20px|
-| Spacing between checkbox and label | 8px  |
-| Spacing between icon and label | 12px  |
-| Focus outline `border-width` |  2px |
-
-
 
 ## Accessibility
 
@@ -147,9 +222,11 @@ Select input specifications are the same as the [text-input](https://developer.d
 
 * Understanding WCAG 2.2 - [SC 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
 
-### WAI-ARIA 2.1 
+### WAI-ARIA 1.2 
 
-* WAI-ARIA practices 2.1 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
+* WAI-ARIA practices 1.2 - [3.8 Combobox](https://www.w3.org/TR/wai-aria-practices-1.2/#combobox)
+* WAI-ARIA practices 1.2 - [3.14 Listbox](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox)
+* WAI-ARIA examples 1.2 - [Editable Combobox without Autocomplete Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/combobox/combobox-autocomplete-none.html)
 
 
 ## Links and references
