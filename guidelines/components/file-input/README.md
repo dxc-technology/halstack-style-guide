@@ -128,7 +128,7 @@ _File-input design specifications_
 | `disabledDropLabelFontColor`            | Drop label:disabled         | `color-grey-500`            |   #999999     |
 | `focusDropBorderColor`                  | Dnd border:focus            | `color-blue-600`            |   #0095ff     |
 | `disabledDropBorderColor`               | Dnd border:disabled         | `color-grey-500`            |   #999999     |
-| `focusDropBackgroundColor`              | Dnd fill:focus              | `color-blue-50`             |   #f5fbff     |
+| `dragoverDropBackgroundColor`           | Dnd fill:dragover           | `color-blue-50`             |   #f5fbff     |
 | `hoverFileItemIconBackgroundColor`      | File item icon:hover        | `color-grey-100`            |   #f2f2f2     |
 | `activeFileItemIconBackgroundColor`     | File item icon:active       | `color-grey-300`            |   #cccccc     |
 | `errorFileItemBorderColor`              | File item container:error   | `color-red-700`             |   #d0011b     |
