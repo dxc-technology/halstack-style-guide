@@ -1,17 +1,16 @@
-# Input-number
+# Number input
 
-The Input-number component is an Input-text component that only allows numerical values and it has controls for incrementing or decrementing them.
+The number-input is a text-input component that only allows numerical values and it has controls for incrementing or decrementing them.
 
 ## Usage
 
+Considerations for the use of the number-input component:
 
-* Don't use the number-input component for amounts. Use a input-text instead
+* Don't use the number-input component for amounts. Use a text-input instead
 * Always enable typing in the input field
 * Avoid using the component when large values are expected
 
-
 ## States
-
 ### Input
 
 States: **Enabled**, **hover**, **focus**, **error** and  **disabled**
@@ -22,7 +21,7 @@ _Input states example_
 
 ### Spin button
 
-States: **Enabled**, **hover/focus**, **active** and  **disabled**
+States: **Enabled**, **hover**, **focus**, **active** and  **disabled**
 
 ![Spin button states example](images/number_action_states.png)
 
@@ -47,17 +46,17 @@ _Spin button states example_
 ## Design specifications
 
 
-![Design specifications of the input-number component](images/number_specs.png)
+![Design specifications of the number-input component](images/number_specs.png)
 
-_Design specifications of the input-number component_
-
-
-The input-number `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
+_Design specifications of the number-input component_
 
 
+The number-input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+
+
+
+## Accessibility
 <!--
-## Accesibility
-
 
 Add WCAG success criterion and WAI-ARIA design pattern and example when available
 
