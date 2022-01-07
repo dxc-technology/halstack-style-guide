@@ -1,7 +1,9 @@
 # Select
 
-Select component allow users to make a single or multiple selection from a pre-defined list of options.
+The select component allow users to make a single or multiple selection from a pre-defined list of options.
 ## Usage
+
+Considerations about the select usage:
 
 - A dialog element should allow the user to select one option from a list
 - If the list of options is short (4 or less), use checkboxes instead of the select component
@@ -35,17 +37,21 @@ Allows the user to select more than one option from the list.
 
 ![Select multiple option](images/select_input_states_multiple.png)
 
-### Options list
+### List options
 
 To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
 
 #### Single
 
-![Option list item multiple states](images/option_item_states_single.png)
+![List option element states for select single](images/option_item_states_single.png)
+
+_List option element states for single select_
 
 #### Multiple
 
-![Option list item multiple states](images/option_item_states_multiple.png)
+![List option element states for select multiple](images/option_item_states_multiple.png)
+
+_List option element states for select multiple_
 
 ## Anatomy
 
@@ -55,7 +61,7 @@ To indicate which items are selected and which not, the select multiple variant 
 2. Helper text
 3. Selection indicator (multiple)
 4. List dialog
-5. Clear action
+5. Action - Clear
 6. Collapse indicator
 7. List option
 8. Divider
@@ -103,13 +109,13 @@ _Required with error and optional select examples_
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
 | `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
 | `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
-| `listDialogBackgroundColor`                 | Option list dialog             | `color-white`      | #ffffff    |
-| `listDialogBorderColor`                     | Option list dialog             | `color-grey-400`   | #bfbfbf    |
+| `listDialogBackgroundColor`                 | List dialog                    | `color-white`      | #ffffff    |
+| `listDialogBorderColor`                     | List dialog                    | `color-grey-400`   | #bfbfbf    |
 | `listOptionFontColor`                       | List option                    | `color-black`      | #000000    |
 | `listOptionIconColor`                       | List item icon                 | `color-black`      | #000000    |
 | `listOptionDividerColor`                    | Divider                        | `color-grey-200`   | #e6e6e6    |
-| `unselectedHoverlistItemBackgroundColor`    | List option:hover unselected   | `color-grey-100`   | #f2f2f2    |
-| `unselectedActivelistItemBackgroundColor`   | List option:active unselected  | `color-grey-200`   | #e6e6e6    |
+| `unselectedHoverlistOptionBackgroundColor`  | List option:hover unselected   | `color-grey-100`   | #f2f2f2    |
+| `unselectedActivelistOptionBackgroundColor` | List option:active unselected  | `color-grey-200`   | #e6e6e6    |
 | `selectedListOptionBackgroundColor`         | List option selected           | `color-blue-100`   | #e6f4ff    |
 | `selectedHoverListOptionBackgroundColor`    | List option:hover selected     | `color-blue-200`   | #cceaff    |
 | `selectedActiveListOptionBackgroundColor`   | List option:active selected    | `color-blue-300`   | #99d5ff    |
@@ -158,7 +164,6 @@ _Required with error and optional select examples_
 | `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
 | `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
 
-* Hover & focus have the same background style (shared token)
 
 ### Typography
 
@@ -185,7 +190,6 @@ _Required with error and optional select examples_
 
 ### Border
 
-
 | Component token                      | Element                             | Token                      | Value              |
 | :----------------------------------- | :---------------------------------- | :------------------------- | :----------------- |
 | `inputBorderRadius`                  | Input                               | `border-radius-medium`     | 0.25rem / 4px      |
@@ -200,10 +204,10 @@ _Required with error and optional select examples_
 | `border`        | Input container:focus | `border-style-solid`   | solid               |
 | `box-shadow`    | Input container:focus | `-`                    | 0 0 0 2px           |
 | `box-shadow`    | Input container:error | `-`                    | 0 0 0 2px           |
-
+| `box-shadow`    | List dialog           | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  |
 ### Spacing
 
-The select component **input** share the [same spacing tokens of the input-text](https://developer.dxc.com/design/guidelines/components/text-input).
+The select component **input** share the [same spacing tokens of the text-input](https://developer.dxc.com/design/guidelines/components/text-input).
 
 | Property         | Element               | Token                  | Value               |
 | :--------------- | :-------------------- | :--------------------- | :------------------ |
