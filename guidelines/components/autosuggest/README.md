@@ -41,11 +41,12 @@ The specifications for the autosuggest input can be found in the [input text spe
 | `listDialogBorderColor`             | List dialog            | `color-grey-400`        | #bfbfbf           |
 | `listDialogBackgroundColor`         | List dialog            | `color-white`           | #ffffff           |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2           |
+| `focusListOptionBorderColor`        | List option:focus      | `color-blue-600`        | #0095ff           |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc           |
 | `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666           |
-| `systemMessageErrorFontColor`       | System message error   | `color-black`           | #000000           |
-| `systemMessageErrorBackgroundColor` | System message error   | `color-red-50`          | #fff5f6           |
-| `systemMessageErrorBorderColor`     | System message error   | `color-red-700`         | #d0011b           |
+| `errorListDialogFontColor`          | List dialog  error     | `color-black`           | #000000           |
+| `errorListDialogBackgroundColor`    | List dialog  error     | `color-red-50`          | #fff5f6           |
+| `errorListDialogBorderColor`        | List dialog  error     | `color-red-700`         | #d0011b           |
 
 ### Typography
 
