@@ -1,6 +1,6 @@
 # Password input
 
-The password input component is very much like the text-input, with the difference that their value is obscured by default (by replacing its characters with dot symbol ("•"), and the mask can be toggled on/off using the show and hide component action.
+The password input component is very much like the text input, with the difference that their value is obscured by default (by replacing its characters with dot symbol ("•"), and the mask can be toggled on/off using the show and hide component action.
 
 ## Usage
 
@@ -20,9 +20,9 @@ The component password has the following states:
 
 States: **Enabled**, **Hover**, **Focus**, **Error** and **Disabled**.
 
-![password input component states](images/password_states.png)
+![Password input component states](images/password_states.png)
 
-_password input component states_
+_Password input component states_
 
 ## Anatomy
 
@@ -52,13 +52,13 @@ The value of the input can be toggled on or off using the default action the com
 
 ## Design specifications
 
-![password input component specifications](images/password_specs.png)
+![Password input component specifications](images/password_specs.png)
 
-_password input component specifications_
+_Password input component specifications_
 
-The password input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+The password input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text input). 
 
-The password input doesn't have the following text-input elements, therefore their listed styles don't apply:
+The password input doesn't have the following text input elements, therefore their listed styles don't apply:
 
 * Placeholder
 * Prefix / Suffix

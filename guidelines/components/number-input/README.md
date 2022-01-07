@@ -1,12 +1,12 @@
 # Number input
 
-The number-input is a text-input component that only allows numerical values and it has controls for incrementing or decrementing them.
+The number input is a text input component that only allows numerical values and it has controls for incrementing or decrementing them.
 
 ## Usage
 
-Considerations for the use of the number-input component:
+Considerations for the use of the number input component:
 
-* Don't use the number-input component for amounts. Use a text-input instead
+* Don't use the number input component for amounts. Use a text input instead
 * Always enable typing in the input field
 * Avoid using the component when large values are expected
 
@@ -30,7 +30,7 @@ _Spin button states example_
 
 ## Anatomy
 
-![Anatomy of the number-input component](images/number_anatomy.png)
+![Anatomy of the number input component](images/number_anatomy.png)
 
 1. Label
 2. Helper text _(Optional)_
@@ -46,12 +46,12 @@ _Spin button states example_
 ## Design specifications
 
 
-![Design specifications of the number-input component](images/number_specs.png)
+![Design specifications of the number input component](images/number_specs.png)
 
-_Design specifications of the number-input component_
+_Design specifications of the number input component_
 
 
-The number-input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+The number input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
 
 
@@ -80,5 +80,5 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/number-input/README.md)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/number input/README.md)
 

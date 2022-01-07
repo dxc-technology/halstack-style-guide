@@ -207,7 +207,7 @@ _Required with error and optional select examples_
 | `box-shadow`    | List dialog           | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  |
 ### Spacing
 
-The select component **input** share the [same spacing tokens of the text-input](https://developer.dxc.com/design/guidelines/components/text-input).
+The select component **input** share the [same spacing tokens of the text input](https://developer.dxc.com/design/guidelines/components/text-input).
 
 | Property         | Element               | Token                  | Value               |
 | :--------------- | :-------------------- | :--------------------- | :------------------ |

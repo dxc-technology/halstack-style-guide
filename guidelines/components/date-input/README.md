@@ -10,7 +10,7 @@ A date input is a user interface element where the user can type or select a dat
 
 ## States
 
-### date input
+### Date input
 
 States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
@@ -51,15 +51,15 @@ The format of the date may vary depending on language, region, country or custom
 
 ## Design Specifications
 
-### date input
+### Date input
 
 ![date input design specifications](images/input_date_specs.png)
 
 _date input design specifications_
 
-The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The date input doesn't have the following text-input elements, therefore, their listed styles don't apply:
+The date input doesn't have the following text input elements, therefore, their listed styles don't apply:
 
 * Prefix / Suffix
 
