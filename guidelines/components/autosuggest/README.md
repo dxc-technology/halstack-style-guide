@@ -12,7 +12,7 @@ Suggests a list of options to fill a text input. A user can either select a sugg
 
 List option states: **enabled**, **hover**, **active** and **system**.
 
-![List option states examples](images/autosuggest_states_listItem.png)
+![List option states examples](images/autosuggest_states_listoption.png)
 
 _List option states examples_
 
@@ -36,17 +36,17 @@ The specifications for the autosuggest input can be found in the [input text spe
 
 | Component token                     | Element                | Token                   | Value             |
 | :---------------------------------- | :--------------------- | :---------------------- | :---------------- |
-| `listOptionFontColor`               | List item value        | `color-black`           | #000000           |
-| `listOptionDividerColor`            | List item divider      | `color-grey-200`        | #e6e6e6           |
+| `listOptionFontColor`               | List option value      | `color-black`           | #000000           |
+| `listOptionDividerColor`            | List option divider    | `color-grey-200`        | #e6e6e6           |
 | `listDialogBorderColor`             | List dialog            | `color-grey-400`        | #bfbfbf           |
 | `listDialogBackgroundColor`         | List dialog            | `color-white`           | #ffffff           |
 | `hoverListOptionBackgroundColor`    | List option:hover      | `color-grey-100`        | #f2f2f2           |
 | `focusListOptionBorderColor`        | List option:focus      | `color-blue-600`        | #0095ff           |
 | `activeListOptionBackgroundColor`   | List option:active     | `color-grey-300`        | #cccccc           |
 | `systemMessageFontColor`            | System message         | `color-grey-700`        | #666666           |
-| `errorListDialogFontColor`          | List dialog  error     | `color-black`           | #000000           |
-| `errorListDialogBackgroundColor`    | List dialog  error     | `color-red-50`          | #fff5f6           |
-| `errorListDialogBorderColor`        | List dialog  error     | `color-red-700`         | #d0011b           |
+| `errorListDialogFontColor`          | List dialog error      | `color-black`           | #000000           |
+| `errorListDialogBackgroundColor`    | List dialog error      | `color-red-50`          | #fff5f6           |
+| `errorListDialogBorderColor`        | List dialog error      | `color-red-700`         | #d0011b           |
 
 ### Typography
 
@@ -73,18 +73,19 @@ The specifications for the autosuggest input can be found in the [input text spe
 | `border-style`                      | List dialog           | `border-style-solid`    | Solid             |
 | `border-width`                      | List option divider   | `border-width-1`        | 1px               |
 | `border-style`                      | List option divider   | `border-style-solid`    | Solid             |
+| `box-shadow`                        | List dialog           | `shadow-default`        | 0 8px 14px -2px rgba(0,0,0,0.1) |
 ### Spacing
 
 | Property                            | Element               | Token                   | Value             |
 | :---------------------------------- | :-------------------- | :---------------------- | :---------------- |
 | `padding-top`                       |  List dialog          | `spacing-02`            | 0.25rem / 4px     |
 | `padding-bottom`                    |  List dialog          | `spacing-02`            | 0.25rem / 4px     |
-| `padding-left`                      |  List item            | `spacing-03`            | 0.5rem / 8px      |
-| `padding-right`                     |  List item            | `spacing-03`            | 0.5rem / 8px      |
-| `padding-top`                       |  List item            | `spacing-01`            | 0.125rem / 2px    |
-| `padding-bottom`                    |  List item            | `spacing-01`            | 0.125rem / 2px    |
-| `padding-left`                      |  List item value      | `spacing-03`            | 0.5rem / 8px      |
-| `padding-right`                     |  List item value      | `spacing-03`            | 0.5rem / 8px      |
+| `padding-left`                      |  List option          | `spacing-03`            | 0.5rem / 8px      |
+| `padding-right`                     |  List option          | `spacing-03`            | 0.5rem / 8px      |
+| `padding-top`                       |  List option          | `spacing-01`            | 0.125rem / 2px    |
+| `padding-bottom`                    |  List option          | `spacing-01`            | 0.125rem / 2px    |
+| `padding-left`                      |  List option value    | `spacing-03`            | 0.5rem / 8px      |
+| `padding-right`                     |  List option value    | `spacing-03`            | 0.5rem / 8px      |
 
 ## Links and references
 
