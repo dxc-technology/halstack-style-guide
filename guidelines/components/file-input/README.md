@@ -1,36 +1,38 @@
 # File input
 
-The file input component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
+The file-input component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
 
 ## Usage
+
+Considerations for the file-input component use:
 
 ### Do's
 
 * Provide a meaninful label and helper text in order to help the user understand the files expected
 * When displaying errors, provide feedback about the type of error using the error message
-* When the input-file process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
+* When the file-input process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
 
 ### Don'ts
 
-* Use the file input component to upload multiple files inside a modal dialog
+* Use the file-input component to upload multiple files inside a modal dialog
 * Use a variant with drag and drop functionality when designing for mobile devices
 
 
 ## Variants
 
-![File input component variants](images/input_file_variants.png)
+![file-input component variants](images/input_file_variants.png)
 
-_File input component variants_
+_File-input component variants_
 
 |  Name        | Use case                                                                                 |
 | :----------- | :--------------------------------------------------------------------------------------- |
 | **File**     | Use the file variant when designing for multidevice                                      |
 | **Filedrop** | Use in large or complex forms when designing only for desktop                            |
-| **Dropzone** | Choose the dropzone when the main purpose of the content is to input-file files/images   |
+| **Dropzone** | Choose the dropzone when the main purpose of the content is to file-input files/images   |
 
 ## States
 
-The component file input is made-up of an input (type: file) and a file-item(s).
+The component file-input is made-up of an input (type: file) and a file-item(s).
 
 ### File
 
@@ -65,7 +67,7 @@ _File item states_
 
 ## Anatomy
 
-![Component file input anatomy](images/input_file_anatomy.png)
+![Component file-input anatomy](images/input_file_anatomy.png)
 
 1. Label
 2. Drag and drop area
@@ -73,7 +75,7 @@ _File item states_
 4. Error indicator
 5. Action - Remove file
 6. Helper text
-7. input-file button
+7. file-input button
 8. File preview
 9. File name
 10. File item container
@@ -86,9 +88,9 @@ When the files to upload are mainly images, the preview can provide more feedbac
 
 _File item with preview example_
 
-## Single file input-file
+## Single file file-input
 
-In order to provide a compact version of the file input component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
+In order to provide a compact version of the file-input component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
 
 ![Variant file single](images/input_file_single_file.png)
 
@@ -96,9 +98,9 @@ _Variant file single_
 
 ## Design Specifications
 
-![File input design specifications](images/input_file_specs.png)
+![file-input design specifications](images/input_file_specs.png)
 
-_File input design specifications_
+_File-input design specifications_
 
 ### Color
 
@@ -179,4 +181,4 @@ _File input design specifications_
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/input-file/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/file-input/README.md)
