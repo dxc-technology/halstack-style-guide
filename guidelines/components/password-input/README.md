@@ -1,17 +1,17 @@
 # Password input
 
-The password-input component is very much like the text-input, with the difference that their value is obscured by default(by replacing its characters with dot symbol ("•") and the mask can be toogled on/off using the show and hide component action.
+The password input component is very much like the text-input, with the difference that their value is obscured by default (by replacing its characters with dot symbol ("•"), and the mask can be toggled on/off using the show and hide component action.
 
 ## Usage
 
 ### Do
 
-* Use the component password-input when the value expected is a password and need to be secured
+* Use the component password input when the value expected is a password and need to be secured
 * Provide the requirements in the helper text
 
 ### Don't
 
-* Show the validation of the password-input until the component loses the focus
+* Show the validation of the password input until the component loses the focus
 * Disable the copy/paste input functionality
 
 ## States
@@ -20,9 +20,9 @@ The component password has the following states:
 
 States: **Enabled**, **Hover**, **Focus**, **Error** and **Disabled**.
 
-![Password-input component states](images/password_states.png)
+![password input component states](images/password_states.png)
 
-_Password-input component states_
+_password input component states_
 
 ## Anatomy
 
@@ -45,26 +45,26 @@ _Component anatomy example_
 
 _Show and hide action to toggle the value visibility_
 
-The value of the input can be toggled on or off using the default action the component provides. The password-input can be also clearable.
+The value of the input can be toggled on or off using the default action the component provides. The password input can also be clearable.
 
-* The toggle indicates the action that will be performed when clicked, tapped or pressing keyboard `enter`
-* The toogle has an `title` with a textual cue for the resulting action
+* The toggle indicates the action that will be performed when clicked, tapped, or pressing keyboard `Enter` key.
+* The toggle has a `title` with a textual cue for the resulting action
 
 ## Design specifications
 
-![Password-input component specifications](images/password_specs.png)
+![password input component specifications](images/password_specs.png)
 
-_Password-input component specifications_
+_password input component specifications_
 
-The password-input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+The password input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The password-input doesn't have the following text-input elements, therefore, their listed styles don't apply:
+The password input doesn't have the following text-input elements, therefore their listed styles don't apply:
 
 * Placeholder
 * Prefix / Suffix
 
 
-## Accesibility
+## Accessibility
 
 ### WCAG 
 
@@ -87,5 +87,5 @@ The password-input doesn't have the following text-input elements, therefore, th
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/password-input/README.md)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/password input/README.md)
 

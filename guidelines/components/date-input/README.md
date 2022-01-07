@@ -1,22 +1,22 @@
 # Date input
 
-A date-input is a user interface element where the user can type or select a date in a predefined format. 
+A date input is a user interface element where the user can type or select a date in a predefined format. 
 
 ## Usage
 
-* Use the date-input component when you’re asking users for a past, present or future date
+* Use the date input component when asking for a past, present, or future date
 * Provide a hint with the date format expected in the placeholder
 * Use a concise label to indicate what the date selection refers to
 
 ## States
 
-### Date-input
+### date input
 
 States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
-![Examples of date-input states](images/input_date_states.png)
+![Examples of date input states](images/input_date_states.png)
 
-_Examples of date-input states_
+_Examples of date input states_
 
 ### Date dialog
 
@@ -51,15 +51,15 @@ The format of the date may vary depending on language, region, country or custom
 
 ## Design Specifications
 
-### date-input
+### date input
 
-![date-input design specifications](images/input_date_specs.png)
+![date input design specifications](images/input_date_specs.png)
 
-_date-input design specifications_
+_date input design specifications_
 
-The date-input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
+The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text-input, for reference [check the text-input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The date-input doesn't have the following text-input elements, therefore, their listed styles don't apply:
+The date input doesn't have the following text-input elements, therefore, their listed styles don't apply:
 
 * Prefix / Suffix
 
@@ -145,4 +145,4 @@ _Structure and spacing for date picker calendar pop-up_
 
 ____________________________________________________________
 
-[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/date-input/README.md)
+[Edit this page on Github](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/date input/README.md)

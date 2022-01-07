@@ -1,6 +1,6 @@
 # File input
 
-The file-input component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required like documents, images or other information in digital formats.
+The file-input component is used to choose files from any location in the local machine and update those files to the server where the application is hosted. It is a common procedure in applications where files are required, like documents, images, or other information in digital formats.
 
 ## Usage
 
@@ -8,9 +8,9 @@ Considerations for the file-input component use:
 
 ### Do's
 
-* Provide a meaninful label and helper text in order to help the user understand the files expected
+* Provide a meaningful label and helper text to help the user understand the files expected
 * When displaying errors, provide feedback about the type of error using the error message
-* When the file-input process fails, provide useful information instead of showing an error message using technical or undetermined information (i.e '0x94 ERROR_PATH_BUSY')
+* When the file-input process fails, provide useful information instead of showing an error message using technical or undetermined information (e.g. '0x94 ERROR_PATH_BUSY')
 
 ### Don'ts
 
@@ -90,7 +90,7 @@ _File item with preview example_
 
 ## Single file file-input
 
-In order to provide a compact version of the file-input component to accomodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
+In order to provide a compact version of the file-input component to accommodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
 
 ![Variant file single](images/input_file_single_file.png)
 

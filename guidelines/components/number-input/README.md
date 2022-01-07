@@ -62,7 +62,7 @@ Add WCAG success criterion and WAI-ARIA design pattern and example when availabl
 
 ### WCAG 
 
-* Understanding WCAG 2.2 - [SC x.x name of the succes criterion](url)
+* Understanding WCAG 2.2 - [SC x.x name of the success criterion](url)
 -->
 
 ### WAI-ARIA

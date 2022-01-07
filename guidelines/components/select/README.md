@@ -1,13 +1,13 @@
 # Select
 
-The select component allow users to make a single or multiple selection from a pre-defined list of options.
+The select component allows users to make single or multiple selections from a pre-defined list of options.
 ## Usage
 
 Considerations about the select usage:
 
 - A dialog element should allow the user to select one option from a list
 - If the list of options is short (4 or less), use checkboxes instead of the select component
-- The select component should always display a label, different from any name in the option list
+- The select component should always display a label different from any name in the option list
 - Use a pre-selected good default where possible
 - Use progressive disclosure between linked select components
 - If more than one option is applicable, use the multi-select variant
@@ -39,7 +39,7 @@ Allows the user to select more than one option from the list.
 
 ### List options
 
-To indicate which items are selected and which not, the select multiple variant integrates a checkbox pairing with each option from the dropdown.
+To indicate which items are selected and which not, the select-multiple variant integrates a checkbox pairing with each option from the dropdown.
 
 #### Single
 
@@ -80,7 +80,7 @@ _Filterable single and multi variants_
 * Both select variants can be filterable
 * Use the filter when the number of items in the optionList is extremely long (± 15 elements)
 * This list will be reduced to show only the matches as the user types
-* The value will change when yhe user types a string that mayches an option from the list or pick one manually
+* The value will change when the user types a string that matches an option from the list or pick one manually
 * When the search does not match any result, a "no matches found" message will be displayed
 
 ## Required and optional
@@ -89,9 +89,9 @@ _Filterable single and multi variants_
 
 _Required with error and optional select examples_
 
-* When labelled as optional, the select will display an option matching the placeholder to allow leaving it empty
+* When labeled as optional, the select will display an option matching the placeholder to allow leaving it empty
 * When no optional label appears, the select is required
-* If leaved empty the required should display the error "this field can not be empty" when the select loses the focus
+* If the select was left empty, the required should display the error "This field can not be empty" when the select loses the focus
 
 
 ## Design Specifications

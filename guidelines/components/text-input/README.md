@@ -8,16 +8,16 @@ Use text inputs in forms to help people enter, select, and search for text. Comm
 
 ### Do's
 
-* Do use fixed width inputs for content that has a specific, known length (e.g. post code, phone number).
-* Do use sentence for any input text case with standard, local grammar and punctuation rules.
-* Do use helpful and clear text for labels, error messages and helper texts
+* Do use fixed-width inputs for content that has a specific, known length (e.g. postcode, phone number).
+* Do use sentence for any input text case with standard, local grammar, and punctuation rules.
+* Do use helpful and clear text for labels, error messages, and helper texts
 
 
 ### Dont's
 
 * Do not use text input for text longer than a single line (e.g. name, phone number). Use the text-area instead.
 * Do not disable copy and paste.
-* Do not display pop up error message after validating
+* Do not display a pop-up error message after validating
 * Avoid masking label, keep it always visible.
 
 ## States
@@ -51,21 +51,21 @@ _Example of the text input component states_
 
 Clear actions allow user to remove the content of the text input.
 
-![Example of a text input with a clear content action button](images/input_actions_clear.png)
+![Example of text input with a clear content action button](images/input_actions_clear.png)
 
-_Example of a text input with a clear content action button_
+_Example of text input with a clear content action button_
 
 #### Custom actions
 
 Text inputs can have an additional custom action. 
 
-![Example of a text input with an additional action](images/input_actions_custom.png)
+![Example of text input with an additional action](images/input_actions_custom.png)
 
-_Example of a text input with an additional action_
+_Example of text input with an additional action_
 
 ### Prefixes and suffixes
 
-Prefixes and suffixes help the user to understando the purpose of the text input.
+Prefixes and suffixes help the user to understand the purpose of the text input.
 
 ![Icon or text prefixes and suffixes usage](images/input_prefix_suffix.png)
 
@@ -73,7 +73,7 @@ _Icon or text prefixes and suffixes usage_
 
 ## Helper text
 
-Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even on focus state.
+Helper text can be used as additional instructions to the user when filling in the form. It should be always visible even in a focus state.
 
 ![Text input helper text example](images/input_helper_text.png)
 
