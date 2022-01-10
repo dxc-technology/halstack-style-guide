@@ -157,12 +157,14 @@ _Specifications for text input component_
 | `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
 | `labelFontWeight`         | Label                | `font-weight-bold`      | 600               |
 | `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
 | `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
 | `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
 | `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
 | `helperTextFontSize`      | Helper text          | `font-scale-01`         | 12px              |
 | `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
 | `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
+| `helperTextLineHeight`    | Helper text          | `font-leading-normal`   | 1.5em             |
 | `optionalLabelFontWeight` | Optional indicator   | `font-weight-regular`   | 400               |
 
 
@@ -171,10 +173,8 @@ _Specifications for text input component_
 | :-------------- | :------------- | :---------------------- | :-------------- |
 | `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
 | `font-weight`   | Error message  | `font-weight-regular`   | 400             |
-| `line-height`   | Label          | `font-leading-loose-01` | 1.715em         |
 | `line-height`   | Value          | `font-leading-normal`   | 1.5em           |
 | `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
-| `line-height`   | Helper text    | `font-leading-normal`   | 1.5em           |
 | `font-size`     | Placeholder    | `font-scale-03`         | 1rem / 16px     |
 | `font-weight`   | Placeholder    | `font-regular`          | 400             |
 
