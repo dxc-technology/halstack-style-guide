@@ -56,7 +56,7 @@ The value of the input can be toggled on or off using the default action the com
 
 _Password input component specifications_
 
-The password input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text input). 
+The password input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
 The password input doesn't have the following text input elements, therefore their listed styles don't apply:
 
@@ -87,5 +87,5 @@ The password input doesn't have the following text input elements, therefore the
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/password input/README.md)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/password-input/README.md)
 

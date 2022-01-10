@@ -31,7 +31,7 @@ _List option states examples_
 
 _Component specifications_
 
-The specifications for the autosuggest input can be found in the [input text specs](https://developer.dxc.com/design/guidelines/components/input-text)
+The specifications for the autosuggest input can be found in the [input text specs](https://developer.dxc.com/design/guidelines/components/text-input)
 ### Color
 
 | Component token                     | Element                | Token                   | Value             |
