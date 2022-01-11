@@ -104,7 +104,6 @@ _Required with error and optional select examples_
 | :------------------------------------------ | :----------------------------- | :----------------- | :--------- |
 | `labelFontColor`                            | Label                          | `color-black`      | #000000    |
 | `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
-| `collapseIndicatorColor`                    | Collapse indicator             | `color-black`      | #000000    |
 | `errorMessageColor`                         | Error message                  | `color-red-700`    | #d0011b    |
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
 | `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
@@ -114,8 +113,8 @@ _Required with error and optional select examples_
 | `listOptionFontColor`                       | List option                    | `color-black`      | #000000    |
 | `listOptionIconColor`                       | List item icon                 | `color-black`      | #000000    |
 | `listOptionDividerColor`                    | Divider                        | `color-grey-200`   | #e6e6e6    |
-| `unselectedHoverlistOptionBackgroundColor`  | List option:hover unselected   | `color-grey-100`   | #f2f2f2    |
-| `unselectedActivelistOptionBackgroundColor` | List option:active unselected  | `color-grey-200`   | #e6e6e6    |
+| `unselectedHoverListOptionBackgroundColor`  | List option:hover unselected   | `color-grey-100`   | #f2f2f2    |
+| `unselectedActiveListOptionBackgroundColor` | List option:active unselected  | `color-grey-200`   | #e6e6e6    |
 | `selectedListOptionBackgroundColor`         | List option selected           | `color-blue-100`   | #e6f4ff    |
 | `selectedHoverListOptionBackgroundColor`    | List option:hover selected     | `color-blue-200`   | #cceaff    |
 | `selectedActiveListOptionBackgroundColor`   | List option:active selected    | `color-blue-300`   | #99d5ff    |
@@ -133,7 +132,7 @@ _Required with error and optional select examples_
 | `errorInputBorderColor`                     | Border:error                   | `color-red-700`      | #d0011b         |
 | `hoverInputErrorBorderColor`                | Border:hover on error          | `color-red-600`      | #fe0123         |
 | `disabledInputBorderColor`                  | Border:disabled                | `color-grey-500`     | #999999         |
-| `disabledInputBackgroundColor`              | Background:disabled            | `color-grey-500`     | #999999         |
+| `disabledInputBackgroundColor`              | Background:disabled            | `color-grey-100`     | #f2f2f2         |
 | `errorIconColor`                            | Error icon                     | `color-red-700`      | #d0011b         |
 | `collapseIndicatorColor`                    | Collapse indicator             | `color-black`        | #000000         |
 
@@ -167,26 +166,26 @@ _Required with error and optional select examples_
 
 ### Typography
 
-| Component token           | Element              | Token                   | Value             |
-| :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `fontFamily`              | All                  | `font-family-sans`      | Open Sans         |
-| `labelFontSize`           | Label                | `font-scale-02`         | 0.875rem / 14px   |
-| `labelFontWeight`         | Label                | `font-weight-semibold`  | 600               |
-| `labelFontStyle`          | Label                | `font-style-normal`     | normal            |
-| `labelLineHeight`         | Label                | `font-leading-loose-01` | 1.715em           |
-| `optionalLabelFontWeight` | Label optional       | `font-weight-regular`   | 400               |
-| `valueFontSize`           | Value                | `font-scale-03`         | 1rem / 16px       |
-| `valueFontWeight`         | Value                | `font-weight-regular`   | 400               |
-| `valueFontStyle`          | Value                | `font-style-normal`     | normal            |
-| `valueLineHeight`         | Value                | `font-leading-normal`   | 1.5em             |
-| `helperTextFontSize`      | Helper text          | `font-scale-01`         | 0.75rem / 12px    |
-| `helperTextFontWeight`    | Helper text          | `font-weight-regular`   | 400               |
-| `helperTextFontStyle`     | Helper text          | `font-style-normal`     | normal            |
-| `helperTextLineHeight`    | Helper text          | `font-leading-normal`   | 1.5em             |
-| `listOptionFontSize`      | List option          | `font-scale-02`         | 0.875rem / 14px   |
-| `listOptionFontWeight`    | List option          | `font-weight-regular`   | 400               |
-| `listOptionFontStyle`     | List option          | `font-style-normal`     | normal            |
-| `listGroupItemFontWeight` | List group item      | `font-weight-semibold`  | 600               |
+| Component token            | Element              | Token                   | Value             |
+| :------------------------- | :------------------- | :---------------------- | :---------------- |
+| `fontFamily`               | All                  | `font-family-sans`      | Open Sans         |
+| `labelFontSize`            | Label                | `font-scale-02`         | 0.875rem / 14px   |
+| `labelFontWeight`          | Label                | `font-weight-semibold`  | 600               |
+| `labelFontStyle`           | Label                | `font-style-normal`     | normal            |
+| `labelLineHeight`          | Label                | `font-leading-loose-01` | 1.715em           |
+| `optionalLabelFontWeight`  | Label optional       | `font-weight-regular`   | 400               |
+| `valueFontSize`            | Value                | `font-scale-03`         | 1rem / 16px       |
+| `valueFontWeight`          | Value                | `font-weight-regular`   | 400               |
+| `valueFontStyle`           | Value                | `font-style-normal`     | normal            |
+| `valueLineHeight`          | Value                | `font-leading-normal`   | 1.5em             |
+| `helperTextFontSize`       | Helper text          | `font-scale-01`         | 0.75rem / 12px    |
+| `helperTextFontWeight`     | Helper text          | `font-weight-regular`   | 400               |
+| `helperTextFontStyle`      | Helper text          | `font-style-normal`     | normal            |
+| `helperTextLineHeight`     | Helper text          | `font-leading-normal`   | 1.5em             |
+| `listOptionFontSize`       | List option          | `font-scale-02`         | 0.875rem / 14px   |
+| `listOptionFontWeight`     | List option          | `font-weight-regular`   | 400               |
+| `listOptionFontStyle`      | List option          | `font-style-normal`     | normal            |
+| `listGroupLabelFontWeight` | List group item      | `font-weight-semibold`  | 600               |
 
 ### Border
 
