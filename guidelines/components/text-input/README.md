@@ -182,6 +182,12 @@ _Specifications for text input component_
 
 ### Spacing
 
+| Component token           | Element              | Token                   | Value             |
+| :------------------------ | :------------------- | :---------------------- | :---------------- |
+| `InputMarginTop`          | Input container      | `spacing-02`            | 0.25rem / 4px     |
+| `InputMarginBottom`       | Input container      | `spacing-02`            | 0.25rem / 4px     |
+
+
 | Property        | Element         | Token             | Value           |
 | :-------------- | :-------------- | :---------------- | :-------------- |
 | `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
@@ -195,8 +201,6 @@ _Specifications for text input component_
 | `padding-right` | Input           | `spacing-03`      | 0.5rem / 8px    |
 | `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
 | `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `margin-top`    | Input container | `spacing-02`      | 0.25rem / 4px   |
-| `margin-bottom` | Input container | `spacing-02`      | 0.25rem / 4px   |
 
 ### Border
 
