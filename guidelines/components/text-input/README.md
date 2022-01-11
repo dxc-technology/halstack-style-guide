@@ -184,8 +184,8 @@ _Specifications for text input component_
 
 | Component token           | Element              | Token                   | Value             |
 | :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `InputMarginTop`          | Input container      | `spacing-02`            | 0.25rem / 4px     |
-| `InputMarginBottom`       | Input container      | `spacing-02`            | 0.25rem / 4px     |
+| `inputMarginTop`          | Input container      | `spacing-02`            | 0.25rem / 4px     |
+| `inputMarginBottom`       | Input container      | `spacing-02`            | 0.25rem / 4px     |
 
 
 | Property        | Element         | Token             | Value           |
