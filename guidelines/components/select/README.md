@@ -155,12 +155,11 @@ _Required with error and optional select examples_
 
 | Component token                 | Element                     | Core token              | Value           | 
 | :------------------------------ | :-------------------------- | :---------------------- | :-------------- |
+| `actionBackgroundColor`         | Action                      | `color-transparent`     | transparent     |
 | `hoverActionBackgroundColor`    | Action:hover                | `color-grey-100`        | #f2f2f2         |
 | `activeActionBackgroundColor`   | Action:active               | `color-grey-300`        | #cccccc         |
-| `disabledActionBackgroundColor` | Action:disabled             | `color-transparent`     | transparent     |
 | `actionIconColor`               | Action icon                 | `color-black`           | #000000         |
 | `hoverActionIconColor`          | Action icon:hover           | `color-black`           | #000000         |
-| `focusActionIconColor`          | Action icon:focus           | `color-black`           | #000000         |
 | `activeActionIconColor`         | Action icon:active          | `color-black`           | #000000         |
 
 
@@ -189,21 +188,18 @@ _Required with error and optional select examples_
 
 ### Border
 
-| Component token                      | Element                             | Token                      | Value              |
-| :----------------------------------- | :---------------------------------- | :------------------------- | :----------------- |
-| `inputBorderRadius`                  | Input                               | `border-radius-medium`     | 0.25rem / 4px      |
-| `actionBorderRadius`                 | Selection indicator / Clear action  | `border-radius-small`      | 0.125rem / 2px     |
+| Property             | Element                             | Token                  | Value               |
+| :------------------- | :---------------------------------- | :--------------------- | :------------------ |
+| `border`             | Input container                     | `border-width-1`       | 1px                 |
+| `border`             | Input container                     | `border-style-solid`   | solid               |
+| `border`             | Input container:focus               | `border-width-1`       | 1px                 |
+| `border`             | Input container:focus               | `border-style-solid`   | solid               |
+| `box-shadow`         | Input container:focus               | `-`                    | 0 0 0 2px           |
+| `box-shadow`         | Input container:error               | `-`                    | 0 0 0 2px           |
+| `box-shadow`         | List dialog                         | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  |
+| `border-radius`      | Input                               | `border-radius-medium` | 0.25rem / 4px      |
+| `border-radius`      | Selection indicator / Clear action  | `border-radius-small`  | 0.125rem / 2px     |
 
-
-| Property        | Element               | Token                  | Value               |
-| :-------------- | :-------------------- | :--------------------- | :------------------ |
-| `border`        | Input container       | `border-width-1`       | 1px                 |
-| `border`        | Input container       | `border-style-solid`   | solid               |
-| `border`        | Input container:focus | `border-width-1`       | 1px                 |
-| `border`        | Input container:focus | `border-style-solid`   | solid               |
-| `box-shadow`    | Input container:focus | `-`                    | 0 0 0 2px           |
-| `box-shadow`    | Input container:error | `-`                    | 0 0 0 2px           |
-| `box-shadow`    | List dialog           | `shadow-default`       | 0 4px 6px -1px rgba(0,0,0,0.1)  |
 ### Spacing
 
 The select component **input** share the [same spacing tokens of the text input](https://developer.dxc.com/design/guidelines/components/text-input).
