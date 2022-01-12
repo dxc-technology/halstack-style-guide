@@ -53,6 +53,7 @@ _Header design specifications_
 | Component token                | Element          | Core token              | Value       |
 | :----------------------------- | :--------------- | :---------------------- | :---------- |
 | `backgroundColor`              | Container        | `color-white`           | #ffffff     |
+| `contentColor`                 | Content          | `color-black`           | #000000     |
 | `underlinedColor`              | Container        | `color-black`           | #000000     |
 | `hamburguerHoverColor`         | Menu:hover       | `color-grey-700`        | #666666     |
 | `hamburguerFocusColor`         | Menu:focus       | `color-blue-600`        | #0095ff     |
