@@ -2,6 +2,10 @@
 
 A select component is a right choice to preventing errors with predefined options, also they reduce the vertical space by showing several options in a reduced space. Selects are used in forms, letting the user select an option instead using an input.
 
+⚠️ **This component has been deprecated in v4.0.0, use the [select](https://developer.dxc.com/design/guidelines/components/select) component instead.**
+
+____________________________________________________________
+
 ## Usage
 
 

@@ -1,30 +1,30 @@
-# Input-date
+# Date input
 
 A date input is a user interface element where the user can type or select a date in a predefined format. 
 
 ## Usage
 
-* Use the date input component when you’re asking users for a past, present or future date
+* Use the date input component when asking for a past, present, or future date
 * Provide a hint with the date format expected in the placeholder
-* Use a concise label to indicate what the date selection refer to
+* Use a concise label to indicate what the date selection refers to
 
 ## States
 
-### Input-date
+### Date input
 
 States: **enabled**, **hover**, **focus**, **error**, and **disabled**.
 
-![Examples of date picker input states](images/input_date_states.png)
+![Examples of date input states](images/input_date_states.png)
 
-_Examples of date picker input states_
+_Examples of date input states_
 
-### Datepicker dialog
+### Date dialog
 
 States: **enabled**, **hover**, **focus**, and **selected**.
 
-![Examples of the calendar pop-up states](images/date_popup.png)
+![Examples of the calendar dialog states](images/date_popup.png)
 
-_Examples of the calendar pop-up states_
+_Examples of the calendar dialog states_
 
 ## Anatomy
 
@@ -45,21 +45,21 @@ The date format depends on an ISO definition for each country and the preference
 
 The format of the date may vary depending on language, region, country or customer. It is a good practice to give to the user some type of hint about the date format and in many cases.
 
-- The default format for the United States is `mm/dd/yyyy`
-- The default format for Australia, Europe, Africa, South America most countries of Asia is `dd/mm/yyyy`
-- The default format in China is `yyyy/mm/dd`
+* The default format for the United States is `mm/dd/yyyy`
+* The default format for Australia, Europe, Africa, South America most countries of Asia is `dd/mm/yyyy`
+* The default format in China is `yyyy/mm/dd`
 
 ## Design Specifications
 
-### Input-date
+### Date input
 
-![Input-date design specifications](images/input_date_specs.png)
+![date input design specifications](images/input_date_specs.png)
 
-_Input-date design specifications_
+_date input design specifications_
 
-The input-date `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the input-text, for reference [check the input-text component documentation](). 
+The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The input-date doesn't have the following text-input elements, therefore, their listed styles don't apply:
+The date input doesn't have the following text input elements, therefore, their listed styles don't apply:
 
 * Prefix / Suffix
 
