@@ -12,7 +12,7 @@ Suggests a list of options to fill a text input. A user can either select a sugg
 
 List option states: **enabled**, **hover**, **active** and **system**.
 
-![List option states examples](images/autosuggest_states_listoption.png)
+![List option states examples](images/autosuggest_states_listItem.png)
 
 _List option states examples_
 
