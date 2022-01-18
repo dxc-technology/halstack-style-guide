@@ -34,7 +34,7 @@ _Spinner design specifications_
 | `fontColor`               | Label                     | `color-black`           | #000000   |
 | `fontColorOnDark`         | Label                     | `color-white`           | #ffffff   |
 | `fontColor`               | Percentage                | `color-black`           | #000000   |
-| `overlayColor`            | Overlay                   | `color-grey-800-a`      | #000000b3 |
+| `overlayColor`            | Overlay                   | `color-grey-a-800`      | #000000b3 |
 
 
 ### Size

@@ -106,7 +106,7 @@ _Required with error and optional select examples_
 | `helperTextFontColor`                       | Helper text                    | `color-black`      | #000000    |
 | `errorMessageColor`                         | Error message                  | `color-red-700`    | #d0011b    |
 | `valueFontColor`                            | Value                          | `color-black`      | #000000    |
-| `placeholderFontColor`                      | Value                          | `color-grey-800-a` | #000000b3  |
+| `placeholderFontColor`                      | Value                          | `color-grey-a-800` | #000000b3  |
 | `disabledColor`                             | All:disabled                   | `color-grey-500`   | #999999    |
 | `listDialogBackgroundColor`                 | List dialog                    | `color-white`      | #ffffff    |
 | `listDialogBorderColor`                     | List dialog                    | `color-grey-400`   | #bfbfbf    |

@@ -60,7 +60,7 @@ _Header design specifications_
 | `hamburguerFontColor`          | Menu label       | `color-black`           | #000000     |
 | `hamburguerIconColor`          | Menu icon        | `color-black`           | #000000     |
 | `menuBackgroundColor`          | Menu             | `color-white`           | #ffffff     |
-| `overlayColor`                 | Overlay          | `color-grey-800-a`      | #000000b3   |
+| `overlayColor`                 | Overlay          | `color-grey-a-800`      | #000000b3   |
 
 ### Typography
 

@@ -68,7 +68,7 @@ _Component design specifications_
 | `indicatorFontColorOnDark` | Indicator                 | `color-white`           | #ffffff    |
 | `helperFontColor`          | Helper text               | `color-black`           | #000000    |
 | `helperFontColorOnDark`    | Helper text               | `color-white`           | #ffffff    |
-| `overlayColor`             | Overlay                   | `color-grey-800-a`      | #000000b3  |
+| `overlayColor`             | Overlay                   | `color-grey-a-800`      | #000000b3  |
 
 ### Size
 
