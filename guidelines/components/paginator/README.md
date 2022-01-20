@@ -1,46 +1,14 @@
 # Component name
 
-<!--Add description for the component-->
+The paginator component allows dividing large amounts of content into multiple pages.
 
 ## Usage
 
-<!--
-This section answers the question: when to use and when not to use this component?
+Usage considerations about the paginator component:
 
-* Reason 1
-* Reason 2
-* Reason 3
--->
-
-## Variants
-
-<!--
-
-In this section define the variant the component in question has (e.g. the button component has three variants: primary, secondary and text).
-
-Variants: **Variant 1**, **variant 2**
-
-![Variants image](path to the image)
-
-_Image caption_
-
-If the component has no variants this section can be removed.
-
--->
-
-## States
-
-<!--
-
-Define the different states for the component if there are any.
-
-States: **State 1**, **state 2**
-
-![States image](path to the image)
-
-_Image caption_
-
--->
+* Use the paginator when the number of elements is affecting the system load, or when the screen size grows considerably
+* Always place the paginator at the bottom of the data that is being divided
+* Identify the current page and the number of elements that are being displayed
 
 ## Anatomy
 
@@ -87,30 +55,16 @@ Use the following table when there are not existing component tokens for the com
 
 -->
 
-## Accesibility
-
-<!--
-Add WCAG success criterion and WAI-ARIA design pattern and example when available
-
-### WCAG 
-
-* Understanding WCAG 2.2 - [SC x.x name of the succes criterion](url)
-
-### WAI-ARIA
-
-* WAI-ARIA Authoring practices 1.2 - [x.x title of the section](url)
-* WAI-ARIA Authoring practices 1.2 - ["Name" design pattern](url)
--->
 
 
 ## Links and references
 
-<!--
 
-* [Angular CDK component](url)
-* [React CDK component](url)
+
+* [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/paginator)
+* [React CDK component](https://developer.dxc.com/tools/react/next/#/components/paginator)
 * [Adobe XD component](url)
 
 ____________________________________________________________
 
-* [Edit this page on GitHub](url)
+* [Edit this page on GitHub](https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/paginator/README.md)
