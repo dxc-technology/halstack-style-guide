@@ -59,9 +59,10 @@ _date input design specifications_
 
 The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The date input doesn't have the following text input elements, therefore, their listed styles don't apply:
+The date input doesn't have the following text input elements or properties, therefore, their listed styles don't apply:
 
 * Prefix / Suffix
+* The size `small` is not available
 
 
 ### Datepicker dialog
