@@ -78,10 +78,10 @@ _Design specification for the tag component_
 
 | Component token        | Element          | Core token    | Value       |
 | :--------------------- | :--------------- | :------------ | :---------- |
-| `labelPaddingTop`      | Label            | `spacing-00`  | 0rem / 0px  |
-| `labelPaddingBottom`   | Label            | `spacing-00`  | 0rem / 0px  |
-| `labelPaddingLeft`     | Label            | `spacing-05`  | 1rem / 16px |
-| `labelPaddingRight`    | Label            | `spacing-05`  | 1rem / 16px |
+| `labelPaddingTop`      | Label            | `spacing-0 `  | 0rem / 0px  |
+| `labelPaddingBottom`   | Label            | `spacing-0 `  | 0rem / 0px  |
+| `labelPaddingLeft`     | Label            | `spacing-16`  | 1rem / 16px |
+| `labelPaddingRight`    | Label            | `spacing-16`  | 1rem / 16px |
 
 
 ### Size

@@ -184,23 +184,23 @@ _Specifications for text input component_
 
 | Component token           | Element              | Token                   | Value             |
 | :------------------------ | :------------------- | :---------------------- | :---------------- |
-| `inputMarginTop`          | Input container      | `spacing-02`            | 0.25rem / 4px     |
-| `inputMarginBottom`       | Input container      | `spacing-02`            | 0.25rem / 4px     |
+| `inputMarginTop`          | Input container      | `spacing-4`            | 0.25rem / 4px     |
+| `inputMarginBottom`       | Input container      | `spacing-4`            | 0.25rem / 4px     |
 
 
 | Property        | Element         | Token             | Value           |
 | :-------------- | :-------------- | :---------------- | :-------------- |
-| `margin-left`   | Error icon      | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Action          | `spacing-02`      | 0.25rem / 4px   |
-| `margin-left`   | Prefix          | `spacing-02`      | 0.25rem / 4px   |
-| `padding-right` | Prefix          | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Suffix          | `spacing-03`      | 0.5rem / 8px    |
-| `margin-left`   | Suffix          | `spacing-02`      | 0.25rem / 4px   |
-| `margin-right`  | Suffix          | `spacing-02`      | 0.25rem / 4px   |
-| `padding-left`  | Input           | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Input           | `spacing-03`      | 0.5rem / 8px    |
-| `padding-left`  | Input container | `spacing-03`      | 0.5rem / 8px    |
-| `padding-right` | Input container | `spacing-03`      | 0.5rem / 8px    |
+| `margin-left`   | Error icon      | `spacing-4`      | 0.25rem / 4px   |
+| `margin-left`   | Action          | `spacing-4`      | 0.25rem / 4px   |
+| `margin-left`   | Prefix          | `spacing-4`      | 0.25rem / 4px   |
+| `padding-right` | Prefix          | `spacing-8`      | 0.5rem / 8px    |
+| `padding-left`  | Suffix          | `spacing-8`      | 0.5rem / 8px    |
+| `margin-left`   | Suffix          | `spacing-4`      | 0.25rem / 4px   |
+| `margin-right`  | Suffix          | `spacing-4`      | 0.25rem / 4px   |
+| `padding-left`  | Input           | `spacing-8`      | 0.5rem / 8px    |
+| `padding-right` | Input           | `spacing-8`      | 0.5rem / 8px    |
+| `padding-left`  | Input container | `spacing-8`      | 0.5rem / 8px    |
+| `padding-right` | Input container | `spacing-8`      | 0.5rem / 8px    |
 
 ### Border
 

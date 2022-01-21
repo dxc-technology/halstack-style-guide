@@ -124,9 +124,9 @@ Different values can be applied to each side of the component:
 
 | Property                          | Element                            | Core token             | Value            |
 | :-------------------------------- | :--------------------------------- | :--------------------- | :--------------- |
-| `margin-left`                     | Label                              | `spacing-04`           | 0.75rem / 12px   |
-| `margin-left`                     | Step container                     | `spacing-06`           | 1.5rem / 24px    |
-| `margin-right`                    | Step container                     | `spacing-06`           | 1.5rem / 24px    |
+| `margin-left`                     | Label                              | `spacing-12`           | 0.75rem / 12px   |
+| `margin-left`                     | Step container                     | `spacing-24`           | 1.5rem / 24px    |
+| `margin-right`                    | Step container                     | `spacing-24`           | 1.5rem / 24px    |
 
 ### Sizing
 

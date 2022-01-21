@@ -88,8 +88,8 @@ _Design specifications for dialog component_
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `margin-right`           | Title icon       | `spacing-04`               | 0.75rem / 12px   |
-| `margin-bottom`          | Title            | `spacing-06`               | 1.5rem / 24px    |
+| `margin-right`           | Title icon       | `spacing-12`               | 0.75rem / 12px   |
+| `margin-bottom`          | Title            | `spacing-24`               | 1.5rem / 24px    |
 
 
 ### Size
