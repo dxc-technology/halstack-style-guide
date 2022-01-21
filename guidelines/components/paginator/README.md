@@ -12,18 +12,20 @@ Usage considerations about the paginator component:
 
 ## Anatomy
 
-<!--
+![](images/paginator_anatomy.png)
 
-In the anatomy section an image displays all the elements that are part of the component and as a caption a list of the numerical references present on the image providing the names of each element.
 
-![Anatomy image](path to the image)
-
-1. Element 1
-2. Element 2
+1. Container
+2. Items per page
+3. Items indicator
+4. Page actions
+5. Go to page
 
 -->
 
 ## Design specifications
+
+![](images/paginator_specs.png)
 
 <!--
 
