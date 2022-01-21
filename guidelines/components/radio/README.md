@@ -95,9 +95,9 @@ _Component design specifications_
 
 | Component token             | Element                | Core token                 | Value            |
 | :-------------------------- | :--------------------- | :------------------------- | :--------------- |
-| `labelMargin`               | Label                  | `spacing-03`               | 0.5rem / 8px     |
-| `groupVerticalSpacing`      | Radio                  | `spacing-05`               | 1rem / 16px      |
-| `groupHorizontalSpacing`    | Radio                  | `spacing-07`               | 2rem / 32px      |
+| `labelMargin`               | Label                  | `spacing-8`               | 0.5rem / 8px     |
+| `groupVerticalSpacing`      | Radio                  | `spacing-16`               | 1rem / 16px      |
+| `groupHorizontalSpacing`    | Radio                  | `spacing-32`               | 2rem / 32px      |
 
 
 ### Size 

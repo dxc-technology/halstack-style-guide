@@ -190,19 +190,19 @@ _Component design specifications_
 
 | Component token                             | Element                      | Core token             | Value                     |
 | :------------------------------------------ | :--------------------------- | :--------------------- | :------------------------ |
-| `titleLabelPaddingRight`                    | Title                        | `spacing-05`           | 1rem / 16px               |
-| `titleLabelPaddingLeft`                     | Title                        | `spacing-00`           | 0rem / 0px                |
-| `titleLabelPaddingTop`                      | Title                        | `spacing-00`           | 0rem / 0px                |
-| `titleLabelPaddingBottom`                   | Title                        | `spacing-00`           | 0rem / 0px                |
+| `titleLabelPaddingRight`                    | Title                        | `spacing-16`           | 1rem / 16px               |
+| `titleLabelPaddingLeft`                     | Title                        | `spacing-0 `           | 0rem / 0px                |
+| `titleLabelPaddingTop`                      | Title                        | `spacing-0 `           | 0rem / 0px                |
+| `titleLabelPaddingBottom`                   | Title                        | `spacing-0 `           | 0rem / 0px                |
 
 
 | Property                                    | Element                      | Core token           | Value        |
 | :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
-| `padding-left`                              | Header                       | `spacing-05`         | 16px         | 
-| `padding-right`                             | Header                       | `spacing-05`         | 16px         | 
-| `padding-right`                             | Helper text                  | `spacing-06`         | 24px         |
-| `padding`                                   | Caret icon                   | `spacing-04`         | 12px         | 
-| `margin-right`                              | Custom icon                  | `spacing-04`         | 12px         |
+| `padding-left`                              | Header                       | `spacing-16`         | 16px         | 
+| `padding-right`                             | Header                       | `spacing-16`         | 16px         | 
+| `padding-right`                             | Helper text                  | `spacing-24`         | 24px         |
+| `padding`                                   | Caret icon                   | `spacing-12`         | 12px         | 
+| `margin-right`                              | Custom icon                  | `spacing-12`         | 12px         |
 | `padding`                                   | Custom content               | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] padding](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
 | `margin`                                   | Accordion container           | [Component spacing](https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens)                   | [[Prop] margin](https://developer.dxc.com/tools/react/next/#/components/accordion)      |
 

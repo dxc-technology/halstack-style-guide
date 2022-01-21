@@ -110,9 +110,9 @@ _Slider Specifications_
 
 | Property                          | Element             | Core token      | Value                     |
 | :-------------------------------- | :------------------ | :-------------- | :------------------------ |
-| `margin-left`                     | Floor label         | `spacing-05`    | 1rem / 16px               |
-| `margin-right`                    | Ceil label          | `spacing-05`    | 1rem / 16px               |
-| `margin-left`                     | Input               | `spacing-07`    | 2rem / 32px               |
+| `margin-left`                     | Floor label         | `spacing-16`    | 1rem / 16px               |
+| `margin-right`                    | Ceil label          | `spacing-16`    | 1rem / 16px               |
+| `margin-left`                     | Input               | `spacing-32`    | 2rem / 32px               |
 
 
 ### Size

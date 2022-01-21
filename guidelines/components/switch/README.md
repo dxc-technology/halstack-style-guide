@@ -124,9 +124,9 @@ And also apply different values to each side of the component:
 
 | Property                  | Element                         | Core token            | Value                |
 | :------------------------ | :------------------------------ | :-------------------- | :------------------- |
-| `padding`                 | Thumb                           | `spacing-03`          | 0.5rem / 8px         |
-| `margin-left/right`*      | Switch                          | `spacing-03`          | 0.5rem / 8px         |
-| `padding`                 | Track                           | `spacing-04`          | 0.75rem / 12px       |
+| `padding`                 | Thumb                           | `spacing-8`          | 0.5rem / 8px         |
+| `margin-left/right`*      | Switch                          | `spacing-8`          | 0.5rem / 8px         |
+| `padding`                 | Track                           | `spacing-12`          | 0.75rem / 12px       |
 
 _*Depending of the position of the label_
 
