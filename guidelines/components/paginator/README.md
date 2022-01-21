@@ -1,4 +1,4 @@
-# Component name
+# Paginator
 
 The paginator component allows dividing large amounts of content into multiple pages.
 
@@ -12,60 +12,66 @@ Usage considerations about the paginator component:
 
 ## Anatomy
 
-![](images/paginator_anatomy.png)
+![Paginator anatomy](images/paginator_anatomy.png)
 
 
 1. Container
 2. Items per page
 3. Items indicator
 4. Page actions
-5. Go to page
+5. Page selector
 
--->
 
 ## Design specifications
 
-![](images/paginator_specs.png)
+![Paginator design specifications](images/paginator_specs.png)
 
-<!--
+_Paginator design specifications_
 
-The design specifications section provides developers the information needed to apply the correct visual properties of the component.
+### Color
 
-![Specs image](path to the image)
+| Component token           | Element         | Core token         | Value     |
+| :------------------------ | :-------------- | :----------------- | :-------- |
+| `backgroundColor`         | Container       | `color-grey-100`   | #f2f2f2   |
+| `fontColor`               | Type all        | `color-black`      | #000000   |
 
-_Image caption_
+### Typography
 
-### Component property (e.g. color, typography, border, spacing...)
+| Component token           | Element         | Core token             | Value                     |
+| :------------------------ | :-------------- | :--------------------- | :------------------------ |
+| `fontFamily`              | Type all        | `font-family-sans`     | 'Open Sans', sans-serif   |
+| `fontSize`                | Type all        | `font-scale-03`        | 1rem / 16px               |
+| `fontStyle`               | Type all        | `font-style-normal`    | normal                    |
+| `fontWeight`              | Type all        | `font-weight-regular`  | 400                       |
+| `fontTextTransform`       | Type all        | -                      | none                      |
 
-Use the following table when there are existing component tokens matching the properties
+### Spacing
 
-| Component token   | Element          | Core token  | Value     |
-| :---------------- | :--------------- | :---------- | :-------- |
-| `token-1`         | Element-1        | `token-1`   | value-1   |
-| `token-2`         | Element-2        | `token-2`   | value-2   |
-| `token-3`         | Element-3        | `token-3`   | value-3   |
+| Component token                    | Element                | Core token         | Value          |
+| :--------------------------------- | :--------------------- | :----------------- | :------------- |
+| `marginRight`                      | Content                | `spacing-32`       | 2rem / 32px    |
+| `marginLeft`                       | Content                | `spacing-32`       | 2rem / 32px    |
+| `itemsPerPageSelectorMarginLeft`   | Items per page         | `spacing-0`        | 0rem / 0px     |
+| `itemsPerPageSelectorMarginRight`  | Items per page         | `spacing-16`       | 1rem / 16px    |
+| `pageSelectorMarginRight`          | Page selector          | `spacing-16`       | 1rem / 16px    |
+| `pageSelectorMarginLeft`           | Page selector          | `spacing-0`        | 0rem / 0px     |
+| `totalItemsContainerMarginRight`   | Items indicator        | `spacing-48`       | 3rem / 48px    |
+| `totalItemsContainerMarginLeft`    | Items indicator        | `spacing-0`        | 0rem / 0px     |
 
+### Size
 
-Use the following table when there are not existing component tokens for the component properties
-
-| Property          | Element          | Core token  | Value     |
-| :---------------- | :--------------- | :---------- | :-------- |
-| `property`        | Element-1        | `token-1`   | value-1   |
-| `property`        | Element-2        | `token-2`   | value-2   |
-| `property`        | Element-3        | `token-3`   | value-3   |
-
-
--->
+| Component token      | Element          | Core token    | Value     |
+| :------------------- | :--------------- | :------------ | :-------- |
+| `height`             | Container        | -             | 64px      |
+| `width`              | Container        | -             | 100%      |
 
 
 
 ## Links and references
 
-
-
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/paginator)
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/paginator)
-* [Adobe XD component](url)
+* [Adobe XD component](https://xd.adobe.com/view/07d8d8c6-4a1b-4b1f-acc4-00e7df7d66cc-528b/)
 
 ____________________________________________________________
 
