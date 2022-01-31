@@ -55,7 +55,7 @@ _Header design specifications_
 | `backgroundColor`              | Container        | `color-white`           | #ffffff     |
 | `contentColor`                 | Content          | `color-black`           | #000000     |
 | `underlinedColor`              | Container        | `color-black`           | #000000     |
-| `hamburguerHoverColor`         | Menu:hover       | `color-grey-700`        | #666666     |
+| `hamburguerHoverColor`         | Menu:hover       | `color-grey-200`        | #e6e6e6     |
 | `hamburguerFocusColor`         | Menu:focus       | `color-blue-600`        | #0095ff     |
 | `hamburguerFontColor`          | Menu label       | `color-black`           | #000000     |
 | `hamburguerIconColor`          | Menu icon        | `color-black`           | #000000     |
