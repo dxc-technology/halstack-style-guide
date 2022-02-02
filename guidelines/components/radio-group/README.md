@@ -14,23 +14,22 @@ A radio group let the user make a mutually exclusive selection from a group of o
 
 The following states are defined in the life cycle of the component: **Unselected enabled**, **unselected hover** **unselected focus**, **unselected disabled**, **selected enabled**, **selected hover**, **selected focus** and **selected disabled**.
 
-![Radio button component states](images/radio_states.png)
+![Radio button input states](images/radio_group_base_states.png)
 
-_Radio button component states_
+_Radio button states_
 
-## Anatomy
 
-![Radio button component anatomy](images/radio_anatomy.png)
+The following states are defined in the life cycle of the component: **Enabled**, **error**, **readonly** and **sdisabled**.
 
-1. Radio input
-2. Label
+![Radio group states](images/radio_group_states.png)
+
+_Radio group states_
 
 ## Stacking
 
-![Radio button stacking options](images/radio_stacking.png)
+![Radio button stacking options](images/radio_group_stacking.png)
 
 _Radio button stacking options_
-
 
 | Name                  | Description           
 | :-------------------- | :---------------- 
@@ -39,10 +38,19 @@ _Radio button stacking options_
 
 *In any case, in the specification it is specified the ideal distance between component with label in the same horizontal edge to avoid the problem of pairing and scannability.
 
+## Anatomy
+
+![Radio button component anatomy](images/radio_group_anatomy.png)
+
+1. Label
+2. Helper text
+3. Radio button input
+4. Radio button label
+5. Error message
 
 ## Design Specifications
 
-![Component design specifications](images/radio_specs.png)
+![Component design specifications](images/radio_group_specs.png)
 
 _Component design specifications_
 
