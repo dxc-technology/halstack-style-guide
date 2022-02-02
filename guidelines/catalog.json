@@ -95,8 +95,12 @@
       "name": "Progress Bar"
     },
     {
-      "key": "radio",
-      "name": "Radio"
+      "key": "v4_radio (Deprecated)",
+      "name": "Radio (Deprecated)"
+    },
+    {
+      "key": "radio-group",
+      "name": "Radio group"
     },
     {
       "key": "select",
