@@ -44,8 +44,8 @@ _Radio button stacking options_
 
 1. Label
 2. Helper text
-3. Radio button input
-4. Radio button label
+3. Radio input
+4. Radio input label
 5. Error message
 
 ## Design Specifications
@@ -60,12 +60,21 @@ _Component design specifications_
 
 | Component token                   | Element                 | Core token               | Value       |
 | :-------------------------------- | :---------------------- | :----------------------- | :---------- |
-| `color`                           | Radio input             | `color-blue-800`         | #0067b3     |
-| `hoverColor`                      | Radio input:hover       | `color-blue-900`         | #003c66     |
-| `focusColor`                      | Radio input:focus       | `color-blue-600`         | #0095ff     |
+| `inputColor`                      | Radio input             | `color-blue-700`         | #0067b3     |
+| `hoverInputColor`                 | Radio input:hover       | `color-blue-800`         | #003c66     |
+| `focusInputColor`                 | Radio input:focus       | `color-blue-600`         | #0095ff     |
+| `activeInputColor`                | Radio input:active      | `color-blue-900`         | #003c66     |
+| `errorColor`                      | Radio input:error       | `color-red-700`          | #d0011b     |
 | `disabledColor`                   | Radio input:disabled    | `color-grey-500`         | #999999     |
-| `fontColor`                       | Label                   | `color-black`            | #000000     |
-| `disabledFontColor`               | Label:disabled          | `color-grey-500`         | #999999     |
+| `labelFontColor`                  | Label                   | `color-black`            | #000000     |
+| `disabledLabelFontColor`          | Label:disabled          | `color-grey-500`         | #999999     |
+| `helperTextFontColor`             | Helper text             | `color-black`            | #000000     |
+| `disabledHelperTextFontColor`     | Helper text:disabled    | `color-grey-500`         | #999999     |
+| `inputLabelFontColor`             | Input label             | `color-black`            | #000000     |
+| `disabledInputLabelFontColor`     | Input label:disabled    | `color-grey-500`         | #999999     |
+| `errorMessage`                    | Error message           | `color-red-700`          | #d0011b     |
+| `errorMessage`                    | Error message           | `color-red-700`          | #d0011b     |
+
 
 #### On-dark
 
