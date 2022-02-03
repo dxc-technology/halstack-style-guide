@@ -56,7 +56,6 @@ _Component design specifications_
 
 ### Color
 
-#### On-light
 
 | Component token                   | Element                 | Core token               | Value       |
 | :-------------------------------- | :---------------------- | :----------------------- | :---------- |
@@ -65,38 +64,42 @@ _Component design specifications_
 | `focusInputColor`                 | Radio input:focus       | `color-blue-600`         | #0095ff     |
 | `activeInputColor`                | Radio input:active      | `color-blue-900`         | #003c66     |
 | `errorColor`                      | Radio input:error       | `color-red-700`          | #d0011b     |
-| `disabledColor`                   | Radio input:disabled    | `color-grey-500`         | #999999     |
+| `disabledInputColor`              | Radio input:disabled    | `color-grey-500`         | #999999     |
+| `readonlyInputColor`              | Radio input:readonly    | `color-grey-500`         | #999999     |
 | `labelFontColor`                  | Label                   | `color-black`            | #000000     |
 | `disabledLabelFontColor`          | Label:disabled          | `color-grey-500`         | #999999     |
+| `readonlyLabelFontColor`          | Label: readonly         | `color-black`            | #000000     |
 | `helperTextFontColor`             | Helper text             | `color-black`            | #000000     |
 | `disabledHelperTextFontColor`     | Helper text:disabled    | `color-grey-500`         | #999999     |
 | `inputLabelFontColor`             | Input label             | `color-black`            | #000000     |
 | `disabledInputLabelFontColor`     | Input label:disabled    | `color-grey-500`         | #999999     |
 | `errorMessage`                    | Error message           | `color-red-700`          | #d0011b     |
-| `errorMessage`                    | Error message           | `color-red-700`          | #d0011b     |
-
-
-#### On-dark
-
-| Component token                   | Element                 | Core token               | Value       |
-| :-------------------------------- | :---------------------- | :----------------------- | :---------- |
-| `colorOnDark`                     | Radio input             | `color-white`            | #e6e6e6     |
-| `hoverColor`                      | Radio input:hover       | `color-blue-900`         | #ffffff     |
-| `focusColorOnDark`                | Radio input:focus       | `color-blue-600`         | #0095ff     |
-| `disabledColorOnDark`             | Radio input:disabled    | `color-grey-500`         | #999999     |
-| `fontColorOnDark`                 | Label                   | `color-white`            | #ffffff     |
-| `disabledFontColorOnDark`         | Label:disabled          | `color-grey-500`         | #999999     |
 
 
 ### Typography
 
-| Component token       | Element       | Core token            | Value                    |
-| :-------------------- | :------------ | :-------------------- | :----------------------- |
-| `fontFamily`          | Label         | `font-family-sans`    | 'Open Sans', sans-serif  |
-| `fontSize`            | Label         | `font-scale-03`       | 1rem / 16px              |
-| `fontWeight`          | Label         | `font-weight-regular` | 400                      |
-| `fontStyle`           | Label         | `font-style-normal`   | 400                      |
+| Component token           | Element       | Core token              | Value                    |
+| :------------------------ | :------------ | :---------------------- | :----------------------- |
+| `fontFamily`              | Label         | `font-family-sans`      | 'Open Sans', sans-serif  |
+| `fontSize`                | Label         | `font-scale-03`         | 0.875rem / 14px          |
+| `fontWeight`              | Label         | `font-weight-semibold`  | 600                      |
+| `labelLineHeight`         | Label         | `font-leading-loose-01` | 1.715em                  |
+| `fontStyle`               | Label         | `font-style-normal`     | normal                   |
+| `fontFamily`              | Helper text   | `font-family-sans`      | 'Open Sans', sans-serif  |
+| `fontSize`                | Helper text   | `font-scale-03`         | 0.rem / 16px             |
+| `fontWeight`              | Helper text   | `font-weight-regular`   | 400                      |
+| `fontStyle`               | Helper text   | `font-style-normal`     | normal                   |
+| `helperTextLineHeight`    | Helper text   | `font-leading-normal`   | 1.5em                    |
+| `fontFamily`              | Input label   | `font-family-sans`      | 'Open Sans', sans-serif  |
+| `fontSize`                | Input label   | `font-scale-03`         | 0.875rem / 14px          |
+| `fontWeight`              | Input label   | `font-weight-regular`   | 400                      |
+| `fontStyle`               | Input label   | `font-style-normal`     | normal                   |
 
+| Property        | Element        | Token                   | Value           |
+| :-------------- | :------------- | :---------------------- | :-------------- |
+| `font-size`     | Error message  | `font-scale-01`         | 0.75rem / 12px  |
+| `font-weight`   | Error message  | `font-weight-regular`   | 400             |
+| `line-height`   | Error message  | `font-leading-normal`   | 1.5em           |
 
 ### Border
 
@@ -113,7 +116,7 @@ _Component design specifications_
 | Component token             | Element                | Core token                 | Value            |
 | :-------------------------- | :--------------------- | :------------------------- | :--------------- |
 | `labelMargin`               | Label                  | `spacing-8`               | 0.5rem / 8px     |
-| `groupVerticalSpacing`      | Radio                  | `spacing-16`               | 1rem / 16px      |
+| `groupVerticalSpacing`      | Radio                  | `spacing-8`               | 1rem / 16px      |
 | `groupHorizontalSpacing`    | Radio                  | `spacing-32`               | 2rem / 32px      |
 
 
@@ -124,7 +127,7 @@ _Component design specifications_
 | `width`               | Radio input               | 18px      | 
 | `width`               | focus outline             | 24px      | 
 | `height`              | Radio input               | 18px      | 
-| `height`              | focus outline             | 26px      |  
+| `height`              | focus outline             | 24px      |  
 
 ### Margin
 
