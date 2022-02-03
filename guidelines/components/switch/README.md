@@ -63,7 +63,7 @@ _Switch design specifications_
 | `focusThumbBorderColor`                   | Thumb:focus                     | `color-blue-600`    | #0095ff   |
 | `uncheckedTrackBackgroundColor`           | Track unchecked                 | `color-grey-400`    | #bfbfbf   |
 | `checkedTrackBackgroundColor`             | Track checked                   | `color-purple-700`  | #5f249f   |
-| `disableudUncheckedTrackBackgroundColor`  | Track:disabled unchecked        | `color-grey-100`    | #f2f2f2   |
+| `disabledUncheckedTrackBackgroundColor`   | Track:disabled unchecked        | `color-grey-100`    | #f2f2f2   |
 | `disabledCheckedTrackBackgroundColor`     | Track:disabled checked          | `color-purple-100`  | #f2eafa   |
 
 
