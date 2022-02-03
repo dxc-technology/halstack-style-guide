@@ -31,8 +31,12 @@
       "name": "Alert"
     },
     {
-      "key": "autocomplete",
-      "name": "Autocomplete"
+      "key": "autosuggest",
+      "name": "Autosuggest"
+    },
+    {
+      "key": "v3_autocomplete",
+      "name": "Autocomplete (deprecated)"
     },
     { 
       "key": "box", 
@@ -55,8 +59,12 @@
       "name": "Chip"
     },
     {
-      "key": "date",
-      "name": "Date"
+      "key": "v3_date",
+      "name": "Date (deprecated)"
+    },
+    {
+      "key": "date-input",
+      "name": "Date input"
     },
     {
       "key": "dialog",
@@ -95,6 +103,10 @@
       "name": "Select"
     },
     {
+      "key": "v3_select",
+      "name": "Select (Deprecated)"
+    },
+    {
       "key": "sidenav",
       "name": "Sidenav"
     },
@@ -124,15 +136,35 @@
     },
     {
       "key": "text-input",
-      "name": "Input"
+      "name": "Text input"
+    },
+    {
+      "key": "v3_text-input",
+      "name": "Input text (deprecated)"
+    },
+    {
+      "key": "number-input",
+      "name": "Number input"
+    },
+    {
+      "key": "password-input",
+      "name": "Password input"
+    },
+    {
+      "key": "textarea",
+      "name": "Textarea"
+    },
+    {
+      "key": "file-input",
+      "name": "File input"
     },
     {
       "key": "toggle",
       "name": "Toggle"
     },
     {
-      "key": "upload",
-      "name": "Upload"
+      "key": "v3_upload",
+      "name": "Upload (deprecated)"
     },
     {
       "key": "wizard",

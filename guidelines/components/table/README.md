@@ -2,104 +2,123 @@
 
 Data table is a component with a high rate of usage within the applications. It allows to show the user a big amount of information in a simple and simplified way. All the information contained in the table has a grid structure, defining columns and rows to place the data and allow the users to scan, analazy, compare and filter that information.
 
-## Appearance
+## Usage
 
-It is difficult to see a design variation of a table regarding the standards definition, because it is the best way to show the data.
-Every line of the table represents a register that can be modified, deleted or searchable. The different properties of the register are displayed separated with enough space in the grid representation.
-Also, some criteria can be defined to establish some type of sorting, filtering or matching with the properties that the user wants to look for.
-
-This component into the DXC design system is formed by three main parts:
-
-- Table header: Column properties, sorting methods and filtering options can be found in that part. Also the triggers for add items or handle bulk operations can be placed in this area.
-- Table body: This is the main information container, where the actions that affects each row can be performed.
-- Table footer: The table footer will contain the paginator element, and depending on the configuration, bulk operations can appear inside this section.
-
-Here is an example of each section:
-
-![Table modes](images/table_appereance.png)
-
-## Modes
-
-One mode is defined for the table component, with slightly variations based on the configuration.
-
-Modes: **basic**.
-
-![Table modes](images/table_mode.png)
+* Use the table component to compare information in rows and columns
+* Every table cell requires a logical column header/row header
+* Don't use the table for create visual layout of the content of a page
+* Avoid truncating content, wrap instead
 
 ## States
 
-Some other components defined in the design system are used in the table component as the checkbox or dropdown. For concrete specifications about states, please, consider to see the documentation of each component.
+Some other components defined in the design system are used in the table component as the [checkbox](https://developer.dxc.com/design/guidelines/components/checkbox), [button](https://developer.dxc.com/design/guidelines/components/button) or [select](https://developer.dxc.com/design/guidelines/components/select). For concrete specifications about states, please, consider to see the documentation of each component.
 
-Some of the states that can be found in the table are the ones related to the sorting of columns, the actions per each row and the selection of an entry.
+## Anatomy
 
-## Design tokens
+![Table component anatomy](images/table_anatomy.png)
 
-| Tokens                | Default value |
-| --------------------- | :-----------: |
-| headerBackgroundColor |   `#5f249f`   |
-| headerFontColor       |   `#FFFFFF`   |
-| separatorColor        |   `#D9D9D9`   |
-| bodyBackgroundColor   |   `#FFFFFF`   |
-| bodyFontColor         |   `#000000`   |
-| scrollBarThumbColor   |   `#666666`   |
-| scrollBarTrackColor   |   `#D9D9D9`   |
+1. Header
+2. Header title
+3. Sorting action
+4. Body
+5. Cell
+6. Cell value
+7. Paginator
+
 
 ## Design Specifications
 
-Design specifications for table header:
+![Table design specifications](images/table_specs.png)
 
-| Property                           |       Value |
-| ---------------------------------- | ----------: |
-| Max. width                         |      `100%` |
-| Padding right                      |      `40px` |
-| Padding left                       |      `20px` |
-| Space col. name and sort icon      |       `8px` |
-| Action bar Min. height             |      `48px` |
-| Padding right                      |      `40px` |
-| Padding left                       |      `20px` |
-| Padding top/bottom                 |      `16px` |
-| Icon size                          |   `14x14px` |
-| Distance add item and icon         |       `8px` |
-| Font size                          |      `14px` |
+_Table design specifications_
 
 
-Filter specifications
+### Color
 
-| Property               |           Value |
-| ---------------------- | --------------: |
-| Filter bar Min. height |          `48px` |
-| Padding right/left     |     `20px 40px` |
-| Padding top/bottom     |          `10px` |
-| Filter tag width       | `Adapt content` |
-| Font size              |          `14px` |
+| Component token          | Element         | Core token          | Value     |
+| :----------------------- | :-------------- | :------------------ | :-------- |
+| `dataBackgroundColor`    | Cell            | `color-white`       | #ffffff   | 
+| `dataFontColor`          | Cell value      | `color-black`       | #000000   | 
+| `headerBackgroundColor`  | Header          | `color-purple-700`  | #5f249f   |
+| `headerFontColor`        | Header title    | `color-white`       | #ffffff   |
+| `scrollBarThumbColor`    | Scroll bar      | `color-grey-700`    | #666666   |
+| `scrollBarTrackColor`    | Scroll bar      | `color-grey-300`    | #cccccc   |
+| `sortIconColor`          | Sort            | `color-white`       | #ffffff   |
+| `rowSeparatorColor`      | Divider         | `color-grey-300`    | #cccccc   |
 
-![Table specifications](images/table_specs.png)
 
-## Responsive version for mobile and tablet
+### Typography
 
-The table layout in the responsive version was restructured due to the less space that the device offers, because it cannot be represented the same amount of information using the same way as in desktop. With that circumstances in mind, each row of the table will take all the available witdh space, dividing the fields in differente rows within the main container row.
+| Component token            | Element         | Core token             | Value                    |
+| :------------------------- | :-------------- | :--------------------- | :----------------------- |
+| `dataFontFamily`           | Cell value      | `font-family-sans`     | 'Open Sans', sans-serif  |
+| `dataFontSize`             | Cell value      | `font-scale-02`        | 0.875rem / 14px          |
+| `dataFontStyle`            | Cell value      | `font-style-normal`    | normal                   |
+| `dataFontWeight`           | Cell value      | `font-weight-regular`  | 400                      |
+| `dataFontTextTransform`    | Cell value      | -                      | none                     |
+| `dataTextLineHeight`       | Cell value      | -                      | normal                   |
+| `headerFontFamily`         | Header title    | `font-family-sans`     | 'Open Sans', sans-serif  |
+| `headerFontSize`           | Header title    | `font-scale-02`        | 0.875rem / 14px          |
+| `headerFontStyle`          | Header title    | `font-style-normal`    | normal                   |
+| `headerFontWeight`         | Header title    | `font-weight-regular`  | 400                      |
+| `headerFontTextTransform`  | Header title    | -                      | none                     |
+| `headerTextLineHeight`     | Header title    | -                      | normal                   |
+| `dataTextAlign`  : "left",
+| `headerTextAlign`: "left",
 
-Because in the implementation the component won't have columns, each value will have associated the name of the property in each row. This can be redundant but it is the best way to present the information to the user and don't make him confused.
+### Border
 
-With this approach the table also has a paginator and every row could have their own actions and selection component (checkbox).
+| Component token          | Element         | Core token             | Value                    |
+| :----------------------- | :-------------- | :--------------------- | :----------------------- |
+| `rowSeparatorThickness`  | Divider         | `border-width-1`       | 1px                      |
+| `rowSeparatorStyle`      | Divider         | `border-style-solid`   | solid                    |
+| `headerBorderRadius`     | Header          | `border-radius-medium` | 0.25rem / 4px            |
 
-## User Interface Design Considerations
 
-- Pagination strips should be used on desktop/laptop and tablet devices, but not on mobile phones.
-- The pagination strip should be right aligned below the bottom row of the table.
-- The strip is made up of 3 sections; each provides the user with information about the number of items in the table as well as how to access them.
-  - Section 1: user may choose how many rows to display per rotation
-  - Section 2: dependent on section 1 setting, system shows specific line numbers in the rotation and the number of rotations in the table
-  - Section 3: provides navigation within the entire table
-    ▪ First rotation in table
-    ▪ Previous rotation
-    ▪ Specific page number access
-    ▪ Next rotation
-    ▪ Last rotation in table
+### Spacing
+
+| Component token          | Element         | Core token             | Value                    |
+| :----------------------- | :-------------- | :--------------------- | :----------------------- |
+| `dataPaddingTop`         | Cell value      | -                      | 14px                     |
+| `dataPaddingBottom`      | Cell value      | `spacing-04`           | 0.75rem / 12px           |
+| `dataPaddingRight`       | Cell value      | -                      | 20px                     |
+| `dataPaddingLeft`        | Cell value      | `spacing-08`           | 2.5rem / 40px            |
+| `headerPaddingTop`       | Header title    | `spacing-05`           | 1rem / 16px              |
+| `headerPaddingBottom`    | Header title    | `spacing-05`           | 1rem / 16px              |
+| `headerPaddingRight`     | Header title    | -                      | 20px                     |
+| `headerPaddingLeft`      | Header title    | `spacing-08`           | 2.5rem / 40px            |
+
+
+### Iconography
+
+| Property          | Element         | Core token             | Value        |
+| :---------------- | :-------------- | :--------------------- | :----------- |
+| Width             | Sorting action  | -                      | 14px         |
+| Height            | Sorting action  | -                      | 14px         |
+
+
+## Accessibility
+
+### WCAG
+
+* Understanding WCAG 2.2 - [Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships)
+* Understanding WCAG 2.2 - [Success Criterion 1.3.2: Meaningful Sequence](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence)
+* Understanding WCAG 2.2 - [Success Criterion 2.1.1: Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.3: Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels)
+* Understanding WCAG 2.2 - [Success Criterion 2.4.7: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible)
+* Understanding WCAG 2.2 - [Success Criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value)
+
+### WAI-ARIA
+
+* WAI-ARIA Authoring Practices 1.2 - [3.23 Table](https://www.w3.org/TR/wai-aria-practices-1.2/#table)
+* WAI-ARIA Authoring Practices 1.2 - [Sortable Table Example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/table/sortable-table.html)
 
 ## Links and references
 
-- https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/64333c08-0b79-4652-be10-f55646433e73/variables/
+* [React component](https://developer.dxc.com/tools/react/next/#/components/resultsetTable)
+* [Angular component](https://developer.dxc.com/tools/angular/next/#/components/resultsettable) 
+* [Adobe XD component](https://xd.adobe.com/view/7c1326a5-31f5-4d55-8e5f-36a064d51273-2940/)  
 
 ____________________________________________________________
 
