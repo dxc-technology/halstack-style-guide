@@ -58,13 +58,13 @@ _Switch design specifications_
 | Component token                           | Element                         | Core token          | Value     |
 | :---------------------------------------- | :------------------------------ | :------------------ | :-------- |
 | `labelFontColor`                          | Label                           | `color-black`       | #000000   |
-| `disabledLabelFontColor`                  | Label:disabled                  | `color-grey-400`    | #bfbfbf   |
+| `disabledLabelFontColor`                  | Label:disabled                  | `color-grey-500`    | #999999   |
 | `thumbBackgroundColor`                    | Thumb                           | `color-white`       | #ffffff   |
 | `focusThumbBorderColor`                   | Thumb:focus                     | `color-blue-600`    | #0095ff   |
-| `unselectedTrackBackgroundColor`          | Track unselected                | `color-grey-400`    | #bfbfbf   |
-| `selectedTrackBackgroundColor`            | Track selected                  | `color-purple-700`  | #5f249f   |
-| `disableudUnselectedTrackBackgroundColor` | Track:disabled unselected       | `color-grey-100`    | #f2f2f2   |
-| `disabledSelectedTrackBackgroundColor`    | Track:disabled selected         | `color-purple-100`  | #f2eafa   |
+| `uncheckedTrackBackgroundColor`           | Track unchecked                 | `color-grey-400`    | #bfbfbf   |
+| `checkedTrackBackgroundColor`             | Track checked                   | `color-purple-700`  | #5f249f   |
+| `disabledUncheckedTrackBackgroundColor`   | Track:disabled unchecked        | `color-grey-100`    | #f2f2f2   |
+| `disabledCheckedTrackBackgroundColor`     | Track:disabled checked          | `color-purple-100`  | #f2eafa   |
 
 
 ### Typography
