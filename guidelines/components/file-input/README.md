@@ -130,6 +130,7 @@ _File input design specifications_
 | `disabledDropBorderColor`               | Dnd border:disabled         | `color-grey-500`            |   #999999     |
 | `dragoverDropBackgroundColor`           | Dnd fill:dragover           | `color-blue-50`             |   #f5fbff     |
 | `hoverFileItemIconBackgroundColor`      | File item icon:hover        | `color-grey-100`            |   #f2f2f2     |
+| `focusFileItemIconBackgroundColor`      | File item icon:focus        | `color-blue-600`            |   #0095ff     |
 | `activeFileItemIconBackgroundColor`     | File item icon:active       | `color-grey-300`            |   #cccccc     |
 | `errorFileItemBorderColor`              | File item container:error   | `color-red-700`             |   #d0011b     |
 | `errorFileItemBackgroundColor`          | File item container:error   | `color-red-50`              |   #fff5f6     |
@@ -163,14 +164,16 @@ _File input design specifications_
 
 ### Border
 
-| Property        | Element               | Token                   | Value              |
-| :-------------- | :-------------------- | :---------------------- | :----------------- |
-| `border-style`  | Drag and drop area    | `border-style-dashed`   | dashed             |
-| `border-width`  | Drag and drop area    | `border-width-1`        | 1px                |
-| `border-radius` | Drag and drop area    | `border-radius-large`   | 0.375rem / 6px     |
-| `border-style`  | File item             | `border-style-solid`    | solid              |
-| `border-width`  | File item             | `border-width-1`        | 1px                |
-| `border-radius` | File item             | `border-radius-medium`  | 0.25rem / 4px      |
+| Property        | Element                     | Token                   | Value              |
+| :-------------- | :-------------------------- | :---------------------- | :----------------- |
+| `border-style`  | Drag and drop area          | `border-style-dashed`   | dashed             |
+| `border-width`  | Drag and drop area          | `border-width-1`        | 1px                |
+| `border-radius` | Drag and drop area          | `border-radius-large`   | 0.375rem / 6px     |
+| `border-style`  | File item                   | `border-style-solid`    | solid              |
+| `border-width`  | File item                   | `border-width-1`        | 1px                |
+| `border-radius` | File item                   | `border-radius-medium`  | 0.25rem / 4px      |
+| `box-shadow`    | File item icon:focus        | `-`                     | 0 0 0 2px          |
+| `box-shadow`    | Drag and drop area:dragover | `-`                     | 0 0 0 2px          |
 
 
 ## Links and references
