@@ -67,23 +67,26 @@ _Slider Specifications_
 ### Color
 
 
-| Component token                   | Element             | Core token            | Value   |
-| :-------------------------------- | :------------------ | :-------------------- | :------ |
-| `fontColor`                       | Floor/Ceil label    | `color-black`         | #000000 |
-| `labelFontColor`                  | Label               | `color-black`         | #000000 |
-| `helperTextColor`                 | Helper text         | `color-black`         | #000000 |
-| `thumbBackgroundColor`            | Thumb               | `color-blue-800`      | #0067b3 |
-| `hoverThumbBackgroundColor`       | Thumb:hover         | `color-blue-900`      | #003c66 |
-| `focusThumbBackgroundColor`       | Thumb:focus         | `color-blue-800`      | #0067b3 |
-| `activeThumbBackgroundColor`      | Thumb:active        | `color-blue-900`      | #003c66 |
-| `disabledThumbBackgroundColor`    | Thumb:disabled      | `color-grey-500`      | #999999 |
-| `tickMarkBackgroundColor`         | Tick                | `color-blue-800`      | #0067b3 |
-| `disabledTickMarkBackgroundColor` | Tick:disabled       | `color-grey-500`      | #999999 |
-| `trackLineColor`                  | Track line          | `color-blue-800`      | #0067b3 |
-| `disabledTrackLineColor`	        | Track line:disabled | `color-blue-500`      | #999999 |
-| `totalLineColor`	                | Total line          | `color-grey-200`      | #e6e6e6 |
-| `disabledTotalLineColor`          | Total line:disabled | `color-grey-100`      | #f2f2f2 |
-| `focusColor`                      | Focus indicator     | `color-blue-600`      | #0095ff |
+| Component token                   | Element              | Core token            | Value   |
+| :-------------------------------- | :------------------- | :-------------------- | :------ |
+| `labelFontColor`                  | Label                | `color-black`         | #000000 |
+| `disabledLabelFontColor`          | Label:disabled       | `color-grey-500`      | #999999 |
+| `helperTextFontColor`             | Helper text          | `color-black`         | #000000 |
+| `disabledhelperTextFontColor`     | Helper text:disabled | `color-grey-500`      | #999999 |
+| `thumbBackgroundColor`            | Thumb                | `color-blue-800`      | #0067b3 |
+| `hoverThumbBackgroundColor`       | Thumb:hover          | `color-blue-900`      | #003c66 |
+| `focusThumbBackgroundColor`       | Thumb:focus          | `color-blue-800`      | #0067b3 |
+| `activeThumbBackgroundColor`      | Thumb:active         | `color-blue-900`      | #003c66 |
+| `disabledThumbBackgroundColor`    | Thumb:disabled       | `color-grey-500`      | #999999 |
+| `tickMarkBackgroundColor`         | Tick                 | `color-blue-800`      | #0067b3 |
+| `disabledTickMarkBackgroundColor` | Tick:disabled        | `color-grey-500`      | #999999 |
+| `trackLineColor`                  | Track line           | `color-blue-800`      | #0067b3 |
+| `disabledTrackLineColor`	        | Track line:disabled  | `color-blue-500`      | #999999 |
+| `totalLineColor`	                | Total line           | `color-grey-200`      | #e6e6e6 |
+| `disabledTotalLineColor`          | Total line:disabled  | `color-grey-100`      | #f2f2f2 |
+| `limitValuesFontColor`            | Ceil/Floor label     | `color-black`         | #f2f2f2 |
+| `disabledLimitValuesFontColor`    | Ceil/Floor label     | `color-grey-500`      | #999999 |
+| `focusColor`                      | Focus indicator      | `color-blue-600`      | #0095ff |
 
 
 ### Typography
@@ -100,6 +103,10 @@ _Slider Specifications_
 | `fontStyle`                       | Helper text	      | `font-style-normal`    | normal                    |
 | `fontWeight`                      | Helper text	      | `font-weight-regular`  | 400                       |
 | `lineHeight`                      | Helper text	      | `font-leading-normal`  | 1.5em                     |
+| `limitValuesFontFamily`           | Ceil/Floor label	  | `font-family`          | 'Open Sans', sans-serif   |
+| `limitValuesFontSize`             | Ceil/Floor label	  | `font-scale-03`        | 1rem / 16px               |
+| `limitValuesFontStyle`            | Ceil/Floor label	  | `font-style-normal`    | normal                    |
+| `limitValuesFontWeight`           | Ceil/Floor label	  | `font-weight-regular`  | 400                       |
 | `fontFamily`                      | Floor/Ceil label    | `font-family-sans`     | 'Open Sans', sans-serif   |
 | `fontSize`                        | Floor/Ceil label    | `font-scale-03`        | 1rem / 16px               |
 | `fontWeight`                      | Floor/Ceil label    | `font-weight-regular`  | 400                       |
