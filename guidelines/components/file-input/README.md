@@ -88,7 +88,7 @@ When the files to upload are mainly images, the preview can provide more feedbac
 
 _File item with preview example_
 
-## Single file file input
+## Single-file file input
 
 In order to provide a compact version of the file input component to accommodate any layout restriction, the variant file displays the file name in the same row instead of growing vertically.
 
