@@ -47,10 +47,10 @@ The textarea doesn't have the following text-input elements, therefore, their li
 
 | Property        | Element           | Token             | Value           |
 | :-------------- | :---------------- | :---------------- | :-------------- |
-| `padding-left`  | Texarea container | `spacing-03`      | 1rem / 16px     |
-| `padding-right` | Texarea container | `spacing-03`      | 1rem / 16px     |
-| `margin-top`    | Texarea container | `spacing-02`      | 0.5rem / 8px    |
-| `margin-bottom` | Texarea container | `spacing-02`      | 0.5rem / 8px    |
+| `padding-left`  | Texarea container | `spacing-8`      | 1rem / 16px     |
+| `padding-right` | Texarea container | `spacing-8`      | 1rem / 16px     |
+| `margin-top`    | Texarea container | `spacing-4`      | 0.5rem / 8px    |
+| `margin-bottom` | Texarea container | `spacing-4`      | 0.5rem / 8px    |
 
 
 

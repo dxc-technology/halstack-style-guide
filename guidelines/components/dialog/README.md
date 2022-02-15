@@ -10,6 +10,7 @@ A modal dialog is a message box or child window that requires user interaction b
 * Can have some combinations of actions, like buttons to accept/cancel the action. There can be one, two or more buttons
 * If the dialog is not including a cancel action, provide a way to close it
 * Modal dialog boxes should overlay only a portion of the underlying page to keep the user oriented within the workflow
+
  
 
 ## Anatomy
@@ -28,7 +29,11 @@ A modal dialog is a message box or child window that requires user interaction b
 
 _Example of a dialog using Halstack components as content_
 
-Any content (Halstack components or custom) can be placed inside the dialog component, try always to avoid scrolling.
+Any content (Halstack components or custom) can be placed inside the dialog component. Dialog tasks should be direct and easy to complete.
+
+* Don’t use to display complex or large amounts of data.
+* Don’t recreate a full app or page in a dialog
+* Try always to avoid scrolling
 
 
 ## Overlay
@@ -88,8 +93,8 @@ _Design specifications for dialog component_
 
 | Property                 | Element          | Core token                 | Value            |
 | :----------------------- | :--------------- | :------------------------- | :--------------- |
-| `margin-right`           | Title icon       | `spacing-04`               | 0.75rem / 12px   |
-| `margin-bottom`          | Title            | `spacing-06`               | 1.5rem / 24px    |
+| `margin-right`           | Title icon       | `spacing-12`               | 0.75rem / 12px   |
+| `margin-bottom`          | Title            | `spacing-24`               | 1.5rem / 24px    |
 
 
 ### Size

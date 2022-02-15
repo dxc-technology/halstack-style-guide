@@ -131,7 +131,7 @@ _Footer component design specs_
 | Property                 | Element                | Core token                 | Value            |
 | :----------------------- | :--------------------- | :------------------------- | :--------------- |
 | `min height`             | Links container        | `-`                        | 20px             |
-| `padding-top`            | Links container        | `spacing-03`               | 0.5rem / 8px     |
+| `padding-top`            | Links container        | `spacing-8`               | 0.5rem / 8px     |
 
 
 ### Custom content

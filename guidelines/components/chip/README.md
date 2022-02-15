@@ -77,10 +77,10 @@ _Component chip design specifications_
 
 | Component token		    | Element		        | Core token      | Value	          |
 | :-----------------------	| :-------------------- | :-------------- | :---------------- |
-| `labelMarginLeft`	        | Label		            | `spacing-03`    | 0.5rem / 8px	  |
-| `labelMarginRight`	    | Label		            | `spacing-03`    | 0.5rem / 8px	  |
-| `containerPaddingLeft`	| Container		        | `spacing-03`    | 0.5rem / 8px	  |
-| `containerPaddingRight`	| Container		        | `spacing-03`    | 0.5rem / 8px	  |
+| `labelMarginLeft`	        | Label		            | `spacing-8`    | 0.5rem / 8px	  |
+| `labelMarginRight`	    | Label		            | `spacing-8`    | 0.5rem / 8px	  |
+| `containerPaddingLeft`	| Container		        | `spacing-8`    | 0.5rem / 8px	  |
+| `containerPaddingRight`	| Container		        | `spacing-8`    | 0.5rem / 8px	  |
 
 
 

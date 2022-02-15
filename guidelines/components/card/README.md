@@ -54,12 +54,12 @@ _Card design specifications_
 
 | Property                 | Element                  | Core token                 | Value            |
 | :----------------------- | :----------------------- | :------------------------- | :--------------- |
-| `margin-top`             | Custom content- subtitle | `spacing-02`               | 0.25rem / 4px    |
-| `margin-bottom`          | Custom content- title    | `spacing-05`               | 1rem / 16px      |
-| `padding-left`           | Custom content           | `spacing-06`               | 1.5rem / 24px    |
-| `padding-top`            | Custom content           | `spacing-06`               | 1.5rem / 24px    |
-| `padding-bottom`         | Custom content           | `spacing-06`               | 1.5rem / 24px    |
-| `padding-right`          | Container                | `spacing-06`               | 1.5rem / 24px    |
+| `margin-top`             | Custom content- subtitle | `spacing-4`               | 0.25rem / 4px    |
+| `margin-bottom`          | Custom content- title    | `spacing-16`               | 1rem / 16px      |
+| `padding-left`           | Custom content           | `spacing-24`               | 1.5rem / 24px    |
+| `padding-top`            | Custom content           | `spacing-24`               | 1.5rem / 24px    |
+| `padding-bottom`         | Custom content           | `spacing-24`               | 1.5rem / 24px    |
+| `padding-right`          | Container                | `spacing-24`               | 1.5rem / 24px    |
 
 
 ### Size

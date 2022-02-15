@@ -74,15 +74,15 @@ _Sidenav design specifications_
 
 | Component token                | Element          | Core token              | Value          |
 | :----------------------------- | :--------------- | :---------------------- | :------------- |
-| `linkMarginTop`                | Link             | `spacing-02`            | 0.25rem / 4px  |
-| `linkMarginBottom`             | Link             | `spacing-02`            | 0.25rem / 4px  |
-| `linkMarginLeft`               | Link             | `spacing-05`            | 1rem / 16x     |
-| `linkMarginRight`              | Link             | `spacing-05`            | 1rem / 16x     |
+| `linkMarginTop`                | Link             | `spacing-4`            | 0.25rem / 4px  |
+| `linkMarginBottom`             | Link             | `spacing-4`            | 0.25rem / 4px  |
+| `linkMarginLeft`               | Link             | `spacing-16`            | 1rem / 16x     |
+| `linkMarginRight`              | Link             | `spacing-16`            | 1rem / 16x     |
 
 | Property                | Element          | Core token              | Value          |
 | :---------------------- | :--------------- | :---------------------- | :------------- |
-| `margin-bottom`         | Title            | `spacing-05`            | 1rem / 16px    |
-| `margin-bottom`         | Subtitle         | `spacing-02`            | 0.25rem / 4px  |
+| `margin-bottom`         | Title            | `spacing-16`            | 1rem / 16px    |
+| `margin-bottom`         | Subtitle         | `spacing-4`            | 0.25rem / 4px  |
 
  ### Size
 

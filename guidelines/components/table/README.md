@@ -80,13 +80,13 @@ _Table design specifications_
 | Component token          | Element         | Core token             | Value                    |
 | :----------------------- | :-------------- | :--------------------- | :----------------------- |
 | `dataPaddingTop`         | Cell value      | -                      | 14px                     |
-| `dataPaddingBottom`      | Cell value      | `spacing-04`           | 0.75rem / 12px           |
+| `dataPaddingBottom`      | Cell value      | `spacing-12`           | 0.75rem / 12px           |
 | `dataPaddingRight`       | Cell value      | -                      | 20px                     |
-| `dataPaddingLeft`        | Cell value      | `spacing-08`           | 2.5rem / 40px            |
-| `headerPaddingTop`       | Header title    | `spacing-05`           | 1rem / 16px              |
-| `headerPaddingBottom`    | Header title    | `spacing-05`           | 1rem / 16px              |
+| `dataPaddingLeft`        | Cell value      | `spacing-40`           | 2.5rem / 40px            |
+| `headerPaddingTop`       | Header title    | `spacing-16`           | 1rem / 16px              |
+| `headerPaddingBottom`    | Header title    | `spacing-16`           | 1rem / 16px              |
 | `headerPaddingRight`     | Header title    | -                      | 20px                     |
-| `headerPaddingLeft`      | Header title    | `spacing-08`           | 2.5rem / 40px            |
+| `headerPaddingLeft`      | Header title    | `spacing-40`           | 2.5rem / 40px            |
 
 
 ### Iconography

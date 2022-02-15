@@ -102,12 +102,12 @@ _Toggle design specifications_
 
 | Component token                     | Element              | Token                           | Value                       |
 | :---------------------------------- | :------------------- | :------------------------------ | :-------------------------- |
-| `iconPaddingRight`                  | Icon	               | `spacing-03`                    | 0.5rem / 8px                |
-| `iconPaddingLeft`                   | Icon	               | `spacing-03`                    | 0.5rem / 8px                |
-| `labelPaddingLeft`                  | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
-| `labelPaddingRight`                 | Label	(Label + icon) | `spacing-06`                    | 1.5rem / 24px               |
-| `iconMarginRight`                   | Icon (Label + icon)  | `spacing-03`                    | 0.5rem / 8px                |
-| `containerMarginTop`                | Container            | `spacing-02`                    | 0.25rem / 4px               |
+| `iconPaddingRight`                  | Icon	               | `spacing-8`                    | 0.5rem / 8px                |
+| `iconPaddingLeft`                   | Icon	               | `spacing-8`                    | 0.5rem / 8px                |
+| `labelPaddingLeft`                  | Label	(Label + icon) | `spacing-24`                    | 1.5rem / 24px               |
+| `labelPaddingRight`                 | Label	(Label + icon) | `spacing-24`                    | 1.5rem / 24px               |
+| `iconMarginRight`                   | Icon (Label + icon)  | `spacing-8`                    | 0.5rem / 8px                |
+| `containerMarginTop`                | Container            | `spacing-4`                    | 0.25rem / 4px               |
 
 ### Border
 
