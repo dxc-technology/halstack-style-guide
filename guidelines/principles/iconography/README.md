@@ -43,21 +43,6 @@ Using too many icons will become nothing more than decoration.
 * Avoid multicolor line icons
 
 
-<!--## Formatting
-
-### Anatomy
-
-![icon anatomy image] (anatomy.png)
-
-1. Outline icon
-2. Solid/ Revesed icon (Optional)
-
-### Grid
-
-![icon grid template image] (icongrid.png)
-
-_Icon grid template placement_-->
-
 
 ### Allowed formats
 
@@ -149,26 +134,6 @@ The library includes a collection of more than 1,500 icons you can use for free.
 Go to flat icons and find a incon that follow the guidelines we list below.
 
 
-<!--
-
-### Placement and alignment
-
-#### Placement
-
-Icons can be placed along with a currosponding meaningful lable inside of a container such as a menu item.
-
-![icon placement image] (placement.png)
-
-_Examples of icon placement_
-
-
-#### Alignment
-
-By default the icons are placed before the lable on the left side of the label or in the left side of the button lable with always vertically center aligned to its container.
-
-![icon alignment image] (alignment.png)
-
-_Examples of Icon alignment_-->
 
 
 -------------------------
