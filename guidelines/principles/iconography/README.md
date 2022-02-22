@@ -10,7 +10,8 @@ Icons convey immediate meaning and provide shortcuts. Reading text requires more
 
 ### When to use icons?
 
-<!--  Merge the two first subsections into one that serves as intrduction to the actionable list  -->
+
+<!--  Merge the two first subsections into one that serves as intrduction to the actionable list  to be done-->
 
 Icons and imagery are noticed before anything else, because we can eye-scan over them faster than text.
 
