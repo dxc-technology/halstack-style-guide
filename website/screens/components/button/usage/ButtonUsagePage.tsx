@@ -1,4 +1,7 @@
 import Image from "next/image";
+import HeadingLink from "../../../common/HeadingLink";
+import Code from "../../../common/Code";
+import Text from "../../../common/Text";
 import buttonIconImage from "./images/button_icon.png";
 import buttonStatesImage from "./images/button_states.png";
 import buttonVariantsImage from "./images/button_variants.png";
@@ -6,22 +9,24 @@ import buttonVariantsImage from "./images/button_variants.png";
 const ButtonUsage = () => {
   return (
     <>
-      <p>
+      <Text as="p">
         Buttons are basic interface elements that initialize an action or
         function when the user interacts with them. The appearance of the button
         should suggest the user takes an action that leads to different
         scenarios.
-      </p>
-      <p>
+      </Text>
+      <Text as="p">
         These elements that reinforce to the user the necessity to interact are
         called CTA (Call to Action) components, which basically are designed to
         capture user attention and improve the user experience within the
         application.
-      </p>
-      <h2 id="usage">Usage</h2>
+      </Text>
+      <HeadingLink level={3}>
+        Usage
+      </HeadingLink>
       <ul>
         <li>
-          In instances where buttons are vertically stacked, buttons should be
+          In instances where <Code>buttons</Code> are vertically stacked, buttons should be
           the same length.
         </li>
         <li>
