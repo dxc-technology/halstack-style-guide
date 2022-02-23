@@ -26,6 +26,10 @@ Using too many icons will become nothing more than decoration.
 * Use single icon per concept
 * Use simple continuous line icons
 * Use monochrome line icons
+* Use white icon glyphs in object icons
+* Use approved business process model
+* Do center-align icons when they’re next to text
+
 
 ### Dont’s
 
@@ -34,7 +38,9 @@ Using too many icons will become nothing more than decoration.
 * Multiple icon variations should not for the same concept
 * Avoid multiple/ complex icon elements with cuts inbetween
 * Avoid multicolor line icons
-
+* Don’t use non-white icon glyphs in object icons
+* Don’t use unapproved shapes.
+* Don’t baseline-align icons to the text
 
 
 ### Allowed formats
