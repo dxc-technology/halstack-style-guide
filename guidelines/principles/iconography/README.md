@@ -81,21 +81,16 @@ Example of a subsection:
 
 ### Size
 
+Icons have been designed to work best in four sizes: 16px, 24px, and 32px. We should use icons at their originally produced size. These are provided in SVG and PNG files.
 
+ | Size | Description |
+ | :------  | :-----------|
+ | *16px (small)*    | Small icons are best used when space is limited. We use small icons in our components such as a chevron-down in the select component or a cross-circle-filled in populated text fields.       |
+ | *24px (medium)*    | Medium icons are used in the majority of our interface. These are our standard size.       |
+ | *32px (large)*    | Large icons are used sparingly to emphasize a concept or when space is plentiful. Wherever it’s used, consider the fidelity of the icon in the space it’s being used.
 
-<!-- | Size | Description | -->
+![icon sizes image] (iconsizes.png)       |
 
-<!-- Size --> #### 16px (small) 
-
-<!-- Description --> Small icons are best used when space is limited. We use small icons in our components such as a chevron-down in the select component or a cross-circle-filled in populated text fields.
-
-#### 24px (medium)
-
-Medium icons are used in the majority of our interface. These are our standard size.
-
-#### 32px (large)
-
-Large icons are used sparingly to emphasize a concept or when space is plentiful. Wherever it’s used, consider the fidelity of the icon in the space it’s being used.
 
 ![icon sizes image] (iconsizes.png)
 
