@@ -47,17 +47,13 @@ Using too many icons will become nothing more than decoration.
 
 <!--  This can be arranged as a table -->
 
-<!-- | Format | Description | -->
+| Format | Description |
+ | :------  | :-----------|
+ | *SVG icon*    | The primary purpose of SVG icons is to define vector-based graphics in XML format. However, for icon browsers consider them as text, so the icons are anti-aliased. With inline SVGs, they are vectors with no anti-aliasing issues even at small sizes, and they look crisper on retina displays.       |
+ | *PNG icon*   | A PNG file is an image saved in the Portable Network Graphic (PNG) format, commonly used to store web graphics, digital photographs, and images with transparent backgrounds. It is a raster graphic similar to a . JPG image but is compressed with lossless compression and supports transparency. The advantages of the PNG format include: Lossless compression -- doesn't lose detail and quality after image compression. Supports a large number of colors -- the format is suitable for different types of digital images, including photographs and graphics.       |
 
-#### SVG icon 
 
-The primary purpose of SVG icons is to define vector-based graphics in XML format. However, for icon browsers consider them as text, so the icons are anti-aliased. With inline SVGs, they are vectors with no anti-aliasing issues even at small sizes, and they look crisper on retina displays.
-
-#### PNG icon
-
-A PNG file is an image saved in the Portable Network Graphic (PNG) format, commonly used to store web graphics, digital photographs, and images with transparent backgrounds. It is a raster graphic similar to a . JPG image but is compressed with lossless compression and supports transparency. The advantages of the PNG format include: Lossless compression -- doesn't lose detail and quality after image compression. Supports a large number of colors -- the format is suitable for different types of digital images, including photographs and graphics.
-
-Raster formats like PNG become pixilated when resized. SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix resolution-based issues, depending on the device. For example, in retina screens, a @2x hack is required to display higher-resolution images.
+*Raster formats* like PNG become pixilated when resized. SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix resolution-based issues, depending on the device. For example, in retina screens, a @2x hack is required to display higher-resolution images.
 
 
 ## Visual properties
