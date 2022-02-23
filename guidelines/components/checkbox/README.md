@@ -85,7 +85,7 @@ _Component design specifications_
 
 | Component token          | Element          | Core token                 | Value                        |
 | :----------------------- | :--------------- | :------------------------- | :--------------------------- |
-| `inputMargin`            | Checkbox input   | `spacing-03`               | 0.5rem / 8px                 |
+| `inputMargin`            | Checkbox input   | `spacing-8`               | 0.5rem / 8px                 |
 
 ### Typography
 

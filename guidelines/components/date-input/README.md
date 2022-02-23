@@ -59,9 +59,10 @@ _date input design specifications_
 
 The date input `color`, `typography`, `border`, `spacing`, `width` and `margin` specifications are inherited from the text input, for reference [check the text input component documentation](https://developer.dxc.com/design/guidelines/components/text-input). 
 
-The date input doesn't have the following text input elements, therefore, their listed styles don't apply:
+The date input doesn't have the following text input elements or properties, therefore, their listed styles don't apply:
 
 * Prefix / Suffix
+* The size `small` is not available
 
 
 ### Datepicker dialog
@@ -107,10 +108,10 @@ _Structure and spacing for date picker calendar pop-up_
 
 | Property                      | Element               | Core token      | Value            |
 | :---------------------------- | :-------------------- | :-------------- | :--------------- |
-| `padding`                     |  Calendar container   | `spacing-05`    | 1rem / 16px      |
-| `padding-left/right`          |  Month container      | `spacing-03`    | 0.5rem / 8px     |
-| `padding-left/right`          |  Year selector        | `spacing-05`    | 1rem / 16px      |
-| `padding-top/bottom`          |  Separator            | `spacing-03`    | 0.5rem / 8px     |
+| `padding`                     |  Calendar container   | `spacing-16`    | 1rem / 16px      |
+| `padding-left/right`          |  Month container      | `spacing-8`    | 0.5rem / 8px     |
+| `padding-left/right`          |  Year selector        | `spacing-16`    | 1rem / 16px      |
+| `padding-top/bottom`          |  Separator            | `spacing-8`    | 0.5rem / 8px     |
 
 #### Sizing
 

@@ -78,14 +78,14 @@ The specifications for the autosuggest input can be found in the [input text spe
 
 | Property                            | Element               | Token                   | Value             |
 | :---------------------------------- | :-------------------- | :---------------------- | :---------------- |
-| `padding-top`                       |  List dialog          | `spacing-02`            | 0.25rem / 4px     |
-| `padding-bottom`                    |  List dialog          | `spacing-02`            | 0.25rem / 4px     |
-| `padding-left`                      |  List option          | `spacing-03`            | 0.5rem / 8px      |
-| `padding-right`                     |  List option          | `spacing-03`            | 0.5rem / 8px      |
-| `padding-top`                       |  List option          | `spacing-01`            | 0.125rem / 2px    |
-| `padding-bottom`                    |  List option          | `spacing-01`            | 0.125rem / 2px    |
-| `padding-left`                      |  List option value    | `spacing-03`            | 0.5rem / 8px      |
-| `padding-right`                     |  List option value    | `spacing-03`            | 0.5rem / 8px      |
+| `padding-top`                       |  List dialog          | `spacing-4`            | 0.25rem / 4px     |
+| `padding-bottom`                    |  List dialog          | `spacing-4`            | 0.25rem / 4px     |
+| `padding-left`                      |  List option          | `spacing-8`            | 0.5rem / 8px      |
+| `padding-right`                     |  List option          | `spacing-8`            | 0.5rem / 8px      |
+| `padding-top`                       |  List option          | `spacing-2`            | 0.125rem / 2px    |
+| `padding-bottom`                    |  List option          | `spacing-2`            | 0.125rem / 2px    |
+| `padding-left`                      |  List option value    | `spacing-8`            | 0.5rem / 8px      |
+| `padding-right`                     |  List option value    | `spacing-8`            | 0.5rem / 8px      |
 
 ## Links and references
 

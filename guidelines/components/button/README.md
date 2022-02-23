@@ -50,16 +50,16 @@ _Design specifications for button component_
 
 | Component token                | Element          | Core token        | Value           |
 | :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `primaryPaddingLeft`           | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingRight`          | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingTop`            | Container        | `spacing-03`      | 0.5rem / 8px    |
-| `primaryPaddingBottom`         | Container        | `spacing-03`      | 0.5rem / 8px    |
+| `primaryPaddingLeft`           | Container        | `spacing-8`      | 0.5rem / 8px    |
+| `primaryPaddingRight`          | Container        | `spacing-8`      | 0.5rem / 8px    |
+| `primaryPaddingTop`            | Container        | `spacing-8`      | 0.5rem / 8px    |
+| `primaryPaddingBottom`         | Container        | `spacing-8`      | 0.5rem / 8px    |
 
 | Property                       | Element          | Core token        | Value           |
 | :----------------------------- | :--------------- | :---------------- | :-------------- |
-| `margin-right`                 | Label            | `spacing-03`      | 0.5rem / 8px    |
-| `margin-left`                  | Label            | `spacing-03`      | 0.5rem / 8px    |
-| `margin-left`                  | Icon             | `spacing-03`      | 0.5rem / 8px    |
+| `margin-right`                 | Label            | `spacing-8`      | 0.5rem / 8px    |
+| `margin-left`                  | Label            | `spacing-8`      | 0.5rem / 8px    |
+| `margin-left`                  | Icon             | `spacing-8`      | 0.5rem / 8px    |
 
 
 ### Size
