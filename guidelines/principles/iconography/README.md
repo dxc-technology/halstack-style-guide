@@ -117,6 +117,14 @@ Icons should be of 2D
 Description here
 
 
+## Accessibility
+All icons should have a text-based equivalent for screen readers. If icon allows interactivity, give it a text label. Screen readers handle the two major icon types differently. Informational icons are read to convey information to users, while decorative icons are ignored. Choose the right icon type for each use case
+
+Icons have different accessibility requirements depending on the context they are being used in. There are three main use cases for icons and how they should be implemented in an accessible way
+
+* Default
+* Interactive
+* Status/Indicator
 
 
 
