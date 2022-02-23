@@ -2,18 +2,11 @@
 
 Icons are symbols used for representation and identification of apps or services at a glance. Icons are most effective when they improve visual interest and grab the user's attention. They guide users while they're navigating a page.
 
-## What are Icons used for?
-
 Icons convey immediate meaning and provide shortcuts. Reading text requires more energy than deciphering an icon. Icons can be used to allow for scanning and increase readability.
-
-## Usage recommendations
 
 ### When to use icons?
 
-
-<!--  Merge the two first subsections into one that serves as intrduction to the actionable list  to be done-->
-
-Icons and imagery are noticed before anything else, because we can eye-scan over them faster than text.
+Icon design is a blend of professional and playful. Icons should be simple, approachable, and legible, distinguished by negative space and large rounded corners. Icons should be recognizable and easy to remember. Icons and imagery are noticed before anything else, because we can eye-scan over them faster than text.
 
 You Should use icons When Text Labels Are Overkill. Naturally, you should use an icon when you don’t have enough space for a text label, but this isn’t always the best reason to use an icon. First you should consider creating space in other ways; this might include simplifying the layout or removing unnecessary distractions
 
