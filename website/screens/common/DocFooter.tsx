@@ -1,10 +1,11 @@
-import styled from "styled-components";
-import DxcRow from "./Row";
-import DxcStack from "./Stack";
-import DxcText from "./Text";
-import { DxcLink } from "@dxc-technology/halstack-react";
-import { getNavigationLinks } from "./pagesList";
 import { useRouter } from "next/router";
+import {
+  DxcText,
+  DxcLink,
+  DxcStack,
+  DxcRow,
+} from "@dxc-technology/halstack-react";
+import { getNavigationLinks } from "./pagesList";
 
 const DocFooter = ({ githubLink }: { githubLink: string }) => {
   const { pathname } = useRouter();

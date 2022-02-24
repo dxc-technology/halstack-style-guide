@@ -1,10 +1,12 @@
 import PageLayout from "../../common/PageLayout";
-import { DxcHeading } from "@dxc-technology/halstack-react";
+import {
+  DxcHeading,
+  DxcText,
+  DxcList,
+  DxcStack,
+} from "@dxc-technology/halstack-react";
 import HeadingLink from "../../common/HeadingLink";
-import DxcText from "../../common/Text";
-import DxcList from "../../common/List";
 import DocFooter from "../../common/DocFooter";
-import DxcStack from "../../common/Stack";
 
 const Introduction = () => {
   return (
@@ -17,7 +19,7 @@ const Introduction = () => {
             text="Halstack Design System"
             weight="bold"
           ></DxcHeading>
-          <DxcText>
+          <DxcText as="p">
             Halstack is the DXC Technology&#39;s open source design system for
             insurance products and digital experiences. Our system provides all
             the tools and resources needed to create superior, beautiful but
@@ -29,18 +31,18 @@ const Introduction = () => {
             Design principles
           </HeadingLink>
 
-          <DxcText>
+          <DxcText as="p">
             Halstack design principles are the fundamental part of DXC
             Technology&#39;s approach to provide guidance for development teams
             in order to deliver delightful and consistent user experiences to
             our customers:
           </DxcText>
           <DxcList>
-            <DxcText>Balance </DxcText>
-            <DxcText>Consistency </DxcText>
-            <DxcText>Visual hierarchy </DxcText>
+            <DxcText as="p">Balance </DxcText>
+            <DxcText as="p">Consistency </DxcText>
+            <DxcText as="p">Visual hierarchy </DxcText>
           </DxcList>
-          <DxcText>
+          <DxcText as="p">
             All our components, design tokens, accessibility guidelines,
             responsive design techniques, and layout proposals have been
             carefully curated by DXC design and engineering teams with the
@@ -53,12 +55,12 @@ const Introduction = () => {
             Open Source
           </HeadingLink>
 
-          <DxcText>
+          <DxcText as="p">
             Halstack is an open source design system, this means that we work
             towards DXC Technology bussines needs, but it is open for anyone to
             use and contribute back to.
           </DxcText>
-          <DxcText>
+          <DxcText as="p">
             We are charmed to receive external contributions to help us find
             bugs, design new features, or help us improve the project
             documentation. If you&#39;re interested, definitely check out our{" "}
@@ -76,7 +78,7 @@ const Introduction = () => {
             Design
           </HeadingLink>
 
-          <DxcText>
+          <DxcText as="p">
             In addition to our design guidelines, we mantain an{" "}
             <a href="https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac">
               Adobe XD public library
@@ -89,23 +91,23 @@ const Introduction = () => {
             Code implementation
           </HeadingLink>
 
-          <DxcText>
+          <DxcText as="p">
             We also have our components documentation available in the following
             frameworks:
           </DxcText>
           <DxcList>
-            <DxcText>
+            <DxcText as="p">
               <a href="https://developer.dxc.com/tools/react/next/#/">
                 React documentation
               </a>
             </DxcText>
-            <DxcText>
+            <DxcText as="p">
               <a href="https://developer.dxc.com/tools/angular/next/#/">
                 Angular documentation
               </a>
             </DxcText>
           </DxcList>
-          <DxcText>
+          <DxcText as="p">
             If you’re using a different framework, you can still build
             components by following our design guidelines.
           </DxcText>
@@ -113,24 +115,24 @@ const Introduction = () => {
             GitHub
           </HeadingLink>
 
-          <DxcText>
+          <DxcText as="p">
             Our code implementation is available in the following GitHub public
             repositories:
           </DxcText>
           <DxcList>
-            <DxcText>
+            <DxcText as="p">
               <a href="https://github.com/dxc-technology/halstack-style-guide">
                 halstack-style-guide
               </a>
               : Design guidelines
             </DxcText>
-            <DxcText>
+            <DxcText as="p">
               <a href="https://github.com/dxc-technology/halstack-react">
                 halstack-react
               </a>
               : React CDK
             </DxcText>
-            <DxcText>
+            <DxcText as="p">
               <a href="https://github.com/dxc-technology/halstack-angular">
                 halstack-angular
               </a>
