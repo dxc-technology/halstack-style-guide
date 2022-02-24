@@ -46,8 +46,9 @@ As we approached the foundational elements with simplification and standardizati
 | `font-scale-04`               | _Set the font size as 20px_                   | `font-size`         | 1.25         | 
 | `font-scale-05`               | _Set the font size as 24px_                   | `font-size`         | 1.5          | 
 | `font-scale-06`               | _Set the font size as 32px_                   | `font-size`         | 2            | 
-| `font-scale-07`               | _Set the font size as 48px_                   | `font-size`         | 3            | 
-| `font-scale-08`               | _Set the font size as 60px_                   | `font-size`         | 3.75         | 
+| `font-scale-07`               | _Set the font size as 40px_                   | `font-size`         | 2.5          | 
+| `font-scale-08`               | _Set the font size as 48px_                   | `font-size`         | 3            | 
+| `font-scale-09`               | _Set the font size as 60px_                   | `font-size`         | 3.75         | 
 
 ## Formatting
 
