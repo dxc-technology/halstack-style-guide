@@ -56,7 +56,7 @@ Using too many icons will become nothing more than decoration.
 *Raster formats* like PNG become pixilated when resized. SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix resolution-based issues, depending on the device. For example, in retina screens, a @2x hack is required to display higher-resolution images.
 
 
-### Visual properties
+## Visual properties
 
 <!--  Provide a visual example of each of the subsection of the visual properties guidelines (Follow)
 
