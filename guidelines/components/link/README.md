@@ -41,18 +41,6 @@ _Design specifications for link component_
 | `focusColor`                                      | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 
-### On-dark
-
-| Component token                                   | Element             | Core token               | Value       |
-| :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
-| `fontColorOnDark`                                 | Label               | `color-blue-600`         | #0095ff     |
-| `hoverFontColorOnDark`                            | Label:hover         | `color-blue-600`         | #0095ff     |
-| `activeFontColorOnDark`                           | Label:active        | `color-white`            | #ffffff     |
-| `disabledFontColorOnDark`                         | Label:disabled      | `color-grey-700`         | #666666     |
-| `visitedFontColorOnDark`                          | Label:visited       | `color-purple-500`       | #a46ede     |
-| `hoverUnderlineColorOnDark`                       | Underline:hover     | `color-blue-600`         | #0095ff     |
-| `visitedUnderlineColorOnDark`                     | Underline:visited   | `color-purple-500`       | #a46ede     |
-| `focusColorOnDark`                                | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 ### Margin
 
