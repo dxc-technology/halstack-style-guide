@@ -56,7 +56,7 @@ Using too many icons will become nothing more than decoration.
 *Raster formats* like PNG become pixilated when resized. SVG graphics are resolution-independent. Other image formats may require extra assets/data to fix resolution-based issues, depending on the device. For example, in retina screens, a @2x hack is required to display higher-resolution images.
 
 
-## Visual properties
+### Visual properties
 
 <!--  Provide a visual example of each of the subsection of the visual properties guidelines (Follow)
 
@@ -77,7 +77,7 @@ Example of a subsection:
  
  -->
 
-## Utility icons
+### Utility icons
 These are simple, single-color glyphs that identify labels and actions across form factors. They can be paired with text or used alone, and can be any color. They have no background shape
 
 ![image] (Image.png)       
@@ -88,7 +88,7 @@ _Examples of icon_
  | :------  | :-----------|
  | Value    | Value       |
  
-## Object icons
+### Object icons
 These fall into two categories. Standard object icons (e.g., Accounts, Leads, Opportunities, and Cases), Custom object icons are a unique set of icons used to create custom objects.
 
 ![image] (Image.png)       
@@ -100,7 +100,7 @@ _Examples of icon_
  | Value    | Value       |
  
  
-## Action icons
+### Action icons
 These are touch-device specific icons that appear next to an item—for example, a page header or card—to let users take action in a specific context. Each action icon is made up of a white glyph on a colored circle. Action icons use a specific, limited color palette.
 
 ![image] (Image.png)       
@@ -112,7 +112,7 @@ _Examples of icon_
  | Value    | Value       |
  
  
-## Doctype icons
+### Doctype icons
 These represent document file formats. Each doctype icon is made up of a white glyph representing its file type, on a background resembling a piece of paper with a folded corner.
 
 ![image] (Image.png)       
@@ -124,7 +124,7 @@ _Examples of icon_
  | Value    | Value       |
  
  
-## Product icons
+### Product icons
 These represent represent applications using product logos. On the desktop, they’re used only in the app launcher. On mobile-device home screens, they launch the corresponding mobile app. Product icons are full color and use official product color palettes.
 
 ![image] (Image.png)       
