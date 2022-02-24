@@ -35,67 +35,64 @@ An inherit color from the definition of the application is received, so the comp
 
 ### Typography
 
-#### Hal-Headings-H1
+#### Heading H1
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ |  
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 300                       | `font-light`              | 
-| `font-size`         | 60px / 3.75rem            | `font-scale-08`           | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 32px / 2.5rem             | `font-scale-07`           | 
 | `font-style`        | regular                   | `font-normal`             | 
 | `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | -12.5px / -0.0125em       | `font-tracking-tight-01`  | 
-| `line-height`       | 81.9px/  1.365em          | `font-leading-compact-01` |
 
-#### Hal-Headings-H2
 
-| Property            | Value                     | Token                     | 
-| :------------------ | :------------------------ | :------------------------ | 
-| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
-| `font-size`         | 48px / 3rem               | `font-scale-07`           | 
-| `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           | 
-| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 65.52px / 1.365em         | `font-leading-compact-01` | 
-
-#### Hal-Headings-H3
+#### Heading H2
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
-| `font-size`         | 32px / 2rem               | `font-scale-06`           | 
-| `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           | 
-| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 48px / 1.5em              | `font-leading-normal`     | 
-
-#### Hal-Headings-H4
-
-| Property            | Value                     | Token                     | 
-| :------------------ | :------------------------ | :------------------------ | 
-| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
 | `font-size`         | 24px / 1.5rem             | `font-scale-05`           | 
 | `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           |
+| `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 36px / 1.5em              | `font-leading-normal`     | 
 
-#### Hal-Headings-H5
+
+#### Heading H3  
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
 | `font-size`         | 20px / 1.25rem            | `font-scale-04`           | 
 | `font-style`        | regular                   | `font-normal`             | 
 | `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 30px / 1.5em              | `font-leading-normal`     | 
 
 
+#### Heading H4
+
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 16px / 1rem               | `font-scale-03`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           |
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+
+
+#### Heading H5
+
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 14px / 0.875rem           | `font-scale-02`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
 
 ## Accesibility
 
