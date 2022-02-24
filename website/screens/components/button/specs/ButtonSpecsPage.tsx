@@ -1,6 +1,7 @@
 import Image from "next/image";
 import buttonSpecsImage from "./images/button_specs.png";
 import { DxcTable } from "@dxc-technology/halstack-react";
+import DocFooter from "../../../common/DocFooter";
 
 const ButtonSpecs = () => {
   return (
@@ -847,6 +848,7 @@ const ButtonSpecs = () => {
           </tr>
         </tbody>
       </DxcTable>
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
     </>
   );
 };

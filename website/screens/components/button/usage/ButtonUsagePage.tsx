@@ -5,6 +5,7 @@ import Code from "../../../common/Code";
 import buttonIconImage from "./images/button_icon.png";
 import buttonStatesImage from "./images/button_states.png";
 import buttonVariantsImage from "./images/button_variants.png";
+import DocFooter from "../../../common/DocFooter";
 
 const ButtonUsage = () => {
   return (
@@ -173,11 +174,7 @@ const ButtonUsage = () => {
           </a>
         </li>
       </ul>
-      <p>
-        <a href="https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/components/button/README.md">
-          Edit this page on Github
-        </a>
-      </p>
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
     </>
   );
 };

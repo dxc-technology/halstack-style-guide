@@ -22,7 +22,6 @@ const componentsLinks: LinkDetails[] = [
   { label: "Text Input", path: "/components/text-input" },
 ];
 
-
 export const LinksSections: LinksSectionDetails[] = [
   { label: "Overview", links: overviewLinks },
   { label: "Components", links: componentsLinks },
@@ -30,7 +29,9 @@ export const LinksSections: LinksSectionDetails[] = [
 
 export const getNavigationLinks = (currentPath: string): NavigationLinks => {
   const links = LinksSections.flatMap((section) => section.links);
-  const currentLinkIndex = links.findIndex((link) => link.path === currentPath);
+  const currentLinkIndex = links.findIndex((link) =>
+    currentPath.startsWith(link.path)
+  );
   if (currentLinkIndex === -1) {
     return { previousLink: null, nextLink: null };
   }
