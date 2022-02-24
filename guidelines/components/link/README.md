@@ -38,7 +38,7 @@ _Design specifications for link component_
 | `hoverUnderlineColor`                             | Underline:hover     | `color-blue-800`         | #0067b3     |
 | `activeUnderlineColor`                            | Underline:active    | `color-black`            | #000000     |
 | `visitedUnderlineColor`                           | Underline:visited   | `color-purple-700`       | #5f249f     |
-| `focusColor`                                      | Outline:focus       | `color-blue-800`         | #0067b3     |
+| `focusColor`                                      | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 
 ### On-dark
