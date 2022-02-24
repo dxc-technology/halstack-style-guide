@@ -1,6 +1,11 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import { DxcTabs } from "@dxc-technology/halstack-react";
+import {
+  DxcTabs,
+  DxcStack,
+  DxcText,
+  DxcHeading,
+} from "@dxc-technology/halstack-react";
 
 type PageHeadingProps = {
   title: string;
@@ -25,43 +30,32 @@ const PageHeading = ({
 
   return (
     <>
-      <HeadingContainer>
-        <Title>{title}</Title>
-        <Description>{description}</Description>
-        <DxcTabs
-          activeTabIndex={activeTabIndex}
-          tabs={tabsList}
-          onTabClick={handleTabChange}
-        ></DxcTabs>
-      </HeadingContainer>
-      <TabContentContainer>{children}</TabContentContainer>
+      <LayoutContainer>
+        <DxcStack gutter="xxlarge">
+          <DxcStack gutter="large">
+            <DxcHeading
+              text={title}
+              level={3}
+              as="h1"
+              weight="bold"
+            ></DxcHeading>
+            <DxcText>{description}</DxcText>
+          </DxcStack>
+          <DxcTabs
+            activeTabIndex={activeTabIndex}
+            tabs={tabsList}
+            onTabClick={handleTabChange}
+          ></DxcTabs>
+          <div>{children}</div>
+        </DxcStack>
+      </LayoutContainer>
     </>
   );
 };
 
-const HeadingContainer = styled.div`
+const LayoutContainer = styled.div`
   width: var(--content-width);
-  margin-left: var(--content-margin-left);
-  display: flex;
-  flex-direction: column;
-`;
-
-const Title = styled.h1`
-  height: 43px;
-  font-size: 32px;
-  font-weight: 600;
-  margin: var(--content-margin-top) 0px 24px 0px;
-`;
-
-const Description = styled.p`
-  font-size: 16px;
-  margin: 0px 0px 32px 0px;
-`;
-
-const TabContentContainer = styled.div`
-  width: var(--content-width);
-  margin-left: var(--content-margin-left);
-  margin-top: 48px;
+  margin: var(--content-margin-vertical) var(--content-margin-left);
 `;
 
 export default PageHeading;
