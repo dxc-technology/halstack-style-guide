@@ -19,13 +19,12 @@ Navigating through the `Headings-H1` and `Headings-H3` give a user an overview o
 
 ## Appearance
 
-The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios. The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
+The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. The font size goes from 32 pixels for the `<h1>` heading to 14 pixels for the `<h5>` level.
 
-![Variations of the heading](images/heading.png)
+![Variations of the heading](images/heading_scale.png)
 
 There are several scenarios where the use of heading is just right when we are talking about the title for a section, header of a table, a definition of the elements that will appear below the title or an introduction for a paragraph. 
 
-Apart from that, many of the design system components are making use of headings in their implementation (e.g., card, dialog, sidenav and so on). 
 
 ## Design tokens
 
@@ -35,7 +34,7 @@ An inherit color from the definition of the application is received, so the comp
 
 ### Typography
 
-#### Heading H1
+#### Headings H1
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ |  
@@ -47,7 +46,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    | -12.5px / -0.0125em       | `font-tracking-tight-01`  | 
 
 
-#### Heading H2
+#### Headings H2
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
@@ -59,7 +58,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
 
 
-#### Heading H3  
+#### Headings H3  
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
@@ -71,7 +70,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
 
 
-#### Heading H4
+#### Headings H4
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
@@ -83,7 +82,7 @@ An inherit color from the definition of the application is received, so the comp
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
 
 
-#### Heading H5
+#### Headings H5
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
@@ -110,7 +109,7 @@ An inherit color from the definition of the application is received, so the comp
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/heading)
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/heading)
-* [Adobe XD component]()
+* [Adobe XD component](https://xd.adobe.com/view/4c68a380-346b-474b-88da-1005cf2dd54c-193b/)
 
 ____________________________________________________________
 
