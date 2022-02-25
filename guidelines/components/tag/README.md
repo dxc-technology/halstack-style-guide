@@ -92,6 +92,11 @@ _Design specification for the tag component_
 | `height`          | Container        | -              | 40px       |
 | `iconHeight`      | Icon             | -              | 24px       |
 
+### Opacity
+
+| Property          | Element          | Core token     | Value      |
+| :---------------- | :--------------- | :------------- | :--------- |
+| `opacity`         | Icon             | -              | 0.4        |
 
 ## Links and references
 
