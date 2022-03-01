@@ -20,6 +20,7 @@ const overviewLinks: LinkDetails[] = [
 const componentsLinks: LinkDetails[] = [
   { label: "Button", path: "/components/button" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Date Input", path: "/components/date-input" },
 ];
 
 export const LinksSections: LinksSectionDetails[] = [
