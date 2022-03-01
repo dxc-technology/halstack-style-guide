@@ -13,17 +13,17 @@ const SpinnerUsagePage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             There should only be a single spinner on a page at one time.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Only use the spinner component in a process that takes more than one
             second.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             The text of the action it is not mandatory but recommendable.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             If only a portion of a page is displaying new content or being
             updated, use a <Code>medium</Code> or <Code>small</Code> spinner
             place the spinner in that part of the page.
@@ -46,16 +46,16 @@ const SpinnerUsagePage = () => {
           />
         </Figure>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             Determinate indicators display how long a process will take. They
             should be used in longer processes.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Indeterminate indicators express an unspecified amount of wait time.
             They should be used when:
             <DxcList>
-              <DxcText as="p">The processing time is unknown.</DxcText>
-              <DxcText as="p">
+              <DxcText>The processing time is unknown.</DxcText>
+              <DxcText>
                 The wait time is expected to be short enough that it’s not
                 necessary to display.
               </DxcText>
