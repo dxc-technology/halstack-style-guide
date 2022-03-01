@@ -21,11 +21,11 @@ const PaginatorSpecsPage = () => {
           <Image src={paginatorAnatomy} alt="Paginator anatomy" />
         </Figure>
         <DxcList type="number">
-          <DxcText as="p">Container</DxcText>
-          <DxcText as="p">Items per page</DxcText>
-          <DxcText as="p">Items indicator</DxcText>
-          <DxcText as="p">Page actions</DxcText>
-          <DxcText as="p">Page selector</DxcText>
+          <DxcText>Container</DxcText>
+          <DxcText>Items per page</DxcText>
+          <DxcText>Items indicator</DxcText>
+          <DxcText>Page actions</DxcText>
+          <DxcText>Page selector</DxcText>
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">

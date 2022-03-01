@@ -11,15 +11,15 @@ const PaginatorUsagePage = () => {
           Usage considerations about the paginator component:
         </DxcText>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             Use the paginator when the number of elements is affecting the
             system load, or when the screen size grows considerably
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Always place the paginator at the bottom of the data that is being
             divided
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Identify the current page and the number of elements that are being
             displayed
           </DxcText>
