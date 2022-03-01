@@ -33,12 +33,7 @@ const PageHeading = ({
       <LayoutContainer>
         <DxcStack gutter="xxlarge">
           <DxcStack gutter="large">
-            <DxcHeading
-              text={title}
-              level={3}
-              as="h1"
-              weight="bold"
-            ></DxcHeading>
+            <DxcHeading text={title} level={1} weight="bold"></DxcHeading>
             <DxcText>{description}</DxcText>
           </DxcStack>
           <DxcTabs
