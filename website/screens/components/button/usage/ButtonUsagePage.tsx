@@ -30,19 +30,19 @@ const ButtonUsage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             In instances where buttons are vertically stacked, buttons should be
             the same length.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Horizontally displayed buttons are dependent on the amount of text,
             so button lengths may vary, always considering the minimum and
             maximum established sizes.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Text or icon on a button should always be centered.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             There must be 8 pixels of space between horizontally displayed
             buttons.
           </DxcText>
@@ -123,16 +123,16 @@ const ButtonUsage = () => {
           icons along the application to keeping concistency.
         </DxcText>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             Icon can go before or after the text with a separation of 8 pixels
             respecting the main button&#39;s text.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Do not use icons mainly for visual interest, the glyph must add
             information and clarification to the action that would be performed
             in the context of the button.
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             A button with an icon and no text is also allowed in the design
             system.
           </DxcText>

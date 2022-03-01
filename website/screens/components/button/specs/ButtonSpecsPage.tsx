@@ -862,7 +862,7 @@ const ButtonSpecs = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Accessibility</HeadingLink>
         <DxcList>
-          <DxcText as="p">
+          <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible"
@@ -870,7 +870,7 @@ const ButtonSpecs = () => {
               newWindow
             />
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/on-input"
@@ -878,7 +878,7 @@ const ButtonSpecs = () => {
               newWindow
             />
           </DxcText>
-          <DxcText as="p">
+          <DxcText>
             WAI-ARIA Authoring Practices 1.2 -{" "}
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#button"
