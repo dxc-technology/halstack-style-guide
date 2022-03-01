@@ -9,7 +9,8 @@ const ButtonPageHeading = ({ children }: { children: React.ReactNode }) => {
   return (
     <PageHeading
       title="Button"
-      description="Lorem ipsum button sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      description="Buttons are basic interface elements that initialize an action or function
+      when the user interacts with them."
       tabs={tabs}
     >
       {children}
