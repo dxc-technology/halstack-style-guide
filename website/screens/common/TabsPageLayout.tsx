@@ -35,8 +35,7 @@ const PageHeading = ({
           <DxcStack gutter="large">
             <DxcHeading
               text={title}
-              level={3}
-              as="h1"
+              level={1}
               weight="bold"
             ></DxcHeading>
             <DxcText>{description}</DxcText>
