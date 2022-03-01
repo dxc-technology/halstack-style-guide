@@ -14,8 +14,7 @@ const Introduction = () => {
       <DxcStack gutter="xxxlarge">
         <DxcStack gutter="large">
           <DxcHeading
-            level={3}
-            as="h1"
+            level={1}
             text="Halstack Design System"
             weight="bold"
           ></DxcHeading>
@@ -27,9 +26,7 @@ const Introduction = () => {
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Design principles
-          </HeadingLink>
+          <HeadingLink level={2}>Design principles</HeadingLink>
 
           <DxcText as="p">
             Halstack design principles are the fundamental part of DXC
@@ -51,9 +48,7 @@ const Introduction = () => {
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Open Source
-          </HeadingLink>
+          <HeadingLink level={2}>Open Source</HeadingLink>
 
           <DxcText as="p">
             Halstack is an open source design system, this means that we work
@@ -71,12 +66,8 @@ const Introduction = () => {
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Our Assets
-          </HeadingLink>
-          <HeadingLink level={5} as="h3">
-            Design
-          </HeadingLink>
+          <HeadingLink level={2}>Our Assets</HeadingLink>
+          <HeadingLink level={3}>Design</HeadingLink>
 
           <DxcText as="p">
             In addition to our design guidelines, we mantain an{" "}
@@ -87,9 +78,7 @@ const Introduction = () => {
             quickly create solutions four our clients. Helping them focusing on
             innovation and user experience.
           </DxcText>
-          <HeadingLink level={5} as="h3">
-            Code implementation
-          </HeadingLink>
+          <HeadingLink level={3}>Code implementation</HeadingLink>
 
           <DxcText as="p">
             We also have our components documentation available in the following
@@ -111,9 +100,7 @@ const Introduction = () => {
             If you’re using a different framework, you can still build
             components by following our design guidelines.
           </DxcText>
-          <HeadingLink level={5} as="h3">
-            GitHub
-          </HeadingLink>
+          <HeadingLink level={3}>GitHub</HeadingLink>
 
           <DxcText as="p">
             Our code implementation is available in the following GitHub public
