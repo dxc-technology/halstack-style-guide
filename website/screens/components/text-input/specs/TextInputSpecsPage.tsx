@@ -32,9 +32,7 @@ const TextInputSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Anatomy</HeadingLink>
-        <Figure caption="Text input anatomy.">
-          <Image src={inputAnatomy} alt="Text input anatomy." />
-        </Figure>
+        <Image src={inputAnatomy} alt="Text input anatomy." />
         <DxcList type="number">
           <DxcText>Label text</DxcText>
           <DxcText>Helper text (Optional)</DxcText>
