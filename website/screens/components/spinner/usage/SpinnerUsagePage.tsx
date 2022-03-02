@@ -50,17 +50,19 @@ const SpinnerUsagePage = () => {
             Determinate indicators display how long a process will take. They
             should be used in longer processes.
           </DxcText>
-          <DxcText>
-            Indeterminate indicators express an unspecified amount of wait time.
-            They should be used when:
-            <DxcList>
+          <DxcStack gutter="xsmall">
+            <DxcText>
+              Indeterminate indicators express an unspecified amount of wait
+              time. They should be used when:
+            </DxcText>
+            <DxcList type="circle">
               <DxcText>The processing time is unknown.</DxcText>
               <DxcText>
                 The wait time is expected to be short enough that it’s not
                 necessary to display.
               </DxcText>
             </DxcList>
-          </DxcText>
+          </DxcStack>
         </DxcList>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/spinner/usage/SpinnerUsagePage.tsx" />
