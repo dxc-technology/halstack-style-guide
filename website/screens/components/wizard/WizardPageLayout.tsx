@@ -1,6 +1,6 @@
 import PageHeading from "../../common/TabsPageLayout";
 
-const ButtonPageHeading = ({ children }: { children: React.ReactNode }) => {
+const WizardPageHeading = ({ children }: { children: React.ReactNode }) => {
   const tabs = [
     { label: "Usage", path: "/components/wizard" },
     { label: "Specifications", path: "/components/wizard/specifications" },
@@ -17,4 +17,4 @@ const ButtonPageHeading = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default ButtonPageHeading;
+export default WizardPageHeading;
