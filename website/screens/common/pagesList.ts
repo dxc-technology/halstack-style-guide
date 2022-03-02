@@ -18,6 +18,7 @@ const overviewLinks: LinkDetails[] = [
 ];
 
 const componentsLinks: LinkDetails[] = [
+  { label: "Alert", path: "/components/alert" },
   { label: "Button", path: "/components/button" },
   { label: "Text Input", path: "/components/text-input" },
 ];
