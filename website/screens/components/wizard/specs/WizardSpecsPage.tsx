@@ -1,8 +1,16 @@
-import { DxcTable, DxcStack, DxcText } from "@dxc-technology/halstack-react";
+import {
+  DxcTable,
+  DxcStack,
+  DxcText,
+  DxcList,
+  DxcLink,
+} from "@dxc-technology/halstack-react";
 import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import spacingImage from "./images/wizard_specs_spacing.png";
 import stepperImage from "./images/wizard_specs_stepper.png";
+import statesImage from "./images/wizard_states.png";
+import anatomyImage from "./images/wizard_anatomy.png";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
@@ -10,6 +18,34 @@ import DocFooter from "../../../common/DocFooter";
 const WizardSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>States</HeadingLink>
+        <DxcText as="p">
+          States: <strong>enabled</strong>, <strong>focus</strong>,{" "}
+          <strong>selected</strong>, <strong>unvisited</strong> and{" "}
+          <strong>disabled</strong>.
+        </DxcText>
+        <Figure caption="Example of the wizard stepper states">
+          <Image src={statesImage} alt="Example of the wizard stepper states" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <Figure caption="Wizard component anatomy">
+          <Image src={anatomyImage} alt="Wizard component anatomy" />
+        </Figure>
+        <DxcList type="number">
+          <DxcText>Stepper</DxcText>
+          <DxcText>Label</DxcText>
+          <DxcText>Separator</DxcText>
+          <DxcText>
+            Helper text <em>(Optional)</em>
+          </DxcText>
+          <DxcText>
+            Step validator <em>(Optional)</em>
+          </DxcText>
+        </DxcList>
+      </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Design Specifications</HeadingLink>
         <Figure caption="Wizard stepper specifications">
@@ -626,6 +662,52 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Accessibility</HeadingLink>
+        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink
+              href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
+              text="
+              SC 1.3.1: Info and Relationships"
+            />
+          </DxcText>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink
+              href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html"
+              text="SC 2.2.1: Timing Adjustable"
+            />
+          </DxcText>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink
+              href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
+              text="SC 2.2.2: Pause, Stop, Hide"
+            />
+          </DxcText>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink
+              href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
+              text="SC 3.3.2: Labels or Instructions"
+            />
+          </DxcText>
+        </DxcList>
+        <HeadingLink level={3}>WAI-ARIA</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Web accessibility tutorials -{" "}
+            <DxcLink
+              href="https://www.w3.org/WAI/tutorials/forms/multi-page/"
+              text="
+              Multi-page forms"
+            />
+          </DxcText>
+        </DxcList>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/wizard/specs/WizardSpecsPage.tsx" />
     </DxcStack>

@@ -2,14 +2,11 @@ import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
 import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import variantsImage from "./images/wizard_variants.png";
-import statesImage from "./images/wizard_states.png";
-import anatomyImage from "./images/wizard_anatomy.png";
+import Figure from "../../../common/Figure";
+import DocFooter from "../../../common/DocFooter";
 import validationImage from "./images/wizard_validation.png";
 import contentImage from "./images/wizard_content.png";
 import helperTextImage from "./images/wizard_helper_text.png";
-import Figure from "../../../common/Figure";
-import Code from "../../../common/Code";
-import DocFooter from "../../../common/DocFooter";
 
 const WizardUsagePage = () => {
   return (
@@ -27,6 +24,8 @@ const WizardUsagePage = () => {
             information.
           </DxcText>
         </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Variants</HeadingLink>
         <DxcText as="p">
           The wizard component has two variants: <strong>horizontal</strong> and{" "}
@@ -38,30 +37,8 @@ const WizardUsagePage = () => {
             alt="Examples of horizontal and vertizal wizard flows"
           />
         </Figure>
-        <HeadingLink level={2}>States</HeadingLink>
-        <DxcText as="p">
-          States: <strong>enabled</strong>, <strong>focus</strong>,{" "}
-          <strong>selected</strong>, <strong>unvisited</strong> and{" "}
-          <strong>disabled</strong>.
-        </DxcText>
-        <Figure caption="Example of the wizard stepper states">
-          <Image src={statesImage} alt="Example of the wizard stepper states" />
-        </Figure>
-        <HeadingLink level={2}>Anatomy</HeadingLink>
-        <Figure caption="Wizard component anatomy">
-          <Image src={anatomyImage} alt="Wizard component anatomy" />
-        </Figure>
-        <DxcList type="number">
-          <DxcText>Stepper</DxcText>
-          <DxcText>Label</DxcText>
-          <DxcText>Separator</DxcText>
-          <DxcText>
-            Helper text <em>(Optional)</em>
-          </DxcText>
-          <DxcText>
-            Step validator <em>(Optional)</em>
-          </DxcText>
-        </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Validation</HeadingLink>
         <DxcText as="p">
           There could be some scenarios in which the content of a step wants to
@@ -78,6 +55,8 @@ const WizardUsagePage = () => {
             alt="Example of wizard step validation"
           />
         </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Content</HeadingLink>
         <DxcText as="p">
           Different variations of the content can be performed in the stepper:
@@ -93,6 +72,8 @@ const WizardUsagePage = () => {
             alt="Examples of wizard content with an icon"
           />
         </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Helper text</HeadingLink>
         <DxcText as="p">
           Helper text can be added to the wizard component stepper:
