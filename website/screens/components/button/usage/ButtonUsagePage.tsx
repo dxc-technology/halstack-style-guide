@@ -15,6 +15,7 @@ const ButtonUsage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
+        <HeadingLink level={2}>Usage</HeadingLink>
         <DxcText as="p">
           The appearance of the button should suggest the user takes an action
           that leads to different scenarios.
@@ -25,9 +26,9 @@ const ButtonUsage = () => {
           designed to capture user attention and improve the user experience
           within the application.
         </DxcText>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>Usage</HeadingLink>
+        <DxcText as="p">
+          Usage considerations about the button component:
+        </DxcText>
         <DxcList>
           <DxcText>
             In instances where buttons are vertically stacked, buttons should be
@@ -46,7 +47,7 @@ const ButtonUsage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Variants</HeadingLink>
+        <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">
           We can identify three different variants that imply some visual
           changes according to color and border attributes.
@@ -96,7 +97,7 @@ const ButtonUsage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Icon Usage</HeadingLink>
+        <HeadingLink level={3}>Icon Usage</HeadingLink>
         <DxcText as="p">
           Any icon can be used in Halstack Design System, so it is apt to the
           user to choose between one of the multiple options that are offered

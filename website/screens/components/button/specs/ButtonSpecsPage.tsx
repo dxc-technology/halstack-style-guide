@@ -17,7 +17,16 @@ const ButtonSpecs = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Design specifications for button component">
+          <Image
+            src={buttonSpecsImage}
+            alt="Design specifications for button component"
+          />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           The states are the different behaviors of the button component based
           on the interaction of the user. For the desktop version, we
@@ -33,15 +42,9 @@ const ButtonSpecs = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Figure caption="Design specifications for button component">
-          <Image
-            src={buttonSpecsImage}
-            alt="Design specifications for button component"
-          />
-        </Figure>
-        <HeadingLink level={3}>General</HeadingLink>
-        <HeadingLink level={4}>Spacing</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>General</HeadingLink>
+        <HeadingLink level={5}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -136,7 +139,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcText as="p">
           The component <Code>width</Code> can adopt the following values:
         </DxcText>
@@ -199,7 +202,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
           Button <Code>margin</Code> can use the values:
         </DxcText>
@@ -260,7 +263,7 @@ const ButtonSpecs = () => {
           component: <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,
           <Code>right</Code>.
         </DxcText>
-        <HeadingLink level={4}>Typography</HeadingLink>
+        <HeadingLink level={5}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -293,9 +296,9 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Primary</HeadingLink>
-        <HeadingLink level={4}>Color</HeadingLink>
-        <HeadingLink level={5}>Base</HeadingLink>
+        <HeadingLink level={4}>Primary</HeadingLink>
+        <HeadingLink level={5}>Color</HeadingLink>
+        <h6>Base</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -328,7 +331,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Interactive</HeadingLink>
+        <h6>Interactive</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -391,7 +394,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Border</HeadingLink>
+        <HeadingLink level={5}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -434,7 +437,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Typography</HeadingLink>
+        <HeadingLink level={5}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -477,9 +480,9 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Secondary</HeadingLink>
-        <HeadingLink level={4}>Color</HeadingLink>
-        <HeadingLink level={5}>Base</HeadingLink>
+        <HeadingLink level={4}>Secondary</HeadingLink>
+        <HeadingLink level={5}>Color</HeadingLink>
+        <h6>Base</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -522,7 +525,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Interactive</HeadingLink>
+        <h6>Interactive</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -605,7 +608,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Border</HeadingLink>
+        <HeadingLink level={5}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -648,7 +651,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Typography</HeadingLink>
+        <HeadingLink level={5}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -691,9 +694,9 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Text</HeadingLink>
-        <HeadingLink level={4}>Color</HeadingLink>
-        <HeadingLink level={5}>Base</HeadingLink>
+        <HeadingLink level={4}>Text</HeadingLink>
+        <HeadingLink level={5}>Color</HeadingLink>
+        <h6>Base</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -726,7 +729,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Interactive</HeadingLink>
+        <h6>Interactive</h6>
         <DxcTable>
           <thead>
             <tr>
@@ -789,7 +792,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Border</HeadingLink>
+        <HeadingLink level={5}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -832,7 +835,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Typography</HeadingLink>
+        <HeadingLink level={5}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -877,7 +880,7 @@ const ButtonSpecs = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
