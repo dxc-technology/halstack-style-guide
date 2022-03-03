@@ -1,5 +1,4 @@
 import Image from "next/image";
-import buttonSpecsImage from "./images/button_specs.png";
 import {
   DxcLink,
   DxcList,
@@ -7,6 +6,8 @@ import {
   DxcTable,
   DxcText,
 } from "@dxc-technology/halstack-react";
+import buttonSpecsImage from "./images/button_specs.png";
+import buttonStatesImage from "./images/button_states.png";
 import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
@@ -15,6 +16,22 @@ import Figure from "../../../common/Figure";
 const ButtonSpecs = () => {
   return (
     <DxcStack gutter="xxxlarge">
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>States</HeadingLink>
+        <DxcText as="p">
+          The states are the different behaviors of the button component based
+          on the interaction of the user. For the desktop version, we
+          contemplate five different states by which can pass.
+        </DxcText>
+        <DxcText as="p">
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, <strong>active</strong> and{" "}
+          <strong>disabled</strong>.
+        </DxcText>
+        <Figure caption="Button component states">
+          <Image src={buttonStatesImage} alt="Button component states" />
+        </Figure>
+      </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Design Specifications</HeadingLink>
         <Figure caption="Design specifications for button component">

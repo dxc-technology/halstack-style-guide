@@ -7,7 +7,6 @@ import {
 } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import buttonIconImage from "./images/button_icon.png";
-import buttonStatesImage from "./images/button_states.png";
 import buttonVariantsImage from "./images/button_variants.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
@@ -39,9 +38,7 @@ const ButtonUsage = () => {
             so button lengths may vary, always considering the minimum and
             maximum established sizes.
           </DxcText>
-          <DxcText>
-            Text or icon on a button should always be centered.
-          </DxcText>
+          <DxcText>Text or icon on a button should always be centered.</DxcText>
           <DxcText>
             There must be 8 pixels of space between horizontally displayed
             buttons.
@@ -97,22 +94,6 @@ const ButtonUsage = () => {
             </tr>
           </tbody>
         </DxcTable>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
-        <DxcText as="p">
-          The states are the different behaviors of the button component based
-          on the interaction of the user. For the desktop version, we
-          contemplate five different states by which can pass.
-        </DxcText>
-        <DxcText as="p">
-          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
-          <strong>focus</strong>, <strong>active</strong> and{" "}
-          <strong>disabled</strong>.
-        </DxcText>
-        <Figure caption="Button component states">
-          <Image src={buttonStatesImage} alt="Button component states" />
-        </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Icon Usage</HeadingLink>
