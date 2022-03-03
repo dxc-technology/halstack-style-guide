@@ -35,7 +35,7 @@ const ButtonUsage = () => {
             interaction.
           </DxcText>
         </DxcList>
-        <HeadingLink level={2}>Types</HeadingLink>
+        <HeadingLink level={3}>Types</HeadingLink>
         <Figure caption="Context-based alert types">
           <Image src={AlertTypesImage} alt="Context-based alert types" />
         </Figure>
@@ -85,7 +85,7 @@ const ButtonUsage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={2}>Variants</HeadingLink>
+        <HeadingLink level={3}>Variants</HeadingLink>
         <DxcTable>
           <thead>
             <tr>

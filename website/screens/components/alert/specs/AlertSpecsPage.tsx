@@ -12,7 +12,9 @@ const ButtonSpecs = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Image src={AlertSpecsImage} alt="alert specifications" />
+        <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           States for the close action of the alert component: <strong>Enabled</strong>,{" "}
           <strong>hover</strong>, <strong>focus</strong>, and <strong>active</strong>.
@@ -22,10 +24,8 @@ const ButtonSpecs = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
-        <Figure caption="Alert component anatomy">
-          <Image src={AlertAnatomyImage} alt="Alert component anatomy" />
-        </Figure>
+        <HeadingLink level={3}>Anatomy</HeadingLink>
+        <Image src={AlertAnatomyImage} alt="Alert component anatomy" />
         <DxcList type="number">
           <DxcText>Container</DxcText>
           <DxcText>Icon</DxcText>
@@ -38,16 +38,15 @@ const ButtonSpecs = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Content</HeadingLink>
+        <HeadingLink level={3}>Content</HeadingLink>
         <DxcText as="p">
           Depending on the content that need to be displayed, more detailed descriptions can be
           added to the alert component as children.
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Image src={AlertSpecsImage} alt="alert specifications" />
-        <HeadingLink level={3}>Color</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -240,7 +239,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -313,7 +312,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -356,7 +355,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -419,7 +418,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Iconography</HeadingLink>
+        <HeadingLink level={4}>Iconography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -442,7 +441,7 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Width</HeadingLink>
+        <HeadingLink level={4}>Width</HeadingLink>
         <DxcText as="p">
           The alert component has a property that is customizable depending on the context and the
           scenario where the component is used. This property defines the size of the alert and it
@@ -494,8 +493,8 @@ const ButtonSpecs = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCWAG</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCWAG</HeadingLink>
         <ul>
           <li>
             Understanding WCAG 2.2 -{" "}
@@ -505,7 +504,7 @@ const ButtonSpecs = () => {
             />
           </li>
         </ul>
-        <HeadingLink level={3}>WAI-ARIA</HeadingLink>
+        <HeadingLink level={4}>WAI-ARIA</HeadingLink>
         <ul>
           <li>
             WAI-ARIA Authoring practices 1.2 -{" "}
