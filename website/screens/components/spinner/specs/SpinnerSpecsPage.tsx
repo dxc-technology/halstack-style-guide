@@ -10,11 +10,14 @@ const SpinnerSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
         <Figure caption="Spinner design specifications">
           <Image src={specsImage} alt="Spinner design specifications" />
         </Figure>
-        <HeadingLink level={3}>Color</HeadingLink>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -97,7 +100,7 @@ const SpinnerSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -158,7 +161,7 @@ const SpinnerSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -211,7 +214,7 @@ const SpinnerSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>

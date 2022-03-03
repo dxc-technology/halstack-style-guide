@@ -31,7 +31,7 @@ const SpinnerUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Variants</HeadingLink>
+        <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">
           There are three different variants for the spinner component due to
           the size or the position: <b>large</b>, <b>small</b> and{" "}
@@ -42,7 +42,7 @@ const SpinnerUsagePage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Determinate or indeterminate</HeadingLink>
+        <HeadingLink level={3}>Determinate or indeterminate</HeadingLink>
         <Figure caption="Determinate and indeterminate spinners">
           <Image
             src={determinateImage}
