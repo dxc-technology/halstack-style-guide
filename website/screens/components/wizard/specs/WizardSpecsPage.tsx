@@ -20,6 +20,15 @@ const WizardSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Wizard stepper specifications">
+          <Image src={spacingImage} alt="Wizard stepper specifications" />
+        </Figure>
+        <Figure caption="Wizard variants spacing specifications">
+          <Image
+            src={stepperImage}
+            alt="Wizard variants spacing specifications"
+          />
+        </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
@@ -51,15 +60,6 @@ const WizardSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design Tokens</HeadingLink>
-        <Figure caption="Wizard stepper specifications">
-          <Image src={spacingImage} alt="Wizard stepper specifications" />
-        </Figure>
-        <Figure caption="Wizard variants spacing specifications">
-          <Image
-            src={stepperImage}
-            alt="Wizard variants spacing specifications"
-          />
-        </Figure>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
