@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { DxcText, DxcStack, DxcList, DxcTable } from "@dxc-technology/halstack-react";
-import AlertAnatomyImage from "./images/alert_anatomy.png";
-import AlertStatesImage from "./images/alert_states.png";
 import AlertTypesImage from "./images/alert_types.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
@@ -29,7 +27,9 @@ const ButtonUsage = () => {
             Non-entry of a non-required entry field should never generate an edit message or warning
             message, nor deny user forward movement.
           </DxcText>
-          <DxcText>If possible, dialog messages must always display in full without any scroll bar.</DxcText>
+          <DxcText>
+            If possible, dialog messages must always display in full without any scroll bar.
+          </DxcText>
           <DxcText>
             Dialog messages will retract only when the user closes the dialog or completes through
             interaction.
@@ -114,34 +114,6 @@ const ButtonUsage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={2}>States</HeadingLink>
-        <DxcText as="p">
-          States for the close action of the alert component: <strong>Enabled</strong>,{" "}
-          <strong>hover</strong>, <strong>focus</strong>, and <strong>active</strong>.
-        </DxcText>
-        <Figure caption="Alert action specs">
-          <Image src={AlertStatesImage} alt="Alert action specs" />
-        </Figure>
-        <HeadingLink level={2}>Anatomy</HeadingLink>
-        {/* <p><img src="images/alert_anatomy.png" alt="Alert component anatomy"></p> */}
-        <Figure caption="Alert component anatomy">
-          <Image src={AlertAnatomyImage} alt="Alert component anatomy" />
-        </Figure>
-        <DxcList type="number">
-          <DxcText>Container</DxcText>
-          <DxcText>Icon</DxcText>
-          <DxcText>Title</DxcText>
-          <DxcText>Inline text</DxcText>
-          <DxcText>Close action</DxcText>
-          <DxcText>
-            Content <em>(Optional)</em>
-          </DxcText>
-        </DxcList>
-        <HeadingLink level={2}>Content</HeadingLink>
-        <DxcText as="p">
-          Depending on the content that need to be displayed, more detailed descriptions can be
-          added to the alert component as children.
-        </DxcText>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
     </DxcStack>

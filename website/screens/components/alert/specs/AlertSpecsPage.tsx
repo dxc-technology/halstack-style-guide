@@ -1,16 +1,52 @@
 import Image from "next/image";
 import AlertSpecsImage from "./images/alert_specs.png";
-import { DxcLink, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
+import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
+import Figure from "../../../common/Figure";
+import AlertAnatomyImage from "./images/alert_anatomy.png";
+import AlertStatesImage from "./images/alert_states.png";
 
 const ButtonSpecs = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
+        <HeadingLink level={2}>States</HeadingLink>
+        <DxcText as="p">
+          States for the close action of the alert component: <strong>Enabled</strong>,{" "}
+          <strong>hover</strong>, <strong>focus</strong>, and <strong>active</strong>.
+        </DxcText>
+        <Figure caption="Alert action specs">
+          <Image src={AlertStatesImage} alt="Alert action specs" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <Figure caption="Alert component anatomy">
+          <Image src={AlertAnatomyImage} alt="Alert component anatomy" />
+        </Figure>
+        <DxcList type="number">
+          <DxcText>Container</DxcText>
+          <DxcText>Icon</DxcText>
+          <DxcText>Title</DxcText>
+          <DxcText>Inline text</DxcText>
+          <DxcText>Close action</DxcText>
+          <DxcText>
+            Content <em>(Optional)</em>
+          </DxcText>
+        </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Content</HeadingLink>
+        <DxcText as="p">
+          Depending on the content that need to be displayed, more detailed descriptions can be
+          added to the alert component as children.
+        </DxcText>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Image src={AlertSpecsImage} alt="alert specifications"/>
+        <Image src={AlertSpecsImage} alt="alert specifications" />
         <HeadingLink level={3}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -456,6 +492,8 @@ const ButtonSpecs = () => {
             </tr>
           </tbody>
         </DxcTable>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={2}>Accessibility</HeadingLink>
         <HeadingLink level={3}>WCWAG</HeadingLink>
         <ul>
@@ -471,10 +509,7 @@ const ButtonSpecs = () => {
         <ul>
           <li>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink
-              text="3.2 Alert"
-              href="https://www.w3.org/TR/wai-aria-practices-1.2/#alert"
-            />
+            <DxcLink text="3.2 Alert" href="https://www.w3.org/TR/wai-aria-practices-1.2/#alert" />
           </li>
           <li>
             WAI-ARIA Authoring practices 1.2 -{" "}
