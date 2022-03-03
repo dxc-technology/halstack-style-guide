@@ -4,6 +4,7 @@ import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import determinateImage from "./images/spinner_determinate_indeterminate.png";
+import variantsImage from "./images/spinner_variants.png";
 import DocFooter from "../../../common/DocFooter";
 
 const SpinnerUsagePage = () => {
@@ -28,6 +29,17 @@ const SpinnerUsagePage = () => {
             place the spinner in that part of the page.
           </DxcText>
         </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Variants</HeadingLink>
+        <DxcText as="p">
+          There are three different variants for the spinner component due to
+          the size or the position: <b>large</b>, <b>small</b> and{" "}
+          <b>overlay</b>.
+        </DxcText>
+        <Figure caption="Spinner component variants">
+          <Image src={variantsImage} alt="Spinner component variants" />
+        </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Determinate or indeterminate</HeadingLink>
