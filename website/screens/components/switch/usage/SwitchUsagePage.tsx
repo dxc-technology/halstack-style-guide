@@ -30,7 +30,7 @@ const SwitchUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Label position</HeadingLink>
+        <HeadingLink level={3}>Label position</HeadingLink>
         <Figure caption="Switch label position options example">
           <Image
             src={positionImage}

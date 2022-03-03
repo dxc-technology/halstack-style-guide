@@ -18,7 +18,13 @@ const SwitchSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Switch design specifications">
+          <Image src={specsImage} alt="Switch design specifications" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           Five different states are defined in the life cycle of the component:{" "}
           <strong>unselected enabled</strong>, <strong>unselected focus</strong>
@@ -31,7 +37,7 @@ const SwitchSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <HeadingLink level={3}>Anatomy</HeadingLink>
         <Figure caption="Switch component anatomy">
           <Image src={anatomyImage} alt="Switch component anatomy" />
         </Figure>
@@ -42,7 +48,7 @@ const SwitchSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Stacking</HeadingLink>
+        <HeadingLink level={3}>Stacking</HeadingLink>
         <Figure caption="Switch stacking options">
           <Image src={stackingImage} alt="Switch stacking options" />
         </Figure>
@@ -53,11 +59,8 @@ const SwitchSpecsPage = () => {
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Figure caption="Switch design specifications">
-          <Image src={specsImage} alt="Switch design specifications" />
-        </Figure>
-        <HeadingLink level={3}>Color</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -150,7 +153,7 @@ const SwitchSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -203,7 +206,7 @@ const SwitchSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -264,7 +267,7 @@ const SwitchSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -367,7 +370,7 @@ const SwitchSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -425,7 +428,7 @@ const SwitchSpecsPage = () => {
           <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
           <Code>right</Code>
         </DxcText>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
