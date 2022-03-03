@@ -1,7 +1,15 @@
-import { DxcTable, DxcStack, DxcText } from "@dxc-technology/halstack-react";
+import {
+  DxcTable,
+  DxcStack,
+  DxcText,
+  DxcList,
+} from "@dxc-technology/halstack-react";
 import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import specsImage from "./images/switch_specs.png";
+import statesImage from "./images/switch_states.png";
+import anatomyImage from "./images/switch_anatomy.png";
+import stackingImage from "./images/switch_stacking.png";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
@@ -9,6 +17,41 @@ import DocFooter from "../../../common/DocFooter";
 const SwitchSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>States</HeadingLink>
+        <DxcText as="p">
+          Five different states are defined in the life cycle of the component:{" "}
+          <strong>unselected enabled</strong>, <strong>unselected focus</strong>
+          , <strong>unselected disabled</strong>,{" "}
+          <strong>selected enabled</strong>, <strong>selected focus</strong> and{" "}
+          <strong>selected disabled</strong>.
+        </DxcText>
+        <Figure caption="Switch component states">
+          <Image src={statesImage} alt="Switch component states" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <Figure caption="Switch component anatomy">
+          <Image src={anatomyImage} alt="Switch component anatomy" />
+        </Figure>
+        <DxcList type="number">
+          <DxcText>Label</DxcText>
+          <DxcText>Thumb</DxcText>
+          <DxcText>Track</DxcText>
+        </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Stacking</HeadingLink>
+        <Figure caption="Switch stacking options">
+          <Image src={stackingImage} alt="Switch stacking options" />
+        </Figure>
+        <DxcText as="p">
+          In some application the use of several switches based on the
+          requirements could appear, that why we provide some indications in the
+          case that the user needs to use stacked switches.
+        </DxcText>
+      </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={2}>Design Specifications</HeadingLink>
         <Figure caption="Switch design specifications">
