@@ -9,6 +9,7 @@ import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import Code from "../../../common/Code";
 import selectSingleSpecsStates from "./images/select_input_states_single.png";
 import selectMultipleSpecsStates from "./images/select_input_states_multiple.png";
 import selectSingleOptionState from "./images/option_item_states_single.png";
@@ -22,8 +23,14 @@ const SelectSpecs = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
-        <HeadingLink level={3}>Select input</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <DxcText as="p">
+          <Image src={selectSpecs} alt="Select specifications" />
+        </DxcText>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
+        <HeadingLink level={4}>Select input</HeadingLink>
         <DxcText as="p">
           States are defined for select component based on the interactions that
           the user can reproduce. The states are: <strong>enabled</strong>,{" "}
@@ -34,27 +41,27 @@ const SelectSpecs = () => {
         <DxcText as="p">
           <Image src={selectSingleSpecsStates} alt="Select states" />
         </DxcText>
-        <HeadingLink level={3}>Multiple selection</HeadingLink>
+        <HeadingLink level={4}>Multiple selection</HeadingLink>
         <DxcText as="p">
           Allows the user to select more than one option from the list.
         </DxcText>
         <DxcText as="p">
           <Image src={selectMultipleSpecsStates} alt="Select multiple option" />
         </DxcText>
-        <HeadingLink level={3}>List options</HeadingLink>
+        <HeadingLink level={4}>List options</HeadingLink>
         <DxcText as="p">
           To indicate which items are selected and which not, the
           select-multiple variant integrates a checkbox pairing with each option
           from the dropdown.
         </DxcText>
-        <HeadingLink level={4}>Single</HeadingLink>
+        <HeadingLink level={5}>Single</HeadingLink>
         <Figure caption="List option element states for single select.">
           <Image
             src={selectSingleOptionState}
             alt="List option element states for select single"
           />
         </Figure>
-        <HeadingLink level={4}>Multiple</HeadingLink>
+        <HeadingLink level={5}>Multiple</HeadingLink>
         <Figure caption="List option element states for select multiple.">
           <Image
             src={selectMultipleOptionState}
@@ -63,7 +70,7 @@ const SelectSpecs = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <HeadingLink level={3}>Anatomy</HeadingLink>
         <Image src={selectAnatomy} alt="Select anatomy" />
         <DxcList type="number">
           <DxcText>Label</DxcText>
@@ -82,7 +89,7 @@ const SelectSpecs = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Filter</HeadingLink>
+        <HeadingLink level={3}>Filter</HeadingLink>
         <Figure caption="Filterable single and multi variants.">
           <Image
             src={selectFilterable}
@@ -109,7 +116,7 @@ const SelectSpecs = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Required and optional</HeadingLink>
+        <HeadingLink level={3}>Required and optional</HeadingLink>
         <Figure caption="Required with error and optional select examples.">
           <Image
             src={selectOptional}
@@ -132,11 +139,8 @@ const SelectSpecs = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <DxcText as="p">
-          <Image src={selectSpecs} alt="Select specifications" />
-        </DxcText>
-        <HeadingLink level={3}>Color</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -149,191 +153,191 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>labelFontColor</code>
+                <Code>labelFontColor</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontColor</code>
+                <Code>helperTextFontColor</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>errorMessageColor</code>
+                <Code>errorMessageColor</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontColor</code>
+                <Code>valueFontColor</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>placeholderFontColor</code>
+                <Code>placeholderFontColor</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>color-grey-800-a</code>
+                <Code>color-grey-800-a</Code>
               </td>
               <td>#000000b3</td>
             </tr>
             <tr>
               <td>
-                <code>disabledColor</code>
+                <Code>disabledColor</Code>
               </td>
               <td>All:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>listDialogBackgroundColor</code>
+                <Code>listDialogBackgroundColor</Code>
               </td>
               <td>List dialog</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>listDialogBorderColor</code>
+                <Code>listDialogBorderColor</Code>
               </td>
               <td>List dialog</td>
               <td>
-                <code>color-grey-400</code>
+                <Code>color-grey-400</Code>
               </td>
               <td>#bfbfbf</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionFontColor</code>
+                <Code>listOptionFontColor</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionIconColor</code>
+                <Code>listOptionIconColor</Code>
               </td>
               <td>List item icon</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionDividerColor</code>
+                <Code>listOptionDividerColor</Code>
               </td>
               <td>Divider</td>
               <td>
-                <code>color-grey-200</code>
+                <Code>color-grey-200</Code>
               </td>
               <td>#e6e6e6</td>
             </tr>
             <tr>
               <td>
-                <code>unselectedHoverListOptionBackgroundColor</code>
+                <Code>unselectedHoverListOptionBackgroundColor</Code>
               </td>
               <td>List option:hover unselected</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>unselectedActiveListOptionBackgroundColor</code>
+                <Code>unselectedActiveListOptionBackgroundColor</Code>
               </td>
               <td>List option:active unselected</td>
               <td>
-                <code>color-grey-200</code>
+                <Code>color-grey-200</Code>
               </td>
               <td>#e6e6e6</td>
             </tr>
             <tr>
               <td>
-                <code>selectedListOptionBackgroundColor</code>
+                <Code>selectedListOptionBackgroundColor</Code>
               </td>
               <td>List option selected</td>
               <td>
-                <code>color-blue-100</code>
+                <Code>color-blue-100</Code>
               </td>
               <td>#e6f4ff</td>
             </tr>
             <tr>
               <td>
-                <code>selectedHoverListOptionBackgroundColor</code>
+                <Code>selectedHoverListOptionBackgroundColor</Code>
               </td>
               <td>List option:hover selected</td>
               <td>
-                <code>color-blue-200</code>
+                <Code>color-blue-200</Code>
               </td>
               <td>#cceaff</td>
             </tr>
             <tr>
               <td>
-                <code>selectedActiveListOptionBackgroundColor</code>
+                <Code>selectedActiveListOptionBackgroundColor</Code>
               </td>
               <td>List option:active selected</td>
               <td>
-                <code>color-blue-300</code>
+                <Code>color-blue-300</Code>
               </td>
               <td>#99d5ff</td>
             </tr>
             <tr>
               <td>
-                <code>selectedListOptionIconColor</code>
+                <Code>selectedListOptionIconColor</Code>
               </td>
               <td>List option selected indicator</td>
               <td>
-                <code>color-blue-900</code>
+                <Code>color-blue-900</Code>
               </td>
               <td>#003c66</td>
             </tr>
             <tr>
               <td>
-                <code>focusListOptionBorderColor</code>
+                <Code>focusListOptionBorderColor</Code>
               </td>
               <td>List option:hover selected</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>systemMessageFontColor</code>
+                <Code>systemMessageFontColor</Code>
               </td>
               <td>System message</td>
               <td>
-                <code>color-grey-700</code>
+                <Code>color-grey-700</Code>
               </td>
               <td>#666666</td>
             </tr>
@@ -352,91 +356,91 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>enabledInputBorderColor</code>
+                <Code>enabledInputBorderColor</Code>
               </td>
               <td>Border:enabled</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>hoverInputBorderColor</code>
+                <Code>hoverInputBorderColor</Code>
               </td>
               <td>Border:hover</td>
               <td>
-                <code>color-purple-500</code>
+                <Code>color-purple-500</Code>
               </td>
               <td>#a46ede</td>
             </tr>
             <tr>
               <td>
-                <code>focusInputBorderColor</code>
+                <Code>focusInputBorderColor</Code>
               </td>
               <td>Border:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>errorInputBorderColor</code>
+                <Code>errorInputBorderColor</Code>
               </td>
               <td>Border:error</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>hoverInputErrorBorderColor</code>
+                <Code>hoverInputErrorBorderColor</Code>
               </td>
               <td>Border:hover on error</td>
               <td>
-                <code>color-red-600</code>
+                <Code>color-red-600</Code>
               </td>
               <td>#fe0123</td>
             </tr>
             <tr>
               <td>
-                <code>disabledInputBorderColor</code>
+                <Code>disabledInputBorderColor</Code>
               </td>
               <td>Border:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledInputBackgroundColor</code>
+                <Code>disabledInputBackgroundColor</Code>
               </td>
               <td>Background:disabled</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>errorIconColor</code>
+                <Code>errorIconColor</Code>
               </td>
               <td>Error icon</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>collapseIndicatorColor</code>
+                <Code>collapseIndicatorColor</Code>
               </td>
               <td>Collapse indicator</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
@@ -455,91 +459,91 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>selectionIndicatorFontColor</code>
+                <Code>selectionIndicatorFontColor</Code>
               </td>
               <td>Selection indicator value</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>selectionIndicatorBorderColor</code>
+                <Code>selectionIndicatorBorderColor</Code>
               </td>
               <td>Selection indicator</td>
               <td>
-                <code>color-grey-400</code>
+                <Code>color-grey-400</Code>
               </td>
               <td>#bfbfbf</td>
             </tr>
             <tr>
               <td>
-                <code>selectionIndicatorBackgroundColor</code>
+                <Code>selectionIndicatorBackgroundColor</Code>
               </td>
               <td>Selection indicator</td>
               <td>
-                <code>color-grey-50</code>
+                <Code>color-grey-50</Code>
               </td>
               <td>#fafafa</td>
             </tr>
             <tr>
               <td>
-                <code>enabledSelectionIndicatorActionBackgroundColor</code>
+                <Code>enabledSelectionIndicatorActionBackgroundColor</Code>
               </td>
               <td>Selection indicator</td>
               <td>
-                <code>color-transparent</code>
+                <Code>color-transparent</Code>
               </td>
               <td>transparent</td>
             </tr>
             <tr>
               <td>
-                <code>hoverSelectionIndicatorActionBackgroundColor</code>
+                <Code>hoverSelectionIndicatorActionBackgroundColor</Code>
               </td>
               <td>Selection indicator:hover</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>activeSelectionIndicatorActionBackgroundColor</code>
+                <Code>activeSelectionIndicatorActionBackgroundColor</Code>
               </td>
               <td>Selection indicator:active</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>enabledSelectionIndicatorActionIconColor</code>
+                <Code>enabledSelectionIndicatorActionIconColor</Code>
               </td>
               <td>Selection indicator icon</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>hoverSelectionIndicatorActionIconColor</code>
+                <Code>hoverSelectionIndicatorActionIconColor</Code>
               </td>
               <td>Selection indicator icon:hover</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>activeSelectionIndicatorActionIconColor</code>
+                <Code>activeSelectionIndicatorActionIconColor</Code>
               </td>
               <td>Selection indicator icon:active</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
@@ -558,61 +562,61 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>actionBackgroundColor</code>
+                <Code>actionBackgroundColor</Code>
               </td>
               <td>Action</td>
               <td>
-                <code>color-transparent</code>
+                <Code>color-transparent</Code>
               </td>
               <td>transparent</td>
             </tr>
             <tr>
               <td>
-                <code>hoverActionBackgroundColor</code>
+                <Code>hoverActionBackgroundColor</Code>
               </td>
               <td>Action:hover</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>activeActionBackgroundColor</code>
+                <Code>activeActionBackgroundColor</Code>
               </td>
               <td>Action:active</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>actionIconColor</code>
+                <Code>actionIconColor</Code>
               </td>
               <td>Action icon</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>hoverActionIconColor</code>
+                <Code>hoverActionIconColor</Code>
               </td>
               <td>Action icon:hover</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>activeActionIconColor</code>
+                <Code>activeActionIconColor</Code>
               </td>
               <td>Action icon:active</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
@@ -631,181 +635,181 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>fontFamily</code>
+                <Code>fontFamily</Code>
               </td>
               <td>All</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontSize</code>
+                <Code>labelFontSize</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontWeight</code>
+                <Code>labelFontWeight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-weight-semibold</code>
+                <Code>font-weight-semibold</Code>
               </td>
               <td>600</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontStyle</code>
+                <Code>labelFontStyle</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>labelLineHeight</code>
+                <Code>labelLineHeight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-leading-loose-01</code>
+                <Code>font-leading-loose-01</Code>
               </td>
               <td>1.715em</td>
             </tr>
             <tr>
               <td>
-                <code>optionalLabelFontWeight</code>
+                <Code>optionalLabelFontWeight</Code>
               </td>
               <td>Label optional</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontSize</code>
+                <Code>valueFontSize</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-scale-03</code>
+                <Code>font-scale-03</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontWeight</code>
+                <Code>valueFontWeight</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontStyle</code>
+                <Code>valueFontStyle</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>valueLineHeight</code>
+                <Code>valueLineHeight</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontSize</code>
+                <Code>helperTextFontSize</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-scale-01</code>
+                <Code>font-scale-01</Code>
               </td>
               <td>0.75rem / 12px</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontWeight</code>
+                <Code>helperTextFontWeight</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontStyle</code>
+                <Code>helperTextFontStyle</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextLineHeight</code>
+                <Code>helperTextLineHeight</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionFontSize</code>
+                <Code>listOptionFontSize</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionFontWeight</code>
+                <Code>listOptionFontWeight</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>listOptionFontStyle</code>
+                <Code>listOptionFontStyle</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>listGroupLabelFontWeight</code>
+                <Code>listGroupLabelFontWeight</Code>
               </td>
               <td>List group item</td>
               <td>
-                <code>font-weight-semibold</code>
+                <Code>font-weight-semibold</Code>
               </td>
               <td>600</td>
             </tr>
@@ -824,91 +828,91 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>Input container:error</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>List dialog</td>
               <td>
-                <code>shadow-default</code>
+                <Code>shadow-default</Code>
               </td>
               <td>0 4px 6px -1px rgba(0,0,0,0.1)</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>Input</td>
               <td>
-                <code>border-radius-medium</code>
+                <Code>border-radius-medium</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>Selection indicator / Clear action</td>
               <td>
-                <code>border-radius-small</code>
+                <Code>border-radius-small</Code>
               </td>
               <td>0.125rem / 2px</td>
             </tr>
@@ -935,61 +939,61 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>padding-left</code>
+                <Code>padding-left</Code>
               </td>
               <td>List dialog</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-right</code>
+                <Code>padding-right</Code>
               </td>
               <td>List dialog</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-top</code>
+                <Code>margin-top</Code>
               </td>
               <td>List dialog content</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-bottom</code>
+                <Code>margin-bottom</Code>
               </td>
               <td>List dialog content</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-top</code>
+                <Code>padding-top</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-bottom</code>
+                <Code>padding-bottom</Code>
               </td>
               <td>List option</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
@@ -997,7 +1001,7 @@ const SelectSpecs = () => {
         </DxcTable>
         <HeadingLink level={4}>Size</HeadingLink>
         <DxcText as="p">
-          The component <code>width</code> can adopt the following values:
+          The component <Code>width</Code> can adopt the following values:
         </DxcText>
         <DxcTable>
           <thead>
@@ -1009,25 +1013,25 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>small</code>
+                <Code>small</Code>
               </td>
               <td>240px</td>
             </tr>
             <tr>
               <td>
-                <code>medium</code> (<em>default</em>)
+                <Code>medium</Code> (<em>default</em>)
               </td>
               <td>360px</td>
             </tr>
             <tr>
               <td>
-                <code>large</code>
+                <Code>large</Code>
               </td>
               <td>480px</td>
             </tr>
             <tr>
               <td>
-                <code>fillParent</code>
+                <Code>fillParent</Code>
               </td>
               <td>100%</td>
             </tr>
@@ -1035,7 +1039,7 @@ const SelectSpecs = () => {
         </DxcTable>
         <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
-          Select <code>margin</code> can use the values:
+          Select <Code>margin</Code> can use the values:
         </DxcText>
         <DxcTable>
           <thead>
@@ -1047,43 +1051,43 @@ const SelectSpecs = () => {
           <tbody>
             <tr>
               <td>
-                <code>xxsmall</code>
+                <Code>xxsmall</Code>
               </td>
               <td>6px</td>
             </tr>
             <tr>
               <td>
-                <code>xsmall</code>
+                <Code>xsmall</Code>
               </td>
               <td>16px</td>
             </tr>
             <tr>
               <td>
-                <code>small</code>
+                <Code>small</Code>
               </td>
               <td>24px</td>
             </tr>
             <tr>
               <td>
-                <code>medium</code>
+                <Code>medium</Code>
               </td>
               <td>36px</td>
             </tr>
             <tr>
               <td>
-                <code>large</code>
+                <Code>large</Code>
               </td>
               <td>48px</td>
             </tr>
             <tr>
               <td>
-                <code>xlarge</code>
+                <Code>xlarge</Code>
               </td>
               <td>64px</td>
             </tr>
             <tr>
               <td>
-                <code>xxlarge</code>
+                <Code>xxlarge</Code>
               </td>
               <td>100px</td>
             </tr>
@@ -1092,13 +1096,13 @@ const SelectSpecs = () => {
         <DxcText as="p">
           These values can be applied independently to each side of the
           component:
-          <code>top</code> <code>bottom</code> <code>left</code>{" "}
-          <code>right</code>
+          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
+          <Code>right</Code>
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCAG 2.2</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
@@ -1108,7 +1112,7 @@ const SelectSpecs = () => {
             />
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>WAI-ARIA 1.2</HeadingLink>
+        <HeadingLink level={4}>WAI-ARIA 1.2</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA practices 1.2 -{" "}

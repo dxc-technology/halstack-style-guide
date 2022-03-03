@@ -40,7 +40,7 @@ const SelectUsage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Variants</HeadingLink>
+        <HeadingLink level={3}>Variants</HeadingLink>
         <Figure caption="Single and multiple variants of the select component.">
           <Image
             src={selectUsageVariants}
