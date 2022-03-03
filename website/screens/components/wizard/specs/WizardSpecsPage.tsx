@@ -19,7 +19,10 @@ const WizardSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           States: <strong>enabled</strong>, <strong>focus</strong>,{" "}
           <strong>selected</strong>, <strong>unvisited</strong> and{" "}
@@ -30,7 +33,7 @@ const WizardSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <HeadingLink level={3}>Anatomy</HeadingLink>
         <Figure caption="Wizard component anatomy">
           <Image src={anatomyImage} alt="Wizard component anatomy" />
         </Figure>
@@ -47,7 +50,7 @@ const WizardSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
         <Figure caption="Wizard stepper specifications">
           <Image src={spacingImage} alt="Wizard stepper specifications" />
         </Figure>
@@ -57,7 +60,7 @@ const WizardSpecsPage = () => {
             alt="Wizard variants spacing specifications"
           />
         </Figure>
-        <HeadingLink level={3}>Color</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -260,7 +263,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
           Different values can be applied to each side of the component:
           <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
@@ -318,7 +321,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -481,7 +484,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -564,7 +567,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -607,7 +610,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Sizing</HeadingLink>
+        <HeadingLink level={4}>Sizing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -636,7 +639,7 @@ const WizardSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Iconography</HeadingLink>
+        <HeadingLink level={4}>Iconography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -664,8 +667,8 @@ const WizardSpecsPage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCAG 2.2</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
@@ -697,7 +700,7 @@ const WizardSpecsPage = () => {
             />
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>WAI-ARIA</HeadingLink>
+        <HeadingLink level={4}>WAI-ARIA</HeadingLink>
         <DxcList>
           <DxcText>
             Web accessibility tutorials -{" "}

@@ -26,7 +26,7 @@ const WizardUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Variants</HeadingLink>
+        <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">
           The wizard component has two variants: <strong>horizontal</strong> and{" "}
           <strong>vertical</strong>.
@@ -39,7 +39,7 @@ const WizardUsagePage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Validation</HeadingLink>
+        <HeadingLink level={3}>Validation</HeadingLink>
         <DxcText as="p">
           There could be some scenarios in which the content of a step wants to
           be validated while the user is filling the fields with information or
@@ -57,7 +57,7 @@ const WizardUsagePage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Content</HeadingLink>
+        <HeadingLink level={3}>Content</HeadingLink>
         <DxcText as="p">
           Different variations of the content can be performed in the stepper:
         </DxcText>
@@ -74,7 +74,7 @@ const WizardUsagePage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Helper text</HeadingLink>
+        <HeadingLink level={3}>Helper text</HeadingLink>
         <DxcText as="p">
           Helper text can be added to the wizard component stepper:
         </DxcText>
