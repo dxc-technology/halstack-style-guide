@@ -676,7 +676,7 @@ const WizardSpecsPage = () => {
               href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
               text="
               SC 1.3.1: Info and Relationships"
-              newWindow={true}
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -684,7 +684,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html"
               text="SC 2.2.1: Timing Adjustable"
-              newWindow={true}
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -692,7 +692,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
               text="SC 2.2.2: Pause, Stop, Hide"
-              newWindow={true}
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -700,7 +700,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
               text="SC 3.3.2: Labels or Instructions"
-              newWindow={true}
+              newWindow
             />
           </DxcText>
         </DxcList>
@@ -712,7 +712,7 @@ const WizardSpecsPage = () => {
               href="https://www.w3.org/WAI/tutorials/forms/multi-page/"
               text="
               Multi-page forms"
-              newWindow={true}
+              newWindow
             />
           </DxcText>
         </DxcList>
