@@ -1,13 +1,13 @@
 import Image from "next/image";
 import dialogAnatomyImage from "./images/dialog_anatomy.png";
 import dialogSpecsImage from "./images/dialog_specs.png";
-import { DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
+import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 import HeadingLink from "../../../common/HeadingLink";
 
-const DialogSpecs = () => {
+const DialogSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -439,13 +439,38 @@ const DialogSpecs = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          And also apply different values to each side of the component:
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code> <Code>right</Code>
+          And also apply different values to each side of the component: <Code>top</Code>,{" "}
+          <Code>bottom</Code>, <Code>left</Code>, <Code>right</Code>
         </DxcText>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Accesibility</HeadingLink>
+        <HeadingLink level={4}>WCAG</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html" text="2.1.2 No Keyboard Trap" />
+          </DxcText>
+          <DxcText>
+            Understanding WCAG 2.2 -{" "}
+            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html" text="2.4.3 Focus Order" />
+          </DxcText>
+        </DxcList>
+        <HeadingLink level={4}>WAI-ARIA</HeadingLink>
+        <DxcList>
+          <DxcText>
+            WAI-ARIA Authoring practices 1.2 -{" "}
+            <DxcLink href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal" text="3.9 Dialog (Modal)" />
+          </DxcText>
+          <DxcText>
+            WAI-ARIA Authoring practices 1.2 -{" "}
+            <DxcLink href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html" text="Modal Dialog Example" />
+          </DxcText>
+        </DxcList>
+      </DxcStack>
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/dialog/specs/DialogSpecsPage.tsx" />
     </DxcStack>
   );
 };
 
-export default DialogSpecs;
+export default DialogSpecsPage;

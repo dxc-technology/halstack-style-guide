@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { DxcList, DxcStack, DxcText } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
-import Code from "../../../common/Code";
 import dialogContent from "./images/dialog_content.png";
 import dialogOverlay from "./images/dialog_overlay.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 
-const DialogUsage = () => {
+const DialogUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -67,9 +66,9 @@ const DialogUsage = () => {
         </DxcText>
       </DxcStack>
 
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/dialog/usage/DialogUsagePage.tsx" />
     </DxcStack>
   );
 };
 
-export default DialogUsage;
+export default DialogUsagePage;
