@@ -22,6 +22,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Spinner", path: "/components/spinner" },
   { label: "Text Input", path: "/components/text-input" },
   { label: "Paginator", path: "/components/paginator" },
+  { label: "Progress Bar", path: "/components/progress-bar" },
 ];
 
 export const LinksSections: LinksSectionDetails[] = [
