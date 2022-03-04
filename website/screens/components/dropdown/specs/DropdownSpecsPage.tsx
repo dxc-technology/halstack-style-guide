@@ -27,8 +27,9 @@ const DropdownSpecsPage = () => {
         <HeadingLink level={3}>States</HeadingLink>
         <HeadingLink level={4}>Dropdown button</HeadingLink>
         <DxcText as="p">
-          States: <b>Enabled</b>, <b>hover</b>, <b>focus</b>, <b>active</b> and{" "}
-          <b>disabled</b>.
+          States: <strong>Enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, <strong>active</strong> and{" "}
+          <strong>disabled</strong>.
         </DxcText>
         <Figure caption="Example of the dropdown component states">
           <Image
@@ -38,8 +39,8 @@ const DropdownSpecsPage = () => {
         </Figure>
         <HeadingLink level={4}>Option list</HeadingLink>
         <DxcText as="p">
-          States: <b>Enabled</b>, <b>hover</b>, <b>focus</b> and <b>selected</b>
-          .
+          States: <strong>Enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong> and <strong>selected</strong>.
         </DxcText>
         <Figure caption="Example of the option list states">
           <Image
