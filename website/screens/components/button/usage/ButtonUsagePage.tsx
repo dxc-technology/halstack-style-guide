@@ -16,19 +16,6 @@ const ButtonUsage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
-        <DxcText as="p">
-          The appearance of the button should suggest the user takes an action
-          that leads to different scenarios.
-        </DxcText>
-        <DxcText as="p">
-          These elements that reinforce to the user the necessity to interact
-          are called CTA (Call to Action) components, which basically are
-          designed to capture user attention and improve the user experience
-          within the application.
-        </DxcText>
-        <DxcText as="p">
-          Usage considerations about the button component:
-        </DxcText>
         <DxcList>
           <DxcText>
             In instances where buttons are vertically stacked, buttons should be
