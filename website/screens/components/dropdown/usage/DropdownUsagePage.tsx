@@ -75,7 +75,7 @@ const DropdownUsagePage = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/spinner/usage/SpinnerUsagePage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/dropdown/usage/DropdownUsagePage.tsx" />
     </DxcStack>
   );
 };
