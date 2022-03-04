@@ -14,12 +14,12 @@ const CardUsagePage = () => {
             styles for every card.
           </DxcText>
           <DxcText>
-            If a collection want be create, won't use different card styles,
-            use the same to keep consistency.
+            If a collection want be create, won't use different card styles, use
+            the same to keep consistency.
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/spinner/usage/SpinnerUsagePage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/card/usage/CardUsagePage.tsx" />
     </DxcStack>
   );
 };
