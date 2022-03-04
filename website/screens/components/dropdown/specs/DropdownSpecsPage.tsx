@@ -10,43 +10,46 @@ import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
-import dropdownStates from "./images/dropdown_states.png";
-import dropdownOptionListStates from "./images/dropdown_option_list_states.png";
-import dropdownSpecs from "./images/dropdown_specs.png";
+import specsImage from "./images/dropdown_specs.png";
+import statesImage from "./images/dropdown_states.png";
+import optionListStatesImage from "./images/dropdown_option_list_states.png";
 
 const DropdownSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Specification</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Dropdown component specifications">
+          <Image src={specsImage} alt="Dropdown component specifications" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <HeadingLink level={4}>Dropdown button</HeadingLink>
         <DxcText as="p">
-          States: <b>enabled</b>, <b>hover</b>,<b>focus</b>, <b>active</b> and{" "}
+          States: <b>Enabled</b>, <b>hover</b>, <b>focus</b>, <b>active</b> and{" "}
           <b>disabled</b>.
         </DxcText>
         <Figure caption="Example of the dropdown component states">
           <Image
-            src={dropdownStates}
+            src={statesImage}
             alt="Example of the dropdown component states"
           />
         </Figure>
         <HeadingLink level={4}>Option list</HeadingLink>
         <DxcText as="p">
-          States: <b>enabled</b>, <b>hover</b>,<b>focus</b> and <b>selected</b>.
+          States: <b>Enabled</b>, <b>hover</b>, <b>focus</b> and <b>selected</b>
+          .
         </DxcText>
         <Figure caption="Example of the option list states">
           <Image
-            src={dropdownOptionListStates}
+            src={optionListStatesImage}
             alt="Example of the option list states"
           />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design Specifications</HeadingLink>
-        <Figure caption="Dropdown component specifications">
-          <Image src={dropdownSpecs} alt="Dropdown component specifications" />
-        </Figure>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -442,17 +445,6 @@ const DropdownSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton"
               text="3.16 Menu button"
-            />
-          </DxcText>
-        </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Links and references</HeadingLink>
-        <DxcList>
-          <DxcText>
-            <DxcLink
-              href="https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/variables/"
-              text="https://xd.adobe.com/view/23e2cca4-5021-490a-a548-e99a9b4a2006-76b1/screen/7ea088c7-538c-400f-ac77-722eabc1ecf2/variables/"
             />
           </DxcText>
         </DxcList>
