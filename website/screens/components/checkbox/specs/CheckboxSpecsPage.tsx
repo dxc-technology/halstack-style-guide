@@ -13,10 +13,17 @@ import checkboxStack from "./images/checkbox_stack.png";
 import checkboxStates from "./images/checkbox_states.png";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import Code from "../../../common/Code";
 
 const CheckboxSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Component design specifications">
+          <Image src={checkboxSpecs} alt="Component design specifications" />
+        </Figure>
+      </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
@@ -25,14 +32,15 @@ const CheckboxSpecsPage = () => {
           , <strong>unselected focus</strong>,{" "}
           <strong>unselected disabled</strong>,{" "}
           <strong>selected enabled</strong>, <strong>selected hover</strong>,{" "}
-          <strong>selected focus</strong> and <strong>selected disabled</strong>
+          <strong>selected focus</strong> and{" "}
+          <strong>selected disabled.</strong>
         </DxcText>
         <Figure caption="Checkbox component states.">
           <Image src={checkboxStates} alt="Checkbox component states." />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <HeadingLink level={3}>Anatomy</HeadingLink>
         <Image src={checkboxAnatomy} alt="Checkbox anatomy." />
         <DxcList type="number">
           <DxcText>Checkbox input</DxcText>
@@ -40,7 +48,7 @@ const CheckboxSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Stacking</HeadingLink>
+        <HeadingLink level={3}>Stacking</HeadingLink>
         <DxcText as="p">
           Checkbox may be either vertically or horizontally stacked.
         </DxcText>
@@ -79,12 +87,9 @@ const CheckboxSpecsPage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Figure caption="Component design specifications.">
-          <Image src={checkboxSpecs} alt="Component design specifications." />
-        </Figure>
-        <HeadingLink level={3}>Color</HeadingLink>
-        <HeadingLink level={4}>On-light</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
+        <HeadingLink level={5}>On-light</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -97,117 +102,117 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>selectedBackgroundColor</code>
+                <Code>selectedBackgroundColor</Code>
               </td>
               <td>Fill</td>
               <td>
-                <code>color-blue-800</code>
+                <Code>color-blue-800</Code>
               </td>
               <td>#0067b3</td>
             </tr>
             <tr>
               <td>
-                <code>selectedHoverBackgroundColor</code>
+                <Code>selectedHoverBackgroundColor</Code>
               </td>
               <td>Fill:hover</td>
               <td>
-                <code>color-blue-900</code>
+                <Code>color-blue-900</Code>
               </td>
               <td>#003c66</td>
             </tr>
             <tr>
               <td>
-                <code>selectedDisabledBackgroundColor</code>
+                <Code>selectedDisabledBackgroundColor</Code>
               </td>
               <td>Fill:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>borderColor</code>
+                <Code>borderColor</Code>
               </td>
               <td>Border</td>
               <td>
-                <code>color-blue-800</code>
+                <Code>color-blue-800</Code>
               </td>
               <td>#0067b3</td>
             </tr>
             <tr>
               <td>
-                <code>hoverBorderColor</code>
+                <Code>hoverBorderColor</Code>
               </td>
               <td>Border:hover</td>
               <td>
-                <code>color-blue-900</code>
+                <Code>color-blue-900</Code>
               </td>
               <td>#003c66</td>
             </tr>
             <tr>
               <td>
-                <code>disabledBorderColor</code>
+                <Code>disabledBorderColor</Code>
               </td>
               <td>Border:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>checkColor</code>
+                <Code>checkColor</Code>
               </td>
               <td>Check mark</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>disabledCheckColor</code>
+                <Code>disabledCheckColor</Code>
               </td>
               <td>Check mark:disabled</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>fontColor</code>
+                <Code>fontColor</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>disabledFontColor</code>
+                <Code>disabledFontColor</Code>
               </td>
               <td>Label:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>focusColor</code>
+                <Code>focusColor</Code>
               </td>
               <td>Outline:focus</td>
               <td>
-                <code>color-blue-700</code>
+                <Code>color-blue-700</Code>
               </td>
               <td>#0095ff</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>On-dark</HeadingLink>
+        <HeadingLink level={5}>On-dark</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -220,117 +225,117 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>selectedBackgroundColorOnDark</code>
+                <Code>selectedBackgroundColorOnDark</Code>
               </td>
               <td>Fill</td>
               <td>
-                <code>color-grey-200</code>
+                <Code>color-grey-200</Code>
               </td>
               <td>#e6e6e6</td>
             </tr>
             <tr>
               <td>
-                <code>selectedHoverBackgroundColorOnDark</code>
+                <Code>selectedHoverBackgroundColorOnDark</Code>
               </td>
               <td>Fill:hover</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>selectedDisabledBackgroundColorOnDark</code>
+                <Code>selectedDisabledBackgroundColorOnDark</Code>
               </td>
               <td>Fill:disabled</td>
               <td>
-                <code>color-grey-800</code>
+                <Code>color-grey-800</Code>
               </td>
               <td>#4d4d4d</td>
             </tr>
             <tr>
               <td>
-                <code>borderColorOnDark</code>
+                <Code>borderColorOnDark</Code>
               </td>
               <td>Border</td>
               <td>
-                <code>color-grey-200</code>
+                <Code>color-grey-200</Code>
               </td>
               <td>#e6e6e6</td>
             </tr>
             <tr>
               <td>
-                <code>hoverBorderColorOnDark</code>
+                <Code>hoverBorderColorOnDark</Code>
               </td>
               <td>Border:hover</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>disabledBorderColorOnDark</code>
+                <Code>disabledBorderColorOnDark</Code>
               </td>
               <td>Border:disabled</td>
               <td>
-                <code>color-grey-800</code>
+                <Code>color-grey-800</Code>
               </td>
               <td>#4d4d4d</td>
             </tr>
             <tr>
               <td>
-                <code>checkColorOnDark</code>
+                <Code>checkColorOnDark</Code>
               </td>
               <td>Check mark</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>disabledCheckOnDark</code>
+                <Code>disabledCheckOnDark</Code>
               </td>
               <td>Check mark:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>fontColorOnDark</code>
+                <Code>fontColorOnDark</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>disabledFontColorOnDark</code>
+                <Code>disabledFontColorOnDark</Code>
               </td>
               <td>Label:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>focusColorOnDark</code>
+                <Code>focusColorOnDark</Code>
               </td>
               <td>Outline:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -343,17 +348,17 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>inputMargin</code>
+                <Code>inputMargin</Code>
               </td>
               <td>Checkbox input</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -366,37 +371,37 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>fontFamily</code>
+                <Code>fontFamily</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
               <td>
-                <code>fontSize</code>
+                <Code>fontSize</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>fontWeight</code>
+                <Code>fontWeight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -409,70 +414,70 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>border-width</code>
+                <Code>border-width</Code>
               </td>
               <td>Checkbox input</td>
               <td>
-                <code>border-width-2</code>
+                <Code>border-width-2</Code>
               </td>
               <td>2px</td>
             </tr>
             <tr>
               <td>
-                <code>border-style</code>
+                <Code>border-style</Code>
               </td>
               <td>Checkbox input</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>Checkbox input</td>
               <td>
-                <code>border-radius-small</code>
+                <Code>border-radius-small</Code>
               </td>
               <td>0.125rem / 2px</td>
             </tr>
             <tr>
               <td>
-                <code>border-width</code>
+                <Code>border-width</Code>
               </td>
               <td>Focus border</td>
               <td>
-                <code>border-width-2</code>
+                <Code>border-width-2</Code>
               </td>
               <td>2px</td>
             </tr>
             <tr>
               <td>
-                <code>border-style</code>
+                <Code>border-style</Code>
               </td>
               <td>Focus border</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>Focus border</td>
               <td>
-                <code>border-radius-medium</code>
+                <Code>border-radius-medium</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
-          Margin can be set independently for <code>top</code>,{" "}
-          <code>right</code>, <code>bottom</code>, <code>left</code>.
+          Margin can be set independently for <Code>top</Code>,{" "}
+          <Code>right</Code>, <Code>bottom</Code>, <Code>left</Code>.
         </DxcText>
         <DxcTable>
           <thead>
@@ -484,43 +489,43 @@ const CheckboxSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>xxsmall</code>
+                <Code>xxsmall</Code>
               </td>
               <td>6px</td>
             </tr>
             <tr>
               <td>
-                <code>xsmall</code>
+                <Code>xsmall</Code>
               </td>
               <td>16px</td>
             </tr>
             <tr>
               <td>
-                <code>small</code>
+                <Code>small</Code>
               </td>
               <td>24px</td>
             </tr>
             <tr>
               <td>
-                <code>medium</code>
+                <Code>medium</Code>
               </td>
               <td>36px</td>
             </tr>
             <tr>
               <td>
-                <code>large</code>
+                <Code>large</Code>
               </td>
               <td>48px</td>
             </tr>
             <tr>
               <td>
-                <code>xlarge</code>
+                <Code>xlarge</Code>
               </td>
               <td>64px</td>
             </tr>
             <tr>
               <td>
-                <code>xxlarge</code>
+                <Code>xxlarge</Code>
               </td>
               <td>100px</td>
             </tr>
@@ -528,8 +533,8 @@ const CheckboxSpecsPage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCAG 2.2</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
@@ -546,7 +551,7 @@ const CheckboxSpecsPage = () => {
             />
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>WAI-ARIA 1.2</HeadingLink>
+        <HeadingLink level={4}>WAI-ARIA 1.2</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA Authoring Practices 1.2 -{" "}
