@@ -59,7 +59,7 @@ const WizardSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design Tokens</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -266,8 +266,8 @@ const WizardSpecsPage = () => {
         <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
           Different values can be applied to each side of the component:
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
-          <Code>right</Code>
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,{" "}
+          <Code>right</Code>.
         </DxcText>
         <DxcTable>
           <thead>
@@ -676,6 +676,7 @@ const WizardSpecsPage = () => {
               href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
               text="
               SC 1.3.1: Info and Relationships"
+              newWindow={true}
             />
           </DxcText>
           <DxcText>
@@ -683,6 +684,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html"
               text="SC 2.2.1: Timing Adjustable"
+              newWindow={true}
             />
           </DxcText>
           <DxcText>
@@ -690,6 +692,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
               text="SC 2.2.2: Pause, Stop, Hide"
+              newWindow={true}
             />
           </DxcText>
           <DxcText>
@@ -697,6 +700,7 @@ const WizardSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
               text="SC 3.3.2: Labels or Instructions"
+              newWindow={true}
             />
           </DxcText>
         </DxcList>
@@ -708,6 +712,7 @@ const WizardSpecsPage = () => {
               href="https://www.w3.org/WAI/tutorials/forms/multi-page/"
               text="
               Multi-page forms"
+              newWindow={true}
             />
           </DxcText>
         </DxcList>
