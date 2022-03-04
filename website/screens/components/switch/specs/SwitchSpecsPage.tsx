@@ -59,7 +59,7 @@ const SwitchSpecsPage = () => {
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design Tokens</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -425,8 +425,8 @@ const SwitchSpecsPage = () => {
         </DxcTable>
         <DxcText as="p">
           And also apply different values to each side of the component:
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
-          <Code>right</Code>
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,{" "}
+          <Code>right</Code>.
         </DxcText>
         <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
