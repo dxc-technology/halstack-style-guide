@@ -25,7 +25,7 @@ const CardSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
-          Component states: <b>Enabled</b>, <b>hover</b> and <b>focus</b>.
+          Component states: <strong>Enabled</strong>, <strong>hover</strong> and <strong>focus</strong>.
         </DxcText>
         <Figure caption="Card component states">
           <Image src={statesImage} alt="Card component states" />
