@@ -22,7 +22,9 @@ const componentsLinks: LinkDetails[] = [
   { label: "Dialog", path: "/components/dialog" },
   { label: "Paginator", path: "/components/paginator" },
   { label: "Spinner", path: "/components/spinner" },
+  { label: "Switch", path: "/components/switch" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Wizard", path: "/components/wizard" },
 ];
 
 export const LinksSections: LinksSectionDetails[] = [
