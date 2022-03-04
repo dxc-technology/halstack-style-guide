@@ -8,7 +8,7 @@ import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 
-const ButtonSpecs = () => {
+const ButtonSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -696,9 +696,9 @@ const ButtonSpecs = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/slider/specs/SliderSpecsPage.tsx" />
     </DxcStack>
   );
 };
 
-export default ButtonSpecs;
+export default ButtonSpecsPage;

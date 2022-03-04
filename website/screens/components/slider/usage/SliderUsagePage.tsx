@@ -6,7 +6,7 @@ import sliderVariants from "./images/slider_variants.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 
-const SliderUsage = () => {
+const SliderUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -63,9 +63,9 @@ const SliderUsage = () => {
           <Image src={sliderVariants} alt="Slider variants" />
         </Figure>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/slider/usage/SliderUsagePage.tsx" />
     </DxcStack>
   );
 };
 
-export default SliderUsage;
+export default SliderUsagePage;
