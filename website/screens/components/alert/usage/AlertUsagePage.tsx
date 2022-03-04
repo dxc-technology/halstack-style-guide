@@ -5,7 +5,7 @@ import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 import HeadingLink from "../../../common/HeadingLink";
 
-const ButtonUsage = () => {
+const AlertUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -35,6 +35,8 @@ const ButtonUsage = () => {
             interaction.
           </DxcText>
         </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={3}>Types</HeadingLink>
         <Figure caption="Context-based alert types">
           <Image src={AlertTypesImage} alt="Context-based alert types" />
@@ -85,6 +87,8 @@ const ButtonUsage = () => {
             </tr>
           </tbody>
         </DxcTable>
+      </DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={3}>Variants</HeadingLink>
         <DxcTable>
           <thead>
@@ -115,9 +119,9 @@ const ButtonUsage = () => {
           </tbody>
         </DxcTable>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/alert/usage/AlertUsagePage.tsx" />
     </DxcStack>
   );
 };
 
-export default ButtonUsage;
+export default AlertUsagePage;

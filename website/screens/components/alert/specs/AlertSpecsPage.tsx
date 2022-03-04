@@ -8,7 +8,7 @@ import Figure from "../../../common/Figure";
 import AlertAnatomyImage from "./images/alert_anatomy.png";
 import AlertStatesImage from "./images/alert_states.png";
 
-const ButtonSpecs = () => {
+const AlertSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -495,47 +495,47 @@ const ButtonSpecs = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>Accessibility</HeadingLink>
         <HeadingLink level={4}>WCWAG</HeadingLink>
-        <ul>
-          <li>
+        <DxcList>
+          <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
               text="SC 4.1.3 Status Messages"
               href="https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html"
             />
-          </li>
-        </ul>
+          </DxcText>
+        </DxcList>
         <HeadingLink level={4}>WAI-ARIA</HeadingLink>
-        <ul>
-          <li>
+        <DxcList>
+          <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink text="3.2 Alert" href="https://www.w3.org/TR/wai-aria-practices-1.2/#alert" />
-          </li>
-          <li>
+          </DxcText>
+          <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
               text="3.3 Alert and Message dialogs"
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#alertdialog"
             />
-          </li>
-          <li>
+          </DxcText>
+          <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
               text="Alert design pattern"
               href="https://www.w3.org/TR/wai-aria-practices/examples/alert/alert.html"
             />
-          </li>
-          <li>
+          </DxcText>
+          <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
               text="Alert Dialog design pattern"
               href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/alertdialog.html"
             />
-          </li>
-        </ul>
+          </DxcText>
+        </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/alert/specs/AlertSpecsPage.tsx" />
     </DxcStack>
   );
 };
 
-export default ButtonSpecs;
+export default AlertSpecsPage;
