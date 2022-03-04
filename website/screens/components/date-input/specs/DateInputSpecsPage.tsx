@@ -19,71 +19,7 @@ const DateInputSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
-        <HeadingLink level={3}>Date input</HeadingLink>
-        <DxcText as="p">
-          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
-          <strong>focus</strong>, <strong>error</strong>, and{" "}
-          <strong>disabled</strong>.
-        </DxcText>
-        <Figure caption="Examples of date input states">
-          <Image src={dateSpecsStates} alt="Examples of date input states" />
-        </Figure>
-        <HeadingLink level={3}>Date dialog</HeadingLink>
-        <DxcText as="p">
-          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
-          <strong>focus</strong>, and <strong>selected</strong>.
-        </DxcText>
-        <Figure caption="Examples of the calendar dialog states">
-          <Image
-            src={dateSpecsPopup}
-            alt="Examples of the calendar dialog states"
-          />
-        </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
-        <Image src={dateSpecsAnatomy} alt="Component anatomy example" />
-        <DxcList type="number">
-          <DxcText>Label</DxcText>
-          <DxcText>
-            Helper text <em>(Optional)</em>
-          </DxcText>
-          <DxcText>Input container</DxcText>
-          <DxcText>Date button</DxcText>
-          <DxcText>Clear action</DxcText>
-          <DxcText>Error indicator</DxcText>
-          <DxcText>Error message</DxcText>
-          <DxcText>Placeholder / value</DxcText>
-        </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>Internationalization</HeadingLink>
-        <DxcText as="p">
-          The date format depends on an ISO definition for each country and the
-          preference of use within the application.
-        </DxcText>
-        <DxcText as="p">
-          The format of the date may vary depending on language, region, country
-          or customer. It is a good practice to give to the user some type of
-          hint about the date format and in many cases.
-        </DxcText>
-        <DxcList>
-          <DxcText>
-            The default format for the United States is <code>mm/dd/yyyy</code>
-          </DxcText>
-          <DxcText>
-            The default format for Australia, Europe, Africa, South America most
-            countries of Asia is <code>dd/mm/yyyy</code>
-          </DxcText>
-          <DxcText>
-            The default format in China is <code>yyyy/mm/dd</code>
-          </DxcText>
-        </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <HeadingLink level={3}>Date input</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
         <Figure caption="Date input design specifications">
           <Image src={dateSpecs} alt="date input design specifications" />
         </Figure>
@@ -114,6 +50,102 @@ const DateInputSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
+        <HeadingLink level={4}>Date input</HeadingLink>
+        <DxcText as="p">
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, <strong>error</strong>, and{" "}
+          <strong>disabled</strong>.
+        </DxcText>
+        <Figure caption="Examples of date input states">
+          <Image src={dateSpecsStates} alt="Examples of date input states" />
+        </Figure>
+        <HeadingLink level={4}>Date dialog</HeadingLink>
+        <DxcText as="p">
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, and <strong>selected</strong>.
+        </DxcText>
+        <Figure caption="Examples of the calendar dialog states">
+          <Image
+            src={dateSpecsPopup}
+            alt="Examples of the calendar dialog states"
+          />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Anatomy</HeadingLink>
+        <Image src={dateSpecsAnatomy} alt="Component anatomy example" />
+        <DxcList type="number">
+          <DxcText>Label</DxcText>
+          <DxcText>
+            Helper text <em>(Optional)</em>
+          </DxcText>
+          <DxcText>Input container</DxcText>
+          <DxcText>Date button</DxcText>
+          <DxcText>Clear action</DxcText>
+          <DxcText>Error indicator</DxcText>
+          <DxcText>Error message</DxcText>
+          <DxcText>Placeholder / value</DxcText>
+        </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Internationalization</HeadingLink>
+        <DxcText as="p">
+          The date format depends on an ISO definition for each country and the
+          preference of use within the application.
+        </DxcText>
+        <DxcText as="p">
+          The format of the date may vary depending on language, region, country
+          or customer. It is a good practice to give to the user some type of
+          hint about the date format and in many cases.
+        </DxcText>
+        <DxcList>
+          <DxcText>
+            The default format for the United States is <code>mm/dd/yyyy</code>
+          </DxcText>
+          <DxcText>
+            The default format for Australia, Europe, Africa, South America most
+            countries of Asia is <code>dd/mm/yyyy</code>
+          </DxcText>
+          <DxcText>
+            The default format in China is <code>yyyy/mm/dd</code>
+          </DxcText>
+        </DxcList>
+      </DxcStack>
+      {/* <DxcStack gutter="large"> */}
+      {/* <HeadingLink level={2}>Design Specifications</HeadingLink>
+        <HeadingLink level={3}>Date input</HeadingLink>
+        <Figure caption="Date input design specifications">
+          <Image src={dateSpecs} alt="date input design specifications" />
+        </Figure> */}
+      {/* <DxcText as="p">
+          The date input <code>color</code>, <code>typography</code>,{" "}
+          <code>border</code>, <code>spacing</code>, <code>width</code> and{" "}
+          <code>margin</code> specifications are inherited from the text input,
+          for reference{" "}
+          <DxcLink
+            href="https://developer.dxc.com/design/guidelines/components/text-input"
+            text="check the text input component documentation"
+          />
+          .
+        </DxcText> */}
+      {/* <DxcText as="p">
+          The date input doesn&#39;t have the following text input elements or
+          properties, therefore, their listed styles don&#39;t apply:
+        </DxcText> */}
+      {/* <DxcList>
+          <DxcText>Prefix / Suffix</DxcText>
+          <DxcText>
+            The size <code>small</code> is not available
+          </DxcText>
+        </DxcList> */}
+      {/* <HeadingLink level={3}>Datepicker dialog</HeadingLink>
+        <Figure caption="Structure and spacing for date picker calendar pop-up">
+          <Image src={datePopupSpecs} alt="Date specifications for picker" />
+        </Figure> */}
+      {/* </DxcStack> */}
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -430,8 +462,8 @@ const DateInputSpecsPage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCAG 2.2</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -
@@ -462,7 +494,7 @@ const DateInputSpecsPage = () => {
             />
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>WAI-ARIA 1.2</HeadingLink>
+        <HeadingLink level={4}>WAI-ARIA 1.2</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA authoring practices 1.2 -
@@ -480,7 +512,7 @@ const DateInputSpecsPage = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/date-input/specs/DateInputSpecsPage.tsx" />
     </DxcStack>
   );
 };

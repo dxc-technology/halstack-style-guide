@@ -24,7 +24,7 @@ const DateInputUsagePage = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/overview/introduction/IntroductionPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/date-input/usage/DateInputUsagePage.tsx" />
     </DxcStack>
   );
 };
