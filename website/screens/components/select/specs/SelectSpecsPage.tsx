@@ -19,7 +19,7 @@ import selectFilterable from "./images/select_filterable.png";
 import selectOptional from "./images/select_optional.png";
 import selectSpecs from "./images/select_specs.png";
 
-const SelectSpecs = () => {
+const SelectSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -1142,4 +1142,4 @@ const SelectSpecs = () => {
   );
 };
 
-export default SelectSpecs;
+export default SelectSpecsPage;

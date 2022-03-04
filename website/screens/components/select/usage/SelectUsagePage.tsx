@@ -11,7 +11,7 @@ import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
 import selectUsageVariants from "./images/select_variants.png";
 
-const SelectUsage = () => {
+const SelectUsagePage = () => {
   return (
     <DxcStack gutter="xxlarge">
       <DxcStack gutter="large">
@@ -75,4 +75,4 @@ const SelectUsage = () => {
   );
 };
 
-export default SelectUsage;
+export default SelectUsagePage;
