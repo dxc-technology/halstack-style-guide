@@ -9,6 +9,7 @@ import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
+import Code from "../../../common/Code";
 import inputStates from "./images/input_states.png";
 import inputAnatomy from "./images/input_anatomy.png";
 import inputSpecs from "./images/input_specs.png";
@@ -17,22 +18,31 @@ const TextInputSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>States</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Specifications for text input component">
+          <Image
+            src={inputSpecs}
+            alt="Specifications for text input component"
+          />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           Text input states: <strong>enabled</strong>, <strong>hover</strong>,{" "}
           <strong>focus</strong>, <strong>error</strong> and{" "}
           <strong>disabled</strong>.
         </DxcText>
-        <Figure caption="Example of the text input component states.">
+        <Figure caption="Example of the text input component states">
           <Image
             src={inputStates}
-            alt="Example of the text input component states."
+            alt="Example of the text input component states"
           />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
-        <Image src={inputAnatomy} alt="Text input anatomy." />
+        <HeadingLink level={3}>Anatomy</HeadingLink>
+        <Image src={inputAnatomy} alt="Text input anatomy" />
         <DxcList type="number">
           <DxcText>Label text</DxcText>
           <DxcText>Helper text (Optional)</DxcText>
@@ -46,17 +56,9 @@ const TextInputSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <Figure caption="Specifications for text input component.">
-          <Image
-            src={inputSpecs}
-            alt="Specifications for text input component."
-          />
-        </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={2}>Color</HeadingLink>
-        <HeadingLink level={3}>Base</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
+        <HeadingLink level={5}>Base</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -69,77 +71,77 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>labelFontColor</code>
+                <Code>labelFontColor</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontColor</code>
+                <Code>valueFontColor</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontColor</code>
+                <Code>helperTextFontColor</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>placeholderFontColor</code>
+                <Code>placeholderFontColor</Code>
               </td>
               <td>Placeholder</td>
               <td>
-                <code>color-grey-600</code>
+                <Code>color-grey-600</Code>
               </td>
               <td>#808080</td>
             </tr>
             <tr>
               <td>
-                <code>enabledBorderColor</code>
+                <Code>enabledBorderColor</Code>
               </td>
               <td>Border:enabled</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>actionIconColor</code>
+                <Code>actionIconColor</Code>
               </td>
               <td>Action icon</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>actionBackgroundColor</code>
+                <Code>actionBackgroundColor</Code>
               </td>
               <td>Action</td>
               <td>
-                <code>color-transparent</code>
+                <Code>color-transparent</Code>
               </td>
               <td>#transparent</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Interactive</HeadingLink>
+        <HeadingLink level={5}>Interactive</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -152,197 +154,197 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>hoverBorderColor</code>
+                <Code>hoverBorderColor</Code>
               </td>
               <td>Border:hover</td>
               <td>
-                <code>color-purple-500</code>
+                <Code>color-purple-500</Code>
               </td>
               <td>#a46ede</td>
             </tr>
             <tr>
               <td>
-                <code>focusBorderColor</code>
+                <Code>focusBorderColor</Code>
               </td>
               <td>Border:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>errorBorderColor</code>
+                <Code>errorBorderColor</Code>
               </td>
               <td>Border:error</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>hoverErrorBorderColor</code>
+                <Code>hoverErrorBorderColor</Code>
               </td>
               <td>Border:hover on error</td>
               <td>
-                <code>color-red-600</code>
+                <Code>color-red-600</Code>
               </td>
               <td>#fe0123</td>
             </tr>
             <tr>
               <td>
-                <code>disabledBorderColor</code>
+                <Code>disabledBorderColor</Code>
               </td>
               <td>Border:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>errorMessageColor</code>
+                <Code>errorMessageColor</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>disabledContainerFillColor</code>
+                <Code>disabledContainerFillColor</Code>
               </td>
               <td>Input container:disabled</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>disabledLabelFontColor</code>
+                <Code>disabledLabelFontColor</Code>
               </td>
               <td>Label:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledValueFontColor</code>
+                <Code>disabledValueFontColor</Code>
               </td>
               <td>Value:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledHelperTextFontColor</code>
+                <Code>disabledHelperTextFontColor</Code>
               </td>
               <td>Helper text:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledPlaceholderFontColor</code>
+                <Code>disabledPlaceholderFontColor</Code>
               </td>
               <td>Placeholder:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>hoverActionBackgroundColor</code>
+                <Code>hoverActionBackgroundColor</Code>
               </td>
               <td>Action:hover</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>focusActionBorderColor</code>
+                <Code>focusActionBorderColor</Code>
               </td>
               <td>Action:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>activeActionBackgroundColor</code>
+                <Code>activeActionBackgroundColor</Code>
               </td>
               <td>Action:active</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>disabledActionBackgroundColor</code>
+                <Code>disabledActionBackgroundColor</Code>
               </td>
               <td>Action:disabled</td>
               <td>
-                <code>color-transparent</code>
+                <Code>color-transparent</Code>
               </td>
               <td>transparent</td>
             </tr>
             <tr>
               <td>
-                <code>hoverActionIconColor</code>
+                <Code>hoverActionIconColor</Code>
               </td>
               <td>Action icon:hover</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>focusActionIconColor</code>
+                <Code>focusActionIconColor</Code>
               </td>
               <td>Action icon:focus</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>activeActionIconColor</code>
+                <Code>activeActionIconColor</Code>
               </td>
               <td>Action icon:active</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>disabledActionIconColor</code>
+                <Code>disabledActionIconColor</Code>
               </td>
               <td>Action icon:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Suffix/Prefix</HeadingLink>
+        <HeadingLink level={5}>Suffix/Prefix</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -355,47 +357,47 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>suffixColor</code>
+                <Code>suffixColor</Code>
               </td>
               <td>Suffix</td>
               <td>
-                <code>color-grey-700</code>
+                <Code>color-grey-700</Code>
               </td>
               <td>#666666</td>
             </tr>
             <tr>
               <td>
-                <code>prefixColor</code>
+                <Code>prefixColor</Code>
               </td>
               <td>Prefix</td>
               <td>
-                <code>color-grey-700</code>
+                <Code>color-grey-700</Code>
               </td>
               <td>#666666</td>
             </tr>
             <tr>
               <td>
-                <code>disabledSuffixColor</code>
+                <Code>disabledSuffixColor</Code>
               </td>
               <td>Suffix:disabled</td>
               <td>
-                <code>color-grey-400</code>
+                <Code>color-grey-400</Code>
               </td>
               <td>#bfbfbf</td>
             </tr>
             <tr>
               <td>
-                <code>disabledPrefixColor</code>
+                <Code>disabledPrefixColor</Code>
               </td>
               <td>Prefix:disabled</td>
               <td>
-                <code>color-grey-400</code>
+                <Code>color-grey-400</Code>
               </td>
               <td>#bfbfbf</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={5}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -408,131 +410,131 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>fontFamily</code>
+                <Code>fontFamily</Code>
               </td>
               <td>All</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontSize</code>
+                <Code>labelFontSize</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontWeight</code>
+                <Code>labelFontWeight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-weight-bold</code>
+                <Code>font-weight-bold</Code>
               </td>
               <td>600</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontStyle</code>
+                <Code>labelFontStyle</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>labelLineHeight</code>
+                <Code>labelLineHeight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-leading-loose-01</code>
+                <Code>font-leading-loose-01</Code>
               </td>
               <td>1.715em</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontSize</code>
+                <Code>valueFontSize</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-scale-03</code>
+                <Code>font-scale-03</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontWeight</code>
+                <Code>valueFontWeight</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>valueFontStyle</code>
+                <Code>valueFontStyle</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontSize</code>
+                <Code>helperTextFontSize</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-scale-01</code>
+                <Code>font-scale-01</Code>
               </td>
               <td>12px</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontWeight</code>
+                <Code>helperTextFontWeight</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontStyle</code>
+                <Code>helperTextFontStyle</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextLineHeight</code>
+                <Code>helperTextLineHeight</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>optionalLabelFontWeight</code>
+                <Code>optionalLabelFontWeight</Code>
               </td>
               <td>Optional indicator</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
@@ -550,67 +552,67 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-scale-01</code>
+                <Code>font-scale-01</Code>
               </td>
               <td>0.75rem / 12px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>Value</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Placeholder</td>
               <td>
-                <code>font-scale-03</code>
+                <Code>font-scale-03</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Placeholder</td>
               <td>
-                <code>font-regular</code>
+                <Code>font-regular</Code>
               </td>
               <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={5}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -623,21 +625,21 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>inputMarginTop</code>
+                <Code>inputMarginTop</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>inputMarginBottom</code>
+                <Code>inputMarginBottom</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
@@ -655,117 +657,117 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>margin-left</code>
+                <Code>margin-left</Code>
               </td>
               <td>Error icon</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-left</code>
+                <Code>margin-left</Code>
               </td>
               <td>Action</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-left</code>
+                <Code>margin-left</Code>
               </td>
               <td>Prefix</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-right</code>
+                <Code>padding-right</Code>
               </td>
               <td>Prefix</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-left</code>
+                <Code>padding-left</Code>
               </td>
               <td>Suffix</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-left</code>
+                <Code>margin-left</Code>
               </td>
               <td>Suffix</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>margin-right</code>
+                <Code>margin-right</Code>
               </td>
               <td>Suffix</td>
               <td>
-                <code>spacing-4</code>
+                <Code>spacing-4</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-left</code>
+                <Code>padding-left</Code>
               </td>
               <td>Input</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-right</code>
+                <Code>padding-right</Code>
               </td>
               <td>Input</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-left</code>
+                <Code>padding-left</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-right</code>
+                <Code>padding-right</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={5}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -778,67 +780,67 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border</code>
+                <Code>border</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>Input container:focus</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>Input container:error</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Width</HeadingLink>
+        <HeadingLink level={5}>Width</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -849,31 +851,31 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>small</code>
+                <Code>small</Code>
               </td>
               <td>240px</td>
             </tr>
             <tr>
               <td>
-                <code>medium</code> (<em>default</em>)
+                <Code>medium</Code> (<em>default</em>)
               </td>
               <td>360px</td>
             </tr>
             <tr>
               <td>
-                <code>large</code>
+                <Code>large</Code>
               </td>
               <td>480px</td>
             </tr>
             <tr>
               <td>
-                <code>fillParent</code>
+                <Code>fillParent</Code>
               </td>
               <td>100%</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Margin</HeadingLink>
+        <HeadingLink level={5}>Margin</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -884,43 +886,43 @@ const TextInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>xxsmall</code>
+                <Code>xxsmall</Code>
               </td>
               <td>6px</td>
             </tr>
             <tr>
               <td>
-                <code>xsmall</code>
+                <Code>xsmall</Code>
               </td>
               <td>16px</td>
             </tr>
             <tr>
               <td>
-                <code>small</code>
+                <Code>small</Code>
               </td>
               <td>24px</td>
             </tr>
             <tr>
               <td>
-                <code>medium</code>
+                <Code>medium</Code>
               </td>
               <td>36px</td>
             </tr>
             <tr>
               <td>
-                <code>large</code>
+                <Code>large</Code>
               </td>
               <td>48px</td>
             </tr>
             <tr>
               <td>
-                <code>xlarge</code>
+                <Code>xlarge</Code>
               </td>
               <td>64px</td>
             </tr>
             <tr>
               <td>
-                <code>xxlarge</code>
+                <Code>xxlarge</Code>
               </td>
               <td>100px</td>
             </tr>
@@ -928,13 +930,13 @@ const TextInputSpecsPage = () => {
         </DxcTable>
         <DxcText>
           And also apply different values to each side of the component:{" "}
-          <code>top</code> <code>bottom</code> <code>left</code>{" "}
-          <code>right</code>.
+          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
+          <Code>right</Code>.
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Accessibility</HeadingLink>
-        <HeadingLink level={3}>WCAG 2.2</HeadingLink>
+        <HeadingLink level={3}>Accessibility</HeadingLink>
+        <HeadingLink level={4}>WCAG 2.2</HeadingLink>
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}

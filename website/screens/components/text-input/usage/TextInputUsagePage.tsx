@@ -47,51 +47,51 @@ const TextInputUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Content</HeadingLink>
-        <HeadingLink level={3}>Actions</HeadingLink>
-        <HeadingLink level={4}>Clearing content</HeadingLink>
+        <HeadingLink level={3}>Content</HeadingLink>
+        <HeadingLink level={4}>Actions</HeadingLink>
+        <HeadingLink level={5}>Clearing content</HeadingLink>
         <DxcText as="p">
           Clear actions allow user to remove the content of the text input.
         </DxcText>
-        <Figure caption="Example of text input with a clear content action button.">
+        <Figure caption="Example of text input with a clear content action button">
           <Image
             src={inputActionsClearImage}
-            alt="Example of text input with a clear content action button."
+            alt="Example of text input with a clear content action button"
           />
         </Figure>
-        <HeadingLink level={4}>Custom actions</HeadingLink>
+        <HeadingLink level={5}>Custom actions</HeadingLink>
         <DxcText as="p">
           Text inputs can have an additional custom action.
         </DxcText>
-        <Figure caption="Example of text input with an additional action.">
+        <Figure caption="Example of text input with an additional action">
           <Image
             src={inputActionsCustom}
-            alt="Example of text input with an additional action."
+            alt="Example of text input with an additional action"
           />
         </Figure>
-        <HeadingLink level={3}>Prefixes and suffixes</HeadingLink>
+        <HeadingLink level={4}>Prefixes and suffixes</HeadingLink>
         <DxcText as="p">
           Prefixes and suffixes help the user to understand the purpose of the
           text input.
         </DxcText>
-        <Figure caption="Icon or text prefixes and suffixes usage.">
+        <Figure caption="Icon or text prefixes and suffixes usage">
           <Image
             src={inputPrefixSuffix}
-            alt="Icon or text prefixes and suffixes usage."
+            alt="Icon or text prefixes and suffixes usage"
           />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Helper text</HeadingLink>
+        <HeadingLink level={3}>Helper text</HeadingLink>
         <DxcText as="p">
           Helper text can be used as additional instructions to the user when
           filling in the form. It should be always visible even in a focus
           state.
         </DxcText>
-        <Figure caption="Text input helper text example.">
-          <Image src={inputHelperText} alt="Text input helper text example." />
+        <Figure caption="Text input helper text example">
+          <Image src={inputHelperText} alt="Text input helper text example" />
         </Figure>
-        <HeadingLink level={3}>Usage</HeadingLink>
+        <HeadingLink level={4}>Usage</HeadingLink>
         <DxcText as="p">Do:</DxcText>
         <DxcList>
           <DxcText>Keep helper text as short and specific as possible.</DxcText>
