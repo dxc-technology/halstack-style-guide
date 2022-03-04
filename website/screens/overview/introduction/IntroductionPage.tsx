@@ -4,6 +4,7 @@ import {
   DxcText,
   DxcList,
   DxcStack,
+  DxcLink,
 } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../common/HeadingLink";
 import DocFooter from "../../common/DocFooter";
@@ -14,8 +15,7 @@ const Introduction = () => {
       <DxcStack gutter="xxxlarge">
         <DxcStack gutter="large">
           <DxcHeading
-            level={3}
-            as="h1"
+            level={1}
             text="Halstack Design System"
             weight="bold"
           ></DxcHeading>
@@ -27,9 +27,7 @@ const Introduction = () => {
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Design principles
-          </HeadingLink>
+          <HeadingLink level={2}>Design principles</HeadingLink>
 
           <DxcText as="p">
             Halstack design principles are the fundamental part of DXC
@@ -38,9 +36,9 @@ const Introduction = () => {
             our customers:
           </DxcText>
           <DxcList>
-            <DxcText as="p">Balance </DxcText>
-            <DxcText as="p">Consistency </DxcText>
-            <DxcText as="p">Visual hierarchy </DxcText>
+            <DxcText>Balance </DxcText>
+            <DxcText>Consistency </DxcText>
+            <DxcText>Visual hierarchy </DxcText>
           </DxcList>
           <DxcText as="p">
             All our components, design tokens, accessibility guidelines,
@@ -51,9 +49,7 @@ const Introduction = () => {
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Open Source
-          </HeadingLink>
+          <HeadingLink level={2}>Open Source</HeadingLink>
 
           <DxcText as="p">
             Halstack is an open source design system, this means that we work
@@ -64,78 +60,77 @@ const Introduction = () => {
             We are charmed to receive external contributions to help us find
             bugs, design new features, or help us improve the project
             documentation. If you&#39;re interested, definitely check out our{" "}
-            <a href="https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/overview.md">
-              contribution guidelines
-            </a>
+            <DxcLink
+              href="https://github.com/dxc-technology/halstack-style-guide/blob/master/contributing/overview.md"
+              text="contribution guidelines"
+            />
             .
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={4} as="h2">
-            Our Assets
-          </HeadingLink>
-          <HeadingLink level={5} as="h3">
-            Design
-          </HeadingLink>
+          <HeadingLink level={2}>Our Assets</HeadingLink>
+          <HeadingLink level={3}>Design</HeadingLink>
 
           <DxcText as="p">
             In addition to our design guidelines, we mantain an{" "}
-            <a href="https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac">
-              Adobe XD public library
-            </a>
+            <DxcLink
+              href="https://shared-assets.adobe.com/link/732533f4-d925-487e-4761-9a760574cfac"
+              text="Adobe XD public library"
+            />{" "}
             in order to provide designers all the building blocks needed to
             quickly create solutions four our clients. Helping them focusing on
             innovation and user experience.
           </DxcText>
-          <HeadingLink level={5} as="h3">
-            Code implementation
-          </HeadingLink>
+          <HeadingLink level={3}>Code implementation</HeadingLink>
 
           <DxcText as="p">
             We also have our components documentation available in the following
             frameworks:
           </DxcText>
           <DxcList>
-            <DxcText as="p">
-              <a href="https://developer.dxc.com/tools/react/next/#/">
-                React documentation
-              </a>
+            <DxcText>
+              <DxcLink
+                href="https://developer.dxc.com/tools/react/next/#/"
+                text="React documentation"
+              />
             </DxcText>
-            <DxcText as="p">
-              <a href="https://developer.dxc.com/tools/angular/next/#/">
-                Angular documentation
-              </a>
+            <DxcText>
+              <DxcLink
+                href="https://developer.dxc.com/tools/angular/next/#/"
+                text="Angular documentation"
+              />
             </DxcText>
           </DxcList>
           <DxcText as="p">
             If you’re using a different framework, you can still build
             components by following our design guidelines.
           </DxcText>
-          <HeadingLink level={5} as="h3">
-            GitHub
-          </HeadingLink>
+          <HeadingLink level={3}>GitHub</HeadingLink>
 
           <DxcText as="p">
             Our code implementation is available in the following GitHub public
             repositories:
           </DxcText>
           <DxcList>
-            <DxcText as="p">
-              <a href="https://github.com/dxc-technology/halstack-style-guide">
-                halstack-style-guide
-              </a>
+            <DxcText>
+              <DxcLink
+                href="https://github.com/dxc-technology/halstack-style-guide"
+                text="halstack-style-guide"
+              />
               : Design guidelines
             </DxcText>
-            <DxcText as="p">
-              <a href="https://github.com/dxc-technology/halstack-react">
-                halstack-react
-              </a>
+            <DxcText>
+              <DxcLink
+                href="https://github.com/dxc-technology/halstack-react"
+                text="halstack-react"
+              />
               : React CDK
             </DxcText>
-            <DxcText as="p">
-              <a href="https://github.com/dxc-technology/halstack-angular">
-                halstack-angular
-              </a>
+            <DxcText>
+              <DxcLink
+                href="https://github.com/dxc-technology/halstack-angular"
+                text="halstack-angular"
+              />
               : Angular CDK
             </DxcText>
           </DxcList>

@@ -19,8 +19,10 @@ const overviewLinks: LinkDetails[] = [
 
 const componentsLinks: LinkDetails[] = [
   { label: "Button", path: "/components/button" },
-  { label: "Text Input", path: "/components/text-input" },
   { label: "Checkbox", path: "/components/checkbox" },
+  { label: "Paginator", path: "/components/paginator" },
+  { label: "Spinner", path: "/components/spinner" },
+  { label: "Text Input", path: "/components/text-input" },
 ];
 
 export const LinksSections: LinksSectionDetails[] = [
