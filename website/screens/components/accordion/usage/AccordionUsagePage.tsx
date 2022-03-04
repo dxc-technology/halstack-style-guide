@@ -8,10 +8,6 @@ const AccordionUsagePage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcText as="p">
-          Accordions give users more granular control over the interface and
-          help digest content in stages, rather than all at once.
-        </DxcText>
-        <DxcText as="p">
           The accordion component delivers large amounts of content in a small
           space through progressive disclosure.
         </DxcText>
