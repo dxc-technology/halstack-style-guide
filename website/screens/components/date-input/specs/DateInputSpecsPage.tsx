@@ -9,6 +9,7 @@ import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
+import Code from "../../../common/Code";
 import dateSpecsStates from "./images/input_date_states.png";
 import dateSpecsPopup from "./images/date_popup.png";
 import dateSpecsAnatomy from "./images/input_date_anatomy.png";
@@ -24,9 +25,9 @@ const DateInputSpecsPage = () => {
           <Image src={dateSpecs} alt="date input design specifications" />
         </Figure>
         <DxcText as="p">
-          The date input <code>color</code>, <code>typography</code>,{" "}
-          <code>border</code>, <code>spacing</code>, <code>width</code> and{" "}
-          <code>margin</code> specifications are inherited from the text input,
+          The date input <Code>color</Code>, <Code>typography</Code>,{" "}
+          <Code>border</Code>, <Code>spacing</Code>, <Code>width</Code> and{" "}
+          <Code>margin</Code> specifications are inherited from the text input,
           for reference{" "}
           <DxcLink
             href="https://developer.dxc.com/design/guidelines/components/text-input"
@@ -41,7 +42,7 @@ const DateInputSpecsPage = () => {
         <DxcList>
           <DxcText>Prefix / Suffix</DxcText>
           <DxcText>
-            The size <code>small</code> is not available
+            The size <Code>small</Code> is not available
           </DxcText>
         </DxcList>
         <HeadingLink level={3}>Datepicker dialog</HeadingLink>
@@ -101,14 +102,14 @@ const DateInputSpecsPage = () => {
         </DxcText>
         <DxcList>
           <DxcText>
-            The default format for the United States is <code>mm/dd/yyyy</code>
+            The default format for the United States is <Code>mm/dd/yyyy</Code>
           </DxcText>
           <DxcText>
             The default format for Australia, Europe, Africa, South America most
-            countries of Asia is <code>dd/mm/yyyy</code>
+            countries of Asia is <Code>dd/mm/yyyy</Code>
           </DxcText>
           <DxcText>
-            The default format in China is <code>yyyy/mm/dd</code>
+            The default format in China is <Code>yyyy/mm/dd</Code>
           </DxcText>
         </DxcList>
       </DxcStack>
@@ -119,9 +120,9 @@ const DateInputSpecsPage = () => {
           <Image src={dateSpecs} alt="date input design specifications" />
         </Figure> */}
       {/* <DxcText as="p">
-          The date input <code>color</code>, <code>typography</code>,{" "}
-          <code>border</code>, <code>spacing</code>, <code>width</code> and{" "}
-          <code>margin</code> specifications are inherited from the text input,
+          The date input <Code>color</Code>, <Code>typography</Code>,{" "}
+          <Code>border</Code>, <Code>spacing</Code>, <Code>width</Code> and{" "}
+          <Code>margin</Code> specifications are inherited from the text input,
           for reference{" "}
           <DxcLink
             href="https://developer.dxc.com/design/guidelines/components/text-input"
@@ -136,7 +137,7 @@ const DateInputSpecsPage = () => {
       {/* <DxcList>
           <DxcText>Prefix / Suffix</DxcText>
           <DxcText>
-            The size <code>small</code> is not available
+            The size <Code>small</Code> is not available
           </DxcText>
         </DxcList> */}
       {/* <HeadingLink level={3}>Datepicker dialog</HeadingLink>
@@ -159,121 +160,121 @@ const DateInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>pickerBackgroundColor</code>
+                <Code>pickerBackgroundColor</Code>
               </td>
               <td>Dialog container</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>pickerDayFontColor</code>
+                <Code>pickerDayFontColor</Code>
               </td>
               <td>Dialog text</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>pickerCurrentDateColor</code>
+                <Code>pickerCurrentDateColor</Code>
               </td>
               <td>Dialog title</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>pickerHoverDateBackgroundColor</code>
+                <Code>pickerHoverDateBackgroundColor</Code>
               </td>
               <td>Container background</td>
               <td>
-                <code>color-purple-200</code>
+                <Code>color-purple-200</Code>
               </td>
               <td>#e5d5f6</td>
             </tr>
             <tr>
               <td>
-                <code>pickerSelectedDateColor</code>
+                <Code>pickerSelectedDateColor</Code>
               </td>
               <td>Date text:selected</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>pickerSelectedDateBackgroundColor</code>
+                <Code>pickerSelectedDateBackgroundColor</Code>
               </td>
               <td>Date background:hover</td>
               <td>
-                <code>color-purple-700</code>
+                <Code>color-purple-700</Code>
               </td>
               <td>#5f249f</td>
             </tr>
             <tr>
               <td>
-                <code>pickerHoverDateFontColor</code>
+                <Code>pickerHoverDateFontColor</Code>
               </td>
               <td>Date text:hover</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>pickerYearFontColor</code>
+                <Code>pickerYearFontColor</Code>
               </td>
               <td>Year label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>pickerMonthFontColor</code>
+                <Code>pickerMonthFontColor</Code>
               </td>
               <td>Mont label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>pickerWeekFontColor</code>
+                <Code>pickerWeekFontColor</Code>
               </td>
               <td>Weekday label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>pickerMonthArrowsBackgroundColor</code>
+                <Code>pickerMonthArrowsBackgroundColor</Code>
               </td>
               <td>Month selection controls</td>
               <td>
-                <code>color-transparent</code>
+                <Code>color-transparent</Code>
               </td>
               <td>transparent</td>
             </tr>
             <tr>
               <td>
-                <code>pickerFocusColor</code>
+                <Code>pickerFocusColor</Code>
               </td>
               <td>Focus indicator</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
@@ -294,7 +295,7 @@ const DateInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>pickerFontFamily</code>
+                <Code>pickerFontFamily</Code>
               </td>
               <td>Datepicker dialog</td>
               <td>font-family-sans`</td>
@@ -314,17 +315,17 @@ const DateInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Year selector</td>
               <td>
-                <code>font-scale-03</code>
+                <Code>font-scale-03</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Current month</td>
               <td>-</td>
@@ -332,7 +333,7 @@ const DateInputSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Day</td>
               <td>-</td>
@@ -340,31 +341,31 @@ const DateInputSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Year selector</td>
               <td>
-                <code>font-weight-semibold</code>
+                <Code>font-weight-semibold</Code>
               </td>
               <td>600</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Current month</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Day</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
@@ -385,41 +386,41 @@ const DateInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>padding</code>
+                <Code>padding</Code>
               </td>
               <td>Calendar container</td>
               <td>
-                <code>spacing-16</code>
+                <Code>spacing-16</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-left/right</code>
+                <Code>padding-left/right</Code>
               </td>
               <td>Month container</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-left/right</code>
+                <Code>padding-left/right</Code>
               </td>
               <td>Year selector</td>
               <td>
-                <code>spacing-16</code>
+                <Code>spacing-16</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>padding-top/bottom</code>
+                <Code>padding-top/bottom</Code>
               </td>
               <td>Separator</td>
               <td>
-                <code>spacing-8</code>
+                <Code>spacing-8</Code>
               </td>
               <td>0.5rem / 8px</td>
             </tr>
@@ -439,21 +440,21 @@ const DateInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>height/width</code>
+                <Code>height/width</Code>
               </td>
               <td>Selected date circle</td>
               <td>28/28px</td>
             </tr>
             <tr>
               <td>
-                <code>height/width</code>
+                <Code>height/width</Code>
               </td>
               <td>Year selection caret</td>
               <td>24/24px</td>
             </tr>
             <tr>
               <td>
-                <code>height/width</code>
+                <Code>height/width</Code>
               </td>
               <td>Calendar top controls</td>
               <td>24/24px</td>
