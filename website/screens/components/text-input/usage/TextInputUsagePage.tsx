@@ -1,5 +1,5 @@
 import { DxcText, DxcList } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import inputActionsClearImage from "./images/input_actions_clear.png";
 import Figure from "../../../common/Figure";

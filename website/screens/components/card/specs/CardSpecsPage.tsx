@@ -4,7 +4,7 @@ import {
   DxcStack,
   DxcTable,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
