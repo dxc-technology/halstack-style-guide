@@ -7,11 +7,11 @@ import {
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
-import Image from "next/image";
 import headerSpecs from "./images/header_specs.png";
 import headerAnatomy from "./images/header_anatomy.png";
 import headerResponsive from "./images/header_responsive.png";
 import DocFooter from "../../../common/DocFooter";
+import Image from "@/common/Image";
 
 const HeaderSpecsPage = () => {
   return (
@@ -41,102 +41,102 @@ const HeaderSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>backgroundColor</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>contentColor</Code>
               </td>
-              <td align="left">Content</td>
-              <td align="left">
+              <td>Content</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>underlinedColor</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerHoverColor</Code>
               </td>
-              <td align="left">Menu:hover</td>
-              <td align="left">
+              <td>Menu:hover</td>
+              <td>
                 <Code>color-grey-200</Code>
               </td>
-              <td align="left">#e6e6e6</td>
+              <td>#e6e6e6</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFocusColor</Code>
               </td>
-              <td align="left">Menu:focus</td>
-              <td align="left">
+              <td>Menu:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFontColor</Code>
               </td>
-              <td align="left">Menu label</td>
-              <td align="left">
+              <td>Menu label</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerIconColor</Code>
               </td>
-              <td align="left">Menu icon</td>
-              <td align="left">
+              <td>Menu icon</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>menuBackgroundColor</Code>
               </td>
-              <td align="left">Menu</td>
-              <td align="left">
+              <td>Menu</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>overlayColor</Code>
               </td>
-              <td align="left">Overlay</td>
-              <td align="left">
+              <td>Overlay</td>
+              <td>
                 <Code>color-grey-800-a</Code>
               </td>
-              <td align="left">#000000b3</td>
+              <td>#000000b3</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -144,52 +144,52 @@ const HeaderSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFontFamily</Code>
               </td>
-              <td align="left">Menu label</td>
-              <td align="left">
+              <td>Menu label</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFontStyle</Code>
               </td>
-              <td align="left">Menu label</td>
-              <td align="left">
+              <td>Menu label</td>
+              <td>
                 <Code>font-style-normal</Code>
               </td>
-              <td align="left">normal</td>
+              <td>normal</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFontSize</Code>
               </td>
-              <td align="left">Menu label</td>
-              <td align="left">
+              <td>Menu label</td>
+              <td>
                 <Code>font-scale-01</Code>
               </td>
-              <td align="left">0.75rem / 12px</td>
+              <td>0.75rem / 12px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hamburguerFontWeight</Code>
               </td>
-              <td align="left">Menu label</td>
-              <td align="left">
+              <td>Menu label</td>
+              <td>
                 <Code>font-weight-semibold</Code>
               </td>
-              <td align="left">600</td>
+              <td>600</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -197,32 +197,32 @@ const HeaderSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-width</Code>
               </td>
-              <td align="left">Underline</td>
-              <td align="left">
+              <td>Underline</td>
+              <td>
                 <Code>border-width-2</Code>
               </td>
-              <td align="left">2px</td>
+              <td>2px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-style</Code>
               </td>
-              <td align="left">Underline</td>
-              <td align="left">
+              <td>Underline</td>
+              <td>
                 <Code>border-style-solid</Code>
               </td>
-              <td align="left">solid</td>
+              <td>solid</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -230,28 +230,28 @@ const HeaderSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Poperty</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Poperty</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>height</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">-</td>
-              <td align="left">64px</td>
+              <td>Container</td>
+              <td>-</td>
+              <td>64px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>width</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">-</td>
-              <td align="left">100%</td>
+              <td>Container</td>
+              <td>-</td>
+              <td>100%</td>
             </tr>
           </tbody>
         </DxcTable>
