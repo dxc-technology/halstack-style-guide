@@ -449,22 +449,22 @@ const DialogSpecsPage = () => {
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html" text="2.1.2 No Keyboard Trap" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html" text="2.1.2 No Keyboard Trap" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html" text="2.4.3 Focus Order" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html" text="2.4.3 Focus Order" />
           </DxcText>
         </DxcList>
         <HeadingLink level={4}>WAI-ARIA</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal" text="3.9 Dialog (Modal)" />
+            <DxcLink newWindow href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal" text="3.9 Dialog (Modal)" />
           </DxcText>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html" text="Modal Dialog Example" />
+            <DxcLink newWindow href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html" text="Modal Dialog Example" />
           </DxcText>
         </DxcList>
       </DxcStack>
