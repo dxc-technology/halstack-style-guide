@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../../../common/Image";
 import { DxcList, DxcStack, DxcText } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import dialogContent from "./images/dialog_content.png";
