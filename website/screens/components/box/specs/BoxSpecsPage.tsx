@@ -2,7 +2,7 @@ import { DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
-import Image from "../../../common/Image";
+import Image from "@/common/Image";
 import boxSpecs from "./images/box_specs.png";
 import DocFooter from "../../../common/DocFooter";
 
