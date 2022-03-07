@@ -1,4 +1,4 @@
-import Image from "../../../common/Image";
+import Image from "@/common/Image";
 import AlertSpecsImage from "./images/alert_specs.png";
 import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
