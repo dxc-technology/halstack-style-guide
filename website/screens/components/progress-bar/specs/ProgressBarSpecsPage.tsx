@@ -4,7 +4,7 @@ import {
   DxcList,
   DxcText,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import specsImage from "./images/progress_specs.png";
 import anatomyImage from "./images/progress_anatomy.png";
