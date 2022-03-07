@@ -2,7 +2,7 @@ import { DxcStack, DxcText, DxcList } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 
-const NumberInputUsage = () => {
+const NumberInputUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -26,4 +26,4 @@ const NumberInputUsage = () => {
   );
 };
 
-export default NumberInputUsage;
+export default NumberInputUsagePage;
