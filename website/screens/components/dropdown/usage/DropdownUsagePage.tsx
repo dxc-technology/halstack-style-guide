@@ -10,7 +10,6 @@ const DropdownUsagePage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
-        <HeadingLink level={3}>Appearance</HeadingLink>
         <DxcText as="p">
           Dropdowns have a similar look and behaviour to select components, the
           difference is that while select is only to collect user's data into a
