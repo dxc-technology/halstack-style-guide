@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  images: {
+    loader: "custom",
+  },
+  trailingSlash: true,
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,
@@ -17,5 +21,14 @@ module.exports = {
         permanent: true,
       },
     ];
+  },
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
+    return {
+      ...defaultPathMap,
+      "/": { page: "/overview/introduction" },
+    };
   },
 };
