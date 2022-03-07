@@ -24,6 +24,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Number Input", path: "/components/number-input" },
   { label: "Card", path: "/components/card" },
   { label: "Dialog", path: "/components/dialog" },
+  { label: "Footer", path: "/components/footer" },
   { label: "Header", path: "/components/header" },
   { label: "Paginator", path: "/components/paginator" },
   { label: "Spinner", path: "/components/spinner" },
