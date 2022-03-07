@@ -5,7 +5,7 @@ import {
   DxcTable,
   DxcLink,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import checkboxAnatomy from "./images/checkbox_anatomy.png";
 import checkboxSpecs from "./images/checkbox_specs.png";
