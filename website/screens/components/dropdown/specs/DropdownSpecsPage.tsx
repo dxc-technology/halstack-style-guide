@@ -427,6 +427,7 @@ const DropdownSpecsPage = () => {
           <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
+              newWindow
               href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html"
               text="SC 1.4.13: Content on Hover or Focus"
             />
@@ -434,6 +435,7 @@ const DropdownSpecsPage = () => {
           <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
+              newWindow
               href="https://www.w3.org/WAI/WCAG22/Understanding/on-input.html"
               text="SC 3.2.2: On Input"
             />
@@ -444,6 +446,7 @@ const DropdownSpecsPage = () => {
           <DxcText>
             WAI-ARIA Authoring Practices 1.2 -{" "}
             <DxcLink
+              newWindow
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton"
               text="3.16 Menu button"
             />
