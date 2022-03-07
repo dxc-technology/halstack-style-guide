@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/common/Image";
 import { DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import sliderInput from "./images/slider_input.png";

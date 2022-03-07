@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from "@/common/Image";
 import sliderAnatomy from "./images/slider_anatomy.png";
 import sliderSpecs from "./images/slider_specs.png";
 import sliderStates from "./images/slider_states.png";
-import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
+import { DxcLink , DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
@@ -657,42 +657,42 @@ const ButtonSpecsPage = () => {
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships" text="SC 1.3.1 Info and Relationships" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships" text="SC 1.3.1 Info and Relationships" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence" text="SC 1.3.2 Meaningful Sequence" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence" text="SC 1.3.2 Meaningful Sequence" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard" text="SC 2.1.1 Keyboard" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard" text="SC 2.1.1 Keyboard" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order" text="SC 2.4.3 Focus Order" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order" text="SC 2.4.3 Focus Order" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels" text="SC 2.4.6 Headings and Labels" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels" text="SC 2.4.6 Headings and Labels" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible" text="SC 2.4.7 Focus Visible" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible" text="SC 2.4.7 Focus Visible" />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value" text="SC 4.1.2 Name, Role, Value" />
+            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value" text="SC 4.1.2 Name, Role, Value" />
           </DxcText>
         </DxcList>
         <HeadingLink level={4}>WAI-ARIA</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink href="https://www.w3.org/TR/wai-aria-practices-1.2/#slider" text="3.19 Slider" />
+            <DxcLink newWindow href="https://www.w3.org/TR/wai-aria-practices-1.2/#slider" text="3.19 Slider" />
           </DxcText>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink text="Slider example" href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/slider/slider-1.html" />
+            <DxcLink newWindow text="Slider example" href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/slider/slider-1.html" />
           </DxcText>
         </DxcList>
       </DxcStack>
