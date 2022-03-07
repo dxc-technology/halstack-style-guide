@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       <Head>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
       </Head>
-      <ThemeProvider>
+      <ThemeProvider advancedTheme={{}}>
         <DxcApplicationLayout>
           <DxcApplicationLayout.SideNav mode="push">
             <SidenavContent></SidenavContent>
