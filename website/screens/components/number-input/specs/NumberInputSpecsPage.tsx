@@ -31,9 +31,8 @@ const NumberInputSpecsPage = () => {
           <Code>margin</Code> specifications are inherited from the text input,
           for reference{" "}
           <DxcLink
-            href="http://halstack-design-system-website.s3-website-us-east-1.amazonaws.com/components/text-input/specifications"
+            href="/components/text-input/specifications"
             text="check the text input component documentation"
-            newWindow
           />
           .
         </DxcText>
