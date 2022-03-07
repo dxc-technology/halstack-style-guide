@@ -52,30 +52,30 @@ const ButtonUsage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Variant</th>
-              <th align="left">Description</th>
+              <th>Variant</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">Primary</td>
-              <td align="left">
+              <td>Primary</td>
+              <td>
                 For the principal call to action on the page; primary buttons
                 should only appear once per screen (not including the
                 application header or in a modal dialog)
               </td>
             </tr>
             <tr>
-              <td align="left">Secondary</td>
-              <td align="left">
+              <td>Secondary</td>
+              <td>
                 For less prominent actions; secondary buttons can be used in
                 isolation or paired with a primary button when there are
                 multiple calls to action
               </td>
             </tr>
             <tr>
-              <td align="left">Text</td>
-              <td align="left">
+              <td>Text</td>
+              <td>
                 For the least pronounced actions; often used in conjunction with
                 a primary button (e.g. cancel in a modal dialog)
               </td>

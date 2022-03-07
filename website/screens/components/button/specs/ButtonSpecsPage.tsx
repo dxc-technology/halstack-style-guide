@@ -48,94 +48,94 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryPaddingLeft</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryPaddingRight</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryPaddingTop</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryPaddingBottom</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
           </tbody>
         </DxcTable>
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>margin-right</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>margin-left</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>margin-left</Code>
               </td>
-              <td align="left">Icon</td>
-              <td align="left">
+              <td>Icon</td>
+              <td>
                 <Code>spacing-03</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -267,29 +267,29 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Property</th>
-              <th align="left">Core token</th>
+              <th>Component token</th>
+              <th>Property</th>
+              <th>Core token</th>
               <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>labelFontLineHeight</Code>
               </td>
-              <td align="left">line-height</td>
-              <td align="left">
+              <td>line-height</td>
+              <td>
                 <Code>font-leading-normal</Code>
               </td>
               <td>1.5 em</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>labelLetterSpacing</Code>
               </td>
-              <td align="left">letter-spacing</td>
-              <td align="left">
+              <td>letter-spacing</td>
+              <td>
                 <Code>font-spacing-wide-01</Code>
               </td>
               <td>0.025 em</td>
@@ -302,32 +302,32 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryBackgroundColor</Code>
               </td>
-              <td align="left">Button container</td>
-              <td align="left">
+              <td>Button container</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryFontColor</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -335,62 +335,62 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryHoverBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:hover</td>
-              <td align="left">
+              <td>Container fill:hover</td>
+              <td>
                 <Code>color-purple-800</Code>
               </td>
-              <td align="left">#4b1c7d</td>
+              <td>#4b1c7d</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryActiveBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:active</td>
-              <td align="left">
+              <td>Container fill:active</td>
+              <td>
                 <Code>color-purple-900</Code>
               </td>
-              <td align="left">#321353</td>
+              <td>#321353</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryDisabledBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:disabled</td>
-              <td align="left">
+              <td>Container fill:disabled</td>
+              <td>
                 <Code>color-grey-100</Code>
               </td>
-              <td align="left">#f2f2f2</td>
+              <td>#f2f2f2</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryDisabledFontColor</Code>
               </td>
-              <td align="left">Label:disabled</td>
-              <td align="left">
+              <td>Label:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryFocusBorderColor</Code>
               </td>
-              <td align="left">Container border:focus</td>
-              <td align="left">
+              <td>Container border:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -398,42 +398,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryBorderThickness</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-width-0</Code>
               </td>
-              <td align="left">0</td>
+              <td>0</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryBorderStyle</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-style-none</Code>
               </td>
-              <td align="left">none</td>
+              <td>none</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryBorderRadius</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-radius-medium</Code>
               </td>
-              <td align="left">0.25rem / 4px</td>
+              <td>0.25rem / 4px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -441,42 +441,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryFontFamily</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryFontSize</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">1 rem / 16px</td>
+              <td>1 rem / 16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>primaryBorderWeight</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-regular</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -486,42 +486,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryBackgroundColor</Code>
               </td>
-              <td align="left">Container fill</td>
-              <td align="left">
+              <td>Container fill</td>
+              <td>
                 <Code>transparent</Code>
               </td>
-              <td align="left">transparent</td>
+              <td>transparent</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryFontColor</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryBorderColor</Code>
               </td>
-              <td align="left">Container border</td>
-              <td align="left">
+              <td>Container border</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -529,82 +529,82 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryHoverBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:hover</td>
-              <td align="left">
+              <td>Container fill:hover</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryHoverFontColor</Code>
               </td>
-              <td align="left">Label:hover</td>
-              <td align="left">
+              <td>Label:hover</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryActiveBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:active</td>
-              <td align="left">
+              <td>Container fill:active</td>
+              <td>
                 <Code>color-purple-900</Code>
               </td>
-              <td align="left">#321353</td>
+              <td>#321353</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryDisabledBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:disabled</td>
-              <td align="left">
+              <td>Container fill:disabled</td>
+              <td>
                 <Code>color-transparent</Code>
               </td>
-              <td align="left">transparent</td>
+              <td>transparent</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryDisabledFontColor</Code>
               </td>
-              <td align="left">Label:disabled</td>
-              <td align="left">
+              <td>Label:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryFocusBorderColor</Code>
               </td>
-              <td align="left">Container border:focus</td>
-              <td align="left">
+              <td>Container border:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryDisabledBorderColor</Code>
               </td>
-              <td align="left">Container border:disabled</td>
-              <td align="left">
+              <td>Container border:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -612,42 +612,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryBorderThickness</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-width-1 </Code>
               </td>
-              <td align="left">1px</td>
+              <td>1px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryBorderStyle</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-style-solid</Code>
               </td>
-              <td align="left">solid</td>
+              <td>solid</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryBorderRadius</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-radius-medium</Code>
               </td>
-              <td align="left">0.25rem / 4px</td>
+              <td>0.25rem / 4px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -655,42 +655,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryFontFamily</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryFontSize</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">16px / 1 rem</td>
+              <td>16px / 1 rem</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>secondaryFontWeight</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-regular</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -700,32 +700,32 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textBackgroundColor</Code>
               </td>
-              <td align="left">Container fill</td>
-              <td align="left">
+              <td>Container fill</td>
+              <td>
                 <Code>color-transparent</Code>
               </td>
-              <td align="left">transparent</td>
+              <td>transparent</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textFontColor</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -733,62 +733,62 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textHoverBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:hover</td>
-              <td align="left">
+              <td>Container fill:hover</td>
+              <td>
                 <Code>color-purple-100</Code>
               </td>
-              <td align="left">#f2eafa</td>
+              <td>#f2eafa</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textActiveBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:active</td>
-              <td align="left">
+              <td>Container fill:active</td>
+              <td>
                 <Code>color-purple-200</Code>
               </td>
-              <td align="left">#e5d5f6</td>
+              <td>#e5d5f6</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textDisabledBackgroundColor</Code>
               </td>
-              <td align="left">Container fill:disabled</td>
-              <td align="left">
+              <td>Container fill:disabled</td>
+              <td>
                 <Code>color-transparent</Code>
               </td>
-              <td align="left">transparent</td>
+              <td>transparent</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textDisabledFontColor</Code>
               </td>
-              <td align="left">Label:disabled</td>
-              <td align="left">
+              <td>Label:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textFocusBorderColor</Code>
               </td>
-              <td align="left">Container border:focus</td>
-              <td align="left">
+              <td>Container border:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -796,42 +796,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textBorderThickness</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-width-0</Code>
               </td>
-              <td align="left">0</td>
+              <td>0</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textBorderStyle</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-style-none</Code>
               </td>
-              <td align="left">none</td>
+              <td>none</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textBorderRadius</Code>
               </td>
-              <td align="left">Container</td>
-              <td align="left">
+              <td>Container</td>
+              <td>
                 <Code>border-radius-medium</Code>
               </td>
-              <td align="left">0.25rem / 4px</td>
+              <td>0.25rem / 4px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -839,42 +839,42 @@ const ButtonSpecs = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textFontFamily</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textFontSize</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">16px / 1 rem</td>
+              <td>16px / 1 rem</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>textFontWeight</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-regular</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
