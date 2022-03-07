@@ -26,6 +26,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Dialog", path: "/components/dialog" },
   { label: "Footer", path: "/components/footer" },
   { label: "Header", path: "/components/header" },
+  { label: "Sidenav", path: "/components/sidenav" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Text Input", path: "/components/text-input" },
