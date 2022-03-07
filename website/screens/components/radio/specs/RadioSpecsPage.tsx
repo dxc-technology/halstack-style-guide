@@ -5,7 +5,6 @@ import {
   DxcTable,
   DxcText,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
 import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
 import radioStates from "./images/radio_states.png";
@@ -14,6 +13,7 @@ import radioStacking from "./images/radio_stacking.png";
 import radioSpecs from "./images/radio_specs.png";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
+import Image from "@/common/Image";
 
 const RadioSpecsPage = () => {
   return (
@@ -57,22 +57,22 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Name</th>
-              <th align="left">Description</th>
+              <th>Name</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">Vertical</td>
-              <td align="left">
+              <td>Vertical</td>
+              <td>
                 Short lists of radio buttons should be stacked vertically below
                 a descriptive label to better associate the group. Options that
                 are listed vertically are easier to read
               </td>
             </tr>
             <tr>
-              <td align="left">Horizontal</td>
-              <td align="left">
+              <td>Horizontal</td>
+              <td>
                 Multiple radio buttons may be displayed horizontally across the
                 page while keeping them aligned within their respective columns.
                 Here, it is needed to have in consideration that the linear
@@ -95,72 +95,72 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>color</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">
+              <td>Radio input</td>
+              <td>
                 <Code>color-blue-800</Code>
               </td>
-              <td align="left">#0067b3</td>
+              <td>#0067b3</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hoverColor</Code>
               </td>
-              <td align="left">Radio input:hover</td>
-              <td align="left">
+              <td>Radio input:hover</td>
+              <td>
                 <Code>color-blue-900</Code>
               </td>
-              <td align="left">#003c66</td>
+              <td>#003c66</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>focusColor</Code>
               </td>
-              <td align="left">Radio input:focus</td>
-              <td align="left">
+              <td>Radio input:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledColor</Code>
               </td>
-              <td align="left">Radio input:disabled</td>
-              <td align="left">
+              <td>Radio input:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontColor</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledFontColor</Code>
               </td>
-              <td align="left">Label:disabled</td>
-              <td align="left">
+              <td>Label:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -168,72 +168,72 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>colorOnDark</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">
+              <td>Radio input</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#e6e6e6</td>
+              <td>#e6e6e6</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hoverColor</Code>
               </td>
-              <td align="left">Radio input:hover</td>
-              <td align="left">
+              <td>Radio input:hover</td>
+              <td>
                 <Code>color-blue-900</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>focusColorOnDark</Code>
               </td>
-              <td align="left">Radio input:focus</td>
-              <td align="left">
+              <td>Radio input:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledColorOnDark</Code>
               </td>
-              <td align="left">Radio input:disabled</td>
-              <td align="left">
+              <td>Radio input:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontColorOnDark</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledFontColorOnDark</Code>
               </td>
-              <td align="left">Label:disabled</td>
-              <td align="left">
+              <td>Label:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -241,52 +241,52 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontFamily</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontSize</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">1rem / 16px</td>
+              <td>1rem / 16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontWeight</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-weight-regular</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>fontStyle</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>font-style-normal</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -294,52 +294,52 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-width</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">
+              <td>Radio input</td>
+              <td>
                 <Code>border-width-2</Code>
               </td>
-              <td align="left">2px</td>
+              <td>2px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-style</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">
+              <td>Radio input</td>
+              <td>
                 <Code>border-style-solid</Code>
               </td>
-              <td align="left">solid</td>
+              <td>solid</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-width</Code>
               </td>
-              <td align="left">Focus border</td>
-              <td align="left">
+              <td>Focus border</td>
+              <td>
                 <Code>border-width-2</Code>
               </td>
-              <td align="left">2px</td>
+              <td>2px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>border-style</Code>
               </td>
-              <td align="left">Focus border</td>
-              <td align="left">
+              <td>Focus border</td>
+              <td>
                 <Code>border-style-solid</Code>
               </td>
-              <td align="left">solid</td>
+              <td>solid</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -347,42 +347,42 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>labelMargin</Code>
               </td>
-              <td align="left">Label</td>
-              <td align="left">
+              <td>Label</td>
+              <td>
                 <Code>spacing-8</Code>
               </td>
-              <td align="left">0.5rem / 8px</td>
+              <td>0.5rem / 8px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>groupVerticalSpacing</Code>
               </td>
-              <td align="left">Radio</td>
-              <td align="left">
+              <td>Radio</td>
+              <td>
                 <Code>spacing-16</Code>
               </td>
-              <td align="left">1rem / 16px</td>
+              <td>1rem / 16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>groupHorizontalSpacing</Code>
               </td>
-              <td align="left">Radio</td>
-              <td align="left">
+              <td>Radio</td>
+              <td>
                 <Code>spacing-32</Code>
               </td>
-              <td align="left">2rem / 32px</td>
+              <td>2rem / 32px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -390,39 +390,39 @@ const RadioSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>width</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">18px</td>
+              <td>Radio input</td>
+              <td>18px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>width</Code>
               </td>
-              <td align="left">focus outline</td>
-              <td align="left">24px</td>
+              <td>focus outline</td>
+              <td>24px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>height</Code>
               </td>
-              <td align="left">Radio input</td>
-              <td align="left">18px</td>
+              <td>Radio input</td>
+              <td>18px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>height</Code>
               </td>
-              <td align="left">focus outline</td>
-              <td align="left">26px</td>
+              <td>focus outline</td>
+              <td>26px</td>
             </tr>
           </tbody>
         </DxcTable>
