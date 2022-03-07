@@ -7,7 +7,7 @@ const Specifications = () => {
   return (
     <>
       <Head>
-        <title>Checkbox — Halstack Design System</title>
+        <title>Checkbox Specs — Halstack Design System</title>
       </Head>
       <CheckboxSpecsPage></CheckboxSpecsPage>
     </>
