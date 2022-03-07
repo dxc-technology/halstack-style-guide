@@ -23,9 +23,7 @@ const ProgressBarSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Component anatomy">
-          <Image src={anatomyImage} alt="Component anatomy" />
-        </Figure>
+        <Image src={anatomyImage} alt="Component anatomy" />
         <DxcList type="number">
           <DxcText>
             Label <em>(Optional)</em>
