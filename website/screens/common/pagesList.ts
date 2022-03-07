@@ -18,6 +18,7 @@ const overviewLinks: LinkDetails[] = [
 ];
 
 const componentsLinks: LinkDetails[] = [
+  { label: "Accordion", path: "/components/accordion" },
   { label: "Alert", path: "/components/alert" },
   { label: "Button", path: "/components/button" },
   { label: "Number Input", path: "/components/number-input" },
