@@ -26,10 +26,11 @@ const componentsLinks: LinkDetails[] = [
   { label: "Dialog", path: "/components/dialog" },
   { label: "Footer", path: "/components/footer" },
   { label: "Header", path: "/components/header" },
-  { label: "Paginator", path: "/components/paginator" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Paginator", path: "/components/paginator" },
+  { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Wizard", path: "/components/wizard" },
 ];
 
