@@ -1,5 +1,4 @@
 import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
-import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import inputActionsClearImage from "./images/input_actions_clear.png";
 import inputActionsCustom from "./images/input_actions_custom.png";
@@ -7,6 +6,7 @@ import inputPrefixSuffix from "./images/input_prefix_suffix.png";
 import inputHelperText from "./images/input_helper_text.png";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import Image from "@/common/Image";
 
 const TextInputUsagePage = () => {
   return (

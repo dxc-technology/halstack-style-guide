@@ -21,6 +21,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Button", path: "/components/button" },
   { label: "Checkbox", path: "/components/checkbox" },
   { label: "Card", path: "/components/card" },
+  { label: "Header", path: "/components/header" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Text Input", path: "/components/text-input" },
