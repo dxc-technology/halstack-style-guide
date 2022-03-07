@@ -23,9 +23,7 @@ const FooterSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Footer anatomy">
-          <Image src={footerAnatomy} alt="Footer anatomy" />
-        </Figure>
+        <Image src={footerAnatomy} alt="Footer anatomy" />
         <DxcList type="number">
           <DxcText>Container</DxcText>
           <DxcText>Logo</DxcText>
