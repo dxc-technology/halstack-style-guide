@@ -1,7 +1,7 @@
 import { DxcList, DxcStack, DxcText } from "@dxc-technology/halstack-react";
 import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
-import Image from "next/image";
+import Image from "@/common/Image";
 import Figure from "../../../common/Figure";
 import dropdownIconUsage from "./images/dropdown_icon_usage.png";
 

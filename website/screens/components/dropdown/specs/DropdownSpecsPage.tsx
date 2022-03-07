@@ -5,7 +5,7 @@ import {
   DxcList,
   DxcLink,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
