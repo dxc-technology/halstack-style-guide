@@ -7,7 +7,7 @@ const Specifications = () => {
   return (
     <>
       <Head>
-        <title>Paginator Specs — Halstack Design System</title>
+        <title>Accordion Specs — Halstack Design System</title>
       </Head>
       <AccordionSpecsPage></AccordionSpecsPage>
     </>
