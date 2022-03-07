@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/common/Image";
 import numberSpecs from "./images/number_specs.png";
 import numberInputSpecs from "./images/number_input_states.png";
 import numberInputStates from "./images/number_action_states.png";

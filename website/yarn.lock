@@ -148,10 +148,10 @@
   dependencies:
     "@date-io/core" "^1.3.13"
 
-"@dxc-technology/halstack-react@0.0.0-262ed04":
-  "integrity" "sha512-+6E7qrWgZpBe2Eba2gPfbli3wlM0FNTUeyBy6SgY8SkkpOCzMYlMqWOyb24HfXjwI/XCCJvsoBLVZTZsKOllow=="
-  "resolved" "https://registry.npmjs.org/@dxc-technology/halstack-react/-/halstack-react-0.0.0-262ed04.tgz"
-  "version" "0.0.0-262ed04"
+"@dxc-technology/halstack-react@0.0.0-3716032":
+  "integrity" "sha512-qOD4Al9woObR+f2N3HRjYAbg6Zs3ACXz3S1N/Bojnsifg/LSwfFwxgBFW9Ju48ODZrb4ifhzkjCwSICItu99kA=="
+  "resolved" "https://registry.npmjs.org/@dxc-technology/halstack-react/-/halstack-react-0.0.0-3716032.tgz"
+  "version" "0.0.0-3716032"
   dependencies:
     "@date-io/date-fns" "^1.3.9"
     "@material-ui/core" "4.11.1"
