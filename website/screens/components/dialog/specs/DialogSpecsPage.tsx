@@ -1,4 +1,4 @@
-import Image from "../../../common/Image";
+import Image from "@/common/Image";
 import dialogAnatomyImage from "./images/dialog_anatomy.png";
 import dialogSpecsImage from "./images/dialog_specs.png";
 import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
