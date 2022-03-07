@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/common/Image";
 import buttonSpecsImage from "./images/button_specs.png";
 import { DxcTable } from "@dxc-technology/halstack-react";
 import DocFooter from "../../../common/DocFooter";
