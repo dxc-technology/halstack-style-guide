@@ -19,8 +19,8 @@ import accordionContent from "./images/accordion_content.png";
 import accordionHelperText from "./images/accordion_helper_text.png";
 import accordionSpecs from "./images/accordion_specs.png";
 import Figure from "../../../common/Figure";
-import Image from "next/image";
 import DocFooter from "../../../common/DocFooter";
+import Image from "@/common/Image";
 
 const AccordionSpecsPage = () => {
   return (
@@ -218,138 +218,138 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value (HEX)</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value (HEX)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelFontColor</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>color-black</Code>
               </td>
-              <td align="left">#000000</td>
+              <td>#000000</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledTitleLabelFontColor</Code>
               </td>
-              <td align="left">Title:disabled</td>
-              <td align="left">
+              <td>Title:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>arrowColor</Code>
               </td>
-              <td align="left">Caret icon</td>
-              <td align="left">
+              <td>Caret icon</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledArrowColor</Code>
               </td>
-              <td align="left">Title:disabled</td>
-              <td align="left">
+              <td>Title:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>iconColor</Code>
               </td>
-              <td align="left">Custom icon</td>
-              <td align="left">
+              <td>Custom icon</td>
+              <td>
                 <Code>color-purple-700</Code>
               </td>
-              <td align="left">#5f249f</td>
+              <td>#5f249f</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledIconColor</Code>
               </td>
-              <td align="left">Custom icon:disabled</td>
-              <td align="left">
+              <td>Custom icon:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextFontColor</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>color-grey-700</Code>
               </td>
-              <td align="left">#666666</td>
+              <td>#666666</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>disabledAssistiveTextFontColor</Code>
               </td>
-              <td align="left">Helper text:disabled</td>
-              <td align="left">
+              <td>Helper text:disabled</td>
+              <td>
                 <Code>color-grey-500</Code>
               </td>
-              <td align="left">#999999</td>
+              <td>#999999</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>hoverBackgroundColor</Code>
               </td>
-              <td align="left">Header background:hover</td>
-              <td align="left">
+              <td>Header background:hover</td>
+              <td>
                 <Code>color-purple-100</Code>
               </td>
-              <td align="left">#f2eafa</td>
+              <td>#f2eafa</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>focusBorderColor</Code>
               </td>
-              <td align="left">Header outline:focus</td>
-              <td align="left">
+              <td>Header outline:focus</td>
+              <td>
                 <Code>color-blue-600</Code>
               </td>
-              <td align="left">#0095ff</td>
+              <td>#0095ff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>backgroundColor</Code>
               </td>
-              <td align="left">Container background</td>
-              <td align="left">
+              <td>Container background</td>
+              <td>
                 <Code>color-white</Code>
               </td>
-              <td align="left">#ffffff</td>
+              <td>#ffffff</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>boxShadowColor</Code>
               </td>
-              <td align="left">Container shadow</td>
-              <td align="left">-</td>
-              <td align="left">#0000001a</td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>#0000001a</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>accordionGroupSeparatorBorderColor</Code>
               </td>
-              <td align="left">Separator</td>
-              <td align="left">-</td>
-              <td align="left">#0000001a</td>
+              <td>Separator</td>
+              <td>-</td>
+              <td>#0000001a</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -357,102 +357,102 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelFontFamily</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif;</td>
+              <td>&#39;Open Sans&#39;, sans-serif;</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelFontSize</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">16px</td>
+              <td>16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelFontWeight</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>font-regular</Code>
               </td>
-              <td align="left">400</td>
+              <td>400</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelFontStyle</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>font-normal</Code>
               </td>
-              <td align="left">normal</td>
+              <td>normal</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextFontFamily</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>font-sans</Code>
               </td>
-              <td align="left">&#39;Open Sans&#39;, sans-serif;</td>
+              <td>&#39;Open Sans&#39;, sans-serif;</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextFontSize</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>font-scale-03</Code>
               </td>
-              <td align="left">16px</td>
+              <td>16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextFontWeight</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>font-light</Code>
               </td>
-              <td align="left">300</td>
+              <td>300</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextFontStyle</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>font-regular</Code>
               </td>
-              <td align="left">italic</td>
+              <td>italic</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>assistiveTextLetterSpacing</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>font-tracking-wide-01</Code>
               </td>
-              <td align="left">0.025em</td>
+              <td>0.025em</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -460,20 +460,20 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>iconSize</Code>
               </td>
-              <td align="left">Custom icon/Caret icon</td>
-              <td align="left">-</td>
-              <td align="left">24x24px</td>
+              <td>Custom icon/Caret icon</td>
+              <td>-</td>
+              <td>24x24px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -481,42 +481,42 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>focusBorderStyle</Code>
               </td>
-              <td align="left">Header:focus border</td>
-              <td align="left">
+              <td>Header:focus border</td>
+              <td>
                 <Code>border-style-solid</Code>
               </td>
-              <td align="left">solid</td>
+              <td>solid</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>focusBorderThickness</Code>
               </td>
-              <td align="left">Header:focus border</td>
-              <td align="left">
+              <td>Header:focus border</td>
+              <td>
                 <Code>border-width-2</Code>
               </td>
-              <td align="left">2px</td>
+              <td>2px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>borderRadius</Code>
               </td>
-              <td align="left">Accordion container</td>
-              <td align="left">
+              <td>Accordion container</td>
+              <td>
                 <Code>border-radius-medium</Code>
               </td>
-              <td align="left">0.25rem / 4px</td>
+              <td>0.25rem / 4px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -524,28 +524,28 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>height</Code>
               </td>
-              <td align="left">Header</td>
-              <td align="left">-</td>
-              <td align="left">48px</td>
+              <td>Header</td>
+              <td>-</td>
+              <td>48px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>min-width</Code>
               </td>
-              <td align="left">Accordion container</td>
-              <td align="left">-</td>
-              <td align="left">280px</td>
+              <td>Accordion container</td>
+              <td>-</td>
+              <td>280px</td>
             </tr>
           </tbody>
         </DxcTable>
@@ -553,127 +553,127 @@ const AccordionSpecsPage = () => {
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Component token</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelPaddingRight</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>spacing-16</Code>
               </td>
-              <td align="left">1rem / 16px</td>
+              <td>1rem / 16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelPaddingLeft</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>spacing-0 </Code>
               </td>
-              <td align="left">0rem / 0px</td>
+              <td>0rem / 0px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelPaddingTop</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>spacing-0 </Code>
               </td>
-              <td align="left">0rem / 0px</td>
+              <td>0rem / 0px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>titleLabelPaddingBottom</Code>
               </td>
-              <td align="left">Title</td>
-              <td align="left">
+              <td>Title</td>
+              <td>
                 <Code>spacing-0 </Code>
               </td>
-              <td align="left">0rem / 0px</td>
+              <td>0rem / 0px</td>
             </tr>
           </tbody>
         </DxcTable>
         <DxcTable>
           <thead>
             <tr>
-              <th align="left">Property</th>
-              <th align="left">Element</th>
-              <th align="left">Core token</th>
-              <th align="left">Value</th>
+              <th>Property</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td align="left">
+              <td>
                 <Code>padding-left</Code>
               </td>
-              <td align="left">Header</td>
-              <td align="left">
+              <td>Header</td>
+              <td>
                 <Code>spacing-16</Code>
               </td>
-              <td align="left">16px</td>
+              <td>16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>padding-right</Code>
               </td>
-              <td align="left">Header</td>
-              <td align="left">
+              <td>Header</td>
+              <td>
                 <Code>spacing-16</Code>
               </td>
-              <td align="left">16px</td>
+              <td>16px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>padding-right</Code>
               </td>
-              <td align="left">Helper text</td>
-              <td align="left">
+              <td>Helper text</td>
+              <td>
                 <Code>spacing-24</Code>
               </td>
-              <td align="left">24px</td>
+              <td>24px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>padding</Code>
               </td>
-              <td align="left">Caret icon</td>
-              <td align="left">
+              <td>Caret icon</td>
+              <td>
                 <Code>spacing-12</Code>
               </td>
-              <td align="left">12px</td>
+              <td>12px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>margin-right</Code>
               </td>
-              <td align="left">Custom icon</td>
-              <td align="left">
+              <td>Custom icon</td>
+              <td>
                 <Code>spacing-12</Code>
               </td>
-              <td align="left">12px</td>
+              <td>12px</td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>padding</Code>
               </td>
-              <td align="left">Custom content</td>
-              <td align="left">
+              <td>Custom content</td>
+              <td>
                 <DxcLink
                   href="https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens"
                   text="Component spacing"
                 />
               </td>
-              <td align="left">
+              <td>
                 <DxcLink
                   href="https://developer.dxc.com/tools/react/next/#/components/accordion"
                   text="[Prop] padding"
@@ -681,17 +681,17 @@ const AccordionSpecsPage = () => {
               </td>
             </tr>
             <tr>
-              <td align="left">
+              <td>
                 <Code>margin</Code>
               </td>
-              <td align="left">Accordion container</td>
-              <td align="left">
+              <td>Accordion container</td>
+              <td>
                 <DxcLink
                   href="https://github.com/dxc-technology/halstack-style-guide/tree/master/guidelines/principles/spacing#component-spacing-tokens"
                   text="Component spacing"
                 />
               </td>
-              <td align="left">
+              <td>
                 <DxcLink
                   href="https://developer.dxc.com/tools/react/next/#/components/accordion"
                   text="[Prop] margin"
