@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../../../common/Image";
 import { DxcText, DxcStack, DxcList, DxcTable } from "@dxc-technology/halstack-react";
 import AlertTypesImage from "./images/alert_types.png";
 import DocFooter from "../../../common/DocFooter";
@@ -118,6 +118,13 @@ const AlertUsagePage = () => {
             </tr>
           </tbody>
         </DxcTable>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Content</HeadingLink>
+        <DxcText as="p">
+          Depending on the content that need to be displayed, more detailed descriptions can be
+          added to the alert component as children.
+        </DxcText>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/alert/usage/AlertUsagePage.tsx" />
     </DxcStack>

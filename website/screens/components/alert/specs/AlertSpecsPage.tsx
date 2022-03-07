@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../../../common/Image";
 import AlertSpecsImage from "./images/alert_specs.png";
 import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
@@ -13,7 +13,9 @@ const AlertSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <Image src={AlertSpecsImage} alt="alert specifications" />
+        <Figure caption="Alert specifications">
+          <Image src={AlertSpecsImage} alt="alert specifications" />
+        </Figure>
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           States for the close action of the alert component: <strong>Enabled</strong>,{" "}
@@ -36,13 +38,6 @@ const AlertSpecsPage = () => {
             Content <em>(Optional)</em>
           </DxcText>
         </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Content</HeadingLink>
-        <DxcText as="p">
-          Depending on the content that need to be displayed, more detailed descriptions can be
-          added to the alert component as children.
-        </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design Tokens</HeadingLink>
@@ -499,6 +494,7 @@ const AlertSpecsPage = () => {
           <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
+              newWindow
               text="SC 4.1.3 Status Messages"
               href="https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html"
             />
@@ -508,11 +504,16 @@ const AlertSpecsPage = () => {
         <DxcList>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink text="3.2 Alert" href="https://www.w3.org/TR/wai-aria-practices-1.2/#alert" />
+            <DxcLink
+              newWindow
+              text="3.2 Alert"
+              href="https://www.w3.org/TR/wai-aria-practices-1.2/#alert"
+            />
           </DxcText>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
+              newWindow
               text="3.3 Alert and Message dialogs"
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#alertdialog"
             />
@@ -520,6 +521,7 @@ const AlertSpecsPage = () => {
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
+              newWindow
               text="Alert design pattern"
               href="https://www.w3.org/TR/wai-aria-practices/examples/alert/alert.html"
             />
@@ -527,6 +529,7 @@ const AlertSpecsPage = () => {
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
             <DxcLink
+              newWindow
               text="Alert Dialog design pattern"
               href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/alertdialog.html"
             />
