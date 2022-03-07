@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   DxcList,
   DxcStack,
@@ -10,6 +9,7 @@ import buttonIconImage from "./images/button_icon.png";
 import buttonVariantsImage from "./images/button_variants.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
+import Image from "@/common/Image";
 
 const ButtonUsage = () => {
   return (

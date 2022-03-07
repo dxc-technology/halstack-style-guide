@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   DxcLink,
   DxcList,
@@ -12,6 +11,7 @@ import DocFooter from "../../../common/DocFooter";
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
+import Image from "@/common/Image";
 
 const ButtonSpecs = () => {
   return (
