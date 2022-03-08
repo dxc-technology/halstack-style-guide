@@ -25,7 +25,8 @@ const CardSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
-          Component states: <strong>Enabled</strong>, <strong>hover</strong> and <strong>focus</strong>.
+          Component states: <strong>Enabled</strong>, <strong>hover</strong> and{" "}
+          <strong>focus</strong>.
         </DxcText>
         <Figure caption="Card component states">
           <Image src={statesImage} alt="Card component states" />
@@ -33,9 +34,7 @@ const CardSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Card anatomy">
-          <Image src={anatomyImage} alt="Card anatomy" />
-        </Figure>
+        <Image src={anatomyImage} alt="Card anatomy" />
         <DxcList type="number">
           <DxcText>Card image</DxcText>
           <DxcText>Custom content</DxcText>
