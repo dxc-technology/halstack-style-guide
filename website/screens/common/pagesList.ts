@@ -20,6 +20,7 @@ const overviewLinks: LinkDetails[] = [
 const componentsLinks: LinkDetails[] = [
   { label: "Accordion", path: "/components/accordion" },
   { label: "Alert", path: "/components/alert" },
+  { label: "Box", path: "/components/box" },
   { label: "Button", path: "/components/button" },
   { label: "Checkbox", path: "/components/checkbox" },
   { label: "Card", path: "/components/card" },
@@ -33,8 +34,10 @@ const componentsLinks: LinkDetails[] = [
   { label: "Radio", path: "/components/radio" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
+  { label: "Table", path: "/components/table" },
   { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Select", path: "/components/select" },
   { label: "Textarea", path: "/components/textarea" },
   { label: "Wizard", path: "/components/wizard" },
 ];
