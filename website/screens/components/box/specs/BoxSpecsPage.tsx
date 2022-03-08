@@ -1,38 +1,19 @@
-import {
-  DxcList,
-  DxcStack,
-  DxcTable,
-  DxcText,
-} from "@dxc-technology/halstack-react";
+import { DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
-import headerSpecs from "./images/header_specs.png";
-import headerAnatomy from "./images/header_anatomy.png";
-import DocFooter from "../../../common/DocFooter";
 import Image from "@/common/Image";
+import boxSpecs from "./images/box_specs.png";
+import DocFooter from "../../../common/DocFooter";
 
-const HeaderSpecsPage = () => {
+const BoxSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <Figure caption="Header design specifications">
-          <Image src={headerSpecs} alt="Header design specifications" />
+        <Figure caption="Component design specifications">
+          <Image src={boxSpecs} alt="Component design specifications" />
         </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Header distribution example">
-          <Image src={headerAnatomy} alt="Header distribution example" />
-        </Figure>
-        <DxcList type="number">
-          <DxcText>Brand image</DxcText>
-          <DxcText>Application name</DxcText>
-          <DxcText>Navigation links</DxcText>
-          <DxcText>Header dropdown</DxcText>
-          <DxcText>Container</DxcText>
-        </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
@@ -59,87 +40,43 @@ const HeaderSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <Code>contentColor</Code>
-              </td>
-              <td>Content</td>
-              <td>
-                <Code>color-black</Code>
-              </td>
-              <td>#000000</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>underlinedColor</Code>
+                <Code>borderColor</Code>
               </td>
               <td>Container</td>
               <td>
-                <Code>color-black</Code>
+                <Code>color-transparent</Code>
               </td>
-              <td>#000000</td>
+              <td>#transparent</td>
             </tr>
             <tr>
               <td>
-                <Code>hamburguerHoverColor</Code>
+                <Code>noneShadowDepthShadowColor</Code>
               </td>
-              <td>Menu:hover</td>
+              <td>Shadow</td>
               <td>
-                <Code>color-grey-200</Code>
+                <Code>color-transparent</Code>
               </td>
-              <td>#e6e6e6</td>
+              <td>transparent</td>
             </tr>
             <tr>
               <td>
-                <Code>hamburguerFocusColor</Code>
+                <Code>oneShadowDepthShadowColor</Code>
               </td>
-              <td>Menu:focus</td>
-              <td>
-                <Code>color-blue-600</Code>
-              </td>
-              <td>#0095ff</td>
+              <td>Shadow</td>
+              <td>-</td>
+              <td>#00000033</td>
             </tr>
             <tr>
               <td>
-                <Code>hamburguerFontColor</Code>
+                <Code>twoShadowDepthShadowColor</Code>
               </td>
-              <td>Menu label</td>
-              <td>
-                <Code>color-black</Code>
-              </td>
-              <td>#000000</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>hamburguerIconColor</Code>
-              </td>
-              <td>Menu icon</td>
-              <td>
-                <Code>color-black</Code>
-              </td>
-              <td>#000000</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>menuBackgroundColor</Code>
-              </td>
-              <td>Menu</td>
-              <td>
-                <Code>color-white</Code>
-              </td>
-              <td>#ffffff</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>overlayColor</Code>
-              </td>
-              <td>Overlay</td>
-              <td>
-                <Code>color-grey-800-a</Code>
-              </td>
-              <td>#000000b3</td>
+              <td>Shadow</td>
+              <td>-</td>
+              <td>#00000033</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Typography</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -152,113 +89,196 @@ const HeaderSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <Code>hamburguerFontFamily</Code>
+                <Code>borderThickness</Code>
               </td>
-              <td>Menu label</td>
+              <td>Container border</td>
               <td>
-                <Code>font-family-sans</Code>
+                <Code>border-width-0</Code>
               </td>
-              <td>&#39;Open Sans&#39;, sans-serif</td>
+              <td>0</td>
             </tr>
             <tr>
               <td>
-                <Code>hamburguerFontStyle</Code>
+                <Code>borderRadius</Code>
               </td>
-              <td>Menu label</td>
+              <td>Container border</td>
               <td>
-                <Code>font-style-normal</Code>
+                <Code>border-radius-medium</Code>
               </td>
-              <td>normal</td>
+              <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <Code>hamburguerFontSize</Code>
+                <Code>borderStyle</Code>
               </td>
-              <td>Menu label</td>
+              <td>Container border</td>
               <td>
-                <Code>font-scale-01</Code>
+                <Code>border-style-none</Code>
               </td>
-              <td>0.75rem / 12px</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>hamburguerFontWeight</Code>
-              </td>
-              <td>Menu label</td>
-              <td>
-                <Code>font-weight-semibold</Code>
-              </td>
-              <td>600</td>
+              <td>none</td>
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Border</HeadingLink>
+        <HeadingLink level={4}>Shadow</HeadingLink>
+        <DxcTable>
+          <thead>
+            <tr>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Core token</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <Code>noneShadowDepthShadowOffsetX</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>noneShadowDepthShadowOffsetY</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>noneShadowDepthShadowBlur</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>noneShadowDepthShadowSpread</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>none</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>oneShadowDepthShadowOffsetX</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>0x</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>oneShadowDepthShadowOffsetY</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>3px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>oneShadowDepthShadowBlur</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>6px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>oneShadowDepthShadowSpread</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>0px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>twoShadowDepthShadowOffsetX</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>0x</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>twoShadowDepthShadowOffsetY</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>3px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>twoShadowDepthShadowBlur</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>10px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>twoShadowDepthShadowSpread</Code>
+              </td>
+              <td>Container shadow</td>
+              <td>-</td>
+              <td>0px</td>
+            </tr>
+          </tbody>
+        </DxcTable>
+        <HeadingLink level={4}>Width</HeadingLink>
+        <DxcText as="p">
+          In the cases of <Code>fillParent</Code> and <Code>fillContent</Code>{" "}
+          the box is going to behave as a fluid container occupying the space
+          the parent leaves for its children or adapting its size to the
+          children it the box has. Instead of using a fluid approach, you can
+          set a fixed size, choosing between{" "}
+          <Code>small</Code>, <Code>medium</Code> and <Code>large</Code>{" "}
+          properties.
+        </DxcText>
         <DxcTable>
           <thead>
             <tr>
               <th>Property</th>
-              <th>Element</th>
-              <th>Core token</th>
               <th>Value</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                <Code>border-width</Code>
+                <Code>small</Code>
               </td>
-              <td>Underline</td>
-              <td>
-                <Code>border-width-2</Code>
-              </td>
-              <td>2px</td>
+              <td>48px</td>
             </tr>
             <tr>
               <td>
-                <Code>border-style</Code>
+                <Code>medium</Code>
               </td>
-              <td>Underline</td>
-              <td>
-                <Code>border-style-solid</Code>
-              </td>
-              <td>solid</td>
+              <td>240px</td>
             </tr>
-          </tbody>
-        </DxcTable>
-        <HeadingLink level={4}>Size</HeadingLink>
-        <DxcTable>
-          <thead>
-            <tr>
-              <th>Poperty</th>
-              <th>Element</th>
-              <th>Core token</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
             <tr>
               <td>
-                <Code>height</Code>
+                <Code>large</Code>
               </td>
-              <td>Container</td>
+              <td>480px</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>fillParent</Code>
+              </td>
               <td>-</td>
-              <td>64px</td>
             </tr>
             <tr>
               <td>
-                <Code>width</Code>
+                <Code>fillContent</Code>
               </td>
-              <td>Container</td>
               <td>-</td>
-              <td>100%</td>
             </tr>
           </tbody>
         </DxcTable>
         <HeadingLink level={4}>Margin</HeadingLink>
-        <DxcText as="p">
-          The margin only applies to the <Code>margin-bottom</Code> of the
-          header component.
-        </DxcText>
         <DxcTable>
           <thead>
             <tr>
@@ -311,11 +331,12 @@ const HeaderSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Padding</HeadingLink>
         <DxcText as="p">
-          The variable padding only applies to the content area, the{" "}
-          <Code>padding-left</Code> applied to the brand area is fixed (20px).
+          And also apply different values to each side of the component:{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
+          <Code>right</Code>.
         </DxcText>
+        <HeadingLink level={4}>Padding</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -369,14 +390,14 @@ const HeaderSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          Different values can be applied to each side of the component:{" "}
-          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,{" "}
+          And also apply different values to each side of the component:{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
           <Code>right</Code>.
         </DxcText>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/header/specs/HeaderSpecsPage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/box/specs/BoxSpecsPage.tsx" />
     </DxcStack>
   );
 };
 
-export default HeaderSpecsPage;
+export default BoxSpecsPage;
