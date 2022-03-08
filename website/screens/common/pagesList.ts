@@ -33,6 +33,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Radio", path: "/components/radio" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
+  { label: "Table", path: "/components/table" },
   { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
   { label: "Textarea", path: "/components/textarea" },
