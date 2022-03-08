@@ -18,13 +18,20 @@ const overviewLinks: LinkDetails[] = [
 ];
 
 const componentsLinks: LinkDetails[] = [
+  { label: "Accordion", path: "/components/accordion" },
+  { label: "Alert", path: "/components/alert" },
   { label: "Button", path: "/components/button" },
   { label: "Card", path: "/components/card" },
+  { label: "Dialog", path: "/components/dialog" },
   { label: "Dropdown", path: "/components/dropdown" },
+  { label: "Footer", path: "/components/footer" },
+  { label: "Header", path: "/components/header" },
+  { label: "Number Input", path: "/components/number-input" },
+  { label: "Paginator", path: "/components/paginator" },
+  { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Text Input", path: "/components/text-input" },
-  { label: "Paginator", path: "/components/paginator" },
   { label: "Wizard", path: "/components/wizard" },
 ];
 
