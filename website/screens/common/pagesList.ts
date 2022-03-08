@@ -37,6 +37,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Table", path: "/components/table" },
   { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Select", path: "/components/select" },
   { label: "Textarea", path: "/components/textarea" },
   { label: "Wizard", path: "/components/wizard" },
 ];
