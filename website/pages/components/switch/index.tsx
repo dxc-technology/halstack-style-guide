@@ -1,21 +1,21 @@
 import Head from "next/head";
 import type { ReactElement } from "react";
-import SidenavPageLayout from "../../../screens/components/sidenav/SidenavPageLayout";
-import SidenavUsagePage from "../../../screens/components/sidenav/usage/SidenavUsagePage";
+import SwitchPageLayout from "../../../screens/components/switch/SwitchPageLayout";
+import SwitchUsagePage from "../../../screens/components/switch/usage/SwitchUsagePage";
 
 const Index = () => {
   return (
     <>
       <Head>
-        <title>Sidenav — Halstack Design System</title>
+        <title>Switch — Halstack Design System</title>
       </Head>
-      <SidenavUsagePage></SidenavUsagePage>
+      <SwitchUsagePage></SwitchUsagePage>
     </>
   );
 };
 
 Index.getLayout = function getLayout(page: ReactElement) {
-  return <SidenavPageLayout>{page}</SidenavPageLayout>;
+  return <SwitchPageLayout>{page}</SwitchPageLayout>;
 };
 
 export default Index;

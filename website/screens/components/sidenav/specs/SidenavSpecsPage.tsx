@@ -3,7 +3,6 @@ import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import sidenavAnatomy from "./images/sidenav_anatomy.png";
 import sidenavSpecs from "./images/sidenav_specs.png";
-import sidenavResponsive from "./images/sidenav_responsive.png";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
@@ -30,7 +29,7 @@ const SidenavSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
-        <HeadingLink level={4}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -445,102 +444,6 @@ const SidenavSpecsPage = () => {
             <tr>
               <td>Arrow display</td>
               <td>true (default value)</td>
-            </tr>
-            <tr>
-              <td>Arrow distance</td>
-              <td>50%</td>
-            </tr>
-          </tbody>
-        </DxcTable>
-        <DxcTable>
-          <thead>
-            <tr>
-              <th>Property for sidenav</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <Code>width</Code>
-              </td>
-              <td>60%</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>height</Code>
-              </td>
-              <td>auto - adapted to the content</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>padding</Code>
-              </td>
-              <td>
-                <Code>medium</Code> / 36px <em>(default)</em>
-              </td>
-            </tr>
-            <tr>
-              <td>Arrow display</td>
-              <td>true (it cannot be false)</td>
-            </tr>
-            <tr>
-              <td>Arrow distance</td>
-              <td>50%</td>
-            </tr>
-          </tbody>
-        </DxcTable>
-        <HeadingLink level={3}>Responsive version for mobile and tablet</HeadingLink>
-        <Figure caption="Sidenav component example in mobile devices">
-          <Image src={sidenavResponsive} alt="Sidenav component example in mobile devices" />
-        </Figure>
-        <DxcText as="p">
-          The responsive version of the component for mobile and tablet works a little bit different
-          compared with the version for desktop. As the size of the screen in those devices is
-          reduced, the default behavior in the first load of the page will be hidden in the sidenav
-          component. Taking this approach, as a first view of the page the user has all the content
-          in the main area visible, and then he will need to interact with the component to make it
-          visible and navigate to other resources.
-        </DxcText>
-        <DxcText as="p">
-          Also, as an important point to mention, the only variant that works with responsive is the
-          overlay, due to lack of space in the screen if the sidenav pushed the content of the main
-          container.
-        </DxcText>
-        <DxcText as="p">
-          Some properties regarding width vary, the details are indicated in the table below.
-        </DxcText>
-        <DxcTable>
-          <thead>
-            <tr>
-              <th>Property for sidenav</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <Code>width</Code>
-              </td>
-              <td>60%</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>height</Code>
-              </td>
-              <td>auto - adapted to the content</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>padding</Code>
-              </td>
-              <td>
-                <Code>medium</Code> / 36px <em>(default)</em>
-              </td>
-            </tr>
-            <tr>
-              <td>Arrow display</td>
-              <td>true (it cannot be false)</td>
             </tr>
             <tr>
               <td>Arrow distance</td>
