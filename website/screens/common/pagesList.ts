@@ -33,13 +33,14 @@ const componentsLinks: LinkDetails[] = [
   { label: "Paginator", path: "/components/paginator" },
   { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Radio", path: "/components/radio" },
+  { label: "Select", path: "/components/select" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Table", path: "/components/table" },
   { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
-  { label: "Select", path: "/components/select" },
   { label: "Textarea", path: "/components/textarea" },
+  { label: "Toggle Group", path: "/components/toggle-group" },
   { label: "Wizard", path: "/components/wizard" },
 ];
 
