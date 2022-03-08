@@ -11,7 +11,7 @@ import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 import Image from "@/common/Image";
 
-const ButtonUsage = () => {
+const ButtonUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -115,4 +115,4 @@ const ButtonUsage = () => {
   );
 };
 
-export default ButtonUsage;
+export default ButtonUsagePage;
