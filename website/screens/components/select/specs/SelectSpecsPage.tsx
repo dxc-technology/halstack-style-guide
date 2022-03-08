@@ -993,7 +993,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcText as="p">
           The component <Code>width</Code> can adopt the following values:
         </DxcText>
@@ -1031,7 +1031,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
           Select <Code>margin</Code> can use the values:
         </DxcText>
