@@ -10,11 +10,11 @@ const TextareaUsagePage = () => {
         <DxcList>
           <DxcText>
             Use the texarea when you need users to enter a text longer than a
-            single line
+            single line.
           </DxcText>
           <DxcText>
             Avoid using the text area when complex questions can break up in
-            simpler ones
+            simpler ones.
           </DxcText>
         </DxcList>
       </DxcStack>

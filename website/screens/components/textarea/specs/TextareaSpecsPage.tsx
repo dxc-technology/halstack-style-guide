@@ -23,12 +23,12 @@ const TextareaSpecsPage = () => {
           <Image src={specsImage} alt="Component design specifications" />
         </Figure>
         <DxcText as="p">
-          The textarea <Code>color</Code>, <Code>typography</Code>,
+          The textarea <Code>color</Code>, <Code>typography</Code>,{" "}
           <Code>border</Code>, <Code>width</Code> and <Code>margin</Code>{" "}
           specifications are inherited from the text input, for reference{" "}
           <DxcLink
             text="check the text input component documentation"
-            href=""
+            href="/components/text-input"
           />
           .
         </DxcText>
