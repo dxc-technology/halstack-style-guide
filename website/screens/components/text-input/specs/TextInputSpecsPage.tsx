@@ -397,7 +397,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -612,7 +612,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -767,7 +767,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -840,7 +840,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Width</HeadingLink>
+        <HeadingLink level={4}>Width</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -875,7 +875,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
