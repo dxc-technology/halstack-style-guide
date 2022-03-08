@@ -33,6 +33,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Number Input", path: "/components/number-input" },
   { label: "Paginator", path: "/components/paginator" },
   { label: "Progress Bar", path: "/components/progress-bar" },
+  { label: "Password Input", path: "/components/password-input" },
   { label: "Radio", path: "/components/radio" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
