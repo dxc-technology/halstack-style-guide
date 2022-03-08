@@ -24,9 +24,7 @@ const SelectSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <DxcText as="p">
-          <Image src={selectSpecs} alt="Select specifications" />
-        </DxcText>
+        <Image src={selectSpecs} alt="Select specifications" />
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
@@ -343,7 +341,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Input</HeadingLink>
+        <HeadingLink level={5}>Input</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -446,7 +444,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Selection indicator</HeadingLink>
+        <HeadingLink level={5}>Selection indicator</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -549,7 +547,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Clear action</HeadingLink>
+        <HeadingLink level={5}>Clear action</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -622,7 +620,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -815,7 +813,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -918,7 +916,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcText as="p">
           The select component <strong>input</strong> share the{" "}
           <DxcLink
@@ -999,7 +997,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Size</HeadingLink>
+        <HeadingLink level={5}>Size</HeadingLink>
         <DxcText as="p">
           The component <Code>width</Code> can adopt the following values:
         </DxcText>
@@ -1037,7 +1035,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={4}>Margin</HeadingLink>
+        <HeadingLink level={5}>Margin</HeadingLink>
         <DxcText as="p">
           Select <Code>margin</Code> can use the values:
         </DxcText>
@@ -1109,6 +1107,7 @@ const SelectSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/on-input.html"
               text="SC 3.2.2: On Input"
+              newWindow
             />
           </DxcText>
         </DxcList>
