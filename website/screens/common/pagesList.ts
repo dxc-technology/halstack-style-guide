@@ -23,6 +23,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Header", path: "/components/header" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
+  { label: "Tabs", path: "/components/tabs" },
   { label: "Text Input", path: "/components/text-input" },
   { label: "Paginator", path: "/components/paginator" },
   { label: "Wizard", path: "/components/wizard" },
