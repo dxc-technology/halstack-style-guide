@@ -36,16 +36,12 @@ const SelectSpecsPage = () => {
           <strong>active</strong>, <strong>error</strong> and{" "}
           <strong>disabled</strong>:
         </DxcText>
-        <DxcText as="p">
-          <Image src={selectSingleSpecsStates} alt="Select states" />
-        </DxcText>
+        <Image src={selectSingleSpecsStates} alt="Select states" />
         <HeadingLink level={4}>Multiple selection</HeadingLink>
         <DxcText as="p">
           Allows the user to select more than one option from the list.
         </DxcText>
-        <DxcText as="p">
-          <Image src={selectMultipleSpecsStates} alt="Select multiple option" />
-        </DxcText>
+        <Image src={selectMultipleSpecsStates} alt="Select multiple option" />
         <HeadingLink level={4}>List options</HeadingLink>
         <DxcText as="p">
           To indicate which items are selected and which not, the
