@@ -3,7 +3,7 @@ import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 const DateInputUsagePage = () => {
   return (
-    <DxcStack gutter="xxlarge">
+    <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcList>
