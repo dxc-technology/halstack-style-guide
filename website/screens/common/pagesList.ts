@@ -32,6 +32,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Paginator", path: "/components/paginator" },
   { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Radio", path: "/components/radio" },
+  { label: "Resultset Table", path: "/components/resultset-table" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Table", path: "/components/table" },
