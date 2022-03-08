@@ -27,25 +27,11 @@ const TableSpecsPage = () => {
         <DxcText as="p">
           Some other components defined in the design system are used in the
           table component as the{" "}
-          <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/checkbox"
-            text="checkbox"
-            newWindow
-          />
-          ,{" "}
-          <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/button"
-            text="button"
-            newWindow
-          />{" "}
-          or{" "}
-          <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/select"
-            text="select"
-            newWindow
-          />
-          . For concrete specifications about states, please, consider to see
-          the documentation of each component.
+          <DxcLink href="/components/checkbox" text="checkbox" />,{" "}
+          <DxcLink href="/components/button" text="button" /> or{" "}
+          <DxcLink href="/components/select" text="select" />. For concrete
+          specifications about states, please, consider to see the documentation
+          of each component.
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
