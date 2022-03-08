@@ -1,5 +1,5 @@
 import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
@@ -34,8 +34,8 @@ const SpinnerUsagePage = () => {
         <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">
           There are three different variants for the spinner component due to
-          the size or the position: <b>large</b>, <b>small</b> and{" "}
-          <b>overlay</b>.
+          the size or the position: <strong>large</strong>,{" "}
+          <strong>small</strong> and <strong>overlay</strong>.
         </DxcText>
         <Figure caption="Spinner component variants">
           <Image src={variantsImage} alt="Spinner component variants" />

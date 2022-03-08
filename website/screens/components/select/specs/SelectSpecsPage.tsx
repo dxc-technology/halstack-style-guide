@@ -5,7 +5,7 @@ import {
   DxcStack,
   DxcLink,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
@@ -922,7 +922,7 @@ const SelectSpecsPage = () => {
         <DxcText as="p">
           The select component <strong>input</strong> share the{" "}
           <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/text-input"
+            href="/components/text-input/specifications"
             text=" same spacing tokens of the text input"
           />
           .
@@ -1119,6 +1119,7 @@ const SelectSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#combobox"
               text="3.8 Combobox"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -1126,6 +1127,7 @@ const SelectSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox"
               text="3.14 Listbox"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -1133,6 +1135,7 @@ const SelectSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/combobox/combobox-autocomplete-none.html"
               text="Editable Combobox without Autocomplete Example"
+              newWindow
             />
           </DxcText>
         </DxcList>

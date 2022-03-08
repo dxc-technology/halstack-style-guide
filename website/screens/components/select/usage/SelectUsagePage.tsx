@@ -1,8 +1,7 @@
-import Image from "next/image";
+import Image from "@/common/Image";
 import {
   DxcText,
   DxcList,
-  DxcLink,
   DxcStack,
   DxcTable,
 } from "@dxc-technology/halstack-react";
