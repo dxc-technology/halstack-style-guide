@@ -8,7 +8,7 @@ import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 
-const ButtonSpecsPage = () => {
+const SliderSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -558,7 +558,7 @@ const ButtonSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          [*] The thumb element size is 14x14px in the following states: <Code>:hover</Code>, and{" "}
+          [*] The thumb element size is 14x14px in the following states: <Code>:hover</Code> and{" "}
           <Code>:active</Code>.
         </DxcText>
         <HeadingLink level={4}>Border</HeadingLink>
@@ -701,4 +701,4 @@ const ButtonSpecsPage = () => {
   );
 };
 
-export default ButtonSpecsPage;
+export default SliderSpecsPage;
