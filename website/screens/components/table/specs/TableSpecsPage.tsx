@@ -11,6 +11,7 @@ import anatomyImage from "./images/table_anatomy.png";
 import specsImage from "./images/table_specs.png";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import Code from "../../../common/Code";
 
 const TableSpecsPage = () => {
   return (
@@ -49,9 +50,7 @@ const TableSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Table component anatomy">
-          <Image src={anatomyImage} alt="Table component anatomy" />
-        </Figure>
+        <Image src={anatomyImage} alt="Table component anatomy" />
         <DxcList type="number">
           <DxcText>Header</DxcText>
           <DxcText>Header title</DxcText>
@@ -77,81 +76,81 @@ const TableSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>dataBackgroundColor</code>
+                <Code>dataBackgroundColor</Code>
               </td>
               <td>Cell</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>dataFontColor</code>
+                <Code>dataFontColor</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>headerBackgroundColor</code>
+                <Code>headerBackgroundColor</Code>
               </td>
               <td>Header</td>
               <td>
-                <code>color-purple-700</code>
+                <Code>color-purple-700</Code>
               </td>
               <td>#5f249f</td>
             </tr>
             <tr>
               <td>
-                <code>headerFontColor</code>
+                <Code>headerFontColor</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>scrollBarThumbColor</code>
+                <Code>scrollBarThumbColor</Code>
               </td>
               <td>Scroll bar</td>
               <td>
-                <code>color-grey-700</code>
+                <Code>color-grey-700</Code>
               </td>
               <td>#666666</td>
             </tr>
             <tr>
               <td>
-                <code>scrollBarTrackColor</code>
+                <Code>scrollBarTrackColor</Code>
               </td>
               <td>Scroll bar</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>sortIconColor</code>
+                <Code>sortIconColor</Code>
               </td>
               <td>Sort</td>
               <td>
-                <code>color-white</code>
+                <Code>color-white</Code>
               </td>
               <td>#ffffff</td>
             </tr>
             <tr>
               <td>
-                <code>rowSeparatorColor</code>
+                <Code>rowSeparatorColor</Code>
               </td>
               <td>Divider</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
@@ -170,47 +169,47 @@ const TableSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>dataFontFamily</code>
+                <Code>dataFontFamily</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
-              <td>&#39;Open Sans&#39;, sans-serif</td>
+              <td>'Open Sans', sans-serif</td>
             </tr>
             <tr>
               <td>
-                <code>dataFontSize</code>
+                <Code>dataFontSize</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>dataFontStyle</code>
+                <Code>dataFontStyle</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>dataFontWeight</code>
+                <Code>dataFontWeight</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>dataFontTextTransform</code>
+                <Code>dataFontTextTransform</Code>
               </td>
               <td>Cell value</td>
               <td>-</td>
@@ -218,7 +217,7 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>dataTextLineHeight</code>
+                <Code>dataTextLineHeight</Code>
               </td>
               <td>Cell value</td>
               <td>-</td>
@@ -226,7 +225,7 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>dataTextAlign</code>
+                <Code>dataTextAlign</Code>
               </td>
               <td>Cell value</td>
               <td>-</td>
@@ -234,47 +233,47 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>headerFontFamily</code>
+                <Code>headerFontFamily</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
-              <td>&#39;Open Sans&#39;, sans-serif</td>
+              <td>'Open Sans', sans-serif</td>
             </tr>
             <tr>
               <td>
-                <code>headerFontSize</code>
+                <Code>headerFontSize</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>headerFontStyle</code>
+                <Code>headerFontStyle</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>font-style-normal</code>
+                <Code>font-style-normal</Code>
               </td>
               <td>normal</td>
             </tr>
             <tr>
               <td>
-                <code>headerFontWeight</code>
+                <Code>headerFontWeight</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>font-weight-regular</code>
+                <Code>font-weight-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>headerFontTextTransform</code>
+                <Code>headerFontTextTransform</Code>
               </td>
               <td>Header title</td>
               <td>-</td>
@@ -282,7 +281,7 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>headerTextLineHeight</code>
+                <Code>headerTextLineHeight</Code>
               </td>
               <td>Header title</td>
               <td>-</td>
@@ -290,7 +289,7 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>headerTextAlign</code>
+                <Code>headerTextAlign</Code>
               </td>
               <td>Header title</td>
               <td>-</td>
@@ -311,31 +310,31 @@ const TableSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>rowSeparatorThickness</code>
+                <Code>rowSeparatorThickness</Code>
               </td>
               <td>Divider</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>rowSeparatorStyle</code>
+                <Code>rowSeparatorStyle</Code>
               </td>
               <td>Divider</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>headerBorderRadius</code>
+                <Code>headerBorderRadius</Code>
               </td>
               <td>Header</td>
               <td>
-                <code>border-radius-medium</code>
+                <Code>border-radius-medium</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
@@ -354,7 +353,7 @@ const TableSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>dataPaddingTop</code>
+                <Code>dataPaddingTop</Code>
               </td>
               <td>Cell value</td>
               <td>-</td>
@@ -362,17 +361,17 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>dataPaddingBottom</code>
+                <Code>dataPaddingBottom</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>spacing-12</code>
+                <Code>spacing-12</Code>
               </td>
               <td>0.75rem / 12px</td>
             </tr>
             <tr>
               <td>
-                <code>dataPaddingRight</code>
+                <Code>dataPaddingRight</Code>
               </td>
               <td>Cell value</td>
               <td>-</td>
@@ -380,37 +379,37 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>dataPaddingLeft</code>
+                <Code>dataPaddingLeft</Code>
               </td>
               <td>Cell value</td>
               <td>
-                <code>spacing-40</code>
+                <Code>spacing-40</Code>
               </td>
               <td>2.5rem / 40px</td>
             </tr>
             <tr>
               <td>
-                <code>headerPaddingTop</code>
+                <Code>headerPaddingTop</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>spacing-16</code>
+                <Code>spacing-16</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>headerPaddingBottom</code>
+                <Code>headerPaddingBottom</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>spacing-16</code>
+                <Code>spacing-16</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>headerPaddingRight</code>
+                <Code>headerPaddingRight</Code>
               </td>
               <td>Header title</td>
               <td>-</td>
@@ -418,11 +417,11 @@ const TableSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <code>headerPaddingLeft</code>
+                <Code>headerPaddingLeft</Code>
               </td>
               <td>Header title</td>
               <td>
-                <code>spacing-40</code>
+                <Code>spacing-40</Code>
               </td>
               <td>2.5rem / 40px</td>
             </tr>
