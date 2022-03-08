@@ -35,6 +35,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Switch", path: "/components/switch" },
   { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
+  { label: "Textarea", path: "/components/textarea" },
   { label: "Wizard", path: "/components/wizard" },
 ];
 
