@@ -7,7 +7,7 @@ const Specifications = () => {
   return (
     <>
       <Head>
-        <title>Date Input — Halstack Design System</title>
+        <title>Date Input Specs. — Halstack Design System</title>
       </Head>
       <DateInputSpecsPage />
     </>

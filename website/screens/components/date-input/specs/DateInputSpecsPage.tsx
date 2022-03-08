@@ -5,7 +5,7 @@ import {
   DxcStack,
   DxcLink,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
@@ -21,6 +21,7 @@ const DateInputSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
+        <HeadingLink level={3}>Date input</HeadingLink>
         <Figure caption="Date input design specifications">
           <Image src={dateSpecs} alt="date input design specifications" />
         </Figure>
@@ -30,7 +31,7 @@ const DateInputSpecsPage = () => {
           <Code>margin</Code> specifications are inherited from the text input,
           for reference{" "}
           <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/text-input"
+            href="/components/text-input/specifications"
             text="check the text input component documentation"
           />
           .
@@ -113,38 +114,6 @@ const DateInputSpecsPage = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      {/* <DxcStack gutter="large"> */}
-      {/* <HeadingLink level={2}>Design Specifications</HeadingLink>
-        <HeadingLink level={3}>Date input</HeadingLink>
-        <Figure caption="Date input design specifications">
-          <Image src={dateSpecs} alt="date input design specifications" />
-        </Figure> */}
-      {/* <DxcText as="p">
-          The date input <Code>color</Code>, <Code>typography</Code>,{" "}
-          <Code>border</Code>, <Code>spacing</Code>, <Code>width</Code> and{" "}
-          <Code>margin</Code> specifications are inherited from the text input,
-          for reference{" "}
-          <DxcLink
-            href="https://developer.dxc.com/design/guidelines/components/text-input"
-            text="check the text input component documentation"
-          />
-          .
-        </DxcText> */}
-      {/* <DxcText as="p">
-          The date input doesn&#39;t have the following text input elements or
-          properties, therefore, their listed styles don&#39;t apply:
-        </DxcText> */}
-      {/* <DxcList>
-          <DxcText>Prefix / Suffix</DxcText>
-          <DxcText>
-            The size <Code>small</Code> is not available
-          </DxcText>
-        </DxcList> */}
-      {/* <HeadingLink level={3}>Datepicker dialog</HeadingLink>
-        <Figure caption="Structure and spacing for date picker calendar pop-up">
-          <Image src={datePopupSpecs} alt="Date specifications for picker" />
-        </Figure> */}
-      {/* </DxcStack> */}
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
@@ -280,8 +249,6 @@ const DateInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
@@ -371,8 +338,6 @@ const DateInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
@@ -426,8 +391,6 @@ const DateInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={4}>Sizing</HeadingLink>
         <DxcTable>
           <thead>
@@ -471,6 +434,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard"
               text="SC 2.1.1: Keyboard"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -478,6 +442,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap"
               text="SC 2.1.2: No keyboard trap"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -485,6 +450,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels"
               text="SC 2.4.6: Headings and labels"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -492,6 +458,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible"
               text="SC 2.4.7: Focus Visible"
+              newWindow
             />
           </DxcText>
         </DxcList>
@@ -502,6 +469,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal"
               text=" 3.9 Dialog modal"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -509,6 +477,7 @@ const DateInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/datepicker-dialog.html"
               text=" Date picker design pattern"
+              newWindow
             />
           </DxcText>
         </DxcList>

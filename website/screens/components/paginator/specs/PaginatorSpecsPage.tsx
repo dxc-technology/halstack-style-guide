@@ -4,7 +4,7 @@ import {
   DxcTable,
   DxcText,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
+import Image from "@/common/Image";
 import Figure from "../../../common/Figure";
 import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
@@ -16,7 +16,13 @@ const PaginatorSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Anatomy</HeadingLink>
+        <HeadingLink level={2}>Specifications</HeadingLink>
+        <Figure caption="Paginator design specifications">
+          <Image src={paginatorSpecs} alt="Paginator design specifications" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Anatomy</HeadingLink>
         <Figure caption="Paginator anatomy">
           <Image src={paginatorAnatomy} alt="Paginator anatomy" />
         </Figure>
@@ -29,11 +35,8 @@ const PaginatorSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Design specifications</HeadingLink>
-        <Figure caption="Paginator design specifications">
-          <Image src={paginatorSpecs} alt="Paginator design specifications" />
-        </Figure>
-        <HeadingLink level={3}>Color</HeadingLink>
+        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -66,7 +69,7 @@ const PaginatorSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -127,7 +130,7 @@ const PaginatorSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -220,7 +223,7 @@ const PaginatorSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={3}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcTable>
           <thead>
             <tr>

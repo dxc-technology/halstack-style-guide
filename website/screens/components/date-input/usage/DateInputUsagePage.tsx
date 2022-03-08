@@ -1,9 +1,4 @@
-import {
-  DxcText,
-  DxcList,
-  DxcLink,
-  DxcStack,
-} from "@dxc-technology/halstack-react";
+import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 const DateInputUsagePage = () => {
