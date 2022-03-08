@@ -21,6 +21,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Accordion", path: "/components/accordion" },
   { label: "Alert", path: "/components/alert" },
   { label: "Button", path: "/components/button" },
+  { label: "Checkbox", path: "/components/checkbox" },
   { label: "Card", path: "/components/card" },
   { label: "Date Input", path: "/components/date-input" },
   { label: "Dialog", path: "/components/dialog" },
