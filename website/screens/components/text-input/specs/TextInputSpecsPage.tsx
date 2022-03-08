@@ -5,7 +5,6 @@ import {
   DxcStack,
   DxcList,
 } from "@dxc-technology/halstack-react";
-import Image from "next/image";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
@@ -13,6 +12,7 @@ import Code from "../../../common/Code";
 import inputStates from "./images/input_states.png";
 import inputAnatomy from "./images/input_anatomy.png";
 import inputSpecs from "./images/input_specs.png";
+import Image from "@/common/Image";
 
 const TextInputSpecsPage = () => {
   return (
