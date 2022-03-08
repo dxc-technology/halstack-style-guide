@@ -12,7 +12,7 @@ import selectUsageVariants from "./images/select_variants.png";
 
 const SelectUsagePage = () => {
   return (
-    <DxcStack gutter="xxlarge">
+    <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcText as="p">Considerations about the select usage:</DxcText>
