@@ -2,51 +2,62 @@ import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
 import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
-import Code from "../../../common/Code";
-import determinateImage from "./images/spinner_determinate_indeterminate.png";
-import variantsImage from "./images/spinner_variants.png";
+import determinateImage from "./images/progress_determinate_undeterminate.png";
+import variantsImage from "./images/progress_variants.png";
 import DocFooter from "../../../common/DocFooter";
 
-const SpinnerUsagePage = () => {
+const ProgressBarUsagePage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Do</HeadingLink>
         <DxcList>
           <DxcText>
-            There should only be a single spinner on a page at one time.
+            Use a progress bar when it will give people feedback in a
+            long-running process with continuous values.
           </DxcText>
           <DxcText>
-            Only use the spinner component in a process that takes more than one
-            second.
+            Add additional information to clarify to the user the action for
+            which is waiting (&quot;Sending documents...&quot;).
           </DxcText>
           <DxcText>
-            The text of the action it is not mandatory but recommendable.
+            Use the determinate type if it is possible, the user can have an
+            estimation on how long it is gonna take.
           </DxcText>
-          <DxcText>
-            If only a portion of a page is displaying new content or being
-            updated, use a <Code>medium</Code> or <Code>small</Code> spinner
-            place the spinner in that part of the page.
-          </DxcText>
+        </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Don&#39;t</HeadingLink>
+        <DxcList>
+          <li>
+            For an unknown amount of time/progress, consider using a loading
+            spinner instead.
+          </li>
+          <li>
+            Do not use this type of component in actions that will take less
+            than 1 minute to the system.
+          </li>
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">
-          There are three different variants for the spinner component due to
-          the size or the position: <strong>large</strong>,{" "}
-          <strong>small</strong> and <strong>overlay</strong>.
+          The component progress-bar has two variants: <strong>default</strong>{" "}
+          and <strong>overlay</strong>.
         </DxcText>
-        <Figure caption="Spinner component variants">
-          <Image src={variantsImage} alt="Spinner component variants" />
+        <Figure caption="Progress bar variants">
+          <Image src={variantsImage} alt="Progress bar variants" />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Determinate or indeterminate</HeadingLink>
-        <Figure caption="Determinate and indeterminate spinners">
+        <Figure caption="Determinate vs undeterminate progress bar">
           <Image
             src={determinateImage}
-            alt="Determinate and indeterminate spinners"
+            alt="Determinate vs undeterminate progress bar"
           />
         </Figure>
         <DxcList>
@@ -69,9 +80,9 @@ const SpinnerUsagePage = () => {
           </DxcStack>
         </DxcList>
       </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/spinner/usage/SpinnerUsagePage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/progress-bar/usage/ProgressBarUsagePage.tsx" />
     </DxcStack>
   );
 };
 
-export default SpinnerUsagePage;
+export default ProgressBarUsagePage;
