@@ -32,6 +32,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
+  { label: "Tag", path: "/components/tag" },
   { label: "Text Input", path: "/components/text-input" },
   { label: "Wizard", path: "/components/wizard" },
 ];
