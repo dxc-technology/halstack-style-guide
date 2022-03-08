@@ -41,9 +41,7 @@ const RadioSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Radio button component anatomy">
-          <Image src={radioAnatomy} alt="Radio button component anatomy" />
-        </Figure>
+        <Image src={radioAnatomy} alt="Radio button component anatomy" />
         <DxcList type="number">
           <DxcText>Radio input</DxcText>
           <DxcText>Label</DxcText>
