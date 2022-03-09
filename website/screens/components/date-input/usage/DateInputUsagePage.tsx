@@ -4,7 +4,7 @@ import DocFooter from "../../../common/DocFooter";
 import Code from "../../../common/Code";
 const DateInputUsagePage = () => {
   return (
-    <DxcStack gutter="xxlarge">
+    <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcList>
