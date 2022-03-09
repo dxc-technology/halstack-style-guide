@@ -37,6 +37,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Radio", path: "/components/radio" },
   { label: "Resultset Table", path: "/components/resultset-table" },
   { label: "Select", path: "/components/select" },
+  { label: "Slider", path: "/components/slider" },
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Table", path: "/components/table" },
