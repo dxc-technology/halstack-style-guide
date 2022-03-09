@@ -25,16 +25,6 @@ const SliderUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Slider with input</HeadingLink>
-        <DxcText as="p">
-          To accomplish these considerations, some slider&#39;s variations were designed with the
-          purpose of offering a great user experience within the application.
-        </DxcText>
-        <Figure caption="Slider with input example">
-          <Image src={sliderInput} alt="Slider with input example" />
-        </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={3}>Variants</HeadingLink>
         <DxcText as="p">The slider has two variants:</DxcText>
         <DxcTable>
@@ -61,6 +51,16 @@ const SliderUsagePage = () => {
         </DxcTable>
         <Figure caption="Slider variants">
           <Image src={sliderVariants} alt="Slider variants" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Slider with input</HeadingLink>
+        <DxcText as="p">
+          To accomplish these considerations, some slider&#39;s variations were designed with the
+          purpose of offering a great user experience within the application.
+        </DxcText>
+        <Figure caption="Slider with input example">
+          <Image src={sliderInput} alt="Slider with input example" />
         </Figure>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/slider/usage/SliderUsagePage.tsx" />
