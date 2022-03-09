@@ -13,7 +13,7 @@ import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
 import Image from "@/common/Image";
 
-const ButtonSpecs = () => {
+const ButtonSpecsPage = () => {
   return (
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
@@ -913,4 +913,4 @@ const ButtonSpecs = () => {
   );
 };
 
-export default ButtonSpecs;
+export default ButtonSpecsPage;
