@@ -10,6 +10,16 @@ const LinkUsagePage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Provide visual cue to suggest clickability for all types of links.
+          </DxcText>
+          <DxcText>
+            Distinguish the visited and unvisited for navigation links.
+          </DxcText>
+          <DxcText>Clearly explain where the link will take you to.</DxcText>
+          <DxcText>Front-load the most relevant keyword.</DxcText>
+        </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Icon Usage</HeadingLink>
@@ -21,21 +31,6 @@ const LinkUsagePage = () => {
         <Figure caption="Icon usage for the link component">
           <Image src={linkIcon} alt="Icon usage for the link component" />
         </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>
-          User Interface Design Considerations
-        </HeadingLink>
-        <DxcList>
-          <DxcText>
-            Provide visual cue to suggest clickability for all types of links.
-          </DxcText>
-          <DxcText>
-            Distinguish the visited and unvisited for navigation links.
-          </DxcText>
-          <DxcText>Clearly explain where the link will take you to.</DxcText>
-          <DxcText>Front-load the most relevant keyword.</DxcText>
-        </DxcList>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/link/usage/LinkUsagePage.tsx" />
     </DxcStack>
