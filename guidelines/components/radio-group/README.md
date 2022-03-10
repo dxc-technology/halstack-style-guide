@@ -126,9 +126,9 @@ _Component design specifications_
 
 | Property              | Element                   | Value     |  
 | :-------------------- | :------------------------ | :-------  | 
-| `width`               | Radio input               | 14px      | 
+| `width`               | Radio input               | 18px      | 
 | `width`               | focus outline             | 24px      | 
-| `height`              | Radio input               | 14px      | 
+| `height`              | Radio input               | 18px      | 
 | `height`              | focus outline             | 24px      |  
 
 ### Margin
