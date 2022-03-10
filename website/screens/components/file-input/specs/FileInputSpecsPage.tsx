@@ -16,6 +16,7 @@ import {
 } from "@dxc-technology/halstack-react";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import Code from "../../../common/Code";
 
 const FileInputSpecsPage = () => {
   return (
@@ -122,91 +123,91 @@ const FileInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>dropBorderColor</code>
+                <Code>dropBorderColor</Code>
               </td>
               <td>Drag and drop area</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>fileItemBorderColor</code>
+                <Code>fileItemBorderColor</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>fileItemIconColor</code>
+                <Code>fileItemIconColor</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>fileNameFontColor</code>
+                <Code>fileNameFontColor</Code>
               </td>
               <td>File name</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>filePreviewBackgroundColor</code>
+                <Code>filePreviewBackgroundColor</Code>
               </td>
               <td>File preview</td>
               <td>
-                <code>color-color-grey-100</code>
+                <Code>color-color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>filePreviewIconColor</code>
+                <Code>filePreviewIconColor</Code>
               </td>
               <td>File preview icon</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>labelFontColor</code>
+                <Code>labelFontColor</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>helperTextFontColor</code>
+                <Code>helperTextFontColor</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
             <tr>
               <td>
-                <code>dropLabelFontColor</code>
+                <Code>dropLabelFontColor</Code>
               </td>
               <td>Drop label</td>
               <td>
-                <code>color-black</code>
+                <Code>color-black</Code>
               </td>
               <td>#000000</td>
             </tr>
@@ -225,131 +226,131 @@ const FileInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>disabledLabelFontColor</code>
+                <Code>disabledLabelFontColor</Code>
               </td>
               <td>Label:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledHelperTextFontColor</code>
+                <Code>disabledHelperTextFontColor</Code>
               </td>
               <td>Helper text:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>disabledDropLabelFontColor</code>
+                <Code>disabledDropLabelFontColor</Code>
               </td>
               <td>Drop label:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>focusDropBorderColor</code>
+                <Code>focusDropBorderColor</Code>
               </td>
               <td>Dnd border:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>disabledDropBorderColor</code>
+                <Code>disabledDropBorderColor</Code>
               </td>
               <td>Dnd border:disabled</td>
               <td>
-                <code>color-grey-500</code>
+                <Code>color-grey-500</Code>
               </td>
               <td>#999999</td>
             </tr>
             <tr>
               <td>
-                <code>dragoverDropBackgroundColor</code>
+                <Code>dragoverDropBackgroundColor</Code>
               </td>
               <td>Dnd fill:dragover</td>
               <td>
-                <code>color-blue-50</code>
+                <Code>color-blue-50</Code>
               </td>
               <td>#f5fbff</td>
             </tr>
             <tr>
               <td>
-                <code>hoverFileItemIconBackgroundColor</code>
+                <Code>hoverFileItemIconBackgroundColor</Code>
               </td>
               <td>File item icon:hover</td>
               <td>
-                <code>color-grey-100</code>
+                <Code>color-grey-100</Code>
               </td>
               <td>#f2f2f2</td>
             </tr>
             <tr>
               <td>
-                <code>focusFileItemIconBackgroundColor</code>
+                <Code>focusFileItemIconBackgroundColor</Code>
               </td>
               <td>File item icon:focus</td>
               <td>
-                <code>color-blue-600</code>
+                <Code>color-blue-600</Code>
               </td>
               <td>#0095ff</td>
             </tr>
             <tr>
               <td>
-                <code>activeFileItemIconBackgroundColor</code>
+                <Code>activeFileItemIconBackgroundColor</Code>
               </td>
               <td>File item icon:active</td>
               <td>
-                <code>color-grey-300</code>
+                <Code>color-grey-300</Code>
               </td>
               <td>#cccccc</td>
             </tr>
             <tr>
               <td>
-                <code>errorFileItemBorderColor</code>
+                <Code>errorFileItemBorderColor</Code>
               </td>
               <td>File item container:error</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
             <tr>
               <td>
-                <code>errorFileItemBackgroundColor</code>
+                <Code>errorFileItemBackgroundColor</Code>
               </td>
               <td>File item container:error</td>
               <td>
-                <code>color-red-50</code>
+                <Code>color-red-50</Code>
               </td>
               <td>#fff5f6</td>
             </tr>
             <tr>
               <td>
-                <code>errorFilePreviewBackgroundColor</code>
+                <Code>errorFilePreviewBackgroundColor</Code>
               </td>
               <td>File item preview:error</td>
               <td>
-                <code>color-red-200</code>
+                <Code>color-red-200</Code>
               </td>
               <td>#ffccd3</td>
             </tr>
             <tr>
               <td>
-                <code>errorMessageFontColor</code>
+                <Code>errorMessageFontColor</Code>
               </td>
               <td>File item:error</td>
               <td>
-                <code>color-red-700</code>
+                <Code>color-red-700</Code>
               </td>
               <td>#d0011b</td>
             </tr>
@@ -368,191 +369,191 @@ const FileInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>font-family</code>
+                <Code>font-family</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-bold</code>
+                <Code>font-bold</Code>
               </td>
               <td>600</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>Label</td>
               <td>
-                <code>font-leading-loose-01</code>
+                <Code>font-leading-loose-01</Code>
               </td>
               <td>1.75em</td>
             </tr>
             <tr>
               <td>
-                <code>font-family</code>
+                <Code>font-family</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>font-scale-02</code>
+                <Code>font-scale-02</Code>
               </td>
               <td>0.875rem / 14px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>font-regular</code>
+                <Code>font-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>font-family</code>
+                <Code>font-family</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-scale-01</code>
+                <Code>font-scale-01</Code>
               </td>
               <td>12px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-regular</code>
+                <Code>font-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>Helper text</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
             <tr>
               <td>
-                <code>font-family</code>
+                <Code>font-family</Code>
               </td>
               <td>Drop label</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Drop label</td>
               <td>
-                <code>font-scale-03</code>
+                <Code>font-scale-03</Code>
               </td>
               <td>1rem / 16px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Drop label</td>
               <td>
-                <code>font-regular</code>
+                <Code>font-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>font-family</code>
+                <Code>font-family</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-family-sans</code>
+                <Code>font-family-sans</Code>
               </td>
               <td>Open Sans</td>
             </tr>
             <tr>
               <td>
-                <code>font-size</code>
+                <Code>font-size</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-scale-01</code>
+                <Code>font-scale-01</Code>
               </td>
               <td>0.75rem / 12px</td>
             </tr>
             <tr>
               <td>
-                <code>font-weight</code>
+                <Code>font-weight</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-regular</code>
+                <Code>font-regular</Code>
               </td>
               <td>400</td>
             </tr>
             <tr>
               <td>
-                <code>line-height</code>
+                <Code>line-height</Code>
               </td>
               <td>Error message</td>
               <td>
-                <code>font-leading-normal</code>
+                <Code>font-leading-normal</Code>
               </td>
               <td>1.5em</td>
             </tr>
@@ -571,81 +572,81 @@ const FileInputSpecsPage = () => {
           <tbody>
             <tr>
               <td>
-                <code>border-style</code>
+                <Code>border-style</Code>
               </td>
               <td>Drag and drop area</td>
               <td>
-                <code>border-style-dashed</code>
+                <Code>border-style-dashed</Code>
               </td>
               <td>dashed</td>
             </tr>
             <tr>
               <td>
-                <code>border-width</code>
+                <Code>border-width</Code>
               </td>
               <td>Drag and drop area</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>Drag and drop area</td>
               <td>
-                <code>border-radius-large</code>
+                <Code>border-radius-large</Code>
               </td>
               <td>0.375rem / 6px</td>
             </tr>
             <tr>
               <td>
-                <code>border-style</code>
+                <Code>border-style</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>border-style-solid</code>
+                <Code>border-style-solid</Code>
               </td>
               <td>solid</td>
             </tr>
             <tr>
               <td>
-                <code>border-width</code>
+                <Code>border-width</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>border-width-1</code>
+                <Code>border-width-1</Code>
               </td>
               <td>1px</td>
             </tr>
             <tr>
               <td>
-                <code>border-radius</code>
+                <Code>border-radius</Code>
               </td>
               <td>File item</td>
               <td>
-                <code>border-radius-medium</code>
+                <Code>border-radius-medium</Code>
               </td>
               <td>0.25rem / 4px</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>File item icon:focus</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
             <tr>
               <td>
-                <code>box-shadow</code>
+                <Code>box-shadow</Code>
               </td>
               <td>Drag and drop area:dragover</td>
               <td>
-                <code>-</code>
+                <Code>-</Code>
               </td>
               <td>0 0 0 2px</td>
             </tr>
