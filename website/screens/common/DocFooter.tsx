@@ -4,6 +4,7 @@ import {
   DxcLink,
   DxcStack,
   DxcRow,
+  ThemeProvider,
 } from "@dxc-technology/halstack-react";
 import { getNavigationLinks } from "./pagesList";
 
@@ -13,39 +14,46 @@ const DocFooter = ({ githubLink }: { githubLink: string }) => {
 
   return (
     <DxcStack divider gutter="xxlarge">
-      <DxcLink
-        icon={githubIcon}
-        href={githubLink}
-        text="Edit this page on Github"
-        newWindow
-      ></DxcLink>
-      <DxcRow justify="spaceBetween">
-        <DxcStack gutter="xsmall">
-          {previousLink && (
-            <>
-              <DxcText>Previous</DxcText>
-              <DxcLink
-                icon={arrowBack}
-                href={previousLink.path}
-                text={previousLink.label}
-              ></DxcLink>
-            </>
-          )}
-        </DxcStack>
-        <DxcStack align="end" gutter="xsmall">
-          {nextLink && (
-            <>
-              <DxcText>Next</DxcText>
-              <DxcLink
-                icon={arrowForward}
-                iconPosition="after"
-                href={nextLink.path}
-                text={nextLink.label}
-              ></DxcLink>
-            </>
-          )}
-        </DxcStack>
-      </DxcRow>
+      <ThemeProvider
+        advancedTheme={{ link: { fontSize: "14px", iconSize: "20px" } }}
+      >
+        <DxcLink
+          icon={githubIcon}
+          href={githubLink}
+          text="Edit this page on GitHub"
+          newWindow
+        ></DxcLink>
+      </ThemeProvider>
+      <ThemeProvider advancedTheme={{ link: { fontSize: "14px" } }}>
+        <DxcRow justify="spaceBetween">
+          <DxcStack gutter="small">
+            {previousLink && (
+              <>
+                <DxcText>Previous</DxcText>
+                <DxcLink
+                  icon={arrowBack}
+                  href={previousLink.path}
+                  text={previousLink.label}
+                ></DxcLink>
+              </>
+            )}
+          </DxcStack>
+          <DxcStack align="end" gutter="small">
+            {nextLink && (
+              <>
+                <DxcText>Next</DxcText>
+
+                <DxcLink
+                  icon={arrowForward}
+                  iconPosition="after"
+                  href={nextLink.path}
+                  text={nextLink.label}
+                ></DxcLink>
+              </>
+            )}
+          </DxcStack>
+        </DxcRow>
+      </ThemeProvider>
     </DxcStack>
   );
 };
