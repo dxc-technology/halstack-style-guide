@@ -78,7 +78,7 @@ const PasswordInputSpecsPage = () => {
           <DxcText>Input value</DxcText>
         </DxcList>
       </DxcStack>
-      <DxcStack>
+      <DxcStack gutter="large">
         <HeadingLink level={3}>Actions</HeadingLink>
         <Figure caption="Show and hide action to toggle the value visibility">
           <Image
