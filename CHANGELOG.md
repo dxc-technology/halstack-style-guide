@@ -1,5 +1,36 @@
 # Changelog
 
+## 4.0.0 (12/01/2022)
+## What's Changed
+
+
+* [Inputs] Add new inputs documentation pages by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/651
+* [Header] Add contentColor token by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/652
+* [Docs] Deprecated component alert message by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/654
+* [File-input] Add component documentation by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/655
+* [Select] Add component update to release branch by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/660
+* [Docs] Fixes for release 4.0.0 by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/657
+
+
+
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.14.0...4.0.0
+---
+
+## 3.14.0 (15/12/2021)
+## What's Changed
+* [Button] Documentation accessibility references by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/633
+* Add neutral transparent color palette by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/630
+* Add contributing/overview folder by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/637
+* Update typography documentation by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/639
+* [Principles] Type tokens for code tags and accessibility by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/640
+* [Contributing] Add overview and updated catalog by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/641
+* [Contributing] Add docs to DS guidelines by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/642
+
+
+**Full Changelog**: https://github.com/dxc-technology/halstack-style-guide/compare/3.13.0...3.14.0
+---
+
 ## 3.13.0 (26/11/2021)
 ## What's Changed
 * [Contribution] Update feedback section by @aweell in https://github.com/dxc-technology/halstack-style-guide/pull/622
