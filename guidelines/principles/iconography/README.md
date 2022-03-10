@@ -89,7 +89,7 @@ Icons have been designed to work best in four sizes: 16px, 24px, and 32px. We sh
  | *24px (medium)*    | Medium icons are used in the majority of our interface. These are our standard size.       |
  | *32px (large)*    | Large icons are used sparingly to emphasize a concept or when space is plentiful. Wherever it’s used, consider the fidelity of the icon in the space it’s being used.
 
-![icon sizes image] (iconsizes.png.png)       
+![icon sizes image](./iconsizes.png.png)       
 
 _Examples of sizes of Icon_
 
