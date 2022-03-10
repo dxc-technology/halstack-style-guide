@@ -1,6 +1,12 @@
 :root {
-  --content-margin-left: 200px;
-  --content-margin-vertical: 80px;
+  --content-margin-left: 282px;
+  --content-margin-right: 282px;
+  --content-margin-top: 80px;
+  --content-margin-bottom: 48px;
+  --content-mobile-margin-left: 24px;
+  --content-mobile-margin-right: 24px;
+  --content-mobile-margin-top: 24px;
+  --content-mobile-margin-bottom: 48px;
   --content-width: 800px;
 }
 
