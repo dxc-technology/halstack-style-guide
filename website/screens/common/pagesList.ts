@@ -28,6 +28,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Date Input", path: "/components/date-input" },
   { label: "Dialog", path: "/components/dialog" },
   { label: "Dropdown", path: "/components/dropdown" },
+  { label: "File Input", path: "/components/file-input" },
   { label: "Footer", path: "/components/footer" },
   { label: "Header", path: "/components/header" },
   { label: "Link", path: "/components/link" },
