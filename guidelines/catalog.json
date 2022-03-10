@@ -31,6 +31,10 @@
       "name": "Alert"
     },
     {
+      "key": "applicationLayout",
+      "name": "Application layout"
+    },
+    {
       "key": "autosuggest",
       "name": "Autosuggest"
     },
