@@ -42,7 +42,6 @@ const DocFooter = ({ githubLink }: { githubLink: string }) => {
             {nextLink && (
               <>
                 <DxcText>Next</DxcText>
-
                 <DxcLink
                   icon={arrowForward}
                   iconPosition="after"
