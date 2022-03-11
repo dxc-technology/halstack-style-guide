@@ -1,21 +1,21 @@
 import Head from "next/head";
 import type { ReactElement } from "react";
-import HeadingPageLayout from "../../../screens/components/heading/HeadingPageLayout";
-import HeadingUsagePage from "../../../screens/components/heading/usage/HeadingUsagePage";
+import HeaderPageLayout from "../../../screens/components/header/HeaderPageLayout";
+import HeaderUsagePage from "../../../screens/components/header/usage/HeaderUsagePage";
 
 const Index = () => {
   return (
     <>
       <Head>
-        <title>Heading — Halstack Design System</title>
+        <title>Header — Halstack Design System</title>
       </Head>
-      <HeadingUsagePage></HeadingUsagePage>
+      <HeaderUsagePage></HeaderUsagePage>
     </>
   );
 };
 
 Index.getLayout = function getLayout(page: ReactElement) {
-  return <HeadingPageLayout>{page}</HeadingPageLayout>;
+  return <HeaderPageLayout>{page}</HeaderPageLayout>;
 };
 
 export default Index;
