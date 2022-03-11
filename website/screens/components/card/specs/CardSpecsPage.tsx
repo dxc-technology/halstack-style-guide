@@ -25,7 +25,7 @@ const CardSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
-          Component states: <strong>Enabled</strong>, <strong>hover</strong> and{" "}
+          Component states: <strong>enabled</strong>, <strong>hover</strong> and{" "}
           <strong>focus</strong>.
         </DxcText>
         <Figure caption="Card component states">
@@ -42,7 +42,7 @@ const CardSpecsPage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -67,7 +67,6 @@ const CardSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          {" "}
           The <Code>background-color</Code> token belongs to the box component,
           changes made on that component will affect the card element.
         </DxcText>
