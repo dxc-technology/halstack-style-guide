@@ -11,8 +11,6 @@ const AccordionUsagePage = () => {
           The accordion component delivers large amounts of content in a small
           space through progressive disclosure.
         </DxcText>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={3}>Do’s</HeadingLink>
         <DxcList>
           <DxcText>Displaying and grouping additional information.</DxcText>
@@ -24,8 +22,6 @@ const AccordionUsagePage = () => {
             Adding granular control over the information on a given page.
           </DxcText>
         </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={3}>Dont’s</HeadingLink>
         <DxcList>
           <DxcText>

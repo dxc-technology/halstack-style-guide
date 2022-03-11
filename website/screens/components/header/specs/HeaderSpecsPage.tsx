@@ -9,7 +9,6 @@ import Code from "../../../common/Code";
 import Figure from "../../../common/Figure";
 import headerSpecs from "./images/header_specs.png";
 import headerAnatomy from "./images/header_anatomy.png";
-import headerResponsive from "./images/header_responsive.png";
 import DocFooter from "../../../common/DocFooter";
 import Image from "@/common/Image";
 
@@ -374,22 +373,6 @@ const HeaderSpecsPage = () => {
           <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,{" "}
           <Code>right</Code>.
         </DxcText>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>
-          Responsive version for mobile and tablet
-        </HeadingLink>
-        <DxcText as="p">
-          Due to the applications are accessible from a laptop, tablet and
-          mobile it is necessary to think and design a header version for the
-          corresponding device. The design for smaller devices tries to keep the
-          consistency respect to the other versions, allowing the user
-          experiences a similar interaction although the space available is
-          less.
-        </DxcText>
-        <Figure caption="Header menu responsive version">
-          <Image src={headerResponsive} alt="Header menu responsive version" />
-        </Figure>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/header/specs/HeaderSpecsPage.tsx" />
     </DxcStack>

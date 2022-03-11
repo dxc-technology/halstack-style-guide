@@ -4,6 +4,7 @@ import {
   DxcLink,
   DxcStack,
   DxcRow,
+  ThemeProvider,
 } from "@dxc-technology/halstack-react";
 import { getNavigationLinks } from "./pagesList";
 
@@ -16,11 +17,11 @@ const DocFooter = ({ githubLink }: { githubLink: string }) => {
       <DxcLink
         icon={githubIcon}
         href={githubLink}
-        text="Edit this page on Github"
+        text="Edit this page on GitHub"
         newWindow
       ></DxcLink>
       <DxcRow justify="spaceBetween">
-        <DxcStack gutter="xsmall">
+        <DxcStack gutter="small">
           {previousLink && (
             <>
               <DxcText>Previous</DxcText>
@@ -32,7 +33,7 @@ const DocFooter = ({ githubLink }: { githubLink: string }) => {
             </>
           )}
         </DxcStack>
-        <DxcStack align="end" gutter="xsmall">
+        <DxcStack align="end" gutter="small">
           {nextLink && (
             <>
               <DxcText>Next</DxcText>
