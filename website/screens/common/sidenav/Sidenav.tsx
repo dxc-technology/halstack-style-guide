@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { DxcTextInput } from "@dxc-technology/halstack-react";
 import { SidenavLink, SidenavSectionTitle } from "./SidenavComponents";
-import {LinksSections, LinkDetails} from "../pagesList";
+import { LinksSections, LinkDetails } from "../pagesList";
+import SidenavLogo from "./SidenavLogo";
 
 function SidenavContent() {
   const [filter, setFilter] = useState("");
@@ -15,13 +16,19 @@ function SidenavContent() {
 
   return (
     <div>
+      <SidenavLogo />
       <DxcTextInput
-        placeholder="Search Docs"
+        placeholder="Search docs"
         value={filter}
         onChange={onFilterInputChange}
         size="fillParent"
         clearable
-        margin="xsmall"
+        margin={{
+          top: "small",
+          bottom: "small",
+          right: "xsmall",
+          left: "xsmall",
+        }}
       />
       {LinksSections.map(({ label, links }) => (
         <LinksList
