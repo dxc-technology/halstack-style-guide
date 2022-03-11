@@ -16,7 +16,7 @@ const BoxSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
@@ -234,9 +234,8 @@ const BoxSpecsPage = () => {
           the box is going to behave as a fluid container occupying the space
           the parent leaves for its children or adapting its size to the
           children it the box has. Instead of using a fluid approach, you can
-          set a fixed size, choosing between{" "}
-          <Code>small</Code>, <Code>medium</Code> and <Code>large</Code>{" "}
-          properties.
+          set a fixed size, choosing between <Code>small</Code>,{" "}
+          <Code>medium</Code> and <Code>large</Code> properties.
         </DxcText>
         <DxcTable>
           <thead>
