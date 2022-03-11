@@ -42,7 +42,7 @@ const ButtonSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
         <HeadingLink level={4}>General</HeadingLink>
         <HeadingLink level={5}>Spacing</HeadingLink>
         <DxcTable>
