@@ -4,6 +4,7 @@ import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 import HeadingLink from "../../../common/HeadingLink";
 import headerVariants from "./images/header_variants.png";
+import headerResponsive from "./images/header_responsive.png";
 
 const HeaderUsagePage = () => {
   return (
@@ -55,6 +56,22 @@ const HeaderUsagePage = () => {
             that will be covered in the following sections.
           </DxcText>
         </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>
+          Responsive version for mobile and tablet
+        </HeadingLink>
+        <DxcText as="p">
+          Due to the applications are accessible from a laptop, tablet and
+          mobile it is necessary to think and design a header version for the
+          corresponding device. The design for smaller devices tries to keep the
+          consistency respect to the other versions, allowing the user
+          experiences a similar interaction although the space available is
+          less.
+        </DxcText>
+        <Figure caption="Header menu responsive version">
+          <Image src={headerResponsive} alt="Header menu responsive version" />
+        </Figure>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/header/usage/HeaderUsagePage.tsx" />
     </DxcStack>
