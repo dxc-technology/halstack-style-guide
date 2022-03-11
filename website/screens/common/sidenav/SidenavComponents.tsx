@@ -39,6 +39,7 @@ const StyledLink = styled.a`
   min-height: 17px;
   font-size: 14px;
   box-shadow: 0 0 0 2px transparent;
+  margin: 2px 0;
   
   &:hover {
     background: ${({ selected }: StyledLinkProps) =>
