@@ -36,30 +36,30 @@ const HeadingUsagePage = () => {
           of headings in their implementation (e.g., card, dialog, sidenav and
           so on).
         </DxcText>
+        <HeadingLink level={3}>Do&#39;s</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Use <Code>Heading</Code> componments from <Code>H1</Code> to
+            <Code>H5</Code> when creating content hierarchy in the page.
+          </DxcText>
+          <DxcText>
+            Use headings for page headings and for specific sections of content.
+          </DxcText>
+          <DxcText>
+            Use purposeful words to summarize the content that follows.
+          </DxcText>
+        </DxcList>
+        <HeadingLink level={3}>Dont&#39;s</HeadingLink>
+        <DxcList>
+          <DxcText>
+            Do not style text to give the visual appearance of headings.
+          </DxcText>
+          <DxcText>
+            Avoid &quot;stacking&quot; headings without any body content in
+            between.
+          </DxcText>
+        </DxcList>
       </DxcStack>
-      <HeadingLink level={3}>Do&#39;s</HeadingLink>
-      <DxcList>
-        <DxcText>
-          Use <Code>Heading</Code> componments from <Code>H1</Code> to
-          <Code>H5</Code> when creating content hierarchy in the page.
-        </DxcText>
-        <DxcText>
-          Use headings for page headings and for specific sections of content.
-        </DxcText>
-        <DxcText>
-          Use purposeful words to summarize the content that follows.
-        </DxcText>
-      </DxcList>
-      <HeadingLink level={3}>Dont&#39;s</HeadingLink>
-      <DxcList>
-        <DxcText>
-          Do not style text to give the visual appearance of headings.
-        </DxcText>
-        <DxcText>
-          Avoid &quot;stacking&quot; headings without any body content in
-          between.
-        </DxcText>
-      </DxcList>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/heading/usage/HeadingUsagePage.tsx" />
     </DxcStack>
   );
