@@ -35,18 +35,17 @@ const AccordionSpecsPage = () => {
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           The accordion header can get four different states based on user
-          interaction. States: enabled, hover, focus and disabled
+          interaction. States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong> and <strong>disabled</strong>.
         </DxcText>
-        <Figure caption="Accordion states">
-          <Image src={accordionStates} alt="Accordion states" />
+        <Figure caption="Accordion component states">
+          <Image src={accordionStates} alt="Accordion component states" />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Formatting</HeadingLink>
         <HeadingLink level={4}>Anatomy</HeadingLink>
-        <Figure caption="Accordion anatomy">
-          <Image src={accordionAnatomy} alt="Accordion anatomy" />
-        </Figure>
+        <Image src={accordionAnatomy} alt="Accordion anatomy" />
         <DxcList type="number">
           <DxcText>Header</DxcText>
           <DxcText>Custom icon (Optional)</DxcText>
@@ -70,9 +69,7 @@ const AccordionSpecsPage = () => {
           This allows for the title on the start side to align with other type
           elements in the layout.
         </DxcText>
-        <Figure caption="">
-          <Image src={accordionAlignment} alt="Component elements alignment" />
-        </Figure>
+        <Image src={accordionAlignment} alt="Component elements alignment" />
         <DxcText as="p">
           <em>
             <strong>Left</strong>. Place chevron icon at the end of the
@@ -123,9 +120,7 @@ const AccordionSpecsPage = () => {
             </DxcList>
           </DxcStack>
         </DxcList>
-        <Figure caption="">
-          <Image src={accordionTriggers} alt="Accordion trigger usage" />
-        </Figure>
+        <Image src={accordionTriggers} alt="Accordion trigger usage" />
         <DxcText as="p">
           <em>
             <strong>Left</strong>. Trigger collapsed and expanded states when
@@ -147,13 +142,21 @@ const AccordionSpecsPage = () => {
           caption="The expandable section of an accordion group can contain different
           types of plain information or clickable components."
         >
-          <Image src={accordionGroup} alt="image" />
+          <Image
+            src={accordionGroup}
+            alt="The expandable section of an accordion group can contain different
+          types of plain information or clickable components."
+          />
         </Figure>
         <Figure
           caption="When one accordion panel is expanded, the rest of the group should be
           collapsed."
         >
-          <Image src={accordionMultiExpand} alt="image" />
+          <Image
+            src={accordionMultiExpand}
+            alt="When one accordion panel is expanded, the rest of the group should be
+          collapsed."
+          />
         </Figure>
         <HeadingLink level={5}>Mobile</HeadingLink>
         <DxcText as="p">
@@ -166,13 +169,11 @@ const AccordionSpecsPage = () => {
         </DxcList>
         <HeadingLink level={4}>Content</HeadingLink>
         <DxcText as="p">
-          The accordion component can contain other components, images,
-          DxcTables, and every custom feature that can be supported inside the
-          element container.
+          The accordion component can contain other components, images, tables,
+          and every custom feature that can be supported inside the element
+          container.
         </DxcText>
-        <Figure caption="">
-          <Image src={accordionContent} alt="Nesting and icon usage examples" />
-        </Figure>
+        <Image src={accordionContent} alt="Nesting and icon usage examples" />
         <DxcText as="p">
           <em>
             <strong>Left</strong>. Nesting is allowed. Use in parent accordion
@@ -213,7 +214,7 @@ const AccordionSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Design tokens</HeadingLink>
+        <HeadingLink level={3}>Design Tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
