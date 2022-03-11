@@ -31,6 +31,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "File Input", path: "/components/file-input" },
   { label: "Footer", path: "/components/footer" },
   { label: "Header", path: "/components/header" },
+  { label: "Heading", path: "/components/heading" },
   { label: "Link", path: "/components/link" },
   { label: "Number Input", path: "/components/number-input" },
   { label: "Paginator", path: "/components/paginator" },
