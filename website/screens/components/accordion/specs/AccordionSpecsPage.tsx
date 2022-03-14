@@ -142,21 +142,13 @@ const AccordionSpecsPage = () => {
           caption="The expandable section of an accordion group can contain different
           types of plain information or clickable components."
         >
-          <Image
-            src={accordionGroup}
-            alt="The expandable section of an accordion group can contain different
-          types of plain information or clickable components."
-          />
+          <Image src={accordionGroup} alt="image" />
         </Figure>
         <Figure
           caption="When one accordion panel is expanded, the rest of the group should be
           collapsed."
         >
-          <Image
-            src={accordionMultiExpand}
-            alt="When one accordion panel is expanded, the rest of the group should be
-          collapsed."
-          />
+          <Image src={accordionMultiExpand} alt="image" />
         </Figure>
         <HeadingLink level={5}>Mobile</HeadingLink>
         <DxcText as="p">
