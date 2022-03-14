@@ -22,7 +22,7 @@ const LinkUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Icon Usage</HeadingLink>
+        <HeadingLink level={3}>Icon usage</HeadingLink>
         <DxcText as="p">
           An icon can be used either in the normal or underlined mode to
           represent more graphical the purpose of the link, placing the icon
