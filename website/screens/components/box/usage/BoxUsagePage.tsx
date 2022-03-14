@@ -22,7 +22,7 @@ const BoxUsagePage = () => {
           </DxcText>
           <DxcText>
             Use always a minimun padding and always leave enough margin when
-            stacking boxes so the shadows don't ovelap.
+            stacking boxes so the shadows don&#39;t overlap.
           </DxcText>
         </DxcList>
       </DxcStack>
