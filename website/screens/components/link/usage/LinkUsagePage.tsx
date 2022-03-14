@@ -3,7 +3,7 @@ import Figure from "@/common/Figure";
 import HeadingLink from "@/common/HeadingLink";
 import Image from "@/common/Image";
 import { DxcList, DxcStack, DxcText } from "@dxc-technology/halstack-react";
-import linkIcon from "./images/link_icon.png";
+import linkStatesIcon from "./images/link_states_icon.png";
 
 const LinkUsagePage = () => {
   return (
@@ -29,7 +29,7 @@ const LinkUsagePage = () => {
           before or after the link that is representing.
         </DxcText>
         <Figure caption="Icon usage for the link component">
-          <Image src={linkIcon} alt="Icon usage for the link component" />
+          <Image src={linkStatesIcon} alt="Icon usage for the link component" />
         </Figure>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/link/usage/LinkUsagePage.tsx" />

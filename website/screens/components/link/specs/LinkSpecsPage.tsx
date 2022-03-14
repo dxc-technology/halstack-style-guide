@@ -11,7 +11,7 @@ import {
 } from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
 import linkSpecs from "./images/link_specs.png";
-import linkStates from "./images/link_states.png";
+import linkStatesNoIcon from "./images/link_states_noIcon.png";
 
 const LinkSpecsPage = () => {
   return (
@@ -34,7 +34,7 @@ const LinkSpecsPage = () => {
           <strong>disabled</strong>.
         </DxcText>
         <Figure caption="Example of the link component states">
-          <Image src={linkStates} alt="Example of the link component states" />
+          <Image src={linkStatesNoIcon} alt="Example of the link component states" />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
@@ -134,99 +134,6 @@ const LinkSpecsPage = () => {
             <tr>
               <td>
                 <Code>focusColor</Code>
-              </td>
-              <td>Outline:focus</td>
-              <td>
-                <Code>color-blue-800</Code>
-              </td>
-              <td>#0067b3</td>
-            </tr>
-          </tbody>
-        </DxcTable>
-        <HeadingLink level={5}>On-dark</HeadingLink>
-        <DxcTable>
-          <thead>
-            <tr>
-              <th>Component token</th>
-              <th>Element</th>
-              <th>Core token</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <Code>fontColorOnDark</Code>
-              </td>
-              <td>Label</td>
-              <td>
-                <Code>color-blue-600</Code>
-              </td>
-              <td>#0095ff</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>hoverFontColorOnDark</Code>
-              </td>
-              <td>Label:hover</td>
-              <td>
-                <Code>color-blue-600</Code>
-              </td>
-              <td>#0095ff</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>activeFontColorOnDark</Code>
-              </td>
-              <td>Label:active</td>
-              <td>
-                <Code>color-white</Code>
-              </td>
-              <td>#ffffff</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>disabledFontColorOnDark</Code>
-              </td>
-              <td>Label:disabled</td>
-              <td>
-                <Code>color-grey-700</Code>
-              </td>
-              <td>#666666</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>visitedFontColorOnDark</Code>
-              </td>
-              <td>Label:visited</td>
-              <td>
-                <Code>color-purple-500</Code>
-              </td>
-              <td>#a46ede</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>hoverUnderlineColorOnDark</Code>
-              </td>
-              <td>Underline:hover</td>
-              <td>
-                <Code>color-blue-600</Code>
-              </td>
-              <td>#0095ff</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>visitedUnderlineColorOnDark</Code>
-              </td>
-              <td>Underline:visited</td>
-              <td>
-                <Code>color-purple-500</Code>
-              </td>
-              <td>#a46ede</td>
-            </tr>
-            <tr>
-              <td>
-                <Code>focusColorOnDark</Code>
               </td>
               <td>Outline:focus</td>
               <td>
