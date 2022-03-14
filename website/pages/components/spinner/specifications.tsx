@@ -7,7 +7,7 @@ const Specifications = () => {
   return (
     <>
       <Head>
-        <title>Spinner — Halstack Design System</title>
+        <title>Spinner Specs — Halstack Design System</title>
       </Head>
       <SpinnerSpecsPage></SpinnerSpecsPage>
     </>
