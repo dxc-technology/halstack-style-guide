@@ -6,6 +6,7 @@ import {
   DxcText,
   DxcHeading,
 } from "@dxc-technology/halstack-react";
+import { responsiveSizes } from "../common/variables";
 
 type PageHeadingProps = {
   title: string;
@@ -49,8 +50,17 @@ const PageHeading = ({
 };
 
 const LayoutContainer = styled.div`
-  width: var(--content-width);
-  margin: var(--content-margin-vertical) var(--content-margin-left);
+  max-width: var(--content-width);
+  margin-left: var(--content-margin-left);
+  margin-right: var(--content-margin-right);
+  margin-top: var(--content-margin-top);
+  margin-bottom: var(--content-margin-bottom);
+  @media screen and (max-width: ${responsiveSizes.desktop}px) {
+    margin-left: var(--content-mobile-margin-left);
+    margin-right: var(--content-mobile-margin-right);
+    margin-top: var(--content-mobile-margin-top);
+    margin-bottom: var(--content-mobile-margin-bottom);
+  }
 `;
 
 export default PageHeading;

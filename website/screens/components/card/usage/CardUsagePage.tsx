@@ -14,8 +14,8 @@ const CardUsagePage = () => {
             styles for every card.
           </DxcText>
           <DxcText>
-            If a collection want be create, won't use different card styles, use
-            the same to keep consistency.
+            If a collection want be create, won&#39;t use different card styles,
+            use the same to keep consistency.
           </DxcText>
         </DxcList>
       </DxcStack>

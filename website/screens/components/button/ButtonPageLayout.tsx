@@ -9,7 +9,8 @@ const ButtonPageHeading = ({ children }: { children: React.ReactNode }) => {
   return (
     <PageHeading
       title="Button"
-      description="Lorem ipsum button sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      description="Buttons are basic interface elements that initialize an action or function when the user interacts with them. The appearance of the button should suggest the user takes an action that leads to different scenarios.
+      These elements that reinforce to the user the necessity to interact are called CTA (Call to Action) components, which basically are designed to capture user attention and improve the user experience within the application."
       tabs={tabs}
     >
       {children}
