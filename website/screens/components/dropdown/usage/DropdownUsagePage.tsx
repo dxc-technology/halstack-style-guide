@@ -41,7 +41,7 @@ const DropdownUsagePage = () => {
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Icon Usage</HeadingLink>
+        <HeadingLink level={3}>Icon usage</HeadingLink>
         <DxcText as="p">
           It is allowed the use of icons within the dropdown component. There
           are several options of configuration, the icon can be placed before or
