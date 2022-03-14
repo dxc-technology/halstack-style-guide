@@ -75,7 +75,7 @@ const TabsUsagePage = () => {
         <HeadingLink level={3}>Typography</HeadingLink>
         <DxcText as="p">
           Avoid to use all caps for tab labels. ALL CAPS is rarely a good idea
-          because it’s harder to read.{" "}
+          because it’s harder to read.
         </DxcText>
         <Figure
           caption="Is recommended to use sentence-case capitalization and semibold
@@ -204,7 +204,7 @@ const TabsUsagePage = () => {
         <DxcText as="p">
           Interacting with the tabs makes the content scrolls to the point that
           is associated with that specific tab, while the tabs keep fixed at the
-          top of the container.{" "}
+          top of the container.
         </DxcText>
         <Figure caption="Do not use main navigation if they only affect an specific panel.">
           <Image src={tabsPanelBehavior} alt="image" />
