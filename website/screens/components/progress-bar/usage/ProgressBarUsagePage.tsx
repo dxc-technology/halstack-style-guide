@@ -11,9 +11,7 @@ const ProgressBarUsagePage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Usage</HeadingLink>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Do</HeadingLink>
+        <HeadingLink level={3}>Do&#39;s</HeadingLink>
         <DxcList>
           <DxcText>
             Use a progress bar when it will give people feedback in a
@@ -30,16 +28,16 @@ const ProgressBarUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Don&#39;t</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
-          <li>
+          <DxcText>
             For an unknown amount of time/progress, consider using a loading
             spinner instead.
-          </li>
-          <li>
+          </DxcText>
+          <DxcText>
             Do not use this type of component in actions that will take less
             than 1 minute to the system.
-          </li>
+          </DxcText>
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
