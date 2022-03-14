@@ -41,7 +41,7 @@ const TabsUsagePage = () => {
         <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
-            Don’t use tabs to move through sequential content that needs to be
+            Do not use tabs to move through sequential content that needs to be
             read in a particular order.
           </DxcText>
           <DxcText>

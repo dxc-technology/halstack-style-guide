@@ -289,7 +289,7 @@ const TabsSpecsPage = () => {
               <td>
                 Moves focus to the previous tab. If focus is on the first tab,
                 moves focus to the last tab. Optionally, activates the newly
-                focused tab
+                focused tab.
               </td>
             </tr>
             <tr>
@@ -299,7 +299,7 @@ const TabsSpecsPage = () => {
               <td>
                 Moves focus to the next tab. If focus is on the last tab
                 element, moves focus to the first tab. Optionally, activates the
-                newly focused tab
+                newly focused tab.
               </td>
             </tr>
           </tbody>
