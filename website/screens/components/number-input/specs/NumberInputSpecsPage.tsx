@@ -41,7 +41,7 @@ const NumberInputSpecsPage = () => {
         <HeadingLink level={3}>States</HeadingLink>
         <HeadingLink level={4}>Input</HeadingLink>
         <DxcText as="p">
-          States: <strong>Enabled</strong>, <strong>hover</strong>,{" "}
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
           <strong>focus</strong>, <strong>error</strong> and{" "}
           <strong>disabled</strong>.
         </DxcText>
@@ -50,9 +50,9 @@ const NumberInputSpecsPage = () => {
         </Figure>
         <HeadingLink level={4}>Spin button</HeadingLink>
         <DxcText as="p">
-          States: <strong>Enabled</strong>, <strong>hover</strong>,{" "}
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
           <strong>focus</strong>, <strong>active</strong> and{" "}
-          <strong>disabled</strong>
+          <strong>disabled</strong>.
         </DxcText>
         <Figure caption="Spin button states example">
           <Image src={numberInputStates} alt="Spin button states example" />
