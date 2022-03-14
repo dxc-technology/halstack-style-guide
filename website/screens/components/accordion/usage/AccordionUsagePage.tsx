@@ -22,7 +22,7 @@ const AccordionUsagePage = () => {
             Adding granular control over the information on a given page.
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>Dont&#39;s</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
             When most of the content on the page is needed to answer user
