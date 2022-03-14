@@ -13,15 +13,15 @@ const PaginatorUsagePage = () => {
         <DxcList>
           <DxcText>
             Use the paginator when the number of elements is affecting the
-            system load, or when the screen size grows considerably
+            system load, or when the screen size grows considerably.
           </DxcText>
           <DxcText>
             Always place the paginator at the bottom of the data that is being
-            divided
+            divided.
           </DxcText>
           <DxcText>
             Identify the current page and the number of elements that are being
-            displayed
+            displayed.
           </DxcText>
         </DxcList>
       </DxcStack>
