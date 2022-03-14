@@ -44,6 +44,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Spinner", path: "/components/spinner" },
   { label: "Switch", path: "/components/switch" },
   { label: "Table", path: "/components/table" },
+  { label: "Tabs", path: "/components/tabs" },
   { label: "Tag", path: "/components/tag" },
   { label: "Textarea", path: "/components/textarea" },
   { label: "Text Input", path: "/components/text-input" },

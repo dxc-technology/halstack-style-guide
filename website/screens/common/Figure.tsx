@@ -3,7 +3,7 @@ import { DxcStack } from "@dxc-technology/halstack-react";
 
 type DocImageProps = {
   children: React.ReactNode;
-  caption: string;
+  caption: string | React.ReactNode;
 };
 const Figure = ({ caption, children }: DocImageProps) => {
   return (
