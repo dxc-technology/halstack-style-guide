@@ -30,7 +30,7 @@ const HeadingUsagePage = () => {
           a definition of the elements that will appear below the title or an
           introduction for a paragraph.
         </DxcText>
-        <HeadingLink level={3}>Do's</HeadingLink>
+        <HeadingLink level={3}>Do&#39;s</HeadingLink>
         <DxcList>
           <DxcText>
             Use <Code>Heading</Code> componments from <Code>H1</Code> to{" "}
@@ -43,13 +43,14 @@ const HeadingUsagePage = () => {
             Use purposeful words to summarize the content that follows.
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>Dont's</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
             Do not style text to give the visual appearance of headings.
           </DxcText>
           <DxcText>
-            Avoid "stacking" headings without any body content in between.
+            Avoid &quot;stacking&quot; headings without any body content in
+            between.
           </DxcText>
         </DxcList>
       </DxcStack>

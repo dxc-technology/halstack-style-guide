@@ -24,7 +24,7 @@ const HeaderSpecsPage = () => {
           is no specific color tokens for this component.
         </DxcText>
         <HeadingLink level={4}>Typography</HeadingLink>
-        <HeadingLink level={5}>Hal-Headings-H1</HeadingLink>
+        <HeadingLink level={5}>Headings H1</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -88,7 +88,7 @@ const HeaderSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Hal-Headings-H2</HeadingLink>
+        <HeadingLink level={5}>Headings H2</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -152,7 +152,7 @@ const HeaderSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Hal-Headings-H3</HeadingLink>
+        <HeadingLink level={5}>Headings H3</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -216,7 +216,7 @@ const HeaderSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Hal-Headings-H4</HeadingLink>
+        <HeadingLink level={5}>Headings H4</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -280,7 +280,7 @@ const HeaderSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Hal-Headings-H5</HeadingLink>
+        <HeadingLink level={5}>Headings H5</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
