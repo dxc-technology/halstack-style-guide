@@ -28,7 +28,7 @@ const CheckboxSpecsPage = () => {
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           The following states are defined in the life cycle of the component:{" "}
-          <strong>Unselected enabled</strong>, <strong>unselected hover</strong>
+          <strong>unselected enabled</strong>, <strong>unselected hover</strong>
           , <strong>unselected focus</strong>,{" "}
           <strong>unselected disabled</strong>,{" "}
           <strong>selected enabled</strong>, <strong>selected hover</strong>,{" "}
@@ -41,7 +41,7 @@ const CheckboxSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Image src={checkboxAnatomy} alt="Checkbox anatomy." />
+        <Image src={checkboxAnatomy} alt="Checkbox anatomy" />
         <DxcList type="number">
           <DxcText>Checkbox input</DxcText>
           <DxcText>Label</DxcText>
@@ -52,8 +52,8 @@ const CheckboxSpecsPage = () => {
         <DxcText as="p">
           Checkbox may be either vertically or horizontally stacked.
         </DxcText>
-        <Figure caption="Checkbox group stacking types.">
-          <Image src={checkboxStack} alt="Checkbox group stacking types." />
+        <Figure caption="Checkbox group stacking types">
+          <Image src={checkboxStack} alt="Checkbox group stacking types" />
         </Figure>
         <DxcTable>
           <thead>
