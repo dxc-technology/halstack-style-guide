@@ -10,13 +10,13 @@ const DateInputUsagePage = () => {
         <DxcList>
           <DxcText>
             Use the date input component when asking for a past, present, or
-            future date
+            future date.
           </DxcText>
           <DxcText>
-            Provide a hint with the date format expected in the placeholder
+            Provide a hint with the date format expected in the placeholder.
           </DxcText>
           <DxcText>
-            Use a concise label to indicate what the date selection refers to
+            Use a concise label to indicate what the date selection refers to.
           </DxcText>
         </DxcList>
       </DxcStack>
@@ -33,14 +33,14 @@ const DateInputUsagePage = () => {
         </DxcText>
         <DxcList>
           <DxcText>
-            The default format for the United States is <Code>mm/dd/yyyy</Code>
+            The default format for the United States is <Code>mm/dd/yyyy</Code>.
           </DxcText>
           <DxcText>
             The default format for Australia, Europe, Africa, South America most
-            countries of Asia is <Code>dd/mm/yyyy</Code>
+            countries of Asia is <Code>dd/mm/yyyy</Code>.
           </DxcText>
           <DxcText>
-            The default format in China is <Code>yyyy/mm/dd</Code>
+            The default format in China is <Code>yyyy/mm/dd</Code>.
           </DxcText>
         </DxcList>
       </DxcStack>
