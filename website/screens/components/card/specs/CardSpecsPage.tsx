@@ -64,6 +64,16 @@ const CardSpecsPage = () => {
               </td>
               <td>#ffffff</td>
             </tr>
+            <tr>
+              <td>
+                <Code>focusColor</Code>*
+              </td>
+              <td>Container:focus</td>
+              <td>
+                <Code>color-blue-600</Code>
+              </td>
+              <td>#0095ff</td>
+            </tr>
           </tbody>
         </DxcTable>
         <DxcText as="p">
