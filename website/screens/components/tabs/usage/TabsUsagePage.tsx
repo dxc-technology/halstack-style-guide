@@ -24,7 +24,7 @@ const TabsUsagePage = () => {
           Tabs organize and allow navigation between groups of content that are
           related and at the same level of hierarchy.
         </DxcText>
-        <HeadingLink level={3}>Do´s</HeadingLink>
+        <HeadingLink level={3}>Do&#39;s</HeadingLink>
         <DxcList>
           <DxcText>
             Use tabs for navigation when dividing content into different
@@ -38,7 +38,7 @@ const TabsUsagePage = () => {
             have a clear relation to content.
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>Dont´s</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
             Don’t use tabs to move through sequential content that needs to be
