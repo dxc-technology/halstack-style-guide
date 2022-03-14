@@ -84,7 +84,7 @@ const ButtonUsagePage = () => {
         </DxcTable>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Icon Usage</HeadingLink>
+        <HeadingLink level={3}>Icon usage</HeadingLink>
         <DxcText as="p">
           Any icon can be used in Halstack Design System, so it is apt to the
           user to choose between one of the multiple options that are offered

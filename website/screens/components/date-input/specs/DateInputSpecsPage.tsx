@@ -23,7 +23,7 @@ const DateInputSpecsPage = () => {
         <HeadingLink level={2}>Specifications</HeadingLink>
         <HeadingLink level={3}>Date input</HeadingLink>
         <Figure caption="Date input design specifications">
-          <Image src={dateSpecs} alt="date input design specifications" />
+          <Image src={dateSpecs} alt="Date input design specifications" />
         </Figure>
         <DxcText as="p">
           The date input <Code>color</Code>, <Code>typography</Code>,{" "}
