@@ -34,7 +34,7 @@ const FileInputUsagePage = () => {
             information (e.g. &#39;0x94 ERROR_PATH_BUSY&#39;).
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>Dont&#39;s</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
             Use the file input component to upload multiple files inside a modal

@@ -35,7 +35,7 @@ const FileInputSpecsPage = () => {
         </DxcText>
         <HeadingLink level={4}>File</HeadingLink>
         <DxcText as="p">
-          The element has the following states: <strong>Enabled</strong>,{" "}
+          The element has the following states: <strong>enabled</strong>,{" "}
           <strong>hover</strong>, <strong>focus</strong>,{" "}
           <strong>active</strong> and <strong>disabled</strong>.
         </DxcText>
@@ -44,7 +44,7 @@ const FileInputSpecsPage = () => {
         </Figure>
         <HeadingLink level={4}>Filedrop</HeadingLink>{" "}
         <DxcText as="p">
-          The element has the following states: <strong>Enabled</strong>,{" "}
+          The element has the following states: <strong>enabled</strong>,{" "}
           <strong>hover</strong>, <strong>focus</strong>,{" "}
           <strong>active</strong>, <strong>dragover</strong> and{" "}
           <strong>disabled</strong>.
@@ -54,7 +54,7 @@ const FileInputSpecsPage = () => {
         </Figure>
         <HeadingLink level={4}>Dropzone</HeadingLink>
         <DxcText as="p">
-          The element has the following states: <strong>Enabled</strong>,{" "}
+          The element has the following states: <strong>enabled</strong>,{" "}
           <strong>hover</strong>, <strong>focus</strong>,{" "}
           <strong>active</strong>, <strong>dragover</strong> and{" "}
           <strong>disabled</strong>.
@@ -64,9 +64,10 @@ const FileInputSpecsPage = () => {
         </Figure>
         <HeadingLink level={4}>File items</HeadingLink>
         <DxcText as="p">
-          The element has the following states: <strong>Enabled</strong>,{" "}
-          <strong>hover/focus</strong>, <strong>active</strong>,{" "}
-          <strong>loading</strong> and <strong>error</strong>.
+          The element has the following states: <strong>enabled</strong>,{" "}
+          <strong>hover</strong>, <strong>focus</strong>,{" "}
+          <strong>active</strong>, <strong>loading</strong> and{" "}
+          <strong>error</strong>.
         </DxcText>
         <Figure caption="File item states">
           <Image src={fileInputStatesFileItem} alt="File item states" />
