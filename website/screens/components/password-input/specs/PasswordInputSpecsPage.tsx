@@ -51,9 +51,9 @@ const PasswordInputSpecsPage = () => {
           The component password has the following states:
         </DxcText>
         <DxcText as="p">
-          States: <strong>Enabled</strong>, <strong>Hover</strong>,{" "}
-          <strong>Focus</strong>, <strong>Error</strong> and{" "}
-          <strong>Disabled</strong>.
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, <strong>error</strong> and{" "}
+          <strong>disabled</strong>.
         </DxcText>
         <Figure caption="Password input component states">
           <Image
@@ -98,7 +98,7 @@ const PasswordInputSpecsPage = () => {
           </DxcText>
           <DxcText>
             The toggle has a <Code>title</Code> with a textual cue for the
-            resulting action
+            resulting action.
           </DxcText>
         </DxcList>
       </DxcStack>
