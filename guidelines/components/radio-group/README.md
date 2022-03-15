@@ -68,8 +68,8 @@ _Component design specifications_
 | `activeErrorInputColor`           | Radio input:error:active       | `color-red-900`          | #65010e     |
 | `disabledInputColor`              | Radio input:disabled           | `color-grey-500`         | #999999     |
 | `readonlyInputColor`              | Radio input:readonly           | `color-grey-500`         | #999999     |
-| `readonlyHoverInputColor`         | Radio input:readonly:hover     | `color-grey-600`         | #808080     |
-| `readonlyActiveInputColor`        | Radio input:readonly:active    | `color-grey-700`         | #666666     |
+| `hoverReadonlyInputColor`         | Radio input:readonly:hover     | `color-grey-600`         | #808080     |
+| `activeReadonlyInputColor`        | Radio input:readonly:active    | `color-grey-700`         | #666666     |
 | `labelFontColor`                  | Label                          | `color-black`            | #000000     |
 | `disabledLabelFontColor`          | Label:disabled                 | `color-grey-500`         | #999999     |
 | `readonlyLabelFontColor`          | Label: readonly                | `color-black`            | #000000     |
