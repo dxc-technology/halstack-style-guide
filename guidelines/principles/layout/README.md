@@ -1,15 +1,9 @@
 
 # Layout
 
-Since not all applications have the same layout, we have a predefined layout configuration factored into our design system so designers and developers don't start from a blank page. The most common screen configurations in our applications have been considered when building our design principles and component catalog.
+Layouts form the foundation on which visual components are built. Our layouts focus on facilitating clarity and consistency across applications. To facilitate this, our starting point consists of three main areas: the Header, the Main Content, and the Footer. From here, we build a variety of layouts to accommodate different needs and use cases.   
 
-Side navigation, tab navigation, flow navigation, and more are valid experience patterns to navigate in your applications built with Halstack Design System. This is all about thinking and considering what is the best approach for your users, what is the best organization to display your content, and make a nicer and clearer User Experience. That simple.
-
-Every application that will be designed into the DXC environment should fulfill a series of requirements to give consistency with the applications using the design system.
-
-There are generic elements that each application should implement in most cases, making the design cohesive across the set of applications.
-
-Regarding this principle, we offer a set of prebuilt layouts to be used in different scenarios and identified as a pattern in most of our applications.
+![Base layout](images/base_layout.png)
 
 ## Application Layout
 
