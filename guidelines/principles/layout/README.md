@@ -7,21 +7,15 @@ Layouts form the foundation on which visual components are built. Our layouts fo
 
 ## Application Layout
 
-A widely used layout in many applications, keeping it simple, with three main areas with hierarchical distribution and a defined role. Header, main content, and footer.
+The three main areas can be subdivided into multiple sections depending on the use case. 
 
-Easy to adapt to a changing environment, referring to other devices like mobile and tablet, the structure of the content and the alignment of the components won't be affected by the lack of space, maintaining the same order and flow.
+Main content can further be subdivided into full-width, one-half, one-third, and one-fourth layouts.
 
-The main content is the most customizable part, acting as the main content of the application and the main focus where the user will find the relevant information about the site.
+* Maximum width is set for the main area of 1320 pixels, giving enough whitespace to the UI and the elements to breath, and keeping the content center on the screen to call the attention of the user.
+* Margins from the left and right sides are also other aspects that the component itself is controlling, adapting it depending on the device and the needs of the applications.Additionally, a margin area is defined following the spacing with other components of the layout with these values:- Margin for desktop: 64 pixels (top), 80 pixels (bottom), 15.6% (left/right)- Margin for tablet: 48 pixels (top), 64 pixels (bottom), 9.6 (left/right)- Margin for mobile: 36 pixels (top), 48 pixels (bottom), 6.4% (left/right)
+* The specifications of the header and footer will remain the same in the rest of the layouts, with the following values:- Header: 64 pixels (height), 100% (width)- Footer: 128 pixels (height), 100% (width)
 
-Behind the scenes, there are some aspects that we are controlling, like the definition of a minimum height to the main space making by default the layout adaptive to the viewport height even if there is no content inside the main section. If the main area has content taller than the viewport size, the container will become scrollable.
-
-Maximum width is set for the main area of 1320 pixels, giving enough whitespace to the UI and the elements to breath, and keeping the content center on the screen to call the attention of the user.
-
-Margins from the left and right sides are also other aspects that the component itself is controlling, adapting it depending on the device and the needs of the applications.Additionally, a margin area is defined following the spacing with other components of the layout with these values:- Margin for desktop: 64 pixels (top), 80 pixels (bottom), 15.6% (left/right)- Margin for tablet: 48 pixels (top), 64 pixels (bottom), 9.6 (left/right)- Margin for mobile: 36 pixels (top), 48 pixels (bottom), 6.4% (left/right)
-
-The specifications of the header and footer will remain the same in the rest of the layouts, with the following values:- Header: 68 pixels (height), 100% (width)- Footer: 128 pixels (height), 100% (width)
-
-![Standard layout](images/standard_layout.png)
+![Base layout with containers](images/base_layout_containers.png)
 
 ### Application Layout with side navigation
 
