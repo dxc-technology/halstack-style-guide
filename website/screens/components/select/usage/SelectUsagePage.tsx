@@ -19,22 +19,22 @@ const SelectUsagePage = () => {
         <DxcList>
           <DxcText>
             A dialog element should allow the user to select one option from a
-            list
+            list.
           </DxcText>
           <DxcText>
             If the list of options is short (4 or less), use checkboxes instead
-            of the select component
+            of the select component.
           </DxcText>
           <DxcText>
             The select component should always display a label different from
-            any name in the option list
+            any name in the option list.
           </DxcText>
-          <DxcText>Use a pre-selected good default where possible</DxcText>
+          <DxcText>Use a pre-selected good default where possible.</DxcText>
           <DxcText>
-            Use progressive disclosure between linked select components
+            Use progressive disclosure between linked select components.
           </DxcText>
           <DxcText>
-            If more than one option is applicable, use the multi-select variant
+            If more than one option is applicable, use the multi-select variant.
           </DxcText>
         </DxcList>
       </DxcStack>
