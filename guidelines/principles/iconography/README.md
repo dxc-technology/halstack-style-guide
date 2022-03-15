@@ -45,7 +45,6 @@ Using too many icons will become nothing more than decoration.
 
 ### Allowed formats
 
-<!--  This can be arranged as a table -->
 
 | Format | Description |
  | :------  | :-----------|
@@ -93,16 +92,48 @@ Icons have been designed to work best in four sizes: 16px, 24px, and 32px. We sh
 
 _Examples of sizes of Icon_
 
+
+
+<!--
 ### Type
+-->
+
 
 ### Perspective
 
-Icons should be of 2D
+Icons should be of 2D. While creating a new icon to contribute to the library, please be sure to avoid dimensional representations. We should be using more authentic and simple as it is, shoudn't be decorating much as it distracts audience.
+
+![Icon Perspective](./Icon Perspective.png)       
+
+_Use icon as it is_
+
+
+![Icon Perspective with dimension](./Icon Perspective with dimension.png)       
+
+_Don’t create icon with dimension_
+
 
 
 ### Roundness
 
-Description here
+We should use a consistent corner radius of 2px for rounded shapes. The 2px radius can be increased by a multiple of two when necessary to make the icon’s metaphor understandable or object shape clearly defined. We should use an additional radius to make the metaphor reflect the real form of the object.
+
+
+![Icon Roundness](./Icon Roundness.png)       
+
+_Use icon as it is_
+
+
+![Icon roundness when needed](./Icon roundness when needed.png)       
+
+_We should be using roundness when needed to reflect the real form of the metaphor_
+
+
+![Icon roundness when not needed](./Icon roundness when not needed.png)       
+
+_We shouldn't be forcing rounded corners if they don’t work for metaphor._
+
+
 
 
 ## Accessibility
