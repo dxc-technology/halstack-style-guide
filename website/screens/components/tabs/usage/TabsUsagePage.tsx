@@ -3,6 +3,7 @@ import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import tabsUsage from "./images/tabs_usage.png";
 import contentUsageTabImage from "./images/tabs_content.png";
 import typographyUsageTabImage from "./images/tabs_typography.png";
 import tabsPlacement from "./images/tabs_placement.png";
@@ -24,6 +25,7 @@ const TabsUsagePage = () => {
           Tabs organize and allow navigation between groups of content that are
           related and at the same level of hierarchy.
         </DxcText>
+        <Image src={tabsUsage} alt="image" />
         <HeadingLink level={3}>Do&#39;s</HeadingLink>
         <DxcList>
           <DxcText>
@@ -51,40 +53,6 @@ const TabsUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={2}>Content</HeadingLink>
-        <Figure
-          caption={
-            <>
-              <DxcText as="p">
-                <strong>Left:</strong> Text labels should clearly and succinctly
-                describe the content of the tab they represent.
-              </DxcText>
-              <DxcText as="p">
-                <strong>Center:</strong> Tab content should contain a cohesive
-                set of items that share a common characteristics.
-              </DxcText>
-              <DxcText as="p">
-                <strong>Right</strong>: Tab labels should appear in a single
-                row. They can use a second line if needed, with truncated text.
-              </DxcText>
-            </>
-          }
-        >
-          <Image src={contentUsageTabImage} alt="image" />
-        </Figure>
-        <HeadingLink level={3}>Typography</HeadingLink>
-        <DxcText as="p">
-          Avoid to use all caps for tab labels. ALL CAPS is rarely a good idea
-          because it’s harder to read.
-        </DxcText>
-        <Figure
-          caption="Is recommended to use sentence-case capitalization and semibold
-            style for tab labels."
-        >
-          <Image alt="image" src={typographyUsageTabImage} />
-        </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={2}>Placement and alignment</HeadingLink>
         <HeadingLink level={3}>Placement</HeadingLink>
         <DxcText as="p">
@@ -109,15 +77,7 @@ const TabsUsagePage = () => {
         >
           <Image src={tabsPlacement} alt="image" />
         </Figure>
-
         <HeadingLink level={4}>Desktop</HeadingLink>
-        <DxcText as="p">
-          <strong>Default</strong>
-        </DxcText>
-        <DxcText as="p">
-          When used for main navigation place tabs above the header using 100%
-          of the width of the screen.
-        </DxcText>
         <DxcText as="p">
           <strong>Default</strong>
         </DxcText>
@@ -158,7 +118,7 @@ const TabsUsagePage = () => {
                 content.
               </DxcText>
               <DxcText as="p">
-                <strong>Right</strong>: Don’t stack more than 4 fixed tabs.
+                <strong>Right</strong>: Don&#39;t stack more than 4 fixed tabs.
               </DxcText>
             </>
           }
@@ -191,6 +151,40 @@ const TabsUsagePage = () => {
           }
         >
           <Image src={tabsAlignment} alt="image" />
+        </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={2}>Content</HeadingLink>
+        <Figure
+          caption={
+            <>
+              <DxcText as="p">
+                <strong>Left:</strong> Text labels should clearly and succinctly
+                describe the content of the tab they represent.
+              </DxcText>
+              <DxcText as="p">
+                <strong>Center:</strong> Tab content should contain a cohesive
+                set of items that share a common characteristics.
+              </DxcText>
+              <DxcText as="p">
+                <strong>Right</strong>: Tab labels should appear in a single
+                row. They can use a second line if needed, with truncated text.
+              </DxcText>
+            </>
+          }
+        >
+          <Image src={contentUsageTabImage} alt="image" />
+        </Figure>
+        <HeadingLink level={3}>Typography</HeadingLink>
+        <DxcText as="p">
+          Avoid to use all caps for tab labels. ALL CAPS is rarely a good idea
+          because it&#39;s harder to read.
+        </DxcText>
+        <Figure
+          caption="Is recommended to use sentence-case capitalization and semibold
+            style for tab labels."
+        >
+          <Image alt="image" src={typographyUsageTabImage} />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">

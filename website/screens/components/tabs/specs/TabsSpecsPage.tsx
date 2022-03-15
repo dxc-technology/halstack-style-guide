@@ -29,11 +29,9 @@ const TabsSpecsPage = () => {
         <Figure caption="48px height fixed tabs.">
           <Image src={specsFixed} alt="image" />
         </Figure>
-
         <Figure caption="72px height fixed tabs.">
           <Image src={specsFixed72} alt="image" />
         </Figure>
-
         <HeadingLink level={3}>Scrollable tabs</HeadingLink>
         <Figure caption="Use a scroll indicator in scrollable tabs.">
           <Image src={specsScrollable} alt="image" />
@@ -46,8 +44,10 @@ const TabsSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>States</HeadingLink>
         <DxcText as="p">
-          Tabs can get different states based on user interaction. States:
-          inactive, enabled, hover, pressed, focus and disabled.
+          Tabs can get different states based on user interaction. States:{" "}
+          <strong>inactive</strong>, <strong>enabled</strong>,{" "}
+          <strong>hover</strong>, <strong>pressed</strong>,{" "}
+          <strong>focus</strong> and <strong>disabled</strong>.
         </DxcText>
         <Image src={statesTabs} alt="image" />
       </DxcStack>
@@ -56,11 +56,13 @@ const TabsSpecsPage = () => {
         <Image src={specsAnatomy} alt="image" />
         <DxcList type="number">
           <DxcText>Container</DxcText>
-          <DxcText>Active icon (Optional if there’s a label)</DxcText>
-          <DxcText>Active text label (Optional if there’s an icon)</DxcText>
+          <DxcText>Active icon (Optional if there&#39;s a label)</DxcText>
+          <DxcText>Active text label (Optional if there&#39;s an icon)</DxcText>
           <DxcText>Active tab indicator</DxcText>
-          <DxcText>Inactive icon (Optional if there’s a label)</DxcText>
-          <DxcText>Inactive text label (Optional if there’s an icon)</DxcText>
+          <DxcText>Inactive icon (Optional if there&#39;s a label)</DxcText>
+          <DxcText>
+            Inactive text label (Optional if there&#39;s an icon)
+          </DxcText>
           <DxcText>Tab item</DxcText>
           <DxcText>Divider</DxcText>
         </DxcList>
