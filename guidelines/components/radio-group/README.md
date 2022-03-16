@@ -59,8 +59,8 @@ _Component design specifications_
 
 | Component token                     | Element                        | Core token               | Value       |
 | :---------------------------------- | :----------------------------- | :----------------------- | :---------- |
-| `radioInputColor`                   | Radio input                    | `color-blue-700`         | #0067b3     |
-| `hoverRadioInputColor`              | Radio input:hover              | `color-blue-800`         | #003c66     |
+| `radioInputColor`                   | Radio input                    | `color-blue-700`         | #0086e6     |
+| `hoverRadioInputColor`              | Radio input:hover              | `color-blue-800`         | #0067b3     |
 | `focusRadioInputColor`              | Radio input:focus              | `color-blue-600`         | #0095ff     |
 | `activeRadioInputColor`             | Radio input:active             | `color-blue-900`         | #003c66     |
 | `errorRadioInputColor`              | Radio input:error              | `color-red-700`          | #d0011b     |
