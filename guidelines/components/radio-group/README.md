@@ -123,7 +123,7 @@ _Component design specifications_
 | `groupVerticalGutter`       | Radio item*            | `spacing-4`                | 0.25rem / 4px    |
 | `groupHorizontalGutter`     | Radio item             | `spacing-32`               | 2rem / 32px      |
 
-* Radio item = Radio input + Radio label
+(*) Radio item = Radio input + Radio label
 
 
 ### Size 
