@@ -19,14 +19,14 @@ const ChipSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <Figure caption="Chip design specifications">
-          <Image src={specsImage} alt="Chip design specifications" />
+        <Figure caption="Component chip design specifications">
+          <Image src={specsImage} alt="Component chip design specifications" />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
-          The chip component container states are: <strong>Enabled</strong> and{" "}
+          The chip component container states are <strong>enabled</strong> and{" "}
           <strong>disabled</strong>:
         </DxcText>
         <Figure caption="Chip container states">
@@ -34,8 +34,8 @@ const ChipSpecsPage = () => {
         </Figure>
         <DxcText as="p">
           The chip action item has the following states:{" "}
-          <strong>Enabled</strong>, <strong>hover</strong>,{" "}
-          <strong>focus</strong>, <strong>active</strong>, and{" "}
+          <strong>enabled</strong>, <strong>hover</strong>,{" "}
+          <strong>focus</strong>, <strong>active</strong> and{" "}
           <strong>disabled</strong>:
         </DxcText>
         <Figure caption="Chip prefix and suffix states">
@@ -62,6 +62,7 @@ const ChipSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
         <HeadingLink level={4}>Color</HeadingLink>
+        <HeadingLink level={5}>On-light</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -144,6 +145,89 @@ const ChipSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
+        <HeadingLink level={4}>On-dark</HeadingLink>
+        <DxcTable>
+          <thead>
+            <tr>
+              <th>Component token</th>
+              <th>Element</th>
+              <th>Token</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <Code>backgroundColorOnDark</Code>
+              </td>
+              <td>Chip container</td>
+              <td>
+                <Code>color-grey-700</Code>
+              </td>
+              <td>#666666</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>disabledBackgroundColorOnDark</Code>
+              </td>
+              <td>Chip container:disabled</td>
+              <td>
+                <Code>color-grey-800</Code>
+              </td>
+              <td>#4d4d4d</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>fontcolorOnDark</Code>
+              </td>
+              <td>Label</td>
+              <td>
+                <Code>color-white</Code>
+              </td>
+              <td>#ffffff</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>disabledfontcolorOnDark</Code>
+              </td>
+              <td>Label:disabled</td>
+              <td>
+                <Code>color-grey-500</Code>
+              </td>
+              <td>#999999</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>focusColorOnDark</Code>
+              </td>
+              <td>Focus outline</td>
+              <td>
+                <Code>color-blue-600</Code>
+              </td>
+              <td>#0095ff</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>iconColorOnDark</Code>
+              </td>
+              <td>Icon</td>
+              <td>
+                <Code>color-white</Code>
+              </td>
+              <td>#ffffff</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>iconColorOnDark</Code>
+              </td>
+              <td>Icon:disabled</td>
+              <td>
+                <Code>color-grey-500</Code>
+              </td>
+              <td>#999999</td>
+            </tr>
+          </tbody>
+        </DxcTable>
         <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
@@ -163,7 +247,7 @@ const ChipSpecsPage = () => {
               <td>
                 <Code>font-family-sans</Code>
               </td>
-              <td>'Open Sans', sans-serif</td>
+              <td>&#39;Open Sans&#39;, sans-serif</td>
             </tr>
             <tr>
               <td>

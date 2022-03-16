@@ -397,7 +397,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Typography</HeadingLink>
+        <HeadingLink level={4}>Typography</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -612,7 +612,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Spacing</HeadingLink>
+        <HeadingLink level={4}>Spacing</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -767,7 +767,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Border</HeadingLink>
+        <HeadingLink level={4}>Border</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -840,7 +840,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Width</HeadingLink>
+        <HeadingLink level={4}>Width</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -875,7 +875,7 @@ const TextInputSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcTable>
           <thead>
             <tr>
@@ -930,7 +930,7 @@ const TextInputSpecsPage = () => {
         </DxcTable>
         <DxcText>
           And also apply different values to each side of the component:{" "}
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
           <Code>right</Code>.
         </DxcText>
       </DxcStack>
@@ -942,8 +942,8 @@ const TextInputSpecsPage = () => {
             Understanding WCAG 2.2 -{" "}
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
-              text="
-            1.3.1: Information and Relationships"
+              text="1.3.1: Information and Relationships"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -951,6 +951,7 @@ const TextInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
               text="3.3.1: Error Identification"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -958,6 +959,7 @@ const TextInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions"
               text="3.3.2: Labels and Instructions"
+              newWindow
             />
           </DxcText>
           <DxcText>
@@ -965,14 +967,15 @@ const TextInputSpecsPage = () => {
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion"
               text="3.3.3: Error Suggestion"
+              newWindow
             />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
             <DxcLink
               href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value"
-              text="
-            4.1.2: Name, Role, Value"
+              text="4.1.2: Name, Role, Value"
+              newWindow
             />
           </DxcText>
         </DxcList>

@@ -23,9 +23,7 @@ const PaginatorSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Figure caption="Paginator anatomy">
-          <Image src={paginatorAnatomy} alt="Paginator anatomy" />
-        </Figure>
+        <Image src={paginatorAnatomy} alt="Paginator anatomy" />
         <DxcList type="number">
           <DxcText>Container</DxcText>
           <DxcText>Items per page</DxcText>
