@@ -452,6 +452,50 @@ const SidenavSpecsPage = () => {
           </tbody>
         </DxcTable>
       </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Responsive version for mobile and tablet</HeadingLink>
+        <DxcText as="p">
+          Some properties regarding width vary, the details are indicated in the table below.
+        </DxcText>
+        <DxcTable>
+          <thead>
+            <tr>
+              <th>Property for sidenav</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <Code>width</Code>
+              </td>
+              <td>60%</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>height</Code>
+              </td>
+              <td>auto - adapted to the content</td>
+            </tr>
+            <tr>
+              <td>
+                <Code>padding</Code>
+              </td>
+              <td>
+                <Code>medium</Code> / 36px <em>(default)</em>
+              </td>
+            </tr>
+            <tr>
+              <td>Arrow display</td>
+              <td>true (it cannot be false)</td>
+            </tr>
+            <tr>
+              <td>Arrow distance</td>
+              <td>50%</td>
+            </tr>
+          </tbody>
+        </DxcTable>
+      </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/sidenav/specs/SidenavSpecsPage.tsx" />
     </DxcStack>
   );
