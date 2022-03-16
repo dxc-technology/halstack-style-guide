@@ -119,9 +119,12 @@ _Component design specifications_
 
 | Component token             | Element                | Core token                 | Value            |
 | :-------------------------- | :--------------------- | :------------------------- | :--------------- |
-| `labelMargin`               | Label                  | `spacing-8`                | 0.5rem / 8px     |
-| `groupVerticalSpacing`      | Radio                  | `spacing-4`                | 0.25rem / 4px    |
-| `groupHorizontalSpacing`    | Radio                  | `spacing-32`               | 2rem / 32px      |
+| `groupLabelMargin`          | Label/Helper text      | `spacing-8`                | 0.5rem / 8px     |
+| `radioInputLabelMargin`     | Input Label            | `spacing-8`                | 0.5rem / 8px     |
+| `groupVerticalGutter`       | Radio item*            | `spacing-4`                | 0.25rem / 4px    |
+| `groupHorizontalGutter`     | Radio item             | `spacing-32`               | 2rem / 32px      |
+
+* Radio item = Radio input + Radio label
 
 
 ### Size 
