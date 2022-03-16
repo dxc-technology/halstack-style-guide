@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { DxcTextInput } from "@dxc-technology/halstack-react";
+import { DxcStack, DxcTextInput } from "@dxc-technology/halstack-react";
 import { SidenavLink, SidenavSectionTitle } from "./SidenavComponents";
 import { LinksSections, LinkDetails } from "../pagesList";
 import SidenavLogo from "./SidenavLogo";
+import styled from "styled-components";
 
 function SidenavContent() {
   const [filter, setFilter] = useState("");
@@ -30,15 +31,20 @@ function SidenavContent() {
           left: "xsmall",
         }}
       />
-      {LinksSections.map(({ label, links }) => (
-        <LinksList
-          key={label}
-          title={label}
-          links={links}
-          filter={filter}
-          currentPath={currentPath}
-        ></LinksList>
-      ))}
+      <DxcStack gutter="medium">
+        {LinksSections.map(({ label, links }, index) => (
+          <>
+            <LinksList
+              key={label}
+              title={label}
+              links={links}
+              filter={filter}
+              currentPath={currentPath}
+            ></LinksList>
+            {LinksSections.length - 1 !== index && <Separator></Separator>}
+          </>
+        ))}
+      </DxcStack>
     </div>
   );
 }
@@ -57,18 +63,28 @@ function LinksList({ currentPath, title, links, filter }: LinksListProps) {
   if (filteredLinks.length > 0) {
     return (
       <>
-        <SidenavSectionTitle>{title}</SidenavSectionTitle>
-        {filteredLinks.map(({ label, path }) => (
-          <Link key={`${label}-${path}`} href={path} passHref>
-            <SidenavLink selected={currentPath.startsWith(path)}>
-              {label}
-            </SidenavLink>
-          </Link>
-        ))}
+        <DxcStack>
+          <SidenavSectionTitle>{title}</SidenavSectionTitle>
+          {filteredLinks.map(({ label, path }) => (
+            <Link key={`${label}-${path}`} href={path} passHref>
+              <SidenavLink selected={currentPath.startsWith(path)}>
+                {label}
+              </SidenavLink>
+            </Link>
+          ))}
+        </DxcStack>
       </>
     );
   }
   return null;
 }
+
+const Separator = styled.hr`
+  margin: 0px 16px;
+  border: 0px;
+  border-top: 1px solid #cccccc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+`;
 
 export default SidenavContent;
