@@ -72,12 +72,11 @@ _Component design specifications_
 | `activeReadonlyRadioInputColor`     | Radio input:readonly:active    | `color-grey-700`         | #666666     |
 | `labelFontColor`                    | Label                          | `color-black`            | #000000     |
 | `disabledLabelFontColor`            | Label:disabled                 | `color-grey-500`         | #999999     |
-| `readonlyLabelFontColor`            | Label: readonly                | `color-black`            | #000000     |
 | `helperTextFontColor`               | Helper text                    | `color-black`            | #000000     |
 | `disabledHelperTextFontColor`       | Helper text:disabled           | `color-grey-500`         | #999999     |
 | `radioInputLabelFontColor`          | Input label                    | `color-black`            | #000000     |
 | `disabledRadioInputLabelFontColor`  | Input label:disabled           | `color-grey-500`         | #999999     |
-| `errorMessage`                      | Error message                  | `color-red-700`          | #d0011b     |
+| `errorMessageColor`                 | Error message                  | `color-red-700`          | #d0011b     |
 
 
 ### Typography
@@ -85,17 +84,17 @@ _Component design specifications_
 | Component token           | Element       | Core token              | Value                    |
 | :------------------------ | :------------ | :---------------------- | :----------------------- |
 | `fontFamily`              | Label         | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Label         | `font-scale-03`         | 0.875rem / 14px          |
+| `fontSize`                | Label         | `font-scale-02`         | 0.875rem / 14px          |
 | `fontWeight`              | Label         | `font-weight-semibold`  | 600                      |
 | `labelLineHeight`         | Label         | `font-leading-loose-01` | 1.715em                  |
 | `fontStyle`               | Label         | `font-style-normal`     | normal                   |
 | `fontFamily`              | Helper text   | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Helper text   | `font-scale-03`         | 0.rem / 16px             |
+| `fontSize`                | Helper text   | `font-scale-01`         | 0.75rem / 12px           |
 | `fontWeight`              | Helper text   | `font-weight-regular`   | 400                      |
 | `fontStyle`               | Helper text   | `font-style-normal`     | normal                   |
 | `helperTextLineHeight`    | Helper text   | `font-leading-normal`   | 1.5em                    |
 | `fontFamily`              | Input label   | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Input label   | `font-scale-03`         | 0.875rem / 14px          |
+| `fontSize`                | Input label   | `font-scale-02`         | 0.875rem / 14px          |
 | `fontWeight`              | Input label   | `font-weight-regular`   | 400                      |
 | `fontStyle`               | Input label   | `font-style-normal`     | normal                   |
 
