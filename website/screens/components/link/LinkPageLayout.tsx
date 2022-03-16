@@ -10,7 +10,7 @@ const LinkPageHeading = ({ children }: { children: React.ReactNode }) => {
     <PageHeading
       title="Link"
       description="Links are used as navigational elements. They may appear isolated, inside a
-    sentence or paragraph, or following the content."
+    sentence or paragraph or following the content."
       tabs={tabs}
     >
       {children}

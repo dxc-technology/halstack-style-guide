@@ -13,23 +13,24 @@ const DialogUsagePage = () => {
         <HeadingLink level={2}>Usage</HeadingLink>
         <DxcList>
           <DxcText>
-            The dialog always should have a title to introduce the actions or information that will
-            get displayed on the screen{" "}
+            The dialog always should have a title to introduce the actions or
+            information that will get displayed on the screen.
           </DxcText>
           <DxcText>
-            Can contain a descriptive text or a phrase related to the action that triggered the
-            dialog
+            Can contain a descriptive text or a phrase related to the action
+            that triggered the dialog.
           </DxcText>
           <DxcText>
-            Can have some combinations of actions, like buttons to accept/cancel the action. There
-            can be one, two or more buttons
+            Can have some combinations of actions, like buttons to accept/cancel
+            the action. There can be one, two or more buttons.
           </DxcText>
           <DxcText>
-            If the dialog is not including a cancel action, provide a way to close it
+            If the dialog is not including a cancel action, provide a way to
+            close it.
           </DxcText>
           <DxcText>
-            Modal dialog boxes should overlay only a portion of the underlying page to keep the user
-            oriented within the workflow
+            Modal dialog boxes should overlay only a portion of the underlying
+            page to keep the user oriented within the workflow.
           </DxcText>
         </DxcList>
       </DxcStack>
@@ -42,27 +43,26 @@ const DialogUsagePage = () => {
           />
         </Figure>
         <DxcText as="p">
-          Any content (Halstack components or custom) can be placed inside the dialog component.
-          Dialog tasks should be direct and easy to complete.
+          Any content (Halstack components or custom) can be placed inside the
+          dialog component. Dialog tasks should be direct and easy to complete.
         </DxcText>
         <DxcList>
-          <DxcText>Do not use to display complex or large amounts of data.</DxcText>
+          <DxcText>
+            Do not use to display complex or large amounts of data.
+          </DxcText>
           <DxcText>Do not recreate a full app or page in a dialog</DxcText>
           <DxcText>Try always to avoid scrolling</DxcText>
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-      <HeadingLink level={3}>Overlay</HeadingLink>
+        <HeadingLink level={3}>Overlay</HeadingLink>
         <Figure caption="Example of the overlay usage">
-          <Image
-            src={dialogOverlay}
-            alt="Example of the overlay usage"
-          />
+          <Image src={dialogOverlay} alt="Example of the overlay usage" />
         </Figure>
         <DxcText as="p">
-          The overlay element makes possible to get the user attention into the dialog creating a
-          layer between the actual application and the modal information showed in the user
-          interface.
+          The overlay element makes possible to get the user attention into the
+          dialog creating a layer between the actual application and the modal
+          information showed in the user interface.
         </DxcText>
       </DxcStack>
 

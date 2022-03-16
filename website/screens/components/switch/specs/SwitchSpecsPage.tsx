@@ -424,8 +424,8 @@ const SwitchSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          And also apply different values to each side of the component:
-          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>,{" "}
+          And also apply different values to each side of the component:{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
           <Code>right</Code>.
         </DxcText>
         <HeadingLink level={4}>Spacing</HeadingLink>
@@ -472,7 +472,7 @@ const SwitchSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          <em>*Depending of the position of the label</em>
+          <em>*Depending on the position of the label</em>
         </DxcText>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/switch/specs/SwitchSpecsPage.tsx" />

@@ -24,7 +24,9 @@ const SelectSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <Image src={selectSpecs} alt="Select specifications" />
+        <Figure caption="Component design specifications">
+          <Image src={selectSpecs} alt="Select specifications" />
+        </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
@@ -91,21 +93,22 @@ const SelectSpecsPage = () => {
           />
         </Figure>
         <DxcList>
-          <DxcText>Both select variants can be filterable</DxcText>
+          <DxcText>Both select variants can be filterable.</DxcText>
           <DxcText>
             Use the filter when the number of items in the optionList is
-            extremely long (± 15 elements)
+            extremely long (± 15 elements).
           </DxcText>
           <DxcText>
-            This list will be reduced to show only the matches as the user types
+            This list will be reduced to show only the matches as the user
+            types.
           </DxcText>
           <DxcText>
             The value will change when the user types a string that matches an
-            option from the list or pick one manually
+            option from the list or pick one manually.
           </DxcText>
           <DxcText>
             When the search does not match any result, a &quot;no matches
-            found&quot; message will be displayed
+            found&quot; message will be displayed.
           </DxcText>
         </DxcList>
       </DxcStack>
@@ -120,15 +123,15 @@ const SelectSpecsPage = () => {
         <DxcList>
           <DxcText>
             When labeled as optional, the select will display an option matching
-            the placeholder to allow leaving it empty
+            the placeholder to allow leaving it empty.
           </DxcText>
           <DxcText>
-            When no optional label appears, the select is required
+            When no optional label appears, the select is required.
           </DxcText>
           <DxcText>
             If the select was left empty, the required should display the error
             &quot;This field can not be empty&quot; when the select loses the
-            focus
+            focus.
           </DxcText>
         </DxcList>
       </DxcStack>
@@ -993,7 +996,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Size</HeadingLink>
+        <HeadingLink level={4}>Size</HeadingLink>
         <DxcText as="p">
           The component <Code>width</Code> can adopt the following values:
         </DxcText>
@@ -1031,7 +1034,7 @@ const SelectSpecsPage = () => {
             </tr>
           </tbody>
         </DxcTable>
-        <HeadingLink level={5}>Margin</HeadingLink>
+        <HeadingLink level={4}>Margin</HeadingLink>
         <DxcText as="p">
           Select <Code>margin</Code> can use the values:
         </DxcText>
@@ -1089,9 +1092,9 @@ const SelectSpecsPage = () => {
         </DxcTable>
         <DxcText as="p">
           These values can be applied independently to each side of the
-          component:
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
-          <Code>right</Code>
+          component: <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code>{" "}
+          and
+          <Code>right</Code>.
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">

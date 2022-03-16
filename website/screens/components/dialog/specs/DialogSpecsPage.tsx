@@ -1,7 +1,13 @@
 import Image from "@/common/Image";
 import dialogAnatomyImage from "./images/dialog_anatomy.png";
 import dialogSpecsImage from "./images/dialog_specs.png";
-import { DxcLink, DxcList, DxcStack, DxcTable, DxcText } from "@dxc-technology/halstack-react";
+import {
+  DxcLink,
+  DxcList,
+  DxcStack,
+  DxcTable,
+  DxcText,
+} from "@dxc-technology/halstack-react";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
@@ -13,12 +19,18 @@ const DialogSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
         <Figure caption="Design specifications for dialog component">
-          <Image src={dialogSpecsImage} alt="Design specifications for dialog component" />
+          <Image
+            src={dialogSpecsImage}
+            alt="Design specifications for dialog component"
+          />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Image src={dialogAnatomyImage} alt="Design specifications for dialog component" />
+        <Image
+          src={dialogAnatomyImage}
+          alt="Design specifications for dialog component"
+        />
         <DxcList type="number">
           <DxcText>Dialog container</DxcText>
           <DxcText>Title</DxcText>
@@ -439,8 +451,9 @@ const DialogSpecsPage = () => {
           </tbody>
         </DxcTable>
         <DxcText as="p">
-          And also apply different values to each side of the component: <Code>top</Code>,{" "}
-          <Code>bottom</Code>, <Code>left</Code> and <Code>right</Code>
+          And also apply different values to each side of the component:{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
+          <Code>right</Code>.
         </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
@@ -449,22 +462,38 @@ const DialogSpecsPage = () => {
         <DxcList>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html" text="2.1.2 No Keyboard Trap" />
+            <DxcLink
+              newWindow
+              href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html"
+              text="2.1.2 No Keyboard Trap"
+            />
           </DxcText>
           <DxcText>
             Understanding WCAG 2.2 -{" "}
-            <DxcLink newWindow href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html" text="2.4.3 Focus Order" />
+            <DxcLink
+              newWindow
+              href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html"
+              text="2.4.3 Focus Order"
+            />
           </DxcText>
         </DxcList>
         <HeadingLink level={4}>WAI-ARIA</HeadingLink>
         <DxcList>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink newWindow href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal" text="3.9 Dialog (Modal)" />
+            <DxcLink
+              newWindow
+              href="https://www.w3.org/TR/wai-aria-practices-1.2/#dialog_modal"
+              text="3.9 Dialog (Modal)"
+            />
           </DxcText>
           <DxcText>
             WAI-ARIA Authoring practices 1.2 -{" "}
-            <DxcLink newWindow href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html" text="Modal Dialog Example" />
+            <DxcLink
+              newWindow
+              href="https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html"
+              text="Modal Dialog Example"
+            />
           </DxcText>
         </DxcList>
       </DxcStack>

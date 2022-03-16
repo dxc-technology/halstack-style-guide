@@ -62,7 +62,7 @@ const SpinnerUsagePage = () => {
             <DxcList type="circle">
               <DxcText>The processing time is unknown.</DxcText>
               <DxcText>
-                The wait time is expected to be short enough that it’s not
+                The wait time is expected to be short enough that it&#39;s not
                 necessary to display.
               </DxcText>
             </DxcList>

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import slugify from "slugify";
 import { DxcHeading } from "@dxc-technology/halstack-react";
 
-
 type HeadingLinkProps = {
   children: string;
   level?: 1 | 2 | 3 | 4 | 5;
@@ -15,7 +14,12 @@ function HeadingLink({ children, level, as }: HeadingLinkProps) {
   return (
     <HeadingLinkContainer id={elementId}>
       <HeadingAnchor href={`#${elementId}`}>{linkIcon}</HeadingAnchor>
-      <DxcHeading weight="bold" text={children} level={level} as={as}></DxcHeading>
+      <DxcHeading
+        weight="bold"
+        text={children}
+        level={level}
+        as={as}
+      ></DxcHeading>
     </HeadingLinkContainer>
   );
 }
@@ -56,6 +60,13 @@ const HeadingAnchor = styled.a`
     width: 16px;
     height: 16px;
     opacity: 0;
+  }
+  &:focus {
+    outline-color: #0095ff;
+    outline-offset: -0.25rem;
+    svg {
+      opacity: 0.5;
+    }
   }
 `;
 export default HeadingLink;

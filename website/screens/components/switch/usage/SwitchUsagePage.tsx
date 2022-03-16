@@ -25,7 +25,8 @@ const SwitchUsagePage = () => {
           </DxcText>
           <DxcText>
             Switches have immediate effect over the application, changing
-            preferences and configuration settings. Don't use a submit button.
+            preferences and configuration settings. Don&#39;t use a submit
+            button.
           </DxcText>
         </DxcList>
       </DxcStack>

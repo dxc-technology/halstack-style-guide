@@ -234,9 +234,8 @@ const BoxSpecsPage = () => {
           the box is going to behave as a fluid container occupying the space
           the parent leaves for its children or adapting its size to the
           children it the box has. Instead of using a fluid approach, you can
-          set a fixed size, choosing between{" "}
-          <Code>small</Code>, <Code>medium</Code> and <Code>large</Code>{" "}
-          properties.
+          set a fixed size, choosing between <Code>small</Code>,{" "}
+          <Code>medium</Code> and <Code>large</Code> properties.
         </DxcText>
         <DxcTable>
           <thead>
