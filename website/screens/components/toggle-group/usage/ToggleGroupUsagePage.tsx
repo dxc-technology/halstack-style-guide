@@ -1,4 +1,4 @@
-import { DxcText, DxcList, DxcStack, DxcTable } from "@dxc-technology/halstack-react";
+import { DxcText, DxcList, DxcStack } from "@dxc-technology/halstack-react";
 import Image from "@/common/Image";
 import HeadingLink from "../../../common/HeadingLink";
 import toggleGroupVariants from "./images/toggle_group_variants.png";

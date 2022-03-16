@@ -7,7 +7,7 @@ const Specifications = () => {
   return (
     <>
       <Head>
-        <title>ToggleGroup Specs — Halstack Design System</title>
+        <title>Toggle Group Specs — Halstack Design System</title>
       </Head>
       <ToggleGroupSpecsPage></ToggleGroupSpecsPage>
     </>

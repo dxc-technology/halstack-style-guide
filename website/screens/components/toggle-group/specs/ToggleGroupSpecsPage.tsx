@@ -18,18 +18,6 @@ const ToggleGroupSpecsPage = () => {
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Anatomy</HeadingLink>
-        <Image src={toggleGroupAnatomy} alt="Toggle design specifications" />
-        <DxcList type="number">
-          <DxcText>Label</DxcText>
-          <DxcText>Helper text</DxcText>
-          <DxcText>Container</DxcText>
-          <DxcText>Button</DxcText>
-          <DxcText>Button icon</DxcText>
-          <DxcText>Button label</DxcText>
-        </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
           Different states are defined in the life cycle of the component:
@@ -42,6 +30,18 @@ const ToggleGroupSpecsPage = () => {
         <Figure caption="Toggle button states example">
           <Image src={toggleGroupStates} alt="Toggle button states example" />
         </Figure>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Anatomy</HeadingLink>
+        <Image src={toggleGroupAnatomy} alt="Toggle design specifications" />
+        <DxcList type="number">
+          <DxcText>Label</DxcText>
+          <DxcText>Helper text</DxcText>
+          <DxcText>Container</DxcText>
+          <DxcText>Button</DxcText>
+          <DxcText>Button icon</DxcText>
+          <DxcText>Button label</DxcText>
+        </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
