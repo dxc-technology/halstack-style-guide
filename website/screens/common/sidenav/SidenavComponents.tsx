@@ -40,23 +40,23 @@ const StyledLink = styled.a`
   font-size: 14px;
   box-shadow: 0 0 0 2px transparent;
   margin: 2px 0;
-  
+
   &:hover {
     background: ${({ selected }: StyledLinkProps) =>
       selected ? "#333333" : "#e6e6e6"};
   }
 
   &:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #0095ff;
+    outline: 2px solid #0095ff;
+    outline-offset: -2px;
   }
 
   &:active {
     color: #ffffff;
     background: ${({ selected }: StyledLinkProps) =>
       selected ? "#333333" : "#4D4D4D"};
-    outline: none;
-    box-shadow: 0 0 0 2px #0095ff;
+    outline: 2px solid #0095ff;
+    outline-offset: -2px;
   }
 `;
 
