@@ -81,22 +81,21 @@ _Component design specifications_
 
 ### Typography
 
-| Component token           | Element       | Core token              | Value                    |
-| :------------------------ | :------------ | :---------------------- | :----------------------- |
-| `fontFamily`              | Label         | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Label         | `font-scale-02`         | 0.875rem / 14px          |
-| `fontWeight`              | Label         | `font-weight-semibold`  | 600                      |
-| `labelLineHeight`         | Label         | `font-leading-loose-01` | 1.715em                  |
-| `fontStyle`               | Label         | `font-style-normal`     | normal                   |
-| `fontFamily`              | Helper text   | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Helper text   | `font-scale-01`         | 0.75rem / 12px           |
-| `fontWeight`              | Helper text   | `font-weight-regular`   | 400                      |
-| `fontStyle`               | Helper text   | `font-style-normal`     | normal                   |
-| `helperTextLineHeight`    | Helper text   | `font-leading-normal`   | 1.5em                    |
-| `fontFamily`              | Input label   | `font-family-sans`      | 'Open Sans', sans-serif  |
-| `fontSize`                | Input label   | `font-scale-02`         | 0.875rem / 14px          |
-| `fontWeight`              | Input label   | `font-weight-regular`   | 400                      |
-| `fontStyle`               | Input label   | `font-style-normal`     | normal                   |
+| Component token                     | Element       | Core token              | Value                    |
+| :---------------------------------- | :------------ | :---------------------- | :----------------------- |
+| `fontFamily`                        | Label         | `font-family-sans`      | 'Open Sans', sans-serif  |
+| `labelFontSize`                     | Label         | `font-scale-02`         | 0.875rem / 14px          |
+| `labelFontWeight`                   | Label         | `font-weight-semibold`  | 600                      |
+| `labelLineHeight`                   | Label         | `font-leading-loose-01` | 1.715em                  |
+| `helperTextFontStyle`               | Label         | `font-style-normal`     | normal                   |
+| `helperTextFontSize`                | Helper text   | `font-scale-01`         | 0.75rem / 12px           |
+| `helperTextFontWeight`              | Helper text   | `font-weight-regular`   | 400                      |
+| `helperTextFontStyle`               | Helper text   | `font-style-normal`     | normal                   |
+| `helperTextLineHeight`              | Helper text   | `font-leading-normal`   | 1.5em                    |
+| `radioInputLabelFontSize`           | Input label   | `font-scale-02`         | 0.875rem / 14px          |
+| `radioInputLabelFontWeight`         | Input label   | `font-weight-regular`   | 400                      |
+| `radioInputLabelFontStyle`          | Input label   | `font-style-normal`     | normal                   |
+| `radioInputLabelLineHeight`         | Helper text   | `font-leading-loose-01` | 1.715em                  |
 
 | Property        | Element        | Token                   | Value           |
 | :-------------- | :------------- | :---------------------- | :-------------- |
