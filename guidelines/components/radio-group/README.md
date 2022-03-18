@@ -87,7 +87,7 @@ _Component design specifications_
 | `labelFontSize`                     | Label         | `font-scale-02`         | 0.875rem / 14px          |
 | `labelFontWeight`                   | Label         | `font-weight-semibold`  | 600                      |
 | `labelLineHeight`                   | Label         | `font-leading-loose-01` | 1.715em                  |
-| `helperTextFontStyle`               | Label         | `font-style-normal`     | normal                   |
+| `labelFontStyle`                    | Label         | `font-style-normal`     | normal                   |
 | `helperTextFontSize`                | Helper text   | `font-scale-01`         | 0.75rem / 12px           |
 | `helperTextFontWeight`              | Helper text   | `font-weight-regular`   | 400                      |
 | `helperTextFontStyle`               | Helper text   | `font-style-normal`     | normal                   |
