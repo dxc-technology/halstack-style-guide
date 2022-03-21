@@ -3,29 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { DxcTextInput } from "@dxc-technology/halstack-react";
 import { SidenavLink, SidenavSectionTitle } from "./SidenavComponents";
-
-type LinkDetails = {
-  label: string;
-  path: string;
-};
-
-const overviewLinks: LinkDetails[] = [
-  { label: "Introduction", path: "/overview/introduction" },
-];
-
-const componentsLinks: LinkDetails[] = [
-  { label: "Button", path: "/components/button" },
-];
-
-type LinksSectionDetails = {
-  label: string;
-  links: LinkDetails[];
-};
-
-const LinksSections: LinksSectionDetails[] = [
-  { label: "Overview", links: overviewLinks },
-  { label: "Components", links: componentsLinks },
-];
+import {LinksSections, LinkDetails} from "../pagesList";
 
 function SidenavContent() {
   const [filter, setFilter] = useState("");
