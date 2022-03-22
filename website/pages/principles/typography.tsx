@@ -1,7 +1,7 @@
 import Head from "next/head";
 import TypographyPage from "../../screens/principles/typography/TypographyPage";
 
-const Introduction = () => {
+const Typography = () => {
   return (
     <>
       <Head>
@@ -12,4 +12,4 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;
+export default Typography;
