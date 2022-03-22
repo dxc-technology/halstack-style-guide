@@ -52,6 +52,7 @@ const Typography = () => {
             <DxcLink
               href="https://www.apache.org/licenses/LICENSE-2.0.html"
               text="Apache License, Version 2.0."
+              newWindow
             />
           </DxcText>
           <DxcTable>
@@ -1073,6 +1074,7 @@ const Typography = () => {
               <DxcLink
                 href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html"
                 text="SC 1.4.6: Contrast (Enhanced)"
+                newWindow
               />
             </DxcText>
             <DxcText>
@@ -1080,6 +1082,7 @@ const Typography = () => {
               <DxcLink
                 href="https://www.w3.org/WAI/WCAG22/Understanding/text-spacing"
                 text="SC 1.4.12: Text Spacing"
+                newWindow
               />
             </DxcText>
           </DxcList>
