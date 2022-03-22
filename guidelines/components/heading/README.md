@@ -19,13 +19,12 @@ Navigating through the `Headings-H1` and `Headings-H3` give a user an overview o
 
 ## Appearance
 
-The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. For each variation, it exists an italic form that is used in some scenarios. The font size goes from 60 pixels for the more prominent heading to 20 pixels for the lowest title level.
+The Open Sans typeface has 5 different weights, from light to extra-bold but Halstack use three variations, light, regular and bold. The font size goes from 32 pixels for the `<h1>` heading to 14 pixels for the `<h5>` level.
 
-![Variations of the heading](images/heading.png)
+![Variations of the heading](images/heading_scale.png)
 
 There are several scenarios where the use of heading is just right when we are talking about the title for a section, header of a table, a definition of the elements that will appear below the title or an introduction for a paragraph. 
 
-Apart from that, many of the design system components are making use of headings in their implementation (e.g., card, dialog, sidenav and so on). 
 
 ## Design tokens
 
@@ -35,67 +34,64 @@ An inherit color from the definition of the application is received, so the comp
 
 ### Typography
 
-#### Hal-Headings-H1
+#### Headings H1
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ |  
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 300                       | `font-light`              | 
-| `font-size`         | 60px / 3.75rem            | `font-scale-08`           | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 32px / 2.5rem             | `font-scale-07`           | 
 | `font-style`        | regular                   | `font-normal`             | 
 | `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | -12.5px / -0.0125em       | `font-tracking-tight-01`  | 
-| `line-height`       | 81.9px/  1.365em          | `font-leading-compact-01` |
 
-#### Hal-Headings-H2
 
-| Property            | Value                     | Token                     | 
-| :------------------ | :------------------------ | :------------------------ | 
-| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
-| `font-size`         | 48px / 3rem               | `font-scale-07`           | 
-| `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           | 
-| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 65.52px / 1.365em         | `font-leading-compact-01` | 
-
-#### Hal-Headings-H3
+#### Headings H2
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
-| `font-size`         | 32px / 2rem               | `font-scale-06`           | 
-| `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           | 
-| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 48px / 1.5em              | `font-leading-normal`     | 
-
-#### Hal-Headings-H4
-
-| Property            | Value                     | Token                     | 
-| :------------------ | :------------------------ | :------------------------ | 
-| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
 | `font-size`         | 24px / 1.5rem             | `font-scale-05`           | 
 | `font-style`        | regular                   | `font-normal`             | 
-| `text-transform`    | initial                   |                           |
+| `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 36px / 1.5em              | `font-leading-normal`     | 
 
-#### Hal-Headings-H5
+
+#### Headings H3  
 
 | Property            | Value                     | Token                     | 
 | :------------------ | :------------------------ | :------------------------ | 
 | `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
-| `font-weight`       | 400                       | `font-regular`            | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
 | `font-size`         | 20px / 1.25rem            | `font-scale-04`           | 
 | `font-style`        | regular                   | `font-normal`             | 
 | `text-transform`    | initial                   |                           | 
 | `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
-| `line-height`       | 30px / 1.5em              | `font-leading-normal`     | 
 
 
+#### Headings H4
+
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 16px / 1rem               | `font-scale-03`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           |
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
+
+
+#### Headings H5
+
+| Property            | Value                     | Token                     | 
+| :------------------ | :------------------------ | :------------------------ | 
+| `font-family`       | 'Open Sans', sans-serif;  | `font-family-sans`        | 
+| `font-weight`       | 600                       | `font-weight-semibold`    | 
+| `font-size`         | 14px / 0.875rem           | `font-scale-02`           | 
+| `font-style`        | regular                   | `font-normal`             | 
+| `text-transform`    | initial                   |                           | 
+| `letter-spacing`    | 0px / 0em                 | `font-tracking-normal`    | 
 
 ## Accesibility
 
@@ -113,7 +109,7 @@ An inherit color from the definition of the application is received, so the comp
 
 * [React CDK component](https://developer.dxc.com/tools/react/next/#/components/heading)
 * [Angular CDK component](https://developer.dxc.com/tools/angular/next/#/components/heading)
-* [Adobe XD component]()
+* [Adobe XD component](https://xd.adobe.com/view/4c68a380-346b-474b-88da-1005cf2dd54c-193b/)
 
 ____________________________________________________________
 

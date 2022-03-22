@@ -6,9 +6,18 @@ Links are used as navigational elements. They may appear isolated, inside a sent
 
 States: **enabled**, **hover**, **focus**, **active**, **visited** and **disabled**
 
-![Example of the link component states](images/link_states.png)
+![Example of the link component states](images/link_states_noIcon.png)
 
 _Example of the link component states_
+
+## Icon Usage
+
+An icon can be used either in the normal or underlined mode to represent more graphical the purpose of the link, placing the icon before or after the link that is representing.
+
+![Icon usage for the link component](images/link_states_icon.png)
+
+_Icon usage for the link component_
+
 
 ## Design Specifications
 
@@ -29,21 +38,9 @@ _Design specifications for link component_
 | `hoverUnderlineColor`                             | Underline:hover     | `color-blue-800`         | #0067b3     |
 | `activeUnderlineColor`                            | Underline:active    | `color-black`            | #000000     |
 | `visitedUnderlineColor`                           | Underline:visited   | `color-purple-700`       | #5f249f     |
-| `focusColor`                                      | Outline:focus       | `color-blue-800`         | #0067b3     |
+| `focusColor`                                      | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 
-### On-dark
-
-| Component token                                   | Element             | Core token               | Value       |
-| :------------------------------------------------ | :------------------ | :----------------------- | :---------- |
-| `fontColorOnDark`                                 | Label               | `color-blue-600`         | #0095ff     |
-| `hoverFontColorOnDark`                            | Label:hover         | `color-blue-600`         | #0095ff     |
-| `activeFontColorOnDark`                           | Label:active        | `color-white`            | #ffffff     |
-| `disabledFontColorOnDark`                         | Label:disabled      | `color-grey-700`         | #666666     |
-| `visitedFontColorOnDark`                          | Label:visited       | `color-purple-500`       | #a46ede     |
-| `hoverUnderlineColorOnDark`                       | Underline:hover     | `color-blue-600`         | #0095ff     |
-| `visitedUnderlineColorOnDark`                     | Underline:visited   | `color-purple-500`       | #a46ede     |
-| `focusColorOnDark`                                | Outline:focus       | `color-blue-600`         | #0095ff     |
 
 ### Margin
 
@@ -72,14 +69,6 @@ _Design specifications for link component_
 | `border-bottom-width`    | Link container:hover   | `border-width-1`           | 1px              |
 | `border-style`           | Link container:hover   | `border-style-solid`       | solid            |
 
-
-## Icon Usage
-
-An icon can be used either in the normal or underlined mode to represent more graphical the purpose of the link, placing the icon before or after the link that is representing.
-
-![Icon usage for the link component](images/link_icon.png)
-
-_Icon usage for the link component_
 
 ### Icon specs
 
