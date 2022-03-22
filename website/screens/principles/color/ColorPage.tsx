@@ -763,7 +763,7 @@ const Color = () => {
             </tbody>
           </DxcTable>
         </DxcStack>
-        <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/colors/README.md" />
+        <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/principles/color/ColorPage.tsx" />
       </DxcStack>
     </PageLayout>
   );
