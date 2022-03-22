@@ -1,5 +1,5 @@
 import Head from "next/head";
-import TypographyPage from "../../screens/principles/layout/LayoutPage";
+import LayoutPage from "../../screens/principles/layout/LayoutPage";
 
 const Layout = () => {
   return (
@@ -7,7 +7,7 @@ const Layout = () => {
       <Head>
         <title>Layout — Halstack Design System</title>
       </Head>
-      <TypographyPage></TypographyPage>
+      <LayoutPage></LayoutPage>
     </>
   );
 };
