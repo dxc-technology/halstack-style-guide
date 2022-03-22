@@ -103,12 +103,12 @@ _Examples of sizes of Icon_
 
 Icons should be of 2D. While creating a new icon to contribute to the library, please be sure to avoid dimensional representations. We should be using more authentic and simple as it is, shoudn't be decorating much as it distracts audience.
 
-![Icon Perspective](./Icon Perspective.png)       
+![Icon_Perspective](./Icon_Perspective.png)       
 
 _Use icon as it is_
 
 
-![Icon Perspective with dimension](./Icon Perspective with dimension.png)       
+![Icon_Perspective_with_dimension](./Icon_Perspective_with_dimension.png)       
 
 _Don’t create icon with dimension_
 
@@ -119,17 +119,17 @@ _Don’t create icon with dimension_
 We should use a consistent corner radius of 2px for rounded shapes. The 2px radius can be increased by a multiple of two when necessary to make the icon’s metaphor understandable or object shape clearly defined. We should use an additional radius to make the metaphor reflect the real form of the object.
 
 
-![Icon Roundness](./Icon Roundness.png)       
+![Icon_roundness](./Icon_roundness.png)       
 
 _Use icon as it is_
 
 
-![Icon roundness when needed](./Icon roundness when needed.png)       
+![Icon_roundness_when_needed](./Icon_roundness_when_needed.png)       
 
 _We should be using roundness when needed to reflect the real form of the metaphor_
 
 
-![Icon roundness when not needed](./Icon roundness when not needed.png)       
+![Icon_roundness_when_not_needed](./Icon_roundness_when_not_needed.png)       
 
 _We shouldn't be forcing rounded corners if they don’t work for metaphor._
 
