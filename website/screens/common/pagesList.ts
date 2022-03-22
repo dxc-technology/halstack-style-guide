@@ -16,6 +16,9 @@ type NavigationLinks = {
 const overviewLinks: LinkDetails[] = [
   { label: "Introduction", path: "/overview/introduction" },
 ];
+const principlesLinks: LinkDetails[] = [
+  { label: "Typography", path: "/principles/typography" },
+];
 
 const componentsLinks: LinkDetails[] = [
   { label: "Accordion", path: "/components/accordion" },
@@ -55,6 +58,7 @@ const componentsLinks: LinkDetails[] = [
 
 export const LinksSections: LinksSectionDetails[] = [
   { label: "Overview", links: overviewLinks },
+  { label: "Principles", links: principlesLinks },
   { label: "Components", links: componentsLinks },
 ];
 
