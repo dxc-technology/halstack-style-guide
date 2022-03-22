@@ -6,6 +6,7 @@ import {
   DxcTable,
 } from "@dxc-technology/halstack-react";
 import AlertTypesImage from "./images/alert_types.png";
+import AlertContent from "./images/alert_content.png";
 import DocFooter from "../../../common/DocFooter";
 import Figure from "../../../common/Figure";
 import HeadingLink from "../../../common/HeadingLink";
@@ -129,6 +130,9 @@ const AlertUsagePage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Content</HeadingLink>
+        <Figure caption="Custom content as alert children">
+          <Image src={AlertContent} alt="Custom content as alert children" />
+        </Figure>
         <DxcText as="p">
           Depending on the content that need to be displayed, more detailed
           descriptions can be added to the alert component as children.
