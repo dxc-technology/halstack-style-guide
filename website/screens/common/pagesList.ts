@@ -19,6 +19,7 @@ const overviewLinks: LinkDetails[] = [
 
 const principlesLinks: LinkDetails[] = [
   { label: "Color", path: "/principles/color" },
+  { label: "Layout", path: "/principles/layout" },
 ];
 
 const componentsLinks: LinkDetails[] = [
