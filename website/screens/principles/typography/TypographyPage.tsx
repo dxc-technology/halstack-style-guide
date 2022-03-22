@@ -1087,7 +1087,7 @@ const Typography = () => {
             </DxcText>
           </DxcList>
         </DxcStack>
-        <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/guidelines/principles/typography/README.md" />
+        <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/principles/typography/TypographyPage.tsx" />{" "}
       </DxcStack>
     </PageLayout>
   );
