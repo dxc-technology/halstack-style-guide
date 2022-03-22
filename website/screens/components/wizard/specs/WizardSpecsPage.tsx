@@ -21,11 +21,11 @@ const WizardSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
         <Figure caption="Wizard stepper specifications">
-          <Image src={spacingImage} alt="Wizard stepper specifications" />
+          <Image src={stepperImage} alt="Wizard stepper specifications" />
         </Figure>
         <Figure caption="Wizard variants spacing specifications">
           <Image
-            src={stepperImage}
+            src={spacingImage}
             alt="Wizard variants spacing specifications"
           />
         </Figure>

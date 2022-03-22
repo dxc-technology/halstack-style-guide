@@ -17,6 +17,7 @@ Use an accordion group to organize and display stacked accordions.
 * Don't add accordions to the group and leave them empty
 
 
+
 ## States
 
 The accordion group has two states: default and disabled. Hover, focus, and active states are handled at the accordion level.

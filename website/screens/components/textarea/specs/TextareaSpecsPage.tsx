@@ -33,8 +33,8 @@ const TextareaSpecsPage = () => {
           .
         </DxcText>
         <DxcText as="p">
-          The textarea doesn't have the following text-input elements,
-          therefore, their listed styles don't apply:
+          The textarea doesn&#39;t have the following text-input elements,
+          therefore, their listed styles don&#39;t apply:
         </DxcText>
         <DxcList>
           <DxcText>Action</DxcText>
@@ -45,7 +45,7 @@ const TextareaSpecsPage = () => {
       <DxcStack gutter="large">
         <HeadingLink level={3}>States</HeadingLink>
         <DxcText as="p">
-          States: <strong>Enabled</strong>, <strong>hover</strong>,{" "}
+          States: <strong>enabled</strong>, <strong>hover</strong>,{" "}
           <strong>focus</strong>, <strong>error</strong> and{" "}
           <strong>disabled</strong>.
         </DxcText>

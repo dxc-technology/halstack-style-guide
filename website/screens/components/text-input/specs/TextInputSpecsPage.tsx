@@ -930,7 +930,7 @@ const TextInputSpecsPage = () => {
         </DxcTable>
         <DxcText>
           And also apply different values to each side of the component:{" "}
-          <Code>top</Code> <Code>bottom</Code> <Code>left</Code>{" "}
+          <Code>top</Code>, <Code>bottom</Code>, <Code>left</Code> and{" "}
           <Code>right</Code>.
         </DxcText>
       </DxcStack>
