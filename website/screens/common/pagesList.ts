@@ -17,6 +17,7 @@ const overviewLinks: LinkDetails[] = [
   { label: "Introduction", path: "/overview/introduction" },
 ];
 const principlesLinks: LinkDetails[] = [
+  { label: "Color", path: "/principles/color" },
   { label: "Typography", path: "/principles/typography" },
 ];
 

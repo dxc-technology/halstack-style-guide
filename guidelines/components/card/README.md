@@ -33,13 +33,17 @@ _Card component states_
 ![Card design specifications](images/card_specs.png)
 
 _Card design specifications_
+
+
 ### Color
 
 | Component token     | Element                     | Core token                  | Value         |
 | :------------------ | :-------------------------- | :---------------------------| :------------ |
 | `backgroundColor`*  | Container                   | `color-white`               | `#ffffff`     |
+| `focusColor`*       | Container:focus             | `color-blue-600`            | `#0095ff`     |
 
 * The `background-color` token belongs to the box component, changes made on that component will affect the card element.
+
 
 ### Border
 
