@@ -16,11 +16,11 @@ type NavigationLinks = {
 const overviewLinks: LinkDetails[] = [
   { label: "Introduction", path: "/overview/introduction" },
 ];
-
 const principlesLinks: LinkDetails[] = [
   { label: "Color", path: "/principles/color" },
-  { label: "Layout", path: "/principles/layout" },
   { label: "Spacing", path: "/principles/spacing" },
+  { label: "Typography", path: "/principles/typography" },
+  { label: "Layout", path: "/principles/layout" },
 ];
 
 const componentsLinks: LinkDetails[] = [
