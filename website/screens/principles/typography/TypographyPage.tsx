@@ -70,7 +70,7 @@ const Typography = () => {
                   <Code>font-family-sans</Code>
                 </td>
                 <td>
-                  <em>Default font family sans-serif</em>
+                  Default font family sans-serif
                 </td>
                 <td>
                   <Code>font-family</Code>
@@ -82,7 +82,7 @@ const Typography = () => {
                   <Code>font-family-mono</Code>
                 </td>
                 <td>
-                  <em>Default font family monospaced</em>
+                  Default font family monospaced
                 </td>
                 <td>
                   <Code>font-family</Code>
@@ -112,7 +112,7 @@ const Typography = () => {
                   <Code>font-weight-light</Code>
                 </td>
                 <td>
-                  <em>Set font weight as light (300)</em>
+                  Set font weight as light (300)
                 </td>
                 <td>
                   <Code>font-weight</Code>
@@ -124,7 +124,7 @@ const Typography = () => {
                   <Code>font-weight-regular</Code>
                 </td>
                 <td>
-                  <em>Set font weight as regular (400)</em>
+                  Set font weight as regular (400)
                 </td>
                 <td>
                   <Code>font-weight</Code>
@@ -136,7 +136,7 @@ const Typography = () => {
                   <Code>font-weight-semibold</Code>
                 </td>
                 <td>
-                  <em>Set font weight as semibold (600)</em>
+                  Set font weight as semibold (600)
                 </td>
                 <td>
                   <Code>font-weight</Code>
@@ -148,7 +148,7 @@ const Typography = () => {
                   <Code>font-weight-bold</Code>
                 </td>
                 <td>
-                  <em>Set font weight as bold (700)</em>
+                  Set font weight as bold (700)
                 </td>
                 <td>
                   <Code>font-weight</Code>
@@ -180,7 +180,7 @@ const Typography = () => {
                   <Code>font-scale-01</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 12px</em>
+                  Set the font size as 12px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -192,7 +192,7 @@ const Typography = () => {
                   <Code>font-scale-02</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 14px</em>
+                  Set the font size as 14px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -204,7 +204,7 @@ const Typography = () => {
                   <Code>font-scale-03</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 16px</em>
+                  Set the font size as 16px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -216,7 +216,7 @@ const Typography = () => {
                   <Code>font-scale-04</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 20px</em>
+                  Set the font size as 20px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -228,7 +228,7 @@ const Typography = () => {
                   <Code>font-scale-05</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 24px</em>
+                  Set the font size as 24px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -240,7 +240,7 @@ const Typography = () => {
                   <Code>font-scale-06</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 32px</em>
+                  Set the font size as 32px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -252,7 +252,7 @@ const Typography = () => {
                   <Code>font-scale-07</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 48px</em>
+                  Set the font size as 48px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -264,7 +264,7 @@ const Typography = () => {
                   <Code>font-scale-08</Code>
                 </td>
                 <td>
-                  <em>Set the font size as 60px</em>
+                  Set the font size as 60px
                 </td>
                 <td>
                   <Code>font-size</Code>
@@ -290,7 +290,7 @@ const Typography = () => {
                   <Code>font-style-italic</Code>
                 </td>
                 <td>
-                  <em>Set font style as italic</em>
+                  Set font style as italic
                 </td>
                 <td>
                   <Code>font-style</Code>
@@ -302,7 +302,7 @@ const Typography = () => {
                   <Code>font-style-normal</Code>
                 </td>
                 <td>
-                  <em>Set font style as normal</em>
+                  Set font style as normal
                 </td>
                 <td>
                   <Code>font-style</Code>
@@ -331,7 +331,7 @@ const Typography = () => {
                   <Code>font-tracking-tight-02</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as -0.025em</em>
+                  Set letter spacing as -0.025em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -343,7 +343,7 @@ const Typography = () => {
                   <Code>font-tracking-tight-01</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as -0.0125em</em>
+                  Set letter spacing as -0.0125em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -355,7 +355,7 @@ const Typography = () => {
                   <Code>font-tracking-normal</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as 0em</em>
+                  Set letter spacing as 0em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -367,7 +367,7 @@ const Typography = () => {
                   <Code>font-tracking-wide-01</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as 0.025em</em>
+                  Set letter spacing as 0.025em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -379,7 +379,7 @@ const Typography = () => {
                   <Code>font-tracking-wide-02</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as 0.05em</em>
+                  Set letter spacing as 0.05em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -391,7 +391,7 @@ const Typography = () => {
                   <Code>font-tracking-wide-03</Code>
                 </td>
                 <td>
-                  <em>Set letter spacing as 0.1em</em>
+                  Set letter spacing as 0.1em
                 </td>
                 <td>
                   <Code>letter-spacing</Code>
@@ -422,7 +422,7 @@ const Typography = () => {
                   <Code>font-leading-compact-03</Code>
                 </td>
                 <td>
-                  <em>Set line height as 1em</em>
+                  Set line height as 1em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -434,7 +434,7 @@ const Typography = () => {
                   <Code>font-leading-compact-02</Code>
                 </td>
                 <td>
-                  <em>Set line height as 1.25em</em>
+                  Set line height as 1.25em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -446,7 +446,7 @@ const Typography = () => {
                   <Code>font-leading-compact-01</Code>
                 </td>
                 <td>
-                  <em>Set line height as 1.365em</em>
+                  Set line height as 1.365em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -458,7 +458,7 @@ const Typography = () => {
                   <Code>font-leading-normal</Code>
                 </td>
                 <td>
-                  <em>Set line height as 1.5em</em>
+                  Set line height as 1.5em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -470,7 +470,7 @@ const Typography = () => {
                   <Code>font-leading-loose-01</Code>
                 </td>
                 <td>
-                  <em>Set line height as 1.715em</em>
+                  Set line height as 1.715em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -482,7 +482,7 @@ const Typography = () => {
                   <Code>font-leading-loose-02</Code>
                 </td>
                 <td>
-                  <em>Set line height as 2em</em>
+                  Set line height as 2em
                 </td>
                 <td>
                   <Code>line-height</Code>
@@ -507,7 +507,7 @@ const Typography = () => {
                   <Code>font-transform-initial</Code>
                 </td>
                 <td>
-                  <em>Preserve default value</em>
+                  Preserve default value
                 </td>
                 <td>
                   <Code>text-transform</Code>
@@ -519,7 +519,7 @@ const Typography = () => {
                   <Code>font-transform-lowercase</Code>
                 </td>
                 <td>
-                  <em>Transform text to lowercase</em>
+                  Transform text to lowercase
                 </td>
                 <td>
                   <Code>text-transform</Code>
@@ -531,7 +531,7 @@ const Typography = () => {
                   <Code>font-transform-uppercase</Code>
                 </td>
                 <td>
-                  <em>Transform text to uppercase</em>
+                  Transform text to uppercase
                 </td>
                 <td>
                   <Code>text-transform</Code>
@@ -556,7 +556,7 @@ const Typography = () => {
                   <Code>font-decoration-no-line</Code>
                 </td>
                 <td>
-                  <em>Unset all present decorations</em>
+                  Unset all present decorations
                 </td>
                 <td>
                   <Code>text-decoration</Code>
@@ -568,7 +568,7 @@ const Typography = () => {
                   <Code>font-decoration-underline</Code>
                 </td>
                 <td>
-                  <em>Underline the text</em>
+                  Underline the text
                 </td>
                 <td>
                   <Code>text-decoration</Code>
@@ -580,7 +580,7 @@ const Typography = () => {
                   <Code>font-decoration-line-through</Code>
                 </td>
                 <td>
-                  <em>Put a strikethrough the text</em>
+                  Put a strikethrough the text
                 </td>
                 <td>
                   <Code>text-decoration</Code>
