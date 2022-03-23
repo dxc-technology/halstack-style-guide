@@ -33,7 +33,7 @@ const TextInputUsagePage = () => {
             texts.
           </DxcText>
         </DxcList>
-        <HeadingLink level={3}>Dont&#39;s</HeadingLink>
+        <HeadingLink level={3}>Don&#39;ts</HeadingLink>
         <DxcList>
           <DxcText>
             Do not use text input for text longer than a single line (e.g. name,

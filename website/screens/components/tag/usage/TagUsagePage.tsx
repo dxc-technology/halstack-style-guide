@@ -29,7 +29,7 @@ const TagUsagePage = () => {
         </DxcList>
       </DxcStack>
       <DxcStack gutter="large">
-        <HeadingLink level={3}>Icon Usage</HeadingLink>
+        <HeadingLink level={3}>Icon usage</HeadingLink>
         <Figure caption="Icon usage examples">
           <Image src={iconsUsageImage} alt="Icon usage examples" />
         </Figure>

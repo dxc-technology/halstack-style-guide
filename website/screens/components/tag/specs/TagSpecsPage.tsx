@@ -18,8 +18,11 @@ const TagSpecsPage = () => {
     <DxcStack gutter="xxxlarge">
       <DxcStack gutter="large">
         <HeadingLink level={2}>Specifications</HeadingLink>
-        <Figure caption="Tag design specifications">
-          <Image src={specsImage} alt="Tag design specifications" />
+        <Figure caption="Design specification for the tag component">
+          <Image
+            src={specsImage}
+            alt="Design specification for the tag component"
+          />
         </Figure>
       </DxcStack>
       <DxcStack gutter="large">
