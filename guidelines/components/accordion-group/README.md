@@ -28,13 +28,6 @@ _Default State_
 ![Accordion Group Disabled State](images/accordion_group_disabled.png)
 _Disabled State_
 
-## Anatomy
-
-An accordion group can be divided into three major parts: the accordion elements, dividers, and the background container.
-
-![Accordion Group Anatomy](images/accordion_group_anatomy.png)
-
-
 ## Placement
 
 An accordion group can be placed with main page content or placed inside of a container such as a side panel or tile.
@@ -44,12 +37,6 @@ An accordion group can be placed with main page content or placed inside of a co
 1. Individual accordion element
 2. Separator
 3. Background container
-
-
-## Design specifications
-
-![Accordion Group Specifications](images/accordion_group_specs.png)
-_Accordion group specifications_
 
 
 ### Behavior and Interaction
@@ -64,7 +51,19 @@ _Accordion group specifications_
 3. Bottom rounded header border for the last accordion
 
 
-## Design Tokens
+## Anatomy
+
+An accordion group can be divided into three major parts: the accordion elements, dividers, and the background container.
+
+![Accordion Group Anatomy](images/accordion_group_anatomy.png)
+
+
+
+## Design specifications
+
+![Accordion Group Specifications](images/accordion_group_specs.png)
+_Accordion group specifications_
+
 
 ### Color
 
