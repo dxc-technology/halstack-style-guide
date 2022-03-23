@@ -18,8 +18,9 @@ const overviewLinks: LinkDetails[] = [
 ];
 const principlesLinks: LinkDetails[] = [
   { label: "Color", path: "/principles/color" },
-  { label: "Typography", path: "/principles/typography" },
   { label: "Spacing", path: "/principles/spacing" },
+  { label: "Typography", path: "/principles/typography" },
+  { label: "Layout", path: "/principles/layout" },
 ];
 
 const componentsLinks: LinkDetails[] = [
