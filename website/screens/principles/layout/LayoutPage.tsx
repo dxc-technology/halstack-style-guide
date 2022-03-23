@@ -46,6 +46,8 @@ const Layout = () => {
             used in different scenarios and identified as a pattern in most of
             our applications.
           </DxcText>
+        </DxcStack>
+        <DxcStack gutter="large">
           <HeadingLink level={2}>Application Layout</HeadingLink>
           <DxcText as="p">
             A widely used layout in many applications, keeping it simple, with
