@@ -91,6 +91,8 @@ const Typography = () => {
               </tr>
             </tbody>
           </DxcTable>
+        </DxcStack>
+        <DxcStack gutter="large">
           <HeadingLink level={2}>Weight</HeadingLink>
           <DxcText as="p">
             In order to add contrast between typographic elements in the UI,
@@ -157,6 +159,8 @@ const Typography = () => {
               </tr>
             </tbody>
           </DxcTable>
+        </DxcStack>
+        <DxcStack gutter="large">
           <HeadingLink level={2}>Scale</HeadingLink>
           <DxcText as="p">
             As we approached the foundational elements with simplification and
@@ -273,6 +277,8 @@ const Typography = () => {
               </tr>
             </tbody>
           </DxcTable>
+        </DxcStack>
+        <DxcStack gutter="large">
           <HeadingLink level={2}>Formatting</HeadingLink>
           <HeadingLink level={3}>Style</HeadingLink>
           <DxcTable>
@@ -589,6 +595,8 @@ const Typography = () => {
               </tr>
             </tbody>
           </DxcTable>
+        </DxcStack>
+        <DxcStack gutter="large">
           <HeadingLink level={2}>Hasltack type set</HeadingLink>
           <HeadingLink level={3}>Headings</HeadingLink>
           <Figure caption="Heading set styles">
