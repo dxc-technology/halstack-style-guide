@@ -33,9 +33,9 @@ A side navigation can be added as a fourth element to display additional links o
 
 Refer to the following links for more detailed information about each of the layout elements:
 
-[Header Component](url)
-[Footer Component](url)
-[Sidenav Component](url)
+*[Header Component](url)
+*[Footer Component](url)
+*[Sidenav Component](url)
 
 ____________________________________________________________
 
