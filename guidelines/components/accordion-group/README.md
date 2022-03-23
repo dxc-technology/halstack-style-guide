@@ -41,7 +41,7 @@ An accordion group can be placed with main page content or placed inside of a co
 ![Accordion Group Anatomy](images/accordion_group_placement.png)
 
 1. Individual accordion element
-2. Divider
+2. Separator
 3. Background container
 
 
@@ -71,13 +71,13 @@ _Accordion group specifications_
 | :------------------------------------------ | :--------------------------- | :------------------------- | :----------- |
 | `backgroundColor`                           | Container background         | `color-white`              | #ffffff      |
 | `boxShadowColor`                            | Container shadow             | -                          | #0000001a    |
-| `accordionGroupSeparatorBorderColor`        | Separator                    | 'color-grey-a-300'         | #CCCCCC      |
+| `SeparatorBorderColor`                      | Separator                    | 'color-grey-a-300'         | #CCCCCC      |
 
 ### Border
 
 | Component token                             | Element                      | Core token           | Value        |
 | :------------------------------------------ | :--------------------------- | :------------------- | :----------- |
-| `BorderThickness`                           | Separator                    | `border-width-1`     | 1px          | 
+| `separatorBorderThickness`                  | Separator                    | `border-width-1`     | 1px          | 
 
 
 ### Spacing
@@ -98,17 +98,3 @@ _Accordion group specifications_
 
 * WAI-ARIA Authoring Practices 1.2 - [3.1 Accordion (Sections With Show/Hide Functionality)](https://www.w3.org/TR/wai-aria-practices-1.2/#accordion)
 * WAI-ARIA Authoring Practices 1.2 - [Accordion Design Pattern](https://www.w3.org/TR/wai-aria-practices-1.2/examples/accordion/accordion.html)
-
-
-
-## Links and references
-
-<!--
-
-* [Angular CDK component](url)
-* [React CDK component](url)
-* [Adobe XD component](url)
-
-____________________________________________________________
-
-* [Edit this page on GitHub](url)
