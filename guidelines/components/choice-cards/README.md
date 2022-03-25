@@ -17,7 +17,7 @@ Choice Card is a Complex UI Component with a combination of Box Component and Ra
 
 The following states are defined in the life cycle of the component: Unselected enabled, unselected hover unselected focus, unselected disabled, selected enabled, selected hover, selected focus and selected disabled.
 
-![Variants image](path to the image)
+![Variants image](./images/choice_cards_states.png)
 
 _Image caption_
 
@@ -38,7 +38,7 @@ _Image caption_
 
 ## Anatomy
 
-![Variants image](path to the image)
+![Variants image](./images/choice_cards_anatomy.png)
 
 _Image caption_
 
@@ -60,7 +60,7 @@ Any type of content can be place inside the box component.
 
 ## Design Specifications
 
-![Variants image](path to the image)
+![Variants image](./images/choice_cards_specs.png)
 
 _Image caption_
 
