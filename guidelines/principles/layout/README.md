@@ -43,6 +43,15 @@ _x-large breakpoint at 1440px width with 8 columns_
 
 _medium and small breakpoint layouts for tablets and mobile devices both utilizing 4 columns_
 
+The following table describes the columns, margins, and gutter at each of the different breakpoints:
+
+| Breakpoint   | px / rem    | Columns     | Gutter   | Margin   |
+| :----------- | :---------- | :---------- | :------- | :------- |
+| x-small      | 320 / 20    |      4      |    16    | 16       | 
+| small        | 480 / 30    |      4      |    16    | 16       | 
+| medium       | 720 / 45    |      4      |    24    | 48       | 
+| large        | 1056 / 66   |      8      |    16    | 56       | 
+| x-large      | 1440 / 90   |      8      |    24    | 56       | 
 
 
 ## Layout components
