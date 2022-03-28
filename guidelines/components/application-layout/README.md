@@ -1,7 +1,7 @@
 
 # Application Layout
 
-Application layouts form the structure on which application components are built. Our layouts minimize complexity and focus on facilitating a consistent visual flow across all applications. They are made up of three elements: the header, the main content, and the footer.
+Application layouts form the structure on which application components are built. Our layouts minimize complexity and focus on facilitating a consistent visual flow across all applications. They are made up of four elements: the header, the main content, footer and side navigation.
 
 
 ## Usage
@@ -51,7 +51,6 @@ _Sidenav layout interactions_
 ### WAI-ARIA 1.2
 
 * WAI-ARIA Clear Layout and Design [Clear Layout and Design](https://www.w3.org/WAI/perspective-videos/layout/)
-* WAI-ARIA Authoring Practices 1.2 - [3.12 Grids - Interactive Tabular Data and Layout Containers](https://www.w3.org/TR/wai-aria-practices/#grid)
 
 
 ## Links
