@@ -545,7 +545,7 @@ const Themes = () => {
                   <Code>hoverOptionBackgroundColor</Code> (+10% of lightness)
                   <br />
                   <br />
-                  <Code>activeOptionBackgroundColor</Code> (+15% of lightness)
+                  <Code>activeOptionBackgroundColor</Code> (-15% of lightness)
                 </td>
               </tr>
               <tr>
