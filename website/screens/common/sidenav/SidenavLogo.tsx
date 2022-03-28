@@ -20,7 +20,7 @@ const SidenavLogo = () => {
 };
 
 const SidenavLogoContainer = styled.div`
-  margin: 32px 24px 0;
+  margin: 0 24px;
   display: flex;
   flex-direction: column;
 `;

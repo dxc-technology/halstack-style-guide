@@ -31,15 +31,14 @@ const StyledLink = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 32px;
   padding-right: 24px;
   user-select: none;
   min-height: 17px;
   font-size: 14px;
   box-shadow: 0 0 0 2px transparent;
-  margin: 2px 0;
 
   &:hover {
     background: ${({ selected }: StyledLinkProps) =>

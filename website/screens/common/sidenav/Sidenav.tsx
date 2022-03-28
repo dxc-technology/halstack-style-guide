@@ -16,7 +16,7 @@ function SidenavContent() {
   };
 
   return (
-    <div>
+    <SidenavContainer>
       <SidenavLogo />
       <DxcTextInput
         placeholder="Search docs"
@@ -45,7 +45,7 @@ function SidenavContent() {
           </>
         ))}
       </DxcStack>
-    </div>
+    </SidenavContainer>
   );
 }
 
@@ -85,6 +85,10 @@ const Separator = styled.hr`
   border-top: 1px solid #cccccc;
   margin-block-start: 0;
   margin-block-end: 0;
+`;
+
+const SidenavContainer = styled.div`
+  padding: 2rem 0;
 `;
 
 export default SidenavContent;
