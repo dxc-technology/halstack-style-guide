@@ -15,6 +15,7 @@ type NavigationLinks = {
 
 const overviewLinks: LinkDetails[] = [
   { label: "Introduction", path: "/overview/introduction" },
+  { label: "Design", path: "/overview/design" },
 ];
 
 const principlesLinks: LinkDetails[] = [
