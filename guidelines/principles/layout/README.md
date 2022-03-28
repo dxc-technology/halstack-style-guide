@@ -1,9 +1,6 @@
 
 # Layout
 
- layout grid adapts to screen size and orientation, ensuring consistency across layouts.
-
-<!----Brief introduction---->
 
 ## Grid
 
@@ -45,15 +42,16 @@ _medium and small breakpoint layouts for tablets and mobile devices both utilizi
 
 The following table describes the columns, margins, and gutter at each of the different breakpoints:
 
-| Breakpoint   | px / rem    | Columns     | Gutter   | Margin   |
+| Breakpoint   | px / rem    | Columns     | Gutter (recommended <sup>1</sup>)   | Margin (min)<sup>2</sup>   |
 | :----------- | :---------- | :---------- | :------- | :------- |
-| x-small      | 320 / 20    |      4      |    16    | 16       | 
-| small        | 480 / 30    |      4      |    16    | 16       | 
-| medium       | 720 / 45    |      4      |    24    | 48       | 
-| large        | 1056 / 66   |      8      |    16    | 56       | 
-| x-large      | 1440 / 90   |      8      |    24    | 56       | 
+| x-small      | 320 / 20    |      4      |    16 / small   | 24      | 
+| small        | 480 / 30    |      4      |    16 / small   | 24       | 
+| medium       | 720 / 45    |      4      |    24 / medium   | 48       | 
+| large        | 1056 / 66   |      8      |    16 / small  | 56       | 
+| x-large      | 1440 / 90   |      8      |    24 / medium  | 56       | 
 
-
+1. Any value provided by the gutter prop in the layout components can be used altought we recommend to stick to the values provided.
+2. The margin value provided are the minimun recommended, any value from our [spacing scale](#) can be used or even an auto value.
 ## Layout components
 
 * Application layout
