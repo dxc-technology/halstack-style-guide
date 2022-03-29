@@ -50,7 +50,7 @@ The following table describes the columns, margins, and gutter at each of the di
 | large        | 1056 / 66   |      8      |    16 / small  | 56       | 
 | x-large      | 1440 / 90   |      8      |    24 / medium  | 56       | 
 
-1. Any value provided by the gutter prop in the layout components can be used altought we recommend to stick to the values provided.
+1. Any value provided by the gutter prop in the layout components can be used (ideally multiples of 8) although we recommend to stick to the values provided.
 2. The margin value provided are the minimun recommended, any value from our [spacing scale](#) can be used or even an auto value.
 ## Layout components
 
