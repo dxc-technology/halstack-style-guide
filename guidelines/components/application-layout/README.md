@@ -20,7 +20,7 @@ _main elements for the tablet and mobile application layout_
 
 ### Layout with side navigation
 
-A side navigation can be added as a fourth element to display additional links or information apart from the links that can be displayed as part of the header or footer
+The side navigation functions as an optional fourth element to display additional links or information apart from the links that are displayed as part of the header or footer
 
 ![application layout navigation](images/application_layout_navigation-web.png)
 
@@ -38,11 +38,11 @@ A side navigation can be added as a fourth element to display additional links o
 
 ### Behavior and Interaction
 
-Overlay and push interactions by the sidenav component can alter the way the layout is displayed. For overlay, the sidenav simply slides over the content with no changes to position. Push interaction moves all components to the side depending on the width of the sidenav. 
+Overlay and push interactions by the sidenav component can alter the way the layout is displayed. For overlay, the sidenav simply slides over the content with no changes to position. The push interaction moves all components to the side depending on the width of the sidenav. 
 
 ![layout sidenav interaction](images/sidenav_variants.png)
 
-_Sidenav layout interactions_
+_Overlay and push sidenav layout interactions_
 
 
 ## Accessibility
