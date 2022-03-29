@@ -1,29 +1,29 @@
 # Choice Card
 
-Choice Card is a Complex UI Component with a combination of Box Component and Radio Group Component. Each Choice Card is enclosed with 2 blocks of interactive elements, One with all the interactive elements like image, link, button, list etc., which makes up a design layout and the other is a Radio Button with a label. The Choice cards can be used to create distinct grouping between different sections of content based on the user selections.
-
-
+The choice card component allow users to make a selection between groups of content. 
 
 ## Usage
 
-* Single Choice Card should not be used
+* A single Choice Card can not be used
 * Avoid using very long Choice Card title
-* Organize the Choice card collection with a clear layout and apply the same style for every card in the group
-* Choice card may be pre selected based on the requirement
-
+* Choice card can be pre-selected based on the requirement
 
 
 ## States
 
 The following states are defined in the life cycle of the component: Unselected enabled, unselected hover unselected focus, unselected disabled, selected enabled, selected hover, selected focus and selected disabled.
 
-![Variants image](./images/choice_cards_states.png)
+<!--- The error state should be added to the states list and states image ---->
+
+![States image](./images/choice_cards_states.png)
 
 _Image caption_
 
 
 
 ## Stacking
+
+<!--- Provide an stacking description defining the two stacking directions (vertical and horizontal), when to use each one and the default orientation --->
 
 ![Variants image](path to the image)
 
@@ -54,6 +54,8 @@ _Image caption_
 
 ## Content
 
+<!---Add visual examples of content (e.g. a card with a form vs a card with only text) --->
+
 Any type of content can be place inside the box component.
 
 
@@ -64,8 +66,7 @@ Any type of content can be place inside the box component.
 
 _Image caption_
 
-### Color
-Same as box
+
 
 
 ### Typography
@@ -74,33 +75,7 @@ Same as box
 | `property`        | Element-1        | `token-1`   | value-1   |
 
 
-### Border
-
-Same as box
-
-### Shadow
-
-Same as box
-
-
-### Spacing
-?
-
-
-### Size
-?
-
-
-### Margin
-
-Same as box
-
-
-### Padding
-
-Same as box
-
-
+The component tokens are shared with the [box component]()
 
 ## Accessibility
 
