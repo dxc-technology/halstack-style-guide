@@ -4,20 +4,11 @@ Icons are symbols used for representation and identification of apps or services
 
 Icons convey immediate meaning and provide shortcuts. Reading text requires more energy than deciphering an icon. Icons can be used to allow for scanning and increase readability.
 
-### When to use icons?
+## When to use icons?
 
 Icon design is a blend of professional and playful. Icons should be simple, approachable, and legible, distinguished by negative space and large rounded corners. Icons should be recognizable and easy to remember. Icons and imagery are noticed before anything else, because we can eye-scan over them faster than text.
 
 You Should use icons When Text Labels Are Overkill. Naturally, you should use an icon when you don’t have enough space for a text label, but this isn’t always the best reason to use an icon. First you should consider creating space in other ways; this might include simplifying the layout or removing unnecessary distractions
-
-### When Not to use icons?
-
-You Shouldn’t use icons Simply Because, By using icons unnecessarily you’re creating more visual distractions, and too many visual distractions make it harder for the user to scan through content for useful information.
-
-You Shouldn't use icons when the Design is crowded, However images rarely give us the information we need.
-
-Using too many icons will become nothing more than decoration.
-
 
 ### Do’s
 
@@ -30,6 +21,11 @@ Using too many icons will become nothing more than decoration.
 * Use approved business process model
 * Do center-align icons when they’re next to text
 
+## When Not to use icons?
+
+You Shouldn’t use icons Simply Because, By using icons unnecessarily you’re creating more visual distractions, and too many visual distractions make it harder for the user to scan through content for useful information.
+
+You Shouldn't use icons when the Design is crowded, However images rarely give us the information we need. Using too many icons will become nothing more than decoration.
 
 ### Dont’s
 
@@ -41,6 +37,7 @@ Using too many icons will become nothing more than decoration.
 * Don’t use non-white icon glyphs in object icons
 * Don’t use unapproved shapes.
 * Don’t baseline-align icons to the text
+
 
 
 ### Allowed formats
@@ -150,6 +147,11 @@ Icons have different accessibility requirements depending on the context they ar
 ## Suggested icon libraries
 
 ### Material design
+This has principal and guidelines to set of icons available in the library. It has vast collections of Icons, which has verity of collections such as Outlined, Rounded, Filled, Sharp, two tone. It also explicitly explains about implementationr
+
+https://material.io/design/iconography/product-icons.html#design-principles
+
+https://fonts.google.com/icons
 
 ### Font Awesome
 
