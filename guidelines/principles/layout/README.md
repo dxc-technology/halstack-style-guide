@@ -1,30 +1,56 @@
 
 # Layout
 
+Halstack provide multiple components in order to achieve layout consistency and a easy way to arrange elements in the UI.
 
-## Grid
+## Layout components
+
+The [application layout]() is the base component that wraps any application built with halstack. In addition, all of the components liste below can be used within each other to create a wide variety of standard layouts:
+
+* [Stack]()
+* [Row]()
+* [Bleed]()
+* [Inset]()
+
+
+
+## Layout basics
+
+### Grid
 
 The grid provides the foundation for consistently positioning elements onscreen. The 8x Grid is the geometric foundation of all the visual elements of Halstack Design System from typography to columns, boxes, icons, and illustrations. It provides structure and guidance for all creative decision-making.
 
 ![layout grid](images/layout_grid.png)
 
-### Grid Usage
+#### Grid Usage
+
 - Use multiples of 8px when defining measurements, spacing, and positioning elements.
 - When necessary use 4px to make more fine tuned adjustments.
 - Whenever possible, make sure that objects line up, both vertically and horizontally.
 - Align your bounding box to the grid, not the baseline of your text.
 
 
-## Breakpoints
+### Breakpoints
 
-Breakpoints define resolutions at which screen components adjust to offer an optimal user experience across screen sizes and devices. We've defined five different breakpoints to accommodate multiple web, tablet, and mobile screen resolutions. The image below illustrates how we've used data on the most popular screen resolutions by device over the past few years to help define each breakpoint.
+Breakpoints define resolutions at which screen components adjust to offer an optimal user experience across screen sizes and devices. We've defined five different breakpoints to accommodate multiple web, tablet, and mobile screen resolutions:
+
+| Breakpoint   | px          | rem   |
+| :----------- | :---------- | :---- |
+| `xsmall`     | 320         | 20    |
+| `small`      | 480         | 30    |
+| `medium`     | 720         | 45    |
+| `large`      | 1056        | 66    | 
+| `x-large`    | 1440        | 90    |
+
+
+The image below illustrates how we've used data on the most popular screen resolutions by device over the past few years to help define each breakpoint.
 
 ![layout breakpoints](images/layout_breakpoints.png)
 
 _Halstack breakpoints vs popular device resolutions_
 
 
-## Columns, Margins, and Gutters
+### Columns, Margins, and Gutters
 
 Columns, gutters, and margins make up the responsive layout grid following these breakpoints. Depending on resolution and screen size of a device, column numbers and the values of the margins and gutters adjust to accommodate all screen elements in the most optimal manner.
 
@@ -40,25 +66,23 @@ _x-large breakpoint at 1440px width with 8 columns_
 
 _medium and small breakpoint layouts for tablets and mobile devices both utilizing 4 columns_
 
+#### Recomended values
+
 The following table describes the columns, margins, and gutter at each of the different breakpoints:
 
-| Breakpoint   | px / rem    | Columns     | Gutter (recommended <sup>1</sup>)   | Margin (min)<sup>2</sup>   |
-| :----------- | :---------- | :---------- | :------- | :------- |
-| x-small      | 320 / 20    |      4      |    16 / small   | 24      | 
-| small        | 480 / 30    |      4      |    16 / small   | 24       | 
-| medium       | 720 / 45    |      4      |    24 / medium   | 48       | 
-| large        | 1056 / 66   |      8      |    16 / small  | 56       | 
-| x-large      | 1440 / 90   |      8      |    24 / medium  | 56       | 
+| Breakpoint   | Columns     | Gutter (recommended <sup>1</sup>)   | Margin (min)<sup>2</sup>   |
+| :----------- | :---------- | :------- | :------- |
+| `xsmall`     |      4      |    16 / small   | 24      | 
+| `small`      |      4      |    16 / small   | 24       | 
+| `medium`     |      4      |    24 / medium   | 48       | 
+| `large`      |      8      |    16 / small  | 56       | 
+| `x-large`    |      8      |    24 / medium  | 56       | 
 
-1. Any value provided by the gutter prop in the layout components can be used (ideally multiples of 8) although we recommend to stick to the values provided.
-2. The margin value provided are the minimun recommended, any value from our [spacing scale](#) can be used or even an auto value.
-## Layout components
+1. Any value provided by the `gutter` prop in the layout components can be used (ideally multiples of 8) although we recommend to stick to the values provided.
+2. The margin value provided are the minimun recommended, any value from our [spacing scale](#) can be used or even an `auto` value.
 
-* Application layout
-* Stack
-* Row
-* Bleed
-* Inset
+
+
 
 ____________________________________________________________
 
