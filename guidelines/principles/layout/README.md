@@ -1,11 +1,11 @@
 
 # Layout
 
-Halstack provide multiple components in order to achieve layout consistency and a easy way to arrange elements in the UI.
+Halstack provide multiple components in order to achieve layout consistency and an easy way to arrange elements in the UI.
 
 ## Layout components
 
-The [application layout]() is the base component that wraps any application built with halstack. In addition, all of the components liste below can be used within each other to create a wide variety of standard layouts:
+The [application layout]() is the base component that wraps any application built with halstack. In addition, all of the components listed below can be used within each other to create a wide variety of standard layouts:
 
 * [Stack]()
 * [Row]()
@@ -18,7 +18,7 @@ The [application layout]() is the base component that wraps any application buil
 
 ### Grid
 
-The grid provides the foundation for consistently positioning elements onscreen. The 8x Grid is the geometric foundation of all the visual elements of Halstack Design System from typography to columns, boxes, icons, and illustrations. It provides structure and guidance for all creative decision-making.
+The grid provides the foundation for consistently positioning elements onscreen. The 8x Grid is the geometric foundation of all the visual elements of Halstack Design System components and spacing. It provides structure and guidance for all creative decision-making.
 
 ![layout grid](images/layout_grid.png)
 
