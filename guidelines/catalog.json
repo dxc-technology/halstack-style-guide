@@ -35,6 +35,10 @@
       "name": "Autosuggest"
     },
     {
+      "key": "application-layout",
+      "name": "Application layout"
+    },
+    {
       "key": "v3_autocomplete",
       "name": "Autocomplete (deprecated)"
     },

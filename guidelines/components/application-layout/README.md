@@ -1,12 +1,12 @@
 
-# Application Layout
+# Application layout
 
 The application layout provides a base UI wrapper for any application built with Halstack. 
 
 
 ## Usage
 
-Application layouts are used to place content across the screen for different applications.
+When using the application layout component consider the following:
 
 * Use the sidenav when the application navigation has an horizontal hierarchy
 * Header and footer elements should be always present
