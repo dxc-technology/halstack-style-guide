@@ -1,33 +1,36 @@
 
 # Application Layout
 
-Application layouts form the structure on which application components are built. Our layouts minimize complexity and focus on facilitating a consistent visual flow across all applications. They are made up of four elements: the header, the main content, footer and side navigation.
+The application layout provides a base UI wrapper for any application built with Halstack. 
 
 
 ## Usage
 
 Application layouts are used to place content across the screen for different applications.
 
-### Layout
-
-![application layout web](images/application_layout_web.png)
-
-_main elements for the web application layout_
-
-![application layout tablet and mobile](images/application_layout_tablet-mobile.png)
-
-_main elements for the tablet and mobile application layout_
-
-### Layout with side navigation
-
-The side navigation functions as an optional fourth element to display additional links or information apart from the links that are displayed as part of the header or footer
-
-![application layout navigation](images/application_layout_navigation-web.png)
+* Use the sidenav when the application navigation has an horizontal hierarchy
+* Header and footer elements should be always present
+* Only use the mode overlay if the content cannot dynamically adapt to the available space 
 
 
-## Specifications
+## Sidenav: overlay and push
 
-### Application Layout Anatomy
+Overlay and push interactions by the sidenav component can alter the way the layout is displayed. For overlay, the sidenav simply slides over the content with no changes to position. The push interaction moves the main container to the side depending on the width of the sidenav. 
+
+![layout sidenav interaction](images/sidenav_variants.png)
+
+_Overlay and push sidenav layout interactions_
+
+### Mobile behavior
+
+The default behavior for mobile device is overlay since the available space doesn't allow to push the main content.
+
+![Comparison of the sidenav behavior between deskton and mobile](images/application_layout_navigation-web.png)
+
+_Desktop (push) vs mobile behavior (overlay)_
+
+
+## Anatomy
 
 ![application layout anatomy](images/application_layout_anatomy.png)
 
@@ -36,17 +39,16 @@ The side navigation functions as an optional fourth element to display additiona
 3. Footer
 4. Side Navigation (sidenav)
 
-### Behavior and Interaction
 
-Overlay and push interactions by the sidenav component can alter the way the layout is displayed. For overlay, the sidenav simply slides over the content with no changes to position. The push interaction moves all components to the side depending on the width of the sidenav. 
+## Specifications
 
-![layout sidenav interaction](images/sidenav_variants.png)
+The specifications of each of the compound component children are defined separately:
 
-_Overlay and push sidenav layout interactions_
-
+* [Header]()
+* [Footer]()
+* [Sidenav]()
 
 ## Accessibility
-
 
 ### WAI-ARIA 1.2
 
