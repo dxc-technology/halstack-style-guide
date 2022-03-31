@@ -57,11 +57,7 @@ The specifications of each of the compound component children are defined separa
 
 ## Links
 
-Refer to the following links for more detailed information about each of the layout elements:
-
-* [Header Component](url)
-* [Footer Component](url)
-* [Sidenav Component](url)
+* [Adobe XD link]()
 
 ____________________________________________________________
 
