@@ -1,13 +1,21 @@
 import PageLayout from "../../common/PageLayout";
-import { DxcText, DxcStack } from "@dxc-technology/halstack-react";
+import {
+  DxcText,
+  DxcStack,
+  DxcList,
+  DxcLink,
+  DxcTable,
+} from "@dxc-technology/halstack-react";
 import Image from "@/common/Image";
 import HeadingLink from "../../common/HeadingLink";
 import DocFooter from "../../common/DocFooter";
-import standardLayout from "./images/standard_layout.png";
-import sidenavLayout from "./images/sidenav_layout.png";
-import asideLayout from "./images/aside_layout.png";
+import layoutGrid from "./images/layout_grid.png";
+import Code from "../../common/Code";
+import layoutBreakpoints from "./images/layout_breakpoints.png";
+import layoutColumns from "./images/layout_medium_small.png";
 import pairedLayout from "./images/paired_layout.png";
 import symmetricalLayout from "./images/symmetrical_layout.png";
+import Link from "next/link";
 
 const Layout = () => {
   return (
@@ -16,219 +24,223 @@ const Layout = () => {
         <DxcStack gutter="large">
           <HeadingLink level={1}>Layout</HeadingLink>
           <DxcText as="p">
-            Since not all applications have the same layout, we have a
-            predefined layout configuration factored into our design system so
-            designers and developers don&#39;t start from a blank page. The most
-            common screen configurations in our applications have been
-            considered when building our design principles and component
-            catalog.
-          </DxcText>
-          <DxcText as="p">
-            Side navigation, tab navigation, flow navigation, and more are valid
-            experience patterns to navigate in your applications built with
-            Halstack Design System. This is all about thinking and considering
-            what is the best approach for your users, what is the best
-            organization to display your content, and make a nicer and clearer
-            User Experience. That simple.
-          </DxcText>
-          <DxcText as="p">
-            Every application that will be designed into the DXC environment
-            should fulfill a series of requirements to give consistency with the
-            applications using the design system.
-          </DxcText>
-          <DxcText as="p">
-            There are generic elements that each application should implement in
-            most cases, making the design cohesive across the set of
-            applications.
-          </DxcText>
-          <DxcText as="p">
-            Regarding this principle, we offer a set of prebuilt layouts to be
-            used in different scenarios and identified as a pattern in most of
-            our applications.
+            Halstack provide multiple components in order to achieve layout
+            consistency and an easy way to arrange elements in the UI.
           </DxcText>
         </DxcStack>
         <DxcStack gutter="large">
-          <HeadingLink level={2}>Application Layout</HeadingLink>
+          <HeadingLink level={2}>Layout components</HeadingLink>
           <DxcText as="p">
-            A widely used layout in many applications, keeping it simple, with
-            three main areas with hierarchical distribution and a defined role.
-            Header, main content, and footer.
+            The{" "}
+            <DxcLink
+              href="/components/application-layout/"
+              text="application layout"
+            />{" "}
+            is the base component that wraps any application built with
+            halstack. In addition, all of the components listed below can be
+            used within each other to create a wide variety of standard layouts:
           </DxcText>
-          <DxcText as="p">
-            Easy to adapt to a changing environment, referring to other devices
-            like mobile and tablet, the structure of the content and the
-            alignment of the components won&#39;t be affected by the lack of
-            space, maintaining the same order and flow.
-          </DxcText>
-          <DxcText as="p">
-            The main content is the most customizable part, acting as the main
-            content of the application and the main focus where the user will
-            find the relevant information about the site.
-          </DxcText>
-          <DxcText as="p">
-            Behind the scenes, there are some aspects that we are controlling,
-            like the definition of a minimum height to the main space making by
-            default the layout adaptive to the viewport height even if there is
-            no content inside the main section. If the main area has content
-            taller than the viewport size, the container will become scrollable.
-          </DxcText>
-          <DxcText as="p">
-            Maximum width is set for the main area of 1320 pixels, giving enough
-            whitespace to the UI and the elements to breath, and keeping the
-            content center on the screen to call the attention of the user.
-          </DxcText>
-          <DxcText as="p">
-            Margins from the left and right sides are also other aspects that
-            the component itself is controlling, adapting it depending on the
-            device and the needs of the applications.Additionally, a margin area
-            is defined following the spacing with other components of the layout
-            with these values:- Margin for desktop: 64 pixels (top), 80 pixels
-            (bottom), 15.6% (left/right)- Margin for tablet: 48 pixels (top), 64
-            pixels (bottom), 9.6 (left/right)- Margin for mobile: 36 pixels
-            (top), 48 pixels (bottom), 6.4% (left/right)
-          </DxcText>
-          <DxcText as="p">
-            The specifications of the header and footer will remain the same in
-            the rest of the layouts, with the following values:- Header: 68
-            pixels (height), 100% (width)- Footer: 128 pixels (height), 100%
-            (width)
-          </DxcText>
-          <Image src={standardLayout} alt="Standard layout" />
-          <HeadingLink level={3}>
-            Application Layout with side navigation
-          </HeadingLink>
-          <DxcText as="p">
-            In technical applications and documentation sites, where you need to
-            show an overview of all the items available, a side navigation bar
-            can be included as part of the application layout.
-          </DxcText>
-          <DxcText as="p">
-            This sidenav component works like an index of a book, displaying
-            several actionable items that trigger an action, refreshing the
-            information of the main content area, or navigating to another
-            resource in the page hierarchy.
-          </DxcText>
-          <DxcText as="p">
-            As opposed to the previous layouts, in this case, the sidenav needs
-            to adopt a different behavior in responsive mode, due to the lack of
-            spacing for touchable devices. So in case of keeping it visible as
-            it can be configured in the desktop version, the component can be
-            triggered to show and hide the content inside of it, improving the
-            user experience and letting the main content enough space on the
-            screen.
-          </DxcText>
-          <DxcText as="p">
-            Specifications for the layout:- Sidenav: 300 pixels (width), 100%
-            (height)- Main content margins for desktop: 64 pixels (top), 80
-            pixels (bottom), 8.6% (right), 5.4% (left)- Main content margins for
-            tablet: 48 pixels (top), 64 pixels (bottom), 9.6 (left/right)- Main
-            content margins for mobile: 36 pixels (top), 48 pixels (bottom),
-            6.4% (left/right)
-          </DxcText>
-          <DxcText as="p">
-            If the sidenav is used in push mode, once the component is hidden by
-            the left side of the screen, the main content will take all the
-            available space, increasing the size of the left margin to match
-            with the value of the right margin.
-          </DxcText>
-          <DxcText as="p">
-            The content will be rendered in the middle of the screen and the
-            look will be similar to the one reproduced using the standard
-            layout.
-          </DxcText>
-          <Image src={sidenavLayout} alt="Side navigation" />
-          <HeadingLink level={3}>
-            Application Layout with secondary aside navigation
-          </HeadingLink>
-          <DxcText as="p">
-            A component that can be included as part of the application layout
-            in certain occasions, is the secondary aside navigation bar. It
-            shows different types of descriptive icons or actions that will
-            represent some current selections of the status of the interface.
-            Both elements can be interchangeable in terms of position due to the
-            requirements of the applications and the importance of the actions
-            associated with each element.
-          </DxcText>
-          <DxcText as="p">
-            For that class of layout, the height of the content won&#39;t
-            increase based on the content itself, on the other side, the area
-            will have a scroll area to maintain the distribution and not lose
-            focus of the current hierarchy of the interface.
-          </DxcText>
-          <DxcText as="p">
-            In terms of responsive design, the aside element will stay at the
-            same position and accessible at any time of the interaction process.
-          </DxcText>
-          <DxcText as="p">
-            Same specifications apply for all the components mentioned before,
-            adding the measures of the aside element:- Aside: 88 pixels (width),
-            100% (height)This layout is thought to be adaptive to the viewport,
-            meaning that in case the content overflow the available space, the
-            container will display a scrollbar to access all the information
-            inside it.
-          </DxcText>
-          <Image src={asideLayout} alt="Aside navigation" />
+          <DxcList>
+            <DxcText>
+              <DxcLink href="/components/stack/" text="Stack" />{" "}
+            </DxcText>
+            <DxcText>
+              <DxcLink href="/components/row/" text="Row" />{" "}
+            </DxcText>
+            <DxcText>
+              <DxcLink href="/components/bleed/" text="Bleed" />{" "}
+            </DxcText>
+            <DxcText>
+              <DxcLink href="/components/inset/" text="Inset" />{" "}
+            </DxcText>
+          </DxcList>
         </DxcStack>
+
         <DxcStack gutter="large">
-          <HeadingLink level={2}>Content Layout</HeadingLink>
-          <HeadingLink level={3}>Two column layout</HeadingLink>
+          <HeadingLink level={2}>Layout basics</HeadingLink>
+          <HeadingLink level={3}>Grid</HeadingLink>
           <DxcText as="p">
-            A special layout that is designed for certain scenarios where the
-            content and the dual-view are key.
+            The grid provides the foundation for consistently positioning
+            elements onscreen. The 8x Grid is the geometric foundation of all
+            the visual elements of Halstack Design System components and
+            spacing. It provides structure and guidance for all creative
+            decision-making.
           </DxcText>
+          <Image src={layoutGrid} alt="Layout grid of 8px" />
+          <HeadingLink level={4}>Grid usage</HeadingLink>
+          <DxcList>
+            <DxcText>
+              Use multiples of 8px when defining measurements, spacing, and
+              positioning elements.
+            </DxcText>
+            <DxcText>
+              When necessary use 4px to make more fine tuned adjustments.
+            </DxcText>
+            <DxcText>
+              Whenever possible, make sure that objects line up, both vertically
+              and horizontally.
+            </DxcText>
+            <DxcText>
+              Align your bounding box to the grid, not the baseline of your
+              text.
+            </DxcText>
+          </DxcList>
+          <HeadingLink level={3}>Breakpoints</HeadingLink>
           <DxcText as="p">
-            Every side of the interface can be customized with custom content
-            with a relation between. It can be an image related to the content
-            on his right/left, a login page with detail information on the near
-            side, or a table with actions that will make some effect on the
-            information of the other part of the UI, like filtering, searching
-            or highlight. Even it can be used as a splash screen during the
-            loading of the application.
+            Breakpoints define resolutions at which screen components adjust to
+            offer an optimal user experience across screen sizes and devices.
+            We've defined five different breakpoints to accommodate multiple
+            web, tablet, and mobile screen resolutions:
           </DxcText>
+          <DxcTable>
+            <thead>
+              <tr>
+                <th>Breakpoint</th>
+                <th>px</th>
+                <th>rem</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <Code>xsmall</Code>
+                </td>
+                <td>320</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>small</Code>
+                </td>
+                <td>480</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>medium</Code>
+                </td>
+                <td>720</td>
+                <td>45</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>large</Code>
+                </td>
+                <td>1056</td>
+                <td>66</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>x-large</Code>
+                </td>
+                <td>1440</td>
+                <td>90</td>
+              </tr>
+            </tbody>
+          </DxcTable>
           <DxcText as="p">
-            Thinking about the distribution on mobile and tablet, the left part
-            always is on top and the right side will be positioned at the
-            bottom. So take it present at the time of design and place the
-            information on each side.
+            The image below illustrates how we've used data on the most popular
+            screen resolutions by device over the past few years to help define
+            each breakpoint.
           </DxcText>
+          <Image src={layoutBreakpoints} alt="Layout grid of 8px" />
+          <HeadingLink level={3}>Columns, margins and gutters</HeadingLink>
+          <Image src={layoutColumns} alt="Layout grid of 8px" />
           <DxcText as="p">
-            There should be a relationship aspect between the two columns, to
-            preserve size and scaling. So we can establish a rule going from 1/4
-            to 3/4 where, 1/4 is the minimum value that a column can take and
-            3/4 is the maximum value to be expanded by one single column.
+            Columns, gutters, and margins make up the responsive layout grid
+            following these breakpoints. Depending on resolution and screen size
+            of a device, column numbers and the values of the margins and
+            gutters adjust to accommodate all screen elements in the most
+            optimal manner.
           </DxcText>
+          <DxcList>
+            <DxcText>
+              Columns are the areas of the screen where content is placed.{" "}
+            </DxcText>
+            <DxcText>
+              A gutter is the space between columns used to separate content.{" "}
+            </DxcText>
+            <DxcText>
+              Margins are the space between the edges of the screen and content.{" "}
+            </DxcText>
+          </DxcList>
+          <HeadingLink level={4}>Recommended values</HeadingLink>
           <DxcText as="p">
-            Accordingly, the other column should take the rest of available
-            space based on the ratio selected for each of them, making the 100%
-            of the screen width.
+            The following table describes the columns, margins, and gutter at
+            each of the different breakpoints:
           </DxcText>
-          <Image src={pairedLayout} alt="Two column layout" />
-          <HeadingLink level={3}>Symmetrical layout</HeadingLink>
-          <DxcText as="p">
-            A flexible layout to distribute the content through three flexible
-            columns in the main area of the screen.
-          </DxcText>
-          <DxcText as="p">
-            As a layout component, it doesn&#39;t provide any control of the
-            content inside of each section, but it is intended mainly for back
-            office applications, where the user needs to have a higher amount of
-            information compared with a standard user interface application.
-          </DxcText>
-          <DxcText as="p">
-            Even the relevant part of the screen is the middle column as it has
-            a larger space and it will be updated with relevant information
-            about the service, both columns on the sides can be used to display
-            additional information to complement the main part of the screen,
-            actionable items related with the business or even news and updates
-            from some topics of importance.
-          </DxcText>
-          <DxcText as="p">
-            Specifications for paired layout:- Main margin for desktop: 64
-            pixels (top), 80 pixels (bottom), 15.6% (left/right)- Side columns:
-            270 pixels (width), 64 pixels (margin top), 80 pixels (margin
-            bottom)
-          </DxcText>
-          <Image src={symmetricalLayout} alt="Symmetrical layout" />
+          <DxcTable>
+            <thead>
+              <tr>
+                <th>Breakpoint</th>
+                <th>Columns</th>
+                <th>
+                  Gutter (recommended) <sup>1</sup>
+                </th>
+                <th>
+                  Margin (min)<sup>2</sup>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <Code>xsmall</Code>
+                </td>
+                <td>4</td>
+                <td>16 / small</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>small</Code>
+                </td>
+                <td>4</td>
+                <td>16 / small</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>medium</Code>
+                </td>
+                <td>4</td>
+                <td>24 / medium</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>large</Code>
+                </td>
+                <td>8</td>
+                <td>16 / small</td>
+                <td>56</td>
+              </tr>
+              <tr>
+                <td>
+                  <Code>x-large</Code>
+                </td>
+                <td>8</td>
+                <td>24 / medium</td>
+                <td>56</td>
+              </tr>
+            </tbody>
+          </DxcTable>
+          <DxcList type="number">
+            <DxcText>
+              Any value provided by the <Code>gutter</Code> prop in the layout
+              components can be used (ideally multiples of 8) although we
+              recommend to stick to the values provided.{" "}
+            </DxcText>
+            <DxcText>
+              The margin value provided are the minimun recommended, any value
+              from our{" "}
+              <DxcLink
+                href="/principles/spacing/#core-spacing-tokens"
+                text="spacing scale"
+              />{" "}
+              can be used or even an <Code>auto</Code> value.
+            </DxcText>
+          </DxcList>
         </DxcStack>
         <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/principles/layout/LayoutPage.tsx" />
       </DxcStack>
