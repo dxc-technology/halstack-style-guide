@@ -26,6 +26,7 @@ const principlesLinks: LinkDetails[] = [
 const componentsLinks: LinkDetails[] = [
   { label: "Accordion", path: "/components/accordion" },
   { label: "Alert", path: "/components/alert" },
+  { label: "Application layout", path: "/components/application-layout" },
   { label: "Box", path: "/components/box" },
   { label: "Button", path: "/components/button" },
   { label: "Card", path: "/components/card" },

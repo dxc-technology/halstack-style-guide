@@ -17,7 +17,7 @@ When using the application layout component consider the following:
 
 Overlay and push interactions by the sidenav component can alter the way the layout is displayed. For overlay, the sidenav simply slides over the content with no changes to position. The push interaction moves the main container to the side depending on the width of the sidenav. 
 
-![layout sidenav interaction](images/sidenav_variants.png)
+![layout sidenav interaction](images/sidenav_behavior.png)
 
 _Overlay and push sidenav layout interactions_
 
@@ -25,7 +25,7 @@ _Overlay and push sidenav layout interactions_
 
 The default behavior for mobile device is overlay since the available space doesn't allow to push the main content.
 
-![Comparison of the sidenav behavior between deskton and mobile](images/application_layout_navigation-web.png)
+![Comparison of the sidenav behavior between deskton and mobile](images/application_layout_behavior_mobile.png)
 
 _Desktop (push) vs mobile behavior (overlay)_
 
