@@ -5,6 +5,8 @@ import accordionPlacement from "./images/accordion_placement.png";
 import accordionAlignment from "./images/accordion_alignment.png";
 import accordionBehavior from "./images/accordion_behavior.png";
 import accordionTriggers from "./images/accordion_triggers.png";
+import accordionContent from "./images/accordion_content.png";
+import accordionHelperText from "./images/accordion_helper_text.png";
 import Figure from "@/common/Figure";
 import Image from "@/common/Image";
 
@@ -123,6 +125,55 @@ const AccordionUsagePage = () => {
             button to trigger the expand/collapse action.
           </em>
         </DxcText>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Content</HeadingLink>
+        <DxcText as="p">
+          The accordion component can contain other components, images, tables,
+          and every custom feature that can be supported inside the element
+          container.
+        </DxcText>
+        <Image src={accordionContent} alt="Nesting and icon usage examples" />
+        <DxcText as="p">
+          <em>
+            <strong>Left</strong>. Nesting is allowed. Use in parent accordion
+            Open Sans Semibold.
+          </em>
+        </DxcText>
+        <DxcText as="p">
+          <em>
+            <strong>Right</strong>. Icons can be used as a complement to the
+            header label.
+          </em>
+        </DxcText>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Helper text</HeadingLink>
+        <DxcText as="p">
+          Helper text can be shown at the end of the accordion header when
+          needed.
+        </DxcText>
+        <DxcList>
+          <DxcText>Icons and images can not be used.</DxcText>
+          <DxcText>
+            Only add a helper text when there is plenty space in the accordion
+            header, in mobile devices is not displayed.
+          </DxcText>
+          <DxcText>
+            Try always to use a descriptive header so is no necessity to add
+            extra information.
+          </DxcText>
+          <DxcText>
+            Helper text content will be truncated 48px before reaching the
+            accordion title. Title display has priority when space is limited.
+          </DxcText>
+        </DxcList>
+        <Figure caption="Accordion helper text example">
+          <Image
+            src={accordionHelperText}
+            alt="Accordion helper text example"
+          />
+        </Figure>
       </DxcStack>
       <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/accordion/usage/AccordionUsagePage.tsx" />
     </DxcStack>

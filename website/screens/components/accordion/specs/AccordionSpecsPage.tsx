@@ -9,10 +9,6 @@ import HeadingLink from "../../../common/HeadingLink";
 import Code from "../../../common/Code";
 import accordionStates from "./images/accordion_states.png";
 import accordionAnatomy from "./images/accordion_anatomy.png";
-import accordionGroup from "./images/accordion_group.png";
-import accordionMultiExpand from "./images/accordion_multi_expand.png";
-import accordionContent from "./images/accordion_content.png";
-import accordionHelperText from "./images/accordion_helper_text.png";
 import accordionSpecs from "./images/accordion_specs.png";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
@@ -50,77 +46,6 @@ const AccordionSpecsPage = () => {
           <DxcText>Caret icon (Expand/collapse)</DxcText>
           <DxcText>Expanded panel</DxcText>
         </DxcList>
-        <HeadingLink level={5}>Accordion group</HeadingLink>
-        <DxcText as="p">
-          Accordion headers are stacked vertically and different hierarchy
-          levels are allowed.
-        </DxcText>
-        <Figure
-          caption="The expandable section of an accordion group can contain different
-          types of plain information or clickable components."
-        >
-          <Image src={accordionGroup} alt="image" />
-        </Figure>
-        <Figure
-          caption="When one accordion panel is expanded, the rest of the group should be
-          collapsed."
-        >
-          <Image src={accordionMultiExpand} alt="image" />
-        </Figure>
-        <HeadingLink level={5}>Mobile</HeadingLink>
-        <DxcText as="p">
-          In small devices, extremely long pages are detrimental to the user
-          experience. Collapsing information minimizes excessive scrolling and
-          gives an overview of the structure and content available on the page.
-        </DxcText>
-        <DxcList>
-          <DxcText>In mobile use 100% of the available screen width.</DxcText>
-        </DxcList>
-        <HeadingLink level={4}>Content</HeadingLink>
-        <DxcText as="p">
-          The accordion component can contain other components, images, tables,
-          and every custom feature that can be supported inside the element
-          container.
-        </DxcText>
-        <Image src={accordionContent} alt="Nesting and icon usage examples" />
-        <DxcText as="p">
-          <em>
-            <strong>Left</strong>. Nesting is allowed. Use in parent accordion
-            Open Sans Semibold.
-          </em>
-        </DxcText>
-        <DxcText as="p">
-          <em>
-            <strong>Right</strong>. Icons can be used as a complement to the
-            header label.
-          </em>
-        </DxcText>
-        <HeadingLink level={5}>Helper text</HeadingLink>
-        <DxcText as="p">
-          Helper text can be shown at the end of the accordion header when
-          needed.
-        </DxcText>
-        <DxcList>
-          <DxcText>Icons and images can not be used.</DxcText>
-          <DxcText>
-            Only add a helper text when there is plenty space in the accordion
-            header, in mobile devices is not displayed.
-          </DxcText>
-          <DxcText>
-            Try always to use a descriptive header so is no necessity to add
-            extra information.
-          </DxcText>
-          <DxcText>
-            Helper text content will be truncated 48px before reaching the
-            accordion title. Title display has priority when space is limited.
-          </DxcText>
-        </DxcList>
-        <Figure caption="Accordion helper text example">
-          <Image
-            src={accordionHelperText}
-            alt="Accordion helper text example"
-          />
-        </Figure>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
