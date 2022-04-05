@@ -13,7 +13,6 @@ import {
 import radioGroupBaseStates from "./images/radio_group_base_states.png";
 import radioGroupStates from "./images/radio_group_states.png";
 import radioGroupAnatomy from "./images/radio_group_anatomy.png";
-import radioGroupStacking from "./images/radio_group_stacking.png";
 import radioGroupSpecs from "./images/radio_group_specs.png";
 
 const RadioGroupSpecsPage = () => {
@@ -63,45 +62,6 @@ const RadioGroupSpecsPage = () => {
         >
           <Image src={radioGroupAnatomy} alt="Radio button component anatomy" />
         </Figure>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Stacking</HeadingLink>
-        <Figure caption="Radio button stacking options">
-          <Image src={radioGroupStacking} alt="Radio button stacking options" />
-        </Figure>
-        <DxcTable>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Vertical</td>
-              <td>
-                Short lists of radio buttons should be stacked vertically below
-                a descriptive label to better associate the group. Options that
-                are listed vertically are easier to read
-              </td>
-            </tr>
-            <tr>
-              <td>Horizontal</td>
-              <td>
-                Multiple radio buttons may be displayed horizontally across the
-                page while keeping them aligned within their respective columns.
-                Here, it is needed to have in consideration that the linear
-                radio buttons represent some challenge, because it&#39;s
-                difficult to scan and localize
-              </td>
-            </tr>
-          </tbody>
-        </DxcTable>
-        <DxcText as="p">
-          *In any case, in the specification it is specified the ideal distance
-          between component with label in the same horizontal edge to avoid the
-          problem of pairing and scannability.
-        </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
