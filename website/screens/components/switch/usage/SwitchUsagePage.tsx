@@ -9,6 +9,7 @@ import HeadingLink from "../../../common/HeadingLink";
 import positionImage from "./images/switch_label_position.png";
 import Figure from "../../../common/Figure";
 import DocFooter from "../../../common/DocFooter";
+import stackingImage from "./images/switch_stacking.png";
 
 const SwitchUsagePage = () => {
   return (
@@ -29,6 +30,17 @@ const SwitchUsagePage = () => {
             button.
           </DxcText>
         </DxcList>
+      </DxcStack>
+      <DxcStack gutter="large">
+        <HeadingLink level={3}>Stacking</HeadingLink>
+        <Figure caption="Switch stacking options">
+          <Image src={stackingImage} alt="Switch stacking options" />
+        </Figure>
+        <DxcText as="p">
+          In some application the use of several switches based on the
+          requirements could appear, that why we provide some indications in the
+          case that the user needs to use stacked switches.
+        </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Label position</HeadingLink>

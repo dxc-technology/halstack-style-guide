@@ -9,7 +9,6 @@ import HeadingLink from "../../../common/HeadingLink";
 import specsImage from "./images/switch_specs.png";
 import statesImage from "./images/switch_states.png";
 import anatomyImage from "./images/switch_anatomy.png";
-import stackingImage from "./images/switch_stacking.png";
 import Figure from "../../../common/Figure";
 import Code from "../../../common/Code";
 import DocFooter from "../../../common/DocFooter";
@@ -46,17 +45,6 @@ const SwitchSpecsPage = () => {
           <DxcText>Thumb</DxcText>
           <DxcText>Track</DxcText>
         </DxcList>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Stacking</HeadingLink>
-        <Figure caption="Switch stacking options">
-          <Image src={stackingImage} alt="Switch stacking options" />
-        </Figure>
-        <DxcText as="p">
-          In some application the use of several switches based on the
-          requirements could appear, that why we provide some indications in the
-          case that the user needs to use stacked switches.
-        </DxcText>
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
