@@ -67,7 +67,7 @@ function LinksList({ currentPath, title, links, filter }: LinksListProps) {
           <SidenavSectionTitle>{title}</SidenavSectionTitle>
           {filteredLinks.map(({ label, path }) => (
             <Link key={`${label}-${path}`} href={path} passHref>
-              <SidenavLink selected={currentPath.startsWith(path)}>
+              <SidenavLink selected={currentPath.slice(0, -1) === path}>
                 {label}
               </SidenavLink>
             </Link>
