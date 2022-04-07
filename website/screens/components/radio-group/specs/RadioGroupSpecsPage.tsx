@@ -65,9 +65,6 @@ const RadioGroupSpecsPage = () => {
       </DxcStack>
       <DxcStack gutter="large">
         <HeadingLink level={3}>Design tokens</HeadingLink>
-        <Figure caption="Component design specifications">
-          <Image src={radioGroupSpecs} alt="Component design specifications" />
-        </Figure>
         <HeadingLink level={4}>Color</HeadingLink>
         <DxcTable>
           <thead>
