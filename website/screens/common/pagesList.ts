@@ -47,6 +47,7 @@ const componentsLinks: LinkDetails[] = [
   { label: "Password Input", path: "/components/password-input" },
   { label: "Progress Bar", path: "/components/progress-bar" },
   { label: "Radio", path: "/components/radio" },
+  { label: "Radio Group", path: "/components/radio-group" },
   { label: "Resultset Table", path: "/components/resultset-table" },
   { label: "Select", path: "/components/select" },
   { label: "Sidenav", path: "/components/sidenav" },
