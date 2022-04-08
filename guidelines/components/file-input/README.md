@@ -110,7 +110,7 @@ _File input design specifications_
 | :---------------------------- | :-------------------------- | :-------------------------- | :------------ |
 | `dropBorderColor`             | Drag and drop area          | `color-black`               |   #000000     |
 | `fileItemBorderColor`         | File item                   | `color-grey-300`            |   #cccccc     |
-| `fileItemIconColor`           | File item                   | `color-black`               |   #000000     |
+| `deleteFileItemColor`         | File item                   | `color-black`               |   #000000     |
 | `fileNameFontColor`           | File name                   | `color-black`               |   #000000     |
 | `filePreviewBackgroundColor`  | File preview                | `color-color-grey-100`      |   #f2f2f2     |
 | `filePreviewIconColor`        | File preview icon           | `color-black`               |   #000000     |
@@ -123,19 +123,21 @@ _File input design specifications_
 
 | Component token                         | Element                     | Core token                  | Value         |
 | :-------------------------------------- | :-------------------------- | :-------------------------- | :------------ |
-| `disabledLabelFontColor`                | Label:disabled              | `color-grey-500`            |   #999999     |
-| `disabledHelperTextFontColor`           | Helper text:disabled        | `color-grey-500`            |   #999999     |
-| `disabledDropLabelFontColor`            | Drop label:disabled         | `color-grey-500`            |   #999999     |
-| `focusDropBorderColor`                  | Dnd border:focus            | `color-blue-600`            |   #0095ff     |
-| `disabledDropBorderColor`               | Dnd border:disabled         | `color-grey-500`            |   #999999     |
-| `dragoverDropBackgroundColor`           | Dnd fill:dragover           | `color-blue-50`             |   #f5fbff     |
-| `hoverFileItemIconBackgroundColor`      | File item icon:hover        | `color-grey-100`            |   #f2f2f2     |
-| `focusFileItemIconBackgroundColor`      | File item icon:focus        | `color-blue-600`            |   #0095ff     |
-| `activeFileItemIconBackgroundColor`     | File item icon:active       | `color-grey-300`            |   #cccccc     |
-| `errorFileItemBorderColor`              | File item container:error   | `color-red-700`             |   #d0011b     |
-| `errorFileItemBackgroundColor`          | File item container:error   | `color-red-50`              |   #fff5f6     |
-| `errorFilePreviewBackgroundColor`       | File item preview:error     | `color-red-200`             |   #ffccd3     |
-| `errorMessageFontColor`                 | File item:error             | `color-red-700`             |   #d0011b     |
+| `disabledLabelFontColor`                  | Label:disabled              | `color-grey-500`            |   #999999     |
+| `disabledHelperTextFontColor`             | Helper text:disabled        | `color-grey-500`            |   #999999     |
+| `disabledDropLabelFontColor`              | Drop label:disabled         | `color-grey-500`            |   #999999     |
+| `focusDropBorderColor`                    | Dnd border:focus            | `color-blue-600`            |   #0095ff     |
+| `disabledDropBorderColor`                 | Dnd border:disabled         | `color-grey-500`            |   #999999     |
+| `dragoverDropBackgroundColor`             | Dnd fill:dragover           | `color-blue-50`             |   #f5fbff     |
+| `hoverDeleteFileItemBackgroundColor`      | File item icon:hover        | `color-grey-a-100`          | #0000000d     |
+| `focusDeleteFileItemBackgroundColor`      | File item icon:focus        | `color-blue-600`            |   #0095ff     |
+| `activeDeleteFileItemBackgroundColor`     | File item icon:active       | `color-grey-a-300`          | #00000033     |
+| `errorFileItemBorderColor`                | File item container:error   | `color-red-700`             |   #d0011b     |
+| `errorFileItemBackgroundColor`            | File item container:error   | `color-red-50`              |   #fff5f6     |
+| `errorFilePreviewBackgroundColor`         | File item preview:error     | `color-red-200`             |   #ffccd3     |
+| `errorMessageFontColor`                   | File item:error             | `color-red-700`             |   #d0011b     |
+
+
 
 
 ### Typography

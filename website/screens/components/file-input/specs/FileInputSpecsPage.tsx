@@ -144,7 +144,7 @@ const FileInputSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <Code>fileItemIconColor</Code>
+                <Code>deleteFileItemColor</Code>
               </td>
               <td>File item</td>
               <td>
@@ -287,17 +287,17 @@ const FileInputSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <Code>hoverFileItemIconBackgroundColor</Code>
+                <Code>hoverDeleteFileItemBackgroundColor</Code>
               </td>
               <td>File item icon:hover</td>
               <td>
-                <Code>color-grey-100</Code>
+                <Code>color-grey-a-100</Code>
               </td>
-              <td>#f2f2f2</td>
+              <td>#0000000d</td>
             </tr>
             <tr>
               <td>
-                <Code>focusFileItemIconBackgroundColor</Code>
+                <Code>focusDeleteFileItemBackgroundColor</Code>
               </td>
               <td>File item icon:focus</td>
               <td>
@@ -307,13 +307,13 @@ const FileInputSpecsPage = () => {
             </tr>
             <tr>
               <td>
-                <Code>activeFileItemIconBackgroundColor</Code>
+                <Code>activeDeleteFileItemBackgroundColor</Code>
               </td>
               <td>File item icon:active</td>
               <td>
-                <Code>color-grey-300</Code>
+                <Code>color-grey-a-300</Code>
               </td>
-              <td>#cccccc</td>
+              <td>#00000033</td>
             </tr>
             <tr>
               <td>
