@@ -6,15 +6,10 @@ import {
 } from "@dxc-technology/halstack-react";
 import HeadingLink from "../../../common/HeadingLink";
 import DocFooter from "../../../common/DocFooter";
-import Example from "@/common/example/Example";
-import Code from "@/common/Code";
 import variants from "./examples/variantsSelect";
 import requiredOptional from "./examples/requiredOptionalSelect";
 import filterable from "./examples/filterableSelect";
-import groups from "./examples/groupedSelect";
-import icons from "./examples/iconsSelect";
-import controlled from "./examples/controlledSelect";
-import uncontrolled from "./examples/uncontrolledSelect";
+import Example from "@/common/example/Example";
 
 const SelectUsagePage = () => {
   return (
@@ -116,35 +111,7 @@ const SelectUsagePage = () => {
           </DxcText>
         </DxcList>
       </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Groups</HeadingLink>
-        <Example example={groups}>
-          The <Code>options</Code> prop allows you to group the options by
-          slightly varying the structure of its object.
-        </Example>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Icons</HeadingLink>
-        <Example example={icons}>
-          You can add icons to the options of the listbox either using a URL or
-          an inline SVG.
-        </Example>
-      </DxcStack>
-      <DxcStack gutter="large">
-        <HeadingLink level={3}>Controlled and uncontrolled</HeadingLink>
-        <Example example={controlled}>
-          In a controlled component, the inner state of the Select component
-          should be managed using React stateful variables.
-        </Example>
-        <Example example={uncontrolled}>
-          When the component is uncontrolled, the state of the component is
-          managed internally by the select. Also, since the component controls
-          the state, in order to set a predefined value you can use the prop{" "}
-          <Code>defaultValue</Code> Here is an example of how to use an
-          uncontrolled select the submit event:
-        </Example>
-      </DxcStack>
-      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/select/usage/SelectUsagePage.tsx" />
+      <DocFooter githubLink="https://github.com/dxc-technology/halstack-style-guide/blob/master/website/screens/components/select-copy/usage/SelectCopyUsagePage.tsx" />
     </DxcStack>
   );
 };
