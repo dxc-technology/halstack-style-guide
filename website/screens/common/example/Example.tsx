@@ -1,9 +1,9 @@
+// @ts-nocheck
 import React, { useState, useRef, useEffect } from "react";
 import styled from "styled-components";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import theme from "./liveEditorTheme";
 import { DxcButton } from "@dxc-technology/halstack-react";
-import { type } from "os";
 
 type Example = {
   scope?: object;
